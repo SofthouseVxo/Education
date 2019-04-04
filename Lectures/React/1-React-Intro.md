@@ -15,14 +15,12 @@
 
 ### [Documentation](https://reactjs.org/)
 
-<br />
-
 ### [Github](https://github.com/facebook/react)
 
 <br />
 <br />
 
-## [Link to Reacts JavaScript level assumption](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
+### [Link to Reacts JavaScript level assumption](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
 
 <br />
 <br />
