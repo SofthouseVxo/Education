@@ -8,6 +8,7 @@ React version 16.8.0
 * 100% backwards-compatible. Hooks don’t contain any breaking changes.
 * Available with the release of v16.8.0. (1 month ago)
 
+## Hooks
 * Hooks let you use state and other React features without writing a class.
 * Hooks don’t work inside classes — they let you use React without classes.
 * [React Motivation](https://reactjs.org/docs/hooks-intro.html#motivation)
@@ -15,6 +16,7 @@ React version 16.8.0
 <br/>
 <br/>
 
+## useState
 ```
 import React, { useState } from 'react';
 
@@ -44,6 +46,7 @@ function Example() {
 * It serves the same purpose as componentDidMount, componentDidUpdate, and componentWillUnmount in React classes,
 * The function passed to useEffect will run after the render is committed to the screen.
 
+## useEffect
 ```
 export default function MyComponent(props) {
  const [count, setCount] = useState(0);
