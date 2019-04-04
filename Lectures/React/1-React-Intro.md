@@ -1,26 +1,33 @@
 # React Intro
 
-## ReactJS
+<br />
+<br />
+
+### ReactJS
+
+<br />
+<br />
 
 ### A JavaScript library for building user interfaces.
 
+<br />
+<br />
 
+### [Documentation](https://reactjs.org/)
 
+<br />
 
+### [Github](https://github.com/facebook/react)
 
-## [Documentation](https://reactjs.org/)
-## [Github](https://reactjs.org/)
-
-
-
+<br />
+<br />
 
 ## [Link to Reacts JavaScript level assumption](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
 
+<br />
+<br />
 
-
-
-
-##React is Developed and maintained by Facebook (initial release 2013)
+## React is Developed and maintained by Facebook (initial release 2013)
 
 * Apps built using React or React Native
   * Facebook
