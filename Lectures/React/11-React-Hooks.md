@@ -49,6 +49,9 @@ function Example() {
 * It serves the same purpose as componentDidMount, componentDidUpdate, and componentWillUnmount in React classes,
 * The function passed to useEffect will run after the render is committed to the screen.
 
+<br/>
+<br/>
+
 ## useEffect
 ```JavaScript
 export default function MyComponent(props) {
@@ -56,7 +59,6 @@ export default function MyComponent(props) {
 
  // Similar to componentDidMount and componentDidUpdate:
  useEffect(() => {
-   // Update the document title using the browser API
    console.log('user Effect runs');
  });
 
