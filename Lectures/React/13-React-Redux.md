@@ -5,6 +5,9 @@
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
 
 ## Purpose of this lecture
 * Redux is simple but not easy
@@ -18,11 +21,17 @@
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
 
 ## Global state and local state
 * Global state - Logged user, showPopup
 * Local state - showButton, user
 
+<br/>
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>
@@ -44,6 +53,9 @@
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
 
 ## Flux
 
@@ -51,6 +63,9 @@ Flux is the application architecture that Facebook uses for building client-side
 
 ![Alt text](./media/13/flux.png?raw=true)
 
+<br/>
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>
@@ -65,9 +80,15 @@ Flux is the application architecture that Facebook uses for building client-side
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
 
 "If a model can update another model, then a view can update a model, which updates another model, and this, in turn, might cause another view to update. At some point, you no longer understand what happens in your app as you have lost control over the when, why, and how of its state. When a system is opaque and non-deterministic, it's hard to reproduce bugs or add new features." [redux.js](https://redux.js.org/introduction/motivation)
 
+<br/>
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>
@@ -81,6 +102,9 @@ Flux is the application architecture that Facebook uses for building client-side
 * ```JavaScript npm install --save redux // non react project```
 * ```JavaScript npm install --save redux react-redux // inside react project```
 
+<br/>
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>
@@ -104,11 +128,17 @@ const store = createStore(
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
 
 **Actions** are payloads of information that send data from your application to your store.
 **Reducers** specify how the application's state changes in response to actions sent to the store.
 The **Store** is where the state is stored
 
+<br/>
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>
@@ -124,11 +154,17 @@ The **Store** is where the state is stored
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
 
 ## State machine
 
 ![Alt text](./media/13/StateMachine.png?raw=true)
 
+<br/>
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>
@@ -147,6 +183,9 @@ Reducers are just pure functions that take the previous state and an action, and
 
 * We do **not** mutate state, we create new states and this is done **synchronous**
 
+<br/>
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>
