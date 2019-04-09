@@ -202,7 +202,7 @@ export default function MyComponent(props) {
 <br/>
 <br/>
 
-## Examples
+# Examples
 
 <br/>
 <br/>
