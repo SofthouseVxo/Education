@@ -1,4 +1,4 @@
-#Hooks basic
+# Hooks basic
 React version 16.8.0
 
 <br/>
@@ -7,6 +7,9 @@ React version 16.8.0
 * Completely opt-in. You can try Hooks in a few components without rewriting any existing code. But you don’t have to learn or use Hooks right now if you don’t want to.
 * 100% backwards-compatible. Hooks don’t contain any breaking changes.
 * Available with the release of v16.8.0. (1 month ago)
+
+<br/>
+<br/>
 
 ## Hooks
 * Hooks let you use state and other React features without writing a class.
@@ -17,7 +20,7 @@ React version 16.8.0
 <br/>
 
 ## useState
-```
+```JavaScript
 import React, { useState } from 'react';
 
 function Example() {
@@ -46,14 +49,16 @@ function Example() {
 * It serves the same purpose as componentDidMount, componentDidUpdate, and componentWillUnmount in React classes,
 * The function passed to useEffect will run after the render is committed to the screen.
 
+<br/>
+<br/>
+
 ## useEffect
-```
+```JavaScript
 export default function MyComponent(props) {
  const [count, setCount] = useState(0);
 
  // Similar to componentDidMount and componentDidUpdate:
  useEffect(() => {
-   // Update the document title using the browser API
    console.log('user Effect runs');
  });
 
