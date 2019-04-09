@@ -31,3 +31,30 @@
 Flux is the application architecture that Facebook uses for building client-side web applications.
 
 ![Alt text](./media/13/flux.png?raw=true "Title")
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+## Redux
+### a predictable state container for JavaScript apps.
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+"If a model can update another model, then a view can update a model, which updates another model, and this, in turn, might cause another view to update. At some point, you no longer understand what happens in your app as you have lost control over the when, why, and how of its state. When a system is opaque and non-deterministic, it's hard to reproduce bugs or add new features." [redux.js](https://redux.js.org/introduction/motivation)
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+### Redux
+* Is standalone
+* Works well with react
+* Follows flux principles
+* ```javascript npm install --save redux // non react project```
+* ```javascript npm install --save redux react-redux // inside react project```
