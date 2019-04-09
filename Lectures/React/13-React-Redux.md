@@ -2,6 +2,8 @@
 
 <br/>
 <br/>
+<br/>
+<br/>
 
 * Completely opt-in. You can try Hooks in a few components without rewriting any existing code. But you don’t have to learn or use Hooks right now if you don’t want to.
 * 100% backwards-compatible. Hooks don’t contain any breaking changes.
@@ -9,16 +11,17 @@
 
 <br/>
 <br/>
-
+<br/>
+<br/>
 
 ## Global state and local state
 * Global state - Logged user, showPopup
 * Local state - showButton, user
 
-
 <br/>
 <br/>
-
+<br/>
+<br/>
 
 ## Purpose of this lecture
 * Redux is simple but not easy
@@ -27,8 +30,10 @@
 * Give basic understanding how you can handle global state
 * Give basic understanding so you can learn on your own.
 
-
-
+<br/>
+<br/>
+<br/>
+<br/>
 
 ## Flux
 
