@@ -1,4 +1,4 @@
-# Hooks basic
+# React Hooks basics
 React version 16.8.0
 
 <br/>
