@@ -10,11 +10,7 @@
 <br/>
 
 ## Purpose of this lecture
-* Redux is simple but not easy
-* 1 day if often not enough
-* Introduce redux
-* Give basic understanding how you can handle global state
-* Give basic understanding so you can learn on your own.
+The purpose of thie lecture is to give an introduction to redux and handling global state. Redux is simple but not easy, and it will take more than a day to grasp the concept and be ready to work with redux.
 
 <br/>
 <br/>
@@ -26,8 +22,8 @@
 <br/>
 
 ## Global state and local state
-* Global state - Logged user, showPopup
-* Local state - showButton, user
+* Global state - State in the whole app - logged user, showPopup
+* Local state - State inside a component - showButton, user
 
 <br/>
 <br/>
