@@ -19,7 +19,7 @@ class Hooks extends Component {
         { this.state.visible &&
         <Fragment>
           <FunctionState someProps={this.state.visible}/>
-          <ClassState someProps={this.state.visible}/>
+          {/* <ClassState someProps={this.state.visible}/> */}
         </Fragment> }
 
         <button onClick={()=>{this.setState({visible: !this.state.visible})}}>Toggle</button>

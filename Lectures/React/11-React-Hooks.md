@@ -167,7 +167,7 @@ export default function MyComponent(props) {
    console.log('user Effect runs');
    // adding a return which works like componentWillUnmount
    return () => console.log('unmounting...');
- });
+ },[]);
 
  return (
    <div>

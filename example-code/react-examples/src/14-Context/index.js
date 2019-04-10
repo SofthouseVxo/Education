@@ -10,7 +10,7 @@ class UsingContext extends Component {
     return (
       <Fragment>
         {/* Without using context */}
-        <ParentComponent theme="light"/>
+        {/* <ParentComponent theme="light"/> */}
 
         {/*
           Now we're using the context we created on above the class
@@ -24,7 +24,9 @@ class UsingContext extends Component {
           In TestComponent we can access the context, however its value will
           stay light since we in the ThemeContextProvider above only changed it to dark
         */}
-        <TestComponent/>
+         <ThemeContext.Provider value='flashy'>
+          <TestComponent/>
+        </ThemeContext.Provider>
       </Fragment>
     );
   }

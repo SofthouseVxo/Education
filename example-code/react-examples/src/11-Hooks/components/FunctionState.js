@@ -16,14 +16,16 @@ export default function FunctionState(props) {
   useEffect(() => {
     // Update the document title using the browser API
     console.log('user Effect runs');
-
-    // similar to componentWillUnmount
-    return () => console.log('unmounting...');
   });
+
+  useEffect(() => {
+    return () => {
+      console.log("cleaned up");
+    };
+  }, []);
 
   return (
     <div>
-      <p>{props.name}</p>
       <p>You clicked {count} times</p>
       <button onClick={() => setCount(count + 1)}>
         Click me

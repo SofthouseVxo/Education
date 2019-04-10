@@ -7,15 +7,14 @@ class ChildOfChildComponent extends Component {
   static contextType = ThemeContext;
 
   render() {
-    console.log(this.context)
     return (
       <div>
         <p>Child Of ChildComponent</p>
         {/* Using whats sent in from props */}
-        {this.props.theme}
+        {/* {this.props.theme} */}
 
         {/* Using whats in context */}
-        {/* {this.context} */}
+        {this.context}
       </div>
     );
   }

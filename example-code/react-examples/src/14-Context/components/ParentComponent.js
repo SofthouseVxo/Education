@@ -7,14 +7,14 @@ class ParentComponent extends Component {
       <div>
         <p>ParentComponent</p>
         {/* Passing down theme props */}
-        <ChildComponent theme={this.props.theme}/>
+        {/* <ChildComponent theme={this.props.theme}/> */}
 
         {/* Passing down all props */}
         {/* <ChildComponent {...this.props}/> */}
 
 
         {/* Not passing props using context instead */}
-        {/* <ChildComponent/> */}
+        <ChildComponent/>
       </div>
     );
   }
