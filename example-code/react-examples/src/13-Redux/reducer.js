@@ -14,6 +14,7 @@ const initialState = {
 *   returns a new state depending on the action type and payload
 */
 const root = (state = initialState, action) => {
+  console.log(state, action);
   switch (action.type) {
     case 'TOGGLE_DIALOG':
       return {

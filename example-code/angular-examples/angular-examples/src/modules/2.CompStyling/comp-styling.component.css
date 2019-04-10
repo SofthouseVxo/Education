@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+/* app-root {
+    font-size: 6em;
+} */
+/* :host {
+    font-size: 6em;
+    color: #ff00ff
+} */
+
+/* ::ng-deep .my-list{
+    color: #ff0000;
+} */

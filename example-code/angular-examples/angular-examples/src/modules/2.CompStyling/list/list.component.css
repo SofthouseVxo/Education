@@ -1,0 +1,15 @@
+.my-list{
+    width: 300px;
+}
+
+:host{
+    color: #00ff00;
+}
+
+.specialRed {
+    color: red;
+}
+
+.dark {
+    background-color: red;
+}

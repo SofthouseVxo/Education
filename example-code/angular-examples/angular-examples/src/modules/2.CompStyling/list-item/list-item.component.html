@@ -1,0 +1,10 @@
+<li class="list-group-item list-item-style" [style.color]="myColor">{{item1}}</li>
+<li class="list-group-item" [class.special]="isSpecial">{{item2}}</li>
+<li class="list-group-item" [style.color]="isSpecial ? 'red' : 'green'">{{item2}}</li>
+
+
+<li class="list-group-item" [ngClass]="{'selected': true}">{{item2}}</li>
+<li class="list-group-item" [ngStyle]="{'color': 'pink', 'font-size': '32px'}">{{item2}}</li>
+
+
+<li class="list-group-item">from host</li>

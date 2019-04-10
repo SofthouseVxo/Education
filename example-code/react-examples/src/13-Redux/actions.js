@@ -15,7 +15,7 @@ export const setUser = (user) => ({
 */
 // export const setUser = function(user){
 //   return {
-//     type: 'TOGGLE_DIALOG',
+//     type: 'SET_USER',
 //     payload: user
 //   }
 // }

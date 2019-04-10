@@ -7,9 +7,9 @@ import React, { Component } from 'react';
 // import ReactRouting from './10-ReactRouting';
 // import Hooks from './11-Hooks';
 // import HOCSAndProptypes from './12-HOCS&PropTypes';
-import UsingContext from './14-Context';
+// import UsingContext from './14-Context';
 // import AdvancedCompositing from './16-AdvancedComposition';
-// import Reduxer from './13-Redux';
+import Reduxer from './13-Redux';
 
 
 import './App.css';
@@ -40,12 +40,12 @@ class App extends Component {
         {/* <ReactRouting/> */}
         {/* <Hooks/> */}
         {/* <HOCSAndProptypes/> */}
-        <UsingContext/>
+        {/* <UsingContext/> */}
         {/* <AdvancedCompositing/> */}
 
 
         {/* Make sure to fix setup in index.js before using redux */}
-        {/* <Reduxer/> */}
+        <Reduxer/>
       </div>
     );
   }

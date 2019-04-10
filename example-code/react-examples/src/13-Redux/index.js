@@ -16,12 +16,12 @@ class Reduxer extends Component {
           <Link to="/">Screen1</Link><br />
           <Link to="/screen2">Screen2</Link><br />
 
-          <Header/>
-          <Route path="/" exact component={Screen1} />
-          <Route path="/screen1" exact component={Screen1} />
-          <Route path="/screen2" exact component={Screen2} />
+            <Header/>
+            <Route path="/" exact component={Screen1} />
+            <Route path="/screen1" exact component={Screen1} />
+            <Route path="/screen2" exact component={Screen2} />
+            <Footer/>
           </Router>
-        <Footer/>
       </Fragment>
     );
   }
