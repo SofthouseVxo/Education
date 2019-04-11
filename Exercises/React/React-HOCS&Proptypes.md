@@ -18,11 +18,7 @@ I denna övningsuppgift skall ni få träna att använda Higher order components
   name="Jane Doe"
   age={12}
   hobbies={['football', 'painting', 'computer hacking']}
-  address={{
-    street: 'lincoln street 12',
-    city: 'New York'
-    }
-  }
+  address={{street: 'lincoln street 12',city: 'New York'}}
 />
 ```
 
