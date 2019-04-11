@@ -17,6 +17,10 @@ React version 16.8.0
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 * Completely opt-in. You can try Hooks in a few components without rewriting any existing code. But you don’t have to learn or use Hooks right now if you don’t want to.
 * 100% backwards-compatible. Hooks don’t contain any breaking changes.
