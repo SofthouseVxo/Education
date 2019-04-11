@@ -38,8 +38,12 @@ The purpose of thie lecture is to give an introduction to redux and handling glo
 <br/>
 
 ## Global state and local state
-* Global state - State in the whole app - logged user, showPopup
-* Local state - State inside a component - showButton, user
+* Global state
+  * State in the whole app
+  * logged user, showPopup
+* Local state
+  * State inside a component
+  * showButton, user
 
 <br/>
 <br/>
@@ -128,7 +132,7 @@ Flux is the application architecture that Facebook uses for building client-side
 <br/>
 <br/>
 
-"If a model can update another model, then a view can update a model, which updates another model, and this, in turn, might cause another view to update. At some point, you no longer understand what happens in your app as you have lost control over the when, why, and how of its state. When a system is opaque and non-deterministic, it's hard to reproduce bugs or add new features." [redux.js](https://redux.js.org/introduction/motivation)
+"If a model can update another model, then a view can update a model, which updates another model, and this, in turn, might cause another view to update. At some point, you no longer understand what happens in your app as you have lost control over the when, why, and how of its state. When a system is opaque and non-deterministic, it's hard to reproduce bugs or add new features." > - [redux.js](https://redux.js.org/introduction/motivation)
 
 <br/>
 <br/>
@@ -151,8 +155,12 @@ Flux is the application architecture that Facebook uses for building client-side
 * Is standalone
 * Works well with react
 * Follows flux principles
-* ```JavaScript npm install --save redux // non react project```
-* ```JavaScript npm install --save redux react-redux // inside react project```
+```JavaScript
+npm install --save redux // non react project
+```
+```JavaScript
+npm install --save redux react-redux // inside react project
+```
 
 <br/>
 <br/>
