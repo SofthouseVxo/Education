@@ -1,6 +1,6 @@
-## Lectures, example code, exercises etc.
+## Lectures, example code, exercises etc. JavaScript Courses
 
-Angular, JavaScript and React exercises can be found [here](exercises/README.md)
+* Angular, React and Vanilla JavaScript exercises can be found [here](exercises/README.md)
 
 * [Vanilla JavaScript example code](example-code/vanilla-javascript-examples)
 * [React example code](example-code/react-examples)
