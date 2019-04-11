@@ -87,14 +87,16 @@
 <br/>
 <br/>
 
-[react-router](https://reacttraining.com/react-router/web/guides/quick-start) (ReactTraining)
-[redux](https://redux.js.org/) (react-redux) Handling global state
-[Axios](https://github.com/axios/axios)  Promise based HTTP client
-[Redux Form](https://redux-form.com/8.1.0/)  Handling forms with redux
-[React transition group](https://github.com/reactjs/react-transition-group) Handling animations and transitions
-[CSS modules](https://github.com/css-modules/css-modules) Encapsulatied Styling (webpack)
-[styled-components](https://github.com/styled-components/styled-components)  JSS
-[Enzyme](https://github.com/airbnb/enzyme) For additional testing utilities
+## Popular libraries in React projects
+
+* [react-router](https://reacttraining.com/react-router/web/guides/quick-start) (ReactTraining)
+* [redux](https://redux.js.org/) (react-redux) Handling global state
+* [Axios](https://github.com/axios/axios)  Promise based HTTP client
+* [Redux Form](https://redux-form.com/8.1.0/)  Handling forms with redux
+* [React transition group](https://github.com/reactjs/react-transition-group) Handling animations and transitions
+* [CSS modules](https://github.com/css-modules/css-modules) Encapsulatied Styling (webpack)
+* [styled-components](https://github.com/styled-components/styled-components)  JSS
+* [Enzyme](https://github.com/airbnb/enzyme) For additional testing utilities
 
 <br/>
 <br/>
@@ -113,10 +115,9 @@
 <br/>
 <br/>
 
-<
-* Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
-* Build encapsulated components that manage their own state, then compose them to make complex UIs.
-* Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM. - [React-Documentation](https://reactjs.org/)
+> * Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
+> * Build encapsulated components that manage their own state, then compose them to make complex UIs.
+> * Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM. - [React-Documentation](https://reactjs.org/)
 
 <br/>
 <br/>
@@ -215,7 +216,9 @@
 * React uses a concept called Virtual DOM.
 * This Virtual DOM is **NOT** the same as the ordinary DOM.
 * For every DOM object, there is a corresponding “virtual DOM object, and this virtual DOM object is a representation of a DOM object, like a lightweight copy.
+
 <br/>
+
 * The Virtual DOM selectively renders subtrees of nodes based upon state changes.
 * It does the least amount of DOM manipulation possible in order to keep your components up to date.
 * If there are any changes in the Virtual Dom then React performs a “diffing algorithm”. Which identifies what has changed and accordingly updates the real DOM. This means that it doesn’t update the entire DOM just the nodes that has changed.
@@ -386,11 +389,45 @@ React-scripts includes scripts and configuration used by Create-react-app.
 
 ## Task: Create a new project with create-react-app and investigate it
 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
 ## create-react-app comes with the following scripts
 * ```npm start```
 * ```npm run test```
 * ```npm run build```
 * ```npm run eject```
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 ## React developer tools
 * Is an extension that you can install in your browser
