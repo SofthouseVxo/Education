@@ -13,7 +13,7 @@ I denna övningsuppgift skall ni få träna att använda Higher order components
 1. Skapa en ny komponent som ni döper till ```UserComponent```. Denna skall vara en function component.
 
 1. Ni passar sedan in följande som attribut.
-```
+```JavaScript
 <UserComponent
   name="Jane Doe"
   age={12}
