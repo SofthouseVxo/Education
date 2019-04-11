@@ -46,9 +46,9 @@
 
 * If it feels impossible, because it will at some point.
 * Will you:
- * Get angry? Blaming the code, shitty 3rd party libs, colleagues, boss?
- * Drop dead? Procrastinate and being passive and waiting for other to do it?
- * Grind it out, 24h hours sweating, eating crisps, not showering, listening to hardstyle until you think in 150bpm. Just to find out you could have done it in 2h the next day.
+  * Get angry? Blaming the code, shitty 3rd party libs, colleagues, boss?
+  * Drop dead? Procrastinate and being passive and waiting for other to do it?
+  * Grind it out, 24h hours sweating, eating crisps, not showering, listening to hardstyle until you think in 150bpm. Just to find out you could have done it in 2h the next day.
 
 <br/>
 <br/>
@@ -233,8 +233,8 @@
 
 ## CompWhat? Bigger tasks
 * An interface needs to be created for the user to interact with
-	* Popup modal
-	* Input -  Validation
+  * Popup modal
+  * Input -  Validation
   * Submission
 * Frontend & Backend needs to have logic
 * Frontend sends a request - backend receives and sends back answer - Frontend needs to handle response
@@ -259,18 +259,18 @@
 ## What? Smaller tasks
 1. Create login modal interface
 1. Create form
-  1. User inputs
-  1. Submission
-  1. Description
-  1. Error messages
+   - User inputs
+   - Submission
+   - Description
+   - Error messages
 1. Send request
-  1. Handle user input
-  1. Validation
-  1. Send request
+   - Handle user input
+   - Validation
+   - Send request
 1. Receive response
-  1. Control if correct response
-  1. Set state to logged in user
-  1. Navigate
+   - Control if correct response
+   - Set state to logged in user
+   - Navigate
 
 <br/>
 <br/>
@@ -292,17 +292,17 @@
 ## Planning
 
 1. What can I reuse?
-  1. Modal
-  1. Api calls
-  1. Validation
+   - Modal
+   - Api calls
+   - Validation
 1. What can i seperate?
-  1. Modal
-  1. Form
-  1. Validation
+   - Modal
+   - Form
+   - Validation
 1. What tasks is there in each component?
-  1. Login
-  1. Change user
-  1. Navigate
+   - Login
+   - Change user
+   - Navigate
 
 <br/>
 <br/>
