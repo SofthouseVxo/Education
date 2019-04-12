@@ -25,74 +25,125 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-markdown>
-					<script type="text/template">
-						```JavaScript
-						import React, { useState } from 'react';
-
-						function Example() {
-							// Declare a new state variable, which we'll call "count"
-							// setCount is the function to update the state
-							// 0 is the initial value
-							const [count, setCount] = useState(0);
-
-							return (
-								<div>
-									<p>You clicked {count} times</p>
-									<button onClick={() => setCount(count + 1)}>
-										Click me
-									</button>
-								</div>
-							);
-						}
-						```
-					</script>
+				<section>
+					<h2>State & Redux</h2>
 				</section>
 				<section>
-					<h2>Purpose of this lecture</h2>
-					<p>The purpose of thie lecture is to give an introduction to redux and handling global state. Redux is simple but not easy, and it will take more than a day to grasp the concept and be ready to work with redux.</p>
-
-        </section>
+					<h4>Purpose of this lecture</h4>
+					<h6>The purpose of thie lecture is to give an introduction to redux and handling global state. Redux is simple but not easy, and it will take more than a day to grasp the concept and be ready to work with redux.</h6>
+				</section>
 				<section>
-					<h2>Global state and local state</h2>
+					<h4>Global state and local state</h4>
 					<ul>
 						<li>Global state</li>
-							<ul>
-								<li>State in the whole app</li>
-								<li>logged user, showPopup</li>
-							</ul>
-							<li>Local state</li>
+						<ul>
+							<li>State in the whole app</li>
+							<li>logged user, showPopup</li>
+						</ul>
+						<li>Local state</li>
 							<ul>
 								<li>State inside a component</li>
 								<li>showButton, user</li>
 							</ul>
 					</ul>
 				</section>
-
 				<section>
-					<section>
-						<h2>Vertical Slides</h2>
-						<p>Slides can be nested inside of each other.</p>
-						<p>Use the <em>Space</em> key to navigate through all slides.</p>
-						<br>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 1</h2>
-						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
-					</section>
-					<section>
-						<h2>Basement Level 2</h2>
-						<p>That's it, time to go back up.</p>
-						<br>
-						<a href="#/2">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);">
-						</a>
-					</section>
+					<h4>State could be</h4>
+						<li>Server response</li>
+						<li>Cached data</li>
+						<li>Locally created data that has not yet been persisted to the server.</li>
+						<li>Active routes</li>
+						<li>Selected tabs</li>
+						<li>Spinners</li>
+						<li>Pagination controls</li>
+						<li>and so on.</li>
 				</section>
+				<section>
+						<h4>Flux</h4>
+						<p>Flux is the application architecture that Facebook uses for building client-side web applications.</p>
+						<img src="media/13/flux.png" alt="flux">
+				</section>
+<!--
+					<h4>Redux
+					#<h4>Is a predictable state container for JavaScript apps.
 
+
+					<br/>
+
+					>
+					"If a model can update another model, then a view can update a model, which updates another model, and this, in turn, might cause another view to update. At some point, you no longer understand what happens in your app as you have lost control over the when, why, and how of its state. When a system is opaque and non-deterministic, it's hard to reproduce bugs or add new features." - [redux.js](https://redux.js.org/introduction/motivation)
+
+
+					<br/>
+
+					#<h4>Redux
+					<li>Is standalone
+					<li>Works well with react
+					<li>Follows flux principles
+					```JavaScript
+					npm install --save redux // non react project
+					```
+					```JavaScript
+					npm install --save redux react-redux // inside react project
+					```
+
+
+					<br/>
+
+					<h4>Redux devtools
+					[Chrome Download](https://chrome.google.com/webstore/detail/redux-devtools)
+					[Mozilla Download](https://addons.mozilla.org/sv-SE/firefox/addon/reduxdevtools/)
+
+					Needs to be added in your react application
+					```JavaScript
+					const store = createStore(
+					 reducer, /<li>preloadedState, */
+					 window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+					);
+					```
+
+
+					<br/>
+
+					**Actions*<li>are payloads of information that send data from your application to your store.
+					**Reducers*<li>specify how the application's state changes in response to actions sent to the store.
+					The **Store*<li>is where the state is stored
+
+
+					<br/>
+
+					<h4>Redux + React
+
+					![Alt text](./media/13/React+Redux.png?raw=true)
+
+
+					<br/>
+
+					<h4>State machine
+
+					![Alt text](./media/13/StateMachine.png?raw=true)
+
+
+					<br/>
+
+					<h4>Principles
+
+					<li>**Single source of truth*<li>The state of your whole application is stored in an object tree within a single store.
+					A single state tree also makes it easier to debug or inspect an application.
+
+					<li>**State is read-only*<li>The only way to change the state is to emit an action, an object describing what happened.
+
+					<li>**Changes are made with pure functions*<li>To specify how the state tree is transformed by actions, you write pure reducers.
+					Reducers are just pure functions that take the previous state and an action, and return the next state.
+
+					<li>We do **not*<li>mutate state, we create new states and this is done **synchronous**
+
+
+					<br/>
+
+					<h4>Examples
+
+					 -->
 			</div>
 		</div>
 
