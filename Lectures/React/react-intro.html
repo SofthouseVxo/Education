@@ -1,0 +1,226 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>redux</title>
+
+		<link rel="stylesheet" href="../../reveal/css/reset.css">
+		<link rel="stylesheet" href="../../reveal/css/reveal.css">
+		<link rel="stylesheet" href="../../reveal/css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="../../reveal/lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../../revealcss/print/pdf.css' : '../../revealcss/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+        <section>
+          <h2>React intro</h4>
+        </section>
+        <section>
+           <h3>A JavaScript library for building user interfaces.</h4>
+        </section>
+        <section>
+          <ul>
+            <li><a href="https://reactjs.org/">Documentation</a></li>
+            <li><a href="https://github.com/facebook/react">Github</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript">Reacts JavaScript level assumption</a></li>
+          </ul>
+        </section>
+        <section>
+            <h4>React is Developed and maintained by Facebook (initial release 2013)</h4>
+            <ul>
+              <li>Apps built using React or React Native</li>
+              <ul>
+                <li>Facebook</li>
+                <li>Netflix</li>
+                <li>Instagram</li>
+                <li>Dropbox</li>
+                <li>WhatsApp</li>
+                <li>Airbnb (styleguide, react-sketchapp)</li>
+                <li>Wix (wix-style-react)</li>
+              </ul>
+            </ul>
+        </section>
+        <section>
+          <h4>Popular libraries in React projects</h4>
+          <ul>
+              <li><a href="https://reacttraining.com/react-router/web/guides/quick-start">react-router</a> - routing</li>
+              <li><a href="https://redux.js.org/">redux</a> - State management</li>
+              <li><a href="https://github.com/axios/axios">axios</a> - Promise based HTTP client</li>
+              <li><a href="https://redux-form.com/8.1.0/">redux-form</a> - Handling forms with redux</li>
+              <li><a href="https://github.com/reactjs/react-transition-group">react-transition-group</a> - Handling animations and transitions</li>
+              <li><a href="https://github.com/css-modules/css-modules">CSS Modules</a> - Encapsulatied Styling (webpack)</li>
+              <li><a href="https://github.com/styled-components/styled-components">styled-components</a> - JSS</li>
+              <li><a href="https://github.com/airbnb/enzyme">Enzyme</a> - For additional testing utilities</li>
+            </ul>
+        </section>
+        <section>
+          <p>Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
+          Build encapsulated components that manage their own state, then compose them to make complex UIs.
+          Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM. - <a href="https://reactjs.org/">React-Documentation</a></p>
+        </section>
+        <section>
+          <h4>What is state?</h4>
+            <ul>
+              <li>The data that defines the condition of some object or system.</li>
+              <li>Examples of states.</li>
+              <ul>
+                <li>The television is off.</li>
+                <li>The coffee is hot.</li>
+                <li>The clock is 14:15 am.</li>
+              </ul>
+              <li>Difference between a value and a variable</li>
+              <ul>
+                <li>The number 42 does not have a state since you can’t change it.</li>
+                <li>The number is a value</li>
+              </ul>
+            </ul>
+        </section>
+        <section>
+          <h4>Components</h4>
+          <ul>
+            <li>In React, every piece of a UI is a component.</li>
+            <li>Components can be composed together to create other components.</li>
+            <li>The application itself is a component, it's a composition of components.</li>
+            <li>Every component is a Class (or function) that you can instantiate. That means that your component can receive arguments that you can use to customize what’s shown in the application.</li>
+          </ul>
+        </section>
+        <section>
+          <h4>Rendering output</h4>
+          <ul>
+            <li>All React components have some kind of return or render( ) method.</li>
+            <li>A component without a render() or return method is not a React component.</li>
+            <li>The render() method returns a React element, which is its appearance.</li>
+            <li>What it returns or renders is the output, a component must have an output.</li>
+            <li>See this as a function, a component is something that returns an output based on input.</li>
+          </ul>
+        </section>
+        <section>
+          <h4>Virtual DOM</h4>
+          <ul>
+            <li>React uses a concept called Virtual DOM.</li>
+            <li>This Virtual DOM is <b>NOT</b> the same as the ordinary DOM.</li>
+            <li>For every DOM object, there is a corresponding “virtual DOM object, and this virtual DOM object is a representation of a DOM object, like a lightweight copy.</li>
+          </ul>
+        </section>
+        <section>
+          <ul>
+            <li>The Virtual DOM selectively renders subtrees of nodes based upon state changes.</li>
+            <li>It does the least amount of DOM manipulation possible in order to keep your components up to date.</li>
+            <li>If there are any changes in the Virtual Dom then React performs a “diffing algorithm”. Which identifies what has changed and accordingly updates the real DOM. This means that it doesn’t update the entire DOM just the nodes that has changed.</li>
+          </ul>
+        </section>
+        <section>
+          <h4>React compared to Angular</h4>
+          <ul>
+            <li>React is a JavaScript library while Angular is a complete Framework</li>
+            <li>React uses a Virtual DOM while Angular uses the regular DOM</li>
+            <li>React uses JSX while Angular uses plain HTML</li>
+            <li>React has one-way binding while Angular has two-way binding</li>
+            <li>React is more commonly used with JavaScript while Angular with TypeScript</li>
+            <li>React has a lower barrier when learning while Angular has a steep learning curve</li>
+          </ul>
+        </section>
+        <section>
+          <h4>Simplest React example</h4>
+        </section>
+        <section>
+          <h4>create-react-app</h4>
+          <ul>
+            <li>Used to Create React apps with no build configuration.</li>
+            <li>You don’t need to install or configure tolis like Webpack or Babel. They are preconfigured and hidden so that you can focus on the code.</li>
+            <li><a href="https://www.npmjs.com/package/react-scripts">react-scripts</a></li>
+            <li>React-scripts includes scripts and configuration used by Create-react-app.</li>
+            <li><a href="https://facebook.github.io/create-react-app/">create-react-app Documentation</a></li>
+          </ul>
+        </section>
+        <section>
+          <section>
+            <h4>A project created with create-react-app comes with:</h4>
+            <ul>
+              <li>React, JSX, ES6, TypeScript and Flow syntax support.</li>
+              <li>Language extras beyond ES6 like the object spread operator.</li>
+              <li>Autoprefixed CSS, so you don’t need -webkit- or other prefixes.</li>
+              <li>A fast interactive unit test runner with built-in support for coverage reporting.</li>
+            </ul>
+          </section>
+          <section>
+              <h4>A project created with create-react-app comes with..</h4>
+              <ul>
+                <li>A live development server that warns about common mistakes.</li>
+                <li>A build script to bundle JS, CSS, and images for production, with hashes and sourcemaps.</li>
+                <li>An offline-first service worker and a web app manifest, meeting all the Progressive Web App criteria. (Note: Using the service worker is opt-in as of react-scripts@2.0.0 and higher)</li>
+                <li>Hassle-free updates for the above tolis with a single dependency.</li>
+              </ul>
+          </section>
+        </section>
+
+        <section>
+          <h4>A JavaScript build tolichain example</h4>
+          <ul>
+            <li>A package manager (Yarn, Npm)</li>
+            <li>A bundler, (Webpack)</li>
+            <li>A compiler (Babel)</li>
+          </ul>
+        </section>
+        <section>
+          <h4>Creating an project</h4>
+          <ul>
+            <li>npx create-react-app my-app</li>
+
+            <li>npx is an an NPM package runner</li>
+
+            <li>You need to have atleast Node >= 6</li>
+          </ul>
+        </section>
+        <section>
+          <h4>Task: Create a new project with create-react-app and investigate it</h4>
+        </section>
+        <section>
+          <h4>create-react-app scripts</h4>
+          <ul>
+            <li>npm start</li>
+            <li>npm run test</li>
+            <li>npm run build</li>
+            <li>npm run eject</li>
+          </ul>
+        </section>
+        <section>
+          <h4>React developer tools</h4>
+          <ul>
+            <li>Is an extension that you can install in your browser</li>
+            <li><a href="https://chrome.google.com/webstore/detail/react-developer-tolis/fmkadmapgofadopljbjfkapdkoienihi">Chrome</a></li>
+            <li><a href="https://addons.mozilla.org/sv-SE/firefox/addon/react-devtolis/">Mozilla</a></li>
+            <li>In the extension you can investigate the virtual DOM, components state, props etc.</li>
+          </ul>
+        </section>
+			</div>
+		</div>
+
+		<script src="../../reveal/js/reveal.js"></script>
+
+		<script>
+
+			Reveal.initialize({
+				dependencies: [
+					{ src: '../../reveal/plugin/markdown/marked.js' },
+					{ src: '../../reveal/plugin/markdown/markdown.js' },
+					{ src: '../../reveal/plugin/notes/notes.js', async: true },
+					{ src: '../../reveal/plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
