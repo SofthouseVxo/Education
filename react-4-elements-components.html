@@ -1,0 +1,218 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Elements & Components</title>
+
+		<link rel="stylesheet" href="reveal/css/reset.css">
+		<link rel="stylesheet" href="reveal/css/reveal.css">
+		<link rel="stylesheet" href="reveal/css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="reveal/lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'revealcss/print/pdf.css' : 'revealcss/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+        <section>
+          <h2>Elements & Components</h2>
+        </section>
+
+        <section>
+          <h3>React Elements</h3>
+            <ul>
+              <li>Elements in React is not the same as ordinary HTML elements</li>
+              <li>Elements are the smallest building blocks of React apps</li>
+              <li>An element describes what you want to see on the screen</li>
+              <li>React elements a immutable -> You cannot change it after it has been created.</li>
+              <li>It’s like a frame in a movie, it represents the UI at a certain point in time</li>
+            </ul>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Root DOM node
+            ```JavaScript
+            <div id="root"></div> // In your index.html
+
+            // In your you js file
+            // Everything in this root DOM node will be managed by React DOM
+            const element = <h1>Hello, world</h1>;
+            ReactDOM.render(element, document.getElementById('root'));
+            ```
+          </script>
+        </section>
+
+        <section>
+          <h3>Ticker example</h3>
+          <ul>
+            <ol>Inspect ticker application i browser</ol>
+            <ol>Even though we describe the whole UI tree we only update the node that changed in the HTML.</ol>
+            <ol>Every tick the React DOM’s were compared and the UI was updated.</ol>
+          </ul>
+        </section>
+
+        <section>
+          <h3>React & Components</h3>
+            <li>Every piece of a UI is a component.</li>
+            <li>Components can be composed together to create other components.</li>
+            <li>The application itself is a component: a composition of components.</li>
+            <li>Components let you split the UI into independent, reusable pieces.</li>
+        </section>
+
+        <section>
+          <h3>Components</h3>
+            <li>React lets you define components as classes or functions.</li>
+            <li>Components defined as classes currently provide more features</li>
+            <li>Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the screen.</li>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### React Component defined as a function
+
+            ```JavaScript
+            function Welcome(props) {
+              return <h1>Hello</h1>;
+            }
+
+            <Welcome/>  // To create add in JSX
+            ```
+            This function is a valid React component because it accepts a single “props” (which stands for properties) object argument with data and returns a React element. We call such components “function components” because they are literally JavaScript functions.
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### React Component defined as a class
+
+            ```JavaScript
+
+            class Welcome extends React.Component {
+              render() {
+                return <h1>Hello</h1>;
+              }
+            }
+            <Welcome/>  // To create add in JSX
+            ```
+
+            In a Class Component render( ) gets called every time the components state updates
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Everything passed as an attribute lands in props
+
+            ```JavaScript
+            function Welcome(props) {
+              return <h1>Hello, {props.name}</h1>;
+            }
+
+            <Welcome name={‘John Doe’} />
+            ```
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Everything passed as an attribute lands in props
+
+            ```JavaScript
+            class Welcome extends React.Component {
+              render() {
+                return <h1>Hello, {this.props.name}</h1>;
+              }
+            }
+
+            <Welcome name={‘John Doe’} />
+            ```
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Order things happen
+
+            * We call ReactDOM.render() with the <Welcome name="John doe" /> element.
+            * React calls the Welcome component with {name: 'John doe'} as the props.
+            * Our Welcome component returns a <h1>Hello, John doe</h1> element as the result.
+            * React DOM efficiently updates the DOM to match <h1>Hello, John doe</h1>.
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Everything inside closing tag ends up in props.children
+
+            ```JavaScript
+            <MyFirstComponent name={‘john doe’}>
+              <p>Hello</p>
+            <MyFirstComponent/>
+
+
+            function MyFirstComponent(props, children) {
+              return children;
+            }
+            ```
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Composing Components
+
+            Components can refer to other components in their output. This lets us use the same component abstraction for any level of detail. A button, a form, a dialog, a screen: in React apps, all those are commonly expressed as components.
+
+            ```JavaScript
+            <Dialog>
+              <HeaderComponent text="My dialog header text">
+              <ContentComponent text="My dialog content text">
+            </Dialog>
+            ```
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ### Props are read only
+
+          * It must never modify its own props.
+          * All React components must act like pure functions with respect to their props.
+          ```JavaScript
+            function sum(a, b) {return a + b;}
+            function withdraw(account, amount) {account.total -= amount;}
+          ```
+          </script>
+        </section>
+
+
+			</div>
+		</div>
+
+		<script src="reveal/js/reveal.js"></script>
+
+		<script>
+
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'reveal/plugin/markdown/marked.js' },
+					{ src: 'reveal/plugin/markdown/markdown.js' },
+					{ src: 'reveal/plugin/notes/notes.js', async: true },
+					{ src: 'reveal/plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>

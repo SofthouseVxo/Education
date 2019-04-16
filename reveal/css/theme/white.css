@@ -16,7 +16,7 @@ body {
 
 .reveal {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
-  font-size: 42px;
+  font-size: 36px;
   font-weight: normal;
   color: #222; }
 
@@ -29,6 +29,10 @@ body {
   color: #fff;
   background: #98bdef;
   text-shadow: none; }
+
+.reveal .slides {
+  text-align: left;
+}
 
 .reveal .slides section,
 .reveal .slides section > section {
@@ -54,16 +58,16 @@ body {
   word-wrap: break-word; }
 
 .reveal h1 {
-  font-size: 2.5em; }
+  font-size: 3em; }
 
 .reveal h2 {
-  font-size: 1.6em; }
+  font-size: 2em; }
 
 .reveal h3 {
-  font-size: 1.3em; }
+  font-size: 1.6em; }
 
 .reveal h4 {
-  font-size: 1em; }
+  font-size: 1.3em; }
 
 .reveal h1 {
   text-shadow: none; }
@@ -141,7 +145,6 @@ body {
 .reveal pre {
   display: block;
   position: relative;
-  width: 90%;
   margin: 20px auto;
   text-align: left;
   font-size: 0.55em;
