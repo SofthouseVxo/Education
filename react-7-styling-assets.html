@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>React - Styling and Assets</title>
+
+		<link rel="stylesheet" href="reveal/css/reset.css">
+		<link rel="stylesheet" href="reveal/css/reveal.css">
+		<link rel="stylesheet" href="reveal/css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="reveal/lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'revealcss/print/pdf.css' : 'revealcss/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+        <section>
+          <h2>Styling and Assets</h2>
+        </section>
+
+        <section>
+          <h3>Create-react-app uses webpack to bundle the app</h3>
+          <ul>
+            <li>Bundles your:</li>
+              <ul>
+                <li>JS</li>
+                <li>CSS</li>
+                <li>Sass → CSS</li>
+                <li>Images and other assets</li>
+              </ul>
+          </ul>
+        </section>
+
+        <section>
+          <h3>From Dev to Build</h3>
+          <ul>
+            <ol>npm run build</ol>
+            <ol> /src → (webpack bundles it into) → /build</ol>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Image example</h3>
+          <img src="media/react-7/folders.png" alt="in folders">
+        </section>
+
+        <section>
+            <h3>In code</h3>
+            <img src="media/react-7/code.png" alt="in code">
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Using CSS with React and Create-react-app
+            * Inline styling → ```<div style={{color: ‘red’}}/>```
+            * index.css → Global styles, no need to import
+            * component styles → Needs to be imported, No encapsulation.
+            * css modules → encapsulated styles (focus in this course)
+            * styled components → Library for styling react components (CSS in JS)
+            * Other CSS in JS Comparison
+          </script>
+        </section>
+
+        <section>
+          <h3>CSS modules</h3>
+
+          <li>Not a part of react itself - but comes with create-react-app</li>
+          <li>Why use css modules?</li>
+          <ul>
+            <li>No more conflicts.</li>
+            <li>Explicit dependencies.</li>
+            <li>No global scope.</li>
+          </ul>
+          <li><a href="https://github.com/css-modules/css-modules">https://github.com/css-modules/css-modules</a></li>
+        </section>
+
+        <section>
+          <h3>Create-react-app supports css modules</h3>
+          <ul>
+            <ol>Webpack creates encapsulated styles when bundling</ol>
+            <ol>moduleTestClass → ModuleStylingComponent_moduleTestClass__lQCZW </ol>
+            <ol>Have to name the css file with .module → myCSSFile.modules.css</ol>
+            <ol>Import styles from ‘./myCSSFile.module.css</ol>
+          </ul>
+        </section>
+
+        <section>
+          <img src="media/react-7/css.png" alt="in folders">
+        </section>
+
+        <section>
+          <h3>Webpack Config</h3>
+          <ul>
+            <ol>npm run eject inside react project to get access (can’t undo)</ol>
+            <ol>webpack.config.js</ol>
+            <ol>style-loaders → sets how styles are loaded and bundled</ol>
+            <ol>file-loaders → sets how files are loaded and bundled</ol>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Examples</h3>
+        </section>
+			</div>
+		</div>
+
+		<script src="reveal/js/reveal.js"></script>
+
+		<script>
+
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'reveal/plugin/markdown/marked.js' },
+					{ src: 'reveal/plugin/markdown/markdown.js' },
+					{ src: 'reveal/plugin/notes/notes.js', async: true },
+					{ src: 'reveal/plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>

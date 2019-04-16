@@ -1,0 +1,238 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Routing with react-router</title>
+
+		<link rel="stylesheet" href="reveal/css/reset.css">
+		<link rel="stylesheet" href="reveal/css/reveal.css">
+		<link rel="stylesheet" href="reveal/css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="reveal/lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'revealcss/print/pdf.css' : 'revealcss/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+        <section>
+          <h2>React Router</h2>
+          <h4>Handle navigation and link</h4>
+        </section>
+
+        <section>
+          <h3>react-router</h3>
+          <ul>
+            <li>Created by ReactTraining - not Facebook</li>
+            <li>Authors Michael Jackson and Ryan Florence</li>
+            <li>Both Web and Native</li>
+            <li>npm install --save react-router-dom</li>
+            <li><a href="https://reacttraining.com/react-router/">https://reacttraining.com/react-router/</a></li>
+          </ul>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Navigation
+            * React Router is a collection of navigational components that compose declaratively with your application.
+            * Using React Router the developer can manage views (pages) in one single place and at the same time define the routes (urls) in the application.
+            * Instead of using
+            ```HTML
+            <a href=”/”>link</a>
+            ```
+            we switch to
+            ```HTML
+            <Link to=”/”>link</Link>
+            ```
+          </script>
+        </section>
+
+        <section data-markdown>
+            <script type="text/template">
+              ```JavaScript
+                import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
+                function Index() {
+                  return <h2>Home</h2>;
+                }
+
+                function About() {
+                  return <h2>About</h2>;
+                }
+
+                function AppRouter() {
+                  return (
+                    <Router>
+                      <div>
+                    <!-- section of visible links in page -->
+                        <nav>
+                          <Link to="/">Home</Link>
+                          <Link to="/about">About</Link>
+                        </nav>
+                    <!-- Magic of router component, the actual mapper of views (pages) and url -->
+                        <Route path="/" exact component={Index} />
+                        <Route path="/about" component={About} />
+                      </div>
+                    </Router>
+                  );
+                }
+
+                export default AppRouter;
+              ```
+            </script>
+          </section>
+
+          <section data-markdown>
+            <script type="text/template">
+              ### Components
+              ```HTML
+              <BrowserRouter>
+              <Router>
+              keeps your UI in sync with the URL
+
+              <Link>
+              Provides declarative, accessible navigation around your application.
+
+              <NavLink>
+              A special version of the <Link> that will add styling attributes to the rendered element when it matches the current URL.
+
+              <Route>
+              Basic responsibility is to render some UI when a location matches the route’s path.
+
+              <Switch>
+              Renders the first child <Route> or <Redirect> that matches the location.
+              ```
+            </script>
+          </section>
+
+          <section data-markdown>
+            <script type="text/template">
+              ### Router (BrowserRouter)
+
+              A ``` <Router> ``` that uses the HTML5 history API (pushState, replaceState and the popstate event) to keep your UI in sync with the URL.
+
+              Attribute: basename
+              basename sets a new “start url” (base url) for all routed links and navigation.
+              Example below renders ``` <a href="/calendar/today"> ```
+
+              ```HTML
+              <Router basename="/calendar">
+                <Link to="/today"/>
+              </Router>
+              ```
+            </script>
+          </section>
+
+          <section data-markdown>
+            <script type="text/template">
+              ### Link
+
+              Provides declarative, accessible navigation around your application.
+
+              ```HTML
+              import { Link } from 'react-router-dom'
+              <Link to="/about">About</Link>
+
+              // Attribute: to
+              <Link to="/courses?sort=name" />
+
+              // to consists of four properties:
+              <Link to={{
+                  pathname: "/courses",
+                  search: "?sort=name",
+                  hash: "#the-hash",
+                  state: { fromDashboard: true }
+                }}
+              />
+              ```
+            </script>
+          </section>
+
+          <section data-markdown>
+            <script type="text/template">
+              ### NavLink
+
+              A special version of the ``` <Link> ``` that will add styling attributes to the rendered element when it matches the current URL.
+
+              ```JavaScript
+              import { NavLink } from 'react-router-dom'
+
+              <NavLink to="/about">About</NavLink>
+              ````
+
+              Notable attributes:
+              activeClassName=”my-class”
+              activeStyle={{ fontWeight: “bold”, color: “red” }}
+              exact
+            </script>
+          </section>
+
+          <section>
+            <section data-markdown>
+                <script type="text/template">
+                  ### Route
+
+                  * The Route component is perhaps the most important component in React Router to understand and learn to use well. Its most basic responsibility is to render some UI when a location matches the route’s path (location is the url in web browser address field).
+                  * Route is a container for displaying a view component (page). Depending on the attributes set on the <Route>; zero, one or multiple <Route>’s are rendered, depending on current location.
+                </script>
+            </section>
+            <section data-markdown>
+                <script type="text/template">
+                  ```HTML
+                  import { BrowserRouter as Router, Route } from 'react-router-dom';
+
+                  <Router>
+                    <div>
+                      <Route exact path="/" component={Home}/>
+                      <Route path="/news" component={NewsFeed}/>
+                    <Route strict path="/about/" component={About}/>
+                    </div>
+                  </Router>
+                  ```
+                </script>
+            </section>
+          </section>
+
+          <section>
+            <section data-markdown>
+              <script type="text/template">
+                ### Switch
+                * Renders the first child ``` <Route> ``` or ``` <Redirect> ``` that matches the location.
+                * How is this different than just using a bunch of ``` <Route> ```s?
+                * ``` <Switch> ``` is unique in that it renders a route exclusively. In contrast, every ``` <Route> ``` that matches the location renders inclusively.
+              </script>
+            </section>
+            <section>
+                <img src="media/react-10/switch.png" alt="in folders">
+            </section>
+          </section>
+
+
+			</div>
+		</div>
+
+		<script src="reveal/js/reveal.js"></script>
+
+		<script>
+
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'reveal/plugin/markdown/marked.js' },
+					{ src: 'reveal/plugin/markdown/markdown.js' },
+					{ src: 'reveal/plugin/notes/notes.js', async: true },
+					{ src: 'reveal/plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>

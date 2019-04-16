@@ -1,0 +1,330 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>React- Conditional Rendering and rendering lists</title>
+
+		<link rel="stylesheet" href="reveal/css/reset.css">
+		<link rel="stylesheet" href="reveal/css/reveal.css">
+		<link rel="stylesheet" href="reveal/css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="reveal/lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'revealcss/print/pdf.css' : 'revealcss/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+        <section>
+          <h2>Conditional Rendering and rendering lists</h2>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Using If statements
+            ```JavaScript
+            class App extends Component {
+              render(){
+                if(statement === true){
+                  return <div id="1"/>
+                }
+                return <div id="2"/>
+              }
+            }
+            ```
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Using If statements
+            ```JavaScript
+            class App extends Component {
+              renderDiv = (arg) => {
+                 if(arg){
+                   return <div id="1"/>
+                 }
+                 return <div id="2"/>
+               }
+
+               render(){
+                 return this.renderDiv(false);
+               }
+            }
+            ```
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Using If statements and props
+            ```JavaScript
+            class App extends Component {
+              render(){
+                if(this.props.value === true){
+                  return <div id="1"/>
+                }
+                return <div id="2"/>
+              }
+            }
+            ```
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Using If statements and state
+            ```JavaScript
+            class App extends Component {
+              render(){
+                if(this.state.value === true){
+                  return <div id="1"/>
+                }
+                return <div id="2"/>
+              }
+            }
+            ```
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Using the logical && operator.
+            ```JavaScript
+            class App extends Component {
+              render(){
+                const users = this.props.users;
+                return (
+                  <Fragment>
+                    {users.length > 0 &&
+                      <h2>
+                        You have {users.length} unread messages.
+                      </h2>
+                    }
+                  </Fragment>
+                );
+              }
+            }
+            ```
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Using the if else with ternary operator
+            ```JavaScript
+            class App extends Component {
+              render() {
+                const users = this.state.users;
+                return (
+                  <div>
+                    There are <b>{users.length ? users.length : 'no'}</b> users logged in.
+                  </div>
+                );
+              }
+            }
+            ```
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Prevent rendering component inside component
+            ```JavaScript
+            class Dialog extends Component {
+              render() {
+                if(this.props.show === false){
+                  return null
+                }
+
+                return <div id=”1”/>
+              }
+            }
+            ```
+            This will not prevent  the component’s lifecycle methods to be invoked. ComponentDidUpdate will still be called.
+          </script>
+        </section>
+
+        <section>
+          <h3>Rendering Lists</h3>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ### Rendering multiple elements JSX
+          ```JavaScript
+          class Dialog extends Component {
+            render(){
+              return (
+                [
+                  <p>Hello</p>,
+                  <p>Hello</p>,
+                  <p>Hello</p>,
+                  <p>Hello</p>,
+                  <p>Hello</p>
+                ]
+              }
+            }
+          }
+          ```
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ### Rendering multiple elements JSX
+          ```JavaScript
+          renderList = () => {
+            return <p>Hello</p>;
+          }
+
+          render(){
+            return (
+                {this.renderList()}
+            }
+          }
+          ```
+          </script>
+        </section>
+
+        <section>
+          <h3>Array.map</h3>
+          <ul>
+            <ol><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">MDN Reference</a></ol>
+            <ol>Loops through an array</ol>
+            <ol>Calling a provided function on every element in that array</ol>
+            <ol>Creating a new array with the results</ol>
+          </ul>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ### Mapping
+          ```JavaScript
+          var names = ['John', 'Jane'];
+
+          const paragraphs = names.map((name) => {
+            return 'Hello ' + name;
+          });
+
+          console.log(paragraphs);// ["Hello John", "Hello Jane"]
+          ```
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Mapping
+            ```JavaScript
+            var names = ['John', 'Jane'];
+
+            const paragraphs = names.map((name) => {
+              return name;
+            });
+
+            console.log(paragraphs);// ["John", "Jane"]
+            ```
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Mapping
+            ```JavaScript
+            var names = ['John', 'Jane'];
+
+            const paragraphs = names.map((name) => {
+              return <p>{name}</p>;
+            });
+
+            //returns a new array of elements
+            ```
+          </script>
+        </section>
+
+        <section>
+          <h3>Keys</h3>
+          <ul>
+            <ol>Key are needed when rendering lists.</ol>
+            <ol>Keys help React identify which items have changed, are added, or are removed.</ol>
+            <ol>Keys should be given to the elements inside the array to give the elements a stable identity.</ol>
+            <ol>Each key needs to be unique ID.</ol>
+            <ol>If no ID exist you can use index.</ol>
+          </ul>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Mapping keys
+            ```JavaScript
+            const users = [{name:'John', id:1},{name:'Jane', id:2}];
+
+            const newUsers = users.map((user) => {
+              return <p key={user.id}>{user.name}</p>;
+            });
+            ```
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Mapping keys with index
+            ```JavaScript
+            var names = ['John', 'Jane'];
+
+            const paragraphs = names.map((name, i) => {
+              return <p key={i}>{name}</p>;
+            });
+            ```
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Embedding .map() in JSX
+            ```JavaScript
+            const numbers = [1,5,12,44];
+
+            return (
+                <ul>
+                  {numbers.map((number, i) =>
+                    <li key={i}>{number}</li>
+                  )}
+                </ul>
+              );
+            ```
+          </script>
+        </section>
+
+        <section>
+          <h3><a href="https://reactjs.org/docs/conditional-rendering.html">Conditional Rendering documentation</a></h3>
+          <h3><a href="https://reactjs.org/docs/lists-and-keys.html">Lists and keys Examples</a></h3>
+        </section>
+			</div>
+		</div>
+
+		<script src="reveal/js/reveal.js"></script>
+
+		<script>
+
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'reveal/plugin/markdown/marked.js' },
+					{ src: 'reveal/plugin/markdown/markdown.js' },
+					{ src: 'reveal/plugin/notes/notes.js', async: true },
+					{ src: 'reveal/plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
