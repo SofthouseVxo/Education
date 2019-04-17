@@ -18,7 +18,7 @@
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'revealcss/print/pdf.css' : 'revealcss/print/paper.css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal/css/print/pdf.css' : 'reveal/css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 	</head>
@@ -187,19 +187,19 @@
         <section>
           <h3>Top-down / Unidirectional data flow</h3>
           <ul>
-            <ol>Components have now idea if some other state is passed down to them. They will always get it as props.</ol>
-            <ol>The parent component does now know if the child is a class or a function.</ol>
-            <ol>The state is local or encapsulated. It is not accessible to any component other than the one that owns and sets it.</ol>
-            <ol>State can only affect components “below” them in the tree.</ol>
+            <li>Components have now idea if some other state is passed down to them. They will always get it as props.</li>
+            <li>The parent component does now know if the child is a class or a function.</li>
+            <li>The state is local or encapsulated. It is not accessible to any component other than the one that owns and sets it.</li>
+            <li>State can only affect components “below” them in the tree.</li>
           </ul>
         </section>
 
         <section>
           <h3>Lifecycle Hooks (methods)</h3>
           <ul>
-            <ol><b>componentDidMount</b> - is invoked when the components output rendered to the DOM for the first time (mounting)</ol>
-            <ol><b>componentDidUpdate</b> - is invoked immediately after updating occurs. This method is not called for the initial render.</ol>
-            <ol><b>componentWillUnmount</b> - is invoked when the DOM produced by the Component is removed (unmounting)</ol>
+            <li><b>componentDidMount</b> - is invoked when the components output rendered to the DOM for the first time (mounting)</li>
+            <li><b>componentDidUpdate</b> - is invoked immediately after updating occurs. This method is not called for the initial render.</li>
+            <li><b>componentWillUnmount</b> - is invoked when the DOM produced by the Component is removed (unmounting)</li>
           </ul>
         </section>
 
@@ -214,11 +214,11 @@
         <section>
           <h3>References</h3>
           <ul>
-            <ol><a href="http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/">Lifecycle diagram</a></ol>
-            <ol><a href="https://reactjs.org/docs/react-component.html#mounting">All lifecycle methods</a></ol>
-            <ol><a href="https://reactjs.org/docs/state-and-lifecycle.html">Lifecycle diagram</a></ol>
-            <ol><a href="https://reactjs.org/docs/hooks-intro.html">Hooks</a></ol>
-            <ol><a href="https://reactjs.org/docs/react-component.html#setstate">SetState</a></ol>
+            <li><a href="http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/">Lifecycle diagram</a></li>
+            <li><a href="https://reactjs.org/docs/react-component.html#mounting">All lifecycle methods</a></li>
+            <li><a href="https://reactjs.org/docs/state-and-lifecycle.html">Lifecycle diagram</a></li>
+            <li><a href="https://reactjs.org/docs/hooks-intro.html">Hooks</a></li>
+            <li><a href="https://reactjs.org/docs/react-component.html#setstate">SetState</a></li>
           </ul>
         </section>
 			</div>

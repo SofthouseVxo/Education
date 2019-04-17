@@ -18,7 +18,7 @@
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'revealcss/print/pdf.css' : 'revealcss/print/paper.css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal/css/print/pdf.css' : 'reveal/css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 	</head>
@@ -32,16 +32,16 @@
         <section>
           <h3>Input elements and state</h3>
           <ul>
-            <ol><script type="text/template">In HTML <input>, <textarea> and <select></script> has their own state and updates when interacted with.</ol>
-            <ol>When a form is submitted in HTML → redirected to a new page by default.</ol>
-            <ol>In react we keep the state in component state.</ol>
+            <li><script type="text/template">In HTML <input>, <textarea> and <select></script> has their own state and updates when interacted with.</li>
+            <li>When a form is submitted in HTML → redirected to a new page by default.</li>
+            <li>In react we keep the state in component state.</li>
           </ul>
         </section>
         <section>
           <h3>Controlled Component</h3>
           <ul>
-            <ol>React state →  “single source of truth”</ol>
-            <ol>React state handles user input and controls the input value → “Controlled Component”</ol>
+            <li>React state →  “single source of truth”</li>
+            <li>React state handles user input and controls the input value → “Controlled Component”</li>
           </ul>
         </section>
         <section data-markdown>
@@ -102,8 +102,8 @@
         <section>
           <h3>Other Inputs</h3>
           <ul>
-            <ol>Work similarly for <script type="text/template"><textarea> and <select></script></ol>
-            <ol>That’s pretty much it for React and forms..</ol>
+            <li>Work similarly for <script type="text/template"><textarea> and <select></script></li>
+            <li>That’s pretty much it for React and forms..</li>
           </ul>
         </section>
         <section>

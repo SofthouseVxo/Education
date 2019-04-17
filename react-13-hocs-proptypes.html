@@ -1,0 +1,261 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>React - Higher Order Components & PropTypes</title>
+
+		<link rel="stylesheet" href="reveal/css/reset.css">
+		<link rel="stylesheet" href="reveal/css/reveal.css">
+		<link rel="stylesheet" href="reveal/css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="reveal/lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal/css/print/pdf.css' : 'reveal/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+        <section>
+          <h2>Higher Order Components (HOC's) and PropTypes</h2>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Higher Order Component (HOC)
+            * Technique in React for reusing component logic.
+            * HOCs are not part of the React API, per se. They are a pattern that emerges from React’s compositional nature.
+            * A Higher-order component is a function that takes a component and returns a new component.
+            ```JavaScript
+            const EnhancedComponent = higherOrderComponent(WrappedComponent);
+            ```
+          </script>
+        </section>
+
+        <section>
+          <h5>We can use HOC's when we have different components rendering different things but some implementation is the same.</h5>
+        </section>
+
+        <section>
+          <section data-markdown>
+            <script type="text/template">
+              ### HOC withSomeCoolItem
+              ```JavaScript
+              // Takes one components (WrappedComponent)
+              function withSomeCoolItem(WrappedComponent, otherData) {
+                // ...and returns another component...
+                return class extends React.Component {
+                  render() {
+                  const item = 12;
+                    // Notice that we pass through any additional props
+                    return <WrappedComponent item={item} {...this.props} />;
+                  }
+                };
+              }
+              ```
+            </script>
+          </section>
+
+          <section data-markdown>
+            <script type="text/template">
+              ```JavaScript
+              // Takes one components (WrappedComponent)
+              function withSomeCoolItem(WrappedComponent, otherData) {
+                // ...and returns another component...
+                return class extends React.Component {
+                  render() {
+                    const coolItem = 'double rainbow';
+                    // Notice that we pass through any additional props
+                    return <WrappedComponent coolItem={coolItem} {...this.props} />;
+                  }
+                };
+              }
+              ```
+            </script>
+          </section>
+
+          <section data-markdown>
+            <script type="text/template">
+              ### Using the HOC
+              ```JavaScript
+              class MyComponent extends Component {
+                render() {
+                  return (
+                   <div>
+                     I got a cool item which is {this.props.coolItem}! // double rainbow
+                   </div>
+                  );
+                }
+              }
+
+              export default withSomeCoolItem(MyComponent);
+              ```
+            </script>
+          </section>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Passing unrelated Props
+            ```JavaScript
+            render() {
+              // Filter out extra props that are specific to this HOC and shouldn't be
+              // passed through
+              const { extraProp, ...passThroughProps } = this.props;
+
+              // Inject props into the wrapped component. These are usually state values or
+              // instance methods.
+              const injectedProp = someStateOrInstanceMethod;
+
+              // Pass props to wrapped component
+              return (
+                <WrappedComponent
+                  injectedProp={injectedProp}
+                  {...passThroughProps}
+                />
+              );
+            }
+            ```
+          </script>
+        </section>
+
+        <section>
+          <h3>HOC's can be:</h3>
+          <ul>
+            <li>Hocs can have its own state</li>
+            <li>Can pass in methods</li>
+            <li>Can pass in props {...this.props}</li>
+            <li>Reflect upon withRouter</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>HOC Examples</h3>
+        </section>
+
+        <section>
+          <h3>PropTypes</h3>
+          <li>Typechecking Proptypes</li>
+          <li>Setting up what kind of props is can be passed in</li>
+          <li>https://www.npmjs.com/package/prop-types</li>
+          <li>npm install --save prop-types</li>
+          <li>comes with create-react-app</li>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### PropTypes function component
+            ```JavaScript
+            import PropTypes from 'prop-types';
+
+            function MyComponent(props) {
+              render() {
+                return (
+                  <h1>Hello, {props.name}</h1>
+                );
+              }
+            }
+
+            MyComponent.propTypes = {
+              name: PropTypes.string // throws a warning if name is not a string
+            };
+            ```
+          </script>
+        </section>
+
+        <section>
+          <section data-markdown>
+            <script type="text/template">
+              ### PropTypes class component
+              ```JavaScript
+              import PropTypes from 'prop-types';
+
+              class MyComponent extends React.Component {
+                render() {
+                  return (
+                    <h1>Hello, {this.props.name}</h1>
+                  );
+                }
+              }
+
+              MyComponent.propTypes = {
+                name: PropTypes.string // throws a warning if name is not a string
+              };
+              ```
+            </script>
+          </section>
+          <section data-markdown>
+            <script type="text/template">
+              ### PropTypes class component using static keyword
+
+              ```JavaScript
+              import PropTypes from 'prop-types';
+
+              class MyComponent extends React.Component {
+                static propTypes = {
+                  name: PropTypes.string // throws a warning if name is not a string
+                }
+
+                render() {
+                  return (
+                    <h1>Hello, {this.props.name}</h1>
+                  );
+                }
+              }
+              ```
+            </script>
+          </section>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ### PropTypes
+
+          ```JavaScript
+          MyComponent.propTypes = {
+            name: PropTypes.string
+          };
+
+          // will display a warning if name is not passed as props
+          MyComponent.propTypes = {
+            name: PropTypes.string.isRequired
+          };
+          ```
+          </script>
+        </section>
+
+        <section>
+          <h3>PropTypes - <a href="https://reactjs.org/docs/typechecking-with-proptypes.html">Complete list</a></h3>
+        </section>
+
+        <section>
+          <h3>PropTypes Examples</h3>
+        </section>
+
+			</div>
+		</div>
+
+		<script src="reveal/js/reveal.js"></script>
+
+		<script>
+
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'reveal/plugin/markdown/marked.js' },
+					{ src: 'reveal/plugin/markdown/markdown.js' },
+					{ src: 'reveal/plugin/notes/notes.js', async: true },
+					{ src: 'reveal/plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>React - Context</title>
+
+		<link rel="stylesheet" href="reveal/css/reset.css">
+		<link rel="stylesheet" href="reveal/css/reveal.css">
+		<link rel="stylesheet" href="reveal/css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="reveal/lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal/css/print/pdf.css' : 'reveal/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+        <section>
+          <h2>React Context</h2>
+        </section>
+
+        <section>
+          <h3>Context</h3>
+
+          <ul>
+            <li>Is a way to pass data through the component tree without having to pass props down manually at every level.</li>
+            <li>Instead of Component →  props →  Component →  Props → Component</li>
+            <li>Current authenticated user, UI Theme, Language</li>
+
+            <li><u>Always give it an extra thought before usage, since it makes component reuse more difficult.</u></li>
+          </ul>
+
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Using Context
+            ```HTML
+            class App extends React.Component {
+              render() {
+                return <Toolbar theme="dark" />;
+              }
+            }
+
+            function Toolbar(props) {
+             return (
+                <div>
+                 <ThemedButton theme={props.theme} />
+               </div>
+              );
+            }
+
+            class ThemedButton extends React.Component {
+              render() {
+                return <Button theme={this.props.theme} />;
+              }
+            }
+            ```
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Using Context
+            ```HTML
+            const ThemeContext = React.createContext('light');
+            class App extends React.Component {
+              render() {
+               return (
+                 <ThemeContext.Provider value="dark">
+                   <Toolbar />
+                  </ThemeContext.Provider>
+                );
+              }
+            }
+
+            function Toolbar(props) {
+              return (
+                <div>
+                  <ThemedButton />
+                </div>
+              );
+            }
+
+            class ThemedButton extends React.Component {
+              static contextType = ThemeContext;
+
+              render() {
+                return <Button theme={this.context} />; // this.context is now dark
+              }
+            }
+            ```
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ```JavaScript
+            // Creates a new context with the default value of 'light', could be an object or whatever
+            React.createContext('light')
+
+            // Sets the context in a component tree, changes the context value
+            <Component ThemeContext.Provider value="dark" />
+
+            // Can be accessed inside a component deeper into the nested tree
+            static contextType = ThemeContext;
+
+            // And is now accessable in this.context
+            theme={this.context}
+            ```
+          </script>
+        </section>
+
+        <section>
+          <h3>Context Examples</h3>
+        </section>
+			</div>
+		</div>
+
+		<script src="reveal/js/reveal.js"></script>
+
+		<script>
+
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'reveal/plugin/markdown/marked.js' },
+					{ src: 'reveal/plugin/markdown/markdown.js' },
+					{ src: 'reveal/plugin/notes/notes.js', async: true },
+					{ src: 'reveal/plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>

@@ -18,7 +18,7 @@
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'revealcss/print/pdf.css' : 'revealcss/print/paper.css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal/css/print/pdf.css' : 'reveal/css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 	</head>
@@ -164,7 +164,7 @@
 
               A special version of the ``` <Link> ``` that will add styling attributes to the rendered element when it matches the current URL.
 
-              ```JavaScript
+              ```HTML
               import { NavLink } from 'react-router-dom'
 
               <NavLink to="/about">About</NavLink>
@@ -217,7 +217,86 @@
             </section>
           </section>
 
+          <section data-markdown>
+            <script type="text/template">
+              ### {history, match, location}
+              * Every component in the first layer in ``` <Router/> ``` will get these three as props.
+              * It’s done by a Higher order Component and wraps your the components and injects these three objects.
+            </script>
+          </section>
 
+          <section data-markdown>
+            <script type="text/template">
+              ### Sending and receiving Params
+              ```HTML
+              <Route path="/news/:id" component={NewsComponent} />
+              // Setting up the route
+
+              <Link to="/news/12">Modus Create</Link> // Link in jsx
+
+              this.props.match.params.id //access in NewsComponent
+              ```
+            </script>
+          </section>
+
+          <section data-markdown>
+            <script type="text/template">
+            ### Match
+            The match object contains information about how a ``` <Route path> ``` matched the URL.
+            * **params**: (object), key/value pairs parsed from the URL
+            * **isExact**: (boolean), true if the entire URL was matched
+            * **path**: (string), the path pattern used to match.
+            * **url**: (string), the matched portion of the URL.
+            </script>
+          </section>
+
+          <section data-markdown>
+            <script type="text/template">
+            ### Location
+            The location object represents where the app is now, where you want it to go, or even where it was.
+
+            The router will provide you with a location object in a few places:
+            * Route component as this.props.location
+            * Route render as ({ location }) => ()
+            * Route children as ({ location }) => ()
+            * withRouter as this.props.location
+            </script>
+          </section>
+
+          <section data-markdown>
+            <script type="text/template">
+            ### History
+            The history object allows you to manage and handle the browser history inside your views or components.
+            * **length**: (number), the number of entries in the history stack
+            * **action**: (string), the current action (PUSH, REPLACE or POP)
+            * **location**: (object), the current location
+            * **push**(path, [state]): (function), pushes a new entry onto the history stack
+            and more...
+            </script>
+          </section>
+
+          <section>
+            <h3>Navigating without a link</h3>
+            The <b>History</b> object has several methods for this
+
+            <img src="media/react-10/history.png" alt="history">
+          </section>
+          <section>
+          <section data-markdown>
+            <script type="text/template">
+            ### Navigating without a link
+
+            Since components inside ``` <BrowserRouter> ``` get history in props we can invoke:
+            ```JavaScript
+            this.props.history.push(‘/news’);
+            this.props.history.push(‘/news/id’); //with a param
+            ```
+            </script>
+          </section>
+          <section>
+            <img src="media/react-10/history.png" alt="history">
+          </section>
+        </section>
 			</div>
 		</div>
 

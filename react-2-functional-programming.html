@@ -18,7 +18,7 @@
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'revealcss/print/pdf.css' : 'revealcss/print/paper.css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal/css/print/pdf.css' : 'reveal/css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 	</head>
@@ -31,8 +31,8 @@
         <section>
           <h3>What is a function?</h3>
           <ul>
-            <ol>“A function is a process which takes some input, called arguments, and produces some output called a return value.” - <a href="https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976">Eric Elliot</a></ol>
-            <ol>“Functions are one of the fundamental building blocks in JavaScript. A function is a JavaScript procedure—a set of statements that performs a task or calculates a value. To use a function, you must define it somewhere in the scope from which you wish to call it.” - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions">MDN</a></ol>
+            <li>“A function is a process which takes some input, called arguments, and produces some output called a return value.” - <a href="https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976">Eric Elliot</a></li>
+            <li>“Functions are one of the fundamental building blocks in JavaScript. A function is a JavaScript procedure—a set of statements that performs a task or calculates a value. To use a function, you must define it somewhere in the scope from which you wish to call it.” - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions">MDN</a></li>
           </ul>
         </section>
         <section>
@@ -207,15 +207,15 @@
         <section>
           <h3>Declarative vs Imperative</h3>
           <ul>
-            <ol><b>Declarative programming</b> is a programming paradigm … that expresses the logic of a computation without describing its control flow.</ol>
-            <ol><b>Imperative programming</b> is a programming paradigm that uses statements that change a program’s state.</ol>
+            <li><b>Declarative programming</b> is a programming paradigm … that expresses the logic of a computation without describing its control flow.</li>
+            <li><b>Imperative programming</b> is a programming paradigm that uses statements that change a program’s state.</li>
           </ul>
         </section>
         <section>
           <h3>Declarative vs Imperative</h3>
           <ul>
-            <ol><b>Declarative programming</b> is like asking your friend to draw a landscape. You don’t care how they draw it, that’s up to them.</ol>
-          <ol><b>Imperative programming</b> is like your friend listening to Bob Ross tell them how to paint a landscape. While good ole Bob Ross isn’t exactly commanding, he is giving them step by step directions to get the desired result.</ol>
+            <li><b>Declarative programming</b> is like asking your friend to draw a landscape. You don’t care how they draw it, that’s up to them.</li>
+          <li><b>Imperative programming</b> is like your friend listening to Bob Ross tell them how to paint a landscape. While good ole Bob Ross isn’t exactly commanding, he is giving them step by step directions to get the desired result.</li>
           </ul>
         </section>
         <section>
@@ -247,7 +247,7 @@
         <section>
           <h3>Function composition</h3>
           <ul>
-            <ol><b>Function composition</b> is the process of combining two or more functions to produce a new function. Composing functions together is like snapping together a series of pipes for our data to flow through.</ol>
+            <li><b>Function composition</b> is the process of combining two or more functions to produce a new function. Composing functions together is like snapping together a series of pipes for our data to flow through.</li>
           </ul>
         </section>
         <section>
@@ -269,27 +269,27 @@
         <section>
           <h3>Side effects</h3>
           <ul>
-            <ol>A side effect is any application state change that is observable outside the called function other than its return value.</ol>
-            <ol>Console.log( ) is an example.</ol>
+            <li>A side effect is any application state change that is observable outside the called function other than its return value.</li>
+            <li>Console.log( ) is an example.</li>
           </ul>
         </section>
         <section>
           <h3>What is a curried function?</h3>
           <ul>
-            <ol>A curried function is a function that takes multiple arguments one at a time.</ol>
-            <ol>const add = a => b => a + b;</ol>
-            <ol>const result = add(2)(3); // => 5</ol>
-            <ol>First, the function takes a, and then returns a new function, which then takes b returns the sum of a and b. Each argument is taken one at a time.</ol>
+            <li>A curried function is a function that takes multiple arguments one at a time.</li>
+            <li>const add = a => b => a + b;</li>
+            <li>const result = add(2)(3); // => 5</li>
+            <li>First, the function takes a, and then returns a new function, which then takes b returns the sum of a and b. Each argument is taken one at a time.</li>
           </ul>
         </section>
         <section>
           <h3>References</h3>
           <ul>
-            <ol>2.Pure Functions <a href="https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976">https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976</a></ol>
-            <ol>3, 20, 21. Functional programming <a href="https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0">https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0</a></ol>
-            <ol>15-16. Declarative vs imperative programming <a href="https://codeburst.io/declarative-vs-imperative-programming-a8a7c93d9ad2">https://codeburst.io/declarative-vs-imperative-programming-a8a7c93d9ad2</a></ol>
-            <ol>17. What is function composition <a href="https://medium.com/javascript-scene/master-the-javascript-interview-what-is-function-composition-20dfb109a1a0">https://medium.com/javascript-scene/master-the-javascript-interview-what-is-function-composition-20dfb109a1a0</a></ol>
-            <ol>18. Curry and function composition <a href="https://medium.com/javascript-scene/curry-and-function-composition-2c208d774983">https://medium.com/javascript-scene/curry-and-function-composition-2c208d774983</a></ol>
+            <li>2.Pure Functions <a href="https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976">https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976</a></li>
+            <li>3, 20, 21. Functional programming <a href="https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0">https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0</a></li>
+            <li>15-16. Declarative vs imperative programming <a href="https://codeburst.io/declarative-vs-imperative-programming-a8a7c93d9ad2">https://codeburst.io/declarative-vs-imperative-programming-a8a7c93d9ad2</a></li>
+            <li>17. What is function composition <a href="https://medium.com/javascript-scene/master-the-javascript-interview-what-is-function-composition-20dfb109a1a0">https://medium.com/javascript-scene/master-the-javascript-interview-what-is-function-composition-20dfb109a1a0</a></li>
+            <li>18. Curry and function composition <a href="https://medium.com/javascript-scene/curry-and-function-composition-2c208d774983">https://medium.com/javascript-scene/curry-and-function-composition-2c208d774983</a></li>
           </ul>
         </section>
 			</div>

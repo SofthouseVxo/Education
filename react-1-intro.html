@@ -18,7 +18,7 @@
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'revealcss/print/pdf.css' : 'revealcss/print/paper.css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal/css/print/pdf.css' : 'reveal/css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 	</head>
@@ -67,9 +67,11 @@
             </ul>
         </section>
         <section>
-          <p>Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
-          Build encapsulated components that manage their own state, then compose them to make complex UIs.
-          Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM. - <a href="https://reactjs.org/">React-Documentation</a></p>
+          <ul>
+            <li>Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.</li>
+            <li>Build encapsulated components that manage their own state, then compose them to make complex UIs.</li>
+            <li>Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM. - <a href="https://reactjs.org/">React-Documentation</a></p></li>
+          </ul>
         </section>
         <section>
           <h4>What is state?</h4>

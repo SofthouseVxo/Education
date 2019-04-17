@@ -18,7 +18,7 @@
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'revealcss/print/pdf.css' : 'revealcss/print/paper.css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal/css/print/pdf.css' : 'reveal/css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 	</head>
@@ -57,9 +57,9 @@
         <section>
           <h3>Ticker example</h3>
           <ul>
-            <ol>Inspect ticker application i browser</ol>
-            <ol>Even though we describe the whole UI tree we only update the node that changed in the HTML.</ol>
-            <ol>Every tick the React DOM’s were compared and the UI was updated.</ol>
+            <li>Inspect ticker application i browser</li>
+            <li>Even though we describe the whole UI tree we only update the node that changed in the HTML.</li>
+            <li>Every tick the React DOM’s were compared and the UI was updated.</li>
           </ul>
         </section>
 

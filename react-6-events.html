@@ -18,7 +18,7 @@
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'revealcss/print/pdf.css' : 'revealcss/print/paper.css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal/css/print/pdf.css' : 'reveal/css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 	</head>
@@ -32,8 +32,8 @@
         <section>
           <h3>Events</h3>
             <ul>
-              <ol>React events are named using camelCase, rather than lowercase.</ol>
-              <ol>With JSX you pass a function as the event handler, rather than a string.</ol>
+              <li>React events are named using camelCase, rather than lowercase.</li>
+              <li>With JSX you pass a function as the event handler, rather than a string.</li>
             </ul>
         </section>
 

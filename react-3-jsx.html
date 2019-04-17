@@ -18,7 +18,7 @@
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'revealcss/print/pdf.css' : 'revealcss/print/paper.css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal/css/print/pdf.css' : 'reveal/css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 	</head>
@@ -293,11 +293,11 @@
         <section>
           <h4>Injection protection</h4>
           <ul>
-            <ol>JSX prevents Injection Attacks</ol>
-            <ol>escapes any values embedded in JSX before rendering</ol>
-            <ol>Escaping = transforms special characters</ol>
-            <ol>< becomes %3E</ol>
-            <ol>> becomes %3E</ol>
+            <li>JSX prevents Injection Attacks</li>
+            <li>escapes any values embedded in JSX before rendering</li>
+            <li>Escaping = transforms special characters</li>
+            <li>< becomes %3E</li>
+            <li>> becomes %3E</li>
           </ul>
         </section>
 

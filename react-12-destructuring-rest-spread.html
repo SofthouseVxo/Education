@@ -1,0 +1,239 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Destructuring, Rest & Spread</title>
+
+		<link rel="stylesheet" href="reveal/css/reset.css">
+		<link rel="stylesheet" href="reveal/css/reveal.css">
+		<link rel="stylesheet" href="reveal/css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="reveal/lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal/css/print/pdf.css' : 'reveal/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+        <section>
+          <h2>Destructuring, Rest & Spread</h2>
+          <h4>JavaScript ES6</h4>
+        </section>
+
+        <section>
+          <h3>Spread</h3>
+          <ul>
+            <li>Spreading was introduces with JS6</li>
+            <li>Commonly used in react applications</li>
+            <li>The spread syntax is three dots ...</li>
+          </ul>
+        </section>
+
+        <section>
+          <section data-markdown>
+            <script type="text/template">
+              ### Without Spread
+              ```JavaScript
+              var foo = [33, 44];
+              var bar = [1,2, foo, 5, 6];
+              console.log(bar);
+              // output?
+              ```
+            </script>
+          </section>
+          <section data-markdown>
+            <script type="text/template">
+              ### Without Spread
+              ```JavaScript
+              var foo = [33, 44];
+              var bar = [1,2, foo, 5, 6];
+              console.log(bar);
+              // output?
+              // [1,2,[33,44],5,6]
+              ```
+            </script>
+          </section>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### With Spread
+            ```JavaScript
+            var foo = [33, 44];
+            var bar = [1,2, ...foo, 5, 6];
+            console.log(bar);
+            // [1,2,33,44,5,6]
+            ```
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Spreading objects
+            ```JavaScript
+            var state = {id: 1, user: 'robin'};
+
+            var newState = {...state, age: 28}; // New state, no mutation
+            var newState2 = {...newState, id: 2}; // New state, no mutation
+
+            console.log(state); // {id: 1, user: 'robin'}
+            console.log(newState); // {id: 1, user: 'robin', age:28}
+            console.log(newState2); // {id: 2, user: 'robin', age:28}
+            ```
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Rest
+            Aggregation of remaining arguments into single parameter of variadic functions.
+            ```JavaScript
+            function myFunc (x, y, ...a) {
+                console.log(a); //[33, 44, 55]
+            }
+
+            myFunc(1, 2, 33, 44, 55);
+            ```
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Rest
+            ```JavaScript
+            function myFunc({id, name, ...rest}) {
+              console.log(rest); // {age: 12, gender:'male'}
+            }
+
+            myFunc({id: 1, name: 'robin', age: 12, gender: 'male'});
+            ```
+          </script>
+        </section>
+
+        <section>
+          <h3>Destructuring</h3>
+          <ul>
+            <li>The destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.</li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment">MDN Reference</a></li>
+            <li><a href="http://exploringjs.com/es6/ch_destructuring.html#sec_overview-destructuring">Destructuring Objects</a></li>
+          </ul>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Destructuring array
+
+            ```JavaScript
+            [a, b, ...theRest] = [10, 20, 30, 40, 50]
+
+            console.log(theRest); // [30, 40, 50]
+            ```
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Handling objects without Destructuring
+            ```JavaScript
+            const obj = { first: 'Jane', last: 'Doe' };
+
+            const first = obj.first;
+            const last = obj.last;
+
+            console.log(first, last) // 'Jane', 'Doe'
+            ```
+          </script>
+        </section>
+
+        <section>
+          <section data-markdown>
+            <script type="text/template">
+              ### Destructure an Object
+
+              ```JavaScript
+              const obj = { first: 'Jane', last: 'Doe' };
+
+              const {first, last} = obj; // first = 'Jane'; last = 'Doe'
+              console.log(first); // 'Jane'
+              console.log(last); // 'Doe'
+              ```
+            </script>
+          </section>
+          <section data-markdown>
+            <script type="text/template">
+              ### Destructure an Object
+
+              ```JavaScript
+              const obj = { first: 'Jane', last: 'Doe' };
+
+              const {first: f, last: l} = obj;
+              // f = 'Jane'; l = 'Doe'
+              console.log(f); // 'Jane'
+              console.log(l); // 'Doe'
+              ```
+            </script>
+          </section>
+
+          <section data-markdown>
+            <script type="text/template">
+              ### Destructure an Object
+
+              ```JavaScript
+              const obj = {
+                first: 'Jane',
+                last: 'Doe',
+                address: {
+                  zipcode: 23434
+                }
+              };
+
+              const {
+                address: {
+                  zipcode
+                }
+              } = obj;
+
+              console.log(zipcode); // 23434
+              console.log(address); // address is not defined
+              ```
+            </script>
+          </section>
+        </section>
+
+        <section>
+          <h5>Spread attributes can be useful but they also make it easy to pass unnecessary props to components that don’t care about them or to pass invalid HTML attributes to the DOM. We recommend using this syntax sparingly. - <a href="https://reactjs.org/docs/jsx-in-depth.html#spread-attributes">React Documentation</a></h5>
+        </section>
+
+        <section>
+          <h3>React Examples</h3>
+        </section>
+			</div>
+    </div>
+
+
+
+		<script src="reveal/js/reveal.js"></script>
+
+		<script>
+
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'reveal/plugin/markdown/marked.js' },
+					{ src: 'reveal/plugin/markdown/markdown.js' },
+					{ src: 'reveal/plugin/notes/notes.js', async: true },
+					{ src: 'reveal/plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>

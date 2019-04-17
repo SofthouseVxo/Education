@@ -18,7 +18,7 @@
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'revealcss/print/pdf.css' : 'revealcss/print/paper.css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal/css/print/pdf.css' : 'reveal/css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 	</head>
@@ -45,8 +45,8 @@
         <section>
           <h3>From Dev to Build</h3>
           <ul>
-            <ol>npm run build</ol>
-            <ol> /src → (webpack bundles it into) → /build</ol>
+            <li>npm run build</li>
+            <li> /src → (webpack bundles it into) → /build</li>
           </ul>
         </section>
 
@@ -88,10 +88,10 @@
         <section>
           <h3>Create-react-app supports css modules</h3>
           <ul>
-            <ol>Webpack creates encapsulated styles when bundling</ol>
-            <ol>moduleTestClass → ModuleStylingComponent_moduleTestClass__lQCZW </ol>
-            <ol>Have to name the css file with .module → myCSSFile.modules.css</ol>
-            <ol>Import styles from ‘./myCSSFile.module.css</ol>
+            <li>Webpack creates encapsulated styles when bundling</li>
+            <li>moduleTestClass → ModuleStylingComponent_moduleTestClass__lQCZW </li>
+            <li>Have to name the css file with .module → myCSSFile.modules.css</li>
+            <li>Import styles from ‘./myCSSFile.module.css</li>
           </ul>
         </section>
 
@@ -102,10 +102,10 @@
         <section>
           <h3>Webpack Config</h3>
           <ul>
-            <ol>npm run eject inside react project to get access (can’t undo)</ol>
-            <ol>webpack.config.js</ol>
-            <ol>style-loaders → sets how styles are loaded and bundled</ol>
-            <ol>file-loaders → sets how files are loaded and bundled</ol>
+            <li>npm run eject inside react project to get access (can’t undo)</li>
+            <li>webpack.config.js</li>
+            <li>style-loaders → sets how styles are loaded and bundled</li>
+            <li>file-loaders → sets how files are loaded and bundled</li>
           </ul>
         </section>
 
