@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Angular Lectures</title>
+		<title>Angular Introduction</title>
 
 		<link rel="stylesheet" href="reveal/css/reset.css">
 		<link rel="stylesheet" href="reveal/css/reveal.css">
@@ -25,9 +25,188 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>
-					<a href="https://softhousevxo.github.io/Education/react-intro.html">React intro</a>
+        <section>
+          <h2>Angular (v7)</h2>
+          <h4><a href="https://angular.io/">Documentation</a></h4>
 				</section>
+
+				<section>
+					<h3>What is Angular?</h3>
+					<ul>
+						<li>A framework for building (SPA) client applications</li>
+						<li>Html, Css, Javascript / Typescript</li>
+						<li>Gives a clean structure</li>
+						<li>Re-usable code</li>
+						<li>More testable</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Angular versions</h3>
+					<ul>
+						<li>AngularJS <— big difference</li>
+						<li>Angular 2</li>
+						<li>4,5,6 and now 7</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Angular CLI</h3>
+					<ul>
+						<li>Makes it easy to create an application that already works, right out of the box.
+						<li>It already follows our best practices!</li>
+						<li>Generate components, routes, services and pipes with a simple command.</li>
+						<li>Easily test your app locally while developing.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Angular CLI</h3>
+					<ul>
+						<li>$ npm install -g @angular/cli</li>
+						<li>Always start with ng </li>
+						<li>Complete list: https://angular.io/api</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Angular CLI</h3>
+					<ul>
+						<li>$ ng new my-app</li>
+						<li>$ ng serve - cli spins up local web server</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Building blocks</h3>
+					<img src="media/ang-1/blocks.png" alt="angular building blocks">
+				</section>
+
+				<section>
+					<img src="media/ang-1/components.png" alt="components">
+				</section>
+
+				<section>
+					<img src="media/ang-1/components2.png" alt="components">
+				</section>
+
+				<section>
+					<img src="media/ang-1/componentTree.png" alt="components tree">
+				</section>
+
+				<section>
+					<img src="media/ang-1/component.png" alt="component overview">
+				</section>
+
+				<section>
+					<img src="media/ang-1/component3.png" alt="component overview">
+				</section>
+
+				<section>
+					<h3>Template</h3>
+					<ul>
+						<li>A template combines  HTML with Angular markup -> modifies HTML elements before being displayed</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Services</h3>
+					<ul>
+						<li>Typically a class</li>
+						<li>Logic not related to a specific view</li>
+						<li>Can be injected into a Component</li>
+						<li>Example fetch and handle data, store user</li>
+						<li><a href="https://angular.io/guide/architecture-services">Documentation</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Modules</h3>
+					<ul>
+						<li>Bundles functionalities of our app</li>
+						<li>A group of related components</li>
+						<li>Angular provides their functionality in modules</li>
+						<li>Example - Admin, Users, Authentication</li>
+						<li><a href="https://angular.io/guide/architecture-modules">Documentation</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<h3><a href="https://angular.io/guide/architecture">Architecture Overview</a></h3>
+				</section>
+
+				<section>
+					<h3>Routing / Navigation</h3>
+					<ul>
+						<li>Decides which components to show</li>
+						<li>Address field updates as usual</li>
+						<li>A user will not notice</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Group Exercise</h3>
+					<ul>
+						<li>Find a web application (Ping pong, gmail, google drive)</li>
+						<li>Divide application into Components, Services and Modules</li>
+						<li>Draw, print screen etc.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Tips</h3>
+					<ul>
+						<li>See components as views</li>
+						<li>Services contain logic not related to a specific view</li>
+						<li>Can you chunk logic (components & services) in a module? And reuse in another application?</li>
+					</ul>
+				</section>
+
+				<section>
+					<section>
+						<h3>Project structure</h3>
+						<img  style="max-width: 400px;" src="media/ang-1/proj.png" alt="project strucutre">
+					</section>
+					<section>
+						<h3>Inspect:</h3>
+						<ul>
+							<li>vendor.js - third party libs</li>
+							<li>main.js - our code</li>
+							<li>Build folder</li>
+							<li>angular.json</li>
+							<li>eslint</li>
+							<li>sourcemap</li>
+							<li>polyfills</li>
+							<li>ts files</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<h3><a href="https://angular.io/api">Angular API</a></h3>
+				</section>
+
+				<section>
+					<h3>Augury</h3>
+					<ul>
+						<li>Extension Chrome and Firefox</li>
+						<li><a href="https://augury.rangle.io/">Website</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<img src="media/ang-1/auguary.png" alt="auguary">
+				</section>
+
+				<section>
+					<h3>Resources</h3>
+					<ul>
+						<li><a href="https://angular.io/guide/cheatsheet">Cheatsheet</a></li>
+						<li><a href="https://angular.io/guide/glossary">Glossary</a></li>
+					</ul>
+				</section>
+
+
 			</div>
 		</div>
 
