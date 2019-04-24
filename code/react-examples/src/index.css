@@ -19,6 +19,13 @@ code {
   background-color: lightcoral;
 }
 
-.my-class {
-  color: red;
+.my-css-class{
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 700;
 }
+
+.my-class {
+  color: #badc58;
+}
+

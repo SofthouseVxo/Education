@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import JSX from './3-JSX';
+import JSX from './3-JSX';
 // import ElementsComponents from './4-Elements&Components';
 // import StateLifecycles from './5-State&Lifecycles';
 // import Events from './6-Events';
@@ -9,7 +9,7 @@ import React, { Component } from 'react';
 // import HOCSAndProptypes from './12-HOCS&PropTypes';
 // import UsingContext from './14-Context';
 // import AdvancedCompositing from './16-AdvancedComposition';
-import Reduxer from './13-Redux';
+// import Reduxer from './13-Redux';
 
 
 import './App.css';
@@ -32,7 +32,7 @@ class App extends Component {
         <p>Uncomment the components below to start experimenting, click here to hide header</p>
       </header>)}
 
-        {/* <JSX/> */}
+        <JSX/>
         {/* <ElementsComponents/> */}
         {/* <StateLifecycles/> */}
         {/* <Events/> */}
@@ -45,7 +45,7 @@ class App extends Component {
 
 
         {/* Make sure to fix setup in index.js before using redux */}
-        <Reduxer/>
+        {/* <Reduxer/> */}
       </div>
     );
   }

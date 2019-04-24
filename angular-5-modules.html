@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Angular - Modules</title>
+
+		<link rel="stylesheet" href="reveal/css/reset.css">
+		<link rel="stylesheet" href="reveal/css/reveal.css">
+		<link rel="stylesheet" href="reveal/css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="reveal/lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal/css/print/pdf.css' : 'reveal/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+        <section>
+          <h2>Modules</h2>
+          <h4 style="color: #DD0231;">Angular</h4>
+        </section>
+
+        <section>
+          <h3>Modules</h3>
+          <ul>
+            <li>Bundles functionalities of our app</li>
+            <li>A group of related components</li>
+            <li>Angular provides their functionality in modules</li>
+            <li>Example - Admin, Users, Authentication</li>
+            <li><a href="https://angular.io/guide/architecture-modules">Documentation</a></li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>NgModule</h3>
+          <img src="media/ang-5/module.png" alt="angular module">
+        </section>
+
+        <section>
+          <h3>NgModule</h3>
+          <ul>
+            <li>Declarations: Components, directives, pipes</li>
+            <li>Exports: Declarations used in other NgModules</li>
+            <li>Imports: Other modules exported classes needed in this NgModule</li>
+            <li>Providers: Services</li>
+            <li>Bootstrap: Main application view (root component)</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>NgModule</h3>
+          <ul>
+            <li>Angular modules start with @ </li>
+            <li>Import { Component } from ’@angular/core’</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3><a href="https://angular.io/guide/architecture">Architecture - Modules</a></h3>
+        </section>
+
+			</div>
+		</div>
+
+		<script src="reveal/js/reveal.js"></script>
+
+		<script>
+
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'reveal/plugin/markdown/marked.js' },
+					{ src: 'reveal/plugin/markdown/markdown.js' },
+					{ src: 'reveal/plugin/notes/notes.js', async: true },
+					{ src: 'reveal/plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>

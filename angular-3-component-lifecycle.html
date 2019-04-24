@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Angular - Pipes</title>
+		<title>Angular - Component Lifecycles</title>
 
 		<link rel="stylesheet" href="reveal/css/reset.css">
 		<link rel="stylesheet" href="reveal/css/reveal.css">
@@ -26,37 +26,34 @@
 		<div class="reveal">
 			<div class="slides">
         <section>
-          <h2>Pipes</h2>
+          <h2>Component Lifecycle</h2>
           <h4 style="color: #DD0231;">Angular</h4>
         </section>
 
         <section>
-          <h3>Pipes</h3>
+          <h3>Component lifecycle</h3>
+          <ol>
+            <li>Angular creates an instance component </li>
+            <li>Renders the component</li>
+            <li>Creates and renders its children</li>
+            <li>Checks its data-bound properties change</li>
+            <li>Destroys it before removing it from the DOM</li>
+          </ol>
+        </section>
+
+        <section>
+          <h3>Lifecycle hooks</h3>
           <ul>
-            <li>A Pipe takes input data as input and transforms it into desired output.</li>
-            <li>Angular provides a set of built in pipes</li>
-            <li>It is also possible to create custom pipes.</li>
+            <li>Angular offers lifecycle hooks that provide visibility into these key events.</li>
+            <li>Directives have the same events (Since a component is a directive with a template)</li>
+            <li>Implements OnInit, OnDestroy (interface).</li>
           </ul>
         </section>
 
         <section>
-          <h3>Built in pipes</h3>
-          <ul>
-            <li>Date</li>
-            <li>Uppercase & lowercase</li>
-            <li>Json</li>
-            <li><a href="https://angular.io/api?type=pipe">Full list</a></li>
-          </ul>
+          <h3><a href="https://angular.io/guide/lifecycle-hooks#onchanges">Exercises</a></h3>
         </section>
-
-        <section>
-          <h3>Documentation</h3>
-          <ul>
-            <li><a href="https://angular.io/guide/pipes">Guide</a></li>
-            <li><a href="https://angular.io/api?type=pipe">Api</a></li>
-          </ul>
-        </section>
-      </div>
+			</div>
 		</div>
 
 		<script src="reveal/js/reveal.js"></script>

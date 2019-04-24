@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Angular - Directives</title>
+
+		<link rel="stylesheet" href="reveal/css/reset.css">
+		<link rel="stylesheet" href="reveal/css/reveal.css">
+		<link rel="stylesheet" href="reveal/css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="reveal/lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal/css/print/pdf.css' : 'reveal/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+          <section>
+              <h2>Directives</h2>
+              <h4 style="color: #DD0231;">Angular</h4>
+            </section>
+
+            <section>
+              <h3>Directives</h3>
+              <ul>
+                <li>A Directive is a Component without a template.</li>
+                <li>Directives are mainly used to manipulate the dom</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3>Different kinds of directives</h3>
+              <ul>
+                <li><b>Component</b> - Directive with a template.</li>
+                <li><b>Attribute directives</b> - change the appearance or behavior of an element, component, or another directive.</li>
+                <li><b>Structural directives</b> - change the DOM layout by adding and removing DOM elements.</li>
+              </ul>
+            </section>
+
+            <section>
+              <ul>
+                <li>Attribute Directives - Sits on elements like attributes -changes the properties of that element.</li>
+                <li>* Structural Directives - Also changes the DOM around it (*ngIf, *ngFor)</li>
+              </ul>
+            </section>
+
+        <section>
+          <img src="media/ang-4/directives.png" alt="directives">
+        </section>
+
+        <section>
+          <h3><a href="https://angular.io/guide/cheatsheet">Cheat sheet</a></h3>
+        </section>
+
+        <section>
+          <h3>Example of making own directive</h3>
+        </section>
+
+        <section>
+          <h3>Documentation</h3>
+          <ul>
+            <li><a href="https://angular.io/guide/attribute-directives">Attribute Directives</a></li>
+            <li><a href="https://angular.io/guide/structural-directives">Structural Directives</a></li>
+          </ul>
+        </section>
+
+			</div>
+		</div>
+
+		<script src="reveal/js/reveal.js"></script>
+
+		<script>
+
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'reveal/plugin/markdown/marked.js' },
+					{ src: 'reveal/plugin/markdown/markdown.js' },
+					{ src: 'reveal/plugin/notes/notes.js', async: true },
+					{ src: 'reveal/plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>

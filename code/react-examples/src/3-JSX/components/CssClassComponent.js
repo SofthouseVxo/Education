@@ -4,12 +4,12 @@ class CssClassComponent extends Component {
 
   myCssClass = 'my-css-class';
   myColor = {
-    color: '#ff0000'
+    color: '#686de0'
   };
 
   render() {
     return (
-        <div className={this.myCssClass}>My color -> {this.myColor.color} here</div>
+        <div className={this.myCssClass}>My color in text --> {this.myColor.color}</div>
     )
   }
 }
