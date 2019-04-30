@@ -48,11 +48,11 @@
             * Using React Router the developer can manage views (pages) in one single place and at the same time define the routes (urls) in the application.
             * Instead of using
             ```HTML
-            <a href=”/”>link</a>
+            <a href="/">link</a>
             ```
             we switch to
             ```HTML
-            <Link to=”/”>link</Link>
+            <Link to="/">link</Link>
             ```
           </script>
         </section>
@@ -107,7 +107,7 @@
               A special version of the <Link> that will add styling attributes to the rendered element when it matches the current URL.
 
               <Route>
-              Basic responsibility is to render some UI when a location matches the route’s path.
+              Basic responsibility is to render some UI when a location matches the route's path.
 
               <Switch>
               Renders the first child <Route> or <Redirect> that matches the location.
@@ -122,7 +122,7 @@
               A ``` <Router> ``` that uses the HTML5 history API (pushState, replaceState and the popstate event) to keep your UI in sync with the URL.
 
               Attribute: basename
-              basename sets a new “start url” (base url) for all routed links and navigation.
+              basename sets a new “start url" (base url) for all routed links and navigation.
               Example below renders ``` <a href="/calendar/today"> ```
 
               ```HTML
@@ -171,8 +171,8 @@
               ````
 
               Notable attributes:
-              activeClassName=”my-class”
-              activeStyle={{ fontWeight: “bold”, color: “red” }}
+              activeClassName="my-class"
+              activeStyle={{ fontWeight: “bold", color: “red" }}
               exact
             </script>
           </section>
@@ -182,8 +182,8 @@
                 <script type="text/template">
                   ### Route
 
-                  * The Route component is perhaps the most important component in React Router to understand and learn to use well. Its most basic responsibility is to render some UI when a location matches the route’s path (location is the url in web browser address field).
-                  * Route is a container for displaying a view component (page). Depending on the attributes set on the <Route>; zero, one or multiple <Route>’s are rendered, depending on current location.
+                  * The Route component is perhaps the most important component in React Router to understand and learn to use well. Its most basic responsibility is to render some UI when a location matches the route's path (location is the url in web browser address field).
+                  * Route is a container for displaying a view component (page). Depending on the attributes set on the <Route>; zero, one or multiple <Route>'s are rendered, depending on current location.
                 </script>
             </section>
             <section data-markdown>
@@ -221,7 +221,7 @@
             <script type="text/template">
               ### {history, match, location}
               * Every component in the first layer in ``` <Router/> ``` will get these three as props.
-              * It’s done by a Higher order Component and wraps your the components and injects these three objects.
+              * It's done by a Higher order Component and wraps your the components and injects these three objects.
             </script>
           </section>
 
@@ -288,8 +288,8 @@
 
             Since components inside ``` <BrowserRouter> ``` get history in props we can invoke:
             ```JavaScript
-            this.props.history.push(‘/news’);
-            this.props.history.push(‘/news/id’); //with a param
+            this.props.history.push('/news');
+            this.props.history.push('/news/id'); //with a param
             ```
             </script>
           </section>

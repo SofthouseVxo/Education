@@ -22,8 +22,8 @@ React version 16.8.0
 <br/>
 <br/>
 
-* Completely opt-in. You can try Hooks in a few components without rewriting any existing code. But you don’t have to learn or use Hooks right now if you don’t want to.
-* 100% backwards-compatible. Hooks don’t contain any breaking changes.
+* Completely opt-in. You can try Hooks in a few components without rewriting any existing code. But you don't have to learn or use Hooks right now if you don't want to.
+* 100% backwards-compatible. Hooks don't contain any breaking changes.
 * Available with the release of v16.8.0. (1 month ago)
 
 <br/>
@@ -45,7 +45,7 @@ React version 16.8.0
 
 ## Hooks
 * Hooks let you use state and other React features without writing a class.
-* Hooks don’t work inside classes — they let you use React without classes.
+* Hooks don't work inside classes — they let you use React without classes.
 * [React Motivation](https://reactjs.org/docs/hooks-intro.html#motivation)
 
 <br/>
@@ -237,8 +237,8 @@ export default function MyComponent(props) {
 
 ## Hooks are JavaScript functions but consider
 
-* Only call Hooks at the top level. Don’t call Hooks inside loops, conditions, or nested functions.
-* Only call Hooks from React function components. Don’t call Hooks from regular JavaScript functions.
+* Only call Hooks at the top level. Don't call Hooks inside loops, conditions, or nested functions.
+* Only call Hooks from React function components. Don't call Hooks from regular JavaScript functions.
 
 <br/>
 <br/>

@@ -37,7 +37,7 @@
               <li>Elements are the smallest building blocks of React apps</li>
               <li>An element describes what you want to see on the screen</li>
               <li>React elements a immutable -> You cannot change it after it has been created.</li>
-              <li>It’s like a frame in a movie, it represents the UI at a certain point in time</li>
+              <li>It's like a frame in a movie, it represents the UI at a certain point in time</li>
             </ul>
         </section>
 
@@ -60,7 +60,7 @@
           <ul>
             <li>Inspect ticker application i browser</li>
             <li>Even though we describe the whole UI tree we only update the node that changed in the HTML.</li>
-            <li>Every tick the React DOM’s were compared and the UI was updated.</li>
+            <li>Every tick the React DOM's were compared and the UI was updated.</li>
           </ul>
         </section>
 
@@ -76,7 +76,7 @@
           <h3>Components</h3>
             <li>React lets you define components as classes or functions.</li>
             <li>Components defined as classes currently provide more features</li>
-            <li>Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the screen.</li>
+            <li>Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called “props") and return React elements describing what should appear on the screen.</li>
         </section>
 
         <section data-markdown>
@@ -90,7 +90,7 @@
 
             <Welcome/>  // To create add in JSX
             ```
-            This function is a valid React component because it accepts a single “props” (which stands for properties) object argument with data and returns a React element. We call such components “function components” because they are literally JavaScript functions.
+            This function is a valid React component because it accepts a single “props" (which stands for properties) object argument with data and returns a React element. We call such components “function components" because they are literally JavaScript functions.
           </script>
         </section>
 
@@ -121,7 +121,7 @@
               return <h1>Hello, {props.name}</h1>;
             }
 
-            <Welcome name={‘John Doe’} />
+            <Welcome name={'John Doe'} />
             ```
           </script>
         </section>
@@ -137,7 +137,7 @@
               }
             }
 
-            <Welcome name={‘John Doe’} />
+            <Welcome name={'John Doe'} />
             ```
           </script>
         </section>
@@ -158,7 +158,7 @@
             ### Everything inside closing tag ends up in props.children
 
             ```JavaScript
-            <MyFirstComponent name={‘john doe’}>
+            <MyFirstComponent name={'john doe'}>
               <p>Hello</p>
             <MyFirstComponent/>
 

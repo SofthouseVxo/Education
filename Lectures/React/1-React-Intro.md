@@ -147,7 +147,7 @@
   * The coffee is hot.
   * The clock is 14:15 am.
 * Difference between a value and a variable
-  * The number 42 does not have a state since you can’t change it.
+  * The number 42 does not have a state since you can't change it.
   * So the number is a value
 
 <br/>
@@ -171,7 +171,7 @@
 * In React, every piece of a UI is a component.
 * Components can be composed together to create other components.
 * The application itself is a component, it's a composition of components.
-* Every component is a Class (or function) that you can instantiate. That means that your component can receive arguments that you can use to customize what’s shown in the application.
+* Every component is a Class (or function) that you can instantiate. That means that your component can receive arguments that you can use to customize what's shown in the application.
 
 <br/>
 <br/>
@@ -225,7 +225,7 @@
 
 * The Virtual DOM selectively renders subtrees of nodes based upon state changes.
 * It does the least amount of DOM manipulation possible in order to keep your components up to date.
-* If there are any changes in the Virtual Dom then React performs a “diffing algorithm”. Which identifies what has changed and accordingly updates the real DOM. This means that it doesn’t update the entire DOM just the nodes that has changed.
+* If there are any changes in the Virtual Dom then React performs a “diffing algorithm". Which identifies what has changed and accordingly updates the real DOM. This means that it doesn't update the entire DOM just the nodes that has changed.
 
 <br/>
 <br/>
@@ -291,7 +291,7 @@
 ## create-react-app
 Used to Create React apps with no build configuration.
 
-You don’t need to install or configure tools like Webpack or Babel. They are preconfigured and hidden so that you can focus on the code.
+You don't need to install or configure tools like Webpack or Babel. They are preconfigured and hidden so that you can focus on the code.
 
 [react-scripts](https://www.npmjs.com/package/react-scripts)
 <br/>
@@ -320,7 +320,7 @@ React-scripts includes scripts and configuration used by Create-react-app.
 
 * React, JSX, ES6, TypeScript and Flow syntax support.
 * Language extras beyond ES6 like the object spread operator.
-* Autoprefixed CSS, so you don’t need -webkit- or other prefixes.
+* Autoprefixed CSS, so you don't need -webkit- or other prefixes.
 * A fast interactive unit test runner with built-in support for coverage reporting.
 * A live development server that warns about common mistakes.
 * A build script to bundle JS, CSS, and images for production, with hashes and sourcemaps.

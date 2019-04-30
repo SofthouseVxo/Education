@@ -23,8 +23,8 @@
 
 ## What is a function?
 
-> “A function is a process which takes some input, called arguments, and produces some output called a return value.” - [Eric Elliot](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976)
-> “Functions are one of the fundamental building blocks in JavaScript. A function is a JavaScript procedure—a set of statements that performs a task or calculates a value. To use a function, you must define it somewhere in the scope from which you wish to call it.” - [MDN, 2019](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+> “A function is a process which takes some input, called arguments, and produces some output called a return value." - [Eric Elliot](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976)
+> “Functions are one of the fundamental building blocks in JavaScript. A function is a JavaScript procedure—a set of statements that performs a task or calculates a value. To use a function, you must define it somewhere in the scope from which you wish to call it." - [MDN, 2019](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
 <br/>
 <br/>
@@ -120,7 +120,7 @@ console.log(word);
 var saySomething = function(word) {
 console.log(word);
 
-saySomething(‘JS rocks!’);
+saySomething('JS rocks!');
 ```
 
 <br/>

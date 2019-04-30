@@ -1,6 +1,6 @@
 ## Angular Services
 
-I denna uppgift skall ni skapa två komponenter som interagerar med en service. En service är en klass som har logik som inte är kopplad till en specifik vy. För att kunna använda metoder och egenskaper som är kopplade till en service i våra komponenter använder vi något som heter dependency injection. Detta genom att vi injektar vår service via “constructorn” i våra komponenter. Följ stegen nedan.
+I denna uppgift skall ni skapa två komponenter som interagerar med en service. En service är en klass som har logik som inte är kopplad till en specifik vy. För att kunna använda metoder och egenskaper som är kopplade till en service i våra komponenter använder vi något som heter dependency injection. Detta genom att vi injektar vår service via “constructorn" i våra komponenter. Följ stegen nedan.
 
 1. Skapa ett nytt angular projekt med Angular CLI ```ng new servtest```
 
@@ -88,7 +88,7 @@ export class CompTwoComponent implements OnInit {
 ```
 
 1. Din console i inspektorn skall nu se ut som följande. Vi ser att myValue i vår service var 135 i component 1, vi ändrade den i constructorn. När vi sedan loggade den i component 2 så var den 15. Detta innebär att vi har delat datan mellan komponenterna men behållit den i servicen. Vi ser även att vi har tillgång till alla metoder i servicen i bägge componenterna, detta vill vi göra med funktionalitet som inte är knuten till en specifik vy. Ta 5min och reflektera och undersök vad vi nyss implementerat. Prova att:
-Sätta metoderna och egenskapen i servicen till “public” och “private” och se vad som händer.
+Sätta metoderna och egenskapen i servicen till “public" och “private" och se vad som händer.
 
 
 

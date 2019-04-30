@@ -15,7 +15,7 @@ I denna uppgift skall ni leka med promises, fetch och att hämta data med hjälp
 
 1. Rensa templaten i ```app.component.html``` och rendera ```app-promiser```
 
-1. I Promiser komponenten skapar ni en knapp med titeln “Promise it!”. Klickar man på knappen skall en onPromiseTest() metod köras.
+1. I Promiser komponenten skapar ni en knapp med titeln “Promise it!". Klickar man på knappen skall en onPromiseTest() metod köras.
 
 1. I metoden skapar ni ett nytt promise. Denna skall resolvas med värdet 12 efter
 5000ms. (resolve och reject är callbacks som ni passar in i new Promise).
@@ -26,9 +26,9 @@ I denna uppgift skall ni leka med promises, fetch och att hämta data med hjälp
 
 1. Ersätt ditt promise resolve med en reject som rejectar efter 4000ms med ett valfritt felmeddelande. Lägg till en catch för att se värdet.
 
-1. Nu skall vi göra en fetch, skapa en ny knapp med titeln “fetch it!” som ni binder till en metod ni döper till ```onFetchit()```.
+1. Nu skall vi göra en fetch, skapa en ny knapp med titeln “fetch it!" som ni binder till en metod ni döper till ```onFetchit()```.
 
-1. I denna metod gör ni en fetch med URL’en [https://jsonplaceholder.typicode.com/todos/1](https://jsonplaceholder.typicode.com/todos/1)
+1. I denna metod gör ni en fetch med URL'en [https://jsonplaceholder.typicode.com/todos/1](https://jsonplaceholder.typicode.com/todos/1)
 
 1. Logga responsen.
 
@@ -38,7 +38,7 @@ I denna uppgift skall ni leka med promises, fetch och att hämta data med hjälp
 
 1. Slutligen skall vi hämta samma data med angular.
 
-1. Ni lägger till en ny knapp som ni kallar “get with angular”. Vi click skall denna kalla på en metod.
+1. Ni lägger till en ny knapp som ni kallar “get with angular". Vi click skall denna kalla på en metod.
 
 1. I denna metod gör ni samma anrop fast med angulars HttpClient (get).
 

@@ -3,7 +3,7 @@
 I denna uppgift skall ni skapa tre komponenter som vi väljer att visa beroende på hur vi har satt upp vår routing/navigation. Följ stegen nedan.
 
 1. Skapa ett nytt angular projekt med Angular CLI ```ng new formtest```
-(OBS välj yes när frågan “Would you like to add Angular routing?” kommer!)
+(OBS välj yes när frågan “Would you like to add Angular routing?" kommer!)
 
 1. ```cd formtest```
 
@@ -56,7 +56,7 @@ Detta är vår modell. Dvs Såhär kommer vi user se ut när vi gör formuläret
 
 Som vi ser så har vi skapat inputs som binder till ```model.firstName``` och ```model.lastName```. Denna modell bygger på vårt User class. Så denna behöver vi importera och skapa en ny instans av i ```my-form.component.ts```
 
-Som ni märker så att om ni försöker köra detta så får ni fel i konsollen, detta är för att vi inte har importerat FormsModule från ‘@angular/forms’ i vår modul. Gör detta i app.module.ts
+Som ni märker så att om ni försöker köra detta så får ni fel i konsollen, detta är för att vi inte har importerat FormsModule från '@angular/forms' i vår modul. Gör detta i app.module.ts
 
 Som vi ser så har vi skapat inputs som binder till ```model.firstName``` och ```model.lastName``` Denna modell bygger på vårt User class. Så denna behöver vi importera och skapa en ny instans av i ```my-form.component.ts```
 ```
@@ -88,7 +88,7 @@ onSubmit():void {
 
 Om vårt formulär inte är valid så vill vi inte att knappen skall gå att trycka på, detta fixar vi genom att binda ```[disabled]``` attributet till referenser till vårt formulär i html koden.
 ```
-<button type="submit” [disabled]="!userForm.form.valid">
+<button type="submit" [disabled]="!userForm.form.valid">
   Submit
 </button>
 ```

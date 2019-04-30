@@ -108,7 +108,7 @@ class Polygon {
 
 När man skapar en ny instans av denna kan man skicka med 2 värden. Height och width. Dessa sätts till egenskaper genom att använda this, som man sedan kommer åt i metoder genom att referera till this.
 
-15. Så tillbaka till ```Main.js``` här kan vi skapa ny instanser av Polygon (Vi har tillgång till Polygon för att vi har lagt till ```<script src=”Polygon.js”>``` innan ```<script src=”Main.js”>```. Så i ```Main.js``` lägger vi till det markerade:
+15. Så tillbaka till ```Main.js``` här kan vi skapa ny instanser av Polygon (Vi har tillgång till Polygon för att vi har lagt till ```<script src="Polygon.js">``` innan ```<script src="Main.js">```. Så i ```Main.js``` lägger vi till det markerade:
 ```
 window.onload = function(){
    //let mainInstance = new Main();
@@ -131,7 +131,7 @@ Vi börjar med att ändra script taggarna in index.html
 </body>
 ```
 
-17. Vi har nu kommenterat bort den första script taggen, ni kan även ta bort den för den kommer vi inte behöva. Vi har lagt till type=”module”, detta måste göras för att webbläsaren skall förstå att vi jobbar med moduler. Spara och kör. Vi får nu ett för att Polygon inte är definierad, detta är för vi har inte berättat vart den finns.
+17. Vi har nu kommenterat bort den första script taggen, ni kan även ta bort den för den kommer vi inte behöva. Vi har lagt till type="module", detta måste göras för att webbläsaren skall förstå att vi jobbar med moduler. Spara och kör. Vi får nu ett för att Polygon inte är definierad, detta är för vi har inte berättat vart den finns.
 
 18. Det vi behöver göra nu är att först exportera vår Polygon så att den kan vara tillgänglig för andra att använda. Och för att använda den måste vi importera den. Så vi börjar med att exportera den. Detta gör vi genom att lägga till export nyckelordet.
 ```

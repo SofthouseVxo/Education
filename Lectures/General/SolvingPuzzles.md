@@ -17,10 +17,10 @@
 <br/>
 <br/>
 
-### What it’s like being a developer
+### What it's like being a developer
 
 * Solving puzzles is your job.
-* It’s not uncommon that your puzzles is are new puzzles.
+* It's not uncommon that your puzzles is are new puzzles.
 * Puzzles you have never seen before, with missing pieces and it will probably no turn out like in the picture.
 * Often the rules of the puzzles is out of your control.
 
@@ -42,7 +42,7 @@
 <br/>
 <br/>
 
-### However. It’s always your choice how you will respond and act upon it.
+### However. It's always your choice how you will respond and act upon it.
 
 * If it feels impossible, because it will at some point.
 * Will you:
@@ -95,8 +95,8 @@
 * Never be afraid or too proud to show your code
 * Use your subconscious - take breaks!
 * When pair programming - switch it up - writer or partner!
-* When stuck, grinding isn’t always the answer.
-* You can’t do or know it all at once
+* When stuck, grinding isn't always the answer.
+* You can't do or know it all at once
 * Focus on learning instead of worrying about the internship
 
 <br/>
@@ -190,7 +190,7 @@
 
 ## Identify needed resources
 
-1. Go through all your material and identify the things you don’t know how to solve
+1. Go through all your material and identify the things you don't know how to solve
 1. In what order do you need to solve them? Solving 1 task can lead to making it easier to solve another
 1. Identify what you need to learn
 1. Identify where you could access the knowledge
@@ -332,7 +332,7 @@
 1. Navigate (Lectures, Examples, react.js, google, ask)
 
 <br/>
-Lectures aren’t meant to only be looked at once, feedback to make the slides clearer is always appreciated.
+Lectures aren't meant to only be looked at once, feedback to make the slides clearer is always appreciated.
 
 
 <br/>

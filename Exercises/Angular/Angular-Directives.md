@@ -60,7 +60,7 @@ el.nativeElement.style.color = "blue";
 
 I constructorn så kommer det hända saker med elementet, kör och inspektera i webbläsaren så kommer ni se följande:
 
-Vi ser nu att app-forer elementet fått en style och “test text” har lagts till i domen. Och detta har skett i samtliga app-forer.
+Vi ser nu att app-forer elementet fått en style och “test text" har lagts till i domen. Och detta har skett i samtliga app-forer.
 
 15. Det är även möjligt att skicka med parametrar till direktiv så ändra nu i ```app.component.html``` till
 ```<app-forer [appCustom]="'green'" *ngFor="let item of myList"></app-forer>```
@@ -97,4 +97,4 @@ export class CustomDirective implements OnInit{
 Ni behöver även importera HostListener
 ```import { Directive, ElementRef, HostListener, Input, OnInit } from '@angular/core';```
 
-Nu kommer färgen att uppdateras om ni klickar på elementet ni angivit erat direktiv på som blir dennes “Host”.
+Nu kommer färgen att uppdateras om ni klickar på elementet ni angivit erat direktiv på som blir dennes “Host".

@@ -63,13 +63,13 @@
             ##### JSX provides syntactic sugar for the React.createElement(component, props, ...children)
             ##### The JSX code:
             ```JavaScript
-            <h1 className=”greeting”>Hello world!</h1>
+            <h1 className="greeting">Hello world!</h1>
             ```
             ##### compiled to:
             ```JavaScript
             React.createElement(
-              ‘h1’,
-              {className: ‘greeting’},
+              'h1',
+              {className: 'greeting'},
               'Hello world!'
             )
             ```
@@ -80,11 +80,11 @@
           <section data-markdown>
             <script type="text/template">
               ```JavaScript
-              <Login name=”john doe”>Hello world!</Login>
+              <Login name="john doe">Hello world!</Login>
 
               React.createElement(
-                ‘Login’, ← Component
-                {name: ‘john doe’}, ← Props
+                'Login', ← Component
+                {name: 'john doe'}, ← Props
                 'Hello world!' ← Children
               );
               ```
@@ -110,7 +110,7 @@
 
         <section data-markdown>
           <script type="text/template">
-            #### Even if you don’t reference to React directly you always need to import React to have it in scope.
+            #### Even if you don't reference to React directly you always need to import React to have it in scope.
 
             ```JavaScript
             import React, { Component } from 'react';
@@ -224,7 +224,7 @@
               render() {
                 return (
                   this.renderName()
-                  this.renderName //will not show anything since function isn’t called
+                  this.renderName //will not show anything since function isn't called
                 )
               }
             }

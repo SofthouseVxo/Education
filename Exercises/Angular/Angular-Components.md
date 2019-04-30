@@ -46,7 +46,7 @@ Ovan har vi satt en output (egenskap) till namnet ```onChangeName``` och säger 
 
 I ```wrapper.component.html``` lägger vi nu till:
 
-```<app-content (onChangeName)=”changeName($event)” [name]="'John Doe'"></app-content>```
+```<app-content (onChangeName)="changeName($event)" [name]="'John Doe'"></app-content>```
 
 Här är det viktigt att ni använder ```$``` tecknet för att angular skall förstå.
 

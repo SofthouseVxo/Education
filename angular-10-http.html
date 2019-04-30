@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Angular HTTP</title>
+
+		<link rel="stylesheet" href="reveal/css/reset.css">
+		<link rel="stylesheet" href="reveal/css/reveal.css">
+		<link rel="stylesheet" href="reveal/css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="reveal/lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal/css/print/pdf.css' : 'reveal/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+        <section>
+          <h2 style="color: #DD0231;">Angular</h2>
+          <h4>HttpClient & Observables</h4>
+        </section>
+
+        <section>
+          <h3>Observables in Angular</h3>
+          <ul>
+            <li>The EventEmitter class extends Observable.</li>
+            <li>The HTTP module uses observables to handle AJAX requests and responses.</li>
+            <li>The Router and Forms modules use observables to listen for and respond to user-input events.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>HttpClient</h3>
+          <p>Angular’s HttpClient returns observables from HTTP method calls.</p>
+          <ul>
+            <li>HTTP requests are cancellable through the unsubscribe() method.</li>
+            <li>Requests can be configured to get progress event updates.</li>
+            <li>Failed requests can be retried easily.</li>
+          </ul>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### HttpClientModule
+            ```JavaScript
+            import { HttpClientModule } from '@angular/common/http';
+
+            imports: [
+              BrowserModule,
+              AppRoutingModule,
+              FormsModule,
+              HttpClientModule
+            ]
+            ```
+          </script>
+        </section>
+
+        <section>
+          <h3>Angular HttpClient</h3>
+
+          <ul>
+            <li>Simplified client HTTP API for Angular applications that rests on the XMLHttpRequest interface exposed by browsers.</li>
+
+            <li>Observable API's, and streamlined error handling.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>HttpClient</h3>
+          <ul>
+            <li>.get ()</li>
+            <li>.post ()</li>
+            <li>.put ()</li>
+            <li>.delete ()</li>
+          </ul>
+        </section>
+
+        <section>
+          <section>
+            <img src="media/ang-10/get.png" alt="get n stuff">
+            <p></p>
+          </section>
+          <section>
+            <img src="media/ang-10/put.png" alt="put n stuff">
+          </section>
+        </section>
+
+
+			</div>
+		</div>
+
+		<script src="reveal/js/reveal.js"></script>
+
+		<script>
+
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'reveal/plugin/markdown/marked.js' },
+					{ src: 'reveal/plugin/markdown/markdown.js' },
+					{ src: 'reveal/plugin/notes/notes.js', async: true },
+					{ src: 'reveal/plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>

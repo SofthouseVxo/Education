@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Angular - Router</title>
+
+		<link rel="stylesheet" href="reveal/css/reset.css">
+		<link rel="stylesheet" href="reveal/css/reveal.css">
+		<link rel="stylesheet" href="reveal/css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="reveal/lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal/css/print/pdf.css' : 'reveal/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+        <section>
+          <h2 style="color: #DD0231;">Angular</h2>
+          <h4>Router</h4>
+        </section>
+
+        <section>
+          <p>"A routed Angular application has one singleton instance of the Router service. When the browser's URL changes, that router looks for a corresponding Route from which it can determine the component to display." - Angular</p>
+        </section>
+
+        <section>
+          <h3>Routing</h3>
+          <ul>
+            <li>import { Router} from '@angular/router';</li>
+            <li>Navigation between views (components)</li>
+          </ul>
+        </section>
+
+        <section>
+          <section data-markdown>
+            <script type="text/template">
+              ### Setting up the router
+              ```HTML
+              <base href="/"> <!--The base route (index.html)-->
+              ```
+            </script>
+          </section>
+          <section data-markdown>
+            <script type="text/template">
+            ```JavaScript
+            const appRoutes: Routes = [
+              { path: 'crisis-center', component: CrisisListComponent },
+              { path: 'hero/:id',      component: HeroDetailComponent },
+              {
+                path: 'heroes',
+                component: HeroListComponent,
+                data: { title: 'Heroes List' }
+              },
+              { path: '',
+                redirectTo: '/heroes',
+                pathMatch: 'full'
+              },
+              { path: '**', component: PageNotFoundComponent }
+            ];
+
+            @NgModule({
+              imports: [
+                RouterModule.forRoot(
+                  appRoutes,
+                  { enableTracing: true } // <-- debugging purposes only
+                )
+                // other imports here
+              ],
+              ...
+            })
+
+            export class AppModule { }
+            ```
+            From https://angular.io/guide/router
+            </script>
+          </section>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Ways of changing view
+            * Changing the URL manually
+            * Via Links
+            ```HTML
+             <a routerLink="/start"></a>
+            ```
+
+            * Via Component logic
+            ```JavaScript
+            this.router.navigate(['/user']);
+            ```
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ### Links & Outlets
+          ```HTML
+          <h1>Angular Router</h1>
+          <nav>
+            <a routerLink="/crisis-center" routerLinkActive="active">Crisis Center</a>
+            <a routerLink="/heroes" routerLinkActive="active">Heroes</a>
+          </nav>
+          <router-outlet></router-outlet>
+          ```
+          From https://angular.io/guide/router
+          </script>
+        </section>
+
+        <section>
+          <h3>Parameters (params)</h3>
+          <ul>
+            <li>It is possible to send parameters through routes</li>
+            <li>Localhost:4200/user/12 <— 12 is the parameter</li>
+            <li>Gets access to the param in the code</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>RouterState & ActivatedRoute</h3>
+          <ul>
+            <li>RouterState = The state of the router</li>
+            <li>Snapshots of information of the Current state</li>
+            <li>ActivatedRoute = Information about the current route, params, url etc.</li>
+          </ul>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ### Router events
+            * Events that gets triggered related to the routing event
+            * Needs to be subscribed to
+            ```JavaScript
+            constructor(private router:Router){
+                router.events.subscribe((value)=> {
+                  console.log(value); // value from event
+                })
+            }
+            ```
+            * [Complete list](https://angular.io/guide/router)
+          </script>
+        </section>
+
+        <section>
+          <h3>Child routes</h3>
+          <ol>
+            <li>Setup in router config as children</li>
+            <li>Add RouterLink and RouterOutlet as usual</li>
+          </ol>
+        </section>
+
+        <section>
+          <h3>Investigate Augury - Router Tree</h3>
+        </section>
+
+        <section>
+          <h3>Guards</h3>
+          <ul>
+            <li>Service injected in the routing</li>
+            <li>Checks if expression is true</li>
+            <li>If true navigate otherwise don’t</li>
+            <li>CanActivate</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Resolve</h3>
+          <ul>
+            <li>If you need to do something before render new view</li>
+            <li>Fetching data for example</li>
+            <li><a href="https://angular.io/api/router/Resolve"></a>Resolve API</li>
+          </ul>
+
+        </section>
+			</div>
+		</div>
+
+		<script src="reveal/js/reveal.js"></script>
+
+		<script>
+
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'reveal/plugin/markdown/marked.js' },
+					{ src: 'reveal/plugin/markdown/markdown.js' },
+					{ src: 'reveal/plugin/notes/notes.js', async: true },
+					{ src: 'reveal/plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>

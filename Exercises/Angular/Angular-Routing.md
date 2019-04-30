@@ -3,7 +3,7 @@
 I denna uppgift skall ni skapa tre komponenter som vi väljer att visa beroende på hur vi har satt upp vår routing/navigation. Följ stegen nedan.
 
 1. Skapa ett nytt angular projekt med Angular CLI ```ng new routertest```
-(OBS välj yes när frågan “Would you like to add Angular routing?” kommer!)
+(OBS välj yes när frågan “Would you like to add Angular routing?" kommer!)
 
 1. ```cd routertest```
 
@@ -58,7 +58,7 @@ Testa så att det fungerar och att “start-page works!“ skrivs ut på sidan. 
  Vi har nu navigerat med hjälp av att skriva in något i adressfältet, men det går även att navigera med hjälp av länkar och i våra klasser. Gå till start-page.component.html och lägg in följande:
 ```<a routerLink="/profile" routerLinkActive="active">profile</a>```
 
-Testar vi nu detta så ser vi att det har skapats en länk om vi går till “/” i startpage. ```routerLinkActive``` gör så att om denna routen är aktiv så får länken klassen “active”.
+Testar vi nu detta så ser vi att det har skapats en länk om vi går till “/" i startpage. ```routerLinkActive``` gör så att om denna routen är aktiv så får länken klassen “active".
 
  1. Vill vi navigera genom ren logik inuti en komponent så använder vi oss av Router som vi importerar och injectar. Se till så att er ```start-page.component.ts``` ser ut som följande och lägg till en knapp i ```start-page.component.html``` som kallar på ```onNavigate()```.
 ```
@@ -128,6 +128,6 @@ export class NewsArticleComponent {
 }
 ```
 
-Vi kan nu skriva ut id’t i ```news-article.component.html``` -> id is {{newsId}}
+Vi kan nu skriva ut id't i ```news-article.component.html``` -> id is {{newsId}}
 
 Kika på [https://angular-2-training-book.rangle.io/handout/routing/routeparams.html](https://angular-2-training-book.rangle.io/handout/routing/routeparams.html) för att fördjupa er i hur man skickar parametrar med routes.
