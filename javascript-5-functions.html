@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>React & Functional Programming</title>
+
+		<link rel="stylesheet" href="reveal/css/reset.css">
+		<link rel="stylesheet" href="reveal/css/reveal.css">
+		<link rel="stylesheet" href="reveal/css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="reveal/lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal/css/print/pdf.css' : 'reveal/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+        <section>
+          <h2 style="color: #61DAFB;">React</h4>
+          <h4>Functions and intro to Functional Programming</h4>
+        </section>
+        <section>
+          <h3>What is a function?</h3>
+          <ul>
+            <li>“A function is a process which takes some input, called arguments, and produces some output called a return value." - <a href="https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976">Eric Elliot</a></li>
+            <li>“Functions are one of the fundamental building blocks in JavaScript. A function is a JavaScript procedure—a set of statements that performs a task or calculates a value. To use a function, you must define it somewhere in the scope from which you wish to call it." - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions">MDN</a></li>
+          </ul>
+        </section>
+        <section>
+          <h3>Functions can be used for:</h3>
+          <li>Mapping: Based on given inputs it produces some output it maps input values to output values.</li>
+          <li>Procedures: A function may be called to perform a sequence of steps. The sequence is known as a procedure. (Procedural programming)</li>
+          <li>I/O: Functions can communicate with other parts of the system, such as the screen, storage, system logs, or network.</li>
+        </section>
+        <section data-markdown>
+          <script type="text/template">
+            ### Declaring a function
+            ```JavaScript
+            function saySomething(word) {
+              console.log(word);
+            }
+            ```
+          </script>
+        </section>
+        <section data-markdown>
+          <script type="text/template">
+            ### Declaring a nameless function
+            ```JavaScript
+            var saySomething = function(word) {
+            console.log(word);
+            }
+            ```
+          </script>
+        </section>
+        <section data-markdown>
+          <script type="text/template">
+            ## Calling a function
+            ```JavaScript
+            var saySomething = function(word) {
+            console.log(word);
+
+            saySomething('JS rocks!');
+            ```
+          </script>
+        </section>
+        <section data-markdown>
+          <script type="text/template">
+            ## Get save value returned from function
+            ```JavaScript
+            function myFunc(myValue) {
+              return myValue;
+            }
+
+            var value = myFunc(5);
+            console.log(value); //5
+            ```
+          </script>
+        </section>
+        <section data-markdown>
+          <script type="text/template">
+            ## Using value returned from function
+            ```JavaScript
+            function myFunc(myValue) {
+              return function mySecondFunc(){
+                console.log('2nd');
+              };
+            }
+
+            var func = myFunc(5);
+            func();
+            ```
+          </script>
+        </section>
+        <section data-markdown>
+          <script type="text/template">
+            ## Function in object
+            ```JavaScript
+            const myObj = {
+              func : function sayHello(myValue) {
+              console.log('hello');
+              }
+            }
+
+            myObj.func();
+            ```
+          </script>
+        </section>
+        <section data-markdown>
+          <script type="text/template">
+            ## Function in object returning function
+            ```JavaScript
+            const myObj = {
+              func: function myFunc(myValue) {
+                return function mySecondFunc(){
+                  console.log('2nd');
+                };
+              }
+            }
+
+            var returnedFunc = myObj.func();
+            returnedFunc();
+            ```
+          </script>
+        </section>
+        <section data-markdown>
+          <script type="text/template">
+            ## Function as a parameter
+            ```JavaScript
+            function sayHello(helloFunc){
+              helloFunc('hi!');
+            };
+
+            const func = (word)=>{console.log(word)}
+            sayHello((word)=>{
+              console.log(word);
+            });
+            ```
+          </script>
+        </section>
+        <section data-markdown>
+          <script type="text/template">
+            ## Arrow functions
+            ```JavaScript
+            const myFunc = function(param){
+              console.log(param)
+            }
+
+            const myFunc = (param) => {
+              console.log(param);
+            }
+
+            myFunc('hello');
+            ```
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ## Arrow functions
+            ```JavaScript
+            const myFunc = function(param){
+              return param;
+            }
+
+            const myFunc = (param) => {
+              return param;
+            }
+
+            const myFunc = (param) => param;
+
+            const myFunc = param => param;
+
+            myVal = myFunc(12);
+            console.log(myVal);
+            ```
+          </script>
+        </section>
+        <section>
+          <h3>Arrow functions</h3>
+          <ul>
+            <li>Arrow Function DOES NOT bind it's own this.</li>
+            <li>Arrow Functions lexically bind their context so this actually refers to the originating context.</li>
+          </ul>
+        </section>
+			</div>
+		</div>
+
+		<script src="reveal/js/reveal.js"></script>
+
+		<script>
+
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'reveal/plugin/markdown/marked.js' },
+					{ src: 'reveal/plugin/markdown/markdown.js' },
+					{ src: 'reveal/plugin/notes/notes.js', async: true },
+					{ src: 'reveal/plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
