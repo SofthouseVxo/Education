@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ec-api
+  labels:
+    app: ec-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ec-api
+  template:
+    metadata:
+      labels:
+        app: ec-api
+    spec:
+      containers:
+      - name: ec-api
+        image: eu.gcr.io/kubernetes-rocks/ec-api
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 3000
+        env:
+        - name: DATABASE_URL
+          value: "mongodb://ec-api:Rg21BKVR2v@ec-api-mongodb:27017/ec-api"
+        livenessProbe:
+          httpGet:
+            path: /healthz
+            port: 3000
+          initialDelaySeconds: 3
+          periodSeconds: 3
+        readinessProbe:
+          httpGet:
+            path: /healthz/readiness
+            port: 3000
+          initialDelaySeconds: 3
+          periodSeconds: 3

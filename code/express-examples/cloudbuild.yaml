@@ -1,0 +1,11 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['pull', '$_GCR/$PROJECT_ID/$_REPO_NAME:latest']
+- name: 'gcr.io/cloud-builders/docker'
+  args: ["build", "-t", "$_GCR/$PROJECT_ID/$_REPO_NAME:$COMMIT_SHA", "-t", "$_GCR/$PROJECT_ID/$_REPO_NAME:latest", '--cache-from', '$_GCR/$PROJECT_ID/$_REPO_NAME:latest', "."]
+- name: 'gcr.io/cloud-builders/docker'
+  args: ["push", "$_GCR/$PROJECT_ID/$_REPO_NAME:$COMMIT_SHA"]
+- name: 'gcr.io/cloud-builders/kubectl'
+  env: ['CLOUDSDK_COMPUTE_ZONE=$_CLUSTER_ZONE', 'CLOUDSDK_CONTAINER_CLUSTER=$_CLUSTER']
+  args: ['set', 'image', 'deployment/$_DEPLOYMENT', '$_CONTAINER_NAME=$_GCR/$PROJECT_ID/$_REPO_NAME:$COMMIT_SHA']
+images: ['$_GCR/$PROJECT_ID/$_REPO_NAME:latest']
