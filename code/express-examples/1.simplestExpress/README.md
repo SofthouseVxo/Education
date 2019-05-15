@@ -2,9 +2,26 @@
 
 Listens to HTTP get on / and returns "{Hello": "World"} as UTF-8 encoded application/json
 
-## Instructions
+## Creating it from Scratch
 
 ```sh
+npm init
+npm install express
+```
+
+add the `"start": "node index.js",`in package json under scripts for convenience
+
+Create and add the contents to `ìndex.js` file
+
+```sh
+npm start
+```
+
+press ctrl-c to break execution
+
+## Instructions
+
+```bash
 npm install
 npm start
 ```
