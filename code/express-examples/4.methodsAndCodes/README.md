@@ -20,8 +20,9 @@ Content-Length: 22
 ETag: W/"16-H2aKpu4DuiJ4tNHt4H8EOdcflxw"
 Date: Mon, 13 May 2019 21:59:19 GMT
 Connection: keep-alive
+Custom-response-header: yep
 
-you sent a get request
+you sent a get request and got a custom response header
 ```
 
 ```sh

@@ -10,7 +10,6 @@ const methods = require('./methods.js')
 //  next()
 //})
 
-
 router.get("/methods", methods.get)
 router.post("/methods", methods.post)
 router.put("/methods", methods.put)
