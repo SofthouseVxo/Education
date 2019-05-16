@@ -1,6 +1,8 @@
-# Methods and Return Codes
+# Middlewares
 
-Listens to different HTTP methods on /methods and returns a text response and return code
+Echoes the body of the post request to /middlewares
+
+Uses the express.json() middleware to parse the body of the request as json if a header `Content-Type: application/json` is supplied.
 
 ## Instructions
 
@@ -12,42 +14,14 @@ npm start
 ## Test
 
 ```sh
-curl -s -i "localhost:3000/methods"
+curl -i -X POST localhost:3000/middlewares --data '{"asdasd":"asdasd"}' -H "Content-Type: application/json; charset=utf-8"
 HTTP/1.1 200 OK
 X-Powered-By: Express
-Content-Type: text/html; charset=utf-8
-Content-Length: 22
-ETag: W/"16-H2aKpu4DuiJ4tNHt4H8EOdcflxw"
-Date: Mon, 13 May 2019 21:59:19 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 19
+ETag: W/"13-OZIO+ye4P9Xv9YO5AQ3vRN9ueLg"
+Date: Thu, 16 May 2019 08:39:43 GMT
 Connection: keep-alive
 
-you sent a get request
-```
-
-```sh
-curl -s -i -X POST "localhost:3000/methods"
-HTTP/1.1 201 Created
-X-Powered-By: Express
-Content-Type: text/html; charset=utf-8
-Content-Length: 81
-ETag: W/"51-VAdbb/HQgfclsolPbYqgX7OK9bs"
-Date: Mon, 13 May 2019 21:59:48 GMT
-Connection: keep-alive
-
-You sent a Post, I'll respond with a status of 201 (Created) even though I didn't
-```
-
-```sh
-curl -s -i -X PUT "localhost:3000/methods"
-```
-
-A no content response literally has no content even if you try to send it
-
-```sh
-curl -s -i -X DELETE "localhost:3000/methods"
-HTTP/1.1 204 No Content
-X-Powered-By: Express
-ETag: W/"45-KgVIiUpMkBB7At+HYJk0oP8zZFM"
-Date: Mon, 13 May 2019 22:05:21 GMT
-Connection: keep-alive
+{"asdasd":"asdasd"}
 ```

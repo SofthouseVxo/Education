@@ -6,7 +6,7 @@ Listens to HTTP get on / and returns "{Hello": "World"} as UTF-8 encoded applica
 
 ```sh
 npm init
-npm install express
+npm install --save express
 ```
 
 add the `"start": "node index.js",`in package json under scripts for convenience

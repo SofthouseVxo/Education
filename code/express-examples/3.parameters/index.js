@@ -8,6 +8,6 @@ const port = process.env.PORT || 3000;
 app.use('/', routes)
 
 // Start up server and begin listen to requests
-app.listen(port, () => {
-  console.info(`Server is listening on port ${port}.`);
+const listener = app.listen(port, () => {
+  console.info(`Server is listening on port ${listener.address().port}.`);
 });
