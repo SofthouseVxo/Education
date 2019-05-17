@@ -10,14 +10,14 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #fff;
-  background-color: #fff; }
+  background: #37506a;
+  background-color: #37506a; }
 
 .reveal {
   font-family: 'Montserrat', sans-serif;
   font-size: 36px;
   font-weight: normal;
-  color: #2f3640; }
+  color: #fff; }
 
 ::selection {
   color: #fff;
@@ -48,7 +48,7 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #37506A;
+  color: #fff;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   line-height: 1.2;
@@ -67,6 +67,10 @@ body {
 
 .reveal h4 {
   font-size: 1.3em; }
+
+.reveal h5 {
+  color: #e2c0b4;
+}
 
 .reveal h1 {
   text-shadow: none; }
@@ -167,7 +171,7 @@ body {
   display: block;
   padding: 5px;
   overflow: auto;
-  max-height: 400px;
+  max-height: 500px;
   word-wrap: normal; }
 
 .reveal table {
@@ -217,7 +221,7 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #DC823D;
+  color: #e2c0b4;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease; }
@@ -258,7 +262,10 @@ body {
  * NAVIGATION CONTROLS
  *********************************************/
 .reveal .controls {
-  color: #2a76dd; }
+  color: #fff;
+  margin-right: 28px;
+  margin-bottom: 6px;
+}
 
 /*********************************************
  * PROGRESS BAR
