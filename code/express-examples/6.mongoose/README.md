@@ -5,7 +5,7 @@ Mongoose is an NPM lib used to communicate with a mongodb database.
 ## Setting it up from scratch
 
 ```sh
-npm install --save mongoodb
+npm install --save mongoose
 ```
 
 ## Instructions
