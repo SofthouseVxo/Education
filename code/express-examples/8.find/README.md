@@ -19,7 +19,7 @@ npm start
 
 ## Test
 
-Add a user to get an `_id`
+Add a user to query for
 
 ```sh
 curl -X POST localhost:3000/users --data '{
