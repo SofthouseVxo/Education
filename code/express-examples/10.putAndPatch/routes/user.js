@@ -1,3 +1,5 @@
+dotify = require('node-dotify');
+
 get = (req, res, next) => {
   var query;
   if(req.query.username) {
@@ -82,10 +84,11 @@ put = (req, res, next) => {
 const patch = (req, res, next) => {
   req.models.User.findByIdAndUpdate(req.params.id,
   { 
-    $set: req.body
+    $set: dotify(req.body)
   },
   {
     returnNewDocument: true,
+    new: true,
   }).then((user) => {
     console.log(user)
     res.send(user)
