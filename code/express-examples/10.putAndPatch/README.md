@@ -2,7 +2,7 @@
 
 Mongoose is an NPM lib used to communicate with a mongodb database.
 
-Implement PUT and PATCH
+Find a user by supplying a query parameter
 
 ## Setting it up from scratch
 
@@ -19,10 +19,10 @@ npm start
 
 ## Test
 
-Add a user to get an `_id`
+Put to replace an entire resource at the given path
 
 ```sh
-curl -X POST localhost:3000/users --data '{
+curl -X PUT localhost:3000/users/5ce52a319d587f271134f82f --data '{
   "name": "My Name",
   "username": "coolz",
   "email": "coolz@gmail.com",
@@ -57,27 +57,28 @@ curl -X POST localhost:3000/users --data '{
 }
 ```
 
-Search for the user by userName
+Patch to update a part of a resource at the given path
 
 ```sh
-curl localhost:3000/users?username=coolz -H "Content-Type: application/json; charset=utf-8" | jq .
+curl -X PATCH localhost:3000/users/5ce52a319d587f271134f82f --data '{
+  "name": "Something other than my name"
+}' -H "Content-Type: application/json; charset=utf-8" | jq .
 
 {
   "address": {
     "geo": {
-      "lat": 0,
-      "lng": 0
+      "lat": 1,
+      "lng": 2
     },
-    "street": "string",
-    "suite": "string",
-    "city": "string",
-    "zipcode": "string"
+    "street": "My Stree",
+    "suite": "My Suite",
+    "city": "My City",
+    "zipcode": "Zip"
   },
-  "_id": "5ce520d8bd2a0824110b47db",
-  "name": "string",
-  "username": "string",
-  "email": "string",
+  "_id": "5ce52a319d587f271134f82f",
+  "name": "Something other than my name",
+  "username": "coolz",
+  "email": "coolz@gmail.com",
   "__v": 0
 }
 ```
-
