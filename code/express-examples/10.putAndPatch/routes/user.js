@@ -80,8 +80,7 @@ put = (req, res, next) => {
 }
 
 const patch = (req, res, next) => {
-  console.log(req.body)
-  req.models.User.findOneAndUpdate({_id: req.params.id},
+  req.models.User.findByIdAndUpdate(req.params.id,
   { 
     $set: req.body
   },

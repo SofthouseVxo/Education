@@ -22,7 +22,7 @@ npm start
 Put to replace an entire resource at the given path
 
 ```sh
-curl -X PUT localhost:3000/users/5ce52a319d587f271134f82f --data '{
+curl -i -X PUT localhost:3000/users/5ce52a319d587f271134f82f --data '{
   "name": "My Name",
   "username": "coolz",
   "email": "coolz@gmail.com",
@@ -36,7 +36,7 @@ curl -X PUT localhost:3000/users/5ce52a319d587f271134f82f --data '{
       "lng": 2
     }
   }
-}' -H "Content-Type: application/json; charset=utf-8" | jq .
+}' -H "Content-Type: application/json; charset=utf-8"
 
 {
   "address": {
@@ -62,7 +62,7 @@ Patch to update a part of a resource at the given path
 ```sh
 curl -X PATCH localhost:3000/users/5ce52a319d587f271134f82f --data '{
   "name": "Something other than my name"
-}' -H "Content-Type: application/json; charset=utf-8" | jq .
+}' -H "Content-Type: application/json; charset=utf-8" | jq
 
 {
   "address": {
