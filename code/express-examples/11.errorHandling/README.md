@@ -68,3 +68,21 @@ curl -i -X POST localhost:3000/users/ --data '{
 
 HTTP/1.1 400 Bad Request
 ```
+
+Handles mongoose connection errors better in the catch block if mongo isn't available:
+
+```sh
+npm start
+
+{ MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017
+    at Socket.err (/Users/jonaseck/git/Education/code/express-examples/11.errorHandling/node_modules/mongodb-core/lib/connection/connect.js:287:16)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'MongoNetworkError',
+  errorLabels: [ 'TransientTransactionError' ],
+  [Symbol(mongoErrorContextSymbol)]: {} }
+```
