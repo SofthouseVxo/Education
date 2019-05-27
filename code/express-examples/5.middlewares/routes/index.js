@@ -11,7 +11,7 @@ router.use(function timeLog (req, res, next) {
   next()
 })
 
-router.post("/middlewares", body.body)
+router.post("/body", body.body)
 
 router.get("/methods", methods.get)
 router.post("/methods", methods.post)

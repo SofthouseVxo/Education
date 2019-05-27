@@ -13,14 +13,14 @@ const port = process.env.PORT || 3000;
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
-app.use((error, req, res, next) => {
+app.use(error = (error, req, res, next) => {
   if (res.headersSent) {
     return next(err)
   }
   res.status(error.statusCode || error.status || 500).send({error: error })
 })
 
-app.use((req, res, next) => {
+app.use(models = (req, res, next) => {
   req.models = db.models
   next()
 })
