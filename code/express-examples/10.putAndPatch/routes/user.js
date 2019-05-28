@@ -42,7 +42,7 @@ getById = (req, res, next) => {
 }
 
 deleteById = (req, res, next) => {
-  req.models.User.findOneAndDelete().then((deleted)=> {
+  req.models.User.findByIdAndDelete(req.params.id).then((deleted)=> {
     if (deleted)
       return res.send(deleted).status(200)
     res.sendStatus(204)
