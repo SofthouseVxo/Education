@@ -19,30 +19,33 @@ var userMock = sinon.mock(User)
 before(() => {
 });
 
-after( () => {
+afterEach( () => {
+	userMock.verify();
 	userMock.restore(); // Unwraps the spy
 });
 
 
 describe('User Integration tests', () => {
 
-const expected = {
-	"address": {
-		"geo": {
-			"lat": 1,
-			"lng": 2
+	// Our test data
+	const expected = {
+		"address": {
+			"geo": {
+				"lat": 1,
+				"lng": 2
+			},
+			"street": "My Stree",
+			"suite": "My Suite",
+			"city": "My City",
+			"zipcode": "Zip"
 		},
-		"street": "My Stree",
-		"suite": "My Suite",
-		"city": "My City",
-		"zipcode": "Zip"
-	},
-	"_id": "5cecf112a66bc43a217dfda3",
-	"name": "My Name",
-	"username": "coolz",
-	"email": "coolz@gmail.com",
-	"__v": 0
-}
+		"_id": "5cecf112a66bc43a217dfda3",
+		"name": "My Name",
+		"username": "coolz",
+		"email": "coolz@gmail.com",
+		"__v": 0
+	}
+
 	describe('users.get', ()  => {
 
 		it('Should return an array of all users', (done) => {
@@ -68,14 +71,14 @@ const expected = {
 
 			// Given (preconditions)
 			userMock
-			.expects('find')
-			.withArgs({username: "coolz"})
+			.expects('findOne')
+			.withArgs({"username": "coolz"})
 			.chain('exec')
 			.resolves(expected);
 
 			// When (someting happens)
 			agent
-			.get('/users/?username=coolz')
+			.get('/users?username=coolz')
 			.end((err,res) => {
 			// Then (something should happen)
 				expect(res.status).to.equal(200);
@@ -84,4 +87,25 @@ const expected = {
 			});
 		});
 	});
+
+	describe('users.post', ()  => {
+		it('Should be able to create a user', (done) => {
+			// Given (preconditions)
+			userMock
+			.expects('create')
+			.chain('exec')
+			.resolves(expected);
+
+			// When (someting happens)
+			agent
+			.post('/users/')
+			.send(expected)
+			.end((err,res) => {
+			// Then (something should happen)
+				expect(res.status).to.equal(201);
+				expect(res.body).to.eql(expected);
+				done();
+			});
+		});
+	})
 });
