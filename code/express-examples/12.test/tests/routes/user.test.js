@@ -64,7 +64,7 @@ const expected = {
 			});
 		});
 
-		it('Should get a user by ID', (done) => {
+		it('Should get a user by name', (done) => {
 
 			// Given (preconditions)
 			userMock
