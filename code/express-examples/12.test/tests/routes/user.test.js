@@ -14,7 +14,17 @@ const expect = require('chai').expect;
 // get the model
 const User = mongoose.model('User')
 
-describe('User Integration tests', function () {
+
+var userMock = sinon.mock(User)
+before(() => {
+});
+
+after( () => {
+	userMock.restore(); // Unwraps the spy
+});
+
+
+describe('User Integration tests', () => {
 
 const expected = {
 	"address": {
@@ -35,24 +45,43 @@ const expected = {
 }
 	describe('users.get', ()  => {
 
-		// Given
-		sinon
-			.mock(User)
+		it('Should return an array of all users', (done) => {
+
+			// Given (preconditions)
+			userMock
 			.expects('find')
+			.chain('exec')
+			.resolves([expected]);
+
+			// When (someting happens)
+			agent
+			.get('/users')
+			.end((err,res) => {
+			// Then (something should happen)
+				expect(res.status).to.equal(200);
+				expect(res.body).to.eql([expected]);
+				done();
+			});
+		});
+
+		it('Should get a user by ID', (done) => {
+
+			// Given (preconditions)
+			userMock
+			.expects('find')
+			.withArgs({username: "coolz"})
 			.chain('exec')
 			.resolves(expected);
 
-			// When
-		it('Should return an array of all users', (done) => {
+			// When (someting happens)
 			agent
-			.get('/users')
-			.expect(200)
+			.get('/users/?username=coolz')
 			.end((err,res) => {
-			// Then
+			// Then (something should happen)
+				expect(res.status).to.equal(200);
 				expect(res.body).to.eql(expected);
 				done();
 			});
 		});
-		
 	});
 });
