@@ -1,0 +1,26 @@
+{
+  "name": "1.simplestexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "mocha ./tests --recursive"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.5.8"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.1",
+    "should": "^13.2.3",
+    "sinon": "^7.3.2",
+    "sinon-mongoose": "^2.3.0",
+    "supertest": "^4.0.2"
+  }
+}
