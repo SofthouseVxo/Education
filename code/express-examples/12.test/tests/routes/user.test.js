@@ -93,6 +93,21 @@ describe('User Integration tests', () => {
 			// Given (preconditions)
 			userMock
 			.expects('create')
+			.withArgs({
+				"address": {
+					"geo": {
+						"lat": 1,
+						"lng": 2
+					},
+					"street": "My Stree",
+					"suite": "My Suite",
+					"city": "My City",
+					"zipcode": "Zip"
+				},
+				"name": "My Name",
+				"username": "coolz",
+				"email": "coolz@gmail.com",
+			})
 			.chain('exec')
 			.resolves(expected);
 
