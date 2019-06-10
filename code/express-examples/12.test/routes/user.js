@@ -48,7 +48,7 @@ deleteById = (req, res, next) => {
 }
 
 put = (req, res, next) => {
-  req.models.User.updateOne({_id: req.params.id},
+  req.models.User.update({_id: req.params.id},
     {
       name: req.body.name,
       username: req.body.username,
@@ -64,9 +64,9 @@ put = (req, res, next) => {
         }
       },
     },{
-      new: true,
-      upsert: true,
-      runvalidators: true,
+     new: true,
+     upsert: true,
+     runvalidators: true,
     }).then((status) => {
       console.log("status: ", status)
       if (status.upserted)

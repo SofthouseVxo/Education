@@ -14,7 +14,6 @@ const expect = require('chai').expect;
 // get the model
 const User = mongoose.model('User')
 
-
 var userMock = sinon.mock(User)
 before(() => {
 });
@@ -123,4 +122,39 @@ describe('User Integration tests', () => {
 			});
 		});
 	})
+
+	describe('users.put', ()  => { 
+		it('Should be able to create a user', (done) => {
+			// Given (preconditions)
+			userMock
+			.expects('update')
+			.withArgs({ _id: "5cecf112a66bc43a217dfda3" },{
+				address: {
+					city: "My City",
+					geo: { lat: 1, lng: 2 },
+					street: "My Stree",
+					suite: "My Suite",
+					zipcode: "Zip"
+				},
+				email: "coolz@gmail.com",
+				name: "My Name",
+				username: "coolz"
+			})
+			.chain('exec')
+			.resolves({ n: 1,
+				nModified: 0,
+				upserted: [ { index: 0, _id: "5ce52a319d587f271134f82f" } ],
+				ok: 1 });
+
+			// When (someting happens)
+			agent
+			.put('/users/5cecf112a66bc43a217dfda3')
+			.send(expected)
+			.end((err,res) => {
+			// Then (something should happen)
+				expect(res.status).to.equal(201);
+				done();
+			});
+		});
+	});
 });
