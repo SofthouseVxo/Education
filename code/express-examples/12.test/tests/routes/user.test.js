@@ -1,6 +1,8 @@
 // Mongoose and mocking requests
-const mongoose = require('mongoose')
 const sinon = require('sinon');
+
+const mongoose = require('mongoose')
+mongoose.set('debug', true)
 require('sinon-mongoose')
 
 // initialize the app and models
@@ -15,18 +17,37 @@ const expect = require('chai').expect;
 const User = mongoose.model('User')
 
 var userMock = sinon.mock(User)
-before(() => {
+
+beforeEach(() => {
+	console.log("beforeEach")
+	userMock.restore(); // Unwraps the spy
 });
 
 afterEach( () => {
+	console.log("afterEach")
 	userMock.verify();
-	userMock.restore(); // Unwraps the spy
 });
 
 
 describe('User Integration tests', () => {
 
 	// Our test data
+	const request = {
+		"address": {
+			"geo": {
+				"lat": 1,
+				"lng": 2
+			},
+			"street": "My Stree",
+			"suite": "My Suite",
+			"city": "My City",
+			"zipcode": "Zip"
+		},
+		"name": "My Name",
+		"username": "coolz",
+		"email": "coolz@gmail.com",
+	}
+
 	const expected = {
 		"address": {
 			"geo": {
@@ -92,21 +113,7 @@ describe('User Integration tests', () => {
 			// Given (preconditions)
 			userMock
 			.expects('create')
-			.withArgs({
-				"address": {
-					"geo": {
-						"lat": 1,
-						"lng": 2
-					},
-					"street": "My Stree",
-					"suite": "My Suite",
-					"city": "My City",
-					"zipcode": "Zip"
-				},
-				"name": "My Name",
-				"username": "coolz",
-				"email": "coolz@gmail.com",
-			})
+			.withArgs(request)
 			.chain('exec')
 			.resolves(expected);
 
@@ -127,19 +134,8 @@ describe('User Integration tests', () => {
 		it('Should be able to create a user', (done) => {
 			// Given (preconditions)
 			userMock
-			.expects('update')
-			.withArgs({ _id: "5cecf112a66bc43a217dfda3" },{
-				address: {
-					city: "My City",
-					geo: { lat: 1, lng: 2 },
-					street: "My Stree",
-					suite: "My Suite",
-					zipcode: "Zip"
-				},
-				email: "coolz@gmail.com",
-				name: "My Name",
-				username: "coolz"
-			})
+			.expects('updateOne')
+			.withArgs({ _id: "5cecf112a66bc43a217dfda3" }, request)
 			.chain('exec')
 			.resolves({ n: 1,
 				nModified: 0,
@@ -149,12 +145,56 @@ describe('User Integration tests', () => {
 			// When (someting happens)
 			agent
 			.put('/users/5cecf112a66bc43a217dfda3')
-			.send(expected)
+			.send(request)
 			.end((err,res) => {
 			// Then (something should happen)
 				expect(res.status).to.equal(201);
 				done();
 			});
 		});
+
+		xit('Should be able to update a user', (done) => {
+			// Given (preconditions)
+			userMock
+			.expects('updateOne')
+			.withArgs({ _id: "5cecf112a66bc43a217dfda3" }, request)
+			.chain('exec')
+			.resolves({ n: 1,
+				nModified: 1,
+				ok: 1 });
+
+			// When (someting happens)
+			agent
+			.put('/users/5cecf112a66bc43a217dfda3')
+			.send(request)
+			.end((err,res) => {
+			// Then (something should happen)
+				expect(res.status).to.equal(200);
+				done();
+			});
+		});
+		
+
+		xit('Should return 204 when not updating a user', (done) => {
+			// Given (preconditions)
+			userMock
+			.expects('updateOne')
+			.withArgs({ _id: "5cecf112a66bc43a217dfda3" }, request)
+			.chain('exec')
+			.resolves({ n: 1,
+				nModified: 0,
+				ok: 1 });
+
+			// When (someting happens)
+			agent
+			.put('/users/5cecf112a66bc43a217dfda3')
+			.send(request)
+			.end((err,res) => {
+			// Then (something should happen)
+				expect(res.status).to.equal(204);
+				done();
+			});
+		});
+
 	});
 });

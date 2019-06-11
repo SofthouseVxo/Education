@@ -28,12 +28,14 @@ app.use((req, res, next) => {
 app.use('/', routes)
 
 // Start up the database, then the server and begin listen to requests
-db.connectDb().then(() => {
-  const listener = app.listen(port, () => {
-    console.info(`Server is listening on port ${listener.address().port}.`);
+if(process.env.NODE_ENV != "test") {
+  db.connectDb().then(() => {
+    const listener = app.listen(port, () => {
+      console.info(`Server is listening on port ${listener.address().port}.`);
+    })
+  }).catch((error) => {
+    console.error(error)
   })
-}).catch((error) => {
-  console.error(error)
-})
+}
 
 module.exports = app

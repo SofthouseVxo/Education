@@ -48,7 +48,8 @@ deleteById = (req, res, next) => {
 }
 
 put = (req, res, next) => {
-  req.models.User.update({_id: req.params.id},
+  console.log("put")
+  req.models.User.updateOne({_id: req.params.id},
     {
       name: req.body.name,
       username: req.body.username,

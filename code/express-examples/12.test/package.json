@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js",
-    "test": "mocha ./tests --recursive"
+    "test": "NODE_ENV=test mocha ./tests --recursive"
   },
   "author": "",
   "license": "MIT",
