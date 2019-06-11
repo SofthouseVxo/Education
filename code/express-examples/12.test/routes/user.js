@@ -14,6 +14,7 @@ get = (req, res, next) => {
 }
 
 post = (req, res, next) => {
+  console.log(req.body)
   req.models.User.create({
     name: req.body.name,
     username: req.body.username,
@@ -29,6 +30,7 @@ post = (req, res, next) => {
       }
     }
   }).then((user) => {
+    console.log(user)
     return res.status(201).send(user)
   }).catch((error) => next(error))
 }

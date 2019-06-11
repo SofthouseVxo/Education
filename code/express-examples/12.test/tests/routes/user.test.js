@@ -120,7 +120,7 @@ describe('User Integration tests', () => {
 			// When (someting happens)
 			agent
 			.post('/users/')
-			.send(expected)
+			.send(request)
 			.end((err,res) => {
 			// Then (something should happen)
 				expect(res.status).to.equal(201);
