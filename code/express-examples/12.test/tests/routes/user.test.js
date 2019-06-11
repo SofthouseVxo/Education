@@ -19,12 +19,11 @@ const User = mongoose.model('User')
 var userMock = sinon.mock(User)
 
 beforeEach(() => {
-	console.log("beforeEach")
 	userMock.restore(); // Unwraps the spy
+	userMock = sinon.mock(User)
 });
 
 afterEach( () => {
-	console.log("afterEach")
 	userMock.verify();
 });
 
@@ -153,7 +152,7 @@ describe('User Integration tests', () => {
 			});
 		});
 
-		xit('Should be able to update a user', (done) => {
+		it('Should be able to update a user', (done) => {
 			// Given (preconditions)
 			userMock
 			.expects('updateOne')
@@ -175,7 +174,7 @@ describe('User Integration tests', () => {
 		});
 		
 
-		xit('Should return 204 when not updating a user', (done) => {
+		it('Should return 204 when not updating a user', (done) => {
 			// Given (preconditions)
 			userMock
 			.expects('updateOne')

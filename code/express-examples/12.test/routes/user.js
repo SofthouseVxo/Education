@@ -14,7 +14,6 @@ get = (req, res, next) => {
 }
 
 post = (req, res, next) => {
-  console.log(req.body)
   req.models.User.create({
     name: req.body.name,
     username: req.body.username,
@@ -30,7 +29,6 @@ post = (req, res, next) => {
       }
     }
   }).then((user) => {
-    console.log(user)
     return res.status(201).send(user)
   }).catch((error) => next(error))
 }
@@ -50,7 +48,6 @@ deleteById = (req, res, next) => {
 }
 
 put = (req, res, next) => {
-  console.log("put")
   req.models.User.updateOne({_id: req.params.id},
     {
       name: req.body.name,
@@ -71,7 +68,6 @@ put = (req, res, next) => {
      upsert: true,
      runvalidators: true,
     }).then((status) => {
-      console.log("status: ", status)
       if (status.upserted)
         res.status(201)
       else if (status.nModified)
@@ -90,7 +86,6 @@ const patch = (req, res, next) => {
   {
     returnNewDocument: true,
   }).then((user) => {
-    console.log(user)
     res.send(user)
   }).catch((error) => next(error))
 }
