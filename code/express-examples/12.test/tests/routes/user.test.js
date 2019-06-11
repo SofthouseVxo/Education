@@ -139,7 +139,7 @@ describe('User Integration tests', () => {
 			.chain('exec')
 			.resolves({ n: 1,
 				nModified: 0,
-				upserted: [ { index: 0, _id: "5ce52a319d587f271134f82f" } ],
+				upserted: [ { index: 0, _id: "5cecf112a66bc43a217dfda3" } ],
 				ok: 1 });
 
 			// When (someting happens)
