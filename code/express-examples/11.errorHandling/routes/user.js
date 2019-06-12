@@ -47,9 +47,56 @@ deleteById = (req, res, next) => {
   }).catch((error) => next(error))
 }
 
+put = (req, res, next) => {
+  req.models.User.updateOne({_id: req.params.id},
+    {
+      name: req.body.name,
+      username: req.body.username,
+      email: req.body.email,
+      address: {
+        street: req.body.address.street,
+        suite: req.body.address.suite,
+        city: req.body.address.city,
+        zipcode: req.body.address.zipcode,
+        geo: {
+          lat: req.body.address.geo.lat,
+          lng: req.body.address.geo.lng,
+        }
+      },
+    },{
+      new: true,
+      upsert: true,
+      runvalidators: true,
+    }).then((status) => {
+      console.log("status: ", status)
+      if (status.upserted)
+        res.status(201)
+      else if (status.nModified)
+        res.status(200)
+      else 
+        res.status(204)
+    res.send()
+    }).catch((error) => next(error))
+}
+
+const patch = (req, res, next) => {
+  req.models.User.findByIdAndUpdate(req.params.id,
+  { 
+    $set: req.body
+  },
+  {
+    returnNewDocument: true,
+  }).then((user) => {
+    console.log(user)
+    res.send(user)
+  }).catch((error) => next(error))
+}
+
 module.exports = {
   get,
   post,
   getById,
   deleteById,
+  put,
+  patch
 }

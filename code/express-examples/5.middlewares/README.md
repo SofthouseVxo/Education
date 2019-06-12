@@ -14,7 +14,7 @@ npm start
 ## Test
 
 ```sh
-curl -i -X POST localhost:3000/middlewares --data '{"somekey":"somevalue"}' -H "Content-Type: application/json; charset=utf-8"
+curl -i -X POST localhost:3000/body --data '{"somekey":"somevalue"}' -H "Content-Type: application/json; charset=utf-8"
 
 {"somekey":"somevalue"}
 ```
