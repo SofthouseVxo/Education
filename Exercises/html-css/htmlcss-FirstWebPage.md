@@ -1,4 +1,6 @@
-## HTML & CSS skapa flera html sidor
+## HTML & CSS first website
+
+### Ni skall nu skapa en webbplats med flera html sidor, dvs en multi page site
 
 1. Installera ett IDE, förslagsvis visual studio code
 
