@@ -1,0 +1,18 @@
+:root {
+  --color-red: red;
+}
+
+#footer {
+  --color-blue: blue;
+}
+
+#footer p {
+  color: var(--color-blue)
+}
+
+#my-div {
+  width: 400px;
+  height: 400px;
+  background-color: lightcoral;
+}
+
