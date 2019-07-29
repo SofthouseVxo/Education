@@ -2,7 +2,7 @@
 
 ### Ni skall skapa följande tabell
 
-![Table Reference](https://github.com/SofthouseVxo/Education/tree/master/Exercises/html-css/table.png "Table reference")
+![Table Reference](/table.png "Table reference")
 
 1. Börja med att skapa ett table
 
