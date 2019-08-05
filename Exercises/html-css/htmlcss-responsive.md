@@ -7,11 +7,11 @@ Ni skall nu få ska ett responsivt grid.
 
 1. Skapa en ny katalog
 
-1. I denna skapar ni en index.html med basstruktur
+2. I denna skapar ni en index.html med basstruktur
 
-1. Skapa även en styles.css i samma katalog
+3. Skapa även en styles.css i samma katalog
 
-1. I styles.css lägger ni nu till följande kod
+4. I styles.css lägger ni nu till följande kod
 
 ```CSS
 .col-1 {width: 8.33%;}
@@ -33,21 +33,21 @@ Ni skall nu få ska ett responsivt grid.
 
 ```
 
-1. Lägg nu till en div med id "container". Denna ger ni bredd 1000px,höjd 50px samt en border som är grå, solid och 2px.
+5. Lägg nu till en div med id "container". Denna ger ni bredd 1000px,höjd 50px samt en border som är grå, solid och 2px.
 
-1. I denna skapar ni 3st divar med css klasserna left, middle & right.
+6. I denna skapar ni 3st divar med css klasserna left, middle & right.
 
-1. Ge dessa 3 klasserna olika färger och en höjd på 50px.
+7. Ge dessa 3 klasserna olika färger och en höjd på 50px.
 
-1. Testa nu att ge de olika de olika klasserna som vi lade till i CSS dokumentet. col-
+8. Testa nu att ge de olika de olika klasserna som vi lade till i CSS dokumentet. col-
 
-1. Nu skall ni göra så att det ser ut som följande:
+9. Nu skall ni göra så att det ser ut som följande:
 
 ![12 column grid](media/12c.png "12 column grid")
 
-1. Detta funkar fint på en datorskärm, men på en mobil skulle kolumnerna blivit väldigt små. Jag vill nu att ni lägger till CSS så att om skärmen är mindre än 768px så skall alla columner vara 100% breda. Glöm inte att lägga till ```<meta name="viewport" content="width=device-width, initial-scale=1">``` inuti ```<head></head>```. När det är klart skall det så ut som nedan.
+10. Detta funkar fint på en datorskärm, men på en mobil skulle kolumnerna blivit väldigt små. Jag vill nu att ni lägger till CSS så att om skärmen är mindre än 768px så skall alla columner vara 100% breda. Glöm inte att lägga till ```<meta name="viewport" content="width=device-width, initial-scale=1">``` inuti ```<head></head>```. När det är klart skall det så ut som nedan.
 
-1. Använd developer tools för att simulera skärmstorlekarna.
+Använd Chrome developer tools (eller annan webbläsare) för att simulera skärmstorlekarna.
 
 ![Media Queries](media/mediaQ.png "Media Queries")
 
