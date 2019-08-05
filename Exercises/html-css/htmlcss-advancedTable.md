@@ -12,7 +12,7 @@
   1. Innehåll
   1. Sätt colspans och rowspans
 
-1. Information finns att hitta på [w3schools](https://www.w3schools.com/html/default.asp)
+[W3schools tables documentation](https://www.w3schools.com/html/default.asp)
 
 
 
