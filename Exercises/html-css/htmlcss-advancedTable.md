@@ -2,7 +2,7 @@
 
 ### Ni skall skapa följande tabell
 
-![Table Reference](table.png "Table reference")
+![Table Reference](media/table.png "Table reference")
 
 1. Börja med att skapa ett table
 

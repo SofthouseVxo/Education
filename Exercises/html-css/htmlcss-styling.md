@@ -1,4 +1,4 @@
-## HTML & CSS Börja styla
+## HTML & CSS Styling fortsättning
 
 1. Skapa en ny katalog
 
