@@ -2,8 +2,8 @@
 
 Ni skall nu få ska ett responsivt grid.
 
-[W3schools responsive grid documentation](https://www.w3schools.com/css/css_rwd_grid.asp)
-[W3schools media queries documentation](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
+* [W3schools responsive grid documentation](https://www.w3schools.com/css/css_rwd_grid.asp)
+* [W3schools media queries documentation](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 
 1. Skapa en ny katalog
 
@@ -37,22 +37,17 @@ Ni skall nu få ska ett responsivt grid.
 
 1. I denna skapar ni 3st divar med css klasserna left, middle & right.
 
-1. Ge dessa 3 klasserna olika färger och en höjd på 50px;
+1. Ge dessa 3 klasserna olika färger och en höjd på 50px.
 
-1. Testa nu att ge de olika de olika klasserna som vi lade till i CSS dokumentet.
+1. Testa nu att ge de olika de olika klasserna som vi lade till i CSS dokumentet. col-
 
 1. Nu skall ni göra så att det ser ut som följande:
 
 ![12 column grid](media/12c.png "12 column grid")
 
-1. Detta funkar fint på en datorskärm, men på en mobil skulle kolumnerna blivit väldigt små. Jag vill nu att ni lägger till CSS så att om skärmen är mindre än 768px så skall alla columner vara 100% breda.
+1. Detta funkar fint på en datorskärm, men på en mobil skulle kolumnerna blivit väldigt små. Jag vill nu att ni lägger till CSS så att om skärmen är mindre än 768px så skall alla columner vara 100% breda. Glöm inte att lägga till ```<meta name="viewport" content="width=device-width, initial-scale=1">``` inuti ```<head></head>```. När det är klart skall det så ut som nedan.
 
+1. Använd developer tools för att simulera skärmstorlekarna.
 
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
-}
+![Media Queries](media/mediaQ.png "Media Queries")
 
