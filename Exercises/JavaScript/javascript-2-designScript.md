@@ -1,4 +1,4 @@
-## JavaScript Planning a Script
+## 2.JavaScript - Planning/Designing a Script
 
 I denna övningsuppgift skall ni inte skriva någon kod utan ni ska få träna på hur man tänker som när man programmerar. Att tänka på är att datorn kommer att göra precis vad ni säger till den, varken mer eller mindre. Det finns ingen magi.
 
