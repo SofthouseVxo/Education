@@ -1,4 +1,4 @@
-## HTML & CSS Styling fortsättning
+## 7.HTML & CSS - Styling fortsättning
 
 1. Skapa en ny katalog
 

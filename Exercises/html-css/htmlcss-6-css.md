@@ -1,4 +1,4 @@
-## HTML & CSS Börja styla
+## 6.HTML & CSS - Börja styla
 
 1. Skapa en ny katalog
 

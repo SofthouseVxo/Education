@@ -1,10 +1,10 @@
-## HTML & CSS inspektera webbsida
+## 2.HTML & CSS - inspektera webbsida
 
-1. Öppna google chrome (ladda ner om du inte har det installerat)
+1. Öppna google chrome (ladda ner webbläsaren om du inte har den installerad)
 
 1. Gå till [https://madebyfew.com/](https://madebyfew.com/)
 
-1. Högerklicka på sidan och välj "inspect" för att öppna developer tools (cmd + shift + c på mac)
+1. Högerklicka på sidan och välj "inspect/inspektera" för att öppna developer tools (cmd + shift + c på mac)
 
 1. Se till att "elements" tabben är öppen. Här ser du HTML dokumentet och dess element.
 
@@ -17,5 +17,7 @@
 1. Näst längst upp till vänster i inspekterarn är där en ikon med en mobil och sen surfplatta, denna används för att se hur sidan ser ut i olika upplösningar. Klicka på denna och prova att välja lite olika enheter.
 
 1. Sök upp några fler webbplatser och inspektera dessa.
+
+1. Välj nu "Network" tabben och se till så att "all" är vald (intill xhr). Ladda en valfri webbplats, i den listan ser du alla resurser som den webbplatsen hämtar från olika servar.
 
 1. Öppna terminalen/kommandotolken och skriv in ```traceroute``` uppföljt av en valfri webbplats.

@@ -1,6 +1,6 @@
-## HTML & CSS Responsivt grid
+## 13.HTML & CSS - Responsivt grid
 
-Ni skall nu få ska ett responsivt grid.
+Ni skall nu få ska ett responsivt grid
 
 * [W3schools responsive grid documentation](https://www.w3schools.com/css/css_rwd_grid.asp)
 * [W3schools media queries documentation](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)

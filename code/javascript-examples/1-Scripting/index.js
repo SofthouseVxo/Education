@@ -1,0 +1,1 @@
+prompt('Hello external script!');
