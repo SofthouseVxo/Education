@@ -14,7 +14,7 @@ I dessa övningsuppgifter skall ni träna på att använda javascript för att b
 
 2. Använd samma variabel och plussa på med 7. Skriv nu ut det nya värdet i konsolen, vad fick du för resultat?
 
-3. använd forfarande samma variabel och använd nu minus 12, vad får du för resultat?
+3. Använd forfarande samma variabel och använd nu minus 12, vad får du för resultat?
 
 4. Skapa nu en ny variabel med valfritt värde utav Int, plussa på detta i den första variabeln som skapades. Skriv ut resultatet i konsolen.
 
@@ -29,7 +29,7 @@ Lägg sedan ihop båda variablar till en tredje variabel, Skriv sedan ut den tre
 
 9. Skapa en flerradig kommentar där det står Lorem ipsum dolor sit amet, varje rad ska innehålla ett ord i meningen.
 
-10. använd Alert för att ropa upp den senaste variabeln.
+10. Använd Alert för att ropa upp den senaste variabeln.
 
 11. Skapa en variabel och sedan använd Prompt för att skriva in ett valfri text, skriv sedan ut detta i konsolen.
 
