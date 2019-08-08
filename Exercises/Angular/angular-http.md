@@ -52,4 +52,3 @@ I denna uppgift skall ni leka med promises, fetch och att hämta data med hjälp
 Så skicka med en av varje och med en logg inuti.
 
 Spara och kör och se vad du får i loggen.
-
