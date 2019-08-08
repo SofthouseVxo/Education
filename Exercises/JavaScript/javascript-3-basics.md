@@ -6,7 +6,7 @@ I dessa övningsuppgifter skall ni träna på att använda javascript för att b
 
 2. I ```<head``` kopplar ni på index.js genom att skriva ```<script src="index.js"><script>```. Denna innebär att javascript koden kommer köras när script taggen körs.
 
-3. console.log() kommer att användas för att skriva ut det värde från variablerna innehåller, använd kortkommandot option + command + J på macOS , Control + Shift + J på Windows/Linux eller högerklicka på webbplatsen, klicka inspektera sedan klicka på de två ihopsatta pilarna >> sedan konsol. 
+3. console.log() kommer att användas för att skriva ut det värde variablerna innehåller, använd kortkommandot option + command + J på macOS , Control + Shift + J på Windows/Linux eller högerklicka på webbplatsen, klicka inspektera sedan klicka på de två ihopsatta pilarna >> sedan konsol. 
 
 ### Övningar
 
