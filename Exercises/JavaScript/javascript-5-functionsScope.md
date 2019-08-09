@@ -14,4 +14,7 @@ I denna övningsuppgift skall ni träna på att använda javascript för att ska
 
 2. Skapa en variabel som kallar på en funktion, inuti funktionen ska en valfri integer returneras. Skriv sedan ut variabeln till konsolen.
 
+3. skapa en variabel med en självkallande funktion, två stycken värden ska multipliceras och sedan returneras. Skriv sedan ut variabeln i konsolen.
+
+4. 
  
