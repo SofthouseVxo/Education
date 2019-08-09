@@ -47,7 +47,7 @@ Ni skall nu få ska ett responsivt grid
 
 10. Detta funkar fint på en datorskärm, men på en mobil skulle kolumnerna blivit väldigt små. Jag vill nu att ni lägger till CSS så att om skärmen är mindre än 768px så skall alla columner vara 100% breda. Glöm inte att lägga till ```<meta name="viewport" content="width=device-width, initial-scale=1">``` inuti ```<head></head>```. När det är klart skall det så ut som nedan.
 
-Använd Chrome developer tools (eller annan webbläsare) för att simulera skärmstorlekarna.
+Använd Firefox developer tools (eller annan webbläsare) för att simulera skärmstorlekarna.
 
 ![Media Queries](media/mediaQ.png "Media Queries")
 
