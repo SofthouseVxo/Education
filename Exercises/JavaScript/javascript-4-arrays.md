@@ -1,12 +1,12 @@
 ## 4.JavaScript - Arrays
 
-I denna övningsuppgift skall ni träna på att använda javascript för att skapa och ändra arrayer (listor).
+I denna övningsuppgift skall ni träna på att använda javascript för att bland annat skapa variabler etc.
 
 1. Skapa index.html och index.js filer och lägg i en ny katalog.
 
-2. I ```<head``` kopplar ni på index.js genom att skriva ```<script src="index.js"><script>```. Detta innebär att javascript-koden kommer när webbläsarens parser når script elementet.
+2. I ```<head``` kopplar ni på index.js genom att skriva ```<script src="index.js"><script>```. Denna innebär att javascript koden kommer köras när script taggen körs.
 
-3. console.log() kommer att användas för att logga saker i webbläsarens konsoll, använd kortkommandot command + shift + C på macOS , Control + Shift + J på Windows/Linux eller högerklicka på webbplatsen, klicka inspektera.
+3. console.log() kommer att användas för att skriva ut det värde variablerna innehåller, använd kortkommandot option + command + J på macOS , Control + Shift + J på Windows/Linux eller högerklicka på webbplatsen, klicka inspektera sedan klicka på de två ihopsatta pilarna >> sedan konsol. 
 
 ### Övningar
 
