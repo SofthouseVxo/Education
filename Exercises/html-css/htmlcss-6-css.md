@@ -25,6 +25,3 @@
 1. Skapa nu en ny div, denna skall ha bredden 300px, höjden 200px, backgrundfärg: grön.
 
 1. Prova nu att ange bredd och höjd med hjälp av ```pt``` och ```em``` istället.
-
-
-
