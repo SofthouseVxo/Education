@@ -14,9 +14,15 @@ I denna övningsuppgift skall ni träna på att använda javascript för att bla
 
 2. Lägg till en boolean med värdet false i slutet av föregående array, skriv ut denna boolean i konsolen.
 
-3. Räkna ut längden av föregående array, stämmer det?
+3. Räkna ut längden av föregående array och skriv ut detta i konsolen, stämmer det?
 
-4. Skapa en ny array som innehåller tre värden, en Integer, en Boolean och en String. Ta bort det sista värdet från arrayen. Skriv sedan ut det resterande som finns kvar.
-```JavaScript
+4. Skapa en array med två valfria integers, ändra det andra värdet till 234 och skriv ut detta värde i konsolen.
 
-```
+5. Skapa en ny array som innehåller tre värden, en Integer, en Boolean och en String. Ta bort det sista värdet från arrayen. Skriv sedan ut det resterande som finns kvar.
+
+6. Konvertera föregående array till en string och skriv ut detta i konsolen.
+
+
+
+
+
