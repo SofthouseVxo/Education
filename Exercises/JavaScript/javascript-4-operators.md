@@ -1,12 +1,12 @@
 ## 4.JavaScript - Operators
 
-I denna övningsuppgift skall ni träna på att använda javascript för att bland annat skapa variabler etc.
+I denna övningsuppgift skall ni träna på att använda javascript för att jämföra olika variabler och värden.
 
 1. Skapa index.html och index.js filer och lägg i en ny katalog.
 
-2. I ```<head``` kopplar ni på index.js genom att skriva ```<script src="index.js"><script>```. Denna innebär att javascript koden kommer köras när script taggen körs.
+2. I ```<head``` kopplar ni på index.js genom att skriva ```<script src="index.js"><script>```. Detta innebär att javascript-koden kommer när webbläsarens parser når script elementet.
 
-3. console.log() kommer att användas för att skriva ut det värde variablerna innehåller, använd kortkommandot option + command + J på macOS , Control + Shift + J på Windows/Linux eller högerklicka på webbplatsen, klicka inspektera sedan klicka på de två ihopsatta pilarna >> sedan konsol. 
+3. console.log() kommer att användas för att logga saker i webbläsarens konsoll, använd kortkommandot command + shift + C på macOS , Control + Shift + J på Windows/Linux eller högerklicka på webbplatsen, klicka inspektera.
 
 ### Övningar
 

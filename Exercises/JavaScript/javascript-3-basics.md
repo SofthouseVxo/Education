@@ -4,9 +4,9 @@ I dessa övningsuppgifter skall ni träna på att använda javascript för att b
 
 1. Skapa index.html och index.js filer och lägg i en ny katalog.
 
-2. I ```<head``` kopplar ni på index.js genom att skriva ```<script src="index.js"><script>```. Denna innebär att javascript koden kommer köras när script taggen körs.
+2. I ```<head``` kopplar ni på index.js genom att skriva ```<script src="index.js"><script>```. Detta innebär att javascript-koden kommer när webbläsarens parser når script elementet.
 
-3. console.log() kommer att användas för att skriva ut det värde variablerna innehåller, använd kortkommandot option + command + J på macOS , Control + Shift + J på Windows/Linux eller högerklicka på webbplatsen, klicka inspektera sedan klicka på de två ihopsatta pilarna >> sedan konsol. 
+3. console.log() kommer att användas för att logga saker i webbläsarens konsoll, använd kortkommandot command + shift + C på macOS , Control + Shift + J på Windows/Linux eller högerklicka på webbplatsen, klicka inspektera.
 
 ### Övningar
 
@@ -18,7 +18,7 @@ I dessa övningsuppgifter skall ni träna på att använda javascript för att b
 
 4. Skapa nu en ny variabel med valfritt värde utav Int, plussa på detta i den första variabeln som skapades. Skriv ut resultatet i konsolen.
 
-5. Skapa två variablar där båda är utav String, ena med ditt namn och det andra med ditt efternamn. 
+5. Skapa två variablar där båda är utav String, ena med ditt namn och det andra med ditt efternamn.
 Lägg sedan ihop båda variablar till en tredje variabel, Skriv sedan ut den tredje variabeln i konsolen. PS.. Glöm inte Mellanslag!
 
 6. Skapa en variabel med valfritt innehåll, använd typeof på variabeln inuti console.log(). Får du ut den datatyp du skapade?
