@@ -1,6 +1,6 @@
 ## JavaScript Classes and Modules
 
-I denna övningsuppgift skall ni få träna på klasser och moduler i vanilla JavaScript. (för att vara säker på att allt stöds använd google chrome)
+I denna övningsuppgift skall ni få träna på klasser och moduler i vanilla JavaScript. (för att vara säker på att allt stöds använd firefox)
 
 1. Skapa en ny mapp som ni döper till jsclasstest
 

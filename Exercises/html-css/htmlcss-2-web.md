@@ -1,6 +1,6 @@
 ## 2.HTML & CSS - inspektera webbsida
 
-1. Öppna google chrome (ladda ner webbläsaren om du inte har den installerad)
+1. Öppna Firefox (ladda ner webbläsaren om du inte har den installerad)
 
 1. Gå till [https://madebyfew.com/](https://madebyfew.com/)
 
@@ -21,3 +21,5 @@
 1. Välj nu "Network" tabben och se till så att "all" är vald (intill xhr). Ladda en valfri webbplats, i den listan ser du alla resurser som den webbplatsen hämtar från olika servar.
 
 1. Öppna terminalen/kommandotolken och skriv in ```traceroute``` uppföljt av en valfri webbplats.
+
+1. Svara på vad skillnaden på en webbplats, webbsida & hemsida är.
