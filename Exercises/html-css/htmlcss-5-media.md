@@ -2,11 +2,11 @@
 
 ### I denna övning skall ni få träna på att lägga till bilder och annan media.
 
-1. Skapa en ny katalog som ni döper till "project"
+1. Skapa en ny katalog som ni döper till "project".
 
-1. I denna skapar ni en ny katalog som ni döper till "media"
+1. I denna skapar ni en ny katalog som ni döper till "media".
 
-1. Inuti project skapar ni en index.html med basstruktur
+1. Inuti project skapar ni en index.html med basstruktur.
 
 1. Inuti ```<body>``` skapar ni en ```<h1>``` med texten "Startsida".
 

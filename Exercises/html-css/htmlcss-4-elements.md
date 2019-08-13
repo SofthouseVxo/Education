@@ -2,25 +2,25 @@
 
 ### I denna övning skall ni få träna på att skapa en webbplats med länkar till andra sidor, göra listor och tabeller.
 
-1. Skapa en ny katalog
+1. Skapa en ny katalog.
 
-1. I denna skapar ni en index.html med basstruktur
+1. I denna skapar ni en index.html med basstruktur.
 
 1. Inuti ```<body>``` skapar ni en ```<h1>``` med texten "Startsida".
 
-1. Under denna skapar ni en länk, dvs en ```<a>``` med en href till "secondpage.html"
+1. Under denna skapar ni en länk, dvs en ```<a>``` med en href till "secondpage.html".
 
-1. I er katalog skapar ni en fil som ni döper till secondpage.html
+1. I er katalog skapar ni en fil som ni döper till secondpage.html.
 
 1. Denna sida skall innehålla samma som index.html med undantaget att innehållet ```<h1>``` som här är "Andra sidan".
 
-1. Ändra ```href=""``` inuti secondpage.html så att länken leder till index.html
+1. Ändra ```href=""``` inuti secondpage.html så att länken leder till index.html.
 
-1. Gör nu så att när man navigerar via länken öppnas den nya sidan i en ny flik
+1. Gör nu så att när man navigerar via länken öppnas den nya sidan i en ny flik.
 
-1. Gör nu så att när man navigerar via länken öppnas den nya sidan i ett nytt fönster
+1. Gör nu så att när man navigerar via länken öppnas den nya sidan i ett nytt fönster.
 
-1. Inuti index.html skapar ni en rubrik ```<h2>Bilmärken</h2>```
+1. Inuti index.html skapar ni en rubrik ```<h2>Bilmärken</h2>```.
 
 1. Nedanför ```<h2>``` som ni nyss skapade skapar ni en lista med bilmärken.
 

@@ -1,8 +1,8 @@
 ## 6.HTML & CSS - Börja styla
 
-1. Skapa en ny katalog
+1. Skapa en ny katalog.
 
-1. I denna skapar ni en index.html med basstruktur
+1. I denna skapar ni en index.html med basstruktur.
 
 1. Lägg till diverse element, buttons, divs, paragrafer etc.
 
@@ -12,9 +12,9 @@
 
 1. Flytta nu detta till ett externt stylesheet (styles.css) som ni importerar i HTML <HEAD>.
 
-1. Skapa nu 2 olika divar med en paragraf i varje, i paragrafen skriver ni div1 respektive div2
+1. Skapa nu 2 olika divar med en paragraf i varje, i paragrafen skriver ni div1 respektive div2.
 
-1. Den första diven sätter ni id="div1", sätt nu bakgrundfärgen till blå genom att använda id't
+1. Den första diven sätter ni id="div1", sätt nu bakgrundfärgen till blå genom att använda id't.
 
 1. Gör nu likadant fast sätt färgen rosa på div2.
 
