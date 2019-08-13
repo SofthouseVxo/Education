@@ -6,7 +6,7 @@ I denna övningsuppgift skall ni träna på att använda javascript för att jä
 
 2. I ```<head>``` kopplar ni på index.js genom att skriva ```<script src="index.js"><script>```. Detta innebär att javascript-koden kommer när webbläsarens parser når script elementet.
 
-3. console.log() kommer att användas för att logga saker i webbläsarens konsoll, använd kortkommandot command + shift + C på macOS , Control + Shift + J på Windows/Linux eller högerklicka på webbplatsen, klicka inspektera.
+3. console.log() kommer att användas för att logga saker i webbläsarens konsoll, använd kortkommandot command + shift + C på macOS , Control + Shift + C på Windows/Linux eller högerklicka på webbplatsen, klicka inspektera.
 
 ### Övningar
 
@@ -26,4 +26,4 @@ I denna övningsuppgift skall ni träna på att använda javascript för att jä
 5. Skapa en variabel med en sträng som är ett heltal, plussa detta med en till sträng som är ett heltal och skriv sedan ut detta i konsolen. Vad får du ut för värde, varför blir det så?
 
 6. Gör nu en liknande variabel från föregående övning och multiplicera istället strängarna, skriv ut detta i konsolen. Vad händer nu?
- 
+

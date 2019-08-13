@@ -6,7 +6,7 @@ I denna övningsuppgift skall ni träna på att använda javascript för att ska
 
 2. I ```<head>``` kopplar ni på index.js genom att skriva ```<script src="index.js"><script>```. Detta innebär att javascript-koden kommer när webbläsarens parser når script elementet.
 
-3. console.log() kommer att användas för att logga saker i webbläsarens konsoll, använd kortkommandot command + shift + C på macOS , Control + Shift + J på Windows/Linux eller högerklicka på webbplatsen, klicka inspektera.
+3. console.log() kommer att användas för att logga saker i webbläsarens konsoll, använd kortkommandot command + shift + C på macOS , Control + Shift + C på Windows/Linux eller högerklicka på webbplatsen, klicka inspektera.
 
 ### Övningar
 
@@ -16,5 +16,4 @@ I denna övningsuppgift skall ni träna på att använda javascript för att ska
 
 3. skapa en variabel med en självkallande funktion, två stycken värden ska multipliceras och sedan returneras. Skriv sedan ut variabeln i konsolen.
 
-4. 
- 
+4.
