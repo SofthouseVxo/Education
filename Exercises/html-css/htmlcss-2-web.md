@@ -14,12 +14,8 @@
 
 1. Klicka på network tabben och välj "All" i menun under huvudmenyn. Ladda om sidan och se hur listan uppdateras, detta är en lista på alla resurser som hämtats från servern för att visa sidan som du ser framför dig.
 
-1. Näst längst upp till vänster i inspekterarn är där en ikon med en mobil och sen surfplatta, denna används för att se hur sidan ser ut i olika upplösningar. Klicka på denna och prova att välja lite olika enheter.
+1. Näst längst upp till vänster i inspekterarn är där en ikon med en mobil och sen surfplatta (chrome) till höger i Firefox, denna används för att se hur sidan ser ut i olika upplösningar. Klicka på denna och prova att välja lite olika enheter.
 
 1. Sök upp några fler webbplatser och inspektera dessa.
 
-1. Välj nu "Network" tabben och se till så att "all" är vald (intill xhr). Ladda en valfri webbplats, i den listan ser du alla resurser som den webbplatsen hämtar från olika servar.
-
-1. Öppna terminalen/kommandotolken och skriv in ```traceroute``` uppföljt av en valfri webbplats.
-
-1. Svara på vad skillnaden på en webbplats, webbsida & hemsida är.
+1. Öppna ett textdokument och skriv ner skillnaderna på en webbplats, webbsida & hemsida.
