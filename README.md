@@ -23,7 +23,7 @@
 * [Lecture 12](exercises/html-css/htmlcss-12-responsive.md)
 
 ###### JavaScript
-
+* Coming soon.
 
 ###### Angular
 * [Components](exercises/angular/angular-components.md)

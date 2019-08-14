@@ -1,4 +1,4 @@
-## Angular Components
+## Angular Routing
 
 I denna uppgift skall ni skapa tre komponenter som vi väljer att visa beroende på hur vi har satt upp vår routing/navigation. Följ stegen nedan.
 
