@@ -10,42 +10,42 @@
 #### Exercises
 ###### HTML & CSS
 
-* [Lecture 2](html-css/htmlcss-2-web.md)
-* [Lecture 3](html-css/htmlcss-3-html-intro.md)
-* [Lecture 4](html-css/htmlcss-4-elements.md)
-* [Lecture 5](html-css/htmlcss-5-media.md)
-* [Lecture 6](html-css/htmlcss-6-css.md)
-* [Lecture 7](html-css/htmlcss-7-css-box.md)
-* [Lecture 8](html-css/htmlcss-8-css-positioning.md)
-* [Lecture 9](html-css/htmlcss-9-flexbox.md)
-* [Lecture 10](html-css/htmlcss-10-forms.md)
-* [Lecture 11](html-css/htmlcss-11-seo.md)
-* [Lecture 12](html-css/htmlcss-12-responsive.md)
+* [Lecture 2](exercises/html-css/htmlcss-2-web.md)
+* [Lecture 3](exercises/html-css/htmlcss-3-html-intro.md)
+* [Lecture 4](exercises/html-css/htmlcss-4-elements.md)
+* [Lecture 5](exercises/html-css/htmlcss-5-media.md)
+* [Lecture 6](exercises/html-css/htmlcss-6-css.md)
+* [Lecture 7](exercises/html-css/htmlcss-7-css-box.md)
+* [Lecture 8](exercises/html-css/htmlcss-8-css-positioning.md)
+* [Lecture 9](exercises/html-css/htmlcss-9-flexbox.md)
+* [Lecture 10](exercises/html-css/htmlcss-10-forms.md)
+* [Lecture 11](exercises/html-css/htmlcss-11-seo.md)
+* [Lecture 12](exercises/html-css/htmlcss-12-responsive.md)
 
 ###### JavaScript
 
 
 ###### Angular
-* [Components](angular/angular-components.md)
-* [Directives](angular/angular-directives.md)
-* [Forms](angular/angular-forms.md)
-* [Routing](angular/angular-routing.md)
-* [Services](angular/angular-services.md)
-* [Http](angular/angular-http.md)
+* [Components](exercises/angular/angular-components.md)
+* [Directives](exercises/angular/angular-directives.md)
+* [Forms](exercises/angular/angular-forms.md)
+* [Routing](exercises/angular/angular-routing.md)
+* [Services](exercises/angular/angular-services.md)
+* [Http](exercises/angular/angular-http.md)
 
-* [Quiz](angular/angular-Quiz.md)
+* [Quiz](exercises/angular/angular-Quiz.md)
 
 ###### React
-* [JSX](react/JSX.md)
-* [State, Events & Lifecycles](react/react-stateEventsLifecycles.md)
-* [Components](react/react-components.md)
-* [Conditional Rendering & Lists](react/react-conditionalLists.md)
-* [HOC's & Proptypes](react/react-HOCSProptypes.md)
-* [Hooks & Context](react/react-hooksContext.md)
-* [Modules](react/react-modules.md)
-* [Routing](react/react-react-router.md)
-* [Styling & Assets](react/react-stylingAssets.md)
+* [JSX](exercises/react/JSX.md)
+* [State, Events & Lifecycles](exercises/react/react-stateEventsLifecycles.md)
+* [Components](exercises/react/react-components.md)
+* [Conditional Rendering & Lists](exercises/react/react-conditionalLists.md)
+* [HOC's & Proptypes](exercises/react/react-HOCSProptypes.md)
+* [Hooks & Context](exercises/react/react-hooksContext.md)
+* [Modules](exercises/react/react-modules.md)
+* [Routing](exercises/react/react-react-router.md)
+* [Styling & Assets](exercises/react/react-stylingAssets.md)
 
-* [Quiz](react/quiz.md)
+* [Quiz](exercises/react/quiz.md)
 
 Copyright Softhouse Consulting AB 2019 Ⓒ
