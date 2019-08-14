@@ -28,7 +28,7 @@
 * [Quiz](angular/angular-Quiz.md)
 
 ### React
-* [JSX](React/React-JSX.md)
+* [JSX](react/JSX.md)
 * [State, Events & Lifecycles](react/react-stateEventsLifecycles.md)
 * [Components](react/react-components.md)
 * [Conditional Rendering & Lists](react/react-conditionalLists.md)
@@ -38,5 +38,5 @@
 * [Routing](react/react-react-router.md)
 * [Styling & Assets](react/react-stylingAssets.md)
 
-* [Quiz](React/React-Quiz.md)
+* [Quiz](react/quiz.md)
 
