@@ -6,6 +6,6 @@
 * [Angular example code](code/angular-examples)
 * [Express example code](code/express-examples)
 
-* [Exercises](exercises/README.md)
+* [Exercises](Exercises/README.md)
 
 Copyright Softhouse Consulting AB 2019 Ⓒ
