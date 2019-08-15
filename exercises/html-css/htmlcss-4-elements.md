@@ -32,11 +32,7 @@
 
 12. Börja med att skapa ett ```<table>```
 
-13. Skapa sedan
-  1. Headers
-  1. Rader
-  1. Innehåll
-  1. Sätt colspans och rowspans
+13. Skapa sedan headers, rader, innehåll, colspans och rowspans.
 
 [W3schools tables documentation](https://www.w3schools.com/html/default.asp)
 
