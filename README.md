@@ -19,8 +19,11 @@
 * [Lecture 8](exercises/html-css/htmlcss-8-css-positioning.md)
 * [Lecture 9](exercises/html-css/htmlcss-9-flexbox.md)
 * [Lecture 10](exercises/html-css/htmlcss-10-forms.md)
-* [Lecture 11](exercises/html-css/htmlcss-11-seo.md)
-* [Lecture 12](exercises/html-css/htmlcss-12-responsive.md)
+* [Lecture 11](exercises/html-css/htmlcss-11-psuedo.md)
+* [Lecture 12](exercises/html-css/htmlcss-12-seo.md)
+* [Lecture 13](exercises/html-css/htmlcss-13-responsive.md)
+* [Lecture 14](exercises/html-css/htmlcss-14-animation.md)
+* [Lecture 15](exercises/html-css/htmlcss-15-bootstrap.md)
 
 ###### JavaScript
 * Coming soon.

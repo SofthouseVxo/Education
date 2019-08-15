@@ -16,9 +16,7 @@
 
 1. Ändra ```href=""``` inuti secondpage.html så att länken leder till index.html.
 
-1. Gör nu så att när man navigerar via länken öppnas den nya sidan i en ny flik.
-
-1. Gör nu så att när man navigerar via länken öppnas den nya sidan i ett nytt fönster.
+1. Gör nu så att när man navigerar via länken öppnas den nya sidan i en ny flik eller fönster. Sidan kommer öppnas i ett nytt fönster eller flik beroende på webbläsare.
 
 1. Inuti index.html skapar ni en rubrik ```<h2>Bilmärken</h2>```.
 
