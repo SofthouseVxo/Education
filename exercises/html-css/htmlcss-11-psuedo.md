@@ -15,10 +15,10 @@
 1. Gör nu så att när man håller muspekaren över texten så skall denna bli grön. Ange färgen med hexadecimala värden.
 
 1. Skapa nu en länk, denna skall bete sig följande:
-  1. När länken inte är besökt skall den vara blå
-  1. När länken är besökt skall den vara grön
-  1. När länken är aktiv skall den vara rosa
-  1. När man håller pekaren över länken skall den vara gul
+  * När länken inte är besökt skall den vara blå
+  * När länken är besökt skall den vara grön
+  * När länken är aktiv skall den vara rosa
+  * När man håller pekaren över länken skall den vara gul
 
 1. Skapa nu 4 knapper med texten "press me".
 
