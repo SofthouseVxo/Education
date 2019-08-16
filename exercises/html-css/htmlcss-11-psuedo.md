@@ -24,7 +24,7 @@
 
 1. Gör nu så att endast första knappen får färgen grön (button:first-of-type).
 
-1. Lägg dessa knapper i en div, ange nu så att sista knappen blir blå. (div:last-child).
+1. Lägg dessa knapper i en div, ange nu så att sista knappen blir blå. (button:last-child).
 
 1. Använd 3 andra psuedo klasser i listan till vänster på [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
 
