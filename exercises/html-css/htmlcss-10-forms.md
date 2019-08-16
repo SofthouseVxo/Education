@@ -4,7 +4,7 @@
 
 1. I detta skapar du basen för en webbsida.
 
-1. Ni skall nu skapa ett formulär som uppfyller följande krav och inputs.
+1. Ni skall nu skapa ett formulär som uppfyller följande krav och inputs. Börja med att skapa ett ```<form>``` element.
 
 * Förnamn (text input)
 * Efternamn (text input)

@@ -1,7 +1,5 @@
 ## 4.HTML & CSS - Links, Lists and tables
 
-### I denna övning skall ni få träna på att skapa en webbplats med länkar till andra sidor samt att skapa HTML element i form av listor och tabeller.
-
 1. Skapa en ny katalog.
 
 1. I denna skapar ni en index.html med basstruktur (samma struktur som ni skapade vid punkt 6 i föregående övningsuppgift(3)).
