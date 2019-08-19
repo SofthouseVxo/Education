@@ -8,7 +8,7 @@
 
 1. Inuti ```<body>``` skapar ni en ```<h1>``` med texten "Startsida".
 
-1. Under ```<h1>``` skapar ni en paragraf med valfri text. Nu skall denna och
+1. Under ```<h1>``` skapar ni en paragraf med valfri text. Nu skall denna och ```<h1>``` tillhöra samma sektion. Så skapa ett passande element att placera dem i.
 
 1. Under denna lägger ni till en sektion med huvudinnehållet (tänk på att välja element som är semantiskt korrekt).
 
