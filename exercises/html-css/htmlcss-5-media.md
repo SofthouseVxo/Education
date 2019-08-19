@@ -16,8 +16,14 @@
 
 1. Sätt ni attributet width till 1000px, uppdatera webbläsarfönstret och se resultat. Lägg märke till hur kvaliteten har försämrats och pixlarna syns. Detta vill man helst undvika, därför bör man ha bilder som har rätt storlek och inte behöva förstora dem med hjälp av kod.
 
+1. Om ni från början har en stor bild som ni sedan förminskar med HTML, hur tror ni detta påverkan laddningstiden, påverkas den? Googla för att hitta svaret.
+
 1. Varje gång vår sida laddas så kommer det göras ett anrop till servern där bilden ligger, och skulle exempelvis bilden raderas därifrån så skulle vi inte kunna visa bilden. Alternativt att en person med nedsatt syn besöker din sida. Det är då viktigt att ha en text som beskriver bilden. Lägg till en "alt" text som gör detta.
 
-1. Gå nu till google igen och denna gång laddar ni ner en bild och spara i "media" katalogen in ert projekt.
+1. Gå nu till google.com igen och denna gång laddar ni ner en bild och spara i "media" katalogen in ert projekt.
 
-1. Ändra nu src till den bilden till ```src="media/namnetpåerbild.filformat"```.
+1. Sätt nu src attributet till ```src="media/namnetpåerbild.filformat"```.
+
+1. Ladda nu hem en .mp3 och visa denna på er sida med hjälp av ```<audio>```.[w3school audio](https://www.w3schools.com/html/html5_audio.asp)
+
+1. Ladda nu hem en .mp4 och visa denna på er sida med hjälp av ```<video>```. Denna film skall börja spelas direkt och kontroller för uppspelning skall visas. [w3school video](https://www.w3schools.com/html/html5_video.asp)
