@@ -29,7 +29,3 @@
 1. Skapa nu en ```<footer>``` med id "footer" som ser ut som bilden nedan.
 
 ![footer](media/footer.png "footer")
-
-1. Footern skall ha egenskapen att den alltid syns längst ner på sidan, oavsett vart man befinner sig på sidan.
-
-1. För att dubbelkolla att ni gjort rätt så kan ni skapa en div som är högre än vad webbläsarfönstret är.

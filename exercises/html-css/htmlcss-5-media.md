@@ -1,12 +1,14 @@
 ## 4.HTML & CSS - Media
 
-1. Skapa en ny katalog som ni döper till "project".
+1. Skapa en ny katalog som ni döper till ```project```.
 
-1. I denna skapar ni en ny katalog som ni döper till "media".
+1. I denna skapar ni en ny katalog som ni döper till ```media```.
 
-1. Inuti project skapar ni en index.html med basstruktur.
+1. Inuti ```project``` skapar ni en index.html med basstruktur.
 
 1. Inuti ```<body>``` skapar ni en ```<h1>``` med texten "Startsida".
+
+1. Under ```<h1>``` skapar ni en paragraf med valfri text. Nu skall denna och
 
 1. Under denna lägger ni till en sektion med huvudinnehållet (tänk på att välja element som är semantiskt korrekt).
 
@@ -20,7 +22,7 @@
 
 1. Varje gång vår sida laddas så kommer det göras ett anrop till servern där bilden ligger, och skulle exempelvis bilden raderas därifrån så skulle vi inte kunna visa bilden. Alternativt att en person med nedsatt syn besöker din sida. Det är då viktigt att ha en text som beskriver bilden. Lägg till en "alt" text som gör detta.
 
-1. Gå nu till google.com igen och denna gång laddar ni ner en bild och spara i "media" katalogen in ert projekt.
+1. Gå nu till google.com igen och denna gång laddar ni ner en bild och spara i ```media``` katalogen in ert projekt.
 
 1. Sätt nu src attributet till ```src="media/namnetpåerbild.filformat"```.
 
