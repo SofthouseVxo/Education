@@ -22,10 +22,10 @@
 
 ![border boxing](media/borderbox2.png "border boxing")
 
-1. Lägg nu till ```box-sizing: border-box;``` för "item" och se hur det förändras. Med border box includeras allt i det elementen där det finns.
+11. Lägg nu till ```box-sizing: border-box;``` för "item" och se hur det förändras. Med border box includeras allt i det elementen där det finns.
 
-1. Det skall sedan se ut som följande ![border boxing](media/borderbox3.png "border boxing")
+12. Det skall sedan se ut som följande ![border boxing](media/borderbox3.png "border boxing")
 
-1. Skapa nu en ```<footer>``` med id "footer" som ser ut som bilden nedan.
+13. Skapa nu en ```<footer>``` med id "footer" som ser ut som bilden nedan.
 
 ![footer](media/footer.png "footer")
