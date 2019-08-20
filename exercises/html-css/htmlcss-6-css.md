@@ -68,3 +68,11 @@
 13. Nu skapar ni en ```section```som ni ger bredden 800px och höjden 600px samt en border som är ```1px solid red```.
 
 14. Inuti ```section``` skapar ni en div som ni ger bredden 50% och höjden 300px samt en bakgrundsfärg som är rosa. Vilken bredd får den? Vad kan vi dra för slutsatser kring %-enheten?
+
+## Extrauppgifter - Skapa nedanstående med HTML & CSS
+
+![extra1](media/extra1.png "extra exercise 1")
+
+![extra2](media/extra2.png "extra exercise 2")
+
+![extra3](media/extra3.png "extra exercise 3")
