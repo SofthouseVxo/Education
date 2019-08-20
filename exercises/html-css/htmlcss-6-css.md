@@ -1,4 +1,4 @@
-## 6.HTML & CSS - Börja styla
+## 6.1HTML & CSS - Börja styla
 
 1. Skapa en ny katalog.
 
@@ -34,7 +34,7 @@
 
 1. Skapa nu en lista med 4 listitems. Gör ni så att alla items hamnar jämte varandra med hjälp av ```display inline```. Vad får de för stil default?
 
-## 6.5 HTML & CSS - Styling fortsättning
+## 6.2 HTML & CSS - Styling fortsättning
 
 1. Skapa nu en sektion, denna skall ha bredden 300px, höjden 200px, backgrundfärg: grön.
 
@@ -57,14 +57,14 @@
   * ```h5 { padding: 15px; }```
   * ```h6 { padding: 15px !important}```
 
-1. Skapa nu en knapp och ge denna färgen röd. Exprimentera med att använda olika selectors (klass, id, element, !important, flera klasser, klass & id). Undersök vilken prioritet de får och när.
+9. Skapa nu en knapp och ge denna färgen röd. Exprimentera med att använda olika selectors (klass, id, element, !important, flera klasser, klass & id). Undersök vilken prioritet de får och när.
 
-1. Skapa en div med innehållet "hello world" som ni ger bredden 100% och höjden 100% samt bakgrundsfärg grön. Spara och se resultatet i webbläsaren.
+10. Skapa en div med innehållet "hello world" som ni ger bredden 100% och höjden 100% samt bakgrundsfärg grön. Spara och se resultatet i webbläsaren.
 
-1. Ange nu istället höjden till ```100vh```. Spara och se resultatet.
+11. Ange nu istället höjden till ```100vh```. Spara och se resultatet.
 
-1. Skapa en ny div med innehållet "hello space" som ni ger bredden 100% och höjden 100vh samt bakgrundsfärg blå. Spara och se resultat (scrolla ner på sidan).
+12. Skapa en ny div med innehållet "hello space" som ni ger bredden 100% och höjden 100vh samt bakgrundsfärg blå. Spara och se resultat (scrolla ner på sidan).
 
-1. Nu skapar ni en ```section```som ni ger bredden 800px och höjden 600px samt en border som är ```1px solid red```.
+13. Nu skapar ni en ```section```som ni ger bredden 800px och höjden 600px samt en border som är ```1px solid red```.
 
-1. Inuti ```section``` skapar ni en div som ni ger bredden 50% och höjden 300px samt en bakgrundsfärg som är rosa. Vilken bredd får den? Vad kan vi dra för slutsatser kring %-enheten?
+14. Inuti ```section``` skapar ni en div som ni ger bredden 50% och höjden 300px samt en bakgrundsfärg som är rosa. Vilken bredd får den? Vad kan vi dra för slutsatser kring %-enheten?
