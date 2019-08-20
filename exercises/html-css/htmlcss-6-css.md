@@ -40,10 +40,31 @@
 
 1. För att det skall fungera bättre på olika skärmstorlekar och upplösningar är det rekommenderat att använda relativa värden. Prova nu att ange bredd och höjd med hjälp av ```em``` och ```rem``` istället. Läs på [w3schools](https://www.w3schools.com/cssref/css_units.asp) om de olika enheterna.
 
-1. Skapa nu en paragraf, ge den ```id="myPara"```, ge den färgen röd genom att ange detta i din externa style.css, spara och se att färgen ändras till röd.
+1. Skapa nu en paragraf, ge den ```id="myPara"```, ge den färgen röd genom att ange detta i din externa ```style.css```, spara och se att färgen ändras till röd.
 
 1. Skapa nu ett nytt CSS-dokument, detta döper ni till second-style.css
 
-1. Importera denna nedanför style.css inuti ```<head>```, ange nu så att ```#myPara``` skall få färgen blå. Spara och se resultat. Vad kan ni dra för slutsatser?
+1. Importera ```second-style.css``` nedanför ```style.css``` inuti ```<head>```. Ange nu så att ```#myPara``` skall få färgen blå i ```second-style.css```. Spara och se resultat. Vad kan ni dra för slutsatser?
+
+1. Element kan ärva styling från sina föräldrar. Skapa nu en div inuti en div som ligger inuti en div.
+
+1. Ge den första id="parent" den andra "child" och  den tredje "grandchild". Inuti grandchild skapar ni en paragraf. Ändra färgen på paragrafen genom att ange detta för ```#parent``` i css'en. Vad kan du dra för slutsatser? Vad händer om du anger en ny färg i ```#child```?
+
+1. Ange hur mycket speficeringspoäng nedanstående styling ger:
+  * ```.myClass { padding: 15px; }```
+  * ```* { padding: 15px; }```
+  * ```#myDiv.myClass { padding: 15px; }```
+  * ```h5 { padding: 15px; }```
+  * ```h6 { padding: 15px !important}```
 
 1. Skapa nu en knapp och ge denna färgen röd. Exprimentera med att använda olika selectors (klass, id, element, !important, flera klasser, klass & id). Undersök vilken prioritet de får och när.
+
+1. Skapa en div med innehållet "hello world" som ni ger bredden 100% och höjden 100% samt bakgrundsfärg grön. Spara och se resultatet i webbläsaren.
+
+1. Ange nu istället höjden till ```100vh```. Spara och se resultatet.
+
+1. Skapa en ny div med innehållet "hello space" som ni ger bredden 100% och höjden 100vh samt bakgrundsfärg blå. Spara och se resultat (scrolla ner på sidan).
+
+1. Nu skapar ni en ```section```som ni ger bredden 800px och höjden 600px samt en border som är ```1px solid red```.
+
+1. Inuti ```section``` skapar ni en div som ni ger bredden 50% och höjden 300px samt en bakgrundsfärg som är rosa. Vilken bredd får den? Vad kan vi dra för slutsatser kring %-enheten?
