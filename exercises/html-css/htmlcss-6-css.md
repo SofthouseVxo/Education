@@ -32,7 +32,7 @@
 
 1. Lokalisera att ändra och lägg till styling för några element.
 
-1. Skapa nu en lista med 4 listitems. Gör ni så att alla items hamnar jämte varandra med hjälp av display inline. Var får de för stil default?
+1. Skapa nu en lista med 4 listitems. Gör ni så att alla items hamnar jämte varandra med hjälp av ```display inline```. Vad får de för stil default?
 
 ## 6.5 HTML & CSS - Styling fortsättning
 
