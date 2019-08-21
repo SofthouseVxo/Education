@@ -65,7 +65,7 @@
 
 12. Skapa en ny div med innehållet "hello space" som ni ger bredden 100% och höjden 100vh samt bakgrundsfärg blå. Spara och se resultat (scrolla ner på sidan).
 
-13. Nu skapar ni en ```section```som ni ger bredden 800px och höjden 600px samt en border som är ```1px solid red```.
+13. Nu skapar ni en ```section``` som ni ger bredden 800px och höjden 600px samt en border som är ```1px solid red```.
 
 14. Inuti ```section``` skapar ni en div som ni ger bredden 50% och höjden 300px samt en bakgrundsfärg som är rosa. Vilken bredd får den? Vad kan vi dra för slutsatser kring %-enheten?
 

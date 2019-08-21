@@ -8,6 +8,32 @@
 
 1. Importera styles.css i ```<head>``` index.html.
 
+1. Skapa en ny ```<section>``` denna sätter ni till bredden 800px, höjden 600px, marginal 40px samt en border som är ```1px solid black```.
+
+1. Inuti section skapar ni en ```<div>```, ge denna id "box1" Sedan sätter ni till bredden 150px, höjden 150px, ```1px solid red```.
+
+1. Inuti section skapar ni en ```<div>```, ge denna id "box2" Sedan sätter ni till bredden 120px, höjden 120px, ```1px solid blue```.
+
+1. Inspektera dem i webbläsaren och se vilken css display webbläsaren har gett dem default.
+
+1. Ge nu box1 ```float:left;```. Spara och se resultat.
+
+1. Ge nu även box2 ```float:left;```. Spara och se resultat.
+
+1. Ge nu box1 ```float:right;```. Spara och se resultat. Vad kan ni dra för slutsatser? diskutera med din granne.
+
+1. Ta bort alla floats. Prova nu att ge box1 ```position: absolute;```.
+
+1. Sätt nu ```margin: 20px 20px; ``` på box1. Spara och se resultat.
+
+1. Sätt nu ```margin: 70px 80px; ``` och ```position: absolute;``` och ```background: #ff00ff;``` på box2. Spara och se resultat.
+
+1. Ge box 1 ```background: #0000ff;```. Spara och se resultat. Vilken box ligger överst?
+
+1. Ge nu box1 ```z-index: 2``` och box2 ```z-index: 1;```. Spara och se resultat. Vilken box ligger överst? Vad kan ni dra för slutsatser? diskutera med din granne.
+
+1. Ta nu bort z-index och position och margin. Prova att sätta box1 till ```position:fixed; bottom: 0;``` och box2 till ```position: relative;```.
+
 1. Återskapa layouterna som visas på bilderna nedan. Dessa skall ligga under(inte bakom) varandra.
 
 ![Positioning exercise 1](media/position1.png "Positioning exercise 1")
