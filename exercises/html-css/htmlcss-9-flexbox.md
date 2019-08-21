@@ -14,9 +14,3 @@
 ![Flexbox training](media/flexbox2.png "Flexbox training")
 
 ![Flexbox training](media/flexbox3.png "Flexbox training")
-
-
-
-
-
-
