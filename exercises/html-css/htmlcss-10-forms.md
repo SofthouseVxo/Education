@@ -16,3 +16,15 @@
 * Email (text input, type email)
 * Password (text input, type password)
 * Submit knapp som skickar formuläret
+
+4. Öppna och prova formuläret i olika webbläsare. Ser något annorlunda ut i dem?
+
+5. Ge nu formläret följande stil:
+  * Samtliga inputfält skall endast ha en border och vit bakgrundsfärg.
+  * Knappen skall vara blå, ha rundade hörn och vit text.
+  * Hela formuläret skall ha vit bakgrund och en blå border.
+  * Placera formuläret i mitten av viewporten, både horisontellt och vertikalt.
+
+6. Skapa nu en ```<div>``` som täcker hela veiwporten och ge den en bakgrundsfärg.
+
+7. Ge formuläret position absolut så att denna ligger över den nyskapade diven (den skall fortfarande vara placerad i mitten).

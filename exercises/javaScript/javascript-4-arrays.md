@@ -1,28 +1,28 @@
 ## 4.JavaScript - Arrays
 
-I denna övningsuppgift skall ni träna på att använda javascript för att bland annat skapa variabler etc.
-
 1. Skapa index.html och index.js filer och lägg i en ny katalog.
 
-2. I ```<head>``` kopplar ni på index.js genom att skriva ```<script src="index.js"><script>```. Detta innebär att javascript-koden kommer när webbläsarens parser når script elementet.
+1. Importera index.js genom att skriva ```<script src="index.js"><script>``` i ```<head>```.
 
-3. console.log() kommer att användas för att logga saker i webbläsarens konsoll, använd kortkommandot command + shift + C på macOS , Control + Shift + C på Windows/Linux eller högerklicka på webbplatsen, klicka inspektera.
+1. Skapa en variabel med värdet av en array som innehåller två nummer.
 
-### Övningar
+1. Logga det första värdet i arrayen. Spara och kontrollera så att du får rätt värde i konsolen.
 
-1. Skapa en array som innehåller två stycken integers. Skriv ut det första värdet i konsolen.
+1. Lägg till en boolean med värdet false i slutet av föregående array (push), skriv ut denna boolean i konsolen.
 
-2. Lägg till en boolean med värdet false i slutet av föregående array, skriv ut denna boolean i konsolen.
+1. Räkna ut längden av föregående array och skriv ut detta i konsolen, stämmer det?
 
-3. Räkna ut längden av föregående array och skriv ut detta i konsolen, stämmer det?
+1. Skapa en array med värdena ```[2,'nisse',7]```, ändra det andra värdet ```'nisse'``` till ```234``` och logga detta värde.
 
-4. Skapa en array med två valfria integers, ändra det andra värdet till 234 och skriv ut detta värde i konsolen.
+1. Skapa en ny array som innehåller tre värden, en Integer, en Boolean och en String. Radera det sista värdet (pop) i denna. Logga sedan resterande som finns kvar i arrayen.
 
-5. Skapa en ny array som innehåller tre värden, en Integer, en Boolean och en String. Ta bort det sista värdet från arrayen. Skriv sedan ut det resterande som finns kvar.
+1. Konvertera föregående array till en string och logga denna.
 
-6. Konvertera föregående array till en string och skriv ut detta i konsolen.
+1. Skapa en ny variabel, döp denna till ```user``` och ge den värdet ```'john doe'```.
 
+1. Skapa nu en tom array och spara denna i en variabel som ni döper till ```users```.
 
+1. Spara nu värdet av user till att vara det första värdet i arrayen. Logga detta och du skall se resultatet ```['john doe']```
 
 
 
