@@ -1,29 +1,35 @@
 ## 4.JavaScript - Operators
 
-I denna övningsuppgift skall ni träna på att använda javascript för att jämföra olika variabler och värden.
-
 1. Skapa index.html och index.js filer och lägg i en ny katalog.
 
-2. I ```<head>``` kopplar ni på index.js genom att skriva ```<script src="index.js"><script>```. Detta innebär att javascript-koden kommer när webbläsarens parser når script elementet.
+1. Importera index.js genom att skriva ```<script src="index.js"><script>``` i ```<head>```.
 
-3. console.log() kommer att användas för att logga saker i webbläsarens konsoll, använd kortkommandot command + shift + C på macOS , Control + Shift + C på Windows/Linux eller högerklicka på webbplatsen, klicka inspektera.
+1. Skapa en variabel med värdet 6. Ta nu denna variabel och multiplicera denna med 18.
 
-### Övningar
+1. Resultatet skall spara i en ny variabel. Logga denna och kontrollera i konsolen i webbläsaren.
 
-1. Skapa en variabel med värdet 6 som multipliceras med 18, skriv ut resultatet.
+1. Skapa nu en variabel med värdet 232. Subtrahera nu med 22, skriv ut resultatet i konsolen.
 
-2. Skapa en variabel med värdet 232 och lägg minus 22 på värdet, Skriv ut resultatet i konsolen.
+1. Dividera föregående variabel med 3 och skriv ut detta i konsolen.
 
-3. Dividera föregående variabel med 3 och skriv ut detta i konsolen.
+1. Skapa nu en variabel som ni döper till increaser och de denna värdet noll.
 
-4. Skapa en variabel som jämför två olika integers, gör så att variabeln returnerar true och skriv ut detta i konsolen.
+1. Skapa en ny variable som ni döper till increaseBy och ger denna värdet 3.
+
+1. Öka nu värdet i variablen increaser med värdet increaseBy, gör detta genom att använda ```++```.
+
+1. Spara i en variabel om 25 är större än 10 (true). Se nedan exempel för inspiration.
 ```JavaScript
     //Ett exempel på hur man jämför två integers
 
     var newComparison = 20 < 11;
-    console.log(newComparison);
+    console.log(newComparison); // logs false
 ```
-5. Skapa en variabel med en sträng som är ett heltal, plussa detta med en till sträng som är ett heltal och skriv sedan ut detta i konsolen. Vad får du ut för värde, varför blir det så?
+11. Skapa två variabler av typen sträng. Ge den första värdet '45' och den andra '65'. Prova på att plussa ihop dessa och spara resultaten i en ny variabel.
 
-6. Gör nu en liknande variabel från föregående övning och multiplicera istället strängarna, skriv ut detta i konsolen. Vad händer nu?
+12. Gör nu en liknande variabel från föregående övning och multiplicera istället strängarna, skriv ut detta i konsolen. Vad händer nu?
+
+13. Prova nu att använda Number() funktionen för att göra dessa till typen number. Se [w3schools](https://www.w3schools.com/js/js_number_methods.asp)
+
+
 

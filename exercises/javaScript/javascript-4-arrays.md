@@ -4,7 +4,7 @@
 
 1. Importera index.js genom att skriva ```<script src="index.js"><script>``` i ```<head>```.
 
-1. Skapa en variabel med värdet av en array som innehåller två nummer.
+1. Skapa en variabel som ni döper till numbersArray. Denna skall vara en array som innehåller två nummer.
 
 1. Logga det första värdet i arrayen. Spara och kontrollera så att du får rätt värde i konsolen.
 

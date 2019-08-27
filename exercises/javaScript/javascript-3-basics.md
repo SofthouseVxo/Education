@@ -1,14 +1,8 @@
 ## 3.JavaScript - Basics
 
-I dessa övningsuppgifter skall ni träna på att använda javascript för att bland annat skapa variabler etc.
+1. Skapa index.html och index.js filer och lägg i en ny katalog.
 
-1. Skapa en ```index.html``` och en ```index.js``` fil och lägg i en ny katalog.
-
-2. I ```<head>``` kopplar ni på index.js genom att skriva ```<script src="index.js"><script>```. Detta innebär att javascript-koden kommer att köras när webbläsarens parser når script elementet.
-
-3. console.log() kommer att användas för att logga saker i webbläsarens konsol, använd kortkommandot ```command + shift + C``` på macOS , ```Control + Shift + C``` på Windows/Linux eller högerklicka på webbplatsen, klicka inspektera.
-
-### Övningar
+1. Importera index.js genom att skriva ```<script src="index.js"><script>``` i ```<head>```.
 
 1. Skapa en variabel som ni döper till ```numValue``` med numeriskt värde 7, logga sedan ut denna variabel i konsolen.
 
