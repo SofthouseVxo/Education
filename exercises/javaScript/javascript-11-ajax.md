@@ -1,4 +1,4 @@
-## 10.JavaScript - AJAX
+## 11.JavaScript - AJAX
 
 I denna övningsuppgift skall ni träna på att iterera med hjälp av loopar.
 

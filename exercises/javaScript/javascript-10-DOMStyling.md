@@ -1,4 +1,4 @@
-## 8.JavaScript - Document Object Model
+## 10.JavaScript - Document Object Model
 
 I denna övningsuppgift skall ni träna på att iterera med hjälp av loopar.
 

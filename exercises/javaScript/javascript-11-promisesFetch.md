@@ -1,5 +1,5 @@
 
-## XMLHttpRequest , Promises, Fetch & Angular http
+## 11.JavaScript - Promises and fetch
 
 I denna uppgift skall ni leka med promises, fetch och att hämta data med hjälp av angulars HttpClient. Använd exemplen från dagens föreläsning för att lösa uppgifterna.
 
