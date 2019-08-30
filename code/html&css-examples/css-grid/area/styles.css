@@ -1,0 +1,35 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 40px;
+}
+
+.header {
+	font-weight: 24px;
+	color: #444;
+}
+
+.wrapper {
+	display: grid;
+	grid-gap: 10px;
+	width: 630px;
+	height: 310px;
+	grid-template-columns: repeat(4, [col] 150px );
+	grid-template-rows: repeat(2, [row] 150px  );
+	background-color: lightcoral;
+	color: #444;
+	border-radius: 5px;
+}
+
+.box {
+	background-color: #444;
+	color: #fff;
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 150%;
+	box-sizing: border-box;
+}
+    
+.a {
+	grid-area: 2 / 2;
+	/* grid-area: span 2 / span 2; */
+}

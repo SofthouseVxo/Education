@@ -26,5 +26,15 @@
 
 1. Lägg dessa knapper i en div, ange nu så att sista knappen blir blå. (button:last-child).
 
+1. Skapa nu en paragraf helt utan innehåll.
+
+1. Lägg till innehållet 'content added from CSS' inuti denna från din CSS.
+
 1. Använd 3 andra psuedo klasser i listan till vänster på [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
+
+1. Gå till Google maps, sök så att ni hittar EC utbildningen i Malmö.
+
+1. Tryck på knappen "Dela" och välj sedan "Bädda in en Karta" använd denna kod på er webbplats.
+
+1. Gör så att kartan är 400px bred och 300px hög.
 

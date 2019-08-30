@@ -51,3 +51,8 @@ Använd Firefox developer tools (eller annan webbläsare) för att simulera skä
 
 ![Media Queries](media/mediaQ.png "Media Queries")
 
+11. Skapa ett CSS-grid. En ```<div id="container">``` och 8 ```<div class="item">``` Detta skall bete sig följande:
+* 600px eller bredare = 4 kolumner som är 150px bred och 2 rader 150px
+* Mellan 400 & 600px = 2 kolumner som är 150px och 4 rader 150px
+* Mindre än 400px = 1 kolumn 150px och 8 rader 150px
+
