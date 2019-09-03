@@ -8,7 +8,9 @@ Detta är en labb för att komma igång med Git och versionshantering. Syftet ä
 
 OBS! $ tecknet används vanligvis för att signalera att det är ```command line``` kod och detta skall inte skrivas i er terminal.
 
-1. Se till du har [Git](https://git-scm.com/downloads) installerat och en terminal/kommandotolk öppen.
+1. Skapa ett Github konto.
+
+1. Se till att du har [Git](https://git-scm.com/downloads) installerat och en terminal/kommandotolk öppen.
 
 1. Skriv ```git --version``` i terminalen för att se att du har det installerat.
 
