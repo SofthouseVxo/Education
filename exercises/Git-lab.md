@@ -47,7 +47,7 @@ $ mkdir <folder name>
 
 9. Kör nu ```$ git add index.html``` och sedan ```$ git status``` igen. Nu är din fil i staging.
 
-10. Kör nu ```$ git commit -m"initial commit``` och sedan ```$ git status``` igen. Nu har du gjort din första commit.
+10. Kör nu ```$ git commit -m"initial commit"``` och sedan ```$ git status``` igen. Nu har du gjort din första commit.
 
 11. Nu finns ditt repository och commits endast lokalt på din maskin. Det är nu dags att synca dett med Github. Har du inte har ett konto registrera ett på [Github](https://www.github.com).
 
