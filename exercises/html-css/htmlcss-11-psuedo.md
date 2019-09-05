@@ -20,33 +20,33 @@
   * När länken är aktiv skall den vara rosa
   * När man håller pekaren över länken skall den vara gul
 
-1. Skapa nu 4 knapper med texten "press me".
+9. Skapa nu 4 knapper med texten "press me".
 
-1. Gör nu så att endast första knappen får färgen grön (button:first-of-type).
+10. Gör nu så att endast första knappen får färgen grön (button:first-of-type).
 
-1. Lägg dessa knapper i en div, ange nu så att sista knappen blir blå. (button:last-child).
+11. Lägg dessa knapper i en div, ange nu så att sista knappen blir blå. (button:last-child).
 
-1. Skapa nu en paragraf helt utan innehåll.
+12. Skapa nu en paragraf helt utan innehåll.
 
-1. Lägg till innehållet 'content added from CSS' inuti denna från din CSS.
+13. Lägg till innehållet 'content added from CSS' inuti denna från din CSS.
 
-1. Använd 3 andra psuedo klasser i listan till vänster på [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
+14. Använd 3 andra psuedo klasser i listan till vänster på [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
 
-1. Gå till Google maps, sök så att ni hittar EC utbildningen i Malmö.
+15. Gå till Google maps, sök så att ni hittar EC utbildningen i Malmö.
 
-1. Tryck på knappen "Dela" och välj sedan "Bädda in en Karta" använd denna kod på er webbplats.
+16. Tryck på knappen "Dela" och välj sedan "Bädda in en Karta" använd denna kod på er webbplats.
 
-1. Gör så att kartan är 400px bred och 300px hög.
+17. Gör så att kartan är 400px bred och 300px hög.
 
-1. Skapa 4 olika css variabler som heter och innehåller följande:
+18. Skapa 4 olika css variabler som heter och innehåller följande:
   * bottom-z-index = 0
   * middle-z-index = 5
   * top-z-index = 10
   * absolute-top-z-index = 9999
 
-1. Skapa nu en ```<div>``` innehållande 4 ```<div>```'s dessa skall ha position absolute och olika färger.
+19. Skapa nu en ```<div>``` innehållande 4 ```<div>```'s dessa skall ha position absolute och olika färger.
 
-1. Placera nu ut den i förälder-diven så att de överlappar på något sätt.
+20. Placera nu ut den i förälder-diven så att de överlappar på något sätt.
 
-1. Använd nu css variablerna du skapat för att bestämma vilka som skall ligga överst respektive underst.
+21. Använd nu css variablerna du skapat för att bestämma vilka som skall ligga överst respektive underst.
 
