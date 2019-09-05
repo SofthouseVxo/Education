@@ -81,7 +81,7 @@ $ mkdir <folder name>
 
 1. Kör git log för att se dina commits, samt git status för att se om allt har kommit med i din commit.
 
-Fortsättning följer...
+1. Pusha till github och kontrollera så att din index.html nu finns på Github.
 
 ##### Bra att veta
 
