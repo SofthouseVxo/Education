@@ -1,4 +1,4 @@
-## 11.HTML & CSS - Psuedo classes
+## 11.HTML & CSS - Psuedo classes, Iframes & CSS-variables
 
 1. Skapa en ny katalog
 
@@ -39,10 +39,10 @@
 1. Gör så att kartan är 400px bred och 300px hög.
 
 1. Skapa 4 olika css variabler som heter och innehåller följande:
-* bottom-z-index = 0
-* middle-z-index = 5
-* top-z-index = 10
-* absolute-top-z-index = 9999
+  * bottom-z-index = 0
+  * middle-z-index = 5
+  * top-z-index = 10
+  * absolute-top-z-index = 9999
 
 1. Skapa nu en ```<div>``` innehållande 4 ```<div>```'s dessa skall ha position absolute och olika färger.
 
