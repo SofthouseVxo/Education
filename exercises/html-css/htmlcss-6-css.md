@@ -34,7 +34,7 @@
 
 1. Skapa nu en lista med 4 listitems. Gör ni så att alla items hamnar jämte varandra med hjälp av ```display inline```. Vad får de för stil default?
 
-## 6.2 HTML & CSS - Styling fortsättning
+### 6.2 HTML & CSS - Styling fortsättning
 
 1. Skapa nu en sektion, denna skall ha bredden 300px, höjden 200px, backgrundfärg: grön.
 
@@ -69,10 +69,16 @@
 
 14. Inuti ```section``` skapar ni en div som ni ger bredden 50% och höjden 300px samt en bakgrundsfärg som är rosa. Vilken bredd får den? Vad kan vi dra för slutsatser kring %-enheten?
 
-## Extrauppgifter - Skapa nedanstående med HTML & CSS
+### Extrauppgifter - Skapa nedanstående med HTML & CSS
 
 ![extra1](media/extra1.png "extra exercise 1")
 
 ![extra2](media/extra2.png "extra exercise 2")
 
 ![extra3](media/extra3.png "extra exercise 3")
+
+### W3schools övningar
+* [Styles ex. 1-6](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_styles1)
+* [CSS ex. 1-6](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_css1)
+* [Id ex. 1-2](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_id1)
+* [Classes ex. 1-3](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_classes1)

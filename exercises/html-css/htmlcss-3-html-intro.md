@@ -31,6 +31,13 @@
 
 12. När in är klara validerar ni er html med [Online validatorn](https://validator.w3.org/)
 
+### W3Schools övningar
+* [HTML Attributes ex. 1-4](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_attributes1)
+* [Headers ex. 1-4](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_headings1)
+* [Paragraphs ex. 1-4](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_paragraphs1)
+* [Formatting ex. 1-5](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_formatting1)
+* [Comments ex. 1-2](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_comments1)
+
 
 
 

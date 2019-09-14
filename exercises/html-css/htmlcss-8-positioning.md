@@ -42,3 +42,22 @@
 ![Positioning exercise 4](media/position4.png "Positioning exercise 4")
 
 1. Skapa nu en div som alltid skall sitta fast i botten av sidan, en s.k. sticky footer. Detta innebär att även om du scrollar på sidan så skall denna sitta i fast i botten.
+
+### Centering
+#### Ett ständigt problem utvecklare stöter på är att centrera saker vertikalt och horisontellt.
+
+1. Skapa en ny katalog.
+
+1. I denna skapar ni en index.html med basstruktur.
+
+1. Skapa ett styles.css dokument som ni lägger i samma katalog som index.html.
+
+1. Importera styles.css i ```<head>``` index.html.
+
+1. Prova på samtliga exempel på [CSS tricks centering](https://css-tricks.com/centering-css-complete-guide/)
+
+### W3schools övningar
+* [Positioning ex. 1-5](https://www.w3schools.com/css/exercise.asp?filename=exercise_positioning1)
+* [Display ex. 1-4](https://www.w3schools.com/css/exercise.asp?filename=exercise_display_visibility1)
+* [Overflow ex. 1-3](https://www.w3schools.com/css/exercise.asp?filename=exercise_overflow1)
+* [Align ex. 1-2](https://www.w3schools.com/css/exercise.asp?filename=exercise_align1)

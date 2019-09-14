@@ -13,8 +13,3 @@
 ![grid training](media/grid4.png "grid training")
 
 ![grid training](media/grid5.png "grid training")
-
-
-
-
-

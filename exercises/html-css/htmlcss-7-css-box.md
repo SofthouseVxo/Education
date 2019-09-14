@@ -46,6 +46,14 @@
 
 22. Ange sedan CSS'en att ni skall ha den fonten för texten.
 
-## Extrauppgifter - Skapa nedanstående med HTML & CSS
+### Extrauppgifter - Skapa nedanstående med HTML & CSS
 
 ![footer](media/footer.png "footer")
+
+### W3schools övningar
+* [Dimensions ex. 1-2](https://www.w3schools.com/css/exercise.asp?filename=exercise_dimension1)
+* [Box Model ex. 1-4](www.w3schools.com/css/exercise.asp?filename=exercise_boxmodel1)
+* [Border ex. 1-4](https://www.w3schools.com/css/exercise.asp?filename=exercise_border1)
+* [Margin ex. 1-4](www.w3schools.com/css/exercise.asp?filename=exercise_margin1)
+* [Padding ex. 1-3](https://www.w3schools.com/css/exercise.asp?filename=exercise_padding1)
+* [Colors ex. 1-4](https://www.w3schools.com/css/exercise.asp?filename=exercise_css3_colors1)

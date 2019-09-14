@@ -28,3 +28,9 @@
 6. Skapa nu en ```<div>``` som täcker hela veiwporten och ge den en bakgrundsfärg.
 
 7. Ge formuläret position absolut så att denna ligger över den nyskapade diven (den skall fortfarande vara placerad i mitten).
+
+### W3schools övningar
+* [Forms ex. 1-4](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_forms1W3S)
+* [Form Elements ex. 1-3](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_form_elements1W3S)
+* [Input types ex. 1-5](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_form_input_types1W3S)
+* [Form Attributes ex. 1-4](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_form_attributes1W3S) 

@@ -29,3 +29,6 @@
 1. Ladda nu hem en .mp3 och visa denna på er sida med hjälp av ```<audio>```.[w3school audio](https://www.w3schools.com/html/html5_audio.asp)
 
 1. Ladda nu hem en .mp4 och visa denna på er sida med hjälp av ```<video>```. Denna film skall börja spelas direkt och kontroller för uppspelning skall visas. [w3school video](https://www.w3schools.com/html/html5_video.asp)
+
+### W3schools övningar
+* [Images ex. 1-6](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_images1)

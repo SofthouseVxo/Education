@@ -31,3 +31,8 @@
 * 100% färg = gul, skall befinna sig i utgångsläget
 
 * Animationen skall ta 8 sekunder att utföra
+
+### W3schools övningar
+* [2D Transforms ex. 1-4](https://www.w3schools.com/css/exercise.asp?filename=exercise_css3_2dtransforms1)
+* [Transitions ex. 1-5](https://www.w3schools.com/css/exercise.asp?filename=exercise_css3_transitions1)
+* [Animations ex. 1-5](https://www.w3schools.com/css/exercise.asp?filename=exercise_css3_animations1)

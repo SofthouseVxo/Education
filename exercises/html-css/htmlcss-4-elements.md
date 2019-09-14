@@ -24,7 +24,7 @@
 
 1. Lägg till en onumrerad lista inuti en ovanstående list, innehåll är valfritt.
 
-#### Ni skall skapa följande tabell
+### Ni skall skapa följande tabell
 
 ![Table Reference](media/table.png "Table reference")
 
@@ -40,6 +40,10 @@
 
 16. Validera html-koden i bägge sidor med [Online validatorn](https://validator.w3.org/)
 
+### W3schools övningar
+* [Links ex. 1-5](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_links1)
+* [Lists ex. 1-6](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_lists1)
+* [Tables ex. 1-6](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_tables1)
 
 
 
