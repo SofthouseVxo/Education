@@ -30,4 +30,14 @@ I denna övningsuppgift skall ni träna på att ta beslut med if satser och swit
 *  'hello' -> logga "Say Hello"
 *  'hello' -> logga "Say Hello"
 
+### Loops
+
+1. Skapa en ny array som ni döper till ```users```. Lägg till 4 namn i denna.
+
+1. Skapa nu en ```for loop``` som för varje användare loggar denna i konsolen.
+
+1. Gör samma sak fast med en ```for each```.
+
+1. Gör nu så att inuti loopen kontrollerar ni om användarens namn är mer än 5 karaktärer långt, om detta är fallet logga "longer than 5" annars logga "shorter than 5".
+
 

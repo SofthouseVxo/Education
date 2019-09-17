@@ -1,4 +1,4 @@
-## 2.JavaScript - Planning/Designing a Script
+## 2.JavaScript - Scripts
 
 I denna övningsuppgift skall ni inte skriva någon kod utan ni ska få träna på hur man tänker som när man programmerar. Att tänka på är att datorn kommer att göra precis vad ni säger till den, varken mer eller mindre. Det finns ingen magi.
 
@@ -26,3 +26,11 @@ I denna övningsuppgift skall ni inte skriva någon kod utan ni ska få träna p
   * Fotbollsdomare som dömer straff
   * Trädgårsarbetare planerar ett träd
   * Kock kokar en soppa
+
+### Write a script
+
+1. Under script raden kan ni lägga till en ny ```<script></script>``` och emellan dessa taggar skriver ni ```alert('Hello world!');```
+
+1. Öppna nu index.html och dubbelkolla så att det kommer upp en popup med texten "Hello world!"
+
+1. Flytta nu ```alert('Hello world!');``` till index.js. Spara och uppdatera sidan.

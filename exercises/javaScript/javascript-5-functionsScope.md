@@ -29,3 +29,5 @@
 1. Logga nu ```globalName``` nedanför/utanför funktionen. Var får ni för värde och vilka slutsatser kan ni dra?
 
 1. Vad är skillnaden på en konstant och en vanlig variabel?
+
+/* FIXA EN HEL MINIRÄKNARE */
