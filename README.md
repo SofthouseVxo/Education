@@ -37,6 +37,11 @@
 * [Lecture 12 - Object Oriententation](exercises/javascript/javascript-12-objectOriented.md)
 * [Lecture 13 - jQuery](exercises/javascript/javascript-13-jQuery.md)
 
+###### UX
+* [Lecture 3 - Experience](exercises/ux/ux-3-experience.md)
+* [Lecture 5 - Users](exercises/ux/ux-5-users.md)
+* [Lecture 8 - Images](exercises/ux/ux-8-images.md)
+
 ###### Angular
 * [Components](exercises/angular/angular-components.md)
 * [Directives](exercises/angular/angular-directives.md)
@@ -44,7 +49,6 @@
 * [Routing](exercises/angular/angular-routing.md)
 * [Services](exercises/angular/angular-services.md)
 * [Http](exercises/angular/angular-http.md)
-
 * [Quiz](exercises/angular/angular-Quiz.md)
 
 ###### React
@@ -57,7 +61,6 @@
 * [Modules](exercises/react/react-modules.md)
 * [Routing](exercises/react/react-react-router.md)
 * [Styling & Assets](exercises/react/react-stylingAssets.md)
-
 * [Quiz](exercises/react/quiz.md)
 
 Copyright Softhouse Consulting AB 2019 Ⓒ
