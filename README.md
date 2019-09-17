@@ -1,4 +1,7 @@
-## Exercises and code from lectures - Web Development Courses
+## Exercises and Code examples
+
+#### Code examples
+* Located in the [/code](code) folder
 
 #### Exercises
 ###### HTML & CSS
