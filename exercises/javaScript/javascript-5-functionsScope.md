@@ -30,4 +30,7 @@
 
 1. Vad är skillnaden på en konstant och en vanlig variabel?
 
+
+/* FIXA FUNKTION SOM KALLAR PÅ EN ANNAN FUNKTION */
+
 /* FIXA EN HEL MINIRÄKNARE */

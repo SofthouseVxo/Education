@@ -26,6 +26,12 @@
 
 ### Operators 
 
+1. I index.js skapar ni en variabel som ni döper till ```numValue``` med det numeriska värdet 3, logga ```numValue``` i konsolen.
+
+2. Addera nu 10 till ```numValue```. Skriv nu ut det nya värdet i konsolen, vad fick du för resultat?
+
+3. Använd forfarande samma variabel och subtrahera nu med 20, vad får du för resultat?
+
 1. Skapa en variabel med värdet 6. Ta nu denna variabel och multiplicera denna med 18.
 
 1. Resultatet skall spara i en ny variabel. Logga denna och kontrollera i konsolen i webbläsaren.
@@ -33,6 +39,8 @@
 1. Skapa nu en variabel med värdet 232. Subtrahera nu med 22, skriv ut resultatet i konsolen.
 
 1. Dividera föregående variabel med 3 och skriv ut detta i konsolen.
+
+6. Skapa två variablar där båda är utav String, ena med ditt förnamn och den andra med ditt efternamn. Addera sedan dessa variabler och spara i en ny variabel. Logga den tredje variablen i konsolen.
 
 1. Skapa nu en variabel som ni döper till increaser och de denna värdet noll.
 
@@ -52,5 +60,14 @@
 12. Gör nu en liknande variabel från föregående övning och multiplicera istället strängarna, skriv ut detta i konsolen. Vad händer nu?
 
 13. Prova nu att använda Number() funktionen för att göra dessa till typen number. Se [w3schools](https://www.w3schools.com/js/js_number_methods.asp)
+
+
+## Exercises external sources
+[Learn-js - Arrays](https://www.learn-js.org/en/Arrays)
+[Learn-js - Manipulating Arrays](https://www.learn-js.org/en/Manipulating_Arrays)
+[W3schools - JavaScript Arrays exercises 1-3](https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_arrays1)
+[W3schools - JavaScript Array methods exercises 1-3](https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_array_methods1)
+
+
 
 

@@ -30,6 +30,8 @@ I denna övningsuppgift skall ni träna på att ta beslut med if satser och swit
 *  'hello' -> logga "Say Hello"
 *  'hello' -> logga "Say Hello"
 
+1. Write a function isEven that checks if a passed number is even. If the given number is even, true should be returned, otherwise false. The call isEven(2) should return true and isEven(3) should return false.
+
 ### Loops
 
 1. Skapa en ny array som ni döper till ```users```. Lägg till 4 namn i denna.
@@ -40,4 +42,15 @@ I denna övningsuppgift skall ni träna på att ta beslut med if satser och swit
 
 1. Gör nu så att inuti loopen kontrollerar ni om användarens namn är mer än 5 karaktärer långt, om detta är fallet logga "longer than 5" annars logga "shorter than 5".
 
+1. Du skall nu skriva en funktion som returnerar det längsta ordet i en mening. För att dela upp en sträng så att orden hamnar i en array kan du använda ```str.split(" ");```. Nedan har ni ett skal på lösningen.
+```
+function longestWord(sentence) { 
+
+  // Skriv din kod här
+  return sentence; 
+         
+}
+
+console.log(longestWord('I love pizza'));
+```
 

@@ -24,8 +24,8 @@
 * [Extra exercises](exercises/html-css/htmlcss-x-advanced.md)
 
 ###### JavaScript
-* [Lecture 2 - Scripting](exercises/javascript/javascript-2-scripts.md)
-* [Lecture 3 - JavaScript basics](exercises/javascript/javascript-3-basics.md)
+* [Lecture 2 - Scripting](exercises/javascript/javascript-2-scripting.md)
+* [Lecture 3 - Variables & Data types](exercises/javascript/javascript-3-variablesDatatypes.md)
 * [Lecture 4 - Arrays & Operators](exercises/javascript/javascript-4-arraysOperators.md)
 * [Lecture 5 - Functions & Scope](exercises/javascript/javascript-5-functionsScope.md)
 * [Lecture 6 - Decisions & Loops](exercises/javascript/javascript-6-decisionsLoops.md)
