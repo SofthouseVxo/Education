@@ -1,4 +1,4 @@
-## 3.JavaScript - Basics
+## 3.JavaScript - Variables and Data types
 
 1. Skapa index.html och index.js filer och lägg i en ny katalog.
 
@@ -27,7 +27,7 @@
 13. Beskriv skillnaden mellan null och undefined?
 
 ## Exercises external sources
-[Learn-js - Variables and Types](https://www.learn-js.org/en/Variables_and_Types)
-[W3schools - JavaScript Variables exercises 1-5](https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_variables1)
+* [Learn-js - Variables and Types](https://www.learn-js.org/en/Variables_and_Types)
+* [W3schools - JavaScript Variables exercises 1-5](https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_variables1)
 
 

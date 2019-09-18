@@ -1,4 +1,6 @@
-## 4.JavaScript - Arrays
+## 4.JavaScript - Arrays & Operators
+
+### Arrays
 
 1. Skapa index.html och index.js filer och lägg i en ny katalog.
 
@@ -63,11 +65,11 @@
 
 
 ## Exercises external sources
-[Learn-js - Arrays](https://www.learn-js.org/en/Arrays)
-[Learn-js - Manipulating Arrays](https://www.learn-js.org/en/Manipulating_Arrays)
-[W3schools - JavaScript Arrays exercises 1-3](https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_arrays1)
-[W3schools - JavaScript Array methods exercises 1-3](https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_array_methods1)
-
-
-
+* [Learn-js - Arrays](https://www.learn-js.org/en/Arrays)
+* [Learn-js - Manipulating Arrays](https://www.learn-js.org/en/Manipulating_Arrays)
+* [W3schools - JavaScript Arrays exercises 1-3](https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_arrays1)
+* [W3schools - JavaScript Array methods exercises 1-3](https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_array_methods1)
+* [W3schools - JavaScript Array operators exercises 1-5](https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_operators1)
+* [W3schools - JavaScript Conditions exercises 1-2](https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_conditions1)
+* [W3schools - JavaScript Comparisons exercises 1-4](https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_comparisons1)
 

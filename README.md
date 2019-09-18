@@ -27,7 +27,7 @@
 * [Lecture 2 - Scripting](exercises/javascript/javascript-2-scripting.md)
 * [Lecture 3 - Variables & Data types](exercises/javascript/javascript-3-variablesDatatypes.md)
 * [Lecture 4 - Arrays & Operators](exercises/javascript/javascript-4-arraysOperators.md)
-* [Lecture 5 - Functions & Scope](exercises/javascript/javascript-5-functionsScope.md)
+* [Lecture 5 - Functions & Scopes](exercises/javascript/javascript-5-functionsScopes.md)
 * [Lecture 6 - Decisions & Loops](exercises/javascript/javascript-6-decisionsLoops.md)
 * [Lecture 7 - Objects & This](exercises/javascript/javascript-7-objectsThis.md)
 * [Lecture 8 - Deepdive into how stuff works](exercises/javascript/javascript-8-howStuffWorks.md)
