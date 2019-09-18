@@ -3,9 +3,9 @@
 
 I denna uppgift skall ni leka med promises, fetch och att hämta data med hjälp av angulars HttpClient. Använd exemplen från dagens föreläsning för att lösa uppgifterna.
 
-1. Skapa index.html och index.js filer och lägg i en ny katalog.
+1. Skapa en index.html med bas-struktur samt en index.js fil och lägg i en ny katalog.
 
-1. I ```<head``` kopplar ni på index.js genom att skriva ```<script src="index.js"><script>```. Denna innebär att javascript koden kommer köras när script taggen körs.
+1. Importera index.js genom att skriva ```<script src="index.js"><script>``` i ```<head>```.
 
 1. I index.html skapar ni en knapp med titeln “Promise it!". Klickar man på knappen skall en onPromiseTest() funktion köras.
 

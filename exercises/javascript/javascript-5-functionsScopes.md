@@ -1,7 +1,7 @@
 ## 5.JavaScript - Functions and scopes
 
 ### Functions
-1. Skapa index.html och index.js filer och lägg i en ny katalog.
+1. Skapa en index.html med bas-struktur samt en index.js fil och lägg i en ny katalog.
 
 1. Importera index.js genom att skriva ```<script src="index.js"><script>``` i ```<head>```.
 
