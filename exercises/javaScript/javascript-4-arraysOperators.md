@@ -72,3 +72,4 @@
 * [W3schools - JavaScript Array operators exercises 1-5](https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_operators1)
 * [W3schools - JavaScript Comparisons exercises 1-4](https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_comparisons1)
 
+* [Learning Nerd on Github - point 7 - 18](https://github.com/LearnTeachCode/pair-partners/issues/42)
