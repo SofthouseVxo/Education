@@ -133,8 +133,8 @@ Skapa nu ett div element med id="funny-element" under listan, denna div skall up
 * Bredd = 200px 
 * Höjd = 30px
 * Bakgrundsfärg = grön
-* Positionerad 1800 pixlar från toppen
-* Positionerad längst till höger
+* Positionerad 1800 pixlar från toppen av webbläsarfönstret
+* Positionerad längst till höger i webbläsarfönstret
 * Skall endast synas om man scrollar ner på sidan
 
 ## 
