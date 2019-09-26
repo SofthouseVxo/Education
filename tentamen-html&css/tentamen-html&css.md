@@ -113,7 +113,7 @@ Under listan skapar ni nu en div med id="team-table" som uppfyller följande:
 ## 
 
 ### Uppgift 10 (3p)
-Skapa nu en tabell med 3 kolumner och 3 rader, denna skall ligga inuti diven som skapades i uppgift 8.
+Skapa nu en tabell med 3 kolumner och 3 rader, denna skall ligga inuti diven som skapades i uppgift 9.
 * Första kolumnen skall innehålla lagets position
 * Andra kolumnen ska innehålla lagets namn
 * Tredje kolumnen ska innehålla lagets respektive poäng
