@@ -1,24 +1,18 @@
-class Polygon {
-    constructor(height, width) {
-      this.height = height;
-      this.width = width;
-    }
+var cars = ['volvo', 'saab', 'ford', 'bmw', 'fiat'];
 
-    get area() {
-        console.log(this);
-        return this.calcArea();
+// The for loop
+// var text = '';
+// for (var i = 0; i < cars.length; i++) {
+//     text += i +'.' +  cars[i] + ' ';
+// }
+// console.log(text);
 
-        window.setTimeout(function(){
-          console.log(this);
-        }, 3000)
-    }
 
-    calcArea() {
-      return this.height * this.width;
-    }
-}
 
-const square = new Polygon(10, 10);
+// // The forEach Loop
+// // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+// cars.forEach(function(car) {
+//     console.log(car);
+// });
 
-console.log(square.height);
 
