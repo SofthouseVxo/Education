@@ -1,31 +1,49 @@
-## 8.JavaScript - Document Object Model
+## 9.JavaScript - Document Object Model adding and removing stuff
 
 I denna övningsuppgift skall ni träna på att iterera med hjälp av loopar.
 
 1. Skapa en index.html med bas-struktur samt en index.js fil och lägg i en ny katalog.
 
-1. Importera index.js genom att skriva ```<script src="index.js"><script>``` i ```<head>```.
+1. Importera index.js genom att skriva ```<script src="index.js"><script>``` i botten på ```<body>```.
 
-1. Skapa nu en knapp med ```id="my-button"``` i html koden.
+1. Allt ni skriver i HTML-koden lägger ni ovanför script-taggen.
 
-1. I index.js skriver ni kod för att spara en referens till denna knapp i en variabel(använd ```getElementById()```). Denna variabel funkar nu som en referens till knappen. Dvs om ni gör ändrar variablen så kommer elementet att förändras. ```var myButton = document.getElement...```
+1. Skapa nu en paragraf med ```id="awesome-paragraph"``` i html koden.
 
-1. Skapa nu 3st divar med klassen ```my-divs```. Testa nu att logga dessa genom att använda ```getElementsByClassName```  ```console.log(documents.getElementsByCl..);``` 
+1. Ni skall nu lägga in innehållet "I'm awesome" inuti denna paragraf genom att använda ```textContent```.
 
-1. Spara nu ni denna listan i en variabel som ni döper till ```myThreeDivs```.
+1. Ändra nu innehållet till "I'm still awesome" med hjälp av att sätta ```innerText```.
 
-1. Plocka nu ut den första ur ```myThreeDivs``` och spara denna i en ny variabel som ni döper till ```firstDivRef```.
+1. Skapa nu en ny ```<div>``` som ni ger ```id="container```. Ni skall ni lägga till följande html element med hjälp av att ange detta som ```innerHTML```. För att skapa en sträng på flera rader kan du använda dig av multi line string dvs "``" tecknen.
 
-1. Spara nu den andra av dessa i en ny variabel som ni döper till ```secondDivRef```. Men denna gång kommer ni åt den genom att använda getElementsByTagname.
+```HTML
+  <div>
+    <h1>Added with innerHTML</h1>
+    <p>Some text</p>
+  </div>
+```
 
-1. Och nu skall ni spara den tredje i en ny variabel som ni döper till ```thirdDivRef```. Men denna gång kommer ni åt den genom att använda ```querySelector```.
+8. Nu kan du prova att logga något av de nya elementet du precis skapat, exempelvis ```h1``` elementet.
 
-1. Skapa nu en ordnad```<ol>``` lista med 5 list-element```<li>```. Dessa listitems skall innehålla 5 olika namn.
+9. Skapa nu ett en ny ```<div>``` men denna gång skall du skapa detta med hjälp av ```document.createElement()```. 
 
-1. Spara en referens till listan i en variabel som ni döper till "myList". Ni kan komma åt denna genom att använda getElementsByTagname och sedan välja den första [0].
+10. Elementet kommer inte att renderas på i webbläsaren utan att vi kör ```appendChild```. Elementet kommer att skapas i den noden som du kör ```appendChild```. Börja med att lägga till diven i ```<body>```.
 
-1. Logga nu det första elementet genom att använda ```console.log(myList.childNodes[0])```.
+11. Prova nu att istället lägga till den inuti diven du skapade med id't "container".
 
-1. Spara denna i en ny variabel som ni döper till ```firstListItemRef```.
+12. Nu skall du ta bort allt innehåll på sidan med hjälp av ```removeChild```.
 
-1. Logga nu innehållet i det list elementet genom att använda ```firstListItemRef.innerHTML```.
+13. Skapa nu nedan struktur med hjälp av ```createElement()```, ```appendChild()``` och  att sätta ```textContent```.
+
+```HTML
+<section>
+  <div>
+    <p>Hello World!</p>
+    <button>Press me!</button>
+  </div>
+</section>
+```
+
+14. När skall man inte använda ```innerHTML```?
+
+15. Vad finns det för nackdelar samt fördelar med "vanlig" DOM manipulation? 
