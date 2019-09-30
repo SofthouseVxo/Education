@@ -18,12 +18,6 @@
 </section>
 ```
 
-<!-- href is the attribute
-<a href="https://www.google.com">Link to google</a>
-
-<!-- src, witdh & height are attributes -->
-<<img src="cat.jpg" width="300" height="300"> -->
-
 5. Kontrollera nu om ```<a>``` elementet har ett "href" attribut med hjälp av ```.hasAttribute();```.
 
 6. Använd ```setAttribute``` för att ge ```<a>``` en href som ni anger till att vara 'https://www.google.se'.
