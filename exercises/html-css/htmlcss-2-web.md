@@ -2,7 +2,7 @@
 
 1. Öppna Firefox (ladda ner webbläsaren om du inte har den installerad)
 
-1. Gå till [https://madebyfew.com/](https://madebyfew.com/)
+1. Gå till [http://madebyfew.com/](https://madebyfew.com/)
 
 1. Högerklicka på sidan och välj "inspect/inspektera" för att öppna developer tools (cmd + shift + c på mac)
 

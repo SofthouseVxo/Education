@@ -4,9 +4,9 @@
 
 1. Importera index.js genom att skriva ```<script src="index.js"><script>``` i ```<head>```.
 
-1. Skapa nu en knapp med id="myButton" i html koden.
+1. Skapa nu en knapp med ```id="my-button"``` inuti ```<body>```.
 
-1. I index.js sparar ni denna knapp i en variabel med getElementById. Denna variabel funkar nu som en referens till knappen. Dvs om ni gör ändrar variablen så kommer elementet att förändras. ```var myButton = document.getElement...```
+1. I index.js sparar ni en referens till denna knapp i en variabel som ni döper till med getElementById. Denna variabel funkar nu som en referens till knappen. Dvs om ni gör ändrar variablen så kommer elementet att förändras. ```var myButton = document.getElement...```
 
 1. Skapa nu 3st divar med klassen "myDivs". Testa nu att logga dessa genom att använda getElementsByClassName. ```console.log(documents.getElementsByCl..);``` 
 
