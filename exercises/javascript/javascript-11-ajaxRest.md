@@ -1,28 +1,25 @@
 ## 11.JavaScript - AJAX & REST
 
-I denna övningsuppgift skall ni träna på att iterera med hjälp av loopar.
-
 1. Skapa en index.html med bas-struktur samt en index.js fil och lägg i en ny katalog.
 
-1. Importera index.js genom att skriva ```<script src="index.js"><script>``` i ```<head>```.
+1. Importera index.js genom att skriva ```<script src="index.js"><script>``` i botten på ```<body>```.
 
-1. I index.html skapar ni en knapp med titeln “Promise it!". Klickar man på knappen skall en onPromiseTest() funktion köras.
+1. Allt ni skriver i HTML-koden lägger ni ovanför script-taggen.
 
-1. I metoden skapar ni ett nytt promise. Denna skall resolvas med värdet 12 efter
-5000ms. (resolve och reject är callbacks som ni passar in i new Promise).
+1. I index.html skapar ni en knapp med titeln “Get some data!".
 
-1. Kör ```.then``` på promises för att logga värdet.
+1. Koppla på en eventlyssnare på knappen så att klickar man på den skall en ```getSomeData()``` funktion anropas.
 
-1. Detta promise skall returna 12. Detta innebär att det returnar ett nytt promise med värdet 12. Lägg sedan på 24 och logga.
+1. Inuti ```getSomeData()``` skall ni anropa [JSONplaceholder API't](https://jsonplaceholder.typicode.com/). Detta är ett "fake" API som man kan anropa för att testa, en liten lekplats för att testa REST API'er helt enkelt.
 
-1. Ersätt ditt promise resolve med en reject som rejectar efter 4000ms med ett valfritt felmeddelande. Lägg till en catch för att se värdet.
+1. Börja med att göra ett anrop med hjälp av XMLHttpRequest objektet. ```var xhr = new XMLHttpRequest();```.
 
-1. Nu skall vi göra en fetch, skapa en ny knapp med titeln “fetch it!" som ni binder till en metod ni döper till ```onFetchit()```.
+1. Kör xhr.open och skicka med metoden, url (https://jsonplaceholder.typicode.com/todos/1) för att hämta en todo.
 
-1. I denna metod gör ni en fetch med URL'en [https://jsonplaceholder.typicode.com/todos/1](https://jsonplaceholder.typicode.com/todos/1)
+1. Lägg nu till en onload samt anropa ```xhr.send()``` för att skicka förfrågan.
 
-1. Logga responsen.
+1. Logga responsen. 
 
-1. Filterera ut valfritt värde från responsen och returnera detta i ett nytt promise.
+1. Denna respons är nu i formatet json. För att vi skall kunna jobba med detta som ett objekt och inte en sträng kan vi använda oss av ```JSON.parse()``` och skicka in vår response dvs ```this.responseText```.
 
-1. Få ditt värde och logga detta med then( ).
+1. Prova nu att använda [JSONplaceholder API't](https://jsonplaceholder.typicode.com/) för att skapa en ny TODO med hjälp av POST. Se i kodexemplen tillhörande föreläsningen för inspiration.

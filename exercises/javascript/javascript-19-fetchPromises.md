@@ -1,4 +1,6 @@
-I denna uppgift skall ni leka med promises, fetch och att hämta data med hjälp av angulars HttpClient. Använd exemplen från dagens föreläsning för att lösa uppgifterna.
+## 19.JavaScript - Fetch & Promises
+
+I denna övningsuppgift skall ni träna på att iterera med hjälp av loopar.
 
 1. Skapa en index.html med bas-struktur samt en index.js fil och lägg i en ny katalog.
 

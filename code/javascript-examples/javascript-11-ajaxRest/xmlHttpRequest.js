@@ -41,7 +41,7 @@ function getUser(){
 }
 
 function reqListener () {
-    console.log(this.responseText);
+    console.log(JSON.parse(this.responseText));
 }
 
 // Create a new user

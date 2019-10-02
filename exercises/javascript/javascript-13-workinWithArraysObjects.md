@@ -1,4 +1,4 @@
-## 13.JavaScript Iterating through Arrays and Objects
+## 13.JavaScript Working with Arrays and Objects
 
 Nedan följer uppgifter som handlar om att använda funktioner på olika sätt i JavaScript.
 
