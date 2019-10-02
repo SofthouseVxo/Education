@@ -22,23 +22,23 @@
 
 1. Denna lista skall vara numrerad, där ni rangordnar bilmärken efter vilken som är ert favoritmärke.
 
-1. Lägg till en onumrerad lista inuti en ovanstående list, innehåll är valfritt. (Denna lista måste ligga inuti ett list-item för att det skall vara semantiskt korrekt).
+1. Lägg till en onumrerad lista inuti en ovanstående lista, innehåll är valfritt. (Denna lista måste ligga inuti ett list-item för att det skall vara semantiskt korrekt).
 
-### Ni skall skapa följande tabell
+13. Rubriken "Bilmärken" och listan skall vara grupperade, lös detta med en ```<div>```.
+
+14. ## Ni skall skapa följande tabell
 
 ![Table Reference](media/table.png "Table reference")
 
-12. Börja med att skapa ett ```<table>```
+15. Börja med att skapa ett ```<table>```
 
-13. Skapa sedan headers, rader, innehåll, colspans och rowspans.
+16. Skapa sedan headers, rader, innehåll, colspans och rowspans.
 
 [W3schools tables documentation](https://www.w3schools.com/html/default.asp)
 
-14. Rubriken "Bilmärken" och listan skall vara grupperade, gör detta med en div.
+17. Gå igenom er kod och kolla så ni har ordning och indentering.
 
-15. Gå igenom er kod och kolla så ni har ordning och indentering.
-
-16. Validera html-koden i bägge sidor med [Online validatorn](https://validator.w3.org/)
+18. Validera html-koden i bägge sidor med [Online validatorn](https://validator.w3.org/)
 
 ### W3schools övningar
 * [Links ex. 1-5](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_links1)
