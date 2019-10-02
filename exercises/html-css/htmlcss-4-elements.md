@@ -22,7 +22,7 @@
 
 1. Denna lista skall vara numrerad, där ni rangordnar bilmärken efter vilken som är ert favoritmärke.
 
-1. Lägg till en onumrerad lista inuti en ovanstående list, innehåll är valfritt.
+1. Lägg till en onumrerad lista inuti en ovanstående list, innehåll är valfritt. (Denna lista måste ligga inuti ett list-item för att det skall vara semantiskt korrekt).
 
 ### Ni skall skapa följande tabell
 
