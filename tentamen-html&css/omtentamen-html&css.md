@@ -20,12 +20,12 @@ Har ni frågor under skrivningen ställ dessa till läraren.
 #### Uppgifter och betyg
 
 Tentamen innehåller 19 uppgifter som är uppdelade i Godkänt och Väl Godkänt.
-* Uppgift 1-14 är uppgifter för betyget **Godkänt** - maxpoäng **30p**
+* Uppgift 1-14 är uppgifter för betyget **Godkänt** - maxpoäng **29p**
 * Uppgift 15-19 är uppgifter för betyget **Väl Godkänt** maxpoäng **19p**
 
 Betygsgränser:
-* För ett Godkänt(G) betyg krävs **25p** på **Godkänt** delen.
-* För ett Väl Godkänt(VG) betyg krävs **25p** på **Godkänt** delen samt **15p** på **Väl Godkänt** delen.
+* För ett Godkänt(G) betyg krävs **24p** på **Godkänt** delen.
+* För ett Väl Godkänt(VG) betyg krävs **24p** på **Godkänt** delen samt **15p** på **Väl Godkänt** delen.
 
 #### Inlämning
 Inlämning sker genom att ni antingen:
@@ -36,7 +36,7 @@ Uppgift lämnas in senast **11:00**.
 
 ## 
 
-## Uppgifter för betyget Godkänt (30p)
+## Uppgifter för betyget Godkänt (29p)
 
 ### Uppgift 1 (1p)
 Skapa en ny katalog som ni döper till ```omtentamen1_html_<tre_första_bokstäverna_förnamn>_<tre_första_bokstäverna_efternamn>``` innehållande följande filer:
