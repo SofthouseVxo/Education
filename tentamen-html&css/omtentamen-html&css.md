@@ -25,7 +25,7 @@ Tentamen innehåller 19 uppgifter som är uppdelade i Godkänt och Väl Godkänt
 
 Betygsgränser:
 * För ett Godkänt(G) betyg krävs **25p** på **Godkänt** delen.
-* För ett Väl Godkänt(VG) betyg krävs **23p** på **Godkänt** delen samt **15p** på **Väl Godkänt** delen.
+* För ett Väl Godkänt(VG) betyg krävs **25p** på **Godkänt** delen samt **15p** på **Väl Godkänt** delen.
 
 #### Inlämning
 Inlämning sker genom att ni antingen:
