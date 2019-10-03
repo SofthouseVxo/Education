@@ -36,7 +36,7 @@ Uppgift lämnas in senast **11:00**.
 
 ## 
 
-## Uppgifter för betyget Godkänt (27p)
+## Uppgifter för betyget Godkänt (30p)
 
 ### Uppgift 1 (1p)
 Skapa en ny katalog som ni döper till ```omtentamen1_html_<tre_första_bokstäverna_förnamn>_<tre_första_bokstäverna_efternamn>``` innehållande följande filer:
@@ -162,7 +162,7 @@ Dessa items skall innehålla 6 olika åtgärder man kan ta för att sökmotor-op
 
 ### 
 
-## Uppgifter för betyget Väl Godkänt (18p)
+## Uppgifter för betyget Väl Godkänt (19p)
 
 ### Uppgift 15 (4p)
 Skapa en rubrik med innehållet ```SEO och nyckelord``` och besvara följande frågor i en paragraf direkt under rubriken.
