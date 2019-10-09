@@ -4,7 +4,7 @@
 
 1. I denna skapar ni en index.html med basstruktur.
 
-1. Lägg till en knapp och en paragraf som ligger i den sektion.
+1. Lägg till en ```<button>``` och en paragraf som ligger i den sektion.
 
 1. Börja med att sätta en ny färg samt bakgrundsfärg på dessa element med hjälp av inline styling.
 
@@ -50,7 +50,7 @@
 
 1. Ge den första ```id="parent"``` den andra "child" och  den tredje "grandchild". Inuti grandchild skapar ni en paragraf. Ändra färgen på paragrafen genom att ange detta för ```#parent``` i css'en. Vad kan du dra för slutsatser? Vad händer om du anger en ny färg i ```#child```?
 
-1. Ange hur mycket speficeringspoäng nedanstående styling ger:
+1. Ange hur mycket specificeringspoäng nedanstående styling ger:
   * ```.myClass { padding: 15px; }```
   * ```* { padding: 15px; }```
   * ```#myDiv.myClass { padding: 15px; }```

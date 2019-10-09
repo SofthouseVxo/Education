@@ -1,6 +1,6 @@
 ## 8.JavaScript - Document Object Model
 
-1. Skapa en index.html med bas-struktur samt en index.js fil och lägg i en ny katalog.
+1. Skapa en index.html med basstruktur samt en index.js fil. Lägg dessa i en ny katalog.
 
 1. Importera index.js genom att skriva ```<script src="index.js"><script>``` i botten på ```<body>```.
 

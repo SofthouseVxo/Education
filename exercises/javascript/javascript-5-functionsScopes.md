@@ -1,9 +1,9 @@
 ## 5.JavaScript - Functions and scopes
 
 ### Functions
-1. Skapa en index.html med bas-struktur samt en index.js fil och lägg i en ny katalog.
+1. Skapa en index.html med basstruktur samt en index.js fil. Lägg dessa i en ny katalog.
 
-1. Importera index.js genom att skriva ```<script src="index.js"><script>``` i ```<head>```.
+1. Importera index.js genom att skriva ```<script src="index.js"><script>``` inuti ```<head>```.
 
 1. Skapa en ny funktion som ni döper till ```speak```.
 
@@ -24,6 +24,12 @@
 1. Istället för att logga värdet inuti funktionen så skall ni spara det som returneras ifrån ```add``` och nu loggar ni istället denna.
 
 1. Gör ni likadant fast med ```subtraction``` och denna skall subtrahera det den första parametern med den andra.
+
+1. Nu skall vi testa den inbyggda metoden ```Math.random()```(en metod är en funktion som tillhör ett object, exakt vad detta kommer vi kika närmre på senare i kursen.)
+
+1. Information om hur denna fungerar finns på [w3schools](https://www.w3schools.com/jsref/jsref_random.asp) prova exemplen samtliga exempel inklusive dem som även använder ```Math.floor```.
+
+1. Skriv nu en egen ```Math.floor((Math.random();``` som returnerar ett värde mellan 1 och 30.
 
 ### Scopes
 

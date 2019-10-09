@@ -1,6 +1,6 @@
 ## 2.JavaScript - Scripting
 
-I denna övningsuppgift skall ni inte skriva någon kod utan ni ska få träna på hur man tänker som när man programmerar. Att tänka på är att datorn kommer att göra precis vad ni säger till den, varken mer eller mindre. Det finns ingen magi.
+I denna övningsuppgift skall ni inte skriva någon kod utan ni ska få träna på hur man tänker som en programmerare. Att tänka på när man skriver ett script är att datorn kommer att göra precis vad ni säger till den, varken mer eller mindre. Det finns ingen magi.
 
 1. Vad är ett script? Jo det är en serie av instruktioner som en dator kan följa för att nå ett mål eller utföra en uppgift.
 
@@ -29,7 +29,7 @@ I denna övningsuppgift skall ni inte skriva någon kod utan ni ska få träna p
 
 ### Skriv ditt första script
 
-1. Skapa en index.html och en index.js fil och lägg i en ny katalog.
+1. Skapa en index.html och en index.js fil, lägg dessa i en ny katalog.
 
 1. I ```<head>``` lägger ni till ```<script></script>``` och inuti denna skriver ni ```alert('Hello world!');```.
 
@@ -40,3 +40,5 @@ I denna övningsuppgift skall ni inte skriva någon kod utan ni ska få träna p
 1. Importera nu index.js i ```<head>``` genom att skriva ```<script src="index.js"><script>```.
 
 1. Öppna webbläsaren igen och uppdatera sidan. Kontrollera att popupen fortfarande dyker upp.
+
+1. Grattis ni har nu skrivit och kört ert första script!

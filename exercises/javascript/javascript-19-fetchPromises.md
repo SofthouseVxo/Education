@@ -2,9 +2,9 @@
 
 I denna övningsuppgift skall ni träna på att iterera med hjälp av loopar.
 
-1. Skapa en index.html med bas-struktur samt en index.js fil och lägg i en ny katalog.
+1. Skapa en index.html med basstruktur samt en index.js fil. Lägg dessa i en ny katalog.
 
-1. Importera index.js genom att skriva ```<script src="index.js"><script>``` i ```<head>```.
+1. Importera index.js genom att skriva ```<script src="index.js"><script>``` inuti ```<head>```.
 
 1. I index.html skapar ni en knapp med titeln “Promise it!". Klickar man på knappen skall en onPromiseTest() funktion köras.
 

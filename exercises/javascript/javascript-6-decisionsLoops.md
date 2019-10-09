@@ -2,9 +2,9 @@
 
 I denna övningsuppgift skall ni träna på att ta beslut med if satser och switch case.
 
-1. Skapa en index.html med bas-struktur samt en index.js fil och lägg i en ny katalog.
+1. Skapa en index.html med basstruktur samt en index.js fil. Lägg dessa i en ny katalog.
 
-1. Importera index.js genom att skriva ```<script src="index.js"><script>``` i ```<head>```.
+1. Importera index.js genom att skriva ```<script src="index.js"><script>``` inuti ```<head>```.
 
 1. Skapa en ny variabel som ni döper till ```length``` och ge denna värdet ```180```.
 
