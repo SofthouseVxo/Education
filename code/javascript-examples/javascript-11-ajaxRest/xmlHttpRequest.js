@@ -10,7 +10,9 @@ postUserButton.addEventListener('click', createUser);
 putUserButton.addEventListener('click', updateUser);
 deleteUserButton.addEventListener('click', deleteUser);
 
-// Get all users
+/**
+  * @desc makes request to get all users using XMLHttpRequest object
+*/
 function getUsers(){
 	var url  = "https://jsonplaceholder.typicode.com/users";
 	var xhr  = new XMLHttpRequest()
@@ -26,7 +28,9 @@ function getUsers(){
 	xhr.send(null);
 }
 
-// Get a specific user
+/**
+  * @desc makes request to get a specific user using XMLHttpRequest object
+*/
 function getUser(){
   var oReq = new XMLHttpRequest();
 	oReq.addEventListener("progress", ()=>{console.log('onUpdateProgress')});
@@ -40,11 +44,16 @@ function getUser(){
 	oReq.send(); 
 }
 
+/**
+  * @desc callback function that runs when response is loaded
+*/
 function reqListener () {
     console.log(JSON.parse(this.responseText));
 }
 
-// Create a new user
+/**
+  * @desc makes request to create a new user using XMLHttpRequest object and POST method
+*/
 function createUser(){
 	var url = "https://jsonplaceholder.typicode.com/users";
 
@@ -71,7 +80,9 @@ function createUser(){
 	xhr.send(json);
 }
 
-// Update a specific user
+/**
+  * @desc makes request to update a user using XMLHttpRequest object and PUT method
+*/
 function updateUser(){
 	var url = "https://jsonplaceholder.typicode.com/users";
 
@@ -98,7 +109,9 @@ function updateUser(){
 	xhr.send(json);
 }
 
-// Delete a specific user
+/**
+  * @desc makes request to delete a user using XMLHttpRequest object and DELETE method
+*/
 function deleteUser(){
 	var url = "https://jsonplaceholder.typicode.com/users";
 	

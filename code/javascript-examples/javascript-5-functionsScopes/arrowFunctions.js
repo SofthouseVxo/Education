@@ -1,11 +1,11 @@
 var cars = ['volvo', 'saab', 'ford', 'bmw', 'fiat'];
 
 // The for loop
-// var text = '';
-// for (var i = 0; i < cars.length; i++) {
-//     text += i +'.' +  cars[i] + ' ';
-// }
-// console.log(text);
+var text = '';
+for (var i = 0; i < cars.length; i++) {
+    text += i +'.' +  cars[i] + ' ';
+}
+console.log(text);
 
 
 

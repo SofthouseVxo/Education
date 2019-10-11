@@ -1,3 +1,7 @@
+/**
+  * @desc Self invoking function
+  * @return { object }
+*/
 var Exposer = (function() {
     var privateVariable = 10;
 
