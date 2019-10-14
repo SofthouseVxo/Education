@@ -41,7 +41,7 @@
 ![Positioning exercise 3](media/position3.png "Positioning exercise 3")
 ![Positioning exercise 4](media/position4.png "Positioning exercise 4")
 
-1. Skapa nu en div som alltid skall sitta fast i botten av sidan, en s.k. sticky footer. Detta innebär att även om du scrollar på sidan så skall denna sitta i fast i botten.
+19. Skapa nu en div som alltid skall sitta fast i botten av sidan, en s.k. sticky footer. Detta innebär att även om du scrollar på sidan så skall denna sitta i fast i botten.
 
 ### Centering
 #### Ett ständigt problem utvecklare stöter på är att centrera saker vertikalt och horisontellt.
