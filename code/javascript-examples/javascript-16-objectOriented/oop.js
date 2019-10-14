@@ -8,12 +8,13 @@ function Car(make, model, year) {
 	}
 
 	this.func2 = function(){
-			console.log('fun2',this);
+			console.log('func2',this);
 	}
 }
 
 var car1 = new Car('Eagle', 'Talon TSi', 1993);
 var car2 = Car('Opel', 'Vectra', 1991);
 
+console.log(car1);
 car1.model = 'robn';
 console.log(car1);

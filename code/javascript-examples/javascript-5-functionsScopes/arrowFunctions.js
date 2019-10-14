@@ -1,18 +1,37 @@
-var cars = ['volvo', 'saab', 'ford', 'bmw', 'fiat'];
-
-// The for loop
-var text = '';
-for (var i = 0; i < cars.length; i++) {
-    text += i +'.' +  cars[i] + ' ';
+/**
+ * @desc Ordinary function
+ * @param string sentence 
+ */
+var greet = function greet(sentence){
+  console.log(sentence);
 }
-console.log(text);
+
+/**
+ * @desc Same function as above but as an arrow function
+ * @param string sentence 
+ */
+var greet2 = (sentence)=>{
+  console.log(sentence);
+}
+
+greet('Hello world!');
+greet2('Hello Mom!');
 
 
 
-// // The forEach Loop
-// // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
-// cars.forEach(function(car) {
-//     console.log(car);
-// });
+/**
+ * @desc timeout function accepting a function as param
+ */
+setTimeout(function(){
+  console.log('called after 2 sec.')
+}, 2000)
+
+
+/**
+ * @desc timeout function accepting an arrow function as param
+ */
+setTimeout(()=>{
+  console.log('called after 1 sec.')
+}, 1000)
 
 

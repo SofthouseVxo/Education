@@ -1,12 +1,13 @@
-var test = "I'm global";
+var testVar = "I'm global";
 
 /**
   * @desc test function
 */
 function testScope() {
-  var test = "I'm local";
+  var testVar = "I'm local";
+  console.log(testVar);
 }
 
-testScope();           // invokes testScope function
+testScope();
 
-console.log(test);     // output: I'm global
+console.log(testVar);
