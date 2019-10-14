@@ -26,23 +26,21 @@
 
 12. Det skall sedan se ut som följande ![border boxing](media/borderbox3.png "border boxing")
 
-13. Skapa nu en ```<footer>``` med id "footer" som ser ut som bilden nedan.
+13. Skapa nu en ```h3``` och sätt den till färgen röd genom att ange "red".
 
-14. Skapa nu en ```h3``` och sätt den till färgen röd genom att ange "red".
+14. Ange nu samma färg fast med ett hexadeciamlt värde och sedan genom att använda rgb. [Här finns ett verktyg för att se färger i olika format](https://htmlcolorcodes.com)
 
-15. Ange nu samma färg fast med ett hexadeciamlt värde och sedan genom att använda rgb. [Här finns ett verktyg för att se färger i olika format](https://htmlcolorcodes.com)
+15. Skapa nu en ```<div>``` som ni ger bredden 300px och höjden 400px samt en border som är ```1px solid black```. Använd id för att knyta an stylingen till denna i ert externa CSS dokument.
 
-16. Skapa nu en ```<div>``` som ni ger bredden 300px och höjden 400px samt en border som är ```1px solid black```. Använd id för att knyta an stylingen till denna i ert externa CSS dokument.
+16. Inuti denna skapar ni en paragraf. Innehållet i denna skall vara det första stycket som ni kopierar från [Lorem Ipsum](https://sv.lipsum.com/). Lorem Ipsum är utfyllnadstext som man kan använda om man vill ha text för att testa saker. Spara och se resultat i webbläsaren.
 
-17. Inuti denna skapar ni en paragraf. Innehållet i denna skall vara det första stycket som ni kopierar från [Lorem Ipsum](https://sv.lipsum.com/). Lorem Ipsum är utfyllnadstext som man kan använda om man vill ha text för att testa saker. Spara och se resultat i webbläsaren.
+17. Prova nu att sätta stylingen för diven ```overflow:``` till hidden, scroll och visible.
 
-18. Prova nu att sätta stylingen för diven ```overflow:``` till hidden, scroll och visible.
+18. Nu skall vi ändra lite på texten. Börja med att ändra font familjen till arial.
 
-19. Nu skall vi ändra lite på texten. Börja med att ändra font familjen till arial.
+19. Gör ni så att texten blir italic, storlek 3.2em och fet.
 
-20. Gör ni så att texten blir italic, storlek 3.2em och fet.
-
-21. Nu skall vi använda en font som finns på [Google Fonts](https://fonts.google.com/). Välj ut en valfri, markera denna med ```+```. Klicka på rutan nere till höger för att öppna vald font. Använd något av sätten att importera fonten.
+20. Nu skall vi använda en font som finns på [Google Fonts](https://fonts.google.com/). Välj ut en valfri, markera denna med ```+```. Klicka på rutan nere till höger för att öppna vald font. Använd något av sätten att importera fonten.
 
 22. Ange sedan CSS'en att ni skall ha den fonten för texten.
 
