@@ -1,6 +1,10 @@
 ## 6. Wireframes & prototypes
 
-Nu skall ni få rita lite, och skapa en prototyp/wireframe. Ni skall skapa en pappersprototyp innehållande följande delar.
+Nu skall ni få rita lite, och skapa en prototyp/wireframe.
+
+När vi börjar undersöka olika appar så kommer vi hitta en hel uppsjö av komponenter, layouter och navigationer som vi kan välja på. Detta är ett tillfälle för er att testa och utforska vad det finns för några.
+
+Ni skall skapa en pappersprototyp innehållande följande delar.
 
 * Inloggning
 * Registrering
