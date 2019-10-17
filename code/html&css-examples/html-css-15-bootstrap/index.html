@@ -15,335 +15,71 @@
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
   </head>
   <body>
-    <main role="main">
-      <div class="container mt-5 mb-5">
-        <div class="jumbotron">
-          <h1 class="display-4">Bootstrap components</h1>
-          <hr class="my-4">
-          <p>Bootstrap provides a wide range of different components, check them out <a href="https://getbootstrap.com/docs/4.3/components/alerts/">here</a></p>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
         </div>
-      </div>
+      </nav>
 
-      <div class="container mt-5 mb-5">
-        <div class="jumbotron">
-          <h1 class="display-4">Headers and fonts</h1>
-          <hr class="my-4">
-          <p>Bootstrap uses Roboto</p>
-          <hr class="my-4">
-          <p class="h1">h1. Bootstrap heading</p>
-          <p class="h2">h2. Bootstrap heading</p>
-          <p class="h3">h3. Bootstrap heading</p>
-          <p class="h4">h4. Bootstrap heading</p>
-          <p class="h5">h5. Bootstrap heading</p>
-          <p class="h6">h6. Bootstrap heading</p>
-        </div>
-      </div>
-
-      <div class="container mt-5 mb-5">
-        <div class="jumbotron">
-          <h1 class="display-4">Bootstrap Grid Examples</h1>
-          <hr class="my-4">
-          <p>Resize the viewport to see changes</p>
-        </div>
-      </div>
- 
-      <div class="py-5 bg-light">
-        <div class="container mt-3">
-          <p class="mt-5">Most basic columns</p>
-          <div class="row">
-            <div class="col">
-              <div class="card">
-                <div class="card-body">
-                  <p class="card-text">col</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card">
-                <div class="card-body">
-                  <p class="card-text">col</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card">
-                <div class="card-body">
-                  <p class="card-text">col</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card">
-                <div class="card-body">
-                  <p class="card-text">col</p>
-                </div>
-              </div>
-            </div>
-        </div>
-      </div>
-
- 
-      <div class="container mt-3">
-        <p class="mt-5">The grid below has culumns col-2 & col-10 and will have the same relation independent of screen size</p>
-        <div class="row">
-          <div class="col-2">
-            <div class="card">
-              <div class="card-body">
-                <p class="card-text">col-2</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-10">
-            <div class="card">
-              <div class="card-body">
-                <p class="card-text">col-10</p>
-              </div>
-            </div>
+      <main role="main">
+        <div class="container mt-5 mb-5">
+          <div class="jumbotron">
+            <h1 class="display-4">Bootstrap components</h1>
+            <hr class="my-4">
+            <p>Bootstrap provides a wide range of different components, check them out <a href="https://getbootstrap.com/docs/4.3/components/alerts/">here</a></p>
           </div>
         </div>
-      </div>
 
-         
-      <div class="container mt-3">
-        <p class="mt-5">The grid below has col-sm meaning that it will change when screen is bigger than 576px</p>
-        <p class="mt-n3"><a href="https://getbootstrap.com/docs/4.3/layout/grid/">Bootstrap Breakpoints</a></p>
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="card">
-              <div class="card-body">
-                <p class="card-text">col-sm-4</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-4">
-            <div class="card">
-              <div class="card-body">
-                <p class="card-text">col-sm-4</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-4">
-            <div class="card">
-              <div class="card-body">
-                <p class="card-text">col-sm-4</p>
-              </div>
-            </div>
+        <div class="container mt-5 mb-5">
+          <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-secondary">Left</button>
+            <button type="button" class="btn btn-secondary">Middle</button>
+            <button type="button" class="btn btn-secondary">Right</button>
           </div>
         </div>
-      </div>
 
-      <div class="container mt-3">
-        <p class="mt-5">The grid below has col-xl meaning that it will change when screen is bigger than 1200px</p>
-        <p class="mt-n3"><a href="https://getbootstrap.com/docs/4.3/layout/grid/">Bootstrap Breakpoints</a></p>
-        <div class="row">
-          <div class="col-xl-4">
-            <div class="card">
-              <div class="card-body">
-                <p class="card-text">col-xl-4</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-4">
-            <div class="card">
-              <div class="card-body">
-                <p class="card-text">col-xl-4</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-4">
-            <div class="card">
-              <div class="card-body">
-                <p class="card-text">col-xl-4</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container mt-5 mb-5">
-        <div class="jumbotron">
-          <h1 class="display-4">Bootstrap Spacing Examples</h1>
-        </div>
-      </div>
-
-      <div class="container mt-5">
-        <hr class="my-n2">
-        <button type="button" class="btn btn-primary mt-3">mt-3</button>
-        <button type="button" class="btn btn-secondary mt-5">mt-5</button>
-        <button type="button" class="btn btn-success mt-n4">mt-n4</button>
-        <button type="button" class="btn btn-danger mx-3">mx-3</button>
-
-        <hr>
-        <button type="button" class="btn btn-primary pt-3">pt-3</button>
-        <button type="button" class="btn btn-secondary pb-3">pb-3</button>
-        <button type="button" class="btn btn-danger py-5">py-5</button>
-        <button type="button" class="btn btn-danger px-5">px-5</button>
-      </div>
-
-      <div class="container mt-5 mb-5">
-        <div class="jumbotron">
-          <h1 class="display-4">Bootstrap Display Examples</h1>
-        </div>
-      </div>
-
-      
-      <div class="container">
-        <div class="d-md-inline p-2 bg-primary text-white mt-5">d-md-inline</div>
-        <div class="d-md-inline p-2 bg-dark text-white">d-md-inline</div>
-
-        <div class="d-xl-block p-2 bg-primary text-white mt-5">d-xl-block</div>
-        <div class="d-xl-block p-2 bg-dark text-white">d-xl-block</div>
-
-        <div class="d-xl-none p-2 bg-primary text-white mt-5">d-xl-none will be hidden when wider than 1200px</div>
-        <div class="d-xl-none p-2 bg-dark text-white">d-xl-none will be hidden when wider than 1200px</div>
-      </div>
-
-      <div class="container mt-5 mb-5">
-        <div class="jumbotron">
-          <h1 class="display-4">Bootstrap Horizontal alignment Examples</h1>
-        </div>
-      </div>
-
-
-      <div class="container">
-        <div class="row justify-content-start">
-          <div class="col-4 mt-1">
-            <div class="card">
-              <div class="card-body">
-                <p class="card-text">One of two columns</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-4 mt-1">
-            <div class="card">
-              <div class="card-body">
-                <p class="card-text">One of two columns</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-4 mt-1">
-            <div class="card">
-              <div class="card-body">
-                <p class="card-text">One of two columns</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-4 mt-1">
-            <div class="card">
-              <div class="card-body">
-                <p class="card-text">One of two columns</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row justify-content-end">
-          <div class="col-4 mt-1">
-            <div class="card">
-              <div class="card-body">
-                <p class="card-text">One of two columns</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-4 mt-1">
-            <div class="card">
-              <div class="card-body">
-                <p class="card-text">One of two columns</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row justify-content-around">
-          <div class="col-4 mt-1">
-            <div class="card">
-              <div class="card-body">
-                <p class="card-text">One of two columns</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-4 mt-1">
-            <div class="card">
-              <div class="card-body">
-                <p class="card-text">One of two columns</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row justify-content-between">
-          <div class="col-4 mt-1">
-            <div class="card">
-              <div class="card-body">
-                <p class="card-text">One of two columns</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-4 mt-1">
-            <div class="card">
-              <div class="card-body">
-                <p class="card-text">One of two columns</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-  
-      <div class="container mt-5 mb-5">
-        <div class="jumbotron">
-          <h1 class="display-4">Bootstrap Offset Examples</h1>
-        </div>
-      </div>
-
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="card">
-                <div class="card-body">
-                  <p class="card-text">.col-md-4</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 offset-md-4">
-              <div class="card">
-                <div class="card-body">
-                  <p class="card-text">.col-md-4 .offset-md-4</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-3 offset-md-3">
-              <div class="card">
-                <div class="card-body">
-                  <p class="card-text">.col-md-3 .offset-md-3</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 offset-md-3">
-              <div class="card">
-                <div class="card-body">
-                  <p class="card-text">.col-md-3 .offset-md-3</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6 offset-md-3">
-              <div class="card">
-                <div class="card-body">
-                  <p class="card-text">.col-md-6 .offset-md-3</p>
-                </div>
-              </div>
-            </div>
+        <div class="container mt-5 mb-5">
+          <div class="jumbotron">
+            <h1 class="display-4">Headers and fonts</h1>
+            <hr class="my-4">
+            <p>Bootstrap uses Roboto</p>
+            <hr class="my-4">
+            <p class="h1">h1. Bootstrap heading</p>
+            <p class="h2">h2. Bootstrap heading</p>
+            <p class="h3">h3. Bootstrap heading</p>
+            <p class="h4">h4. Bootstrap heading</p>
+            <p class="h5">h5. Bootstrap heading</p>
+            <p class="h6">h6. Bootstrap heading</p>
           </div>
         </div>
 
@@ -386,79 +122,6 @@
           </table>
         </div>
       </div>
-
-      <div class="container mt-5 mb-5">
-        <div class="jumbotron">
-          <h1 class="display-4">Resize window and watch how the examples beneath behaves.</h1>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="jumbotron">
-          <div class="row">
-            <div class="col-sm bg-dark rounded mr-1 mb-1">
-              <div class="card-body">
-                <p class="card-text text-primary">One of three "col-sm" columns</p>
-              </div>
-            </div>
-            <div class="col-sm bg-dark rounded mr-1 mb-1">
-              <div class="card-body">
-                <p class="card-text text-primary">One of three "col-sm" columns</p>
-              </div>
-            </div>
-            <div class="col-sm bg-dark rounded mr-1 mb-1">
-              <div class="card-body">
-                <p class="card-text text-primary">One of three "col-sm" columns</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="jumbotron">
-          <div class="row">
-            <div class="col-md bg-dark rounded mr-1 mb-1">
-              <div class="card-body">
-                <p class="card-text text-primary">One of three "col-md" columns</p>
-              </div>
-            </div>
-            <div class="col-md bg-dark rounded mr-1 mb-1">
-              <div class="card-body">
-                <p class="card-text text-primary">One of three "col-md" columns</p>
-              </div>
-            </div>
-            <div class="col-md bg-dark rounded mr-1 mb-1">
-              <div class="card-body">
-                <p class="card-text text-primary">One of three "col-md" columns</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="jumbotron">
-          <div class="row">
-            <div class="col-lg bg-dark rounded mr-1 mb-1">
-              <div class="card-body">
-                <p class="card-text text-primary">One of three "col-lg" columns</p>
-              </div>
-            </div>
-            <div class="col-lg bg-dark rounded mr-1 mb-1">
-              <div class="card-body">
-                <p class="card-text text-primary">One of three "col-lg" columns</p>
-              </div>
-            </div>
-            <div class="col-lg bg-dark rounded mr-1 mb-1">
-              <div class="card-body">
-                <p class="card-text text-primary">One of three "col-lg" columns</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> 
-
     </main>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
