@@ -12,7 +12,7 @@
 * [Lecture 5 - Media](exercises/html-css/htmlcss-5-media.md)
 * [Lecture 6 - CSS](exercises/html-css/htmlcss-6-css.md)
 * [Lecture 7 - CSS continuation](exercises/html-css/htmlcss-7-css-box.md)
-* [Lecture 8 - CSS Positioning & Centering](exercises/html-css/htmlcss-8-css-positioning.md)
+* [Lecture 8 - CSS Positioning & Centering](exercises/html-css/htmlcss-8-positioning.md)
 * [Lecture 9.1 - CSS Flexbox](exercises/html-css/htmlcss-9-flexbox.md)
 * [Lecture 9.2 - CSS Grid](exercises/html-css/htmlcss-9-grid.md)
 * [Lecture 10 - HTML Forms](exercises/html-css/htmlcss-10-forms.md)
