@@ -11,7 +11,7 @@ body {
 .container {
 	display: flex;
 	height: 300px;
-	/* width: 400px; */
+	width: 50%;
 	background-color: lightcoral;
 	color: #444;
 	border-radius: 5px;
@@ -28,13 +28,13 @@ body {
 	/* flex-flow: row-reverse wrap; */
 
 	/* flex-start by default*/
-	justify-content: flex-start;
+	/* justify-content: flex-start; */
 	/* justify-content: flex-end; */
 	/* justify-content: center; */
 	/* justify-content: space-between; */
 
 	/* Stretch by default */
-	align-items: stretch;
+	/* align-items: stretch; */
 	/* align-items: flex-start; */
 	/* align-items: flex-end; */
 	/* align-items: center; */
@@ -51,20 +51,35 @@ body {
 	width: 100px;
 	height: 100px;
 	box-sizing: border-box;
+	margin: 10px;
 }
 
 .a {
-	/* order: 1; */
-	/* flex-grow: 1; */
+	order: 0;
+	flex-grow: 1;
 }
 
 .b {
 	/* order: 2; */
 	/* flex-grow: 2; */
+	display: flex;
+	align-items: center;
+	/* justify-content: center; */
 }
 
 .c{
 	/* align-self: flex-start; */
 	/* align-self: flex-end; */
 	/* align-self: center; */
+}
+
+.inner {
+	background-color: #ff00ff;
+	color: #fff;
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 150%;
+	width: 20px;
+	height: 20px;
+	box-sizing: border-box;
 }

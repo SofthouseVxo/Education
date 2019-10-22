@@ -1,4 +1,4 @@
-## 6.1HTML & CSS - Börja styla
+## 6.1 HTML & CSS - Börja styla
 
 1. Skapa en ny katalog.
 
@@ -69,6 +69,12 @@
 
 14. Inuti ```section``` skapar ni en div som ni ger bredden 50% och höjden 300px samt en bakgrundsfärg som är rosa. Vilken bredd får den? Vad kan vi dra för slutsatser kring %-enheten?
 
+### W3schools övningar
+* [Styles ex. 1-6](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_styles1)
+* [CSS ex. 1-6](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_css1)
+* [Id ex. 1-2](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_id1)
+* [Classes ex. 1-3](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_classes1)
+
 ### Extrauppgifter - Skapa nedanstående med HTML & CSS
 
 ![extra1](media/extra1.png "extra exercise 1")
@@ -76,9 +82,3 @@
 ![extra2](media/extra2.png "extra exercise 2")
 
 ![extra3](media/extra3.png "extra exercise 3")
-
-### W3schools övningar
-* [Styles ex. 1-6](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_styles1)
-* [CSS ex. 1-6](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_css1)
-* [Id ex. 1-2](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_id1)
-* [Classes ex. 1-3](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_classes1)

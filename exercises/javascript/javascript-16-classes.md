@@ -1,4 +1,4 @@
-## 16.JavaScript OOP
+## 16.JavaScript Classes and OOP
 
 1. Skapa följande filer och lägg i en ny katalog.
 * Main.js
