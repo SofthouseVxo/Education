@@ -25,7 +25,7 @@ function moveBack(){
   * @desc pushes a new state into the history object and reloads the page
 */
 function pushNewState(){
-  // pushState does not reload the page
+  // pushState does not reload the page, url set to work when running live server on specific port 5500
   history.pushState({user: 'John'}, 'Hello', 'http://127.0.0.1:5500/code/javascript-examples/javascript-3-variablesDatatypes/index.html');
   
   // location.reload will reload the page
@@ -44,10 +44,9 @@ window.addEventListener('popstate', function(e) {
   * 
 */
 
-
 // localStorage.setItem('myCat', 'Tom');
 
-// var cat = localStorage.getItem('myCat');
+// let cat = localStorage.getItem('myCat');
 
 // // console.log(cat);
 // localStorage.removeItem('myCat');
@@ -58,7 +57,7 @@ window.addEventListener('popstate', function(e) {
 
 // sessionStorage.setItem('myDog', 'Betty');
 
-//var cat = sessionStorage.getItem('myDog');
+//let cat = sessionStorage.getItem('myDog');
 
 //sessionStorage.removeItem('myDog');
 

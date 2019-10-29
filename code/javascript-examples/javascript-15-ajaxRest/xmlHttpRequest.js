@@ -14,11 +14,11 @@ deleteUserButton.addEventListener('click', deleteUser);
   * @desc makes request to get all users using XMLHttpRequest object
 */
 function getUsers(){
-	var url  = "https://jsonplaceholder.typicode.com/users";
-	var xhr  = new XMLHttpRequest()
+	let url  = "https://jsonplaceholder.typicode.com/users";
+	let xhr  = new XMLHttpRequest()
 	xhr.open('GET', url, true)
 	xhr.onload = function () {
-		var users = JSON.parse(xhr.responseText);
+		let users = JSON.parse(xhr.responseText);
 		if (xhr.readyState == 4 && xhr.status == "200") {
 				console.table(users);
 		} else {
@@ -32,7 +32,7 @@ function getUsers(){
   * @desc makes request to get a specific user using XMLHttpRequest object
 */
 function getUser(){
-  var oReq = new XMLHttpRequest();
+  let oReq = new XMLHttpRequest();
 	oReq.addEventListener("progress", ()=>{console.log('onUpdateProgress')});
 	oReq.addEventListener("load", ()=>{console.log('onTransferComplete')});
 	oReq.addEventListener("error", ()=>{console.log('transferFailed')});
@@ -55,18 +55,18 @@ function reqListener () {
   * @desc makes request to create a new user using XMLHttpRequest object and POST method
 */
 function createUser(){
-	var url = "https://jsonplaceholder.typicode.com/users";
+	let url = "https://jsonplaceholder.typicode.com/users";
 
-	var data = {
+	let data = {
 		id: 1,
 		name: 'John Doe',
 		username: 'hereComesJohnny',
 		email: 'coolDude90@email.com',
 	};
 
-	var json = JSON.stringify(data);
+	let json = JSON.stringify(data);
 
-	var xhr = new XMLHttpRequest();
+	let xhr = new XMLHttpRequest();
 	xhr.open("POST", url, true);
 	xhr.setRequestHeader('Content-type','application/json; charset=utf-8');
 	xhr.onload = function () {
@@ -84,18 +84,18 @@ function createUser(){
   * @desc makes request to update a user using XMLHttpRequest object and PUT method
 */
 function updateUser(){
-	var url = "https://jsonplaceholder.typicode.com/users";
+	let url = "https://jsonplaceholder.typicode.com/users";
 
-	var data = {
+	let data = {
 		id: 1,
 		name: 'John Doe',
 		username: 'hereComesJohnny',
 		email: 'coolDude90@email.com',
 	};
 
-	var json = JSON.stringify(data);
+	let json = JSON.stringify(data);
 
-	var xhr = new XMLHttpRequest();
+	let xhr = new XMLHttpRequest();
 	xhr.open("PUT", url+'/1', true);
 	xhr.setRequestHeader('Content-type','application/json; charset=utf-8');
 	xhr.onload = function () {
@@ -113,9 +113,9 @@ function updateUser(){
   * @desc makes request to delete a user using XMLHttpRequest object and DELETE method
 */
 function deleteUser(){
-	var url = "https://jsonplaceholder.typicode.com/users";
+	let url = "https://jsonplaceholder.typicode.com/users";
 	
-	var xhr = new XMLHttpRequest();
+	let xhr = new XMLHttpRequest();
 
 	xhr.open("DELETE", url+'/1', true);
 	xhr.onload = function () {

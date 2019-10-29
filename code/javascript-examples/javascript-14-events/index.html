@@ -5,9 +5,49 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title>JavaScript Examples</title>
-		<script src="index.js"></script>
+		<link rel="stylesheet" href="../libs/bootstrap/dist/css/bootstrap.min.css">
 	</head>
 	<body>
+		<div class="container jumbotron mt-5">
+			<h1>14. Events</h1>
+			<p>Uncomment scripts in bottom of body to try examples.</p>
+		</div>
+
+		<div class="container">
+			<button id="my-btn" class="btn btn-primary">Press me!</button>
+
+			<br>
+			<br>
+			<input type="text" placeholder="Text goes here..">
+			<p></p>
+	
+			<div style="width: 400px; height: 400px; background: gray;" id="bubbling-fourth">
+				<div style="width: 300px; height: 300px; background: rgb(98, 98, 98);" id="bubbling-third">
+					<div style="width: 200px; height: 200px; background: rgb(56, 56, 56);" id="bubbling-second">
+						<div style="width: 100px; height: 100px; background: rgb(31, 31, 31);" id="bubbling-first">
+	
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+	
+			<div style="width: 400px; height: 400px; background: rgb(255, 68, 68);" id="capturing-fourth">
+				<div style="width: 300px; height: 300px; background: rgb(101, 215, 250);" id="capturing-third">
+					<div style="width: 200px; height: 200px; background: rgb(137, 124, 250);" id="capturing-second">
+						<div style="width: 100px; height: 100px; background: rgb(120, 255, 136);" id="capturing-first">
+	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- <script src="events.js"></script> -->
+		<script src="input.js"></script>
+		<!-- <script src="myTimeout.js"></script> -->
+		<!-- <script src="eventBubbling.js"></script> -->
+		<!-- <script src="eventCapturing.js"></script> -->
 
 	</body>
 </html>

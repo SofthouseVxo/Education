@@ -23,26 +23,6 @@
 * [Lecture 15 - Bootstrap](exercises/html-css/htmlcss-15-bootstrap.md)
 * [Extra exercises](exercises/html-css/htmlcss-x-advanced.md)
 
-###### JavaScript
-* [Lecture 2 - Scripting](exercises/javascript/javascript-2-scripting.md)
-* [Lecture 3 - Variables & Data types](exercises/javascript/javascript-3-variablesDatatypes.md)
-* [Lecture 4 - Arrays & Operators](exercises/javascript/javascript-4-arraysOperators.md)
-* [Lecture 5 - Functions & Scopes](exercises/javascript/javascript-5-functionsScopes.md)
-* [Lecture 6 - Decisions & Loops](exercises/javascript/javascript-6-decisionsLoops.md)
-* [Lecture 7 - Objects & This](exercises/javascript/javascript-7-objectsThis.md)
-* [Lecture 8 - Document Object Model](exercises/javascript/javascript-9-DOM.md)
-* [Lecture 9 - DOM Handling Content](exercises/javascript/javascript-9-DOMcontent.md)
-* [Lecture 10 - DOM Events and styling](exercises/javascript/javascript-10-DOMEventsStyling.md)
-* [Lecture 11 - AJAX & REST](exercises/javascript/javascript-11-ajax.md)
-* [Lecture 12 - Browser APIs](exercises/javascript/javascript-12-browserApis.md)
-* [Lecture 13 - Working with Arrays & Objects](exercises/javascript/javascript-13-workinWithArraysObjects.md)
-* [Lecture 14 - Forms & Validation](exercises/javascript/javascript-14-forms.md)
-* [Lecture 15 - jQuery](exercises/javascript/javascript-15-jQuery.md)
-* [Lecture 16 - Object Oriented JS](exercises/javascript/javascript-12-objectOriented.md)
-* [Lecture 17 - How JS Works](exercises/javascript/javascript-17-howJavaScriptWorks.md)
-* [Lecture 18 - Functions cont.](exercises/javascript/javascript-18-advancedFunctions.md)
-* [Lecture 19 - Fetch & Promises](exercises/javascript/javascript-19-fetchPromises.md)
-
 ###### UX
 * [Lecture 3 - Experience](exercises/ux/ux-3-experience.md)
 * [Lecture 5 - Users](exercises/ux/ux-5-users.md)

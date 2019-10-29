@@ -5,19 +5,52 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title>JavaScript Examples</title>
+		<link rel="stylesheet" href="../libs/bootstrap/dist/css/bootstrap.min.css">
 		<script
 			src="https://code.jquery.com/jquery-3.4.1.min.js"
 			integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
 			crossorigin="anonymous">
 		</script>
 		
-		<script src="index.js"></script>
+		<!-- <script src="inspect.js"></script> -->
+		<!-- <script src="accessingDOM.js"></script> -->
+		<!-- <script src="events.js"></script> -->
+		<!-- <script src="manipulation.js"></script> -->
+		<!-- <script src="addingToDOM.js"></script> -->
+		<script src="styling.js"></script>
+
 	</head>
 	<body>
 
-			<button>Press me!</button>
+		<div class="container jumbotron mt-5">
+			<h1>19. jQuery</h1>
+			<p>Uncomment scripts in head to try examples.</p>
+		</div>
 
-			<p>A paragraph with some characters and words.</p>
-			
+		<div class="container border p-5 mt-5">
+			<button id="my-button" class="btn btn-primary">Press me!</button>
+			<p class="content">A paragraph with some characters and words.</p>
+			<p class="content">A paragraph with some characters and words.</p>
+			<p class="content">A paragraph with some characters and words.</p>
+			<p class="content">A paragraph with some characters and words.</p>
+			<p class="content">A paragraph with some characters and words.</p>
+		</div>
+
+		<div class="container border p-2 mt-5">
+			<div id="my-div">
+				<p id="my-text">Yo!</p>
+				<input type="text" id="my-input" value="John Doe">
+				<a id="my-link" href="https://www.google.com">google</a>
+			</div>
+		</div>
+
+		<div class="container border mt-5">
+			<div id="bottom-div"></div>
+		</div>
+
+		<div class="container border mt-5 style-div">
+			<p>Some text</p>
+		</div>
+
 	</body>
 </html>
