@@ -1,6 +1,3 @@
-/**
- * 
- */
 class Vehicle {
  
   constructor (name, type) {
@@ -18,9 +15,6 @@ class Vehicle {
  
 }
 
-/**
- * 
- */
 class Car extends Vehicle {
  
   constructor (name) {

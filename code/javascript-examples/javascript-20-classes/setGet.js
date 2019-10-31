@@ -1,6 +1,6 @@
 /** 
   * @desc this class is a class containing functionality for a person.
-  * @author Robin.lundin@softhouse.se
+  * @author
 */
 class Person {
   constructor(name) {
