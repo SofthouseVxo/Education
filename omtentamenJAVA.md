@@ -29,6 +29,8 @@ Tentamen innehåller 12 uppgifter som är uppdelade i uppgifter för **Godkänt*
 
 ### Inlämning/Redovisning
 
+Inlämning sker genom att ni skapar ett repo på github som ni döper till **omTentamen1_html_<tre_första_bokstäverna_förnamn>_<tre_första_bokstäverna_efternamn>** där ni lägger till filerna som ni skapade på tentamen (glöm inte att pusha slutgiltiga koden).
+
 #### Uppgift lämnas in senast **16:15**.
 
 ## Uppgifter för betyget Godkänt (23p)
