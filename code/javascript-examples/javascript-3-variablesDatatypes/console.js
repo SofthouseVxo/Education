@@ -1,2 +1,5 @@
 console.log('Hello world!');
-console.table({value: 12, name: 'John Doe'});
+
+var myObj = {value: 12, name: 'John Doe'};
+
+console.table('myObj', myObj);
