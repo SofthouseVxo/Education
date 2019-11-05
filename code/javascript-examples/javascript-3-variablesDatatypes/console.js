@@ -1,5 +1,5 @@
 console.log('Hello world!');
 
-var myObj = {value: 12, name: 'John Doe'};
+var myArray = ["apples", "oranges", "bananas"];
 
-console.table('myObj', myObj);
+console.table(myArray);

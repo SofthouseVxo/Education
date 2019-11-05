@@ -4,7 +4,7 @@ var value3 = '6';
 var value4 = ++value1; // Try this with value1++ instead
 var value5 = --value2; // Try this with value2-- instead
 
-console.log('value1 * value2', 8 * 4);
+console.log('value1 * value2', value1 * value2);
 console.log('value4', value4);
 console.log('value5', value5);
 
