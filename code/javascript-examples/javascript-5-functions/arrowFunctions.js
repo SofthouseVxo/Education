@@ -2,7 +2,7 @@
  * @desc Ordinary function
  * @param string sentence 
  */
-var greet = function greet(sentence){
+var greet = function (sentence){
   console.log(sentence);
 }
 
@@ -10,7 +10,7 @@ var greet = function greet(sentence){
  * @desc Same function as above but as an arrow function
  * @param string sentence 
  */
-var greet2 = (sentence)=>{
+var greet2 = (sentence) => {
   console.log(sentence);
 }
 

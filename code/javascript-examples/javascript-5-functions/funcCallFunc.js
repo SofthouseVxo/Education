@@ -1,8 +1,6 @@
 /**
  * @desc Function calling a function
- *
  * @param string word 
- *
  * @returns number
  */
 function sayWord(word) {

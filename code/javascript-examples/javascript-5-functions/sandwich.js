@@ -11,5 +11,5 @@ function makeSandwich(ingredient1, ingredient2, ingredient3) {
   return sandwich;
 };
 
-let sandwich = makeSandwich('lettuce ', 'cheese ', 'bread');
+var sandwich = makeSandwich('lettuce ', 'cheese ', 'bread');
 console.log('the sandwich consists of ', sandwich);
