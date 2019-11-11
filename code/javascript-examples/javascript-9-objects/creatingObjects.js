@@ -1,11 +1,14 @@
 // One way to create an object
-var car = { color: 'red' };
+var 'car', car = { color: 'red'dog', ' };
 
 
 // Another
 var dog = new Object();
 dog.color = "brown";
 
+
+console.log('car', car);
+console.log('dog', dog);
 
 // More advanced object with properties and methods
 var person = {
@@ -15,7 +18,8 @@ var person = {
 
 	// getFullName is a method
 	getFullName : function() {
-		return this.firstName + " " + this.lastName;
+		console.log(this.firstName);
+		// return this.firstName + " " + this.lastName;
 	}
 };
 

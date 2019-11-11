@@ -17,7 +17,7 @@ console.log(bike);
 
 // Deleting property
 delete bike.hasFrontLight;
-console.log(bike);
+console.log('after deletion', bike);
 
 
 // Mutating the object

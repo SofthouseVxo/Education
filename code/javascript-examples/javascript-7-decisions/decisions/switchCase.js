@@ -1,6 +1,10 @@
 let today = new Date().getDay();
 let day;
 
+console.log(new Date());
+console.log('before', day);
+console.log('today', today);
+
 switch (today) {
   case 0:
     day = "Sunday";
@@ -24,4 +28,4 @@ switch (today) {
     day = "Saturday";
 }
 
-console.log(day);
+console.log('after', day);

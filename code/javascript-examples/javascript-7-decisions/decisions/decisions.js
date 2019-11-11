@@ -2,9 +2,9 @@ let username = 'John Doe';
 let age = 16;
 
 if(age > 18){
-  console.log('Allowed to enter the pub')
+  console.log('Allowed to enter the pub');
 } else {
-  console.log('Stop, turn around, leave.')
+  console.log('Stop, turn around, leave.');
 }
 
 /**
@@ -41,5 +41,5 @@ if(age > 18 && username === 'Jane'){
 }
 
 if(age > 18 || username === 'Jane'){
-  console.log('Correct age or correct name');
+  console.log('Correct age or correct name2');
 }
