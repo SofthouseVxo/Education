@@ -1,11 +1,12 @@
-var cars = ['volvo', 'saab', 'ford', 'bmw', 'fiat'];
+let cars = ['volvo', 'saab', 'ford', 'bmw', 'fiat'];
 
-var i = 0;
-var numberOfTimes = 6;
+let i = 0;
+let numberOfTimes = 6;
 
 // will run 5 times
 while (i < cars.length) {
   // code block to be executed
-  console.log('i is ' + cars[i]);
+  console.log('i is ', i);
+  console.log('car', cars[i])
   i++;
 }

@@ -1,0 +1,45 @@
+body {
+  background-color: #34495e;
+  padding-top: 20px;
+}
+
+#game-header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #2ecc71;
+  text-align: center;
+}
+
+#game-description {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #2ecc71;
+  text-align: center;
+}
+
+#game-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+#chests {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#refresh-button {
+  width: 200px;
+  height: 40px;
+  color: #ffffff;
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: auto;
+  cursor: pointer;
+}
+
+#refresh-button:hover {
+  background-color: #2ecc71;
+}

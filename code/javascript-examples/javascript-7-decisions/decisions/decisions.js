@@ -1,4 +1,4 @@
-let username = 'John Doe';
+let username = 'Jane Doe';
 let age = 16;
 
 if(age > 18){
@@ -14,9 +14,9 @@ if(age > 18){
 */
 function checkUsername(){
   if(username.length > 5){
-    return 'name is longer than 5 characters';
+    console.log('name is longer than 5 characters');
   } else {
-    return 'name is 5 or shorter';
+    console.log('name is 5 or shorter');
   }
 }
 
@@ -27,16 +27,18 @@ function checkUsername(){
 */
 function checkUsername2(){
   if(username.length > 5){
-    return 'name is longer than 5 characters';
+    console.log('name is longer than 5 characters');
+    return;
   }
-  return 'name is 5 or shorter';
+
+  console.log('name is 5 or shorter');
 }
 
-console.log(checkUsername());
-console.log(checkUsername2());
+checkUsername();
+checkUsername2();
 
 
-if(age > 18 && username === 'Jane'){
+if(age > 18 && username === 'John'){
   console.log('Correct age and correct name');
 }
 

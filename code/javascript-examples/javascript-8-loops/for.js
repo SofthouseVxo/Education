@@ -1,21 +1,25 @@
-var cars = ['volvo', 'saab', 'ford', 'bmw', 'fiat'];
+let cars = ['volvo', 'saab', 'ford', 'bmw', 'fiat'];
 
 /**
   * @desc a "for" loop
   * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for
 */
-var text = '';
-for (var i = 0; i < cars.length; i++) {
-    text += i +'.' +  cars[i] + ' ';
+let text = '';
+
+for (let i = 0; i < 2; i++) {
+  console.log('Text', text);
+  text += i + '.' +  cars[i] + ' ';
 }
+
+console.log(text);
 
 /**
   * @desc a for loop where we define variable with var
 */
 for(let i = 0; i < cars.length; i++) {
   console.log('car  outer', cars[i]);
-  for(let k = 0; k < cars.length; k++) {
-    console.log('car inner', cars[k]);
+  for(let i = 0; i < cars.length; i++) {
+    console.log('car inner', cars[i]);
   }
 }
 
