@@ -1,4 +1,6 @@
-let firstParagraphRef = document.getElementsByClassName('my-section')[0].firstElementChild;
+let firstParagraphRef = document.getElementsByClassName('my-section')[0].firstElementChild
+
+console.log(firstParagraphRef);
 
 /**
  * setTimeout is a built in JavaScript method which we will look closer on later on.
@@ -7,8 +9,8 @@ let firstParagraphRef = document.getElementsByClassName('my-section')[0].firstEl
  */
 setTimeout(function(){
   firstParagraphRef.textContent = 'Updated the first paragrah!';
-}, 2000)
+}, 2000);
 
 setTimeout(function(){
-  firstParagraphRef.innerText = 'Updated the first paragrah AGAIN!';
-}, 4000)
+  firstParagraphRef.innerHTML = '<h1>Updated the first paragrah AGAIN!</h1>';
+}, 4000);

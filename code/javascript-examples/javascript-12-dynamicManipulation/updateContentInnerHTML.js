@@ -16,5 +16,5 @@ setTimeout(function(){
     <h2>Updated second to H2</h2>
     <p>And added a paragraph</p>
   </div>
-  `
+`
 }, 4000)
