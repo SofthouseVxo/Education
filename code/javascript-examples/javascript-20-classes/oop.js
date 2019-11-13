@@ -9,6 +9,8 @@ let Main = (function(){
   
     cow.eat();
     cow.fart();
+
+    let person = new Person();
   };
 
   return {
