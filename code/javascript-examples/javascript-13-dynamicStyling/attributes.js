@@ -1,6 +1,6 @@
-var myImg =  document.getElementsByTagName('img')[0];
+let myImg =  document.getElementsByTagName('img')[0];
 
-console.log(myImg.hasAttribute('src')); // false
+console.log(myImg.hasAttribute('src')); // true
 console.log(myImg.getAttribute('src')); // profile-image
 
 setTimeout(function(){
@@ -9,7 +9,7 @@ setTimeout(function(){
 }, 2000)
 
 
-// var myImgs =  document.getElementsByClassName('profile-image'); // <img class="profile-image">
+// let myImgs =  document.getElementsByClassName('profile-image'); // <img class="profile-image">
 // console.log(myImgs);
 // myImgs[0].setAttribute('class', 'new-class'); // <img class="new-class">
 // console.log(myImgs);
