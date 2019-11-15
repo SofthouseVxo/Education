@@ -1,0 +1,1 @@
+let users = ['Benny', 'Jane', 'Scotty', 'Emma'];

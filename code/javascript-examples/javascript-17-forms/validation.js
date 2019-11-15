@@ -1,4 +1,4 @@
-let myForm = document.getElementById('myForm');
+let myForm = document.getElementById('my-form');
 
 myForm.addEventListener('submit', function(event){
   event.preventDefault(); // Preventing page reload

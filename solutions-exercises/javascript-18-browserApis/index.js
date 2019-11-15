@@ -21,5 +21,9 @@ function addUser(){
 }
 
 function removeUser(){
-  let user = localStorage.removeItem('user');
+  localStorage.removeItem('user');
 }
+
+// -------------------------------------------------
+
+document.cookie = "user=Jane; expires=Thu, 24 Feb 2020 19:00:00 UTC; path=/";

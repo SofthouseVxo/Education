@@ -1,4 +1,4 @@
-let myForm = document.getElementById('myForm');
+let myForm = document.getElementById('my-form');
 
 // Fires when the form is submitted
 myForm.addEventListener('submit', function(event){
