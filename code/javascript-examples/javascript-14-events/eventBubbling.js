@@ -8,7 +8,7 @@ let fourthBox = document.getElementById('bubbling-fourth');
  */
 
 firstBox.addEventListener('click', function(e){
-  // e.stopPropagation();
+  e.stopPropagation();
   console.log('first box clicked!');
 });
 
