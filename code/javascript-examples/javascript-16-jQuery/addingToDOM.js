@@ -1,6 +1,8 @@
 $(document).ready(function(){
-  $('#bottom-div').append('<p>Some appended text.</p>');
-  $('#bottom-div').prepend('<p>Some prepended text.</p>'); 
-  $('#bottom-div').after('<p>Some text after</p>');
-  $('#bottom-div').before('<p>Some text before</p>');
+  let bottomDiv = $('#bottom-div');
+
+  bottomDiv.append('<p>Some appended text.</p>');
+  bottomDiv.prepend('<p>Some prepended text.</p>'); 
+  bottomDiv.after('<p>Some text after</p>');
+  bottomDiv.before('<p>Some text before</p>');
 });

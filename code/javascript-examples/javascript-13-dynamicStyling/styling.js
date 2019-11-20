@@ -4,11 +4,11 @@ myHeaderRef.style.color = '#FF00FF'; // Changes the color
 myHeaderRef.style.backgroundColor = 'green'; // Sets a new background-color
 
 setTimeout(function(){
-  myHeaderRef.setAttribute('style', 'color: red; font-size: 40px; background: black');
+  myHeaderRef.setAttribute('style', 'color: red; font-size: 60px; background: black');
 }, 2000)
 
 setTimeout(function(){
-  myHeaderRef.setAttribute('style', 'color: purple;');
+  myHeaderRef.setAttribute('style', 'color: purple; background: red;');
 }, 4000)
 
 setTimeout(function(){
