@@ -1,0 +1,30 @@
+.user-wrapper {
+  position: relative;
+  margin: 10px;
+  /* border: 1px solid lightgray; */
+  background: lightgray;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.add-btn {
+  background: lightgreen;
+  border: none;
+  width: 90%;
+  margin: 10px;
+  padding: 10px;
+  font-size: 24px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.delete {
+  color: white;
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  background: red;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
