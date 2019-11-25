@@ -1,3 +1,4 @@
+let buttonRef = document.getElementById('my-btn');
 
 buttonRef.addEventListener('click', cb);
 
