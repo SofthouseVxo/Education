@@ -75,7 +75,7 @@ Ni har 500kr med er till butiken och vill nu veta om ni har råd med varorna.
 
 ### Uppgift 5 (5p)
 
-Skapa en ny knapp (button) och lägg till denna i DOM-strukturen (inuti ```body```). Detta gör ni på valfritt sätt.
+Skapa en ny knapp (button) och lägg till denna i DOM-strukturen (inuti ```body```). Detta gör ni på valfritt sätt med JavaScript.
 * Texten i knappen skall vara 'press me'. 
 * Om man klickar på knappen skall 'button has been clicked' skrivas ut i konsolen.
 
@@ -110,12 +110,12 @@ Berätta utförligt om AJAX:
 * Vad är det? 
 * Hur använder man det med JavaScript (vilket objekt använder vi, vilka event finns osv) Går även att skriva kod här för att förklara de olika delarna.
 
-Svara på frågan i en <b>block-kommentar</b> i er JavaScript fil.
+Svara på frågan MED EGNA ORD i en <b>block-kommentar</b> i er JavaScript fil.
 
 ## 
 
 ### Uppgift 9 (3p)
-Vad blir **result** i koden nedan? Varför blir det så och inte ```81```? Vad behöver vi ändra för att det skall funka och <u>varför</u>? Svara på frågan i en <b>block-kommentar</b> i er JavaScript fil.
+Vad blir **result** i koden nedan? Varför blir det så och inte ```81```? Vad behöver vi ändra för att det skall funka och <u>varför</u>? Svara på frågan MED EGNA ORD i en <b>block-kommentar</b> i er JavaScript fil.
 
 ```
 var val3 = 10;
@@ -140,7 +140,7 @@ let result = calc(10, 23);
 
 ### Uppgift 10 (4p)
 
-Skapa en ny <b>Block-kommentar</b> där ni svarar på följande frågor <u>utförligt</u>:
+Skapa en ny <b>Block-kommentar</b> där ni svarar MED EGNA ORD på följande frågor <u>utförligt</u>:
 * Vad är jQuery, och dess syfte?
 * Vad är viktigt att tänka på när man skall använda jQuery, potentiella nackdelar?
 * Vad gör koden nedan?
