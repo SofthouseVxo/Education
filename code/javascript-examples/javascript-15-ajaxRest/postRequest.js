@@ -23,13 +23,14 @@ function createUser(){
   
 	xhr.setRequestHeader('Content-type','application/json; charset=utf-8');
   
-  xhr.onload = function () {
+  xhr.addEventListener('load', function () {
 		if (xhr.readyState == 4 && xhr.status == "201") {
 			console.log(xhr.status);
 			console.log(xhr.responseText);
 		} else {
 			console.error('fail');
 		}
-	}
+	});
+	
 	xhr.send(jsonData);
 }

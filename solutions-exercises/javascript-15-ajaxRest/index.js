@@ -8,14 +8,14 @@ function getSomeData(){
   xhr.open('GET', 'https://jsonplaceholder.typicode.com/todos/1', true);
   
   // Sets how to handle the response
-  xhr.onload = function(){
+  xhr.addEventLister('load', function(){
     if (this.readyState == 4 && this.status == 200) {
       console.log('response', this.responseText);
       let parsedResponse = JSON.parse(this.responseText);
       let title = parsedResponse.title;
       console.log('title', title);
     }
-  };
+  });
 
   // Sends the request
   xhr.send();
@@ -43,14 +43,15 @@ function sendSomeData(){
 	let xhr = new XMLHttpRequest();
 	xhr.open("POST", url, true);
 	xhr.setRequestHeader('Content-type','application/json; charset=utf-8');
-	xhr.onload = function () {
+	xhr.addEventLister('load', function () {
 		if (xhr.readyState == 4 && xhr.status == "201") {
 			console.log('status', xhr.status);
 			console.log('response', xhr.responseText);
 		} else {
 			console.error('fail');
 		}
-	}
+  });
+  
 	xhr.send(json);
 }
 
