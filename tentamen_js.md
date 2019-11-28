@@ -75,7 +75,7 @@ Ni har 500kr med er till butiken och vill nu veta om ni har råd med varorna.
 
 ### Uppgift 5 (5p)
 
-Skapa en ny knapp (button) och lägg till denna i DOM-strukturen (inuti ```body```). Detta gör ni på valfritt sätt med JavaScript.
+Skapa en ny knapp (button) och lägg till denna i DOM-strukturen (inuti ```body```). Detta gör ni på valfritt sätt med **JavaScript**.
 * Texten i knappen skall vara 'press me'. 
 * Om man klickar på knappen skall 'button has been clicked' skrivas ut i konsolen.
 
