@@ -85,8 +85,9 @@ Följande skall finnas med i redovisning och samtliga i gruppen skall vara med o
 
 Då projektet är en del i två olika kurser så kommer betygssättningen ske i två delar. Ni kommer bli bedömda på det agila för den kursen samt kodmässigt i javascript kursen.
 
+Gällande det agila blir ni bedömda i grupp på rapport men främst redovisning som kan ge IG/G.
 
-Allt ni lämnar in som grupp kommer att betygsättas som grupp. Den individuella delen betygsätts induviduellt. Dvs om 1 grupp lämnar in en applikation och rapport som håller en Godkänt nivå, så kan student som visar en djupare förståelse i sin individuellt rapport erhålla betyget Väl Godkänt på uppgiften.
+Gällande JavaScript så kommer ni bli bedömda i grupp på inlämning av projektet. Det som tas i aktining här är kodkvalitet, hur mycket man hunnit med samt svårighetsgrad på det som utvecklats. Gruppinlämning ger IG/G. Dock kommer kodprojektet tas i aktning när jag granskar den individuella rapporten där ni får chansen att visa djupare förståelse, denna kan ge IG/G/VG.
 
 ## Checklista inför inlämning:
 1. Applikaition körs i webbläsaren utan felmeddelande.
