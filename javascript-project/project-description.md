@@ -27,19 +27,16 @@ Det finns ett övergripande <a href="https://docs.google.com/spreadsheets/d/1BKa
 
 ## Krav 
 
-#### För betyget Godkänd krävs följande:
 * Ni skall under projektets gång arbeta agilt dvs utföra följande aktiviter i varje sprint:
   * Sprint planning
   * Daily Scrum
   * Sprint review (innehållande demo för PO(Robin))
   * Sprint retro
-* Ni skall skapa en Singe page website skriven i HTML, CSS & JavaScript.
-* Webbplatsen skall utvecklas utefter vad som prioriteras i backloggen.
+* Ni skall skapa en Single page website skriven i HTML, CSS & JavaScript.
+* Applikationen skall utvecklas utefter vad som prioriteras i backloggen.
 * Er kodbas skall under arbetets gång hantera versioner med hjälp av Git. Varje gruppmedlem skall ha bidragit med commits.
-
-#### För betyget Väl Godkänd krävs följande:
-* Att ni visar på en djupare förståelse i er individuella rapport.
-* Hur god kvalitet er applikation håller rent tekniskt kommer även tas i aktning.
+* Projekt (Arbetssätt och applikation) skall redovisas muntligt.
+* Rapporter skall lämnas in.
 
 ## Inlämning
 
@@ -71,7 +68,7 @@ Det finns ett övergripande <a href="https://docs.google.com/spreadsheets/d/1BKa
 
 Följande skall finnas med i redovisning och samtliga i gruppen skall vara med och presentera.
 * Presentera applikationen.
-* Presentera hur ni har arbetat agilt.
+* **Presentera hur ni har arbetat agilt.**
 * Struktur i projektet (arbetsmässigt och kod).
 * Problem ni stötte på.
 * Hur ni löste dessa.
@@ -83,11 +80,16 @@ Följande skall finnas med i redovisning och samtliga i gruppen skall vara med o
 
 ## Betygsättning
 
-Då projektet är en del i två olika kurser så kommer betygssättningen ske i två delar. Ni kommer bli bedömda på det agila för den kursen samt kodmässigt i javascript kursen.
+Då projektet är en del i två olika kurser så kommer betygssättningen ske i två delar. Ni kommer bli bedömda på det agila och javascrpt separat.
 
-Gällande det agila blir ni bedömda i grupp på rapport men främst redovisning som kan ge IG/G.
+* Den Agila delen blir ni bedömda i grupp på rapport men främst redovisning som kan ge IG/G.
 
-Gällande JavaScript så kommer ni bli bedömda i grupp på inlämning av projektet. Det som tas i aktining här är kodkvalitet, hur mycket man hunnit med samt svårighetsgrad på det som utvecklats. Gruppinlämning ger IG/G. Dock kommer kodprojektet tas i aktning när jag granskar den individuella rapporten där ni får chansen att visa djupare förståelse, denna kan ge IG/G/VG.
+* På JavaScript delen blir ni bedömda i grupp på inlämning av projekt(kod). Det som tas i aktining här är: 
+  * kodkvalitet
+  * Omfång, hur mycket man hunnit med.
+  * Svårighetsgrad på det som utvecklats. 
+  
+Gruppinlämning ger IG/G. Dock kommer kodprojektet tas i aktning när jag granskar den individuella rapporten där ni får chansen att visa djupare förståelse, denna kan ge IG/G/VG.
 
 ## Checklista inför inlämning:
 1. Applikaition körs i webbläsaren utan felmeddelande.
