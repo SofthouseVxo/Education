@@ -44,8 +44,7 @@ Början med att skapa en ```index.html``` där ni importerar er JavaScript (som 
 
 1. Skapa en ny ```array``` innehållande 5st ```booleans```. Denna döper ni till <b>guesses</b> och innehåller följande: true, false, false, true, true.
 
-1. Skapa nu en valfri ```loop``` som itererar över <b>guesses</b> och skriver ut 'the guess is' + ```gissningen```. (så första varvet skall logga 'guess is true');
-
+1. Skapa nu en valfri ```loop``` som itererar över <b>guesses</b> och skriver ut 'the guess is' + ```gissningen```. (så första varvet skall logga 'guess is true'). Detta skall skrivas ut i konsolen.
 ## 
 
 
