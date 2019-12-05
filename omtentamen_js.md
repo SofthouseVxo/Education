@@ -1,4 +1,4 @@
-## Praktisk Tentamen - Javascript med jQuery , 25 yrkeshögskolepoäng
+## Praktisk Omtentamen - Javascript med jQuery , 25 yrkeshögskolepoäng
 
 ### Beskrivning
 Detta är en praktiskt omtentamen som skrivs/utförs individuellt på plats i klassrummet.
