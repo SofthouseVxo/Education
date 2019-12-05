@@ -10,19 +10,20 @@ getUserButton.addEventListener('click', getUser);
 function getUsers(){
   let url  = 'https://jsonplaceholder.typicode.com/users';
   
-	let xhr  = new XMLHttpRequest()
+	let xhr  = new XMLHttpRequest();
   
   xhr.open('GET', url, true);
   
   xhr.addEventListener('load', function () {
 		let users = JSON.parse(xhr.responseText);
+		
 		if (xhr.readyState == 4 && xhr.status == '200') {
 				console.table(users);
 		} else {
 				console.error(users);
 		}
-  });
-
+	});
+	
 	xhr.send(null);
 }
 

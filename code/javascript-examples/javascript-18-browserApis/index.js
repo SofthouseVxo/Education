@@ -6,6 +6,7 @@ forwardButtonRef.addEventListener('click', moveForward);
 backButtonRef.addEventListener('click', moveBack);
 pushNewStateButtonRef.addEventListener('click', pushNewState);
 
+console.log(history);
 /**
   * @desc moves forward in the history object
 */
@@ -26,7 +27,7 @@ function moveBack(){
 */
 function pushNewState(){
   // pushState does not reload the page, url set to work when running live server on specific port 5500
-  history.pushState({user: 'John'}, 'Hello', 'http://127.0.0.1:5500/code/javascript-examples/javascript-3-variablesDatatypes/index.html');
+  history.pushState({user: 'John'}, 'Hello', 'http://127.0.0.1:5502/code/javascript-examples/javascript-3-variablesDatatypes/index.html');
   
   // location.reload will reload the page
   location.reload();
