@@ -9,54 +9,55 @@ Kursen kommer att genomföras med traditionell undervisning i form av föreläsn
 
 ## Övergripande instruktioner:
 
-Ni skall utveckla en Applikation med hjälp av JavaScript.
+Ni skall utveckla en **frontend applikation** med hjälp av **JavaScript**. Arbetet med framtagning av applikation skall utföras på ett agilts sätt och följa ramverket **Scrum**.
 
-Förslag på ramverk/bibliotek som kan användas:
+Förslag på JS ramverk/bibliotek som kan användas:
 
 * Angular
 * React
 * Vue
 * React Native
 * Ionic (byggt på Angular men har nu även stöd för react)
-* Node.js
-
-En stor del i arbetet är även att arbeta agilt och följa ramverket scrum.
 
 ## Redovisning/Inlämning:
 
-* Ett Github repository innehållande en fungerande applikation, länken till denna skickas in på Pingpong.
+* Inlämning sker genom att länken till ett Github repository innehållande en fungerande applikation skickas in på Pingpong.
 
 * Muntlig redovisning i grupp
-  * Presentera applikationen
-  * Presentera hur ni har arbetat agilt
-  * Struktur i projektet (arbetsmässigt och kod)
-  * Problem ni stötte på
-  * Hur ni löste dessa
-  * LÄRDOMAR
+  * Presentera applikationen.
+  * Presentera hur ni har arbetat agilt.
+  * Struktur i projektet (arbetsmässigt och kod).
+  * Problem ni stötte på.
+  * Hur ni löste dessa.
+  * LÄRDOMAR.
 
-Krav på applikationen:
+## Krav
+### Krav på arbetssätt:
 
 * Arbete skall utföras agilt, där man involverar samtliga scrumaktiviteter och arbete presenteras i en scrumboard (trello).
 
-Tekniska krav på applikation
+### Tekniska krav på applikation
 
 * Applikation skall fylla någon form utav syfte.
-* Applikationen skall köras helt utan felmeddelande i konsolen (undantag kan vara fel på bilbliotek i sig samt vissa varningar, dessa diskuteras med lärare innan inlämning)
-* Applikationens kod skall vara dokumenterad (kommentera kod som beskriver minst varje klass/komponent)
+* Applikationen skall köras helt utan felmeddelande i konsolen (undantag kan vara fel som orsakas av bilbliotek i sig samt vissa varningar, dessa diskuteras med lärare innan inlämning).
+* Applikationens kod skall vara dokumenterad (minst varje klass/komponent).
 * Applikationen skall EJ innehålla rester från utveckling dvs:
-  * Loggar eller oanvända variabler, funktioner, klasser
+  * Loggar eller oanvända variabler, funktioner, klasser etc. skall inte finnas i koden vid inlämning.
 * Applikationen skall följa en genomgående struktur (kan följa en style guide)
-  * Namngivning av komponenter är konsekvent
-  * Mappstruktur är konsekvent
-  * Namn på metoder, egenskaper etc. är beskrivande av vad de gör/innehåller
-  * Samtliga komponenter följer samma struktur
+  * Namngivning av komponenter/klasser är konsekvent.
+  * Mappstruktur är konsekvent.
+  * Namn på metoder, egenskaper etc. är beskrivande av vad de gör/innehåller.
+  * Samtliga komponenter/klasser följer samma struktur.
 
+## Betygssättning
+
+### Godkänt
 
 Uppfyller samtliga krav beskrivet under rubriken "krav".
 
-## Väl Godkänt:
+### Väl Godkänt:
 
-### Från kursplan 
+#### Från kursplan 
 * För utbildaren kunna förklara detaljerat kring samtliga delar i projektet inklusive implementationen samt resonera kring möjligheter och begränsningar i implementationen.
 
-Detta redovisas i uppgiften i form av en rapport där man beror punkterna ovan.
+Detta redovisas i uppgiften i form av en rapport där man berör punkterna ovan.
