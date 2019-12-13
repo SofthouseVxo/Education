@@ -75,8 +75,8 @@ Följande skall finnas med i redovisning och samtliga i gruppen skall vara med o
 * LÄRDOMAR
 
 ## Datum
-* Redovisning 21/1-19 kl. 08:00
-* Deadline Söndag 25/1-19 kl. 24:00
+* Redovisning 21/1-20 kl. 08:00
+* Deadline Söndag 25/1-20 kl. 24:00
 
 ## Betygsättning
 
