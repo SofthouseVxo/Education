@@ -3,7 +3,8 @@
 ## Från kursplan: 
 * Praktisk tillämpning av kunskaper och färdigheter att jobba i ett agilt projekt med SCRUM.
 * Praktisk tillämpning av kunskaper och färdigheter från kurserna HTML5 och CSS3 med SEO och JavaScript med jQuery.
-* Skapande av interaktiv applikation med dynamiskt innehåll • Design, struktur och implementation av webbapplikation.
+* Skapande av interaktiv applikation med dynamiskt innehåll.
+* Design, struktur och implementation av webbapplikation.
 
 Kursen kommer att genomföras med traditionell undervisning i form av föreläsningar varvat med tid för ett större **projektarbete**. **Projektet** ger praktisk träning för att kunna arbeta agilt och med övning på att utforma ett frontend-projekt med viss handledning av läraren. **Projektet** kommer också att genomföras under självstudietiden.
 
@@ -18,6 +19,8 @@ Förslag på JS ramverk/bibliotek som kan användas:
 * Vue
 * React Native
 * Ionic (byggt på Angular men har nu även stöd för react)
+
+Väljer man att göra en applikation i vanilla JS så är det viktigt att denna presenterar innehåll dynamiskt.
 
 ## Redovisning/Inlämning:
 
@@ -34,7 +37,7 @@ Förslag på JS ramverk/bibliotek som kan användas:
 ## Krav
 ### Krav på arbetssätt:
 
-* Arbete skall utföras agilt, där man involverar samtliga scrumaktiviteter och arbete presenteras i en scrumboard (trello).
+* Arbete skall utföras agilt, där man involverar samtliga scrumaktiviteter samt att arbetsprocessen kan följas via en tillgänglig scrum board (trello).
 
 ### Tekniska krav på applikation
 
@@ -61,3 +64,5 @@ Uppfyller samtliga krav beskrivet under rubriken "krav".
 * För utbildaren kunna förklara detaljerat kring samtliga delar i projektet inklusive implementationen samt resonera kring möjligheter och begränsningar i implementationen.
 
 Detta redovisas i uppgiften i form av en rapport där man berör punkterna ovan.
+
+# Deadline kommer inom kort
