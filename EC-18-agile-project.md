@@ -1,11 +1,11 @@
-### Projekt Agil webbutveckling i JavaScript
+# Projekt Agil webbutveckling i JavaScript
 
+## Från kursplan: 
 * Praktisk tillämpning av kunskaper och färdigheter att jobba i ett agilt projekt med SCRUM.
 * Praktisk tillämpning av kunskaper och färdigheter från kurserna HTML5 och CSS3 med SEO och JavaScript med jQuery.
 * Skapande av interaktiv applikation med dynamiskt innehåll • Design, struktur och implementation av webbapplikation.
 
-
-Kursen kommer att genomföras med traditionell undervisning i form av föreläsningar varvat med tid för ett större <u>projektarbete</u>. <u>Projektet</u> ger praktisk träning för att kunna arbeta agilt och med övning på att utforma ett frontend-projekt med viss handledning av läraren. <u>Projektet</u> kommer också att genomföras under självstudietiden.
+Kursen kommer att genomföras med traditionell undervisning i form av föreläsningar varvat med tid för ett större **projektarbete**. **Projektet** ger praktisk träning för att kunna arbeta agilt och med övning på att utforma ett frontend-projekt med viss handledning av läraren. **Projektet** kommer också att genomföras under självstudietiden.
 
 ## Övergripande instruktioner:
 
