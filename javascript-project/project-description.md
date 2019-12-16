@@ -56,6 +56,8 @@ Det finns ett övergripande <a href="https://docs.google.com/spreadsheets/d/1BKa
 * Vad gick mindre bra?
 * Om du fått göra om projektet, vad skulle ni gjort annorlunda?
 * Vilken roll hade du? Trivdes du i denna roll?
+* Vad bidrog du med i projektet?
+* Vilka delar utvecklade du eller bidrog till?
 * Vad funkar bra i er applikation?
 * Vad känner du att ni kan förbättra?
 * Vilken teknisk skuld har ni skapat, dvs finns det saker ni implementerat som kan skapa problem i framtiden eller är svåra att utveckla kring?
