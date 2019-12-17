@@ -25,6 +25,8 @@ class Car extends Vehicle {
     return 'It is a car: ' + super.getName();
   }
  
-}let car = new Car('Tesla');
+}
+
+let car = new Car('Tesla');
 console.log(car.getName()); // It is a car: Tesla
 console.log(car.getType()); // car

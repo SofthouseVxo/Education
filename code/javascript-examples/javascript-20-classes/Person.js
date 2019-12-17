@@ -9,7 +9,6 @@ class Person {
   initEvents(){
     // document.addEventListener('click', this.callOnClick);
     document.addEventListener('click', this.callOnClickArrow);
-
   }
 
   callOnClick(){
