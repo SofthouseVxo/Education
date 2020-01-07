@@ -1,0 +1,8 @@
+<h2>Binding</h2>
+<p>{{name}}</p>
+<ul class="list-group my-list" #ref>
+  <li *ngFor="let item of items" class="list-group-item list-item-style">
+    {{item}}
+  </li>
+  {{ref.className}}
+</ul>
