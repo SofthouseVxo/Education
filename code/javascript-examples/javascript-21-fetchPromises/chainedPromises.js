@@ -18,4 +18,6 @@ new Promise(function(resolve, reject) {
   console.log('result', result);
   return result * 2;
 
-});
+}).then(function(result){
+  console.log('result', result);
+})

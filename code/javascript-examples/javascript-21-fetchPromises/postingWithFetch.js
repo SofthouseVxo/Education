@@ -4,13 +4,15 @@ const data = {
     completed: false
 };
 
+var jsonData = JSON.stringify(data);
+
 function postData(){
   fetch('https://jsonplaceholder.typicode.com/todos', {
-    method: "POST", // *GET, POST, PUT, DELETE, etc.
+    method: 'POST', // *GET, POST, PUT, DELETE, etc.
     headers: {
-      "Content-Type": "application/json",
+      'Content-Type': 'application/json',
     },
-    body: JSON.stringify(data), // body data type must match "Content-Type" header
+    body: jsonData, // body data type must match 'Content-Type' header
   })
   .then(function(response) {
         return response.json();
@@ -18,7 +20,9 @@ function postData(){
       .then(function(myJson) {
         console.log(myJson);
       })
-  .catch(err => console.log(error))
+  .catch(function(err){ 
+    console.log(error)
+  })
 }
 
 window.onload = postData();

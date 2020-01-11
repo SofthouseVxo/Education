@@ -14,4 +14,6 @@ var myPromise = function myAsyncFunction(url) {
 
 myPromise(url).then((response)=>{
   console.log('my response: ', response);
-})
+}).catch((error)=>{
+  console.log('my error: ', error);
+});
