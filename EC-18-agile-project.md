@@ -65,4 +65,4 @@ Uppfyller samtliga krav beskrivet under rubriken "krav".
 
 Detta redovisas i uppgiften i form av en rapport där man berör punkterna ovan.
 
-# Deadline kommer inom kort
+# Deadline Söndag 19/1 kl. 24:00
