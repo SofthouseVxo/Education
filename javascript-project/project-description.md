@@ -100,4 +100,5 @@ Gruppinlämning ger IG/G. Dock kommer kodprojektet tas i aktning när jag gransk
 1. Klasser, funktioner, variabler (metoder,egenskaper) namnges på engelska.
 1. Klasser, funktioner, variabler (metoder,egenskaper) har beskrivande namn.
 1. Det finns inga klasser, funktioner, variabler (metoder,egenskaper) som inte används.
-1. Klasser, functioner (metoder) har kommenterats (förklaring på vad de gör och innehåller).
+1. Klasser har kommenterats (förklaring på vad de gör och innehåller).
+1. Funktioner kommenteras, METODER skall endast kommenteras om det är nödvändigt för att förstå dem.

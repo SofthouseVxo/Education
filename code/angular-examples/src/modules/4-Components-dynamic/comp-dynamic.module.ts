@@ -1,20 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { CompDynamicComponent } from './comp-dynamic.component';
 
-import { PipComponent } from './pip.component';
-import { CustomPipe } from './custom.pipe';
 
 @NgModule({
   declarations: [
-    PipComponent,
-    CustomPipe
+    CompDynamicComponent,
   ],
   imports: [
     BrowserModule
   ],
   exports: [
-    PipComponent
+    CompDynamicComponent
   ],
   providers: []
 })
-export class PipModule { }
+export class CompDynamicModule { }

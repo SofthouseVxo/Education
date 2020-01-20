@@ -3,8 +3,6 @@ import { Component } from '@angular/core';
   selector: 'app-comp-styling',
   templateUrl: './comp-styling.component.html',
   styleUrls: ['./comp-styling.component.css']
-  // styles: ['h1 { font-weight: normal; }']
-
 })
 export class CompStylingComponent {
   title = 'ngBase';

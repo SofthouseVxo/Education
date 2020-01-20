@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { ServRoutingModule } from './serv-routing.module';
 import { ServComponent } from './serv.component';
 import { ItemsService } from './items.service';
 import { ItemComponent } from './item/item.component';
@@ -18,8 +17,7 @@ import { Screen2Component } from './screen2/screen2.component';
     Screen2Component
   ],
   imports: [
-    BrowserModule,
-    ServRoutingModule
+    BrowserModule
   ],
   exports: [
     ServComponent

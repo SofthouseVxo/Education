@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { LifecycleHooksRoutingModule } from './lifecycle-hooks-routing.module';
 import { LifecycleHooksComponent } from './lifecycle-hooks.component';
 import { LifecyclesComponent } from './lifecycles/lifecycles.component';
 
@@ -11,8 +10,7 @@ import { LifecyclesComponent } from './lifecycles/lifecycles.component';
     LifecyclesComponent
   ],
   imports: [
-    BrowserModule,
-    LifecycleHooksRoutingModule
+    BrowserModule
   ],
   exports: [
     LifecycleHooksComponent,

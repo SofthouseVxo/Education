@@ -14,6 +14,7 @@ export class TwoWayComponent {
 
   onKey($event):void{
     console.log($event.target.value);
+    console.log(this.text);
   }
 
   onClick():void{

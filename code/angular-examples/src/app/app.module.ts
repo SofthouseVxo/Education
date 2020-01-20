@@ -6,6 +6,8 @@ import { CompBindingModule } from '../modules/4-Components/comp-binding.module';
 import { CompStylingModule } from '../modules/4-Components-styling/comp-styling.module';
 import { LifecycleHooksModule } from '../modules/4-ComponentsLifecycleHooks/lifecycle-hooks.module';
 import { DirModule } from '../modules/5-Directives/dir.module';
+import { ElementsModule } from '../modules/5-Elements/elements.module';
+import { CompDynamicModule } from '../modules/4-Components-dynamic/comp-dynamic.module';
 import { ModModule } from 'src/modules/6-Modules/mod.module';
 import { PipModule } from 'src/modules/7-Pipes/pip.module';
 import { ServModule } from 'src/modules/8-Services/serv.module';
@@ -26,7 +28,9 @@ import { AngHttpModule } from 'src/modules/11-Http/ang-http.module';
     CompBindingModule,
     CompStylingModule,
     LifecycleHooksModule,
+    CompDynamicModule,
     DirModule,
+    ElementsModule,
     ModModule,
     PipModule,
     ServModule,
