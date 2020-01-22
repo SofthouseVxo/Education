@@ -7,8 +7,6 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class LifecyclesComponent implements OnInit {
 
-  @Input() myColor;
-
   // Always gets called first
   constructor() {
     console.log('LS constructor gets called');
