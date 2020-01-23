@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IfComponent implements OnInit {
 
-  show:boolean =  true;
+  show:boolean = true;
 
   constructor() { }
 
