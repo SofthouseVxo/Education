@@ -1,4 +1,4 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
 import { LifecycleHooksComponent } from './lifecycle-hooks.component';
@@ -10,7 +10,7 @@ import { LifecyclesComponent } from './lifecycles/lifecycles.component';
     LifecyclesComponent
   ],
   imports: [
-    BrowserModule
+    CommonModule
   ],
   exports: [
     LifecycleHooksComponent,

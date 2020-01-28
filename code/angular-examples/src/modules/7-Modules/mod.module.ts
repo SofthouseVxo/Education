@@ -1,4 +1,4 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
@@ -12,7 +12,7 @@ import { MyModule } from './my.module';
     ModComponent
   ],
   imports: [
-    BrowserModule,
+    CommonModule,
     FormsModule,
     CounterModule,
     MyModule

@@ -1,5 +1,5 @@
 import { NgModule }      from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 import { FormsModule }   from '@angular/forms';
 
 import { TemplateFormsComponent }  from './template-forms.component';
@@ -11,7 +11,7 @@ import { SimpleFormComponent } from './simple-form/simple-form.component';
     SimpleFormComponent
   ],
   imports: [
-    BrowserModule,
+    CommonModule,
     FormsModule
   ],
   exports: [

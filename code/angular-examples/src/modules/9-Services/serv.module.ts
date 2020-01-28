@@ -1,4 +1,4 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
 import { ServComponent } from './serv.component';
@@ -17,11 +17,11 @@ import { Screen2Component } from './screen2/screen2.component';
     Screen2Component
   ],
   imports: [
-    BrowserModule
+    CommonModule
   ],
   exports: [
     ServComponent
   ],
-  providers: [ItemsService],
+  providers: [ItemsService]
 })
 export class ServModule { }

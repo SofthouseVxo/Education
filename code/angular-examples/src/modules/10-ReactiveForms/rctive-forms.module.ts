@@ -1,4 +1,4 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 
@@ -13,7 +13,7 @@ import { ProfileEditorComponent } from './profile-editor/profile-editor.componen
     ProfileEditorComponent
   ],
   imports: [
-    BrowserModule,
+    CommonModule,
     ReactiveFormsModule
   ],
   exports:[

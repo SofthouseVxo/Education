@@ -1,4 +1,4 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
 import { ARoutingRoutingModule } from './a-routing-routing.module';
@@ -19,7 +19,7 @@ import { ChildComponent } from './child/child.component';
     ChildComponent
   ],
   imports: [
-    BrowserModule,
+    CommonModule,
     ARoutingRoutingModule
   ],
   exports: [

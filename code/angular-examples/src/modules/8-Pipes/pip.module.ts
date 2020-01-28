@@ -1,4 +1,4 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
 import { PipComponent } from './pip.component';
@@ -10,7 +10,7 @@ import { CustomPipe } from './custom.pipe';
     CustomPipe
   ],
   imports: [
-    BrowserModule
+    CommonModule
   ],
   exports: [
     PipComponent

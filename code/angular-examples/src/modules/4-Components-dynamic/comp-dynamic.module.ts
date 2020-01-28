@@ -1,4 +1,4 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { CompDynamicComponent } from './comp-dynamic.component';
 
@@ -8,7 +8,7 @@ import { CompDynamicComponent } from './comp-dynamic.component';
     CompDynamicComponent,
   ],
   imports: [
-    BrowserModule
+    CommonModule
   ],
   exports: [
     CompDynamicComponent

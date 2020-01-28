@@ -1,4 +1,4 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
 import { CompStylingComponent } from './comp-styling.component';
@@ -16,7 +16,7 @@ import { HostStylesComponent } from './host-styles/host-styles.component';
     HostStylesComponent
   ],
   imports: [
-    BrowserModule
+    CommonModule
   ],
   exports: [
     CompStylingComponent

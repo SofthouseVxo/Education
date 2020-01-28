@@ -1,7 +1,7 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
-import { BRoutingRoutingModule } from './b-routing--routing.module';
+import { BRoutingRoutingModule } from './b-routing-routing.module';
 import { BRoutingComponent } from './b-routing.component';
 import { MainComponent } from './main/main.component';
 import { UserComponent } from './user/user.component';
@@ -15,7 +15,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     PageNotFoundComponent,
   ],
   imports: [
-    BrowserModule,
+    CommonModule,
     BRoutingRoutingModule
   ],
   exports: [
