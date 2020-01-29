@@ -1,0 +1,22 @@
+<div [ngSwitch]="show">
+  <ng-template [ngSwitchCase]="'case1'">
+    <div>
+      <p>
+        Template case 1
+      </p>
+      <app-style></app-style>
+    </div>
+  </ng-template>
+
+  <ng-template [ngSwitchCase]="'case2'">
+     <div>
+      <p>
+        Template case 2
+      </p>
+    </div>
+  </ng-template>
+
+  <ng-template ngSwitchDefault>
+  <p> Default </p>
+  </ng-template>
+</div>
