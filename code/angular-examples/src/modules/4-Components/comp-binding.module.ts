@@ -10,6 +10,7 @@ import { ChildComponent } from './child/child.component';
 import { ParentComponent } from './parent/parent.component';
 import { ViewChildComponent } from './view-child/view-child.component';
 import { RefsComponent } from './refs/refs.component';
+import { ViewChildElementComponent } from './view-child-element/view-child-element.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { RefsComponent } from './refs/refs.component';
     ChildComponent,
     ParentComponent,
     ViewChildComponent,
-    RefsComponent
+    RefsComponent,
+    ViewChildElementComponent
   ],
   imports: [
     CommonModule,
