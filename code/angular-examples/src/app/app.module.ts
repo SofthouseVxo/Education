@@ -6,7 +6,7 @@ import { CompBindingModule } from '../modules/4-Components/comp-binding.module';
 import { CompStylingModule } from '../modules/5-Components-styling/comp-styling.module';
 import { LifecycleHooksModule } from '../modules/5-ComponentsLifecycleHooks/lifecycle-hooks.module';
 import { DirModule } from '../modules/6-Directives/dir.module';
-import { CompDynamicModule } from '../modules/4-Components-dynamic/comp-dynamic.module';
+import { CompDynamicModule } from '../modules/X-Components-dynamic/comp-dynamic.module';
 import { ModModule } from 'src/modules/7-Modules/mod.module';
 import { PipModule } from 'src/modules/8-Pipes/pip.module';
 import { ServModule } from 'src/modules/9-Services/serv.module';

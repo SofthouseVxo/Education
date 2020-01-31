@@ -10,6 +10,7 @@ export class CompBindingComponent {
   name:string = 'Doe John'
 
   changeName(event):void{
+    console.log('button clicked');
     this.name = event;
   }
 }
