@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class TwoWayComponent {
 
-  text:string;
+  text:string = 'nisse';
   name:string = '';
 
   constructor() { }

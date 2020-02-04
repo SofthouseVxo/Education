@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./template.component.css']
 })
 export class TemplateComponent implements OnInit {
-  show:string = 'case1';
+  show:string = '';
   constructor() { }
 
   ngOnInit() {

@@ -8,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 export class ForComponent implements OnInit {
 
   list: string[] = ['first', 'second', 'third', 'fourth'];
+  
   constructor() { }
 
   ngOnInit() {
+    setTimeout(()=>{
+      this.list.push('nisse');
+    }, 3000)
   }
 
 }

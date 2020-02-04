@@ -1,6 +1,6 @@
-<p [appHighlight] *ngIf="show">
+<p [appHighlight]="'green'" *ngIf="show">
   I'm here
 </p>
 
-<button (click)="toggle()" type="button" class="btn btn-primary">Toggle</button>
+<button [appHighlight]="'pink'" (click)="toggle()" type="button" class="btn btn-primary">Toggle</button>
 

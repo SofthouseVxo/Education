@@ -19,7 +19,8 @@ export class HighlightDirective implements OnInit {
     }
 
     @HostListener('mouseenter') onMouseEnter() {
-      this.el.nativeElement.style.backgroundColor = 'blue';
+      console.log(this.el);
+      this.el.nativeElement.style.backgroundColor = this.appHighlight;
     }
 
     @HostListener('mouseleave') onMouseLeave() {

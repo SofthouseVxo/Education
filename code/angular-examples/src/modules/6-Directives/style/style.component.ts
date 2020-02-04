@@ -12,6 +12,7 @@ export class StyleComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log(this.myStyle);
   }
 
   dynamicStyles(myBool:boolean):Object{
