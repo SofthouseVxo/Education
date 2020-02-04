@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ForComponent implements OnInit {
 
-  list: string[] = ['first', 'second', 'third'];
+  list: string[] = ['first', 'second', 'third', 'fourth'];
   constructor() { }
 
   ngOnInit() {

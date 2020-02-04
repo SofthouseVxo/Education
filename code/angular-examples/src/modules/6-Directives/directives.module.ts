@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
-import { DirComponent } from './dir.component';
+import { DirectivesComponent } from './directives.component';
 import { HighlightDirective } from './highlight.directive';
 import { IfComponent } from './if/if.component';
 import { ForComponent } from './for/for.component';
@@ -13,7 +13,7 @@ import { TwoWayComponent } from './two-way/two-way.component';
 
 @NgModule({
   declarations: [
-    DirComponent,
+    DirectivesComponent,
     HighlightDirective,
     IfComponent,
     ForComponent,
@@ -27,9 +27,9 @@ import { TwoWayComponent } from './two-way/two-way.component';
     FormsModule
   ],
   exports: [
-    DirComponent,
+    DirectivesComponent,
     HighlightDirective
   ],
   providers: []
 })
-export class DirModule { }
+export class DirectivesModule { }

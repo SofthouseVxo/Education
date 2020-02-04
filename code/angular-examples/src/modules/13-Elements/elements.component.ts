@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 // import { createCustomElement } from '@angular/elements';
 
 @Component({
-  selector: 'app-elements',
+  selector: 'app-13-elements',
   templateUrl: './elements.component.html',
   styleUrls: ['./elements.component.css']
 })

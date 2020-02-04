@@ -6,7 +6,8 @@ import { Component, OnInit,Input } from '@angular/core';
   styleUrls: ['./style.component.css']
 })
 export class StyleComponent implements OnInit {
-@Input()myStyle: string;
+
+  @Input()myStyle: string;
 
   constructor() { }
 

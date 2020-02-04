@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-template-forms',
+  selector: 'app-11-template-forms',
   templateUrl: './template-forms.component.html'
 })
 export class TemplateFormsComponent { }

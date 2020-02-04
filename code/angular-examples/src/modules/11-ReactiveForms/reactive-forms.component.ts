@@ -3,10 +3,10 @@ import { Component } from '@angular/core';
 export type EditorType = 'name' | 'profile';
 
 @Component({
-  selector: 'app-rctive-forms',
-  templateUrl: './rctive-forms.component.html'
+  selector: 'app-11-reactive-forms',
+  templateUrl: './reactive-forms.component.html'
 })
-export class RctiveFormsComponent {
+export class ReactiveFormsComponent {
   editor: EditorType = 'name';
 
   get showNameEditor() {

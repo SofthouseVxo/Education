@@ -7,18 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BindComponent implements OnInit {
 
-  name: string = 'John Doe';
-  items: string[] = ['item1', 'item2'];
-  isDisabled: boolean = true;
-  classes: string = 'btn-green btn-red';
+  name:string = 'John Doe';
+  items:string[] = ['item1', 'item2'];
+  isDisabled:boolean = true;
+  classes:string = 'btn-green btn-red';
 
   constructor() { }
 
   ngOnInit():void {
+
+    setTimeout(()=>{
+      this.name = 'Robin';
+    },2000)
   }
 
   getVal():number{
-    return 5;
+    return 10;
   }
 
 }

@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { MyServiceService } from './my-service.service';
 
 @Component({
-  selector: 'app-mod',
-  templateUrl: './mod.component.html',
-  styleUrls: ['./mod.component.css']
+  selector: 'app-7-modules',
+  templateUrl: './modules.component.html',
+  styleUrls: ['./modules.component.css']
 })
-export class ModComponent {
+export class ModulesComponent {
   title:string = 'ngBase'
   name:string = 'Doe John'
 

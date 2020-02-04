@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
-import { ARoutingRoutingModule } from './a-routing-routing.module';
-import { ARoutingComponent } from './a-routing.component';
+import { AdvancedRoutingRoutingModule } from './advanced-routing-routing.module';
+import { AdvancedRoutingComponent } from './advanced-routing.component';
 import { MainComponent } from './main/main.component';
 import { LoginComponent } from './login/login.component';
 import { UserComponent } from './user/user.component';
@@ -11,7 +11,7 @@ import { ChildComponent } from './child/child.component';
 
 @NgModule({
   declarations: [
-    ARoutingComponent,
+    AdvancedRoutingComponent,
     MainComponent,
     LoginComponent,
     UserComponent,
@@ -20,11 +20,11 @@ import { ChildComponent } from './child/child.component';
   ],
   imports: [
     CommonModule,
-    ARoutingRoutingModule
+    AdvancedRoutingRoutingModule
   ],
   exports: [
-    ARoutingComponent
+    AdvancedRoutingComponent
   ],
   providers: [],
 })
-export class ARoutingModule { }
+export class AdvancedRoutingModule { }

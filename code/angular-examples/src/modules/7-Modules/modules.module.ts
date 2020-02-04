@@ -2,14 +2,14 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
-import { ModComponent } from './mod.component';
+import { ModulesComponent } from './modules.component';
 import { CounterModule } from './counter/counter.module';
 import { MyModule } from './my.module';
 // import { MyServiceService } from './my-service.service';
 
 @NgModule({
   declarations: [
-    ModComponent
+    ModulesComponent
   ],
   imports: [
     CommonModule,
@@ -18,8 +18,8 @@ import { MyModule } from './my.module';
     MyModule
   ],
   exports: [
-    ModComponent
+    ModulesComponent
   ]
   // providers: [MyServiceService]
 })
-export class ModModule { }
+export class ModulesModule { }

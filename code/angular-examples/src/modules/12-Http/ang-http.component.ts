@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { TodoService } from './todo.service';
 
 @Component({
-  selector: 'app-ang-http',
+  selector: 'app-12-http',
   templateUrl: './ang-http.component.html'
 })
 export class AngHttpComponent {

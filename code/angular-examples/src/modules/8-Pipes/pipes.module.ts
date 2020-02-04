@@ -1,20 +1,20 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
-import { PipComponent } from './pip.component';
+import { PipesComponent } from './pipes.component';
 import { CustomPipe } from './custom.pipe';
 
 @NgModule({
   declarations: [
-    PipComponent,
+    PipesComponent,
     CustomPipe
   ],
   imports: [
     CommonModule
   ],
   exports: [
-    PipComponent
+    PipesComponent
   ],
   providers: []
 })
-export class PipModule { }
+export class PipesModule { }

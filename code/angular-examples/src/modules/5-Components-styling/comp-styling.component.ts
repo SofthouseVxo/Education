@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 @Component({
-  selector: 'app-comp-styling',
+  selector: 'app-5-comp-styling',
   templateUrl: './comp-styling.component.html',
   styleUrls: ['./comp-styling.component.css']
 })

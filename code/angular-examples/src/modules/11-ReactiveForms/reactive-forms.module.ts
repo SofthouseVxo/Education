@@ -2,13 +2,13 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 
-import { RctiveFormsValidationComponent } from './rctive-forms-validation.component';
+import { ReactiveFormsComponent } from './reactive-forms.component';
 import { NameEditorComponent } from './name-editor/name-editor.component';
 import { ProfileEditorComponent } from './profile-editor/profile-editor.component';
 
 @NgModule({
   declarations: [
-    RctiveFormsValidationComponent,
+    ReactiveFormsComponent,
     NameEditorComponent,
     ProfileEditorComponent
   ],
@@ -16,9 +16,9 @@ import { ProfileEditorComponent } from './profile-editor/profile-editor.componen
     CommonModule,
     ReactiveFormsModule
   ],
-  exports: [
-    RctiveFormsValidationComponent
-  ],
+  exports:[
+    ReactiveFormsComponent
+  ] ,
   providers: [],
 })
-export class RctiveFormsValidationModule { }
+export class CustomReactiveFormsModule { }

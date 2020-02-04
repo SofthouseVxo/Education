@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-comp-binding',
+  selector: 'app-4-comp-binding',
   templateUrl: './comp-binding.component.html',
   styleUrls: ['./comp-binding.component.css']
 })

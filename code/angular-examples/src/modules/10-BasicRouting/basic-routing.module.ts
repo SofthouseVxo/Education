@@ -1,26 +1,26 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
-import { BRoutingRoutingModule } from './b-routing-routing.module';
-import { BRoutingComponent } from './b-routing.component';
+import { BasicRoutingRoutingModule } from './basic-routing-routing.module';
+import { BasicRoutingComponent } from './basic-routing.component';
 import { MainComponent } from './main/main.component';
 import { UserComponent } from './user/user.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
-    BRoutingComponent,
+    BasicRoutingComponent,
     MainComponent,
     UserComponent,
     PageNotFoundComponent,
   ],
   imports: [
     CommonModule,
-    BRoutingRoutingModule
+    BasicRoutingRoutingModule
   ],
   exports: [
-    BRoutingComponent
+    BasicRoutingComponent
   ],
   providers: []
 })
-export class BRoutingModule { }
+export class BasicRoutingModule { }

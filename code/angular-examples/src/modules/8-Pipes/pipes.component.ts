@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-pip',
-  templateUrl: './pip.component.html',
-  styleUrls: ['./pip.component.css']
+  selector: 'app-8-pipes',
+  templateUrl: './pipes.component.html',
+  styleUrls: ['./pipes.component.css']
 })
-export class PipComponent {
+export class PipesComponent {
   birthday = new Date(1988, 3, 15); // April 15, 1988
   toggle = true; // start with true == shortDate
 
