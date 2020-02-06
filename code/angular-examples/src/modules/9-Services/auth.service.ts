@@ -13,6 +13,7 @@ export class AuthService {
 
   checkIfLoggedIn(){
     return localStorage.getItem('user');
+    // alert(this.loggedUser);
   }
 
   public login(user){

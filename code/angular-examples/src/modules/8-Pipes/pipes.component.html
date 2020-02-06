@@ -1,8 +1,10 @@
-  <p>The hero's birthday is {{ birthday | date:format | uppercase }}</p>
+  <!-- <p>The hero's birthday is {{ birthday | date | uppercase }}</p> -->
   <button (click)="toggleFormat()">Toggle Format</button>
 
-  <p>{{'Hello' | uppercase}}</p>
+  <!-- <p>{{'Hello' | uppercase}}</p> -->
 
-  <pre>{{myObject | json}}</pre>
+  <!-- <pre>{{myObject | json}}</pre> -->
 
-  <p>{{'First name' | custom:10}}</p>
+  <p>{{'First name' | custom}}</p>
+
+  <p>{{ 10| custom:'kr'}}</p>
