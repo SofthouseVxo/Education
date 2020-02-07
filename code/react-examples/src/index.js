@@ -34,7 +34,7 @@ import { createStore } from 'redux'
 import { Provider } from 'react-redux'
 import { render } from 'react-dom'
 
-import reducer from './13-Redux/reducer'
+import reducer from './17-Redux/reducer'
 
 // Making it possible to work with redux devtool, make sure to install in your browser as well
 const store = createStore(

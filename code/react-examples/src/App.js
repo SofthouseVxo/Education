@@ -4,6 +4,7 @@ import JSX from './5-JSX';
 // import StateLifecycles from './7-State&Lifecycles';
 // import Events from './8-Events';
 // import Styling from './9-Styling';
+// import LiftingStateComposition from './11-LiftingStateComposition';
 // import ReactRouting from './13-ReactRouting';
 // import Hooks from './14-Hooks';
 // import HOCSAndProptypes from './15-HOCS&PropTypes';
