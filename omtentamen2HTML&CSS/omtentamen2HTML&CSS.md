@@ -34,7 +34,7 @@ Inlämning sker genom att ni skapar ett repo på github som ni döper till **omt
 
 ### Tentamen lämnas in senast **11:00**.
 
-## Uppgifter för betyget Godkänt (24p)
+## Uppgifter
 
 ### Uppgift 1 (2p)
 Skapa en ny katalog innehållande följande filer:
