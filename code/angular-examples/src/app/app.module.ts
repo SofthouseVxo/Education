@@ -16,8 +16,6 @@ import { TemplateFormsValidationModule } from 'src/modules/11-TemplateFormsValid
 import { CustomReactiveFormsModule } from 'src/modules/11-ReactiveForms/reactive-forms.module';
 import { ReactiveFormsValidationModule } from 'src/modules/11-ReactiveFormsValidation/reactive-forms-validation.module';
 import { AngHttpModule } from 'src/modules/12-Http/ang-http.module';
-import { ElementsModule } from '../modules/13-Elements/elements.module';
-import { CompDynamicModule } from '../modules/X-Components-dynamic/comp-dynamic.module';
 
 
 @NgModule({
@@ -29,9 +27,7 @@ import { CompDynamicModule } from '../modules/X-Components-dynamic/comp-dynamic.
     CompBindingModule,
     CompStylingModule,
     LifecycleHooksModule,
-    CompDynamicModule,
     DirectivesModule,
-    ElementsModule,
     ModulesModule,
     PipesModule,
     ServicesModule,

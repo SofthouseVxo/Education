@@ -14,14 +14,17 @@ class ElementsComponents extends Component {
     return (
       <Fragment>
         <AsFunctionComponent/>
-        <AsClassComponent/>
-        <PropsComponent stark={robin} hello={12+34} myText="hello I end up in props"/>
-        <ChildrenComponent myText="hello I end up in props">
+        {/* <AsClassComponent/> */}
+        
+        {/* <PropsComponent stark={robin} hello={12+34} myText="hello I end up in props"/> */}
+        
+        {/* <ChildrenComponent myText="hello I end up in props">
           <div id="hello">
             <p>In child</p>
           </div>
-        </ChildrenComponent>
-        <ComposingComponent
+        </ChildrenComponent> */}
+
+        {/* <ComposingComponent
           left={(
             <ChildrenComponent>
               <div>
@@ -30,13 +33,13 @@ class ElementsComponents extends Component {
             </ChildrenComponent>
           )}
           right={<AsFunctionComponent/>}
-        />
-        <DialogComponent
+        /> */}
+
+        {/* <DialogComponent
           headerText="the header of my dialog"
           contentText="the content of my dialog"
         >
-          <AsFunctionComponent/>
-        </DialogComponent>
+        </DialogComponent> */}
       </Fragment>
     );
   }
