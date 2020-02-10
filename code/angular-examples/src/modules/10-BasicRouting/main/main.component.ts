@@ -10,7 +10,7 @@ export class MainComponent implements OnInit {
 
   constructor(private router: Router) {
     router.events.subscribe((val) => {
-      // console.log(val)
+      // console.log(val);
     });
   }
 
