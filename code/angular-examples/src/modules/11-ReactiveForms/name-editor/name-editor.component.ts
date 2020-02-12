@@ -13,7 +13,8 @@ export class NameEditorComponent {
     console.log(this.name);
   }
   updateName() {
-    console.log(this.name);
+    // console.log(this.name);
     this.name.setValue('Nancy');
+    console.log(this.name.value);
   }
 }

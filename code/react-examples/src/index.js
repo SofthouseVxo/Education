@@ -6,7 +6,7 @@ import App from './App';
 // import * as serviceWorker from './serviceWorker';
 
 
-// ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
 // ---------------------------------------------------------------------------------------
 
@@ -30,25 +30,25 @@ import App from './App';
 /*
 * With Redux
 */
-import { createStore } from 'redux'
-import { Provider } from 'react-redux'
-import { render } from 'react-dom'
+// import { createStore } from 'redux'
+// import { Provider } from 'react-redux'
+// import { render } from 'react-dom'
 
-import reducer from './17-Redux/reducer'
+// import reducer from './16-Redux/reducer'
 
-// Making it possible to work with redux devtool, make sure to install in your browser as well
-const store = createStore(
-  reducer, /* preloadedState, */
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-);
+// // Making it possible to work with redux devtool, make sure to install in your browser as well
+// const store = createStore(
+//   reducer, /* preloadedState, */
+//   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+// );
 
-// Setting up a Provider and store
-render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
-  document.getElementById('root')
-)
+// // Setting up a Provider and store
+// render(
+//   <Provider store={store}>
+//     <App />
+//   </Provider>,
+//   document.getElementById('root')
+// )
 
 // ---------------------------------------------------------------------------------------
 

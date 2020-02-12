@@ -6,7 +6,7 @@
     <form (ngSubmit)="onSubmit()" #userForm="ngForm">
       <div class="form-group">
         <label for="name">Name</label>
-        <input type="text" class="form-control" id="name" [(ngModel)]="model.name" name="name" #name="ngModel" #spy >
+        <input type="text" class="form-control" id="name" [(ngModel)]="userModel.name" name="name" #name="ngModel" #spy >
         {{spy.className}}
       </div>
 
@@ -14,7 +14,7 @@
         <label for="age">Age</label>
         <select
           class="form-control" id="age"
-          [(ngModel)]="model.age" name="age"
+          [(ngModel)]="userModel.age" name="age"
           #age="ngModel"
         >
           <option *ngFor="let age of ages" [value]="age">{{age}}</option>

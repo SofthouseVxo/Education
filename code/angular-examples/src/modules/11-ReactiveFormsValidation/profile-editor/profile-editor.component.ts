@@ -11,7 +11,7 @@ import { FormArray } from '@angular/forms';
 export class ProfileEditorComponent {
   profileForm = this.fb.group({
     firstName: ['', Validators.required],
-    lastName: ['', Validators.minLength(10)],
+    lastName: ['', [Validators.required, Validators.minLength(10)]],
     address: this.fb.group({
       street: [''],
       city: [''],

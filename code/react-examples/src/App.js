@@ -5,12 +5,12 @@ import JSX from './5-JSX';
 // import Events from './8-Events';
 // import Styling from './9-Styling';
 // import LiftingStateComposition from './11-LiftingStateComposition';
-// import ReactRouting from './13-ReactRouting';
-// import Hooks from './14-Hooks';
+// import ReactRouting from './12-ReactRouting';
+// import Hooks from './13-Hooks';
 // import HOCSAndProptypes from './15-HOCS&PropTypes';
-// import UsingContext from './16-Context';
+// import UsingContext from './15-Context';
+// import Reduxer from './16-Redux';
 // import AdvancedCompositing from './X-AdvancedComposition';
-// import Reduxer from './17-Redux';
 
 import './App.css';
 

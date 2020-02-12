@@ -9,17 +9,17 @@ import { User } from '../user';
 })
 export class SimpleFormComponent {
 
-  ages = [20, 30, 40, 50];
+  ages:number[] = [20, 30, 40, 50];
 
-  model = new User(18, 'Dr IQ', this.ages[0]);
+  userModel:User = new User(18, 'Dr IQ', this.ages[0]);
 
-  submitted = false;
+  submitted:boolean = false;
 
   onSubmit() {
-    console.log(this.model);
+    console.log(this.userModel);
     this.submitted = true;
   }
 
-  get diagnostic() { return JSON.stringify(this.model); }
+  get diagnostic() { return JSON.stringify(this.userModel); }
 
 }
