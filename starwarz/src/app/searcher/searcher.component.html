@@ -1,0 +1,22 @@
+<div class="container">
+  <div>
+    <form (ngSubmit)="onSubmit()" #personForm="ngForm">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control"
+          id="name"
+          required
+          [(ngModel)]="name"
+          name="name"
+          >
+      </div>
+
+      <button type="submit" class="btn btn-success" [disabled]="!personForm.form.valid">Submit</button>
+
+    </form>
+    <p *ngIf="starShips.length == 0 && submitted">No ships for this person</p>
+    <ng-container *ngIf="starShips.length != 0 && submitted">
+      <app-ship-card *ngFor="let ship of starShips"  (clearForm)="clearForm($event)" [shipInfo]="ship" ></app-ship-card>
+    </ng-container>
+  </div>
+</div>

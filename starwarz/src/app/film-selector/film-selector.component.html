@@ -1,0 +1,25 @@
+<div class="container">
+  <div>
+    <form (ngSubmit)="onSubmit()" #filmForm="ngForm">
+      <div class="form-group">
+        <label for="film">User film</label>
+        <select [disabled]="filmTitles.length == 0" class="form-control"
+          id="film"
+          required
+          [(ngModel)]="selectedFilm"
+          (change)="logChange()"
+          name="film"
+        >
+
+          <option *ngFor="let film of filmTitles" [value]="film">{{film}}</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn btn-success" [disabled]="!filmForm.form.valid">Submit</button>
+
+    </form>
+
+    <app-ship-card *ngFor="let ship of starShips" (clearForm)="clearForm($event)" [shipInfo]="ship"></app-ship-card>
+    
+  </div>
+</div>

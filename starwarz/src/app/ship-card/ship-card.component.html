@@ -1,0 +1,17 @@
+<div class="card mt-3">
+  <div class="card-header">
+    <h5 class="card-title float-left">{{shipInfo.name}}</h5>
+    <button *ngIf="!expanded" (click)="expanded = !expanded" class="btn text-left float-right" type="button">
+      Expand
+    </button>
+    <button *ngIf="expanded" (click)="expanded = !expanded" class="btn text-left float-right" type="button">
+      Minify
+    </button>
+</div>
+  <div *ngIf="expanded" class="card-body">
+    <p class="card-text">Model: {{shipInfo.model}}</p>
+    <p class="card-text">Cost: {{shipInfo.cost_in_credits}}</p>
+    <p class="card-text">Passengers: {{shipInfo.passengers}}</p>
+    <a (click)="onClickClear()" class="btn btn-primary">Clear form</a>
+  </div>
+</div>
