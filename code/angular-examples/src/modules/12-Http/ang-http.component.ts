@@ -41,6 +41,6 @@ export class AngHttpComponent {
       (response) => console.log('response', response),
       (error) => console.log('error', error),
       ()=> console.log('completed')
-  );
+    );
   }
 }
