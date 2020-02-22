@@ -217,7 +217,7 @@ $ npm i typescript --save-dev // installs typescript and since typescript is onl
 ---
 
 #### Semantic versioning
-<img src="/new/media/semantic.png" alt="semantic versioning">
+<img src="/new/media/angular-images/angular-2/semantic.png" alt="semantic versioning">
 
 ---
   
