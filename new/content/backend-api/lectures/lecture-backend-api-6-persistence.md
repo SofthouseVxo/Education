@@ -1,299 +1,229 @@
-<!doctype html>
-<html>
-	<head>
-		<title>6. Backend APIs Persistence
-
-					<h3>6. Backend APIs</h3>
-					<h5>Persistence (The Data we store)</h5>
+### 6. Backend APIs</h3>
+##### Persistence (The Data we store)</h5>
 
 ---
 
+#### State
 
-						#### State
-						
-						"A program is described as stateful if it is designed to remember preceding events or user interactions; the remembered information is called the state of the system."
-
-
+"A program is described as stateful if it is designed to remember preceding events or user interactions; the remembered information is called the state of the system."
 
 ---
-
 
 #### HTTP is a Stateless Protocol</h4>
-					<p>"No session information is retained by the server. All data is sent to the server so
-						that the request can be understood in isolation, without any knowledge of previous
-						requests"</p>
+"No session information is retained by the server. All data is sent to the server so
+that the request can be understood in isolation, without any knowledge of previous
+requests"
 
-					<ul>
-						<li>Client (browser) has the state.</li>
-						<li>Client can persist session state (localStorage).</li>
-						<li>Sometimes we switch clients.</li>
-					</ul>
+* Client (browser) has the state.
+* Client can persist session state (localStorage).
+* Sometimes we switch clients.
 
 ---
-
 
 #### Persistence</h4>
-					<p>"In computer science, persistence refers to the characteristic of state that outlives
-						the process that created it."</p>
+"In computer science, persistence refers to the characteristic of state that outlives
+the process that created it."
 
 ---
 
-
 #### Persisted State</h4>
-					<p>A program (process) that remembers what you did (state), even if you restart it
-						(presistence).</p>
+A program (process) that remembers what you did (state), even if you restart it
+(presistence).
 
-					<ul>
-						<li>Storing data to disk</li>
-						<li>Files, Databases etc.</li>
-						<li>Reliable Persistence?</li>
-					</ul>
+* Storing data to disk
+* Files, Databases etc.
+* Reliable Persistence?
 
 ---
 
 
 #### ACID</h4>
-					<p>In computer science, ACID (Atomicity, Consistency, Isolation, Durability) is a set of
+In computer science, ACID (Atomicity, Consistency, Isolation, Durability) is a set of
 properties of database transactions intended to guarantee validity even in the event
-of errors, power failures</p>
+of errors, power failures
 
-					<ul>
-						<li>Atomicity: all or nothing is stored.</li>
-						<li>Consistency: Only change data in allowed ways.</li>
-						<li>Isolation: Many may read, but one may write.</li>
-						<li>Durability: Data will remain even in case of a crash.</li>
-					</ul>
+* Atomicity: all or nothing is stored.
+* Consistency: Only change data in allowed ways.
+* Isolation: Many may read, but one may write.
+* Durability: Data will remain even in case of a crash.
 
 ---
 
 
 #### MongoDB</h4>
-					<ul>
-						<li>OUR PERSISTENCE ERSISTENCE OF CHOICE</li>
-						<p>"MongoDB is a document database with the scalability and flexibility that you want
-							with the querying and indexing that you need."</p>
-					</ul>
+* OUR PERSISTENCE ERSISTENCE OF CHOICE
+"MongoDB is a document database with the scalability and flexibility that you want
+	with the querying and indexing that you need."
 
 ---
 
 
 #### NoSQL vs. SQL</h4>
-					<p>"A NoSQL (originally referring to "non SQL" or "non relational") database provides
-						a mechanism for storage and retrieval of data that is modeled in means other than
-						the tabular relations used in relational databases"</p>
+"A NoSQL (originally referring to "non SQL" or "non relational") database provides
+a mechanism for storage and retrieval of data that is modeled in means other than
+the tabular relations used in relational databases"
 
-					<ul>
-						<li>Databases used to be almost exclusively SQL.</li>
-						<li>Tabluar data means data ise stored in a table.</li>
-						<li>Relational data means data refers to data in other tables.</li>
-					</ul>
+* Databases used to be almost exclusively SQL.
+* Tabluar data means data ise stored in a table.
+* Relational data means data refers to data in other tables.
 
 ---
 
 
 #### Scalability</h4>
-					<p>"Scalability is the property of a system to handle a growing amount of work by
-						adding resources to the system."</p>
+"Scalability is the property of a system to handle a growing amount of work by
+adding resources to the system."
 
-					<ul>
-						<li>Vertical means a bigger machine.</li>
-						<li>Horizontal means adding more machines.</li>
-						<li>SQL doesn't scale well Horizontally.</li>
-						<li>Lead to a varid number of "NoSQL" databases.</li>
-					</ul>
+* Vertical means a bigger machine.
+* Horizontal means adding more machines.
+* SQL doesn't scale well Horizontally.
+* Lead to a varid number of "NoSQL" databases.
 
 ---
-				
+
 
 #### Document Database</h4>
-					<p>"MongoDB stores data in flexible, JSON­like documents, meaning fields can
-						vary from document to document and data structure can be changed over time"</p>
+"MongoDB stores data in flexible, JSON­like documents, meaning fields can
+vary from document to document and data structure can be changed over time"
 
-					<ul>
-						<li>JSON is not tabular, so NoSQL.</li>
-						<li>MongoDB documents can be relational.</li>
-						<li>Each document has a unique ID.</li>
-					</ul>
+* JSON is not tabular, so NoSQL.
+* MongoDB documents can be relational.
+* Each document has a unique ID.
 
 ---
-				
+
 
 #### Querying</h4>
-					<p>"Asking for the information you need".</p>
+"Asking for the information you need".
 
-					<ul>
-						<li>How do we define what we're looking for?</li>
-						<li>Structured Query Language (SQL) is a standard.</li>
-						<li>Many xQLs available.</li>
-					</ul>
+* How do we define what we're looking for?
+* Structured Query Language (SQL) is a standard.
+* Many xQLs available.
 
 ---	
 
 
 #### Indexing</h4>
-					<p>"Indexes are used to quickly locate data without having to search every row in a
-						database table every time a database table is accessed."</p>
+"Indexes are used to quickly locate data without having to search every row in a
+database table every time a database table is accessed."
 
-					<ul>
-						<li>Indices should be set up for frequently acessed data.</li>
-						<li>Some querying is too complex without it, like free text search.</li>
-					</ul>
+* Indices should be set up for frequently acessed data.
+* Some querying is too complex without it, like free text search.
 
 ---
-				
 
-						#### Databases ans Schemas
-						
-						Mongo stores multiple detatbase idientified by the path argument of the connection
+
+#### Databases ans Schemas
+
+Mongo stores multiple detatbase idientified by the path argument of the connection
 string (URI)
 
-						```Shell
-						mongodb://localhost:27017/myDatabase
-						```
+```Shell
+mongodb://localhost:27017/myDatabase
+```
 
-						Each database has multiple **schemas** that define the format for the stored data
-
-
+Each database has multiple **schemas** that define the format for the stored data
 
 ---
-
 
 #### Practical Mongodb</h4>
-					<p>Enough theory and nomenclature for now.</p>
+Enough theory and nomenclature for now.
 
 ---
-
 
 #### Mongoose</h4>
-					<p>"Mongoose provides a straight-forward, schema-based solution to model your
-						application data. It includes built-in type casting, validation, query building,
-						business logic hooks and more, out of the box."</p>
-					<ul>
-						<li>Makes it simpler to communicate with mongo</li>
-					</ul>
+"Mongoose provides a straight-forward, schema-based solution to model your
+application data. It includes built-in type casting, validation, query building,
+business logic hooks and more, out of the box."
+* Makes it simpler to communicate with mongo
 
 ---
 
+#### Mongoose Schema
 
-						#### Mongoose Schema
-						
-						Defines the structure of the data
+Defines the structure of the data
 
-						```JavaScript
-						const mongoose = require('mongoose');
+```JavaScript
+const mongoose = require('mongoose');
 
-						const userSchema = new mongoose.Schema({
-							// _id: { type: Schema.ObjectId, auto: true },
-							name: String,
-							username: { type: String, unique: true }
-						});
+const userSchema = new mongoose.Schema({
+	// _id: { type: Schema.ObjectId, auto: true },
+	name: String,
+	username: { type: String, unique: true }
+});
 
-						const User = mongoose.model('User', userSchema);
-						```
+const User = mongoose.model('User', userSchema);
+```
 
-						* Schema defined in JSON
-						* Type can be simple, or expanded using a JSON object
-						* Every collection has an auto generated ObjectId
-						* Relational data by referring to _ids of other schemas
-
-
+* Schema defined in JSON
+* Type can be simple, or expanded using a JSON object
+* Every collection has an auto generated ObjectId
+* Relational data by referring to _ids of other schemas
 
 ---
 
+#### Executing queries
 
-						#### Executing queries
-						
-						Mongoose calls are asynchronous and takes a callback on the format
-						```JavaScript
-						callback(error, result) // It's not a promise
-						```
-						but supports ```then()``` and ```async await```.
+Mongoose calls are asynchronous and takes a callback on the format
+```JavaScript
+callback(error, result) // It's not a promise
+```
+but supports ```then()``` and ```async await```.
 
-						```JavaScript
-						User.find().then((error, users) => {
-							return res.send(users);
-						}).catch((error) => {
-							next(error);
-						})
-						```
+```JavaScript
+User.find().then((error, users) => {
+	return res.send(users);
+}).catch((error) => {
+	next(error);
+})
+```
 
 
 ---
 
+#### Find By Id
 
-						#### Find By Id
-						
-						Find by id takes an ObjectId as argument. Something that can be Cast to a UUID.
+Find by id takes an ObjectId as argument. Something that can be Cast to a UUID.
 
-						```JavaScript
-						Model.findById()
-						Model.findByIdAndDelete()
-						Model.findByIdAndRemove()
-						Model.findByIdAndUpdate()
-						```
-						
-						```JavaScript
-						doc = User.findById("145e6b0a-ffb7-48b9-a9ca-13377cd7c4b7").then...
-						```
+```JavaScript
+Model.findById()
+Model.findByIdAndDelete()
+Model.findByIdAndRemove()
+Model.findByIdAndUpdate()
+```
 
-						<a href="https://mongoosejs.com/docs/queries.html" target="_blank">https://mongoosejs.com/docs/queries.html</a>
+```JavaScript
+doc = User.findById("145e6b0a-ffb7-48b9-a9ca-13377cd7c4b7").then...
+```
 
+<a href="https://mongoosejs.com/docs/queries.html" target="_blank">https://mongoosejs.com/docs/queries.html</a>
 
 ---
 
+#### Find
 
-						#### Find
+Find takes an object containing the search criteria.
 
-						Find takes an object containing the search criteria.
+```JavaScript
+doc = user.find({id: parseInt(req.params.postId)}).then...
+```
 
-						```JavaScript
-						doc = user.find({id: parseInt(req.params.postId)}).then...
-						```
-						
-						```JavaScript
-						Model.find()
-						Model.findOne()
-						Model.deleteOne()
-						Model.deleteMany()
-						Model.findOneAndDelete()
-						Model.findOneAndRemove()
-						```
-
-
+```JavaScript
+Model.find()
+Model.findOne()
+Model.deleteOne()
+Model.deleteMany()
+Model.findOneAndDelete()
+Model.findOneAndRemove()
+```
 
 ---
 
+#### Updating
 
-						#### Updating
-						
-						```JavaScript
-						Model.findOneAndUpdate()
-						Model.replaceOne()
-						Model.updateMany()
-						Model.updateOne()
-						```
-
-
-
----
-
-
-
-
-
-
-				
-
-
-				
-
-
-
-
-
-
-				
-
-			
-        
-
+```JavaScript
+Model.findOneAndUpdate()
+Model.replaceOne()
+Model.updateMany()
+Model.updateOne()
+```

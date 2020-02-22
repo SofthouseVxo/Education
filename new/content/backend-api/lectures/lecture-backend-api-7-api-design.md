@@ -1,20 +1,13 @@
-<!doctype html>
-<html>
-	<head>
-		<title>7. Backend APIs - API Design
-
-					<h3>7. Backend APIs</h3>
-					<h5>API Design</h5>
+### 7. Backend APIs</h3>
+##### API Design</h5>
 
 ---
         
-
 #### What constitutes a good API?</h4>
 
 ---
 
-
-						#### Purpose and Scope
+#### Purpose and Scope
 						
 * Why do we have APIs?
 * What do we mean by API Design?
@@ -27,27 +20,21 @@
 * How to Design a REST API
 * Rest with links - HATEOAS
 
-
 ---
         
-
 #### Why do we Have APIs</h4>
-					<p>A good API makes it easier to develop a computer program by providing all the building blocks, which are then put together by the programmer.</p>
+A good API makes it easier to develop a computer program by providing all the building blocks, which are then put together by the programmer.
 
-					<ul>
-						<li>APIs add flexibility between presentation and provided business functionality.</li>
-            <li>APIs can be used by more than one client.</li>
-            <li>Selling access to APIs have become big business.</li>
-            <ul>
-              <li>Called API monetization.</li>
-              <li>You want others to use your API!</li>
-            </ul>
-					</ul>
+* APIs add flexibility between presentation and provided business functionality.
+* APIs can be used by more than one client.
+* Selling access to APIs have become big business.
+  * Called API monetization.
+  * You want others to use your API!
 
 ---
 
 
-						#### Ease of Use - How do we communicate
+#### Ease of Use - How do we communicate
 						
 * Be consistent in all services
   * Understand and follow any existing styles and policies!
@@ -60,11 +47,9 @@
 * API First
   * Design APIs first, then write the code and implement consumers
 
-
 ---
 
-
-						#### API Design - Design is about consumption
+#### API Design - Design is about consumption
 
 * How do we make APIs easy to use?
 * As many opinions as there are People
@@ -75,11 +60,9 @@
 * Different protocols ask questions in different ways
   * Influences how developers think systems should communicate
 
-
 ---
 
-
-						#### Protocols - Simple Object Access Protocol (SOAP)
+#### Protocols - Simple Object Access Protocol (SOAP)
 
 Protocol specification for exchanging structured information in XML format
 * Information Exchange
@@ -97,11 +80,9 @@ Protocol specification for exchanging structured information in XML format
 </soap:Envelope>
 ```
 
-
 ---
 
-
-						#### Remote Procedure Call (RPC)
+#### Remote Procedure Call (RPC)
 
 Calling a procedure of function to execute in a different address space (commonly on another computer on a shared network
 * Call functions on other machines
@@ -114,8 +95,7 @@ Calling a procedure of function to execute in a different address space (commonl
 
 ---
 
-
-						#### GraphQL
+#### GraphQL
 
 * GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data.
 * Gives clients the power to ask for exactly what they need and nothing more.
@@ -131,13 +111,9 @@ Calling a procedure of function to execute in a different address space (commonl
   }
 }
 ```
-
-
 ---
 
-
-
-						#### Representational State Transfer (REST)
+#### Representational State Transfer (REST)
 
 A software architectural style that defines a set of constraints to be used for creating Web services.
             
@@ -149,11 +125,9 @@ A software architectural style that defines a set of constraints to be used for 
             
 <a href="https://restfulapi.net/http-status-codes/" target="_blank">HTTP Status codes</a>
 
-
 ---
 
-
-						#### REST Architectural Constraints
+#### REST Architectural Constraints
 
 REST defines 6 architectural constraints which make a true RESTful API
 
@@ -165,16 +139,13 @@ REST defines 6 architectural constraints which make a true RESTful API
 * **Layered system:** A client cannot ordinarily tell what it’s connected to.
 * **Code on demand (optional):** Servers may return code.
 
+---
+
+<img src="/new/media/backend-api-images/backend-api-7/crud.png" alt="crud">
 
 ---
 
-
-  <img src="/new/media/backend-api-images/backend-api-7/crud.png" alt="crud">
-
----
-
-
-						#### Hypermedia as the Engine of Application State (HATEOAS)
+#### Hypermedia as the Engine of Application State (HATEOAS)
 
 Use hypermedia links in the response contents so that the client can dynamically navigate to the appropriate resource.
 
@@ -189,21 +160,12 @@ links: [
 ]
 ```
 
-
 ---
 
-
-						#### Conclusion
+#### Conclusion
 
 REST is popular because it’s flexible. The flexibility means that REST doesn’t mean the same in different organisations.
 
 * Be Consistent with the existing API implementations and principles.
 * Understand the REST Architectural constraints.
 * Understand the HTTP protocol.
-            
-
-
----
-
-
-

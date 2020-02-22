@@ -1,15 +1,9 @@
-<!doctype html>
-<html>
-	<head>
-		<title>2. Backend APIs Installing tools
-
-					<h3>2. Backend APIs</h3>
-					<h5>Installing tools</h5>
+### 2. Backend APIs
+##### Installing tools
 
 ---
 
-
-           #### Vi kommer använda en del mjukvaror...
+#### Vi kommer använda en del mjukvaror...
 
 Detta behöver vi:
 * Pakethanterare (chocolatey, brew, apt)
@@ -21,11 +15,10 @@ Detta behöver vi:
 * node.js
 * mongodb
 
-
 ---
 
 
-           #### Pakethanterare
+#### Pakethanterare
 
 * Motivation:
   * Installerar mjukvara som kommandon i terminalen
@@ -35,12 +28,9 @@ Detta behöver vi:
   * Windows: <a href="https://chocolatey.org/docs/installation" target="_blank">https://chocolatey.org/docs/installation</a>
   * Linux: apt or pacman
 
-
-
 ---
 
-
-           #### Kommandoterminal
+#### Kommandoterminal
 * Motivation:
   * Enklare att dokumentera steg för att starta eller utveckla lösning
 * Installation:
@@ -48,11 +38,9 @@ Detta behöver vi:
   * Windows: choco install git
   * Linux: Duh
 
-
 ---
 
-
-           #### Versionshantering
+#### Versionshantering
 * Motivation:
   * Enkelt att gå tillbaka till ett fungerande tillstånd när du skrivit sönder det.
   * Nödvändig branchkunskap.
@@ -60,21 +48,17 @@ Detta behöver vi:
   * Finns i alla terminaler
   * Får gärna använda GUI, men lära sig terminalen först rekommenderas
 
-
 ---
 
-
-           #### Web requests - Browser
+#### Web requests - Browser
 * Motivation:
   * Kan användas för backend också
 * Installation:
   * Chrome/Firefox, ni vet
 
-
 ---
 
-
-           #### Web requests - Terminalverktyg (curl)
+#### Web requests - Terminalverktyg (curl)
 * Motivation:
   * Enklare att dokumentera steg för att starta eller utveckla lösning
   * Mer kraftfullt än en browser, kan göra alla sorters requests
@@ -85,11 +69,9 @@ Detta behöver vi:
 $ curl resp wget https://www.smp.se/
 ```			 
 
-
 ---
 
-
-					#### JSON formatter
+#### JSON formatter
 * Motivation:
   * Enklare att läsa formaterad JSON
 * Installation:
@@ -101,11 +83,9 @@ $ curl resp wget https://www.smp.se/
 $ curl -s https://jsonplaceholder.typicode.com/todos/1 | jq .
 ```			 
 
-
 ---
 
-
-					#### Postman
+#### Postman
 * Motivation:
   * Gratis 
   * Visuellt verktyg för att förstå hur requests går till
@@ -113,11 +93,9 @@ $ curl -s https://jsonplaceholder.typicode.com/todos/1 | jq .
   * MacOS: ```$ cask install postman```		 
 	* Windows: ```$ choco install postman```
 
-
 ---
 
-
-					#### Editor (VScode)
+#### Editor (VScode)
 * Motivation:
   * Gratis, Bra plugins för att effektivisera utveckling
 * Installation:
@@ -125,11 +103,9 @@ $ curl -s https://jsonplaceholder.typicode.com/todos/1 | jq .
 	* Windows: ```$ choco install mongodb```
 	* Linux: <a href="https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/" target="_blank">https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/</a>
 
-
 ---	
 
-
-					#### Mongodb
+#### Mongodb
 * Motivation:
   * Gratis, sparar och läser JSON utan krångel
 * Installation:
@@ -137,9 +113,3 @@ $ curl -s https://jsonplaceholder.typicode.com/todos/1 | jq .
 	* Windows: ```$ choco install vscode```
 * Done
   * Anslut till mongo genom att köra “mongo” och få upp en prompt.
-
-
----	
-
-			
-
