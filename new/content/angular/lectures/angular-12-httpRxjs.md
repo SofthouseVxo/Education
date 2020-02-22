@@ -28,7 +28,7 @@
 
 ---
 
-<img src="/new/media/pushpull2.png" alt="push and pull">
+<img src="/new/media/angular-images/angular-12/pushpull2.png" alt="push and pull">
 
 ---
 
@@ -100,7 +100,7 @@ Rx.Observable.fromEvent(button, 'click')
 
 ---
 
-<img src="/new/media/promisevsobs.png" alt="observable vs promise">
+<img src="/new/media/angular-images/angular-12/promisevsobs.png" alt="observable vs promise">
 
 ---
 
@@ -218,11 +218,11 @@ imports: [
 
 ---
 
-<img src="/new/media/get.png" alt="get n stuff">
+<img src="/new/media/angular-images/angular-12/get.png" alt="get n stuff">
 
 ---
 
-<img src="/new/media/put.png" alt="put n stuff">
+<img src="/new/media/angular-images/angular-12/put.png" alt="put n stuff">
 
 ---
 

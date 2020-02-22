@@ -100,7 +100,7 @@ export class AppModule { }
 
 
 #### Frequently Used Modules
-<img src="/new/media/frequent-modules.png" alt="Frequently Used Modules">
+<img src="/new/media/angular-images/angular-7/frequent-modules.png" alt="Frequently Used Modules">
 
 ---
 

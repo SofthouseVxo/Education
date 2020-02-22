@@ -37,7 +37,7 @@ Directives are mainly used to manipulate the DOM.
 
 ---
 
-<img src="/new/media/directives.png" alt="directives">
+<img src="/new/media/angular-images/angular-6/directives.png" alt="directives">
 
 ---
 

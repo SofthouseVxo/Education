@@ -17,7 +17,7 @@
   * Logging directly to the console.
 * Service classes can be injected and available in any component.
 
-<img src="/new/media/9/services2.png" alt="services">
+<img src="/new/media/angular-images/angular-9/services2.png" alt="services">
 
 ---
 
@@ -31,12 +31,12 @@
 ---
 
 #### Dependency injection
-<img style="width: 800px" src="/new/media/9/services.png" alt="services">
+<img style="width: 800px" src="/new/media/angular-images/angular-9/services.png" alt="services">
 ---
 
 
 #### Service example
-<img style="width: 800px" src="/new/media/9/services3.png" alt="services">
+<img style="width: 800px" src="/new/media/angular-images/angular-9/services3.png" alt="services">
 ---
 
 

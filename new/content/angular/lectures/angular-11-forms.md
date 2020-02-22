@@ -13,7 +13,7 @@
 ---
 
 #### HTML forms
-<img src="/new/media/httpform.png" alt="http form">
+<img src="/new/media/angular-images/angular-11/httpform.png" alt="http form">
 
 ---
 
@@ -36,7 +36,7 @@
 
 ---
 
-<img src="/new/media/angforms.png" alt="angular forms">
+<img src="/new/media/angular-images/angular-11/angforms.png" alt="angular forms">
 
 ---
 
@@ -150,22 +150,22 @@ export class User {
 
 ---
 
-<img src="/new/media/r-forms.png" alt="reactive forms overview">
+<img src="/new/media/angular-images/angular-11/r-forms.png" alt="reactive forms overview">
 
 ---
 
 #### Linking FormControls
-<img src="/new/media/r-forms2.png" alt="linking FormControls">
+<img src="/new/media/angular-images/angular-11/r-forms2.png" alt="linking FormControls">
 
 ---
 
 #### FormGroups
-<img src="/new/media/r-forms4.png" alt="FormGroups">
+<img src="/new/media/angular-images/angular-11/r-forms4.png" alt="FormGroups">
 
 ---
 
 #### FormGroup
-<img src="/new/media/r-forms5.png" alt="FormGroup">
+<img src="/new/media/angular-images/angular-11/r-forms5.png" alt="FormGroup">
 
 ---
 
@@ -217,7 +217,7 @@ Each change to the form state returns a new state, which maintains the integrity
 * More than just two way binding
 * Adds css classes depending on state
 
-<img src="/new/media/ngmodel.png" alt="ng model">
+<img src="/new/media/angular-images/angular-11/ngmodel.png" alt="ng model">
 
 ---
 
@@ -239,7 +239,7 @@ Each change to the form state returns a new state, which maintains the integrity
 
 * Reactive forms define custom validators as functions that receive a control to validate.
 
-<img style="width: 600px" src="/new/media/r-forms3.png" alt="code">
+<img style="width: 600px" src="/new/media/angular-images/angular-11/r-forms3.png" alt="code">
 
 ---
 
@@ -248,6 +248,6 @@ Each change to the form state returns a new state, which maintains the integrity
 
 * Reactive forms define custom validators as functions that receive a control to validate.
 
-<img style="width: 600px" src="/new/media/r-validators.png" alt="validators">
+<img style="width: 600px" src="/new/media/angular-images/angular-11/r-validators.png" alt="validators">
 
 ---

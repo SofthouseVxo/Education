@@ -54,7 +54,7 @@ window.customElements.define('my-custom-element', MyCustomElement);
 
 * Shadow DOM allows us to hide DOM (trees) & logic behind other elements.
 * If you want to dive deeper into this <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM" target="_blank">MDN explains</a>.
-<img width="600" src="/new/media/shadowdom.png" alt="shadow dom">
+<img width="600" src="/new/media/angular-images/angular-4/shadowdom.png" alt="shadow dom">
 
 ---
 
@@ -92,13 +92,13 @@ wrapper.appendChild(clone);
 ---
 
 #### Components
-<img style="margin-top: -20px;" src="/new/media/components.png" alt="components">
+<img style="margin-top: -20px;" src="/new/media/angular-images/angular-4/components.png" alt="components">
 
 ---
 
 
 #### Components
-<img style="margin-top: -20px;" src="/new/media/components2.png" alt="components">
+<img style="margin-top: -20px;" src="/new/media/angular-images/angular-4/components2.png" alt="components">
 
 ---
 
@@ -117,12 +117,12 @@ $ ng new <app name>
 $ ng generate component <component name>
 $ ng g c <component name>
 ```
-<img width="600" src="/new/media/generate.png" alt="generate in cli">
+<img width="600" src="/new/media/angular-images/angular-4/generate.png" alt="generate in cli">
 
 ---
 
 #### Component metadata
-<img src="/new/media/meta.png" alt="components">
+<img src="/new/media/angular-images/angular-4/meta.png" alt="components">
 
 ---
 
@@ -175,7 +175,7 @@ $ ng serve --open
 
 ---
 
-<img src="/new/media/component3.png" alt="component overview">
+<img src="/new/media/angular-images/angular-4/component3.png" alt="component overview">
 
 ---
 
@@ -290,12 +290,12 @@ export class BindComponent {
 ---
 
 #### Binding types and targets
-<img width="800" src="/new/media/binding1.png" alt="angular binding">
+<img width="800" src="/new/media/angular-images/angular-4/binding1.png" alt="angular binding">
 
 ---
 
 #### Binding types and targets
-<img width="800" src="/new/media/binding2.png" alt="angular binding">
+<img width="800" src="/new/media/angular-images/angular-4/binding2.png" alt="angular binding">
 
 ---
 

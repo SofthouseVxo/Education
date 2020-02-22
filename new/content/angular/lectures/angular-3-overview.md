@@ -32,7 +32,7 @@
 
 
 #### Angular building blocks
-<img src="new/media/blocks.png" alt="Angular building blocks">
+<img src="new/media/angular-images/angular-3/blocks.png" alt="Angular building blocks">
 
 ---
 
@@ -58,22 +58,22 @@
 ---
 
 #### Components
-<img src="/new/media/components.png" alt="components">
+<img src="/new/media/angular-images/angular-3/components.png" alt="components">
 
 ---
 
 #### Components
-<img src="/new/media/components2.png" alt="components">
+<img src="/new/media/angular-images/angular-3/components2.png" alt="components">
 
 ---
 
 #### Components
-<img src="/new/media/component3.png" alt="components tree">
+<img src="/new/media/angular-images/angular-3/component3.png" alt="components tree">
 
 ---
 
 #### Components
-<img src="/new/media/componentTree.png" alt="components tree">
+<img src="/new/media/angular-images/angular-3/componentTree.png" alt="components tree">
 
 ---
 
@@ -89,7 +89,7 @@
 ---
 
 #### Overview
-<img style="width: 800px" src="/new/media/angularoverview.png" alt="angular overview">
+<img style="width: 800px" src="/new/media/angular-images/angular-3/angularoverview.png" alt="angular overview">
 
 ---
 
@@ -150,7 +150,7 @@ $ ng serve
 ---
 
 #### Project structure
-<img  src="/new/media/proj.png" alt="project structure">
+<img  src="/new/media/angular-images/angular-3/proj.png" alt="project structure">
 
 ---
 
@@ -167,7 +167,7 @@ $ ng serve
 ---
 
 #### How angular apps starts
-<img src="/new/media/angularstart.png" alt="angular bootstrap">
+<img src="/new/media/angular-images/angular-3/angularstart.png" alt="angular bootstrap">
 
 ---
 
