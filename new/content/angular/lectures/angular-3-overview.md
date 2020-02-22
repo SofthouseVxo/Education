@@ -26,13 +26,13 @@
 
 * AngularJS <— big difference
 * Angular 2 (2016)
-* 5,6,7 and now <a href="https://angular.io/">Angular 8 (May, 2019)</a>
+* 5,6,7 and now <a href="https://angular.io/" target="_blank">Angular 8 (May, 2019)</a>
 
 ---
 
 
 #### Angular building blocks
-<img style="width: 600px;" src="../../media/blocks.png" alt="angular building blocks">
+![Angular building blocks](../../media/blocks.png)
 
 ---
 
