@@ -32,7 +32,7 @@
 
 
 #### Angular building blocks
-![Angular building blocks](new/media/blocks.png)
+![Angular building blocks](/new/media/blocks.png)
 
 ---
 
