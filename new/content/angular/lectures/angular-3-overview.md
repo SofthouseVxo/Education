@@ -32,7 +32,7 @@
 
 
 #### Angular building blocks
-<img style="width: 400px" src="/new/media/blocks.png" alt="hello">
+<img src="/new/media/blocks.png" alt="hello">
 
 ---
 
