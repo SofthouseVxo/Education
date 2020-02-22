@@ -1,0 +1,428 @@
+<!doctype html>
+<html>
+	<head>
+		<title>2. JavaScript - Scripting </title>
+		<meta charset="utf-8">
+		<meta name="robots" content="noindex, nofollow">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="../../libs/reveal/css/reset.css">
+		<link rel="stylesheet" href="../../libs/reveal/css/reveal.css">
+		<link rel="stylesheet" href="../../libs/reveal/css/theme/softhouse.css">
+
+		<link rel="stylesheet" href="../../libs/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../../style.css">
+
+		<script src="../../libs/jquery/jquery.min.js"></script>
+		<script src="../../libs/bootstrap/js/bootstrap.min.js"></script>
+
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="../../libs/reveal/lib/css/monokai.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg  navbar-dark bg-dark fixed-top shadow-lg">
+			<a class="navbar-brand" href="https://www.softhouse.se">
+				<?xml version="1.0" encoding="utf-8"?>
+				<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					viewBox="0 0 928 179" style="enable-background:new 0 0 928 179;" xml:space="preserve">
+				<style type="text/css">
+					.st0{fill:#FFFFFF;}
+				</style>
+				<g>
+					<path class="st0" d="M795,121.4c-9.5,4.3-6.3,24.8-15.8,31.6c-5.3,3.8-31,4-34.3-3.8c-4.7-11.1,30.2-28.8,23.5-38.9
+						c-8.6-12.9-58.5-8.8-61.6-18c-1-3.1,7-17.5,17.7-18.8c11.8-1.9,31.6,19.9,48.2,19.4c32.2-1.1,34.9-51.8,58.5-58
+						c20.7-5.4,37.6-1.6,38.8,7.3c2.2,17.3-59.7,45.1-55.8,59.8c4.9,18.6,74.6,26.4,73.8,41.5c-0.4,7.2-13.7,12.5-25.1,9.6
+						C840.6,147.4,818.1,111,795,121.4 M866.5,166.7c20.8,6.4,53.4,1.7,54.2-13.4c1.5-30.6-93.3-36.1-99.1-53
+						c-3.8-11.2,85.4-49.2,83.1-73.3c-1.4-15.1-33.7-18-62.2-12.1C787.6,26,807.3,84,772.8,86.7c-14.9,1.2-32.8-26.1-54.2-26.1
+						c-13.9,0-33,25.6-30.3,33.2c5.8,16.9,63.6,6.4,73.2,20.1c5.8,8.2-36,26.9-27.8,45.2c4.6,10.2,40.9,14.6,52.1,5
+						c9.3-7.9,4.9-34.5,12.1-37.7C814.7,119,839.5,158.4,866.5,166.7"/>
+					<path class="st0" d="M62.8,101.3H21.3v9.8h30.5c9.3,0,12.2,2.2,12.2,11v6.4c0,8.7-2.9,11-12.2,11H11v-8.7h42.7l0-10.7H23.3
+						c-9.2,0-12.3-2.2-12.3-11v-5.1c0-8.8,3.1-11,12.3-11h39.4V101.3z"/>
+					<path class="st0" d="M571.8,101.3h-41.4v9.8h30.5c9.3,0,12.2,2.2,12.2,11v6.4c0,8.7-2.9,11-12.2,11H520v-8.7h42.7v-10.7h-30.4
+						c-9.2,0-12.3-2.2-12.3-11v-5.1c0-8.8,3.1-11,12.3-11h39.4V101.3z"/>
+					<path class="st0" d="M81.5,103.9v24.5c0,8.8,2.9,11,12.2,11H130c9.2,0,12.2-2.2,12.2-11v-24.5c0-8.9-3-11-12.2-11H93.7
+						C84.5,92.9,81.5,95,81.5,103.9 M93,101.5h37.9v29H93V101.5z"/>
+				</g>
+				<polygon class="st0" points="159.8,92.9 209.3,92.9 209.3,101.3 171.3,101.3 171.3,113.4 197.2,113.4 197.2,122.1 171.3,122.1
+					171.3,139.5 159.8,139.5 "/>
+				<polygon class="st0" points="256.5,139.5 245.1,139.5 245.1,101.3 222.6,101.3 222.6,92.9 279.3,92.9 279.3,101.3 256.5,101.3 "/>
+				<polygon class="st0" points="292.5,92.9 304,92.9 304,110.6 339.7,110.6 339.7,92.9 351.2,92.9 351.2,139.5 339.7,139.5
+					339.7,119.9 304,119.9 304,139.5 292.5,139.5 "/>
+				<g>
+					<path class="st0" d="M368.6,103.9v24.5c0,8.8,2.9,11,12.2,11h36.3c9.2,0,12.2-2.2,12.2-11v-24.5c0-8.9-3-11-12.2-11h-36.3
+						C371.6,92.9,368.6,95,368.6,103.9 M380.1,101.5h37.8v29h-37.8V101.5z"/>
+					<path class="st0" d="M458.3,130.8H491V92.9h11.5v35.5c0,8.7-3,11-12.3,11h-31.1c-9.3,0-12.2-2.3-12.2-11V92.9h11.4V130.8z"/>
+				</g>
+				<polygon class="st0" points="590.5,92.9 640.9,92.9 640.9,101.2 602.1,101.2 602.1,111.3 627.1,111.3 627.1,119.4 602.1,119.4
+					602.1,130.8 641.5,130.8 641.5,139.5 590.5,139.5 "/>
+				</svg>
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav m-auto">
+					<script src="../../navigation.js"></script>
+				</ul>
+			</div>
+		</nav>
+		
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h3>2. JavaScript</h3>
+					<h5>Scripting / Programming</h5>
+				</section>
+
+				<section>
+					<h4>HTML, CSS and JavaScript</h4>
+					<ul>
+						<li>HTML is used to create the basic structure and content of a webpage (the skeleton).</li>
+						<li>CSS is used for the design of a webpage – where everything is placed and how it looks (body).</li>
+						<li><b><u>JavaScript is used to define the interactive elements of a webpage making it dynamic (muscles).</u></b></li>
+					</ul>
+				</section>
+
+				<section>
+					<h4>Computer Programming</h4>
+					<ul>
+						<li>Programming is a way to “instruct the computer to perform various tasks”.</li>
+						<li>You need to use a language that the computer understands.</li>
+						<li>The computer will do <b>EXACTLY</b> what you tell(type), nothing more nothing less.</li>
+						<li>Adding numbers, deleting files, changing what's seen on the screen etc.</li>
+					</ul>
+				</section>
+
+				<section>
+					<p><i>“Everyone in this country should learn to program a computer, because it teaches you to think.”</i> - Steve Jobs</p>
+				</section>
+
+				<section>
+					<h4>Upcoming slides provide a broader overview with simplified examples.</h4>
+				</section>
+
+				<section>
+					<h4>Different types of code</h4>
+					<ul>
+						<li>Low-level Machine code</li>
+						<li>High level language</li>
+						<li>Scripting language</li>
+					</ul>
+				</section>
+				
+				<section>
+					<h4>Low-level Machine code</h4>
+					<ul>
+						<li>Understood by Computers not humans.</li>
+						<li>Binary codes that consists of 1's and 0's</li>
+						<li>Can be executed directly by a computer's CPU.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h4>High-level language</h4>
+					<ul>
+						<li>Code written gets <u>compiled</u> into stand alone applications.</li>
+						<li>Can run on different computers and operating systems in different environments (JVM for Java).</li>
+						<li>Gets compiled to machine code.</li>
+						<li>C, C++, Objective-C, Java.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h4>Script language</h4>
+					<ul>
+						<li>Does not work independently.</li>
+						<li>Runs in an client application which <u>interprets</u> the code, plugin or server program.</li>
+						<li>JavaScript, ActionScript, PHP.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h4>Interpreter</h4>
+					<ul>
+						<li>An interpreter interprets your code into something that the computer can understand.</li>
+						<li>This is done line by line on the fly.</li>
+						<li>Think of a human translator translating what you say, after you said one sentence she writes down the translation then hands it over to the computer.</li>
+						<li>Every time you speak a new sentence, even if it's the same as before, she will write it down again and hand it over.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h4>Compiler</h4>
+					<ul>
+						<li>Interpreting your code into something that the computer can understand.</li>
+						<li>Different from the interpreter the compiler doesn’t translate on the fly.</li>
+						<li>It works ahead of time to create that translation and write it down.</li>
+						<li>Image the human translator again, instead of translating on the fly she writes all you had to say then hands the whole thing over to the computer.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h4>Interpreter vs Compiler</h4>
+					<ul>
+						<li>Interpreters are faster to set up and run first time (no need to write it all down).</li>
+						<li>But when you need to do something again, everything is already written down, and we do not need to do it again.</li>
+						<li>Compiled Java code that produce a portable (binary) representation of the program is distributed for execution later.</li>
+						<li>With JavaScript we distribute the source code, not the binary form.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h4>Just-in-time compilers</h4>
+					<ul>
+						<li>Basically if code runs more often or a lot, it gets compiled.</li>
+						<li>Browsers does this in different ways.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h4>Java flow</h4>
+          <img src="../../media/javascript-images/javascript-2/java.png" alt="java">
+				</section>
+
+				<section>
+					<h4>JavaScript flow</h4>
+          <img  src="../../media/javascript-images/javascript-2/js.png" alt="js">
+				</section>
+
+				<section>
+					<h4>Brief JavaScript History</h4>
+					<ul>
+						<li>Created by Brendan Eich in 1995 during his time at Netscape Communications.</li>
+						<li>Netscape Navigator was the most popular browser during the 90's.</li>
+						<li>JavaScript was created to allow web developers to embed executable code on their webpages.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h4>What is JavaScript?</h4>
+					<ul>
+						<li>JavaScript has been the only standard language supported by browsers (behold <a href="https://webassembly.org/" target="_blank">WebAssembly</a>).</li>
+						<li>JavaScript code is written into an HTML page and <u>interpreted</u> by the browser.</li>
+						<li>With Runtime environments like <u>Node.js</u>, JavaScript can run on machines as well.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h4>WebAssembly</h4>
+					<ul>
+						<li>Simplified: <a href="https://webassembly.org/docs/faq/" target="_blank">WebAssembly</a> is a way to take code in any programming language and run it within a web browser.</li>
+						<li>Initial focus is on C/C++</li>
+						<li>All major browsers are on board for now.</li>
+						<li>Has been a lot of buzz around it for a while now..</li>
+					</ul>
+				</section>
+
+				<section>
+					<h4>JavaScript & Java</h4>
+					<ul>
+						<li>JavaScript is NOT the same as Java.</li>
+						<li>JavaScript is named after Java, and many ideas are borrowed from the Java language.</li>
+						<li>JavaScript’s syntax is heavily inspired by C++ and Java.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h4>ECMAScript & JavaScript</h4>
+					<ul>
+						<li>ECMAScript is a Standard for scripting languages.</li>
+						<li>JavaScript is the most popular implementation of the ECMAScript Standard.</li>
+						<li>Languages like Javascript are based on the ECMAScript standard.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h4>ECMAScript editions of (ECMA-262)</h4>
+					<ul>
+						<li>ECMAScript 2015 (ES2015) and ES6 WTF?</li>
+						<li>ECMAScript 2016 (ES2016) and ES7</li>
+						<li>ECMAScript 2017 (ES2017) and ES8</li>
+						<li>ECMAScript 2018 (ES2018) and ES9</li>
+						<li>ECMAScript 2019 (ES2019) and ES10</li>
+						<li>ES.Next (dynamic and references the next version of ECMAScript coming out).</li>
+					</ul>
+				</section>
+
+				<section>
+					<h4>New editions</h4>
+					<ul>
+						<li>Each new edition implements some new changes.</li>
+						<li>These changes have gone through a process with several steps before being accepted by the TC39 committee.</li>
+						<li>The TC39 committe consists of between 50-100 different people from web-invested companies like browser and device makers.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h4>JavaScript supports <u>backwards compatibility</u></h4>
+					<p>"Backwards compatibility means that once something is accepted as valid JS, there will not be a future change to the language that causes that code to become invalid JS. Code written in 1995 -- however primitive or limited it may have been! -- should still work today. As TC39 members often proclaim, "we don't break the web!" - <a href="https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/getting-started/ch1.md">YDKJS</a></p>
+					<p><u>JS is not forwards-compatible!</u></p>
+				</section>
+
+				<section>
+					<h4>Soo.. What is a script?</h4>
+					<p>A script is a series of instructions that a computer can follow to achieve a goal.</p>
+					<p>Like a recipe.</p>
+				</section>
+
+				<section>
+					<h4>Designing a Script</h4>
+					<ol>
+						<li>Define the goal</li>
+						<li>Design the script</li>
+						<li>Code each step</li>
+					</ol>
+				</section>
+
+				<section>
+					<h4>Common workflow</h4>
+					<ol>
+						<li>Write some code.</li>
+						<li>Test if it works as intended.</li>
+						<li>Indentify bugs (when it's not working)</li>
+						<li>Explore solutions (Google, Stack overflow, Blogs, friends etc.)</li>
+						<li>Go to step 1</li>
+					</ol>
+				</section>
+
+				<section>
+					<h4>Vocabulary & Syntax</h4>
+					<ul>
+						<li><b>Vocabulary</b> - Words that computers understand.</li>
+						<li><b>Syntax</b> - How to put those words together to create instructions.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h4>Why JavaScript?</h4>
+					<ul>
+						<li>JavaScript adds interactivity to your website.</li>
+						<ul>
+							<li>Response to user actions (clicking buttons etc.).</li>
+							<li>Modifying content.</li>
+							<li>Changing the site dynamically (after its been loaded by the browser).</li>
+							<li>Animating.</li>
+							<li>Fetching data asynchronosly.</li>
+						</ul>
+					</ul>
+				</section>
+
+				<section>
+					<h4>Creating JavaScript</h4>
+					<ul>
+						<li>JavaScript is written in plain text.</li>
+						<li>JavaScript code can be placed in:</li>
+						<ul>
+							<li>Script-tags in the HTML file.</li>
+							<li>A seperate file (.js) which is loaded from a HTML file.</li>
+						</ul>
+					</ul>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+						#### Loading and Running JavaScript
+
+						* JavaScript runs where it is found in the code.
+						* When the browser comes across a script element, it stops to load the script and runs the JS code.
+
+						```HTML
+						<html>
+							<head>
+								<title>Page Title</title>
+							</head>
+							<!-- script tag are commented because of reveal.js lib not displaying properly -->
+							<!-- <script>console.log('Hello World!');</script> -->
+							
+							<body>
+								<!-- <script src="main.js"></script> -->
+								<h1>My First Heading</h1>
+								<p>My first paragraph.</p>
+							</body >
+						</html>
+						```
+					</script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+						#### Loading and Running JavaScript
+
+						* Newer browsers supports defer and async, these attributes tell the browser it's safe to continue parsing while the scripts are being downloaded.
+
+						```HTML
+						<html>
+							<head>
+								<title>Page Title</title>
+							</head>
+							<!-- script tag are commented because of reveal.js lib not displaying properly -->
+							<!-- <script defer>console.log('Hello Sweden!');</script> -->
+							<!-- <script async>console.log('Hello World!');</script> -->
+
+							<body>
+								<!-- <script src="main.js"></script> -->
+								<h1>My First Heading</h1>
+								<p>My first paragraph.</p>
+							</body>
+						</html>
+						```
+					</script>
+				</section>
+
+				<section>
+					<h4>HTML parsing – analyzing & interpretation</h4>
+					<ol>
+						<li>HTML code gets parsed until it reaches a script reference.</li>
+						<li>Script is loaded (if it's an external reference).</li>
+						<li>Script runs.</li>
+						<li>HTML parsing continues.</li>
+					</ol>
+
+					<p>The above is called Direct, this can be also be done asynchronosly, meaning the parser continues while loading the script.</p>
+				</section>
+
+        <section>
+          <h4>Web Console</h4>
+          <ul>
+            <li>Logs information associated with a web page:
+              <ul>
+                <li>network requests</li>
+                <li>JavaScript</li>
+                <li>CSS</li>
+                <li>Security errors</li>
+                <li>Warnings</li>
+              </ul>
+            <li>It's possible to execute JavaScript expressions from the console.</li>
+          </ul>
+				</section>
+
+				<section>
+					<h4>Web Console</h4>
+					<img style="margin-top: 0px;" src="../../media/javascript-images/javascript-2/webconsole.png" alt="web console">
+				</section>
+
+				<section>
+					<h4>alert() & prompt() examples</h4>
+				</section>
+
+				<section>
+					<h4>Documentations</h4>
+					<ul>
+						<li><a href="https://www.w3schools.com/js/default.asp" target="_blank">W3schools</a></li>
+						<li><a href="https://developer.mozilla.org/sv-SE/" target="_blank">MDN</a></li>
+					</ul>
+				</section>
+
+				<section>
+          <h3><a href="https://github.com/SofthouseVxo/Education" target="_blank">Github examples!</a></h3>
+        </section>
+			</div>
+		</div>
+
+		<script src="../../libs/reveal/js/reveal.js"></script>
+		<script src="../../initialize.js"></script>
+	</body>
+</html>

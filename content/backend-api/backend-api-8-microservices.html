@@ -1,0 +1,322 @@
+<!doctype html>
+<html>
+	<head>
+		<title>8. Backend APIs - Microservices</title>
+		<meta charset="utf-8">
+		<meta name="robots" content="noindex, nofollow">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="../../libs/reveal/css/reset.css">
+		<link rel="stylesheet" href="../../libs/reveal/css/reveal.css">
+		<link rel="stylesheet" href="../../libs/reveal/css/theme/softhouse.css">
+
+		<link rel="stylesheet" href="../../libs/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../../style.css">
+
+		<script src="../../libs/jquery/jquery.min.js"></script>
+		<script src="../../libs/bootstrap/js/bootstrap.min.js"></script>
+
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="../../libs/reveal/lib/css/monokai.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg  navbar-dark bg-dark fixed-top shadow-lg">
+			<a class="navbar-brand" href="https://www.softhouse.se">
+				<?xml version="1.0" encoding="utf-8"?>
+				<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					viewBox="0 0 928 179" style="enable-background:new 0 0 928 179;" xml:space="preserve">
+				<style type="text/css">
+					.st0{fill:#FFFFFF;}
+				</style>
+				<g>
+					<path class="st0" d="M795,121.4c-9.5,4.3-6.3,24.8-15.8,31.6c-5.3,3.8-31,4-34.3-3.8c-4.7-11.1,30.2-28.8,23.5-38.9
+						c-8.6-12.9-58.5-8.8-61.6-18c-1-3.1,7-17.5,17.7-18.8c11.8-1.9,31.6,19.9,48.2,19.4c32.2-1.1,34.9-51.8,58.5-58
+						c20.7-5.4,37.6-1.6,38.8,7.3c2.2,17.3-59.7,45.1-55.8,59.8c4.9,18.6,74.6,26.4,73.8,41.5c-0.4,7.2-13.7,12.5-25.1,9.6
+						C840.6,147.4,818.1,111,795,121.4 M866.5,166.7c20.8,6.4,53.4,1.7,54.2-13.4c1.5-30.6-93.3-36.1-99.1-53
+						c-3.8-11.2,85.4-49.2,83.1-73.3c-1.4-15.1-33.7-18-62.2-12.1C787.6,26,807.3,84,772.8,86.7c-14.9,1.2-32.8-26.1-54.2-26.1
+						c-13.9,0-33,25.6-30.3,33.2c5.8,16.9,63.6,6.4,73.2,20.1c5.8,8.2-36,26.9-27.8,45.2c4.6,10.2,40.9,14.6,52.1,5
+						c9.3-7.9,4.9-34.5,12.1-37.7C814.7,119,839.5,158.4,866.5,166.7"/>
+					<path class="st0" d="M62.8,101.3H21.3v9.8h30.5c9.3,0,12.2,2.2,12.2,11v6.4c0,8.7-2.9,11-12.2,11H11v-8.7h42.7l0-10.7H23.3
+						c-9.2,0-12.3-2.2-12.3-11v-5.1c0-8.8,3.1-11,12.3-11h39.4V101.3z"/>
+					<path class="st0" d="M571.8,101.3h-41.4v9.8h30.5c9.3,0,12.2,2.2,12.2,11v6.4c0,8.7-2.9,11-12.2,11H520v-8.7h42.7v-10.7h-30.4
+						c-9.2,0-12.3-2.2-12.3-11v-5.1c0-8.8,3.1-11,12.3-11h39.4V101.3z"/>
+					<path class="st0" d="M81.5,103.9v24.5c0,8.8,2.9,11,12.2,11H130c9.2,0,12.2-2.2,12.2-11v-24.5c0-8.9-3-11-12.2-11H93.7
+						C84.5,92.9,81.5,95,81.5,103.9 M93,101.5h37.9v29H93V101.5z"/>
+				</g>
+				<polygon class="st0" points="159.8,92.9 209.3,92.9 209.3,101.3 171.3,101.3 171.3,113.4 197.2,113.4 197.2,122.1 171.3,122.1
+					171.3,139.5 159.8,139.5 "/>
+				<polygon class="st0" points="256.5,139.5 245.1,139.5 245.1,101.3 222.6,101.3 222.6,92.9 279.3,92.9 279.3,101.3 256.5,101.3 "/>
+				<polygon class="st0" points="292.5,92.9 304,92.9 304,110.6 339.7,110.6 339.7,92.9 351.2,92.9 351.2,139.5 339.7,139.5
+					339.7,119.9 304,119.9 304,139.5 292.5,139.5 "/>
+				<g>
+					<path class="st0" d="M368.6,103.9v24.5c0,8.8,2.9,11,12.2,11h36.3c9.2,0,12.2-2.2,12.2-11v-24.5c0-8.9-3-11-12.2-11h-36.3
+						C371.6,92.9,368.6,95,368.6,103.9 M380.1,101.5h37.8v29h-37.8V101.5z"/>
+					<path class="st0" d="M458.3,130.8H491V92.9h11.5v35.5c0,8.7-3,11-12.3,11h-31.1c-9.3,0-12.2-2.3-12.2-11V92.9h11.4V130.8z"/>
+				</g>
+				<polygon class="st0" points="590.5,92.9 640.9,92.9 640.9,101.2 602.1,101.2 602.1,111.3 627.1,111.3 627.1,119.4 602.1,119.4
+					602.1,130.8 641.5,130.8 641.5,139.5 590.5,139.5 "/>
+				</svg>
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav m-auto">
+					<script src="../../navigation.js"></script>
+				</ul>
+			</div>
+		</nav>
+		
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h3>8. Backend APIs</h3>
+					<h5>Microservices</h5>
+				</section>
+
+				<section>
+					<h4>A Brief History of APIs and Service composition</h4>
+				</section>
+
+				<section data-markdown>
+          <script type="text/template">
+						#### Purpose and Scope
+						
+						Why are we listening to this, and what is the takeaway:
+						* It’s required by the curriculum
+						* Understand that software evolves over time and due to business needs
+						* Understand that technology is created to solve specific problems
+						* Understand what kind of problems current technologies address
+						
+						* Keep Calm and Carry on! One foot in front of the other!
+						
+          </script>
+				</section>
+
+				<section>
+					<h4>Static HTML</h4>
+
+					<p>Simple request response</p>
+					<ul>
+						<li>Just GET</li>
+						<li>“Hello World”</li>
+						<li>Can still run javascript</li>
+					</ul>
+
+						<img style="position: absolute; top: 50px; right: 50px;" src="../../media/backend-api-images/backend-api-8/one.png" alt="history">
+
+				</section>
+
+				<section>
+					<h4>Dynamic HTML with Database</h4>
+
+					<p>HTML contents rendered data in database</p>
+					<ul>
+						<li>HTML rendered based on database contents</li>
+						<li>Lack of separation made a mess:</li>
+						<ul>
+							<li>All code runs in the browser</li>
+							<li>Code could only be obfuscated, no secrets!</li>
+							<li>No separation of Business logic and view</li>
+							<li>SQL injection</li>
+						</ul>
+					</ul>	
+
+					<img style="position: absolute; top: 50px; right: 50px;" src="../../media/backend-api-images/backend-api-8/two.png" alt="history">
+
+				</section>
+
+				<section>
+					<h4>Separation of Concerns</h4>
+
+					<p>Model View Controller</p>
+					<ul>
+						<li>Simple pattern separating concerns:</li>
+						<li>Model:</li>
+						<ul>
+							<li>Responsible for managing the data of the application.</li> 
+							<li>It receives user input from the controller.</li>
+						</ul>
+						<li>View:</li>
+						<ul>
+							<li>Presentation of the model in a particular format.</li>
+						</ul>						
+						<li>Controller:</li>
+						<ul>
+							<li>Responds to the user input</li> 
+							<li>Performs interactions on the data model objects.</li>
+						</ul>
+					</ul>
+
+					<img style="position: absolute; top: 50px; right: 30px;" src="../../media/backend-api-images/backend-api-8/three.png" alt="history">
+
+				</section>
+
+
+				<section>
+					<h4>Application programming interface (API)</h4>
+
+					<p>The classic frontend backend solution.</p>
+					<ul>
+						<li>More Separation of concerns</li>
+						<ul>
+							<li>Backend focuses on data</li>
+							<li>Frontend on presentation</li>
+							<li>Client (browser) handles  both</li>
+						</ul>
+						<li>Replace the view with ex. REST</li>
+						<ul>
+							<li>Representational State Transfer (REST):</li>
+							<li>HTTP protocol same as frontend</li>
+							<li>Body in JSON, XML or other</li>
+							<li>HTTP methods to view and change data</li>
+							<li>Resources identified with URIs</li>
+						</ul>					
+					</ul>
+				</section>
+
+				<section>
+					<h4>Application programming interface (API)</h4>
+
+					<ul>
+						<li>APIs can have multiple consumers</li>
+						<ul>
+							<li>Admin View</li>
+							<li>User View</li>
+							<li>System-to-system communication</li>
+						</ul>				
+					</ul>
+
+					<img style="position: absolute; top: 50px; right: 30px;" src="../../media/backend-api-images/backend-api-8/four.png" alt="history">
+				</section>
+
+
+
+				<section>
+					<h4>It’s not Just About Users</h4>
+
+					<p>How do we spread responsibility across a large monolithic (single piece) application?</p>
+
+					<ul>
+						<li>A lot of time wasted on synchronization</li>
+						<ul>
+							<li>Planning takes forever</li>
+							<li>Which team has mandate to do what</li>
+							<li>Functional responsibility (database, protocol) etc does not map to user features.</li>
+						</ul>				
+					</ul>
+				</section>
+
+				<section>
+					<h4>It’s not Just About Users</h4>
+
+					<ul>
+						<li>Libraries for Commonly used Code</li>
+						<ul>
+							<li>Same lib used in different ways (inflexible)</li>
+							<li>Creates coupling between unrelated features</li>
+						</ul>
+						<li>Conway’s Law</li>
+						<ul>
+							<li>Need to communicate to write software</li>
+							<li>Communication boundaries between teams</li>
+							<li>Software architecture should reflect Organizational Structure</li>
+						</ul>	
+					</ul>
+
+				</section>
+
+				<section>
+					<h4>It’s not Just About Users</h4>
+					
+					<img src="../../media/backend-api-images/backend-api-8/five.png" alt="history">
+
+				</section>
+
+				<section>
+					<h4>Service Oriented Architecture (SOA)</h4>
+
+					<p>Many small services, one Team Per Service</p>
+					<ul>
+						<li>Small focused services</li>
+						<li>Team responsible for entire service</li>
+						<ul>
+							<li>Frontend and Backend (API)</li>
+							<li>Provides support to other teams</li>
+							<li>Also responsible for deployment and operations of the service (DevOps)</li>
+						</ul>
+						<li>Great for Large organisations</li>
+						<ul>
+							<li>Pioneered at Amazon</li>
+							<li>1 (American sized) pizza team</li>
+						</ul>
+						<li>Great for Large organisations</li>
+						<ul>
+							<li>You’re not amazon - Can you afford team per service?</li>
+						</ul>	
+					</ul>
+
+				</section>
+
+
+				<section>
+					<h4>Service Oriented Architecture (SOA)</h4>
+
+					<img src="../../media/backend-api-images/backend-api-8/six.png" alt="history">
+				</section>
+
+				<section>
+					<h4>Microservices and Service Discovery</h4>
+
+					<p>Provide business needs (bounded domains) using a collection of small services with a clear responsibility.</p>
+					<ul>
+						<li>API gateway or Load Balancer in front</li>
+						<ul>
+							<li>Presents a single solution hiding services</li>
+							<li>Host or Path mapping to services (/email)</li>
+							<li>May provides authentication and authorization to services</li>
+						</ul>
+						<li>Enables horizontal scaling</li>
+						<ul>
+							<li>Add additional service instances</li>
+							<li>Add additional compute nodes</li>
+							<li>Services register with service discovery so other services can find them</li>
+						</ul>
+						<li>Looks like “a single” API from the gateway</li>
+					</ul>
+				</section>
+
+
+				<section>
+					<h4>Microservices and Service Discovery</h4>
+
+					<img src="../../media/backend-api-images/backend-api-8/six.png" alt="history">
+				</section>
+
+				
+				<section data-markdown>
+          <script type="text/template">
+						#### Purpose and Scope
+						
+Software is about managing complexity:
+* All software starts out simple
+* Software always grows to handle more complexity
+* As software grows, complexity needs to be broken into manageable sizes
+* “Technical Debt” is when technology isn’t helping us manage complexity
+* Business, users, developers and operations all have needs to address
+
+* Standing on the shoulder of giants, it may feel like a lot to take in - but
+* You don’t need to understand all at once, just one service at a time...
+          </script>
+				</section>
+				
+			</div>
+		</div>
+
+		<script src="../../libs/reveal/js/reveal.js"></script>
+		<script src="../../initialize.js"></script>
+	</body>
+</html>
