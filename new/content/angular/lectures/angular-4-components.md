@@ -1,12 +1,10 @@
-
 ### 4. Angular
 ##### Components
 
 ---
 
-
 #### Web Components
-"Web Components is a suite of different technologies allowing you to create reusable custom elements — with their functionality encapsulated away from the rest of your code — and utilize them in your web apps." - <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components">MDN</a></p>
+"Web Components is a suite of different technologies allowing you to create reusable custom elements — with their functionality encapsulated away from the rest of your code — and utilize them in your web apps." - <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components" target="_blank">MDN</a></p>
 
 ---
 
@@ -14,11 +12,11 @@
 
 * Combination of three different technologies
   * Custom elements
-  * Shadow DOM - <a href="https://glazkov.com/2011/01/14/what-the-heck-is-shadow-dom/">What the heck is the Shadow DOM</a>
+  * Shadow DOM - <a href="https://glazkov.com/2011/01/14/what-the-heck-is-shadow-dom/" target="_blank">What the heck is the Shadow DOM</a>
   * HTML Templates
   
 * NOT SUPPORTED IN IE or Edge, polyfills needed.
-* <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components">Documentation</a>
+* <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components" target="_blank">Documentation</a>
 
 ---
 

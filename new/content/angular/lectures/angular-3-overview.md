@@ -32,7 +32,7 @@
 
 
 #### Angular building blocks
-<img src="/new/media/blocks.png" alt="hello">
+<img src="new/media/blocks.png" alt="Angular building blocks">
 
 ---
 
@@ -43,7 +43,7 @@
 * Every Angular app is defined by a set of NgModules and always has at least a root module.
 * Examples of different modules inside an app: Admin, Users, Authentication
 * NgModule, HttpClientModule, FormsModule, BrowserModule -> Angular modules
-* <a href="https://angular.io/guide/architecture-modules">Documentation</a>
+* <a href="https://angular.io/guide/architecture-modules" target="_blank">Documentation</a>
 
 ---
 
@@ -58,22 +58,22 @@
 ---
 
 #### Components
-<img style="margin-top: -20px" src="/new/media/components.png" alt="components">
+<img src="/new/media/components.png" alt="components">
 
 ---
 
 #### Components
-<img style="margin-top: -20px" src="/new/media/components2.png" alt="components">
+<img src="/new/media/components2.png" alt="components">
 
 ---
 
 #### Components
-<img style="width: 600px" src="/new/media/component3.png" alt="components tree">
+<img src="/new/media/component3.png" alt="components tree">
 
 ---
 
 #### Components
-<img style="width: 600px" src="/new/media/componentTree.png" alt="components tree">
+<img src="/new/media/componentTree.png" alt="components tree">
 
 ---
 
@@ -84,7 +84,7 @@
 * Logic not related to a specific view.
 * Services can be injected into Components.
 * Examples of functionality in services can be: Fetch and handle data, store user example.
-* <a href="https://angular.io/guide/architecture-services">Documentation</a>
+* <a href="https://angular.io/guide/architecture-services" target="_blank">Documentation</a>
 
 ---
 
@@ -150,7 +150,7 @@ $ ng serve
 ---
 
 #### Project structure
-<img  style="max-width: 700px;" src="/new/media/proj.png" alt="project structure">
+<img  src="/new/media/proj.png" alt="project structure">
 
 ---
 
@@ -167,11 +167,11 @@ $ ng serve
 ---
 
 #### How angular apps starts
-<img  style="max-width: 1000px;" src="/new/media/angularstart.png" alt="angular bootstrap">
+<img src="/new/media/angularstart.png" alt="angular bootstrap">
 
 ---
 
 #### Augury
 
 * Extension Chrome and Firefox
-* <a href="https://augury.rangle.io/">Website</a>
+* <a href="https://augury.rangle.io/" target="_blank">Website</a>
