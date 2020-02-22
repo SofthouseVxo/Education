@@ -91,7 +91,7 @@
 ---
 
 
-    <img style="margin-top: 0px;" src="../../media/html-css-images/html-css-13/resp.png" alt="different screens">
+    <img style="margin-top: 0px;" src="/new/media/html-css-images/html-css-13/resp.png" alt="different screens">
             <p><a href="https://www.w3schools.com/css/css_rwd_intro.asp">More examples</a></p>
 
 ---
@@ -142,7 +142,7 @@
 
 #### 12 column grid</h4>
 
-  <img src="../../media/html-css-images/html-css-13/grid.png" alt="gid">
+  <img src="/new/media/html-css-images/html-css-13/grid.png" alt="gid">
 
 ---
 

@@ -58,22 +58,22 @@
 ---
 
 #### Components
-<img style="margin-top: -20px" src="../../media/components.png" alt="components">
+<img style="margin-top: -20px" src="/new/media/components.png" alt="components">
 
 ---
 
 #### Components
-<img style="margin-top: -20px" src="../../media/components2.png" alt="components">
+<img style="margin-top: -20px" src="/new/media/components2.png" alt="components">
 
 ---
 
 #### Components
-<img style="width: 600px" src="../../media/component3.png" alt="components tree">
+<img style="width: 600px" src="/new/media/component3.png" alt="components tree">
 
 ---
 
 #### Components
-<img style="width: 600px" src="../../media/componentTree.png" alt="components tree">
+<img style="width: 600px" src="/new/media/componentTree.png" alt="components tree">
 
 ---
 
@@ -89,7 +89,7 @@
 ---
 
 #### Overview
-<img style="width: 800px" src="../../media/angularoverview.png" alt="angular overview">
+<img style="width: 800px" src="/new/media/angularoverview.png" alt="angular overview">
 
 ---
 
@@ -150,7 +150,7 @@ $ ng serve
 ---
 
 #### Project structure
-<img  style="max-width: 700px;" src="../../media/proj.png" alt="project structure">
+<img  style="max-width: 700px;" src="/new/media/proj.png" alt="project structure">
 
 ---
 
@@ -167,7 +167,7 @@ $ ng serve
 ---
 
 #### How angular apps starts
-<img  style="max-width: 1000px;" src="../../media/angularstart.png" alt="angular bootstrap">
+<img  style="max-width: 1000px;" src="/new/media/angularstart.png" alt="angular bootstrap">
 
 ---
 

@@ -264,7 +264,7 @@ export default AppRouter;
     
     ---
     
-        <img src="../../media/react-images/react-10/switch.png" alt="in folders">
+        <img src="/new/media/react-images/react-10/switch.png" alt="in folders">
     ---
   ---
 
@@ -330,7 +330,7 @@ export default AppRouter;
   #### Navigating without a link</h4>
             The <b>History</b> object has several methods for this
 
-    <img src="../../media/react-images/react-10/history.png" alt="history">
+    <img src="/new/media/react-images/react-10/history.png" alt="history">
   ---
 
           <section data-markdown>
@@ -346,6 +346,6 @@ export default AppRouter;
   ---
 
   
-    <img src="../../media/react-images/react-10/history.png" alt="history">
+    <img src="/new/media/react-images/react-10/history.png" alt="history">
   ---
 

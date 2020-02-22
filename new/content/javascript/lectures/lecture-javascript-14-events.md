@@ -130,7 +130,7 @@
 
 
 #### Event Handling</h4>
-  <img src="../../media/javascript-images/javascript-14/eventSteps.png" alt="Event handling">
+  <img src="/new/media/javascript-images/javascript-14/eventSteps.png" alt="Event handling">
 
 ---
 
@@ -277,7 +277,7 @@
 
 
 #### Event capturing and bubbling</h4>
-  <img src="../../media/javascript-images/javascript-14/bubbling.png" alt="event bubbling">
+  <img src="/new/media/javascript-images/javascript-14/bubbling.png" alt="event bubbling">
 
 ---
 
@@ -372,32 +372,32 @@
 
 
 #### The call stack</h4>
-  <img style="margin-top: 0px; width: 800px;" src="../../media/javascript-images/javascript-14/callstack-1.png" alt="call stack">
+  <img style="margin-top: 0px; width: 800px;" src="/new/media/javascript-images/javascript-14/callstack-1.png" alt="call stack">
 
 ---
 
 #### The call stack</h4>
-  <img style="margin-top: 0px; width: 800px;" src="../../media/javascript-images/javascript-14/callstack-2.png" alt="call stack">
+  <img style="margin-top: 0px; width: 800px;" src="/new/media/javascript-images/javascript-14/callstack-2.png" alt="call stack">
 
 ---
 
 #### The call stack</h4>
-  <img style="margin-top: 0px; width: 800px;" src="../../media/javascript-images/javascript-14/callstack-3.png" alt="call stack">
+  <img style="margin-top: 0px; width: 800px;" src="/new/media/javascript-images/javascript-14/callstack-3.png" alt="call stack">
 
 ---
 
 #### The call stack</h4>
-  <img style="margin-top: 0px; width: 800px;" src="../../media/javascript-images/javascript-14/callstack-2.png" alt="call stack">
+  <img style="margin-top: 0px; width: 800px;" src="/new/media/javascript-images/javascript-14/callstack-2.png" alt="call stack">
 
 ---
 
 #### The call stack</h4>
-  <img style="margin-top: 0px; width: 800px;" src="../../media/javascript-images/javascript-14/callstack-1.png" alt="call stack">
+  <img style="margin-top: 0px; width: 800px;" src="/new/media/javascript-images/javascript-14/callstack-1.png" alt="call stack">
 
 ---
 
 #### The call stack</h4>
-  <img style="margin-top: 0px; width: 800px;" src="../../media/javascript-images/javascript-14/callstack-4.png" alt="call stack">
+  <img style="margin-top: 0px; width: 800px;" src="/new/media/javascript-images/javascript-14/callstack-4.png" alt="call stack">
 
 ---
 

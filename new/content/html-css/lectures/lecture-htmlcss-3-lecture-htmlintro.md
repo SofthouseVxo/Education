@@ -219,7 +219,7 @@
 
 
 #### What happens when a webpage runs?</h4>
-  <img src="../../media/html-css-images/html-css-3/clientserver.png" alt="client server communication">
+  <img src="/new/media/html-css-images/html-css-3/clientserver.png" alt="client server communication">
 
 ---
 

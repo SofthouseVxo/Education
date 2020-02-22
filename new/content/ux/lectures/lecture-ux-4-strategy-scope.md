@@ -80,13 +80,13 @@
 
 
 #### Strategi</h4>
-					<img src="../../media/ux-images/ux-4/strategi.png" alt="Strategy plane">
+					<img src="/new/media/ux-images/ux-4/strategi.png" alt="Strategy plane">
 
 ---
 
 
 #### Process</h4>
-					<img src="../../media/ux-images/ux-4/iterativ-strat.png" alt="Strategy iterative process">
+					<img src="/new/media/ux-images/ux-4/iterativ-strat.png" alt="Strategy iterative process">
 
 ---
 
@@ -235,13 +235,13 @@
 
 
 #### Abraham Maslows Behovshierarki</h4>
-					<img style="width: 800px;" src="../../media/ux-images/ux-4/needs.png" alt="needs">
+					<img style="width: 800px;" src="/new/media/ux-images/ux-4/needs.png" alt="needs">
 
 ---
 
 
 #### Scope(omfattning)</h4>
-					<img src="../../media/ux-images/ux-4/scope.png" alt="Scope plane">
+					<img src="/new/media/ux-images/ux-4/scope.png" alt="Scope plane">
 
 ---
 

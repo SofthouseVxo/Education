@@ -63,7 +63,7 @@
 
 
 #### AJAX flow</h4>
-  <img style="width: 600px;" src="../../media/javascript-images/javascript-15/ajaxflow.png" alt="AJAX flow">
+  <img style="width: 600px;" src="/new/media/javascript-images/javascript-15/ajaxflow.png" alt="AJAX flow">
 
 ---
 				
@@ -226,25 +226,25 @@
 
 
 #### Different types of APIs</h4>
-					<img style="width: 800px" src="../../media/javascript-images/javascript-15/api1.png" alt="apis">
+					<img style="width: 800px" src="/new/media/javascript-images/javascript-15/api1.png" alt="apis">
 
 ---
 
 
 #### Different types of APIs</h4>
-					<img style="height: 500px" src="../../media/javascript-images/javascript-15/api2.png" alt="apis">
+					<img style="height: 500px" src="/new/media/javascript-images/javascript-15/api2.png" alt="apis">
 
 ---
 
 
 #### Different types of APIs</h4>
-					<img style="height: 500px" src="../../media/javascript-images/javascript-15/api3.png" alt="apis">
+					<img style="height: 500px" src="/new/media/javascript-images/javascript-15/api3.png" alt="apis">
 
 ---
 
 
 #### Different types of APIs</h4>
-					<img style="width: 800px" src="../../media/javascript-images/javascript-15/api4.png" alt="apis">
+					<img style="width: 800px" src="/new/media/javascript-images/javascript-15/api4.png" alt="apis">
 
 ---
 
@@ -291,31 +291,31 @@
 
 
 #### Client & resource</h4>
-					<img src="../../media/javascript-images/javascript-15/cr1.png" alt="rest">
+					<img src="/new/media/javascript-images/javascript-15/cr1.png" alt="rest">
 
 ---
 
 
 #### Client & Resource & API</h4>
-					<img src="../../media/javascript-images/javascript-15/cr2.png" alt="rest">
+					<img src="/new/media/javascript-images/javascript-15/cr2.png" alt="rest">
 
 ---
 
 
 #### API URI (Uniform Resource Identifier)</h4>
-					<img src="../../media/javascript-images/javascript-15/cr3.png" alt="rest">
+					<img src="/new/media/javascript-images/javascript-15/cr3.png" alt="rest">
 
 ---
 
 
 #### API</h4>
-					<img src="../../media/javascript-images/javascript-15/cr4.png" alt="rest">
+					<img src="/new/media/javascript-images/javascript-15/cr4.png" alt="rest">
 
 ---
 
 
 #### API endpoints</h4>
-					<img src="../../media/javascript-images/javascript-15/cr5.png" alt="rest">
+					<img src="/new/media/javascript-images/javascript-15/cr5.png" alt="rest">
 
 ---
 
@@ -363,7 +363,7 @@
 					<ul>
 						<li>Depending on in which system they are used they are called different things.</li>
 					</ul>
-					<img style="width: 600px;" src="../../media/javascript-images/javascript-15/crud.png" alt="CRUD operations">
+					<img style="width: 600px;" src="/new/media/javascript-images/javascript-15/crud.png" alt="CRUD operations">
 
 ---
 
@@ -395,27 +395,27 @@
 
 
 #### Network tab</h4>
-					<img src="../../media/javascript-images/javascript-15/nw.png" alt="network">
+					<img src="/new/media/javascript-images/javascript-15/nw.png" alt="network">
 
 ---
 
 #### Network tab</h4>
-					<img src="../../media/javascript-images/javascript-15/nw1.png" alt="network">
+					<img src="/new/media/javascript-images/javascript-15/nw1.png" alt="network">
 
 ---
 
 #### Network tab</h4>
-					<img src="../../media/javascript-images/javascript-15/nw2.png" alt="network">
+					<img src="/new/media/javascript-images/javascript-15/nw2.png" alt="network">
 
 ---
 
 #### Network tab</h4>
-					<img src="../../media/javascript-images/javascript-15/nw3.png" alt="network">
+					<img src="/new/media/javascript-images/javascript-15/nw3.png" alt="network">
 
 ---
 
 #### Network tab</h4>
-					<img src="../../media/javascript-images/javascript-15/nw4.png" alt="network">
+					<img src="/new/media/javascript-images/javascript-15/nw4.png" alt="network">
 
 ---
 

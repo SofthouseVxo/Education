@@ -110,7 +110,7 @@
 ---
 
 
-					<img src="../../media/pushpull2.png" alt="push and pull">
+					<img src="/new/media/pushpull2.png" alt="push and pull">
 
 ---
 
@@ -194,7 +194,7 @@
 ---
 
 
-  <img src="../../media/promisevsobs.png" alt="observable vs promise">
+  <img src="/new/media/promisevsobs.png" alt="observable vs promise">
 
 ---
 
@@ -334,12 +334,12 @@
 ---
 
 
-  <img src="../../media/get.png" alt="get n stuff">
+  <img src="/new/media/get.png" alt="get n stuff">
           <p></p>
 
 ---
 
-  <img src="../../media/put.png" alt="put n stuff">
+  <img src="/new/media/put.png" alt="put n stuff">
 
 ---
 

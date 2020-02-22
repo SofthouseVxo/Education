@@ -103,13 +103,13 @@
 
 
 #### Image example</h4>
-  <img src="../../media/react-images/react-9/folders.png" alt="in folders">
+  <img src="/new/media/react-images/react-9/folders.png" alt="in folders">
 
 ---
 
 
   #### In code</h4>
-    <img src="../../media/react-images/react-9/code.png" alt="in code">
+    <img src="/new/media/react-images/react-9/code.png" alt="in code">
 
 ---
 
@@ -151,7 +151,7 @@
 ---
 
 
-  <img src="../../media/react-images/react-9/css.png" alt="in folders">
+  <img src="/new/media/react-images/react-9/css.png" alt="in folders">
 
 ---
 

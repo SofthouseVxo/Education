@@ -49,7 +49,7 @@
 
 #### Flux</h4>
 					<p>Flux is the application architecture that Facebook uses for building client-side web applications.</p>
-					<img src="../../media/react-images/react-16/flux.png" alt="flux">
+					<img src="/new/media/react-images/react-16/flux.png" alt="flux">
 
 ---
 
@@ -111,13 +111,13 @@
 
 
 #### Redux + React</h4>
-					<img src="../../media/react-images/react-16/React+Redux.png" alt="redux">
+					<img src="/new/media/react-images/react-16/React+Redux.png" alt="redux">
 
 ---
 
 
 #### State machine</h4>
-					<img src="../../media/react-images/react-16/StateMachine.png" alt="state machine">
+					<img src="/new/media/react-images/react-16/StateMachine.png" alt="state machine">
 
 ---
 

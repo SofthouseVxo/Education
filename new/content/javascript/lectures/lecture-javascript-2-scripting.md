@@ -124,13 +124,13 @@
 
 
 #### Java flow</h4>
-  <img src="../../media/javascript-images/javascript-2/java.png" alt="java">
+  <img src="/new/media/javascript-images/javascript-2/java.png" alt="java">
 
 ---
 
 
 #### JavaScript flow</h4>
-  <img  src="../../media/javascript-images/javascript-2/js.png" alt="js">
+  <img  src="/new/media/javascript-images/javascript-2/js.png" alt="js">
 
 ---
 
@@ -364,7 +364,7 @@
 
 
 #### Web Console</h4>
-					<img style="margin-top: 0px;" src="../../media/javascript-images/javascript-2/webconsole.png" alt="web console">
+					<img style="margin-top: 0px;" src="/new/media/javascript-images/javascript-2/webconsole.png" alt="web console">
 
 ---
 

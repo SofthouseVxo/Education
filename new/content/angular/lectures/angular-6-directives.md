@@ -120,7 +120,7 @@
 ---
 
 
-  <img src="../../media/directives.png" alt="directives">
+  <img src="/new/media/directives.png" alt="directives">
 
 ---
 

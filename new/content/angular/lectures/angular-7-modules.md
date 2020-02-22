@@ -196,7 +196,7 @@ export class AppModule { }
 
 
 #### Frequently Used Modules</h4>
-  <img src="../../media/frequent-modules.png" alt="Frequently Used Modules">
+  <img src="/new/media/frequent-modules.png" alt="Frequently Used Modules">
 
 ---
 

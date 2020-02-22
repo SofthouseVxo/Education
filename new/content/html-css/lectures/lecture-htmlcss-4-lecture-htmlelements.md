@@ -294,7 +294,7 @@
 
 
 #### File structure</h4>
-					<img  src="../../media/html-css-images/html-css-4/folder.png" alt="files structure">
+					<img  src="/new/media/html-css-images/html-css-4/folder.png" alt="files structure">
 
 ---
 
@@ -354,7 +354,7 @@
 
 
 #### Rows and Columns</h4>
-					<img src="../../media/html-css-images/html-css-4/table2.png" alt="table structure">
+					<img src="/new/media/html-css-images/html-css-4/table2.png" alt="table structure">
 
 ---
 
@@ -408,7 +408,7 @@
 
 
 #### colspan & rowspan</h4>
-					<img  src="../../media/html-css-images/html-css-4/table.png" alt="rowspan and colspan">
+					<img  src="/new/media/html-css-images/html-css-4/table.png" alt="rowspan and colspan">
 
 ---
 

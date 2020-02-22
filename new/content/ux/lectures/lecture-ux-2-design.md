@@ -150,7 +150,7 @@
 
 
 #### Vattenfallsmetoden</h4>
-					<img style="width: 700px;" src="../../media/ux-images/ux-2/vattenfall.png" alt="waterfall">
+					<img style="width: 700px;" src="/new/media/ux-images/ux-2/vattenfall.png" alt="waterfall">
 
 ---
 
@@ -205,7 +205,7 @@
 
 
 #### Iterativ process</h4>
-					<img src="../../media/ux-images/ux-2/iterativ.png" alt="iterative process">
+					<img src="/new/media/ux-images/ux-2/iterativ.png" alt="iterative process">
 
 ---
 

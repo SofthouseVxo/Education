@@ -16,7 +16,7 @@
             <li>It is <b>Stateless</b> (doesn’t remember what you did)</li>
           </ul>
 
-  <img style="width: 700px;" src="../../media/backend-api-images/backend-api-3/http.png" alt="http">
+  <img style="width: 700px;" src="/new/media/backend-api-images/backend-api-3/http.png" alt="http">
 
 ---
 

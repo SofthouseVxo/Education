@@ -91,7 +91,7 @@
 
 
 #### HTML forms</h4>
-  <img src="../../media/httpform.png" alt="http form">
+  <img src="/new/media/httpform.png" alt="http form">
 
 ---
 
@@ -117,7 +117,7 @@
 ---
 
 
-  <img src="../../media/angforms.png" alt="angular forms">
+  <img src="/new/media/angforms.png" alt="angular forms">
 
 ---
 
@@ -252,25 +252,25 @@
 ---
 
 
-  <img src="../../media/r-forms.png" alt="reactive forms overview">
+  <img src="/new/media/r-forms.png" alt="reactive forms overview">
 
 ---
 
 
 #### Linking FormControls</h4>
-  <img src="../../media/r-forms2.png" alt="linking FormControls">
+  <img src="/new/media/r-forms2.png" alt="linking FormControls">
 
 ---
 
 
 #### FormGroups</h4>
-  <img src="../../media/r-forms4.png" alt="FormGroups">
+  <img src="/new/media/r-forms4.png" alt="FormGroups">
 
 ---
 
 
 #### FormGroup</h4>
-  <img src="../../media/r-forms5.png" alt="FormGroup">
+  <img src="/new/media/r-forms5.png" alt="FormGroup">
 
 ---
 
@@ -330,7 +330,7 @@
             <li>More than just two way binding</li>
             <li>Adds css classes depending on state</li>
           </ul>
-  <img src="../../media/ngmodel.png" alt="ng model">
+  <img src="/new/media/ngmodel.png" alt="ng model">
 
 ---
 
@@ -352,7 +352,7 @@
           <ul>
             <li>Reactive forms define custom validators as functions that receive a control to validate.</li>
           </ul>
-  <img style="width: 600px" src="../../media/r-forms3.png" alt="code">
+  <img style="width: 600px" src="/new/media/r-forms3.png" alt="code">
 
 ---
 
@@ -361,7 +361,7 @@
           <ul>
             <li>Reactive forms define custom validators as functions that receive a control to validate.</li>
           </ul>
-  <img style="width: 600px" src="../../media/r-validators.png" alt="validators">
+  <img style="width: 600px" src="/new/media/r-validators.png" alt="validators">
 
 ---
 

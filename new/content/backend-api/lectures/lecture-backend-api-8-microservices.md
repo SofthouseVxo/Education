@@ -38,7 +38,7 @@
 						<li>Can still run javascript</li>
 					</ul>
 
-						<img style="position: absolute; top: 50px; right: 50px;" src="../../media/backend-api-images/backend-api-8/one.png" alt="history">
+						<img style="position: absolute; top: 50px; right: 50px;" src="/new/media/backend-api-images/backend-api-8/one.png" alt="history">
 
 ---
 
@@ -57,7 +57,7 @@
 						</ul>
 					</ul>	
 
-					<img style="position: absolute; top: 50px; right: 50px;" src="../../media/backend-api-images/backend-api-8/two.png" alt="history">
+					<img style="position: absolute; top: 50px; right: 50px;" src="/new/media/backend-api-images/backend-api-8/two.png" alt="history">
 
 ---
 
@@ -83,7 +83,7 @@
 						</ul>
 					</ul>
 
-					<img style="position: absolute; top: 50px; right: 30px;" src="../../media/backend-api-images/backend-api-8/three.png" alt="history">
+					<img style="position: absolute; top: 50px; right: 30px;" src="/new/media/backend-api-images/backend-api-8/three.png" alt="history">
 
 ---
 
@@ -123,7 +123,7 @@
 						</ul>				
 					</ul>
 
-					<img style="position: absolute; top: 50px; right: 30px;" src="../../media/backend-api-images/backend-api-8/four.png" alt="history">
+					<img style="position: absolute; top: 50px; right: 30px;" src="/new/media/backend-api-images/backend-api-8/four.png" alt="history">
 
 ---
 
@@ -167,7 +167,7 @@
 
 #### It’s not Just About Users</h4>
 					
-					<img src="../../media/backend-api-images/backend-api-8/five.png" alt="history">
+					<img src="/new/media/backend-api-images/backend-api-8/five.png" alt="history">
 
 ---
 
@@ -200,7 +200,7 @@
 
 #### Service Oriented Architecture (SOA)</h4>
 
-					<img src="../../media/backend-api-images/backend-api-8/six.png" alt="history">
+					<img src="/new/media/backend-api-images/backend-api-8/six.png" alt="history">
 
 ---
 
@@ -230,7 +230,7 @@
 
 #### Microservices and Service Discovery</h4>
 
-					<img src="../../media/backend-api-images/backend-api-8/six.png" alt="history">
+					<img src="/new/media/backend-api-images/backend-api-8/six.png" alt="history">
 
 ---
 

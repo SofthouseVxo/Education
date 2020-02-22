@@ -266,7 +266,7 @@
 ---
 
 
-  <img style="width: 700px;" src="../../media/react-images/react-6/composing.png" alt="lifecycle methods">
+  <img style="width: 700px;" src="/new/media/react-images/react-6/composing.png" alt="lifecycle methods">
 
 ---
 

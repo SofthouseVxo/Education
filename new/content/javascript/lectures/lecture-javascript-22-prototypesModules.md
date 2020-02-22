@@ -236,31 +236,31 @@
 
 
 #### Prototype chain</h4>
-<img style="width: 800px;" src="../../media/javascript-images/javascript-22/proto1.png" alt="prototype chain">          
+<img style="width: 800px;" src="/new/media/javascript-images/javascript-22/proto1.png" alt="prototype chain">          
 ---
 
 #### Prototype chain</h4>
-<img style="width: 800px;" src="../../media/javascript-images/javascript-22/proto2.png" alt="prototype chain">          
+<img style="width: 800px;" src="/new/media/javascript-images/javascript-22/proto2.png" alt="prototype chain">          
 ---
 
 #### Prototype chain</h4>
-<img style="width: 800px;" src="../../media/javascript-images/javascript-22/proto3.png" alt="prototype chain">          
+<img style="width: 800px;" src="/new/media/javascript-images/javascript-22/proto3.png" alt="prototype chain">          
 ---
 
 #### Prototype chain</h4>
-<img style="width: 800px;" src="../../media/javascript-images/javascript-22/proto4.png" alt="prototype chain">          
+<img style="width: 800px;" src="/new/media/javascript-images/javascript-22/proto4.png" alt="prototype chain">          
 ---
 
 #### Prototype chain</h4>
-<img style="width: 800px;" src="../../media/javascript-images/javascript-22/proto5.png" alt="prototype chain">          
+<img style="width: 800px;" src="/new/media/javascript-images/javascript-22/proto5.png" alt="prototype chain">          
 ---
 
 #### Prototype chain</h4>
-<img style="width: 800px;" src="../../media/javascript-images/javascript-22/proto6.png" alt="prototype chain">          
+<img style="width: 800px;" src="/new/media/javascript-images/javascript-22/proto6.png" alt="prototype chain">          
 ---
 
 #### Prototype chain</h4>
-<img style="width: 800px;" src="../../media/javascript-images/javascript-22/proto7.png" alt="prototype chain">          
+<img style="width: 800px;" src="/new/media/javascript-images/javascript-22/proto7.png" alt="prototype chain">          
 ---
 
         <!-- Many prototype-based systems encourage the alteration of prototypes during run-time, whereas only very few class-based object-oriented systems (such as the dynamic object-oriented system, Common Lisp, Dylan, Objective-C, Perl, Python, Ruby, or Smalltalk) allow classes to be altered during the execution of a program.  -->

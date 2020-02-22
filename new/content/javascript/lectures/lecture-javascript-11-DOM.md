@@ -32,7 +32,7 @@
 
 
 #### Global JavaScript Objects</h4>
-					<img style="margin-top: 0px; width: 600px;" src="../../media/javascript-images/javascript-11/JSGlobalObjects.png" alt="Global JS Objects">
+					<img style="margin-top: 0px; width: 600px;" src="/new/media/javascript-images/javascript-11/JSGlobalObjects.png" alt="Global JS Objects">
 
 ---
 
@@ -55,13 +55,13 @@
 
 
 #### Browser Object Model(BOM)</h4>
-					<img style="margin-top: 0px; width: 600px;" src="../../media/javascript-images/javascript-11/bom.png" alt="Browser Object Model">
+					<img style="margin-top: 0px; width: 600px;" src="/new/media/javascript-images/javascript-11/bom.png" alt="Browser Object Model">
 
 ---
 
 
 #### window object example (BOM)</h4>
-					<img style="margin-top: 0px; width: 800px;" src="../../media/javascript-images/javascript-11/window.png" alt="dom - window">
+					<img style="margin-top: 0px; width: 800px;" src="/new/media/javascript-images/javascript-11/window.png" alt="dom - window">
 
 ---
 
@@ -79,7 +79,7 @@
 
 
 #### window.location (BOM)</h4>
-					<img style="margin-top: 0px; width: 800px;" src="../../media/javascript-images/javascript-11/location.png" alt="dom - window - location">
+					<img style="margin-top: 0px; width: 800px;" src="/new/media/javascript-images/javascript-11/location.png" alt="dom - window - location">
 
 ---
 
@@ -89,7 +89,7 @@
 						<li>The current webpage loaded into each window is modelled using a <b>document</b> object.</li>
 						<li>The Document Object Model works like a bridge between logic (JavaScript) and Design (HTML).</li>
 					</ul>
-					<img style="margin-top: 0px; width: 700px;" src="../../media/javascript-images/javascript-11/document.png" alt="dom - document">
+					<img style="margin-top: 0px; width: 700px;" src="/new/media/javascript-images/javascript-11/document.png" alt="dom - document">
 
 ---
 
@@ -134,7 +134,7 @@
 
 
 #### DOM/Node tree</h4>
-					<img style="margin-top: 0px;" src="../../media/javascript-images/javascript-11/domtree.png" alt="dom - object model">
+					<img style="margin-top: 0px;" src="/new/media/javascript-images/javascript-11/domtree.png" alt="dom - object model">
 
 ---
 
@@ -150,7 +150,7 @@
 						<h1 id="myHeader">Welcome to my site</h1>
 						```
 
-						<img style="margin-top: -20px;" src="../../media/javascript-images/javascript-11/element.png" alt="dom - element node">
+						<img style="margin-top: -20px;" src="/new/media/javascript-images/javascript-11/element.png" alt="dom - element node">
 
 					</script>
 

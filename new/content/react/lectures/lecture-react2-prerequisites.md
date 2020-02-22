@@ -195,7 +195,7 @@
 	
 
 					<h3>Semantic versioning</h3>
-					<img src="../../media/general-images/general-3/semantic.png" alt="semantic versioning">
+					<img src="/new/media/general-images/general-3/semantic.png" alt="semantic versioning">
 
 ---
 	

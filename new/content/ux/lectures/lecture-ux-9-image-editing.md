@@ -102,32 +102,32 @@
 
 
 #### Genomgång av gränssnitt</h4>
-					<img style="width: 800px;" src="../../media/ux-images/ux-9/interface.png" alt="Photoshop interface">
+					<img style="width: 800px;" src="/new/media/ux-images/ux-9/interface.png" alt="Photoshop interface">
 
 ---
 
 
 #### Skapa ett nytt projekt</h4>
-					<img style="width: 800px;" src="../../media/ux-images/ux-9/project.png" alt="Photoshop new project">
+					<img style="width: 800px;" src="/new/media/ux-images/ux-9/project.png" alt="Photoshop new project">
 
 ---
 
 
 #### Skapa ett nytt projekt</h4>
-					<img style="width: 800px;" src="../../media/ux-images/ux-9/project2.png" alt="Photoshop new project">
+					<img style="width: 800px;" src="/new/media/ux-images/ux-9/project2.png" alt="Photoshop new project">
 
 ---
 
 
 #### Verktyg</h4>
-					<img style="width: 100px" src="../../media/ux-images/ux-9/toolbar.png" alt="Photoshop toolbar">
+					<img style="width: 100px" src="/new/media/ux-images/ux-9/toolbar.png" alt="Photoshop toolbar">
 
 ---
 
 
 #### Lager</h4>
 					<h5>Ladda hem och öppna boat.psd</h5>
-					<img style="width: 600px" src="../../media/ux-images/ux-9/boat1.png" alt="Photoshop layers example">
+					<img style="width: 600px" src="/new/media/ux-images/ux-9/boat1.png" alt="Photoshop layers example">
 
 ---
 
@@ -137,15 +137,15 @@
 					<li>Export - exportera projektet till en bild.</li>
 					<li>Export kan göras på olika sätt.</li>
 					
-					<img style="width: 200px" src="../../media/ux-images/ux-9/menu1.png" alt="Photoshop menu">
-					<img style="width: 200px" src="../../media/ux-images/ux-9/menu2.png" alt="Photoshop menu">
+					<img style="width: 200px" src="/new/media/ux-images/ux-9/menu1.png" alt="Photoshop menu">
+					<img style="width: 200px" src="/new/media/ux-images/ux-9/menu2.png" alt="Photoshop menu">
 
 ---
 
 
 #### Exportera</h4>
 					
-					<img style="width: 800px" src="../../media/ux-images/ux-9/boat3.png" alt="Photoshop export">
+					<img style="width: 800px" src="/new/media/ux-images/ux-9/boat3.png" alt="Photoshop export">
 
 ---
 

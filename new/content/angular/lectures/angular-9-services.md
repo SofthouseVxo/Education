@@ -95,7 +95,7 @@ Services</title>
 			 </section>
 
 			<section>
-				<img src="../../media/9/services2.png" alt="services">
+				<img src="/new/media/9/services2.png" alt="services">
 		 </section>
 
 		 <section>
@@ -109,12 +109,12 @@ Services</title>
 
 		<section>
 			<h4>Dependency injection</h4>
-			 <img style="width: 800px" src="../../media/9/services.png" alt="services">
+			 <img style="width: 800px" src="/new/media/9/services.png" alt="services">
 		</section>
 
 		<section>
 			<h4>Service example</h4>
-			 <img style="width: 800px" src="../../media/9/services3.png" alt="services">
+			 <img style="width: 800px" src="/new/media/9/services3.png" alt="services">
 		</section>
 
 		 <section>

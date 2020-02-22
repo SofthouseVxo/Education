@@ -129,19 +129,19 @@
 
 
 #### CSS Example</h4>
-					<img  src="../../media/html-css-images/html-css-5/box.png" alt="div with styles">
+					<img  src="/new/media/html-css-images/html-css-5/box.png" alt="div with styles">
 
 ---
 
 
 #### Web page with CSS</h4>
-					<img  src="../../media/html-css-images/html-css-5/withCSS.png" alt="web page with css">
+					<img  src="/new/media/html-css-images/html-css-5/withCSS.png" alt="web page with css">
 
 ---
 
 
 #### Web page without CSS</h4>
-					<img  src="../../media/html-css-images/html-css-5/withoutCSS.png" alt="web page without css">
+					<img  src="/new/media/html-css-images/html-css-5/withoutCSS.png" alt="web page without css">
 
 ---
 
@@ -263,7 +263,7 @@
           <ul>
             <li>Every element has an invisible box around them.</li>
           </ul>
-					<img  src="../../media/html-css-images/html-css-5/invisBox.png" alt="invisible element boxes">
+					<img  src="/new/media/html-css-images/html-css-5/invisBox.png" alt="invisible element boxes">
 
 ---
 
@@ -279,7 +279,7 @@
 
 
 #### Block and Inline elements</h4>
-					<img  src="../../media/html-css-images/html-css-5/inline.png" alt="inline & block elements">
+					<img  src="/new/media/html-css-images/html-css-5/inline.png" alt="inline & block elements">
 
 ---
 

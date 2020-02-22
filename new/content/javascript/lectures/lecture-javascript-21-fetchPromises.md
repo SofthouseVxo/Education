@@ -192,7 +192,7 @@
 
 	
 	#### Promise</h4>
-						<img style="width: 800px;" src="../../media/javascript-images/javascript-21/promise.png" alt="promise">
+						<img style="width: 800px;" src="/new/media/javascript-images/javascript-21/promise.png" alt="promise">
 	---
 
 					<section data-markdown>
@@ -237,7 +237,7 @@
 					
 	
 	#### Promise</h4>
-						<img style="width: 800px;" src="../../media/javascript-images/javascript-21/promise.png" alt="promise">
+						<img style="width: 800px;" src="/new/media/javascript-images/javascript-21/promise.png" alt="promise">
 	---
 
 

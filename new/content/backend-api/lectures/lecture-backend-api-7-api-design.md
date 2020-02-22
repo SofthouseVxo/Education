@@ -169,7 +169,7 @@ REST defines 6 architectural constraints which make a true RESTful API
 ---
 
 
-  <img src="../../media/backend-api-images/backend-api-7/crud.png" alt="crud">
+  <img src="/new/media/backend-api-images/backend-api-7/crud.png" alt="crud">
 
 ---
 

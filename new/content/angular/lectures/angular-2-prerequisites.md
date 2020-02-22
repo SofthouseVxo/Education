@@ -7,7 +7,6 @@
 #### Single Page vs Multi page applications
 ---
 
-
 #### What is a Multi page web site/application
 
 * A MPA consists of multiple html pages.
@@ -16,7 +15,6 @@
 * For example when a html form is submitted to server. Then a new page is returned from the server and loaded in the browser.
 
 ---
-
 
 #### Cons - multi page applications
 
@@ -118,7 +116,7 @@
   
 
 #### MVC
-  <img style="width: 800px;" src="../../media/mvc.png" alt="mvc overview">
+  <img style="width: 800px;" src="/new/media/mvc.png" alt="mvc overview">
   
 ---
   
@@ -234,7 +232,7 @@ $ npm i typescript --save-dev // installs typescript and since typescript is onl
 
 
 #### Semantic versioning
-<img src="../../media/semantic.png" alt="semantic versioning">
+<img src="/new/media/semantic.png" alt="semantic versioning">
 
 ---
 

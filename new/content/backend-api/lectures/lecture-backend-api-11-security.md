@@ -43,7 +43,7 @@
 						<li>Social media login</li>
 					</ul>
 					
-					<img style="width: 400px; margin-left: 50px;" src="../../media/backend-api-images/backend-api-11/front.png" alt="drivers license">
+					<img style="width: 400px; margin-left: 50px;" src="/new/media/backend-api-images/backend-api-11/front.png" alt="drivers license">
 
 ---
 
@@ -55,7 +55,7 @@
 						<li>Roles and Access to a system.</li>
 					</ul>
 
-					<img style="width: 400px; margin-left: 50px;" src="../../media/backend-api-images/backend-api-11/back.png" alt="drivers license">
+					<img style="width: 400px; margin-left: 50px;" src="/new/media/backend-api-images/backend-api-11/back.png" alt="drivers license">
 
 ---
 
@@ -202,7 +202,7 @@
 
 #### Oauth Example</h4>
 
-					<img style="width: 600px" src="../../media/backend-api-images/backend-api-11/oauth.png" alt="oauth">
+					<img style="width: 600px" src="/new/media/backend-api-images/backend-api-11/oauth.png" alt="oauth">
 
 ---
 

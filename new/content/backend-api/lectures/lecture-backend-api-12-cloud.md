@@ -23,7 +23,7 @@
 
 #### What is “Public Cloud”</h4>
 					<p>It’s globally distributed compute connected via networks.</p>
-					<img src="../../media/backend-api-images/backend-api-12/public.png" alt="public cloud">
+					<img src="/new/media/backend-api-images/backend-api-12/public.png" alt="public cloud">
 
 ---
 
@@ -64,7 +64,7 @@
 
 #### Managed Services</h4>
 					<p>Services are available on demand using APIs</p>
-					<img src="../../media/backend-api-images/backend-api-12/services.png" alt="services">
+					<img src="/new/media/backend-api-images/backend-api-12/services.png" alt="services">
 
 ---
 

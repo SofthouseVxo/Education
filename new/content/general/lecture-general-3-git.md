@@ -106,7 +106,7 @@
 
 #### How my projects use to look</h4>
 
-  <img style="height: 550px" src="../../media/general-images/general-3/files.png" alt="old folder structure">
+  <img style="height: 550px" src="/new/media/general-images/general-3/files.png" alt="old folder structure">
 
 ---
 
@@ -118,7 +118,7 @@
             <li>Who made the changes?</li>
           </ul>
 
-  <img style="height: 300px" src="../../media/general-images/general-3/maps.png" alt="map difference">
+  <img style="height: 300px" src="/new/media/general-images/general-3/maps.png" alt="map difference">
 
 ---
 
@@ -132,7 +132,7 @@
               <li>Going back and fourth between versions.</li>
             </ul>
           </ul>
-  <img style="height: 300px" src="../../media/general-images/general-3/github.png" alt="map difference">
+  <img style="height: 300px" src="/new/media/general-images/general-3/github.png" alt="map difference">
 
 ---
 
@@ -143,7 +143,7 @@
             <li>Git is a Distributed Version Control system</li>
           </ul>
 
-  <img style="height: 400px" src="../../media/general-images/general-3/distributed.png" alt="distributed version control">
+  <img style="height: 400px" src="/new/media/general-images/general-3/distributed.png" alt="distributed version control">
 
 ---
 
@@ -187,7 +187,7 @@
             <li>Alternatives exist (SourceTree, Github desktop etc).</li>
             <li>You can also open the terminal inside your IDE.</li>
           </ul>
-  <img style="height: 300px" src="../../media/general-images/general-3/cmd.png" alt="cmd">
+  <img style="height: 300px" src="/new/media/general-images/general-3/cmd.png" alt="cmd">
 
 ---
 
@@ -197,7 +197,7 @@
             <li>The Repository is usually the project folder.</li>
             <li>By making a folder a Repository it becomes a folder which git keeps track of.</li>
           </ul>
-  <img style="height: 400px" src="../../media/general-images/general-3/repo.png" alt="repo">
+  <img style="height: 400px" src="/new/media/general-images/general-3/repo.png" alt="repo">
 
 ---
 
@@ -208,7 +208,7 @@
             <li>Inside this folder is all the information about the history and tracking of the Repository.</li>
             <li>Delete this and it's not a git repository anymore.</li>
           </ul>
-  <img style="height: 400px" src="../../media/general-images/general-3/githidden.png" alt="githidden">
+  <img style="height: 400px" src="/new/media/general-images/general-3/githidden.png" alt="githidden">
 
 ---
 
@@ -250,13 +250,13 @@
         
 
 #### git commit</h4>
-  <img  src="../../media/general-images/general-3/commits.png" alt="commits">
+  <img  src="/new/media/general-images/general-3/commits.png" alt="commits">
 
 ---
 
 
 #### Structure</h4>
-  <img  src="../../media/general-images/general-3/structure.png" alt="structure">
+  <img  src="/new/media/general-images/general-3/structure.png" alt="structure">
 
 ---
 
@@ -272,7 +272,7 @@
 ---
 
 
-  <img src="../../media/general-images/general-3/structure2.png" alt="structure2">
+  <img src="/new/media/general-images/general-3/structure2.png" alt="structure2">
 
 ---
 
@@ -292,7 +292,7 @@
 
 
 #### Current state</h4>
-  <img style="height: 400px" src="../../media/general-images/general-3/git1.png" alt="git1">
+  <img style="height: 400px" src="/new/media/general-images/general-3/git1.png" alt="git1">
 
 ---
 
@@ -316,7 +316,7 @@
 
 
 #### Current state</h4>
-  <img style="height: 400px" src="../../media/general-images/general-3/git2.png" alt="git2">
+  <img style="height: 400px" src="/new/media/general-images/general-3/git2.png" alt="git2">
 
 ---
 
@@ -332,7 +332,7 @@
 
 
 #### Current state</h4>
-  <img style="height: 400px" src="../../media/general-images/general-3/git3.png" alt="git3">
+  <img style="height: 400px" src="/new/media/general-images/general-3/git3.png" alt="git3">
 
 ---
 
@@ -353,7 +353,7 @@
 
 
 #### Current state</h4>
-  <img style="height: 400px" src="../../media/general-images/general-3/git4.png" alt="git4">
+  <img style="height: 400px" src="/new/media/general-images/general-3/git4.png" alt="git4">
 
 ---
 
@@ -371,7 +371,7 @@
 
 
 #### Current state</h4>
-  <img style="height: 400px" src="../../media/general-images/general-3/git5.png" alt="git5">
+  <img style="height: 400px" src="/new/media/general-images/general-3/git5.png" alt="git5">
 
 ---
 
@@ -387,7 +387,7 @@
 
 
 #### Current state</h4>
-  <img style="height: 400px" src="../../media/general-images/general-3/git4.png" alt="git4">
+  <img style="height: 400px" src="/new/media/general-images/general-3/git4.png" alt="git4">
 
 ---
 
@@ -407,7 +407,7 @@
 
 
 #### Current state</h4>
-  <img style="height: 400px" src="../../media/general-images/general-3/git6.png" alt="git6">
+  <img style="height: 400px" src="/new/media/general-images/general-3/git6.png" alt="git6">
 
 ---
 
@@ -423,7 +423,7 @@
 
 
 #### Current state</h4>
-  <img style="height: 400px" src="../../media/general-images/general-3/git7.png" alt="git7">
+  <img style="height: 400px" src="/new/media/general-images/general-3/git7.png" alt="git7">
 
 ---
 
@@ -442,7 +442,7 @@
 
 
 #### Current state</h4>
-  <img style="height: 400px" src="../../media/general-images/general-3/git8.png" alt="git8">
+  <img style="height: 400px" src="/new/media/general-images/general-3/git8.png" alt="git8">
 
 ---
 
@@ -462,7 +462,7 @@
 
 
 #### Current state</h4>
-  <img style="height: 400px" src="../../media/general-images/general-3/git7.png" alt="git7">
+  <img style="height: 400px" src="/new/media/general-images/general-3/git7.png" alt="git7">
 
 ---
 
@@ -480,7 +480,7 @@
 
 
 #### Current state</h4>
-  <img style="height: 400px" src="../../media/general-images/general-3/git9.png" alt="git9">
+  <img style="height: 400px" src="/new/media/general-images/general-3/git9.png" alt="git9">
 
 ---
 
@@ -498,7 +498,7 @@
 
 
 #### Current state</h4>
-  <img style="height: 400px" src="../../media/general-images/general-3/git9.png" alt="git9">
+  <img style="height: 400px" src="/new/media/general-images/general-3/git9.png" alt="git9">
 
 ---
 
@@ -518,7 +518,7 @@
   
   
   #### Current state</h4>
-    <img style="height: 400px" src="../../media/general-images/general-3/git10.png" alt="git10">
+    <img style="height: 400px" src="/new/media/general-images/general-3/git10.png" alt="git10">
   ---
 
           <section data-markdown>
@@ -533,7 +533,7 @@
   
   
   #### Current state</h4>
-    <img style="height: 400px" src="../../media/general-images/general-3/git11.png" alt="git11">
+    <img style="height: 400px" src="/new/media/general-images/general-3/git11.png" alt="git11">
   ---
 
           <section data-markdown>
@@ -548,7 +548,7 @@
   
   
   #### Current state</h4>
-    <img style="height: 400px" src="../../media/general-images/general-3/git12.png" alt="git12">
+    <img style="height: 400px" src="/new/media/general-images/general-3/git12.png" alt="git12">
   ---
         
           <section data-markdown>
@@ -563,7 +563,7 @@
   
   
   #### Current state</h4>
-    <img style="height: 400px" src="../../media/general-images/general-3/git13.png" alt="git13">
+    <img style="height: 400px" src="/new/media/general-images/general-3/git13.png" alt="git13">
   ---
 
           <section data-markdown>
@@ -589,7 +589,7 @@
 
   
   #### Check github and make a pull request</h4>
-    <img src="../../media/general-images/general-3/git14.png" alt="git14">
+    <img src="/new/media/general-images/general-3/git14.png" alt="git14">
 
   ---
 

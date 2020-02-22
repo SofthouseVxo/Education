@@ -80,7 +80,7 @@
 
 
 #### Directory structure example</h4>
-  <img  src="../../media/html-css-images/html-css-5/folder2.png" alt="folder structure">
+  <img  src="/new/media/html-css-images/html-css-5/folder2.png" alt="folder structure">
 
 ---
 
