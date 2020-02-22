@@ -1,16 +1,19 @@
 ### 1. Angular
-##### Introduction
+### Introduction
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 ---
+### Go through syllabus
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
-#### Go through syllabus
-
-----
-
-#### Course Literature
-
+---
+### Course Literature
 * Slides.
 * <a href="https://angular.io/docs" target="_blank">Documentation</a>.
 * Other online resources.
-
-
