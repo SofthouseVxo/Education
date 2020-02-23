@@ -1,13 +1,9 @@
-### 5. React</h3>
-##### JSX - Syntax extension to JavaScript</h5>
---
-
-
-
+### 5. React
+#### JSX - Syntax extension to JavaScript
 
 ---
 
-#### React recommends using JSX but it's not required.</h4>
+#### React recommends using JSX but it's not required.
 
 ---
 
