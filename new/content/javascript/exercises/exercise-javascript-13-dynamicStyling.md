@@ -33,5 +33,5 @@
 
 * Skapa nedan bild dynamiskt på er sida, dvs inget av elementen skall finnas i er HTML-kod innan ert script körs.
 
-<img src="/new/media/exercises-images/jumbo.png" alt="jumbo image">
+<img src="/media/exercises-images/jumbo.png" alt="jumbo image">
 

@@ -35,17 +35,17 @@
 ---
 
 #### CSS Example
-<img src="/new/media/html-css-images/html-css-5/box.png" alt="div with styles">
+<img src="/media/html-css-images/html-css-5/box.png" alt="div with styles">
 
 ---
 
 #### Web page with CSS
-<img src="/new/media/html-css-images/html-css-5/withCSS.png" alt="web page with css">
+<img src="/media/html-css-images/html-css-5/withCSS.png" alt="web page with css">
 
 ---
 
 #### Web page without CSS
-<img src="/new/media/html-css-images/html-css-5/withoutCSS.png" alt="web page without css">
+<img src="/media/html-css-images/html-css-5/withoutCSS.png" alt="web page without css">
 
 ---
 
@@ -115,7 +115,7 @@ p {
 
 #### Invisible box around every element
 * Every element has an invisible box around them.
-<img src="/new/media/html-css-images/html-css-5/invisBox.png" alt="invisible element boxes">
+<img src="/media/html-css-images/html-css-5/invisBox.png" alt="invisible element boxes">
 
 ---
 
@@ -127,7 +127,7 @@ p {
 ---
 
 #### Block and Inline elements
-<img src="/new/media/html-css-images/html-css-5/inline.png" alt="inline & block elements">
+<img src="/media/html-css-images/html-css-5/inline.png" alt="inline & block elements">
 
 ---
 

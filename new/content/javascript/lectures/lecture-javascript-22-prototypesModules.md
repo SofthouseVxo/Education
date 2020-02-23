@@ -145,31 +145,31 @@ mySister.eat(); // 'Im eating!'
 ---
 
 #### Prototype chain
-<img style="width: 800px;" src="/new/media/javascript-images/javascript-22/proto1.png" alt="prototype chain">
+<img style="width: 800px;" src="/media/javascript-images/javascript-22/proto1.png" alt="prototype chain">
 
 ---
 #### Prototype chain
-<img style="width: 800px;" src="/new/media/javascript-images/javascript-22/proto2.png" alt="prototype chain">
+<img style="width: 800px;" src="/media/javascript-images/javascript-22/proto2.png" alt="prototype chain">
 
 ---
 #### Prototype chain
-<img style="width: 800px;" src="/new/media/javascript-images/javascript-22/proto3.png" alt="prototype chain">
+<img style="width: 800px;" src="/media/javascript-images/javascript-22/proto3.png" alt="prototype chain">
 
 ---
 #### Prototype chain
-<img style="width: 800px;" src="/new/media/javascript-images/javascript-22/proto4.png" alt="prototype chain">
+<img style="width: 800px;" src="/media/javascript-images/javascript-22/proto4.png" alt="prototype chain">
 
 ---
 #### Prototype chain
-<img style="width: 800px;" src="/new/media/javascript-images/javascript-22/proto5.png" alt="prototype chain">
+<img style="width: 800px;" src="/media/javascript-images/javascript-22/proto5.png" alt="prototype chain">
 
 ---
 #### Prototype chain
-<img style="width: 800px;" src="/new/media/javascript-images/javascript-22/proto6.png" alt="prototype chain">
+<img style="width: 800px;" src="/media/javascript-images/javascript-22/proto6.png" alt="prototype chain">
 
 ---
 #### Prototype chain
-<img style="width: 800px;" src="/new/media/javascript-images/javascript-22/proto7.png" alt="prototype chain">
+<img style="width: 800px;" src="/media/javascript-images/javascript-22/proto7.png" alt="prototype chain">
 
 ---
 

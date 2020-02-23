@@ -5,27 +5,27 @@
 ---
 
 #### Struktur
-<img src="/new/media/ux-images/ux-6/structure.png" alt="Structure plane">
+<img src="/media/ux-images/ux-6/structure.png" alt="Structure plane">
 
 ---
 
 #### Flöde - hur användaren kan röra sig i applikationen
-<img src="/new/media/ux-images/ux-6/flow.png" alt="User flow">
+<img src="/media/ux-images/ux-6/flow.png" alt="User flow">
 
 ---
 
 #### Vilka skärmar består applikationen av?
-<img src="/new/media/ux-images/ux-6/screens.png" alt="Application screens">
+<img src="/media/ux-images/ux-6/screens.png" alt="Application screens">
 
 ---
 
 #### Skelettet
-<img src="/new/media/ux-images/ux-6/skeleton.png" alt="Skeleton plane">
+<img src="/media/ux-images/ux-6/skeleton.png" alt="Skeleton plane">
 
 ---
 
 #### Process
-<img src="/new/media/ux-images/ux-6/iterativ-proto.png" alt="Skeleton plane">
+<img src="/media/ux-images/ux-6/iterativ-proto.png" alt="Skeleton plane">
 
 ---
 
@@ -40,7 +40,7 @@
 ---
 
 #### Ytan
-<img src="/new/media/ux-images/ux-6/surface.png" alt="Surface plane">
+<img src="/media/ux-images/ux-6/surface.png" alt="Surface plane">
 
 ---
 
@@ -81,8 +81,8 @@
 ---
 
 #### Pappersprototyper
-<img style="width: 500px;" src="/new/media/ux-images/ux-6/paper1.jpg" alt="Paper prototype">
-<img style="width: 250px;" src="/new/media/ux-images/ux-6/paper2.jpg" alt="Paper prototype">
+<img style="width: 500px;" src="/media/ux-images/ux-6/paper1.jpg" alt="Paper prototype">
+<img style="width: 250px;" src="/media/ux-images/ux-6/paper2.jpg" alt="Paper prototype">
 
 ---
 
@@ -109,7 +109,7 @@
 ---
 
 #### Wireframes vs Prototyper
-<img src="/new/media/ux-images/ux-6/wireproto.png" alt="Wireframe vs Prototypes">
+<img src="/media/ux-images/ux-6/wireproto.png" alt="Wireframe vs Prototypes">
 
 ---
 

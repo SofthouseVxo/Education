@@ -112,7 +112,7 @@
   
 
 #### MVC
-<img style="width: 800px;" src="/new/media/mvc.png" alt="mvc overview">
+<img style="width: 800px;" src="/media/mvc.png" alt="mvc overview">
   
 ---
   
@@ -217,7 +217,7 @@ $ npm i typescript --save-dev // installs typescript and since typescript is onl
 ---
 
 #### Semantic versioning
-<img src="/new/media/angular-images/angular-2/semantic.png" alt="semantic versioning">
+<img src="/media/angular-images/angular-2/semantic.png" alt="semantic versioning">
 
 ---
   

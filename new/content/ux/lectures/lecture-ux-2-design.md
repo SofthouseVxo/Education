@@ -60,7 +60,7 @@ Fokuserar på hur produkten skall fungera. Att produktens gränssnitt skapar de 
 ---
 
 #### Vattenfallsmetoden
-<img style="width: 700px;" src="/new/media/ux-images/ux-2/vattenfall.png" alt="waterfall">
+<img style="width: 700px;" src="/media/ux-images/ux-2/vattenfall.png" alt="waterfall">
 
 ---
 
@@ -105,7 +105,7 @@ Fokuserar på hur produkten skall fungera. Att produktens gränssnitt skapar de 
 ---
 
 #### Iterativ process
-<img src="/new/media/ux-images/ux-2/iterativ.png" alt="iterative process">
+<img src="/media/ux-images/ux-2/iterativ.png" alt="iterative process">
 
 ---
 

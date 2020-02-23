@@ -203,7 +203,7 @@
 ---
 
 #### File structure</h4>
-<img  src="/new/media/html-css-images/html-css-4/folder.png" alt="files structure">
+<img  src="/media/html-css-images/html-css-4/folder.png" alt="files structure">
 
 ---
 
@@ -257,7 +257,7 @@ The target attribute specifies where to open the linked document.
 ---
 
 #### Rows and Columns
-<img src="/new/media/html-css-images/html-css-4/table2.png" alt="table structure">
+<img src="/media/html-css-images/html-css-4/table2.png" alt="table structure">
 
 ---
 
@@ -310,7 +310,7 @@ The target attribute specifies where to open the linked document.
 ---
 
 #### colspan & rowspan</h4>
-<img  src="/new/media/html-css-images/html-css-4/table.png" alt="rowspan and colspan">
+<img  src="/media/html-css-images/html-css-4/table.png" alt="rowspan and colspan">
 
 ---
 

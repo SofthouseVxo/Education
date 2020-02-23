@@ -12,20 +12,20 @@
 ---
 
 #### Rastergrafik exempel
-<img style="width: 400px;"src="/new/media/ux-images/ux-8/ocean.jpeg" alt="Raster image">
-<img style="width: 500px;"src="/new/media/ux-images/ux-8/pixels.png" alt="Pixels image">
+<img style="width: 400px;"src="/media/ux-images/ux-8/ocean.jpeg" alt="Raster image">
+<img style="width: 500px;"src="/media/ux-images/ux-8/pixels.png" alt="Pixels image">
 
 ---
 
 #### Vectorgrafik
-<img style="width: 400px;" src="/new/media/ux-images/ux-8/vector2.png" alt="Vector image">
+<img style="width: 400px;" src="/media/ux-images/ux-8/vector2.png" alt="Vector image">
 
 ---
 				
 
 #### Vektorgrafik exempel
-<img style="width: 500px;"src="/new/media/ux-images/ux-8/vector.png" alt="Vector image">
-<img style="width: 400px;"src="/new/media/ux-images/ux-8/vector4.png" alt="Vector image">
+<img style="width: 500px;"src="/media/ux-images/ux-8/vector.png" alt="Vector image">
+<img style="width: 400px;"src="/media/ux-images/ux-8/vector4.png" alt="Vector image">
 
 ---
 
@@ -82,8 +82,8 @@ Bildfilformat är standardiserade sätt att organisera och lagra digitala bilder
 ---
 
 #### .SVG exempel
-<img style="width: 800px;"src="/new/media/ux-images/ux-8/code.png" alt="SVG code">
-<img style="width: 100px;"src="/new/media/ux-images/ux-8/vector3.png" alt="Vector image">
+<img style="width: 800px;"src="/media/ux-images/ux-8/code.png" alt="SVG code">
+<img style="width: 100px;"src="/media/ux-images/ux-8/vector3.png" alt="Vector image">
 
 ---
 
@@ -92,7 +92,7 @@ Bildfilformat är standardiserade sätt att organisera och lagra digitala bilder
 * **PPI** Pixels per inch - används för skärmar.
 * **DPI** Dots per inch - används vid tryck.
 
-<img style="width: 700px;"src="/new/media/ux-images/ux-8/ppi.png" alt="ppi example">
+<img style="width: 700px;"src="/media/ux-images/ux-8/ppi.png" alt="ppi example">
 
 ---
 
@@ -106,8 +106,8 @@ Bildfilformat är standardiserade sätt att organisera och lagra digitala bilder
 ---
 
 #### Färger - RGB & CMYK
-<img style="width: 400px;"src="/new/media/ux-images/ux-8/rgb.jpg" alt="rgb example">
-<img style="width: 400px;"src="/new/media/ux-images/ux-8/cmyk.png" alt="cmyk example">
+<img style="width: 400px;"src="/media/ux-images/ux-8/rgb.jpg" alt="rgb example">
+<img style="width: 400px;"src="/media/ux-images/ux-8/cmyk.png" alt="cmyk example">
 
 ---
 

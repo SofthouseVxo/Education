@@ -334,7 +334,7 @@ console.log(typeof myValue);
 * Callstacks.
 * etc.
 
-<img style="width: 600px; margin-left: 20px;" src="/new/media/javascript-images/javascript-3/debug.png" alt="debugger">
+<img style="width: 600px; margin-left: 20px;" src="/media/javascript-images/javascript-3/debug.png" alt="debugger">
 
 ---
 

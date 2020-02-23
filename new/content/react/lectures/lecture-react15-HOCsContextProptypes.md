@@ -119,7 +119,7 @@ render() {
 ---
 
 #### Context
-<img style="width: 800px;" src="/new/media/react-images/react-15/context.png" alt="context">
+<img style="width: 800px;" src="/media/react-images/react-15/context.png" alt="context">
 
 ---
 

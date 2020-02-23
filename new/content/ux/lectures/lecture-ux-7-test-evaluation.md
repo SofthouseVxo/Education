@@ -8,7 +8,7 @@
 ---
 
 #### Process - testa
-<img src="/new/media/ux-images/ux-7/iterativ-test.png" alt="Process testing">
+<img src="/media/ux-images/ux-7/iterativ-test.png" alt="Process testing">
 
 ---
 
@@ -193,7 +193,7 @@
 ---
 
 #### Process - Utvärdera
-<img src="/new/media/ux-images/ux-7/iterativ-eval.png" alt="Process evaluation">
+<img src="/media/ux-images/ux-7/iterativ-eval.png" alt="Process evaluation">
 
 ---
 
@@ -216,5 +216,5 @@
 ---
 
 #### Antal testanvändare - Användbarhetstesting(usability)
-<img src="/new/media/ux-images/ux-7/nr-of-users.png" alt="Number of users, usability testing">
+<img src="/media/ux-images/ux-7/nr-of-users.png" alt="Number of users, usability testing">
 <a href="https://www.nngroup.com/articles/which-ux-research-methods/">Nielsen (NN-group)</a>

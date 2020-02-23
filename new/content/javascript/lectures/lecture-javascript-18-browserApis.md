@@ -129,7 +129,7 @@ sessionStorage.clear();
 
 #### Inspecting Storage in chrome
 
-<img style="margin-top: 0px;" src="/new/media/javascript-images/javascript-18/storage.png" alt="inspecting storage">
+<img style="margin-top: 0px;" src="/media/javascript-images/javascript-18/storage.png" alt="inspecting storage">
 
 ---
 

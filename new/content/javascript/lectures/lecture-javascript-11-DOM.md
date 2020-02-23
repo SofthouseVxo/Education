@@ -18,7 +18,7 @@
 ---
 
 #### Global JavaScript Objects
-<img style="margin-top: 0px; width: 600px;" src="/new/media/javascript-images/javascript-11/JSGlobalObjects.png" alt="Global JS Objects">
+<img style="margin-top: 0px; width: 600px;" src="/media/javascript-images/javascript-11/JSGlobalObjects.png" alt="Global JS Objects">
 
 ---
 #### Global JavaScript Objects
@@ -35,12 +35,12 @@ Math.floor(Math.random() * 10); // returns a random number from 0 to 9
 ---
 
 #### Browser Object Model(BOM)
-<img style="margin-top: 0px; width: 600px;" src="/new/media/javascript-images/javascript-11/bom.png" alt="Browser Object Model">
+<img style="margin-top: 0px; width: 600px;" src="/media/javascript-images/javascript-11/bom.png" alt="Browser Object Model">
 
 ---
 
 #### window object example (BOM)
-<img style="margin-top: 0px; width: 800px;" src="/new/media/javascript-images/javascript-11/window.png" alt="dom - window">
+<img style="margin-top: 0px; width: 800px;" src="/media/javascript-images/javascript-11/window.png" alt="dom - window">
 
 ---
 #### Browser Object Model(BOM)
@@ -52,14 +52,14 @@ window.screen.width // 1200 or however wide the inner browser window is
 
 ---
 #### window.location (BOM)
-<img style="margin-top: 0px; width: 800px;" src="/new/media/javascript-images/javascript-11/location.png" alt="dom - window - location">
+<img style="margin-top: 0px; width: 800px;" src="/media/javascript-images/javascript-11/location.png" alt="dom - window - location">
 
 ---
 #### The document <b>Object</b> Model(DOM)
 
 * The current webpage loaded into each window is modelled using a <b>document</b> object.
 * The Document Object Model works like a bridge between logic (JavaScript) and Design (HTML)
-<img style="margin-top: 0px; width: 700px;" src="/new/media/javascript-images/javascript-11/document.png" alt="dom - document">
+<img style="margin-top: 0px; width: 700px;" src="/media/javascript-images/javascript-11/document.png" alt="dom - document">
 
 ---
 
@@ -95,7 +95,7 @@ window.screen.width // 1200 or however wide the inner browser window is
 ---
 
 #### DOM/Node tree
-<img style="margin-top: 0px;" src="/new/media/javascript-images/javascript-11/domtree.png" alt="dom - object model">
+<img style="margin-top: 0px;" src="/media/javascript-images/javascript-11/domtree.png" alt="dom - object model">
 
 ---
 
@@ -109,7 +109,7 @@ window.screen.width // 1200 or however wide the inner browser window is
 <h1 id="myHeader">Welcome to my site</h1>
 ```
 
-<img style="margin-top: -20px;" src="/new/media/javascript-images/javascript-11/element.png" alt="dom - element node">
+<img style="margin-top: -20px;" src="/media/javascript-images/javascript-11/element.png" alt="dom - element node">
 
 ---
 #### The DOM defines:

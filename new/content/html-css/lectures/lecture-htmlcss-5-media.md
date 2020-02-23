@@ -4,7 +4,7 @@
 ---
 
 #### Directory structure example
-<img  src="/new/media/html-css-images/html-css-5/folder2.png" alt="folder structure">
+<img  src="/media/html-css-images/html-css-5/folder2.png" alt="folder structure">
 
 ---
 

@@ -29,7 +29,7 @@
 ---
 
 #### <a href="https://getbootstrap.com/docs/4.3/getting-started/contents/" target="_blank">Bootstrap</a> consists of:
-<img style="width: 800px;" src="/new/media/html-css-images/html-css-15/contents.png" alt="bootstrap contents">
+<img style="width: 800px;" src="/media/html-css-images/html-css-15/contents.png" alt="bootstrap contents">
 
 ---
 

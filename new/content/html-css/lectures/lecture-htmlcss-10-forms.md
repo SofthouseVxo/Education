@@ -20,7 +20,7 @@
 ---
 
 ### HTML Forms
-<img  src="/new/media/html-css-images/html-css-10/form.png" alt="How a HTML form is sent">
+<img  src="/media/html-css-images/html-css-10/form.png" alt="How a HTML form is sent">
 
 ---
 

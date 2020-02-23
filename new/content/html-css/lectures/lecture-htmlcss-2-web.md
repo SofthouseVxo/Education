@@ -8,7 +8,7 @@
 * A computer network is basically computers communicating (sending text, files).
 * The most basic computer network is two desktop computers connected via cable.
 
-<img style="width: 600px;" src="/new/media/html-css-images/html-css-2/basic2.png" alt="client server communication">
+<img style="width: 600px;" src="/media/html-css-images/html-css-2/basic2.png" alt="client server communication">
 
 ---
 
@@ -18,12 +18,12 @@
 * A set of rules or guidelines for how computers communicate (sending data).
 * Examples are: TCP/IP, HTTP, HTTPS, FTP.
 	
-<img style="width: 600px;" src="/new/media/html-css-images/html-css-2/basic.png" alt="client server communication">
+<img style="width: 600px;" src="/media/html-css-images/html-css-2/basic.png" alt="client server communication">
 
 ---
 
 #### Local network
-<img style="width: 600px;" src="/new/media/html-css-images/html-css-2/local.png" alt="client server communication">
+<img style="width: 600px;" src="/media/html-css-images/html-css-2/local.png" alt="client server communication">
 
 ---
 
@@ -32,7 +32,7 @@
 * The internet is a global system of interconnected computer networks.
 * It uses the Internet protocol suite (TCP/IP).
 
-<img style="width: 600px;" src="/new/media/html-css-images/html-css-2/internet.png" alt="client server communication">
+<img style="width: 600px;" src="/media/html-css-images/html-css-2/internet.png" alt="client server communication">
 
 ---
 
@@ -53,12 +53,12 @@
 * It could be on a Desktop computer, tablet, phone etc.
 
 
-<img style="width: 600px;"  src="/new/media/html-css-images/html-css-2/client.png" alt="client server communication">
+<img style="width: 600px;"  src="/media/html-css-images/html-css-2/client.png" alt="client server communication">
 
 ---
 
 #### IP adresses
-<img style="width: 600px;" src="/new/media/html-css-images/html-css-2/ip.png" alt="client server communication">
+<img style="width: 600px;" src="/media/html-css-images/html-css-2/ip.png" alt="client server communication">
 
 ---
 
@@ -76,7 +76,7 @@
 ---
 
 #### Domain Name System DNS
-<img style="width: 600px;" src="/new/media/html-css-images/html-css-2/dns.png" alt="client server communication">
+<img style="width: 600px;" src="/media/html-css-images/html-css-2/dns.png" alt="client server communication">
 
 ---
 
@@ -94,7 +94,7 @@
 $ traceroute www.google.se
 ```
 
-<img style="width: 600px;" src="/new/media/html-css-images/html-css-2/routers.png" alt="client server communication">
+<img style="width: 600px;" src="/media/html-css-images/html-css-2/routers.png" alt="client server communication">
 
 ---
 
@@ -123,7 +123,7 @@ $ traceroute www.google.se
 * Every web page has its own URL.
 * A URL can also be used to locate a file on the computer
 
-<img style="width: 700px;" src="/new/media/html-css-images/html-css-2/url.png" alt="client server communication">
+<img style="width: 700px;" src="/media/html-css-images/html-css-2/url.png" alt="client server communication">
 
 ---
 
@@ -131,7 +131,7 @@ $ traceroute www.google.se
 
 * Will display the local file path (the path to the file on your computer
 
-<img src="/new/media/html-css-images/html-css-2/localFilepath.png" alt="local filepath">
+<img src="/media/html-css-images/html-css-2/localFilepath.png" alt="local filepath">
 
 ---
 

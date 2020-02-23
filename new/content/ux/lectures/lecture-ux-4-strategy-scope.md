@@ -4,12 +4,12 @@
 ---
 
 #### Strategi
-<img src="/new/media/ux-images/ux-4/strategi.png" alt="Strategy plane">
+<img src="/media/ux-images/ux-4/strategi.png" alt="Strategy plane">
 
 ---
 
 #### Process
-<img src="/new/media/ux-images/ux-4/iterativ-strat.png" alt="Strategy iterative process">
+<img src="/media/ux-images/ux-4/iterativ-strat.png" alt="Strategy iterative process">
 
 ---
 
@@ -132,12 +132,12 @@ Vilket syfte skall min applikation fylla?
 ---
 
 #### Abraham Maslows Behovshierarki
-<img style="width: 800px;" src="/new/media/ux-images/ux-4/needs.png" alt="needs">
+<img style="width: 800px;" src="/media/ux-images/ux-4/needs.png" alt="needs">
 
 ---
 
 #### Scope(omfattning)
-<img src="/new/media/ux-images/ux-4/scope.png" alt="Scope plane">
+<img src="/media/ux-images/ux-4/scope.png" alt="Scope plane">
 
 ---
 

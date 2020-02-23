@@ -47,7 +47,7 @@ How would you do this with vanilla JS?
 
 #### jQuery source code
 
-<img style="margin-top: 0px;" src="/new/media/javascript-images/javascript-16/jquery.png" alt="jquery source code">
+<img style="margin-top: 0px;" src="/media/javascript-images/javascript-16/jquery.png" alt="jquery source code">
 
 ---
 

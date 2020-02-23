@@ -21,12 +21,12 @@
 ---
 
 #### Image example
-<img src="/new/media/react-images/react-9/folders.png" alt="in folders">
+<img src="/media/react-images/react-9/folders.png" alt="in folders">
 
 ---
 
 #### In code
-<img src="/new/media/react-images/react-9/code.png" alt="in code">
+<img src="/media/react-images/react-9/code.png" alt="in code">
 
 ---
 
@@ -60,7 +60,7 @@
 
 ---
 
-<img src="/new/media/react-images/react-9/css.png" alt="in folders">
+<img src="/media/react-images/react-9/css.png" alt="in folders">
 
 ---
 

@@ -4,7 +4,7 @@
 ---
 
 #### The box Model
-<img width="700" src="/new/media/html-css-images/html-css-7/marginpadding.png" alt="CSS margins and paddings">
+<img width="700" src="/media/html-css-images/html-css-7/marginpadding.png" alt="CSS margins and paddings">
 
 ---
 

@@ -7,7 +7,7 @@
 
 * A layout is a way in which the parts of something are arranged or laid out.
 
-<img style="max-width: 700px" src="/new/media/html-css-images/html-css-8/layouts.png" alt="different types of layouts">
+<img style="max-width: 700px" src="/media/html-css-images/html-css-8/layouts.png" alt="different types of layouts">
 
 ---
 

@@ -49,7 +49,7 @@
 ---
 
 #### AJAX flow
-<img style="width: 600px;" src="/new/media/javascript-images/javascript-15/ajaxflow.png" alt="AJAX flow">
+<img style="width: 600px;" src="/media/javascript-images/javascript-15/ajaxflow.png" alt="AJAX flow">
 
 ---
 				
@@ -192,22 +192,22 @@ Think of an API like a menu in a restaurant. The menu provides a list of dishes 
 ---
 
 #### Different types of APIs
-<img style="width: 800px" src="/new/media/javascript-images/javascript-15/api1.png" alt="apis">
+<img style="width: 800px" src="/media/javascript-images/javascript-15/api1.png" alt="apis">
 
 ---
 
 #### Different types of APIs
-<img style="height: 500px" src="/new/media/javascript-images/javascript-15/api2.png" alt="apis">
+<img style="height: 500px" src="/media/javascript-images/javascript-15/api2.png" alt="apis">
 
 ---
 
 #### Different types of APIs
-<img style="height: 500px" src="/new/media/javascript-images/javascript-15/api3.png" alt="apis">
+<img style="height: 500px" src="/media/javascript-images/javascript-15/api3.png" alt="apis">
 
 ---
 
 #### Different types of APIs
-<img style="width: 800px" src="/new/media/javascript-images/javascript-15/api4.png" alt="apis">
+<img style="width: 800px" src="/media/javascript-images/javascript-15/api4.png" alt="apis">
 
 ---
 
@@ -246,27 +246,27 @@ Think of an API like a menu in a restaurant. The menu provides a list of dishes 
 ---
 
 #### Client & resource
-<img src="/new/media/javascript-images/javascript-15/cr1.png" alt="rest">
+<img src="/media/javascript-images/javascript-15/cr1.png" alt="rest">
 
 ---
 
 #### Client & Resource & API
-<img src="/new/media/javascript-images/javascript-15/cr2.png" alt="rest">
+<img src="/media/javascript-images/javascript-15/cr2.png" alt="rest">
 
 ---
 
 #### API URI (Uniform Resource Identifier)
-<img src="/new/media/javascript-images/javascript-15/cr3.png" alt="rest">
+<img src="/media/javascript-images/javascript-15/cr3.png" alt="rest">
 
 ---
 
 #### API
-<img src="/new/media/javascript-images/javascript-15/cr4.png" alt="rest">
+<img src="/media/javascript-images/javascript-15/cr4.png" alt="rest">
 
 ---
 
 #### API endpoints
-<img src="/new/media/javascript-images/javascript-15/cr5.png" alt="rest">
+<img src="/media/javascript-images/javascript-15/cr5.png" alt="rest">
 
 ---
 
@@ -306,7 +306,7 @@ Think of an API like a menu in a restaurant. The menu provides a list of dishes 
 
 * Depending on in which system they are used they are called different things.
 
-<img style="width: 600px;" src="/new/media/javascript-images/javascript-15/crud.png" alt="CRUD operations">
+<img style="width: 600px;" src="/media/javascript-images/javascript-15/crud.png" alt="CRUD operations">
 
 ---
 
@@ -331,23 +331,23 @@ Think of an API like a menu in a restaurant. The menu provides a list of dishes 
 ---
 
 #### Network tab
-<img src="/new/media/javascript-images/javascript-15/nw.png" alt="network">
+<img src="/media/javascript-images/javascript-15/nw.png" alt="network">
 
 ---
 #### Network tab
-<img src="/new/media/javascript-images/javascript-15/nw1.png" alt="network">
+<img src="/media/javascript-images/javascript-15/nw1.png" alt="network">
 
 ---
 #### Network tab
-<img src="/new/media/javascript-images/javascript-15/nw2.png" alt="network">
+<img src="/media/javascript-images/javascript-15/nw2.png" alt="network">
 
 ---
 #### Network tab
-<img src="/new/media/javascript-images/javascript-15/nw3.png" alt="network">
+<img src="/media/javascript-images/javascript-15/nw3.png" alt="network">
 
 ---
 #### Network tab
-<img src="/new/media/javascript-images/javascript-15/nw4.png" alt="network">
+<img src="/media/javascript-images/javascript-15/nw4.png" alt="network">
 
 ---
 

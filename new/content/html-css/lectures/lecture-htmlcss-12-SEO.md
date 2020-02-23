@@ -13,7 +13,7 @@
 
 ---
 
-<img src="/new/media/html-css-images/html-css-12/google.png" alt="google search example">
+<img src="/media/html-css-images/html-css-12/google.png" alt="google search example">
 
 ---
 
@@ -195,7 +195,7 @@
 
 #### Sitemap example (XML format)
 
-<img src="/new/media/html-css-images/html-css-12/sitemap.png" alt="sitemap example">
+<img src="/media/html-css-images/html-css-12/sitemap.png" alt="sitemap example">
 <a href="https://www.xml-sitemaps.com/" target="_blank">Sitemap generator</a>
 
 ---
@@ -216,7 +216,7 @@
   * Using keywords
   * Avoid unnecessary words
   
-<img src="/new/media/html-css-images-images/html-css-12/url.png" alt="url structure example">
+<img src="/media/html-css-images-images/html-css-12/url.png" alt="url structure example">
 
 ---
 

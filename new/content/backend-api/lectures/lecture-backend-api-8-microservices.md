@@ -26,7 +26,7 @@ Why are we listening to this, and what is the takeaway:
 <li>Can still run javascript</li>
 </ul>
 
-<img style="position: absolute; top: 50px; right: 50px;" src="/new/media/backend-api-images/backend-api-8/one.png" alt="history">
+<img style="position: absolute; top: 50px; right: 50px;" src="/media/backend-api-images/backend-api-8/one.png" alt="history">
 ---
 
 #### Dynamic HTML with Database
@@ -43,7 +43,7 @@ Why are we listening to this, and what is the takeaway:
 </ul>
 </ul>	
 
-<img style="position: absolute; top: 50px; right: 50px;" src="/new/media/backend-api-images/backend-api-8/two.png" alt="history">
+<img style="position: absolute; top: 50px; right: 50px;" src="/media/backend-api-images/backend-api-8/two.png" alt="history">
 ---
 
 #### Separation of Concerns
@@ -67,7 +67,7 @@ Why are we listening to this, and what is the takeaway:
 </ul>
 </ul>
 
-<img style="position: absolute; top: 50px; right: 30px;" src="/new/media/backend-api-images/backend-api-8/three.png" alt="history">
+<img style="position: absolute; top: 50px; right: 30px;" src="/media/backend-api-images/backend-api-8/three.png" alt="history">
 ---
 
 
@@ -103,7 +103,7 @@ Why are we listening to this, and what is the takeaway:
 </ul>				
 </ul>
 
-<img style="position: absolute; top: 50px; right: 30px;" src="/new/media/backend-api-images/backend-api-8/four.png" alt="history">
+<img style="position: absolute; top: 50px; right: 30px;" src="/media/backend-api-images/backend-api-8/four.png" alt="history">
 ---
 
 
@@ -141,7 +141,7 @@ Why are we listening to this, and what is the takeaway:
 
 #### It’s not Just About Users
 
-<img src="/new/media/backend-api-images/backend-api-8/five.png" alt="history">
+<img src="/media/backend-api-images/backend-api-8/five.png" alt="history">
 ---
 
 #### Service Oriented Architecture (SOA)
@@ -170,7 +170,7 @@ Why are we listening to this, and what is the takeaway:
 
 #### Service Oriented Architecture (SOA)
 
-<img src="/new/media/backend-api-images/backend-api-8/six.png" alt="history">
+<img src="/media/backend-api-images/backend-api-8/six.png" alt="history">
 ---
 
 #### Microservices and Service Discovery
@@ -196,7 +196,7 @@ Why are we listening to this, and what is the takeaway:
 
 #### Microservices and Service Discovery
 
-<img src="/new/media/backend-api-images/backend-api-8/six.png" alt="history">
+<img src="/media/backend-api-images/backend-api-8/six.png" alt="history">
 ---
 
 

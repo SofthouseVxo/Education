@@ -14,7 +14,7 @@
 
 #### What is “Public Cloud”
 It’s globally distributed compute connected via networks.
-<img src="/new/media/backend-api-images/backend-api-12/public.png" alt="public cloud">
+<img src="/media/backend-api-images/backend-api-12/public.png" alt="public cloud">
 ---
 
 #### Public Cloud Providers
@@ -48,7 +48,7 @@ Everything is a cloud nowadays...
 
 #### Managed Services
 Services are available on demand using APIs
-<img src="/new/media/backend-api-images/backend-api-12/services.png" alt="services">
+<img src="/media/backend-api-images/backend-api-12/services.png" alt="services">
 ---
 
 #### On Premises

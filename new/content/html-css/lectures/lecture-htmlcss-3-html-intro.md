@@ -126,7 +126,7 @@
 ---
 
 #### What happens when a webpage runs?
-<img src="/new/media/html-css-images/html-css-3/clientserver.png" alt="client server communication">
+<img src="/media/html-css-images/html-css-3/clientserver.png" alt="client server communication">
 
 ---
 

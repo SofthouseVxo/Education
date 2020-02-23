@@ -7,7 +7,7 @@
 * Course Literature
 
 #### Reading instructions:
-* [Lecture](/new/content/javascript/lectures/lecture-javascript-1-intro.md)
+* [Lecture](/content/javascript/lectures/lecture-javascript-1-intro.md)
 
 ## 
 
@@ -33,8 +33,8 @@
 * <a href="https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/">JIT compilers</a>
 
 #### Links
-* [Exercise](/new/content/javascript/exercises/exercise-javascript-2-scripting.md)
-* [Lecture](/new/content/javascript/lectures/lecture-javascript-2-scripting.md)
+* [Exercise](/content/javascript/exercises/exercise-javascript-2-scripting.md)
+* [Lecture](/content/javascript/lectures/lecture-javascript-2-scripting.md)
 
 ## 
 
@@ -55,8 +55,8 @@
 * <a href="https://www.w3schools.com/js/js_datatypes.asp" target="_blank">W3schools datatypes</a>
 
 #### Links
-* [Exercise](/new/content/javascript/exercises/exercise-javascript-3-variablesDatatypes.md)
-* [Lecture](/new/content/javascript/lectures/lecture-javascript-3-variablesDatatypes.md)
+* [Exercise](/content/javascript/exercises/exercise-javascript-3-variablesDatatypes.md)
+* [Lecture](/content/javascript/lectures/lecture-javascript-3-variablesDatatypes.md)
 
 ## 
 
@@ -77,8 +77,8 @@
 * <a href="https://codeburst.io/javascript-increment-and-decrement-8c223858d5ed" target="_blank">Increment & decrement</a>        
 
 #### Links
-* [Exercise](/new/content/javascript/exercises/exercise-javascript-4-arraysOperators.md)
-* [Lecture](/new/content/javascript/lectures/lecture-javascript-4-arraysOperators.md)
+* [Exercise](/content/javascript/exercises/exercise-javascript-4-arraysOperators.md)
+* [Lecture](/content/javascript/lectures/lecture-javascript-4-arraysOperators.md)
 
 ## 
 
@@ -96,8 +96,8 @@
 * JavaScript & jQuery Book - Chapter 3 (p.86 - 97)
 
 #### Links
-* [Exercise](/new/content/javascript/exercises/exercise-javascript-5-functions.md)
-* [Lecture](/new/content/javascript/lectures/lecture-javascript-5-functions.md)
+* [Exercise](/content/javascript/exercises/exercise-javascript-5-functions.md)
+* [Lecture](/content/javascript/lectures/lecture-javascript-5-functions.md)
 
 ## 
 
@@ -114,8 +114,8 @@
 * JavaScript & jQuery Book - Chapter 3 (p.98 - 99)
 
 #### Links
-* [Exercise](/new/content/javascript/exercises/exercise-javascript-6-scopes.md)
-* [Lecture](/new/content/javascript/lectures/lecture-javascript-6-scopes.md)
+* [Exercise](/content/javascript/exercises/exercise-javascript-6-scopes.md)
+* [Lecture](/content/javascript/lectures/lecture-javascript-6-scopes.md)
 
 ## 
 
@@ -139,8 +139,8 @@
 * <a href="https://www.w3schools.com/jsref/jsref_try_catch.asp">Try Catch Finally - w3schools</a>
 
 #### Links
-* [Exercise](/new/content/javascript/exercises/exercise-javascript-7-decisions.md)
-* [Lecture](/new/content/javascript/lectures/lecture-javascript-7-decisions.md)
+* [Exercise](/content/javascript/exercises/exercise-javascript-7-decisions.md)
+* [Lecture](/content/javascript/lectures/lecture-javascript-7-decisions.md)
 
 ## 
 
@@ -159,8 +159,8 @@
 * <a href="https://www.dofactory.com/tutorial/javascript-loops">Do Factory - JavaScript Loops</a>
 
 #### Links
-* [Exercise](/new/content/javascript/exercises/exercise-javascript-8-loops.md)
-* [Lecture](/new/content/javascript/lectures/lecture-javascript-8-loops.md)
+* [Exercise](/content/javascript/exercises/exercise-javascript-8-loops.md)
+* [Lecture](/content/javascript/lectures/lecture-javascript-8-loops.md)
 
 ## 
 
@@ -179,8 +179,8 @@
 * JavaScript & jQuery Book - Chapter 3 (p.100 - 119)
 
 #### Links
-* [Exercise](/new/content/javascript/exercises/exercise-javascript-9-objects.md)
-* [Lecture](/new/content/javascript/lectures/lecture-javascript-9-objects.md)
+* [Exercise](/content/javascript/exercises/exercise-javascript-9-objects.md)
+* [Lecture](/content/javascript/lectures/lecture-javascript-9-objects.md)
 
 ## 
 
@@ -198,8 +198,8 @@
 * JavaScript & jQuery Book - Chapter 1 (p.114 - 115)
 
 #### Links
-* [Exercise](/new/content/javascript/exercises/exercise-javascript-10-This.md)
-* [Lecture](/new/content/javascript/lectures/lecture-javascript-10-this.md)
+* [Exercise](/content/javascript/exercises/exercise-javascript-10-This.md)
+* [Lecture](/content/javascript/lectures/lecture-javascript-10-this.md)
 
 ## 
 
@@ -220,8 +220,8 @@
 * JavaScript & jQuery Book - Chapter 5 (p.185 - 211)
 
 #### Links
-* [Exercise](/new/content/javascript/exercises/exercise-javascript-11-DOM.md)
-* [Lecture](/new/content/javascript/lectures/lecture-javascript-11-DOM.md)
+* [Exercise](/content/javascript/exercises/exercise-javascript-11-DOM.md)
+* [Lecture](/content/javascript/lectures/lecture-javascript-11-DOM.md)
 
 ## 
 
@@ -239,8 +239,8 @@
 * JavaScript & jQuery Book - Chapter 5 (p.211-231)
 
 #### Links
-* [Exercise](/new/content/javascript/exercises/exercise-javascript-12-dynamicManipulation.md)
-* [Lecture](/new/content/javascript/lectures/lecture-javascript-12-dynamicManipulation.md)
+* [Exercise](/content/javascript/exercises/exercise-javascript-12-dynamicManipulation.md)
+* [Lecture](/content/javascript/lectures/lecture-javascript-12-dynamicManipulation.md)
 
 ## 
 
@@ -256,8 +256,8 @@
 * JavaScript & jQuery Book - Chapter 5 (p.232-243)
 
 #### Links
-* [Exercise](/new/content/javascript/exercises/exercise-javascript-13-dynamicStyling.md)
-* [Lecture](/new/content/javascript/lectures/lecture-javascript-13-dynamicStyling.md)
+* [Exercise](/content/javascript/exercises/exercise-javascript-13-dynamicStyling.md)
+* [Lecture](/content/javascript/lectures/lecture-javascript-13-dynamicStyling.md)
 
 ## 
 
@@ -278,8 +278,8 @@
 * JavaScript & jQuery Book - Chapter 6 (p.232-292)
 
 #### Links
-* [Exercise](/new/content/javascript/exercises/exercise-javascript-14-events.md)
-* [Lecture](/new/content/javascript/lectures/lecture-javascript-14-events.md)
+* [Exercise](/content/javascript/exercises/exercise-javascript-14-events.md)
+* [Lecture](/content/javascript/lectures/lecture-javascript-14-events.md)
 
 ## 
 
@@ -304,8 +304,8 @@
 * <a href="https://restfulapi.net/rest-architectural-constraints/" target="_blank">REST Architectural Constraints</a>
 
 #### Links
-* [Exercise](/new/content/javascript/exercises/exercise-javascript-15-ajaxRest.md)
-* [Lecture](/new/content/javascript/lectures/lecture-javascript-15-ajaxRest.md)
+* [Exercise](/content/javascript/exercises/exercise-javascript-15-ajaxRest.md)
+* [Lecture](/content/javascript/lectures/lecture-javascript-15-ajaxRest.md)
 
 ## 
 
@@ -327,8 +327,8 @@
 * <a href="https://api.jquery.com/" target="_blank">jQuery Documentation</a>
 
 #### Links
-* [Exercise](/new/content/javascript/exercises/exercise-javascript-16-jQuery.md)
-* [Lecture](/new/content/javascript/lectures/lecture-javascript-16-jQuery.md)
+* [Exercise](/content/javascript/exercises/exercise-javascript-16-jQuery.md)
+* [Lecture](/content/javascript/lectures/lecture-javascript-16-jQuery.md)
 
 ## 
 
@@ -349,8 +349,8 @@
 * JavaScript & jQuery Book - Chapter 13 (p.567-629)
 
 #### Links
-* [Exercise](/new/content/javascript/exercises/exercise-javascript-17-forms.md)
-* [Lecture](/new/content/javascript/lectures/lecture-javascript-17-forms.md)
+* [Exercise](/content/javascript/exercises/exercise-javascript-17-forms.md)
+* [Lecture](/content/javascript/lectures/lecture-javascript-17-forms.md)
 
 ## 
 
@@ -368,8 +368,8 @@
 * JavaScript & jQuery Book - Chapter 9 (p.409 - 427)
 
 #### Links
-* [Exercise](/new/content/javascript/exercises/exercise-javascript-18-browserApis.md)
-* [Lecture](/new/content/javascript/lectures/lecture-javascript-18-browserApis.md)
+* [Exercise](/content/javascript/exercises/exercise-javascript-18-browserApis.md)
+* [Lecture](/content/javascript/lectures/lecture-javascript-18-browserApis.md)
 
 ## 
 
@@ -393,8 +393,8 @@
 * JavaScript & jQuery Book - Chapter 12 (p.529 - 541)
 
 #### Links
-* [Exercise](/new/content/javascript/exercises/exercise-javascript-19-usefulMethods.md)
-* [Lecture](/new/content/javascript/lectures/lecture-javascript-19-usefulMethods.md)
+* [Exercise](/content/javascript/exercises/exercise-javascript-19-usefulMethods.md)
+* [Lecture](/content/javascript/lectures/lecture-javascript-19-usefulMethods.md)
 
 ## 
 
@@ -415,8 +415,8 @@
 * <a href="https://www.youtube.com/watch?v=pTB0EiLXUC8" target="_blank">OOP in 7min with Mosh</a>
 
 #### Links
-* [Exercise](/new/content/javascript/exercises/exercise-javascript-20-classes.md)
-* [Lecture](/new/content/javascript/lectures/lecture-javascript-20-classes.md)
+* [Exercise](/content/javascript/exercises/exercise-javascript-20-classes.md)
+* [Lecture](/content/javascript/lectures/lecture-javascript-20-classes.md)
 
 ## 
 
@@ -434,8 +434,8 @@
 * <a href="https://javascript.info/async-await" target="_blank">Async & Await</a>
 
 #### Links
-* [Exercise](/new/content/javascript/exercises/exercise-javascript-21-fetchPromises.md)
-* [Lecture](/new/content/javascript/lectures/lecture-javascript-21-fetchPromises.md)
+* [Exercise](/content/javascript/exercises/exercise-javascript-21-fetchPromises.md)
+* [Lecture](/content/javascript/lectures/lecture-javascript-21-fetchPromises.md)
 
 ## 
 
@@ -453,8 +453,8 @@
 * <a href="https://javascript.info/modules-intro" target="_blank">Modules
 
 #### Links
-* [Exercise](/new/content/javascript/exercises/exercise-javascript-22-prototypesModules.md)
-* [Lecture](/new/content/javascript/lectures/lecture-javascript-22-prototypesModules.md)
+* [Exercise](/content/javascript/exercises/exercise-javascript-22-prototypesModules.md)
+* [Lecture](/content/javascript/lectures/lecture-javascript-22-prototypesModules.md)
 
 ## 
 

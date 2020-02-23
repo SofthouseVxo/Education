@@ -125,12 +125,12 @@ this.setState({
 ---
 
 #### Top-down / Unidirectional data flow
-<img style="width: 700px" src="/new/media/react-images/react-7/dataflow.png" alt="lifecycle methods">
+<img style="width: 700px" src="/media/react-images/react-7/dataflow.png" alt="lifecycle methods">
 
 ---
 
 #### Lifting up state
-<img style="width: 700px" src="/new/media/react-images/react-7/liftingstate.png" alt="lifecycle methods">
+<img style="width: 700px" src="/media/react-images/react-7/liftingstate.png" alt="lifecycle methods">
 
 ---
 
@@ -146,4 +146,4 @@ this.setState({
 
 ---
 
-<img src="/new/media/react-images/react-7/lifecycles.png" alt="lifecycle methods">
+<img src="/media/react-images/react-7/lifecycles.png" alt="lifecycle methods">

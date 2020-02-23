@@ -38,7 +38,7 @@
 ---
 
 #### Procedural vs OOP
-<img style="width: 800px;" src="/new/media/javascript-images/javascript-20/proceoop.png" alt="procedural & oop">
+<img style="width: 800px;" src="/media/javascript-images/javascript-20/proceoop.png" alt="procedural & oop">
 
 ---
 
@@ -47,7 +47,7 @@
 * What parts can we encapsulate?
 * What parts have functionality which belongs to them and no other?
 * Which parts can have some shared functionality?
-<img style="width: 600px;" src="/new/media/javascript-images/javascript-20/ping1.png" alt="Ping pong">
+<img style="width: 600px;" src="/media/javascript-images/javascript-20/ping1.png" alt="Ping pong">
 
 ---
 
@@ -56,7 +56,7 @@
 * What parts can we encapsulate?
 * What parts have functionality which belongs to them and no other?
 * Which parts can have some shared functionality?
-<img style="width: 600px;" src="/new/media/javascript-images/javascript-20/ping2.png" alt="Ping pong">
+<img style="width: 600px;" src="/media/javascript-images/javascript-20/ping2.png" alt="Ping pong">
 
 ---
 
@@ -242,7 +242,7 @@ Car.test(); // TypeError: Car.test is not a functionindex.
 
 * A class can inherit methods and properties from its parent.
 * And if we make a change in the parent class, all who inherits from it will also get the change.
-<img style="width: 600px;" src="/new/media/javascript-images/javascript-20/classes1.png" alt="inheritance">
+<img style="width: 600px;" src="/media/javascript-images/javascript-20/classes1.png" alt="inheritance">
 
 ---
 
@@ -250,7 +250,7 @@ Car.test(); // TypeError: Car.test is not a functionindex.
 
 * A class can inherit methods and properties from its parent.
 * And if we make a change in the parent class, all who inherits from it will also get the change.
-<img style="width: 600px;" src="/new/media/javascript-images/javascript-20/classes2.png" alt="inheritance">
+<img style="width: 600px;" src="/media/javascript-images/javascript-20/classes2.png" alt="inheritance">
 
 ---
 
@@ -258,12 +258,12 @@ Car.test(); // TypeError: Car.test is not a functionindex.
 
 * A class can inherit methods and properties from its parent.
 * And if we make a change in the parent class, all who inherits from it will also get the change.
-<img style="width: 600px;" src="/new/media/javascript-images/javascript-20/classes3.png" alt="inheritance">
+<img style="width: 600px;" src="/media/javascript-images/javascript-20/classes3.png" alt="inheritance">
 
 ---
 
 #### Inheritance
-<img style="width: 300px;" src="/new/media/javascript-images/javascript-20/classes4.png" alt="inheritance">
+<img style="width: 300px;" src="/media/javascript-images/javascript-20/classes4.png" alt="inheritance">
   
 ```JavaScript
 // cow is the new instance and Cow is the class(blueprint)

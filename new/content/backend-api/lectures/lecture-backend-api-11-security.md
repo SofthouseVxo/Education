@@ -30,7 +30,7 @@ Proof of whom you are:
 	
 * Social media login</li>
 
-<img style="width: 400px; margin-left: 50px;" src="/new/media/backend-api-images/backend-api-11/front.png" alt="drivers license">
+<img style="width: 400px; margin-left: 50px;" src="/media/backend-api-images/backend-api-11/front.png" alt="drivers license">
 ---
 
 #### Authorization
@@ -40,7 +40,7 @@ What are you allowed to do:
 * Roles and Access to a system.</li>
 
 
-<img style="width: 400px; margin-left: 50px;" src="/new/media/backend-api-images/backend-api-11/back.png" alt="drivers license">
+<img style="width: 400px; margin-left: 50px;" src="/media/backend-api-images/backend-api-11/back.png" alt="drivers license">
 ---
 
 #### Hashing vs. Encryption
@@ -157,7 +157,7 @@ Three legged login
 
 #### Oauth Example
 
-<img style="width: 600px" src="/new/media/backend-api-images/backend-api-11/oauth.png" alt="oauth">
+<img style="width: 600px" src="/media/backend-api-images/backend-api-11/oauth.png" alt="oauth">
 ---
 
 #### Consider Adding Timestamp in Request

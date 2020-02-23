@@ -107,7 +107,7 @@ fetch(URL) // Call the fetch function passing the url of the API as a parameter
 ---
 	
 #### Promise
-<img style="width: 800px;" src="/new/media/javascript-images/javascript-21/promise.png" alt="promise">
+<img style="width: 800px;" src="/media/javascript-images/javascript-21/promise.png" alt="promise">
 	
 ---
 
@@ -148,7 +148,7 @@ promise1.catch(function(error) {
 ---			
 	
 #### Promise
-<img style="width: 800px;" src="/new/media/javascript-images/javascript-21/promise.png" alt="promise">
+<img style="width: 800px;" src="/media/javascript-images/javascript-21/promise.png" alt="promise">
 	
 ---
 

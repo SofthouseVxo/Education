@@ -165,7 +165,7 @@ npm -v
 	
 
 ### Semantic versioning
-<img src="/new/media/general-images/general-3/semantic.png" alt="semantic versioning">
+<img src="/media/general-images/general-3/semantic.png" alt="semantic versioning">
 
 ---
 

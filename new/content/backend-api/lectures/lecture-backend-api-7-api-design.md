@@ -122,7 +122,7 @@ REST defines 6 architectural constraints which make a true RESTful API
 * **Layered system:** A client cannot ordinarily tell what it’s connected to.
 * **Code on demand (optional):** Servers may return code.
 ---
-<img src="/new/media/backend-api-images/backend-api-7/crud.png" alt="crud">
+<img src="/media/backend-api-images/backend-api-7/crud.png" alt="crud">
 ---
 #### Hypermedia as the Engine of Application State (HATEOAS)
 

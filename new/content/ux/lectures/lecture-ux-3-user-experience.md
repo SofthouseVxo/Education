@@ -70,12 +70,12 @@
 ---
 
 #### 5 planes of UX
-<img src="/new/media/ux-images/ux-3/5planes.png" alt="5 planes of ux">
+<img src="/media/ux-images/ux-3/5planes.png" alt="5 planes of ux">
 
 ---
 
 #### 5 planes of UX
-<img src="/new/media/ux-images/ux-3/5planes2.png" alt="5 planes of ux">
+<img src="/media/ux-images/ux-3/5planes2.png" alt="5 planes of ux">
 <p style="text-align: right; margin-top: 0; font-size: 0.5em; margin-right: 48px;"> Image by Joe Natoli</p>
 
 ---

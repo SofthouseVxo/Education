@@ -6,7 +6,7 @@
 * Course Literature
 
 #### Links:
-* [Lecture](/new/content/html-css/lectures/lecture-htmlcss-1-intro.md)
+* [Lecture](/content/html-css/lectures/lecture-htmlcss-1-intro.md)
 
 ## 
 
@@ -24,8 +24,8 @@
 * <a href="https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm" target="_blank">How does the web work?</a>
 
 #### Links:
-* [Exercise](/new/content/html-css/exercises/exercise-htmlcss-2-web.md)
-* [Lecture](/new/content/html-css/lectures/lecture-htmlcss-2-web.md)
+* [Exercise](/content/html-css/exercises/exercise-htmlcss-2-web.md)
+* [Lecture](/content/html-css/lectures/lecture-htmlcss-2-web.md)
 
 ## 
 
@@ -44,8 +44,8 @@
 * HTML & CSS Book - Chapter 1 (p.13 - 38)
 
 #### Links:
-* [Exercise](/new/content/html-css/exercises/exercise-htmlcss-3-html-intro.md)
-* [Lecture](/new/content/html-css/lectures/lecture-htmlcss-3-html-intro.md)
+* [Exercise](/content/html-css/exercises/exercise-htmlcss-3-html-intro.md)
+* [Lecture](/content/html-css/lectures/lecture-htmlcss-3-html-intro.md)
 
 ## 
 
@@ -67,8 +67,8 @@
 * HTML & CSS Book - Chapter 6 (p.127 - 142)
 
 #### Links:
-* [Exercise](/new/content/html-css/exercises/exercise-htmlcss-4-elements.md)
-* [Lecture](/new/content/html-css/lectures/lecture-htmlcss-4-elements.md)
+* [Exercise](/content/html-css/exercises/exercise-htmlcss-4-elements.md)
+* [Lecture](/content/html-css/lectures/lecture-htmlcss-4-elements.md)
 
 ## 
 
@@ -88,8 +88,8 @@
 * HTML & CSS Book - Chapter 9 (HTML Video & Audio, ignore Flash parts) (p.200 - 224)
 
 #### Links:
-* [Exercise](/new/content/html-css/exercises/exercise-htmlcss-5-media.md)
-* [Lecture](/new/content/html-css/lectures/lecture-htmlcss-5-media.md)
+* [Exercise](/content/html-css/exercises/exercise-htmlcss-5-media.md)
+* [Lecture](/content/html-css/lectures/lecture-htmlcss-5-media.md)
 
 ## 
 
@@ -114,8 +114,8 @@
 * HTML & CSS Book - Chapter 11 (p.227-244)
 
 #### Links:
-* [Exercise](/new/content/html-css/exercises/exercise-htmlcss-6-css.md)
-* [Lecture](/new/content/html-css/lectures/lecture-htmlcss-6-css.md)
+* [Exercise](/content/html-css/exercises/exercise-htmlcss-6-css.md)
+* [Lecture](/content/html-css/lectures/lecture-htmlcss-6-css.md)
 
 ## 
 
@@ -140,8 +140,8 @@
 * HTML & CSS Book - Chapter 13 (p.300 - 326)
 
 #### Links:
-* [Exercise](/new/content/html-css/exercises/exercise-htmlcss-7-css-box.md)
-* [Lecture](/new/content/html-css/lectures/lecture-htmlcss-7-css-box.md)
+* [Exercise](/content/html-css/exercises/exercise-htmlcss-7-css-box.md)
+* [Lecture](/content/html-css/lectures/lecture-htmlcss-7-css-box.md)
 
 ## 
 
@@ -164,8 +164,8 @@
 * HTML & CSS Book - Chapter 15 (p.358 - 404)
 
 #### Links:
-* [Exercise](/new/content/html-css/exercises/exercise-htmlcss-8-css-positioning.md)
-* [Lecture](/new/content/html-css/lectures/lecture-htmlcss-8-css-positioning.md)
+* [Exercise](/content/html-css/exercises/exercise-htmlcss-8-css-positioning.md)
+* [Lecture](/content/html-css/lectures/lecture-htmlcss-8-css-positioning.md)
 
 ## 
 
@@ -185,8 +185,8 @@
 * <a href="https://cssgridgarden.com/#sv" target="_blank">Practicing Flexbox (cssgridgarden.com)</a>
 
 #### Links:
-* [Exercise](/new/content/html-css/exercises/exercise-htmlcss-9-flexbox.md)
-* [Lecture](/new/content/html-css/lectures/lecture-htmlcss-9-css-layout.md)
+* [Exercise](/content/html-css/exercises/exercise-htmlcss-9-flexbox.md)
+* [Lecture](/content/html-css/lectures/lecture-htmlcss-9-css-layout.md)
 
 ## 
 
@@ -200,8 +200,8 @@
 * HTML & CSS Book - Chapter 7 (p.144 - 174)
 
 #### Links:
-* [Exercise](/new/content/html-css/exercises/exercise-htmlcss-10-forms.md)
-* [Lecture](/new/content/html-css/lectures/lecture-htmlcss-10-forms.md)
+* [Exercise](/content/html-css/exercises/exercise-htmlcss-10-forms.md)
+* [Lecture](/content/html-css/lectures/lecture-htmlcss-10-forms.md)
 
 ## 
 
@@ -220,8 +220,8 @@
 * HTML & CSS Book - (p.289 - 291)
 
 #### Links:
-* [Exercise](/new/content/html-css/exercises/exercise-htmlcss-11-psuedo.md)
-* [Lecture](/new/content/html-css/lectures/lecture-htmlcss-11-psuedo.md)
+* [Exercise](/content/html-css/exercises/exercise-htmlcss-11-psuedo.md)
+* [Lecture](/content/html-css/lectures/lecture-htmlcss-11-psuedo.md)
 
 ## 
 
@@ -244,8 +244,8 @@
 * HTML & CSS Book (p.479- 486)
 
 #### Links:
-* [Exercise](/new/content/html-css/exercises/exercise-htmlcss-12-SEO.md)
-* [Lecture](/new/content/html-css/lectures/lecture-htmlcss-12-SEO.md)
+* [Exercise](/content/html-css/exercises/exercise-htmlcss-12-SEO.md)
+* [Lecture](/content/html-css/lectures/lecture-htmlcss-12-SEO.md)
 
 ## 
 
@@ -271,8 +271,8 @@
 * <a href="https://css-tricks.com/snippets/html/responsive-meta-tag/" target="_blank">CSS-Tricks meta</a>
 
 #### Links:
-* [Exercise](/new/content/html-css/exercises/exercise-htmlcss-13-responsive.md)
-* [Lecture](/new/content/html-css/lectures/lecture-htmlcss-13-responsive.md)
+* [Exercise](/content/html-css/exercises/exercise-htmlcss-13-responsive.md)
+* [Lecture](/content/html-css/lectures/lecture-htmlcss-13-responsive.md)
 
 ## 
 
@@ -290,8 +290,8 @@
 * <a href="https://www.w3schools.com/css/css3_animations.asp">w3schools documentation</a> 
 
 #### Links:
-* [Exercise](/new/content/html-css/exercises/exercise-htmlcss-14-animation.md)
-* [Lecture](/new/content/html-css/lectures/lecture-htmlcss-14-animation.md)
+* [Exercise](/content/html-css/exercises/exercise-htmlcss-14-animation.md)
+* [Lecture](/content/html-css/lectures/lecture-htmlcss-14-animation.md)
 
 ## 
 
@@ -312,8 +312,8 @@
 * <a href="https://getbootstrap.com/docs/4.3/getting-started/introduction/" target="_blank">Bootstrap Documentation</a>
 
 #### Links:
-* [Exercise](/new/content/html-css/exercises/exercise-htmlcss-15-bootstrap.md)
-* [Lecture](/new/content/html-css/lectures/lecture-htmlcss-15-bootstrap.md)
+* [Exercise](/content/html-css/exercises/exercise-htmlcss-15-bootstrap.md)
+* [Lecture](/content/html-css/lectures/lecture-htmlcss-15-bootstrap.md)
 
 ## 
 
@@ -323,4 +323,4 @@
 * Guide on how to debug HTML & CSS
 
 #### Links:
-* [Lecture](/new/content/html-css/lectures/lecture-htmlcss-16-debugging.md)
+* [Lecture](/content/html-css/lectures/lecture-htmlcss-16-debugging.md)

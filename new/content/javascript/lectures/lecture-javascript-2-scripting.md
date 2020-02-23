@@ -101,12 +101,12 @@
 ---
 
 #### Java flow
-<img src="/new/media/javascript-images/javascript-2/java.png" alt="java">
+<img src="/media/javascript-images/javascript-2/java.png" alt="java">
 
 ---
 
 #### JavaScript flow
-<img  src="/new/media/javascript-images/javascript-2/js.png" alt="js">
+<img  src="/media/javascript-images/javascript-2/js.png" alt="js">
 
 ---
 
@@ -312,7 +312,7 @@ The above is called Direct, this can be also be done asynchronosly, meaning the 
 ---
 
 #### Web Console
-<img style="margin-top: 0px;" src="/new/media/javascript-images/javascript-2/webconsole.png" alt="web console">
+<img style="margin-top: 0px;" src="/media/javascript-images/javascript-2/webconsole.png" alt="web console">
 
 ---
 

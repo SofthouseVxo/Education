@@ -35,7 +35,7 @@ The purpose of thie lecture is to give an introduction to redux and handling glo
 
 #### Flux
 Flux is the application architecture that Facebook uses for building client-side web applications.
-<img src="/new/media/react-images/react-16/flux.png" alt="flux">
+<img src="/media/react-images/react-16/flux.png" alt="flux">
 
 ---
 
@@ -87,12 +87,12 @@ const store = createStore(
 ---
 
 #### Redux + React
-<img src="/new/media/react-images/react-16/React+Redux.png" alt="redux">
+<img src="/media/react-images/react-16/React+Redux.png" alt="redux">
 
 ---
 
 #### State machine
-<img src="/new/media/react-images/react-16/StateMachine.png" alt="state machine">
+<img src="/media/react-images/react-16/StateMachine.png" alt="state machine">
 
 ---
 

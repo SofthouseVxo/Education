@@ -172,7 +172,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
   
 ---
   
-<img src="/new/media/react-images/react-10/switch.png" alt="in folders">
+<img src="/media/react-images/react-10/switch.png" alt="in folders">
 
 ---
 
@@ -227,7 +227,7 @@ and more...
 #### Navigating without a link
 The **History** object has several methods for this
 
-<img src="/new/media/react-images/react-10/history.png" alt="history">
+<img src="/media/react-images/react-10/history.png" alt="history">
 
 ---
 
@@ -241,4 +241,4 @@ this.props.history.push('/news/id'); //with a param
 
 ---
 
-<img src="/new/media/react-images/react-10/history.png" alt="history">
+<img src="/media/react-images/react-10/history.png" alt="history">
