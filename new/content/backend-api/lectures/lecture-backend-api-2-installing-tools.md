@@ -1,8 +1,6 @@
 ### 2. Backend APIs
 ##### Installing tools
-
 ---
-
 #### Vi kommer använda en del mjukvaror...
 
 Detta behöver vi:
@@ -14,9 +12,7 @@ Detta behöver vi:
 * Editor vscode
 * node.js
 * mongodb
-
 ---
-
 
 #### Pakethanterare
 
@@ -27,9 +23,7 @@ Detta behöver vi:
   * MacOS: <a href="https://docs.brew.sh/Installation" target="blank">https://docs.brew.sh/Installation</a>
   * Windows: <a href="https://chocolatey.org/docs/installation" target="_blank">https://chocolatey.org/docs/installation</a>
   * Linux: apt or pacman
-
 ---
-
 #### Kommandoterminal
 * Motivation:
   * Enklare att dokumentera steg för att starta eller utveckla lösning
@@ -37,9 +31,7 @@ Detta behöver vi:
   * MacOS: Terminal är bash
   * Windows: choco install git
   * Linux: Duh
-
 ---
-
 #### Versionshantering
 * Motivation:
   * Enkelt att gå tillbaka till ett fungerande tillstånd när du skrivit sönder det.
@@ -47,17 +39,13 @@ Detta behöver vi:
 * Installation:
   * Finns i alla terminaler
   * Får gärna använda GUI, men lära sig terminalen först rekommenderas
-
 ---
-
 #### Web requests - Browser
 * Motivation:
   * Kan användas för backend också
 * Installation:
   * Chrome/Firefox, ni vet
-
 ---
-
 #### Web requests - Terminalverktyg (curl)
 * Motivation:
   * Enklare att dokumentera steg för att starta eller utveckla lösning
@@ -68,9 +56,7 @@ Detta behöver vi:
 ```
 $ curl resp wget https://www.smp.se/
 ```			 
-
 ---
-
 #### JSON formatter
 * Motivation:
   * Enklare att läsa formaterad JSON
@@ -82,9 +68,7 @@ $ curl resp wget https://www.smp.se/
 ```
 $ curl -s https://jsonplaceholder.typicode.com/todos/1 | jq .
 ```			 
-
 ---
-
 #### Postman
 * Motivation:
   * Gratis 
@@ -92,9 +76,7 @@ $ curl -s https://jsonplaceholder.typicode.com/todos/1 | jq .
 * Installation:
   * MacOS: ```$ cask install postman```		 
 	* Windows: ```$ choco install postman```
-
 ---
-
 #### Editor (VScode)
 * Motivation:
   * Gratis, Bra plugins för att effektivisera utveckling
@@ -102,7 +84,6 @@ $ curl -s https://jsonplaceholder.typicode.com/todos/1 | jq .
 	* MacOS: ```$ brew install mongodb```
 	* Windows: ```$ choco install mongodb```
 	* Linux: <a href="https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/" target="_blank">https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/</a>
-
 ---	
 
 #### Mongodb

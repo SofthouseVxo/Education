@@ -1,8 +1,6 @@
 ### 1. Backend APIs
 ##### Introduction
-
 ---
-
 #### Who am I?</h4>
 * Jonas Eckerström
 * Konsult på Softhouse Småland
@@ -14,22 +12,16 @@
 * Finns på:
   * slack @jonaseck
   * mail: jonas.eckerstrom@softhouse.se
-
 ---
-
 
 #### Syfte</h4>
 * Kursen syftar till att studerande utvecklar specialiserade kunskaper och färdigheter i konstruktion och användning av web API:er.
   * konstruera API:er
   * Integrera mot tjänster (konsumera API:er)
   * Persistera data (lagra i databas)
-
 ---
-
 #### Se Kursplan</h4>
-
 ---
-
 #### Litteratur</h4>
 
 * Web Development with Node and Express, 1st edition
@@ -39,9 +31,7 @@
 * Tutorials online
   * MEAN - Mongo Express Angular Node
   * MERN - Mongo Express React Node
-
 ---
-
 #### Kommunikation</h4>
 * Jag är här för er, inte tvärt om
 * Var på plats, respektera varandra tider (speciellt pauser)

@@ -1,17 +1,13 @@
 ### 3. Backend APIs
 ##### Hypertext Transfer Protocol (HTTP)
-
 ---
-
 #### HTTP Protocol Basics</h4>
 * An Internet Protocol initially used for browsing web pages.</li>
 * Send request - get response</li>
 * It is <b>Stateless</b> (doesn’t remember what you did)</li>
 
 <img style="width: 700px;" src="/new/media/backend-api-images/backend-api-3/http.png" alt="http">
-
 ---
-
 #### HTTP Protocol Basics</h4>
 * Hypertext as in Hypertext Markup Language (HTML)</li>
 * Request response model:</li>
@@ -22,9 +18,7 @@
   * Response</li>
     * Response code</li>
     * Headers och Body</li>
-
 ---
-
 ####  Uniform Resource Identifier URI
 * A textual identifier how to reach a resource:
 
@@ -42,7 +36,6 @@ Example:
 http://www.smp.se
 mongodb://someuser:somepassword@localhost:27017/someDatabase
 ```
-
 ---
     
 ####  HTTP Headers
@@ -60,9 +53,7 @@ Specifies what i want the response as
 Accept-Charset: utf-8
 Accept: application/json
 ```
-
 ---
-
 ####  HTTP Response Code
 * Status codes are issued by a server in response to a client's request made to the server
 * Be informative Don’t always answer 200 and 500
@@ -74,9 +65,7 @@ Accept: application/json
   * 5xx server errors (500 internal error, 502 bad gateway, 503 service unavailable)
             
 <a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes" target="_blank">List on wikipedia</a>
-
 ---
-
 ####  HTTP Methods: Get
 
 * Requests a representation of the specified resource
@@ -92,9 +81,7 @@ Listing Resources:
 curl http://api.softhouse.rocks/users
 curl http://api.softhouse.rocks/users?page=2
 ```
-
 ---
-
 
 ####  HTTP Methods: Post
 
@@ -109,9 +96,7 @@ Response
 Body: The created resource {"id":100, …}
 Code: 201
 ```
-
 ---
-
 ####  HTTP Methods: Delete
 
 * The DELETE method deletes the specified resource.
@@ -126,9 +111,7 @@ Response
 Body: none
 Code: 200 if deleted, 204 no change (if not found)
 ```
-
 ---
-
 
 ####  HTTP Methods: Put
 
@@ -145,9 +128,7 @@ Response
 Body: The created resource  {"id":3, …}
 Code: 200
 ```
-
 ---
-
 
 ####  HTTP Methods: Patch
 
@@ -163,9 +144,7 @@ Response
 Body: The updated resource  {"id":3, …}
 Code: 200            
 ```
-
 ---
-
 
 #### Less Common HTTP Methods</h4>
 Some are rarely used when implementing APIs:
@@ -173,6 +152,4 @@ Some are rarely used when implementing APIs:
 * TRACE: echoes the received request so that a client can see what (if any) changes or additions have been made by intermediate servers.</li>
 * OPTIONS: returns the HTTP methods that the server supports for the specified URL.</li>
 * CONNECT method converts the request connection to a transparent TCP/IP tunnel.</li>
-
 ---
-

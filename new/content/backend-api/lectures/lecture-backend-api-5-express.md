@@ -1,9 +1,7 @@
 
-### 5. Backend APIs</h3>
+### 5. Backend APIs
 ##### Express
-
 ---
-
 #### Express
 
 * Express is a web framework for Node.js
@@ -14,9 +12,7 @@
 ```Shell
 $ npm install express --save
 ```
-
 ---
-
 #### Express simple example
 
 * Imports the express module.
@@ -37,9 +33,7 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 ```
 
 Open browser and navigate to localhost:3000 so see hello world written on the page.
-
 ---
-
 #### Express simple example
 
 ```JavaScript
@@ -61,15 +55,11 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 ```
 
 Open browser and navigate to localhost:3000 so see HTML visible on the page.
-
 ---
-
 
 #### Routing
 "Routing refers to determining how an application responds to a client request to a particular endpoint, which is a URI (or path) and a specific HTTP request method (GET, POST, and so on)." - <a href="https://expressjs.com/en/starter/basic-routing.html" target="blank">Expressjs</a>
-
 ---
-
 #### Express simple example
 
 * Each route can have one or more handler functions, which are executed when the route is matched.
@@ -83,7 +73,6 @@ app.get('/', function(req, res){
 })
 ```
 ---
-
 #### Express simple example
 
 * app is an instance of express.
@@ -100,7 +89,6 @@ app.get('/hello', function(req, res){
 })
 ```
 ---
-
 #### Route Handlers
 	
 ```JavaScript
@@ -116,20 +104,15 @@ app.get('/', function(req, res, next){
 })
 ```
 ---
-
 #### Route handlers behave like something called a **middleware** to handle a request.
-
 ---
-
 #### Middleware functions can perform the following tasks:
 
 * Execute any code.
 * Make changes to the **req**uest and the **res**ponse objects.
 * End the request-response cycle.
 * Call the next middleware in the stack.
-
 ---
-
 #### Using middleware function
 
 ```JavaScript
@@ -157,7 +140,6 @@ LOGGED //in console
 Hello World! // returned to whoever made the request
 ```
 ---
-
 #### Using middleware function
 	
 ```JavaScript
@@ -185,7 +167,6 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 Hello World! // returned to whoever made the request
 ```
 ---
-
 
 #### Route parameters
 

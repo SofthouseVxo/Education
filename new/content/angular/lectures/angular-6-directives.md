@@ -1,5 +1,5 @@
-### 6. Angular</h3>
-##### Directives</h5>
+### 6. Angular
+##### Directives
 
 ---
 
@@ -37,7 +37,7 @@ Directives are mainly used to manipulate the DOM.
 
 ---
 
-<img src="/new/media/angular-images/angular-6/directives.png" alt="directives">
+<img src="/new/media/angular-images/angular-5/directives.png" alt="directives">
 
 ---
 

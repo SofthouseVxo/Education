@@ -1,9 +1,4 @@
-<!doctype html>
-<html>
-	<head>
-		<title>HTML & CSS Exercises</title>
-
-       ## 3.HTML & CSS - First webpage
+## 3.HTML & CSS - First webpage
 
 1. Installera ett IDE, förslagsvis Visual studio code.
 1. Skapa en ny katalog(mapp) som ni döper till my-first-html.

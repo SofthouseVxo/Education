@@ -1,12 +1,9 @@
-### 7. Backend APIs</h3>
-##### API Design</h5>
-
+### 7. Backend APIs
+##### API Design
 ---
         
-#### What constitutes a good API?</h4>
-
+#### What constitutes a good API?
 ---
-
 #### Purpose and Scope
 						
 * Why do we have APIs?
@@ -19,10 +16,9 @@
   * REST
 * How to Design a REST API
 * Rest with links - HATEOAS
-
 ---
         
-#### Why do we Have APIs</h4>
+#### Why do we Have APIs
 A good API makes it easier to develop a computer program by providing all the building blocks, which are then put together by the programmer.
 
 * APIs add flexibility between presentation and provided business functionality.
@@ -30,9 +26,7 @@ A good API makes it easier to develop a computer program by providing all the bu
 * Selling access to APIs have become big business.
   * Called API monetization.
   * You want others to use your API!
-
 ---
-
 
 #### Ease of Use - How do we communicate
 						
@@ -46,9 +40,7 @@ A good API makes it easier to develop a computer program by providing all the bu
 * Provide Documentation
 * API First
   * Design APIs first, then write the code and implement consumers
-
 ---
-
 #### API Design - Design is about consumption
 
 * How do we make APIs easy to use?
@@ -59,9 +51,7 @@ A good API makes it easier to develop a computer program by providing all the bu
   * REST (Representational state transfer)
 * Different protocols ask questions in different ways
   * Influences how developers think systems should communicate
-
 ---
-
 #### Protocols - Simple Object Access Protocol (SOAP)
 
 Protocol specification for exchanging structured information in XML format
@@ -79,9 +69,7 @@ Protocol specification for exchanging structured information in XML format
   </soap:Body>
 </soap:Envelope>
 ```
-
 ---
-
 #### Remote Procedure Call (RPC)
 
 Calling a procedure of function to execute in a different address space (commonly on another computer on a shared network
@@ -92,9 +80,7 @@ Calling a procedure of function to execute in a different address space (commonl
   * Uses binary (non-human readable) protocol buffer (protobuf) format
 * Can be translated to and from REST
 
-
 ---
-
 #### GraphQL
 
 * GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data.
@@ -112,7 +98,6 @@ Calling a procedure of function to execute in a different address space (commonl
 }
 ```
 ---
-
 #### Representational State Transfer (REST)
 
 A software architectural style that defines a set of constraints to be used for creating Web services.
@@ -124,9 +109,7 @@ A software architectural style that defines a set of constraints to be used for 
 * Recommendations for status codes exist
             
 <a href="https://restfulapi.net/http-status-codes/" target="_blank">HTTP Status codes</a>
-
 ---
-
 #### REST Architectural Constraints
 
 REST defines 6 architectural constraints which make a true RESTful API
@@ -138,13 +121,9 @@ REST defines 6 architectural constraints which make a true RESTful API
   * Used by clients and caching intermediaries.
 * **Layered system:** A client cannot ordinarily tell what it’s connected to.
 * **Code on demand (optional):** Servers may return code.
-
 ---
-
 <img src="/new/media/backend-api-images/backend-api-7/crud.png" alt="crud">
-
 ---
-
 #### Hypermedia as the Engine of Application State (HATEOAS)
 
 Use hypermedia links in the response contents so that the client can dynamically navigate to the appropriate resource.
@@ -159,9 +138,7 @@ links: [
    { rel: "create", method: "POST", title: 'Create Person', href: 'http://localhost/person' }
 ]
 ```
-
 ---
-
 #### Conclusion
 
 REST is popular because it’s flexible. The flexibility means that REST doesn’t mean the same in different organisations.

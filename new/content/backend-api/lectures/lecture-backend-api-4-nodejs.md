@@ -1,8 +1,6 @@
-### 4.Backend APIs</h3>
-##### Node.js</h5>
-
+### 4.Backend APIs
+##### Node.js
 ---
-
 ### What is Node.js
 
 * Node.js is a free open source server environment.
@@ -11,24 +9,18 @@
 * Node.js runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)
 * Node.js use the v8 engine (same as chrome).
 * Node compiles JavaScript code into native code.
-
 ---
-
 #### Node.js
 * Is often used to build backend services called APIs.
 * Can also be used a middlewares to handle requests from different systems.
-
 ---
-
 #### Node.js
 * Good for I/O intensive tasks (such as sending http requests)
 * Non Blocking IO
 * Single Threaded
 * <a href="https://www.youtube.com/watch?v=jOupHNvDIq8" target="_blank">Mosh Explains</a>
 * Has a package manager too, npm
-
 ---
-
 #### Try it
 
 Run in terminal
@@ -37,9 +29,7 @@ $ node -v
 $ npm -v
 $ npm install npm@latest -g
 ```
-
 ---
-
 #### Node package manager (npm)
 * Adds dependencies
   * Specifies dependencies in package.json
@@ -51,9 +41,7 @@ $ npm install npm@latest -g
 * import dependencies using
   * const mongoose = require(“mongoose”)
   * const mongoose = import ”mongoose”
-
 ---
-
 #### Node
 
 * Create an index.js file.
@@ -62,9 +50,7 @@ $ npm install npm@latest -g
 ```Shell
 $ node index.js
 ```
-
 ---
-
 
 #### Modules
 * Small units of independent, encapsulated, reusable code.
@@ -72,9 +58,7 @@ $ node index.js
 * Modules can:
 	* Load each other
 	* Call functions of one module from another one:
-
 ---
-
 #### Node modules
 
 * Can import stuff from each other.
@@ -90,9 +74,7 @@ main.js
 const someValue = require('./lib');
 console.log(someValue); // 10
 ```
-
 ---
-
 #### Node modules
 
 lib.js
@@ -109,9 +91,7 @@ const {firstValue, secondValue} = require('./lib');
 console.log(firstValue); // 1
 console.log(secondValue); // 1
 ```
-
 ---
-
 
 
 #### Node modules
@@ -133,9 +113,7 @@ console.log(firstValue); // 1
 console.log(secondValue); // 1
 ```
 
-
 ---
-
 
 #### Node modules
 
@@ -161,9 +139,7 @@ const { sayHello } = require('./lib');
 sayHello(); // Hello world!
 ```
 
-
 ---
-
 
 #### Node modules
 
@@ -190,9 +166,7 @@ sayHello(); // Hello world!
 sayBye(); // TypeError: sayBye is not a function
 ```
 
-
 ---
-
 #### Globals
 
 * Since we do not run Node in the browser we don't have a window object.
@@ -208,9 +182,7 @@ Shell
 ```Shell
 $ node index.js
 ```
-
 ---
-
 #### Process
 
 * The process object is a global that provides information about, and control over, the current Node.js process.
@@ -220,9 +192,7 @@ index.js
 ```JavaScript
 console.log(process);
 ```
-
 ---
-
 #### Command line arguments
 
 index.js
@@ -244,9 +214,7 @@ Arguments [
 	'world'
 ]
 ```
-
 ---
-
 #### Command line arguments
 
 ```Shell
@@ -264,9 +232,7 @@ Shell
 ```Shell
 $ node index.js --phrase=hello
 ```
-
 ---
-
 #### Reading from file
 
 * fs = <a href="https://nodejs.org/api/fs.html" target="_blank">File System</a>
@@ -290,9 +256,7 @@ info.json
 	"name": "nisse"
 }
 ```
-
 ---
-
 #### Write to file
 
 index.js
@@ -306,12 +270,8 @@ message.txt
 ```
 Hello Node.js
 ```
-
 ---
-
 #### JavaScript versions
 "Node.js is built against modern versions of V8. By keeping up-to-date with the latest releases of this engine, we ensure new features from the JavaScript ECMA-262 specification are brought to Node.js developers in a timely manner, as well as continued performance and stability improvements." - <a href="https://nodejs.org/en/docs/es6/" target="_blank">Node.js docs</a>
-
 ---
-
 #### Node.js provides a lot of functionality that we will use during the course.

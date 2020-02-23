@@ -1,10 +1,4 @@
-<!doctype html>
-<html>
-	<head>
-		<title>HTML & CSS Exercises</title>
-
-
-		## 9.HTML & CSS - Flexbox
+## 9.HTML & CSS - Flexbox
 
 ### Ni skall skapa bilder
 
