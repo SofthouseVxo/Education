@@ -1,13 +1,14 @@
 # Angular
-## 
+
 ### 1. Angular intro
 
 ##### Content:
 * Introduction to Course
 * Course Literature
 
+##### Links:
 [lecture](/new/content/angular/lectures/lecture-angular-1-intro.md)
-[exercise](/new/content/angular/exercises/exercise-angular-1-intro.md)
+
 
 ## 
 
@@ -24,6 +25,10 @@
 ##### Reading instructions:
 * <a href="https://www.tutorialsteacher.com/mvc/mvc-architecture" target="_blank">MVC</a>
 * <a href="https://www.freecodecamp.org/news/what-exactly-is-node-js-ae36e97449f5/" target="_blank">What exactly is * Node.js?
+
+##### Links:
+[lecture](/new/content/angular/lectures/lecture-angular-2-prerequisites.md)
+[exercise](/new/content/angular/lectures/lecture-angular-2-prerequisites.md)
 
 ## 
 
