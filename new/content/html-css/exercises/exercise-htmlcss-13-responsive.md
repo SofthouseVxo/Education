@@ -48,7 +48,7 @@ Ni skall nu få ska ett responsivt grid
 
 Använd Firefox developer tools (eller annan webbläsare) för att simulera skärmstorlekarna.
 <br><br>
-![Media Queries](media/mediaQ.png "Media Queries")
+![Media Queries](../media/mediaQ.png "Media Queries")
 
 11. Skapa ett CSS-grid. En ```div id="container"``` och 8 ```div class="item"``` Detta skall bete sig följande:
 * 600px eller bredare = 4 kolumner som är 150px bred och 2 rader 150px

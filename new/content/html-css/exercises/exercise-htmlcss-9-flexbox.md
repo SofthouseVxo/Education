@@ -9,30 +9,30 @@
 
 1. <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">CSS Tricks flexbox</a>
 
-![Flexbox training](media/flexbox1.png "Flexbox training")
+![Flexbox training](../media/flexbox1.png "Flexbox training")
 
-![Flexbox training](media/flexbox2.png "Flexbox training")
+![Flexbox training](../media/flexbox2.png "Flexbox training")
 
-![Flexbox training](media/flexbox3.png "Flexbox training")## 9.HTML & CSS - CSS Grid
+![Flexbox training](../media/flexbox3.png "Flexbox training")## 9.HTML & CSS - CSS Grid
 
 ### Ni skall återskapa bilderna nedan med hjälp av CSS Grid
 
 1. <a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">CSS Tricks CSS Grid</a><br>
 
-![grid training](media/grid1.png "grid training")
+![grid training](../media/grid1.png "grid training")
 <br>
 <br>
 <br>
-![grid training](media/grid2.png "grid training")
+![grid training](../media/grid2.png "grid training")
 <br>
 <br>
 <br>
-![grid training](media/grid3.png "grid training")
+![grid training](../media/grid3.png "grid training")
 <br>
 <br>
 <br>
-![grid training](media/grid4.png "grid training")
+![grid training](../media/grid4.png "grid training")
 <br>
 <br>
 <br>
-![grid training](media/grid5.png "grid training")
+![grid training](../media/grid5.png "grid training")

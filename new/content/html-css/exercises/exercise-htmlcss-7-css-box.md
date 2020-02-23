@@ -14,17 +14,17 @@
 
 1. Inuti divarna lägger ni till en ```div``` till i varje, dessa skall ha klassen "inner-item" och stilen: Bredd 200px, höjd 200px, bakgrundsfärg ljusgrön.
 
-1. Nu skall de se ut som följande: <br>![border boxing](media/borderbox1.png "border boxing")
+1. Nu skall de se ut som följande: <br>![border boxing](../media/borderbox1.png "border boxing")
 
 1. Lägg nu till så att "item" får en border grå border som är 20px bred och en padding som är 30px.
 
 1. Nu skall det se ut som följande, lägg märke till hur ```main``` har utvidgats.
 
-![border boxing](media/borderbox2.png "border boxing")
+![border boxing](../media/borderbox2.png "border boxing")
 
 11. Lägg nu till ```box-sizing: border-box;``` för "item" och se hur det förändras. Med border box includeras allt i det elementen där det finns.
 
-12. Det skall sedan se ut som följande ![border boxing](media/borderbox3.png "border boxing")
+12. Det skall sedan se ut som följande ![border boxing](../media/borderbox3.png "border boxing")
 
 13. Skapa nu en ```h3``` och sätt den till färgen röd genom att ange "red".
 
@@ -46,7 +46,7 @@
 
 ### Extrauppgifter - Skapa nedanstående med HTML & CSS
 
-![footer](media/footer.png "footer")
+![footer](../media/footer.png "footer")
 
 ### W3schools övningar
 
