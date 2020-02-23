@@ -6,8 +6,8 @@
 * Introduction to Course
 * Course Literature
 
-[lecture](new/content/angular/lectures/lecture-angular-1-intro.md)
-[exercise](new/content/angular/exercises/exercise-angular-1-intro.md)
+[lecture](/new/content/angular/lectures/lecture-angular-1-intro.md)
+[exercise](/new/content/angular/exercises/exercise-angular-1-intro.md)
 
 ## 
 
