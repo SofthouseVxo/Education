@@ -185,7 +185,7 @@
 * <a href="https://cssgridgarden.com/#sv" target="_blank">Practicing Flexbox (cssgridgarden.com)</a>
 
 #### Links:
-* [Exercise](/new/content/html-css/exercises/exercise-htmlcss-9-css-layout.md)
+* [Exercise](/new/content/html-css/exercises/exercise-htmlcss-9-flexbox.md)
 * [Lecture](/new/content/html-css/lectures/lecture-htmlcss-9-css-layout.md)
 
 ## 
