@@ -72,8 +72,8 @@
 
 ### Extrauppgifter - Skapa nedanstående med HTML & CSS
 
-![extra1](new/content/media/exercises-images/extra1.png "extra exercise 1")
+![extra1](new/lectures-exercises/media/exercises-images/extra1.png "extra exercise 1")
 <br>
-![extra2](new/content/media/exercises-images/extra2.png "extra exercise 2")
+![extra2](new/lectures-exercises/media/exercises-images/extra2.png "extra exercise 2")
 <br>
-![extra3](new/content/media/exercises-images/extra3.png "extra exercise 3")
+![extra3](new/lectures-exercises/media/exercises-images/extra3.png "extra exercise 3")

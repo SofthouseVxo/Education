@@ -7,7 +7,7 @@
 * Course Literature
 
 #### Links
-* [Lecture](/content/react/lectures/lecture-react-1-intro.md)
+* [Lecture](/lectures-exercises/react/lectures/lecture-react-1-intro.md)
 
 ## 
 
@@ -27,8 +27,8 @@
 * <a href="https://github.com/facebook/create-react-app" target="_blank">Create React App</a>
 
 #### Links
-* [Exercise](/content/react/exercises/exercise-react-2-prerequisites.md)
-* [Lecture](/content/react/lectures/lecture-react-2-prerequisites.md)
+* [Exercise](/lectures-exercises/react/exercises/exercise-react-2-prerequisites.md)
+* [Lecture](/lectures-exercises/react/lectures/lecture-react-2-prerequisites.md)
 
 ## 
 
@@ -42,8 +42,8 @@
 #### Reading instructions:
 
 #### Links
-* [Exercise](/content/react/exercises/exercise-react-3-overview.md)
-* [Lecture](/content/react/lectures/lecture-react-3-overview.md)
+* [Exercise](/lectures-exercises/react/exercises/exercise-react-3-overview.md)
+* [Lecture](/lectures-exercises/react/lectures/lecture-react-3-overview.md)
 
 ## 
 
@@ -68,8 +68,8 @@
 * <a href="https://medium.com/javascript-scene/curry-and-function-composition-2c208d774983">Curry and function composition</a>
 
 #### Links
-* [Exercise](/content/react/exercises/exercise-react-4-functional.md)
-* [Lecture](/content/react/lectures/lecture-react-4-functional.md)
+* [Exercise](/lectures-exercises/react/exercises/exercise-react-4-functional.md)
+* [Lecture](/lectures-exercises/react/lectures/lecture-react-4-functional.md)
 
 ## 
 
@@ -83,8 +83,8 @@
 * <a href="https://reactjs.org/docs/introducing-jsx.html">React docs - JSX</a>
 
 #### Links
-* [Exercise](/content/react/exercises/exercise-react-5-jsx.md)
-* [Lecture](/content/react/lectures/lecture-react-5-jsx.md)
+* [Exercise](/lectures-exercises/react/exercises/exercise-react-5-jsx.md)
+* [Lecture](/lectures-exercises/react/lectures/lecture-react-5-jsx.md)
 
 ## 
 
@@ -102,8 +102,8 @@
 * <a href="https://reactjs.org/docs/components-and-props.html">React docs - Components & Props</a>
 
 #### Links
-* [Exercise](/content/react/exercises/exercise-react-6-elementsComponents.md)
-* [Lecture](/content/react/lectures/lecture-react-6-elementsComponents.md)
+* [Exercise](/lectures-exercises/react/exercises/exercise-react-6-elementsComponents.md)
+* [Lecture](/lectures-exercises/react/lectures/lecture-react-6-elementsComponents.md)
 
 ## 
 
@@ -122,8 +122,8 @@
 * <a href="https://reactjs.org/docs/react-component.html#setstate">React docs - SetState</a>
 
 #### Links
-* [Exercise](/content/react/exercises/exercise-react-7-stateLifecycle.md)
-* [Lecture](/content/react/lectures/lecture-react-7-stateLifecycle.md)
+* [Exercise](/lectures-exercises/react/exercises/exercise-react-7-stateLifecycle.md)
+* [Lecture](/lectures-exercises/react/lectures/lecture-react-7-stateLifecycle.md)
 
 ## 
 
@@ -140,8 +140,8 @@
 * <a href="https://reactjs.org/docs/handling-events.html">React docs - Handling events</a>
 
 #### Links
-* [Exercise](/content/react/exercises/exercise-react-8-events.md)
-* [Lecture](/content/react/lectures/lecture-react-8-events.md)
+* [Exercise](/lectures-exercises/react/exercises/exercise-react-8-events.md)
+* [Lecture](/lectures-exercises/react/lectures/lecture-react-8-events.md)
 
 ## 
 
@@ -155,8 +155,8 @@
 * <a href="https://angular.io/guide/http" target="_blank">Angular Http Client</a>
 
 #### Links
-* [Exercise](/content/react/exercises/exercise-react-9-stylingAssets.md)
-* [Lecture](/content/react/lectures/lecture-react-9-stylingAssets.md)
+* [Exercise](/lectures-exercises/react/exercises/exercise-react-9-stylingAssets.md)
+* [Lecture](/lectures-exercises/react/lectures/lecture-react-9-stylingAssets.md)
 
 ## 
 
@@ -173,8 +173,8 @@
 * <a href="https://reactjs.org/docs/lists-and-keys.html">Lists and keys Examples</a>
 
 #### Links
-* [Exercise](/content/react/exercises/exercise-react-10-conditionalLists.md)
-* [Lecture](/content/react/lectures/lecture-react-10-conditionalLists.md)
+* [Exercise](/lectures-exercises/react/exercises/exercise-react-10-conditionalLists.md)
+* [Lecture](/lectures-exercises/react/lectures/lecture-react-10-conditionalLists.md)
 
 ## 
 
@@ -189,8 +189,8 @@
 * <a href="https://reactjs.org/docs/forms.html" target="_blank">React docs - forms</a>
 
 #### Links
-* [Exercise](/content/react/exercises/exercise-react-11-forms.md)
-* [Lecture](/content/react/lectures/lecture-react-11-forms.md)
+* [Exercise](/lectures-exercises/react/exercises/exercise-react-11-forms.md)
+* [Lecture](/lectures-exercises/react/lectures/lecture-react-11-forms.md)
 
 ## 
 
@@ -208,8 +208,8 @@
 * <a href="https://reacttraining.com/react-router/" target="_blank">react-router docs</a>
 
 #### Links
-* [Exercise](/content/react/exercises/exercise-react-12-router.md)
-* [Lecture](/content/react/lectures/lecture-react-12-router.md)
+* [Exercise](/lectures-exercises/react/exercises/exercise-react-12-router.md)
+* [Lecture](/lectures-exercises/react/lectures/lecture-react-12-router.md)
 
 ## 
 
@@ -224,8 +224,8 @@
 * <a href="https://reactjs.org/docs/hooks-intro.html" target="_blank">Hooks react docs</a>
 
 #### Links
-* [Exercise](/content/react/exercises/exercise-react-13-hooks.md)
-* [Lecture](/content/react/lectures/lecture-react-13-hooks.md)
+* [Exercise](/lectures-exercises/react/exercises/exercise-react-13-hooks.md)
+* [Lecture](/lectures-exercises/react/lectures/lecture-react-13-hooks.md)
 
 ## 
 
@@ -245,8 +245,8 @@
 * <a href="https://www.carlrippon.com/writing-concise-react-components-with-destructure-assignment-and-spread/" target="_blank">In react</a>
 
 #### Links
-* [Exercise](/content/react/exercises/exercise-react-14-destructuringRestSpread.md)
-* [Lecture](/content/react/lectures/lecture-react-14-destructuringRestSpread.md)
+* [Exercise](/lectures-exercises/react/exercises/exercise-react-14-destructuringRestSpread.md)
+* [Lecture](/lectures-exercises/react/lectures/lecture-react-14-destructuringRestSpread.md)
 
 ## 
 
@@ -263,8 +263,8 @@
 * <a href="https://reactjs.org/docs/typechecking-with-proptypes.html">proptypes - React docs</a>        
 
 #### Links
-* [Exercise](/content/react/exercises/exercise-react-15-HOCsContextProptypes.md)
-* [Lecture](/content/react/lectures/lecture-react-15-HOCsContextProptypes.md)
+* [Exercise](/lectures-exercises/react/exercises/exercise-react-15-HOCsContextProptypes.md)
+* [Lecture](/lectures-exercises/react/lectures/lecture-react-15-HOCsContextProptypes.md)
 
 ## 
 
@@ -286,8 +286,8 @@
 * <a href="https://redux.js.org/basics/usage-with-react" target="_blank">With React</a>
 
 #### Links
-* [Exercise](/content/react/exercises/exercise-react-16-redux.md)
-* [Lecture](/content/react/lectures/lecture-react-16-redux.md)
+* [Exercise](/lectures-exercises/react/exercises/exercise-react-16-redux.md)
+* [Lecture](/lectures-exercises/react/lectures/lecture-react-16-redux.md)
 
 ## 
 

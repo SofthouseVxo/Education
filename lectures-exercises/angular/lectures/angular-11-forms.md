@@ -169,7 +169,7 @@ export class User {
 
 ---
 
-Each change to the form state returns a new state, which maintains the integrity of the model between changes. Reactive forms are built around observable streams, where form inputs and values are provided as streams of input values, which can be accessed synchronously. - <a href="https://github.com/angular/angular/blob/master/aio/content/guide/reactive-forms.md">Angular</a>
+Each change to the form state returns a new state, which maintains the integrity of the model between changes. Reactive forms are built around observable streams, where form inputs and values are provided as streams of input values, which can be accessed synchronously. - <a href="https://github.com/angular/angular/blob/master/aio/lectures-exercises/guide/reactive-forms.md">Angular</a>
 
 ---
 

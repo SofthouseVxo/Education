@@ -7,7 +7,7 @@
 * Course Literature
 
 ##### Links:
-* [Lecture](/content/angular/lectures/lecture-angular-1-intro.md)
+* [Lecture](/lectures-exercises/angular/lectures/lecture-angular-1-intro.md)
 
 
 ## 
@@ -27,8 +27,8 @@
 * <a href="https://www.freecodecamp.org/news/what-exactly-is-node-js-ae36e97449f5/" target="_blank">What exactly is * Node.js?
 
 ##### Links:
-* [Lecture](/content/angular/lectures/lecture-angular-2-prerequisites.md)
-* [Exercise](/content/angular/lectures/lecture-angular-2-prerequisites.md)
+* [Lecture](/lectures-exercises/angular/lectures/lecture-angular-2-prerequisites.md)
+* [Exercise](/lectures-exercises/angular/lectures/lecture-angular-2-prerequisites.md)
 
 ## 
 
@@ -47,8 +47,8 @@
 * <a href="https://angular.io/guide/glossary" target="_blank">Glossary</a>
 
 ##### Links:
-* [Lecture](/content/angular/lectures/lecture-angular-3-overview.md)
-* [Exercise](/content/angular/lectures/lecture-angular-3-overview.md)
+* [Lecture](/lectures-exercises/angular/lectures/lecture-angular-3-overview.md)
+* [Exercise](/lectures-exercises/angular/lectures/lecture-angular-3-overview.md)
 
 ## 
 
@@ -69,8 +69,8 @@
 * <a href="https://angular.io/guide/component-interaction" target="_blank">Component interaction</a>
 
 ##### Links:
-* [Lecture](/content/angular/lectures/lecture-angular-4-components.md)
-* [Exercise](/content/angular/lectures/lecture-angular-4-components.md)
+* [Lecture](/lectures-exercises/angular/lectures/lecture-angular-4-components.md)
+* [Exercise](/lectures-exercises/angular/lectures/lecture-angular-4-components.md)
 
 ## 
 
@@ -87,8 +87,8 @@
 * <a href="https://angular.io/guide/component-styles" target="_blank">Component styles</a>
 
 ##### Links:
-* [Lecture](/content/angular/lectures/lecture-angular-5-components-cont.md)
-* [Exercise](/content/angular/lectures/lecture-angular-5-components-cont.md)
+* [Lecture](/lectures-exercises/angular/lectures/lecture-angular-5-components-cont.md)
+* [Exercise](/lectures-exercises/angular/lectures/lecture-angular-5-components-cont.md)
 
 ## 
 
@@ -104,8 +104,8 @@
 * <a href="https://angular.io/guide/structural-directives" target="_blank">Structural Directives</a>
 
 ##### Links:
-* [Lecture](/content/angular/lectures/lecture-angular-6-directives.md)
-* [Exercise](/content/angular/lectures/lecture-angular-6-directives.md)
+* [Lecture](/lectures-exercises/angular/lectures/lecture-angular-6-directives.md)
+* [Exercise](/lectures-exercises/angular/lectures/lecture-angular-6-directives.md)
 
 ## 
 
@@ -123,8 +123,8 @@
 * <a href="https://angular.io/guide/entry-components">Entry components</a>
 
 ##### Links:
-* [Lecture](/content/angular/lectures/lecture-angular-7-modules.md)
-* [Exercise](/content/angular/lectures/lecture-angular-7-modules.md)
+* [Lecture](/lectures-exercises/angular/lectures/lecture-angular-7-modules.md)
+* [Exercise](/lectures-exercises/angular/lectures/lecture-angular-7-modules.md)
 
 ## 
 
@@ -141,8 +141,8 @@
 * <a href="https://angular.io/api?type=pipe" target="_blank">Pipe API reference (list of all pipes)</a>
 
 ##### Links:
-* [Lecture](/content/angular/lectures/lecture-angular-8-pipes.md)
-* [Exercise](/content/angular/lectures/lecture-angular-8-pipes.md)
+* [Lecture](/lectures-exercises/angular/lectures/lecture-angular-8-pipes.md)
+* [Exercise](/lectures-exercises/angular/lectures/lecture-angular-8-pipes.md)
 
 ## 
 
@@ -157,8 +157,8 @@
 * <a href="https://angular.io/guide/dependency-injection" target="_blank">Dependency injection</a>
 
 ##### Links:
-* [Lecture](/content/angular/lectures/lecture-angular-9-services.md)
-* [Exercise](/content/angular/lectures/lecture-angular-9-services.md)
+* [Lecture](/lectures-exercises/angular/lectures/lecture-angular-9-services.md)
+* [Exercise](/lectures-exercises/angular/lectures/lecture-angular-9-services.md)
 
 ## 
 
@@ -178,8 +178,8 @@
 * <a href="https://angular.io/guide/router" target="_blank">Angular Forms</a>
 
 ##### Links:
-* [Lecture](/content/angular/lectures/lecture-angular-10-routing.md)
-* [Exercise](/content/angular/lectures/lecture-angular-10-routing.md)
+* [Lecture](/lectures-exercises/angular/lectures/lecture-angular-10-routing.md)
+* [Exercise](/lectures-exercises/angular/lectures/lecture-angular-10-routing.md)
 
 ## 
 
@@ -200,8 +200,8 @@
 * <a href="https://angular.io/guide/form-validation" target="_blank">Forms validation</a>
 
 ##### Links:
-* [Lecture](/content/angular/lectures/lecture-angular-11-forms.md)
-* [Exercise](/content/angular/lectures/lecture-angular-11-forms.md)
+* [Lecture](/lectures-exercises/angular/lectures/lecture-angular-11-forms.md)
+* [Exercise](/lectures-exercises/angular/lectures/lecture-angular-11-forms.md)
 
 ## 
 
@@ -220,8 +220,8 @@
 * <a href="https://angular.io/guide/http" target="_blank">Angular Http Client</a>
 
 ##### Links:
-* [Lecture](/content/angular/lectures/lecture-angular-12-httpRxjs.md)
-* [Exercise](/content/angular/lectures/lecture-angular-12-httpRxjs.md)
+* [Lecture](/lectures-exercises/angular/lectures/lecture-angular-12-httpRxjs.md)
+* [Exercise](/lectures-exercises/angular/lectures/lecture-angular-12-httpRxjs.md)
 
 ## 
 

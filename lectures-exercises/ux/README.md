@@ -7,7 +7,7 @@
 * Litteratur
 
 #### Links:
-* [Lecture](new/content/ux/lectures/lecture-ux-1-introduction.md)
+* [Lecture](new/lectures-exercises/ux/lectures/lecture-ux-1-introduction.md)
 
 ## 
 
@@ -25,7 +25,7 @@
 * <a href="https://medium.com/sketch-app-sources/what-is-a-design-process-f99993537545" target="_blank">What is a design process?</a>
 
 #### Links:
-* [Lecture](new/content/ux/lectures/lecture-ux-2-design.md)
+* [Lecture](new/lectures-exercises/ux/lectures/lecture-ux-2-design.md)
 
 ## 
 
@@ -46,8 +46,8 @@
 * <a href="https://medium.com/omarelgabrys-blog/ux-a-quick-glance-about-the-5-elements-of-user-experience-part-2-a0da8798cd52" target="_blank">5 planes of UX</a>
 
 #### Links
-* [Exercise](new/content/ux/exercises/exercise-ux-3-user-experience.md)
-* [Lecture](new/content/ux/lectures/lecture-ux-3-user-experience.md)
+* [Exercise](new/lectures-exercises/ux/exercises/exercise-ux-3-user-experience.md)
+* [Lecture](new/lectures-exercises/ux/lectures/lecture-ux-3-user-experience.md)
 
 ## 
 
@@ -68,7 +68,7 @@
 * <a href="https://www.justinmind.com/blog/capturing-ux-requirements-in-6-simple-steps/" target="_blank">Capturing requirements</a>
 
 #### Links:
-* [Lecture](new/content/ux/lectures/lecture-ux-4-strategy-scope.md)'
+* [Lecture](new/lectures-exercises/ux/lectures/lecture-ux-4-strategy-scope.md)'
 
 ## 
 
@@ -91,8 +91,8 @@
 * <a href="https://www.simplypsychology.org/maslow.md)" target="_blank">Maslow’s pyramid of needs</a>
 
 #### Links
-* [Exercise](new/content/ux/exercises/exercise-ux-5-users.md)
-* [Lecture](new/content/ux/lectures/lecture-ux-5-user-centered.md)'
+* [Exercise](new/lectures-exercises/ux/exercises/exercise-ux-5-users.md)
+* [Lecture](new/lectures-exercises/ux/lectures/lecture-ux-5-user-centered.md)'
 
 ## 
 
@@ -119,8 +119,8 @@
 * <a href="https://www.designprinciplesftw.com" target="_blank">Design Principles FTW</a>
 
 #### Links
-* [Exercise](new/content/ux/exercises/exercise-ux-6-wireProto.md)
-* [Lecture](new/content/ux/lectures/lecture-ux-6-wireframes-prototypes.md)
+* [Exercise](new/lectures-exercises/ux/exercises/exercise-ux-6-wireProto.md)
+* [Lecture](new/lectures-exercises/ux/lectures/lecture-ux-6-wireframes-prototypes.md)
 
 ## 
 
@@ -143,7 +143,7 @@
 * <a href="https://sv.surveymonkey.com/mp/quantitative-vs-qualitative-research/" target="_blank">Kvantitativt och Kvalitativt)</a>
 
 #### Links:
-* [Lecture](new/content/ux/lectures/lecture-ux-7-test-evaluation.md)
+* [Lecture](new/lectures-exercises/ux/lectures/lecture-ux-7-test-evaluation.md)
 
 ## 
 
@@ -164,8 +164,8 @@
 * <a href="https://www.w3schools.com/graphics/svg_intro.asp">SVG on w3schools</a>
 
 #### Links
-* [Exercise](new/content/ux/exercises/exercise-ux-8-images.md)
-* [Lecture](new/content/ux/lectures/lecture-ux-8-images.md)
+* [Exercise](new/lectures-exercises/ux/exercises/exercise-ux-8-images.md)
+* [Lecture](new/lectures-exercises/ux/lectures/lecture-ux-8-images.md)
 
 ## 
 
@@ -180,7 +180,7 @@
 * <a href="https://www.photoshopessentials.com/basics/" target="_blank">Photoshop essentials övningar</a>
 
 #### Links:
-* [Lecture](new/content/ux/lectures/lecture-ux-9-image-editing.md)'
+* [Lecture](new/lectures-exercises/ux/lectures/lecture-ux-9-image-editing.md)'
 
 ## 
 
@@ -194,4 +194,4 @@
 * <a href="https://medium.com/drill/learning-the-basics-of-adobe-xd-in-one-hour-3537f3ac02a3" target="_blank">Learn Adobe XD in 1 hour</a>
 
 * [Adobe tutorial](https://helpx.adobe.com/se/xd/tutorials.md)
-* [Lecture](new/content/ux/lectures/lecture-ux-10-prototyping.md)
+* [Lecture](new/lectures-exercises/ux/lectures/lecture-ux-10-prototyping.md)
