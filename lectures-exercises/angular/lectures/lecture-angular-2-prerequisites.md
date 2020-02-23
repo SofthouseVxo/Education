@@ -9,10 +9,22 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
 #### Single Page vs Multi page applications
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -38,6 +50,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Cons - multi page applications
@@ -45,6 +63,12 @@
 * Updating a website can be more timeconsuming, need to update all sites.
 * If there is a lot of content on each page, this will result in long loading times.
 * It is harder to adapt to mobile, since mobiles have less screen sizes, then there is more scrolling and reloading a page when scrolled to the bottom will result in the user being thrown to the top again.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -72,6 +96,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Cons - Single page applications
@@ -89,9 +119,21 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Libraries & Frameworks
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -118,6 +160,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### What is a framework?
@@ -126,6 +174,12 @@
 * Web frameworks -> standard way to build and deploy web applications.
 * Frameworks often use different libraries.
 * Web frameworks -> database access, templating, session management and code reuse.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -153,6 +207,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Framework vs library metaphor
@@ -167,9 +227,21 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
   
 #### Different frontend Libraries/frameworks
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -196,6 +268,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Which one to choose?
@@ -204,6 +282,12 @@
 * Learn one and others will be easier to master.
 * It is very complex and expensive to port a platform to a different framework. (that's why a lot of companies use older frameworks and versions).
 * Different parts of an application can be using different tools.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -228,12 +312,24 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
   
 
 #### MVC
 <img style="width: 800px;" src="/media/mvc.png" alt="mvc overview">
   
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -259,6 +355,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
   
 #### View:
@@ -267,6 +369,12 @@
 * It displays data using the model to the user.
 * Make it possible for the user to modilfy the data.
   
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -292,9 +400,21 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Node.js & Npm
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -323,6 +443,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
@@ -331,6 +457,12 @@
 * To use need Node you need to download and install it on a machine first.
 * <a href="https://nodejs.org/en/" target="_blank">Download</a> (LTS = Long Term Support)
   
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -358,11 +490,23 @@ $ npm install npm@latest -g
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Npm
 #### Node Package Manager
 #### <a href="https://www.npmjs.com/">Web page</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -384,6 +528,12 @@ $ npm install npm@latest -g
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
@@ -393,6 +543,12 @@ $ npm install npm@latest -g
 * Handles which modules are dependent on which
 * Imports modules in correct order
   
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -421,6 +577,12 @@ $ npm install --save-dev <module>  // installs a node module and saves it as a d
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Basic npm commands
@@ -429,6 +591,12 @@ $ npm install --save-dev <module>  // installs a node module and saves it as a d
 $ npm i bootstrap@4.0.0 --save // installs the 4.0.0 version of bootstrap
 $ npm i typescript --save-dev // installs typescript and since typescript is only needed in the development phase we set -dev
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -451,11 +619,23 @@ $ npm i typescript --save-dev // installs typescript and since typescript is onl
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
   
 * package.json - is a JSON file containing which modules that are needed in your project along with other information
 * /node_modules - folder where your modules are stored
   
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -472,6 +652,12 @@ $ npm i typescript --save-dev // installs typescript and since typescript is onl
 * Easier to see the code when using Npm
 * Using a CDN means another request to the server, you might have multiple.
   
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -497,6 +683,12 @@ $ npm i typescript --save-dev // installs typescript and since typescript is onl
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
@@ -514,9 +706,21 @@ $ npm i typescript --save-dev // installs typescript and since typescript is onl
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Webpack
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -544,10 +748,22 @@ $ npm i typescript --save-dev // installs typescript and since typescript is onl
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
 #### Typescript
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -575,11 +791,23 @@ $ npm i typescript --save-dev // installs typescript and since typescript is onl
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Typed language
 
 In typed language we define the type of all variables which are known at either compile time or runtime.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -600,6 +828,12 @@ $ cd tscproj
 $ touch index.ts
 $ tsc index.ts
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

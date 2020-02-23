@@ -10,10 +10,22 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Struktur
 <img src="/media/ux-images/ux-6/structure.png" alt="Structure plane">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -36,10 +48,22 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Vilka skärmar består applikationen av?
 <img src="/media/ux-images/ux-6/screens.png" alt="Application screens">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -62,10 +86,22 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Process
 <img src="/media/ux-images/ux-6/iterativ-proto.png" alt="Skeleton plane">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -93,10 +129,22 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Ytan
 <img src="/media/ux-images/ux-6/surface.png" alt="Surface plane">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -127,6 +175,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Varför använda prototyper?
@@ -134,6 +188,12 @@
 * När de används korrekt kan de spara mycket tid och pengar.
 * Man kan prova applikationer, koncept på användarna innan man har lagt hundratals/tusentals timmar på utveckling.
 * Man kan undersöka hur användaren reagerar eller förstår produkten.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -159,6 +219,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Typer av prototyper
@@ -174,11 +240,23 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Pappersprototyper
 <img style="width: 500px;" src="/media/ux-images/ux-6/paper1.jpg" alt="Paper prototype">
 <img style="width: 250px;" src="/media/ux-images/ux-6/paper2.jpg" alt="Paper prototype">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -207,6 +285,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Digitala prototyper (high fidelity)
@@ -217,6 +301,12 @@
   * style="list-style: none;">+ Bra vid usability tester.
   * style="list-style: none;">- Tar mer tid och resurser.
   * style="list-style: none;">- Kan misstas för den slutliga produkten.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -239,6 +329,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Gränssnitt - Interface
@@ -247,6 +343,12 @@
 * Fysiskt kan det handla om att trycka på en knapp på en enhet.
 * Perceptuellt - Se saker på en skärm eller höra ljud.
 * 99% av det man designar har ett gränssnitt som någon form av användare kommer i kontakt med.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -278,12 +380,24 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Gestaltlagar
 
 * <a href="https://www.interaction-design.org/literature/topics/gestalt-principles">Gestalt Principles</a>
 * <a href="http://thenest.nu/grundlaggande-webbdesign-principer">Gestaltlagar</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -312,6 +426,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Designprinciper
@@ -330,6 +450,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Gränssnittskomponent
@@ -337,6 +463,12 @@
 * En grundläggande komponent som används vid uppbyggnad av ett grafiskt användargränssnit.
 * Kan ibland kallas för widget.
 * Exempel kan vara: checkboxes, radio buttons, dropdown lists, buttons, toggles, text fields, tooltips, icons, progress bar, notifications, message boxes, modal windows..
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

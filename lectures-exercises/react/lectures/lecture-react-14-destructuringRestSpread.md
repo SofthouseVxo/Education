@@ -10,6 +10,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Rest
@@ -22,6 +28,12 @@ function myFunc (x, y, ...a) {
 
 myFunc(1, 2, 33, 44, 55);
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -50,6 +62,12 @@ myFunc({id: 1, name: 'robin', age: 12, gender: 'male'});
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
@@ -68,6 +86,12 @@ myFunc({id: 1, name: 'robin', age: 12, gender: 'male'});
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Without Spread
@@ -77,6 +101,12 @@ var bar = [1,2, foo, 5, 6];
 console.log(bar);
 // output?
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -105,6 +135,12 @@ console.log(bar);
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  With Spread
@@ -114,6 +150,12 @@ var bar = [1,2, ...foo, 5, 6];
 console.log(bar);
 // [1,2,33,44,5,6]
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -145,9 +187,21 @@ console.log(newState2); // {id: 2, user: 'robin', age:28}
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### <a href="https://thecodebarbarian.com/object-assign-vs-object-spread.html" target="_blank">Spread & Object Assign</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -173,6 +227,12 @@ console.log(newState2); // {id: 2, user: 'robin', age:28}
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Destructuring array
@@ -182,6 +242,12 @@ console.log(newState2); // {id: 2, user: 'robin', age:28}
 
 console.log(theRest); // [30, 40, 50]
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -211,6 +277,12 @@ console.log(first, last) // 'Jane', 'Doe'
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Destructure an Object
@@ -222,6 +294,12 @@ const {first, last} = obj; // first = 'Jane'; last = 'Doe'
 console.log(first); // 'Jane'
 console.log(last); // 'Doe'
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -243,6 +321,12 @@ const {first: f, last: l} = obj;
 console.log(f); // 'Jane'
 console.log(l); // 'Doe'
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -274,6 +358,12 @@ const {
 console.log(zipcode); // 23434
 console.log(address); // address is not defined
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

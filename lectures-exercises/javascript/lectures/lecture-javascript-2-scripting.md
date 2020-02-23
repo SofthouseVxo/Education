@@ -9,6 +9,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### HTML, CSS and JavaScript
@@ -16,6 +22,12 @@
 * HTML is used to create the basic structure and content of a webpage (the skeleton).
 * CSS is used for the design of a webpage – where everything is placed and how it looks (body).
 * **JavaScript is used to define the interactive elements of a webpage making it dynamic (muscles).**
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -43,9 +55,21 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 “Everyone in this country should learn to program a computer, because it teaches you to think.” - Steve Jobs
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -67,6 +91,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Different types of code
@@ -74,6 +104,12 @@
 * Low-level Machine code
 * High level language
 * Scripting language
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -100,6 +136,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### High-level language
@@ -108,6 +150,12 @@
 * Can run on different computers and operating systems in different environments (JVM for Java).
 * Gets compiled to machine code.
 * C, C++, Objective-C, Java.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -133,6 +181,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Interpreter
@@ -141,6 +195,12 @@
 * This is done line by line on the fly.
 * Think of a human translator translating what you say, after you said one sentence she writes down the translation then hands it over to the computer.
 * Every time you speak a new sentence, even if it's the same as before, she will write it down again and hand it over.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -168,6 +228,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Interpreter vs Compiler
@@ -177,6 +243,12 @@
 * Compiled Java code that produce a portable (binary) representation of the program is distributed for execution later.
 * With JavaScript we distribute the source code, not the binary form.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -202,6 +274,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Java flow
@@ -215,10 +293,22 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### JavaScript flow
 <img  src="/media/javascript-images/javascript-2/js.png" alt="js">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -245,6 +335,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### What is JavaScript?
@@ -253,6 +349,12 @@
 * JavaScript code is written into an HTML page and **interpreted** by the browser.
 * With Runtime environments like **Node.js**, JavaScript can run on machines as well.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -280,6 +382,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### JavaScript & Java
@@ -297,6 +405,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### ECMAScript & JavaScript
@@ -305,6 +419,12 @@
 * JavaScript is the most popular implementation of the ECMAScript Standard.
 * Languages like Javascript are based on the ECMAScript standard.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -334,6 +454,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### New editions
@@ -342,6 +468,12 @@
 * These changes have gone through a process with several steps before being accepted by the TC39 committee.
 * The TC39 committe consists of between 50-100 different people from web-invested companies like browser and device makers.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -365,11 +497,23 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Soo.. What is a script?
 A script is a series of instructions that a computer can follow to achieve a goal.
 Like a recipe.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -387,6 +531,12 @@ Like a recipe.
 1. Design the script
 1. Code each step
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -415,6 +565,12 @@ Like a recipe.
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Vocabulary & Syntax
@@ -422,6 +578,12 @@ Like a recipe.
 * **Vocabulary** - Words that computers understand.
 * **Syntax** - How to put those words together to create instructions.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -452,6 +614,12 @@ Like a recipe.
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Creating JavaScript
@@ -462,6 +630,12 @@ Like a recipe.
   * A seperate file (.js) which is loaded from a HTML file.
 	
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -502,6 +676,12 @@ Like a recipe.
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Loading and Running JavaScript
@@ -533,6 +713,12 @@ Like a recipe.
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### HTML parsing – analyzing & interpretation
@@ -543,6 +729,12 @@ Like a recipe.
 1. HTML parsing continues.
 
 The above is called Direct, this can be also be done asynchronosly, meaning the parser continues while loading the script.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -573,10 +765,22 @@ The above is called Direct, this can be also be done asynchronosly, meaning the 
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Web Console
 <img style="margin-top: 0px;" src="/media/javascript-images/javascript-2/webconsole.png" alt="web console">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -598,6 +802,12 @@ The above is called Direct, this can be also be done asynchronosly, meaning the 
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Documentations
@@ -605,6 +815,12 @@ The above is called Direct, this can be also be done asynchronosly, meaning the 
 * <a href="https://www.w3schools.com/js/default.asp" target="_blank">W3schools</a>
 * <a href="https://developer.mozilla.org/sv-SE/" target="_blank">MDN</a>
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

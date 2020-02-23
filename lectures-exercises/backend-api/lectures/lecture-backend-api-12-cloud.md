@@ -8,6 +8,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Purpose and Scope
@@ -26,11 +32,23 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### What is “Public Cloud”
 It’s globally distributed compute connected via networks.
 <img src="/media/backend-api-images/backend-api-12/public.png" alt="public cloud">
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -64,6 +82,12 @@ A comparison between the biggest providers
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
@@ -84,11 +108,23 @@ Everything is a cloud nowadays...
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Managed Services
 Services are available on demand using APIs
 <img src="/media/backend-api-images/backend-api-12/services.png" alt="services">
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -115,6 +151,12 @@ Run your own datacenter
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Infrastructure as a Service (IAAS)
@@ -124,6 +166,12 @@ Run virtual machines.
 * Runs on one or more machines provided by someone else
 * Behaves like a single physical server
 * Install operating system, applications, patching etc
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -157,6 +205,12 @@ Specialized hosting to do one thing only.
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Software as a Service (SAAS)
@@ -167,6 +221,12 @@ A Service you use, or provide.
 * Basically a hosted web service providing APIs and/or Frontends
 * You manage nothing, just use the service
 * Generally use API keys to get access
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -201,6 +261,12 @@ docker run -d -p 27017:27017 mongo
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Kubernetes
@@ -214,6 +280,12 @@ Container Orchestration Platform
 * Configure how container services interact to provide your solution
 * Single definition of your entire service
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -244,6 +316,12 @@ Container Orchestration Platform
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### 
@@ -251,6 +329,12 @@ Container Orchestration Platform
 Windows: choco install gcloudsdk (admin cmd)
 MacOS: brew cask install google-cloud-sdk
 Linux: don’t use the package manager: https://cloud.google.com/sdk/install
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -273,6 +357,12 @@ Create an account at:
 * [https://console.cloud.google.com](https://console.cloud.google.com)
 
 ACTIVATE FREE TRIAL
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

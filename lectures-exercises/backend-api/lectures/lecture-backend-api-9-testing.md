@@ -8,6 +8,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Purpose and Scope
@@ -16,6 +22,12 @@
 * Why do we test.
 * What kinds of testing do we do.
 * What does it actually look like in real life.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -43,6 +55,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### What kinds of testing do we do
@@ -54,6 +72,12 @@ Testing is an integrated part of development
 * Integration testing
 * Verification and Validation
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -87,6 +111,12 @@ Test individual units of source code, together with associated control data, usa
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Unit Tests - Test Driven Development (TDD)
@@ -97,6 +127,12 @@ Write tests first, then code
 * Helps you break down problems into testable chunks
 * Architecture and consistency as an afterthought
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -129,6 +165,12 @@ An Agile software development process that encourages collaboration between deve
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Integration Testing
@@ -149,6 +191,12 @@ When testing for the complete behavior of a product. Where all individual softwa
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Verification and Validation
@@ -157,6 +205,12 @@ Before Software is Released into Production
 * Validation: Assurance that a product, service, or system meets the needs of the customer.
 * Verification: The evaluation of whether or not a product, service, or system complies with a regulation, requirement, specification, or imposed condition.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -189,6 +243,12 @@ Depends on the size and testing maturity of the company.
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 				
 
@@ -199,6 +259,12 @@ Depends on the size and testing maturity of the company.
 * Switching mindsets isn’t easy
 
 <a href="https://youtu.be/IGQmdoK_ZfY?t=4" target="_blank">Movie time</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

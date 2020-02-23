@@ -9,6 +9,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  What is an Array?
@@ -21,6 +27,12 @@ var prices = [59, 132, 99];
 var vehicles = ['car', 'motorcycle', 'bus'];
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -52,6 +64,12 @@ var vehicles = new Array('car', 'motorcycle', 'bus');
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Arrays
@@ -63,6 +81,12 @@ var firstValue = prices[0]; // firstValue = 2
 var secondValue = prices[1]; // secondValue = 4
 var thirdValue = prices[2]; // thirdValue = 15
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -89,6 +113,12 @@ var thirdValue = prices[2]; // thirdValue = 15
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---        
 
 
@@ -99,6 +129,12 @@ var thirdValue = prices[2]; // thirdValue = 15
 var prices = [2, 4, 15];
 console.log(prices.length); // 3
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -128,6 +164,12 @@ console.log(prices); // [undefined, undefined, undefined]
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Changing values in an array
@@ -139,6 +181,12 @@ prices[2] = 18;
 console.log(prices); // [2, 4, 18]
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -174,6 +222,12 @@ prices.length = 0;
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Adding and Removing elements in arrays
@@ -190,6 +244,12 @@ numbersArray.push(99); // [2, 4, 15, 99]
 numbersArray.pop(); // [2, 4, 15]
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -224,6 +284,12 @@ console.log(myArray);       // will print out 0,1,2,8,9
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Convert an Array to a string
@@ -237,6 +303,12 @@ var fruitString = fruits.toString();
 console.log(fruitString); // Banana,Orange,Apple,Mango
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -268,6 +340,12 @@ var bigger = 10 > 5; // bigger = true and > is the operator
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Operators
@@ -280,6 +358,12 @@ var bigger = 10 > 5; // Comparison operator
 var buy = (5 > 3) && (2 < 4) // Locical operator
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -315,6 +399,12 @@ var buy = (5 > 3) && (2 < 4) // Locical operator
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Arithmetic operators
@@ -340,6 +430,12 @@ result2 -= 2 // 6
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  String operator
@@ -351,6 +447,12 @@ var result = '4' + '5';           // '45'
 var result2 = '4' * '5';          // 20
 var sentence = 'I ' + 'am ' + 45; // 'I am 45'
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

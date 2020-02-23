@@ -9,8 +9,20 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### A Brief History of APIs and Service composition
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -30,6 +42,12 @@ Why are we listening to this, and what is the takeaway:
 * Understand what kind of problems current technologies address
 
 * Keep Calm and Carry on! One foot in front of the other!
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -59,6 +77,12 @@ Why are we listening to this, and what is the takeaway:
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Dynamic HTML with Database
@@ -76,6 +100,12 @@ Why are we listening to this, and what is the takeaway:
 </ul>	
 
 <img style="position: absolute; top: 50px; right: 50px;" src="/media/backend-api-images/backend-api-8/two.png" alt="history">
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -116,6 +146,12 @@ Why are we listening to this, and what is the takeaway:
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
@@ -146,6 +182,12 @@ Why are we listening to this, and what is the takeaway:
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Application programming interface (API)
@@ -160,6 +202,12 @@ Why are we listening to this, and what is the takeaway:
 </ul>
 
 <img style="position: absolute; top: 50px; right: 30px;" src="/media/backend-api-images/backend-api-8/four.png" alt="history">
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -184,6 +232,12 @@ Why are we listening to this, and what is the takeaway:
 	<li>Functional responsibility (database, protocol) etc does not map to user features.</li>
 </ul>				
 </ul>
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -217,11 +271,23 @@ Why are we listening to this, and what is the takeaway:
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### It’s not Just About Users
 
 <img src="/media/backend-api-images/backend-api-8/five.png" alt="history">
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -261,12 +327,24 @@ Why are we listening to this, and what is the takeaway:
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
 #### Service Oriented Architecture (SOA)
 
 <img src="/media/backend-api-images/backend-api-8/six.png" alt="history">
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -303,12 +381,24 @@ Why are we listening to this, and what is the takeaway:
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
 #### Microservices and Service Discovery
 
 <img src="/media/backend-api-images/backend-api-8/six.png" alt="history">
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -331,6 +421,12 @@ Software is about managing complexity:
 
 * Standing on the shoulder of giants, it may feel like a lot to take in - but
 * You don’t need to understand all at once, just one service at a time...
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

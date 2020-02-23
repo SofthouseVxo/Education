@@ -9,10 +9,22 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ### RxJS
 #### Reactive Extensions
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -28,6 +40,12 @@
 
 * To grasp some overall RxJS concepts and to be able to use Angulars HttpClient in a basic way.
 * Not to be a RxJS pro, we could have spent weeks expoloring RxJS itself.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -54,6 +72,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 "RxJS is a library for composing asynchronous and event-based programs by using observable sequences." - <a href="https://rxjs-dev.firebaseapp.com/guide/overview" target="_blank">RxJS Documentation</a>
@@ -66,9 +90,21 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 <img src="/media/angular-images/angular-12/pushpull2.png" alt="push and pull">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -93,12 +129,24 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### What is Push?
 
 * "What is Push? In Push systems, the Producer determines when to send data to the Consumer. The Consumer is unaware of when it will receive that data." - <a href="https://rxjs-dev.firebaseapp.com/guide/observable">RxJSDocumentation</a>
 * "Promises are the most common type of Push system in JavaScript today. A Promise (the Producer) delivers a resolved value to registered callbacks (the Consumers), but unlike functions, it is the Promise which is in charge of determining precisely when that value is "pushed" to the callbacks." - <a href="https://rxjs-dev.firebaseapp.com/guide/observable">RxJSDocumentation</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -127,6 +175,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Observables
@@ -137,6 +191,12 @@ RxJS introduces Observables, a new Push system for JavaScript. An Observable is 
 * A Promise is a computation that may (or may not) eventually return a single value.
 * An Observable is a lazily evaluated computation that can synchronously or asynchronously return zero to (potentially) infinite values from the time it's invoked onwards.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -160,6 +220,12 @@ var observable = Rx.Observable.create(function (observer) {
   }, 1000);
 });
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -194,9 +260,21 @@ Rx.Observable.fromEvent(button, 'click')
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 <img src="/media/angular-images/angular-12/promisevsobs.png" alt="observable vs promise">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -221,6 +299,12 @@ var observer = {
 ```
 Observers are just objects with three callbacks, one for each type of notification that an Observable may deliver.
 <a href="http://reactivex.io/rxjs/manual/overview.html#observer">RxJSDocumentation</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -256,6 +340,12 @@ subscription.unsubscribe();
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ### Subjects
@@ -264,6 +354,12 @@ An RxJS Subject is a special type of Observable that allows values to be multica
 While plain Observables are unicast (each subscribed Observer owns an independent execution of the Observable), Subjects are multicast.
 
 Subjects are like EventEmitters: they maintain a registry of many listeners.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -297,12 +393,24 @@ subject.next(2);
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Operators
 
 * Most operators operate on an Observable and return an Observable. This allows you to apply these operators one after the other, in a chain.
 * <a href="http://reactivex.io/documentation/operators.html">Complete list</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -328,6 +436,12 @@ subject.next(2);
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### HttpClient
@@ -336,6 +450,12 @@ Angular’s HttpClient returns observables from HTTP method calls.
 * HTTP requests are cancellable through the unsubscribe() method.
 * Requests can be configured to get progress event updates.
 * Failed requests can be retried easily.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -367,6 +487,12 @@ imports: [
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Angular HttpClient
@@ -374,6 +500,12 @@ imports: [
 * Simplified client HTTP API for Angular applications that rests on the XMLHttpRequest interface exposed by browsers.
 
 * Observable API's, and streamlined error handling.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -400,6 +532,12 @@ imports: [
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 <img src="/media/angular-images/angular-12/get.png" alt="get n stuff">
@@ -412,9 +550,21 @@ imports: [
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 <img src="/media/angular-images/angular-12/put.png" alt="put n stuff">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

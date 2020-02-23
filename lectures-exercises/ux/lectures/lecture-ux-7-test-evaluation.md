@@ -9,9 +9,21 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Fungerar min design som förväntat?
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -25,6 +37,12 @@
 
 #### Process - testa
 <img src="/media/ux-images/ux-7/iterativ-test.png" alt="Process testing">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -54,6 +72,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Viktiga frågor innan man börjar testa?
@@ -63,6 +87,12 @@
 * Varför och vad testar vi?
 * Hur testar vi, ställer vi rätt frågor till passande personer?
 * Representerar de vår målgrupp?
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -91,6 +121,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Vad är användartester?
@@ -98,6 +134,12 @@
 * Det innebär att vi involverar tilltänkta användare i designprocessen.
 * Låter användaren testa våra koncept/prototyper/produkter.
 * Ger användaren chansen att tycka till, detta i sin tur kan påverka våra designbeslut.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -122,6 +164,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Kvalitativa och kvalitativa undersökningar
@@ -137,12 +185,24 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Kvalitativa och kvalitativa undersökningar
 #### Definition av kvalitativ undersökning
 "Kvalitativa data samlar in information som beskriver ett ämne snarare än mäter det. Det kan vara intryck, åsikter och synpunkter. En kvalitativ enkät är inte så strukturerad: målet är att göra en djupdykning i ämnet för att samla information om människors motivation, tankesätt och attityder. Detta ger en djupare förståelse av frågorna, men det gör också att resultaten blir svårare att analysera."
 <a href="https://sv.surveymonkey.com/mp/quantitative-vs-qualitative-research/">- Survey monkey</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -170,6 +230,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Exempel på kvalitativa metoder
@@ -180,6 +246,12 @@
 * **Fokusgrupper.** Konversationer på plats eller online med små grupper för att höra vad de tycker om en produkt eller ett ämne.
 * **Öppna enkätfrågor.** En textruta i en enkät där den svarande kan ge sina synpunkter på ämnet i sina egna ord.
 * **Observationsstudier.** Observera människor i deras dagliga liv för att till exempel förstå hur de använder en viss produkt.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -204,6 +276,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Vad kan vi testa?
@@ -212,6 +290,12 @@
 * Jämföra olika lösningar.
 * Studera beteénden.
 * Vad användaren tycker om.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -240,6 +324,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Testmiljöer
@@ -247,6 +337,12 @@
 * Kontrollerade miljöer - Labbmiljöer
 * Live - Samla data från en applikation eller liknande när användaren använder applikationen ute i verkliga livet.
 * Guidad eller icke guidad testning.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -275,6 +371,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Olika testmetoder
@@ -294,6 +396,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Olika testmetoder
@@ -303,6 +411,12 @@
 * **Diary/Camera Studies:** participants are given a mechanism (diary or camera) to record and describe aspects of their lives that are relevant to a product or service, or simply core to the target audience; diary studies are typically longitudinal and can only be done for data that is easily recorded by participants.
 
 <a href="https://www.nngroup.com/articles/which-ux-research-methods/">Christian Rohrer (NN-group)</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -331,6 +445,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Olika testmetoder
@@ -340,6 +460,12 @@
 * **True-Intent Studies:** a method that asks random site visitors what their goal or intention is upon entering the site, measures their subsequent behavior, and asks whether they were successful in achieving their goal upon exiting the site.
 
 <a href="https://www.nngroup.com/articles/which-ux-research-methods/">Christian Rohrer (NN-group)</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -366,10 +492,22 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Process - Utvärdera
 <img src="/media/ux-images/ux-7/iterativ-eval.png" alt="Process evaluation">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -397,6 +535,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Analysera resultat
@@ -404,6 +548,12 @@
 * Varför fick vi resultaten vi fick?
 * Finns det någon aspekt som gör att vi inte kan dra slutsatser från testerna? (var det representativa användare, var det tillräckligt många osv.).
 * Prioritera åtgärder och förändringar.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

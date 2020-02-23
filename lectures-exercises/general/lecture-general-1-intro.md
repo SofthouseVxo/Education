@@ -8,6 +8,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Who am I?
@@ -25,9 +31,21 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### What is a front end developer?
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -50,11 +68,23 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 --- 
 
 #### What is a front end developer?
 
 The objective of designing a site is to ensure that when the **users** open up the site they see the information in a format that is **easy to read and relevant**. This is further complicated by the fact that users now use a large **variety of devices** with varying **screen sizes** and **resolutions** thus forcing the designer to take into consideration these aspects when designing the site. They need to ensure that their site comes up correctly in **different browsers (cross-browser), different operating systems (cross-platform) and different devices (cross-device)**, which requires careful planning on the side of the developer.(<a href="https://frontendmasters.com/books/front-end-handbook/2018/what-is-a-FD.html">Front end masters</a>)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -81,12 +111,24 @@ The objective of designing a site is to ensure that when the **users** open up t
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Expectations
 
 * What do you expect from the education?
 * What do you expect from me?
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -114,11 +156,23 @@ The objective of designing a site is to ensure that when the **users** open up t
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Previous knowledge
 
 * The program is set up in a way that you need no previous knowledge in this area.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -136,6 +190,12 @@ The objective of designing a site is to ensure that when the **users** open up t
 * Be wrong
 * Make mistakes
 * Ask questions without feeling bad
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -163,12 +223,24 @@ The objective of designing a site is to ensure that when the **users** open up t
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
 #### Purpose of studying
 
 * You are here to **learn** and not to produce.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -195,6 +267,12 @@ The objective of designing a site is to ensure that when the **users** open up t
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
@@ -212,6 +290,12 @@ The objective of designing a site is to ensure that when the **users** open up t
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
@@ -220,6 +304,12 @@ The objective of designing a site is to ensure that when the **users** open up t
 * There's a lot of hype in web development (especially front end).
 * Using the newest libs, tools and features.
 * Learn the fundamentals first, then you can learn all the fluff!
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -250,6 +340,12 @@ The objective of designing a site is to ensure that when the **users** open up t
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
@@ -258,6 +354,12 @@ The objective of designing a site is to ensure that when the **users** open up t
 * Slides - English
 * Literature - English
 * The rest in Swedish
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -286,6 +388,12 @@ The objective of designing a site is to ensure that when the **users** open up t
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
@@ -303,12 +411,24 @@ The objective of designing a site is to ensure that when the **users** open up t
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Tempo
 
 * We will try to keep find and keep a steady paste. (first time for a lot of the courses)
 * Could be experienced as fast but it will be no problem if you put down your ~40hours/week.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

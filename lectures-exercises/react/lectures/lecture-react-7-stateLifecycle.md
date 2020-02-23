@@ -9,6 +9,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### What is state?
@@ -26,6 +32,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Component state
@@ -34,6 +46,12 @@
 * Only class components have the state functionality.
 * State is something you set up by yourself, not like props.
 * Every time the state is updated, the render method will run.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -61,6 +79,12 @@ constructor(props) {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Set the initial state in the constructor
@@ -73,6 +97,12 @@ constructor(props) {
   };
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -104,6 +134,12 @@ constructor(props) {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Updating state
@@ -117,6 +153,12 @@ this.state.comment = 'Hello';
 ```JavaScript
 this.setState({comment: 'Hello'});
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -150,6 +192,12 @@ These are called independently
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Second argument is a callback that runs after state is updated
@@ -164,6 +212,12 @@ this.setState(
   () => {console.log('state is updated')
 );
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -193,6 +247,12 @@ this.setState({
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Top-down / Unidirectional data flow
@@ -201,6 +261,12 @@ this.setState({
 * The parent component does not know if the child is a class or a function.
 * The state is local or encapsulated. It is not accessible to any component other than the one that owns and sets it.
 * State can only affect components “below" them in the tree.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -223,10 +289,22 @@ this.setState({
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Lifting up state
 <img style="width: 700px" src="/media/react-images/react-7/liftingstate.png" alt="lifecycle methods">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -252,9 +330,21 @@ this.setState({
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### <a href="https://reactjs.org/docs/react-component.html#mounting">Lifecycle Methods</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

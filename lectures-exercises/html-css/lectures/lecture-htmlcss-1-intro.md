@@ -9,10 +9,22 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ### HTML5 & CSS3 med SEO
 #### 40 yrkeshögskolepoäng
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -34,12 +46,24 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Course Literature
 
 * **<a href="https://www.bokus.com/bok/9781118907443/web-design-with-html-css-javascript-and-jquery-set/">HTML and CSS</a>** - Design and Build Websites <br>(Jon Duckett)
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -65,6 +89,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Exercises
@@ -72,6 +102,12 @@
 * Exercises made by us
 * Web sources like <a href="https://www.w3schools.com/">w3schools.com</a>, <a href="https://developer.mozilla.org/sv-SE/">MDN</a> etc.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -99,12 +135,24 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Browsers
 
 * I will mainly run examples in Mozilla Firefox.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

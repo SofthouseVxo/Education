@@ -9,6 +9,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  HTML Attributes
@@ -34,6 +40,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  With JavaScript we can:
@@ -43,6 +55,12 @@
 * **Set** new attributes.
 * **Remove** attributes.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -82,6 +100,12 @@ myImg[0].getAttribute('class'); // profile-image
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
         
 
@@ -110,6 +134,12 @@ myImgs[0].removeAttribute('src'); // <img class="new-class">
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Three ways of applying styles dynamically with JavaScript.
@@ -117,6 +147,12 @@ myImgs[0].removeAttribute('src'); // <img class="new-class">
 * Changing the ```style``` attribute directly.
 * Setting/overwriting attributes using ```setAttribute()```.
 * Changing .className connected to a external or internal CSS.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -155,6 +191,12 @@ element.style.backgroundColor = 'blue'; // Sets a new background-color
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Setting new style - camelCase
@@ -170,6 +212,12 @@ element.style.backgroundColor = 'blue'; // Sets a new background-color
 element.style.backgroundColor = '#FF00FF';
 element.style.fontSize = '14px';
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -208,6 +256,12 @@ element.setAttribute('style', 'color: green;');
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Changing className or id connected to a external or internal CSS
@@ -229,6 +283,12 @@ let element = document.getElementsByTagName('h1')[0];
 
 element.className = 'upper-header';
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

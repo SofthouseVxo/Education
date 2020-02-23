@@ -9,6 +9,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ### Steps
@@ -22,6 +28,12 @@
 * Click Save.
 * <a href="https://github.com/hakimel/reveal.js/">Reveal.js Documentation</a>
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

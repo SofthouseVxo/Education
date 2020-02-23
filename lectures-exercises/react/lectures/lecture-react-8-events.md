@@ -9,6 +9,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Events
@@ -16,6 +22,12 @@
 * React events are named using camelCase, rather than lowercase.
 * With JSX you pass a function as the event handler, rather than a string.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -43,6 +55,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  In React
@@ -52,6 +70,12 @@
 </button>
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -83,6 +107,12 @@ Links, form submission etc.
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Using class methods in JSX
@@ -97,6 +127,12 @@ render() {
   );
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -129,6 +165,12 @@ render() {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Using class methods in JSX
@@ -144,6 +186,12 @@ render() {
   );
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -182,6 +230,12 @@ render() {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  With Arrow function instead [Experimental](https://reactjs.org/docs/handling-events.html)
@@ -197,6 +251,12 @@ render() {
   );
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -230,6 +290,12 @@ render() {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Passing Props
@@ -241,6 +307,12 @@ render() {
 <button onClick={this.deleteRow.bind(this, id)}>Delete Row</button>
 ```
 These are equivalent
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

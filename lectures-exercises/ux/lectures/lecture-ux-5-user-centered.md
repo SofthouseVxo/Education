@@ -9,10 +9,22 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Du är inte dina användare!
 #### Om du inte är en tillhör målgruppen.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -39,9 +51,21 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Så på vilka sätt kan användare vara olika?
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -66,12 +90,24 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Fysiska skillnader
 
 * Det finns många som har Funktionsnedsättningar exempelvis nedsatt syn, koncentrationssvårigheter, begränsad rörlighet.
 * Ett exempel på något som inte ses som en nedsättning men påverkar folk i vardagen: Stora enheter små händer, vart placerar du navigationen?
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -96,12 +132,24 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Mentala modeller
 
 * **Mentala processer & modeller** - Hur man tror att något skall fungera baserat på erfarenheter, kunskap, information osv.
 * Vad kan skilja hur en 60-åring uppfattar en ny produkt i jämförelse med en 20 åring?
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -126,12 +174,24 @@ Du vandrar uppe i fjällen, från ingenstans dyker det upp en björn! Du har ju 
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Varför och var används min produkt?
 
 * Användare kan använda system av olika anledningar.
 * Användare använder system i olika miljöer och sammanhang.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -157,6 +217,12 @@ Du vandrar uppe i fjällen, från ingenstans dyker det upp en björn! Du har ju 
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Vem den ideala användaren?
@@ -167,6 +233,12 @@ Du vandrar uppe i fjällen, från ingenstans dyker det upp en björn! Du har ju 
   * Google var bara för Stanford forskare
   * Microsoft var bara för utvecklare
 	
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -198,6 +270,12 @@ Du vandrar uppe i fjällen, från ingenstans dyker det upp en björn! Du har ju 
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Företag
@@ -206,6 +284,12 @@ Du vandrar uppe i fjällen, från ingenstans dyker det upp en björn! Du har ju 
 * Användarens position
 * Används av anställda eller användare
 * Budget
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -234,6 +318,12 @@ Du vandrar uppe i fjällen, från ingenstans dyker det upp en björn! Du har ju 
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Flera målgrupper
@@ -249,12 +339,24 @@ Du vandrar uppe i fjällen, från ingenstans dyker det upp en björn! Du har ju 
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Vad är användarens mål?
 
 * Vad vill användaren göra när de kommer till er sida/applikation?
 * Vad vill du att användaren skall göra?
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -281,6 +383,12 @@ Du vandrar uppe i fjällen, från ingenstans dyker det upp en björn! Du har ju 
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Scenarios
@@ -290,6 +398,12 @@ Du vandrar uppe i fjällen, från ingenstans dyker det upp en björn! Du har ju 
 * Ett scenario kan innehålla inte bara vad användaren gör utan exempelvis varför användaren kom i kontakt med produkten eller hittade webbplatsen.
 * Scenarios kan skrivas med mångas syften och från många perspektiv.
 * Externa faktorer (tid, resurser, passande med andra system?)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -319,6 +433,12 @@ Du vandrar uppe i fjällen, från ingenstans dyker det upp en björn! Du har ju 
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Idé - Exempel
@@ -326,6 +446,12 @@ Du vandrar uppe i fjällen, från ingenstans dyker det upp en björn! Du har ju 
 * Vi skall designa en “verktygs-uthyrnings-applikation”
 * Den initiala ideén är att användaren skall kunna hyra verktyg från lokala företag men även av varandra.
 * Verktyg kan innebära hammare, skruvdragare eller gräsklippare.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -345,6 +471,12 @@ Du vandrar uppe i fjällen, från ingenstans dyker det upp en björn! Du har ju 
 * Fokus på städer
 * Användare med lägre inkomst
 * Studenter eller folk i början av sina karriärer
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -374,6 +506,12 @@ Du vandrar uppe i fjällen, från ingenstans dyker det upp en björn! Du har ju 
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### User stories - Exempel
@@ -389,10 +527,22 @@ Du vandrar uppe i fjällen, från ingenstans dyker det upp en björn! Du har ju 
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Scenarion - exempel
 Kalle har precis fått nytt jobb som programmerare på ett litet företag som ligger precis utanför staden där denne bor. Problemet är att det går inga passande bussar, Kalle har inget körkort och bestämmer sig för att köpa en moped. Mopeden går sönder redan andra dagen och Kalle ringer sin pappa för hjälp, via facetime kan pappan guida Kalle till att den är en speciell mutter som bara behöver spännas. Nu behöver Kalle  införskaffa detta verktyg och ser på internet att detta kostar 500kr vilket är lite för dyrt. Kalle frågar nu sin arbetsgivare om denne vet någon som har detta verktyg, hen tipsar nu om verktygs-applikationen. Kalle  laddar hem appen via Google Play Store, installerar denna, gör en sökning på staden och ser att det finns en som hyr ut detta verktyg bara 200m från dennes adress! Inuti appen skriver nu Kalle ett meddelande till den andra användaren och väntar förhoppningsfullt på ett svar…</p>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -417,6 +567,12 @@ Kalle har precis fått nytt jobb som programmerare på ett litet företag som li
 1. Tryckte på hyra.
 1. Skrev ett meddelande till uthyrare.
 1. ....
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

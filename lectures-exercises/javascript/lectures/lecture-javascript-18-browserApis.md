@@ -9,10 +9,22 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ### API
 #### Application Programming Interface
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -30,6 +42,12 @@
 * User interfaces allow humans to interact with programs.
 * API's let programs and scripts to talk to each other.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -57,6 +75,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Api's covered in this lecture
@@ -64,6 +88,12 @@
 * web storage
 * history
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -85,6 +115,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Web Storage - Storing data in the browser.
@@ -93,6 +129,12 @@
   * Cookies
   * localStorage
   * sessionStorage
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -122,10 +164,22 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Cookies and GDPR - short description
 In short the EU directive means that before somebody can store or retrieve any information from a computer, mobile phone or other device, the user must give informed consent to do so. Many websites have added banners (AKA "cookie banners") since then to inform the user about the use of cookies. - <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies">MDN 2019</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -143,6 +197,12 @@ In short the EU directive means that before somebody can store or retrieve any i
 * Since its a text string it's usually used for a single value, however you can split it into multiple values with ","
 * Then you have to extract the values after
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -177,6 +237,12 @@ document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### localStorage & sessionStorage
@@ -194,12 +260,24 @@ document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### localStorage & sessionStorage
 
 * consists of name values pairs
 * part of the window object (available everywhere)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -237,11 +315,23 @@ sessionStorage.clear();
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Inspecting Storage in chrome
 
 <img style="margin-top: 0px;" src="/media/javascript-images/javascript-18/storage.png" alt="inspecting storage">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -259,6 +349,12 @@ sessionStorage.clear();
 * Becuse of this the back and forward buttons work in the browser.
 * But in pages using AJAX or building Singe page applications the URL is not updated.
 * The History API lets us control the state the browser is in calling methods in the <b>History Object</b>.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -287,6 +383,12 @@ console.log(window.history.length);
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### History API methods
@@ -296,6 +398,12 @@ console.log(window.history.length);
 ```history.go()``` - Takes you to a specific page in the history.
 ```history.pushState()``` - Add an item in the history stack (new page).
 ```history.replaceState()``` - Does the same as ```pushState``` but modifies the current history entry.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -329,6 +437,12 @@ function pushNewState(){
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### ```history.onpopstate```
@@ -340,6 +454,12 @@ window.addEventListener('popstate', function(e) {
 	console.log('Moved!');
 });
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

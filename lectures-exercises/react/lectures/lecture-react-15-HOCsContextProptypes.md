@@ -9,6 +9,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Higher Order Component (HOC)
@@ -28,9 +34,21 @@ const EnhancedComponent = higherOrderComponent(WrappedComponent);
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### We can use HOC's when we have different components rendering different things but some implementation is the same.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -65,6 +83,12 @@ function withSomeCoolItem(WrappedComponent, otherData) {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ```JavaScript
@@ -80,6 +104,12 @@ function withSomeCoolItem(WrappedComponent, otherData) {
   };
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -105,6 +135,12 @@ class MyComponent extends Component {
 
 export default withSomeCoolItem(MyComponent);
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -145,6 +181,12 @@ render() {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### HOC's can be:
@@ -153,6 +195,12 @@ render() {
 * Can pass in methods.
 * Can pass in props {...this.props}
 * Reflect upon withRouter.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -174,9 +222,21 @@ render() {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Context
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -204,10 +264,22 @@ render() {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Context
 <img style="width: 800px;" src="/media/react-images/react-15/context.png" alt="context">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -241,6 +313,12 @@ class ThemedButton extends React.Component {
   }
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -290,6 +368,12 @@ class ThemedButton extends React.Component {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ```JavaScript
@@ -314,9 +398,21 @@ theme={this.context}
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Context Examples
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -347,6 +443,12 @@ comes with create-react-app
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  PropTypes function component
@@ -366,6 +468,12 @@ MyComponent.propTypes = {
 };
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -403,6 +511,12 @@ MyComponent.propTypes = {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  PropTypes class component using static keyword
@@ -422,6 +536,12 @@ class MyComponent extends React.Component {
   }
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

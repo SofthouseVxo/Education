@@ -9,6 +9,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Input elements and state
@@ -25,12 +31,24 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Controlled Component
 
 * React state →  “single source of truth"
 * React state handles user input and controls the input value → “Controlled Component"
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -74,6 +92,12 @@ render() {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Submitting and preventing redirect
@@ -108,6 +132,12 @@ constructor(props) {}
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Other Inputs
@@ -123,9 +153,21 @@ constructor(props) {}
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### But what about validation and stuff?
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

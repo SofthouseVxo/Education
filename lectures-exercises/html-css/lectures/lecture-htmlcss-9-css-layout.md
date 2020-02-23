@@ -9,6 +9,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Flexbox
@@ -20,6 +26,12 @@
 * **Grid** layout is intended for larger scale layouts.
 * <a href="https://caniuse.com/#search=flexbox" target="_blank">Browser support</a>.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -41,6 +53,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### <a href="https://the-echoplex.net/flexyboxes/">Flexbox Playground
@@ -53,9 +71,21 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### <a href="https://flexboxfroggy.com/#sv" target="_blank">Learning Flexbox (flexboxfroggy.com)</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -83,9 +113,21 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### <a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">CSS-Tricks CSS Grid Guide</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -107,9 +149,21 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### <a href="https://cssgridgarden.com/#sv" target="_blank">Practicing CSS grid (cssgridgarden.com)</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

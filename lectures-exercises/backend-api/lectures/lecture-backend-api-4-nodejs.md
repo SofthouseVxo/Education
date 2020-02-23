@@ -8,6 +8,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 ### What is Node.js
 
@@ -25,10 +31,22 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Node.js
 * Is often used to build backend services called APIs.
 * Can also be used a middlewares to handle requests from different systems.
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -52,6 +70,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Try it
 
@@ -61,6 +85,12 @@ $ node -v
 $ npm -v
 $ npm install npm@latest -g
 ```
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -89,6 +119,12 @@ $ npm install npm@latest -g
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Node
 
@@ -106,6 +142,12 @@ $ node index.js
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Modules
@@ -114,6 +156,12 @@ $ node index.js
 * Modules can:
 	* Load each other
 	* Call functions of one module from another one:
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -146,6 +194,12 @@ console.log(someValue); // 10
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Node modules
 
@@ -163,6 +217,12 @@ const {firstValue, secondValue} = require('./lib');
 console.log(firstValue); // 1
 console.log(secondValue); // 1
 ```
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -201,6 +261,12 @@ console.log(secondValue); // 1
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Node modules
@@ -226,6 +292,12 @@ const { sayHello } = require('./lib');
 
 sayHello(); // Hello world!
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -270,6 +342,12 @@ sayBye(); // TypeError: sayBye is not a function
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Globals
 
@@ -294,6 +372,12 @@ $ node index.js
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Process
 
@@ -304,6 +388,12 @@ index.js
 ```JavaScript
 console.log(process);
 ```
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -342,6 +432,12 @@ Arguments [
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Command line arguments
 
@@ -360,6 +456,12 @@ Shell
 ```Shell
 $ node index.js --phrase=hello
 ```
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -400,6 +502,12 @@ info.json
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Write to file
 
@@ -422,9 +530,21 @@ Hello Node.js
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### JavaScript versions
 "Node.js is built against modern versions of V8. By keeping up-to-date with the latest releases of this engine, we ensure new features from the JavaScript ECMA-262 specification are brought to Node.js developers in a timely manner, as well as continued performance and stability improvements." - <a href="https://nodejs.org/en/docs/es6/" target="_blank">Node.js docs</a>
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;

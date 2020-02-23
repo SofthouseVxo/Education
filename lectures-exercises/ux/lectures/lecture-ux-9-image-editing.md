@@ -9,6 +9,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Adobe Photoshop CC
@@ -16,6 +22,12 @@
 * Editera bilder retuschera foton.
 * Stort program med massor av funktionalitet.
 * <a href="https://www.adobe.com/se/products/photoshop/free-trial-download.html">7-dagars gratis trial</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -43,10 +55,22 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Genomgång av gränssnitt
 <img style="width: 800px;" src="/media/ux-images/ux-9/interface.png" alt="Photoshop interface">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -69,6 +93,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Skapa ett nytt projekt
@@ -82,10 +112,22 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Verktyg
 <img style="width: 100px" src="/media/ux-images/ux-9/toolbar.png" alt="Photoshop toolbar">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -109,6 +151,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Hantera projekt
@@ -118,6 +166,12 @@
 					
 <img style="width: 200px" src="/media/ux-images/ux-9/menu1.png" alt="Photoshop menu">
 <img style="width: 200px" src="/media/ux-images/ux-9/menu2.png" alt="Photoshop menu">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

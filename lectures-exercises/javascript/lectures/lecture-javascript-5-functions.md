@@ -9,6 +9,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### What is a function?
 
@@ -16,6 +22,12 @@
 * Functions are one of the fundamental building blocks in JavaScript.
 * “A function is a process which takes some input, called arguments, and produces some output called a return value." - <a href="https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976">Eric Elliot</a>
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -42,6 +54,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### JavaScript Functions and making a recipe analogy
@@ -52,6 +70,12 @@
 * A function is also a reusable recipe that performs the same set of actions over and over again on a set of ingredients.
 * <a href="https://www.codeanalogies.com/javascript-functions-explained">CodeAnalogies ref</a>
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -82,6 +106,12 @@ function makeSandwich(lettuce, cheese, bread) {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Basic function
@@ -91,6 +121,12 @@ function makeSandwich(lettuce, cheese, bread) {
 };
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -124,6 +160,12 @@ sayHello();
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Parameter
@@ -137,6 +179,12 @@ function saySomething(word) {
 };
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -161,6 +209,12 @@ function saySomething(word) {
 // 'hello world' is the argument
 saySomething('hello world');
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -196,6 +250,12 @@ saySomething('hello world', 15);
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Invoking/calling a function
@@ -208,6 +268,12 @@ function addValues(val1, val2) {
 addValues(4,7);
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -231,6 +297,12 @@ console.log(value);  //5
 console.log(value2); //10
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -272,6 +344,12 @@ var area = function(width, height) {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Function calling a function
@@ -289,6 +367,12 @@ function getWord() {
 sayWord('hello');
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -324,6 +408,12 @@ console.log(result);
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Arrow functions
@@ -331,6 +421,12 @@ console.log(result);
 * We will look closer on arrow functions later on in the course.
 * However you will run into the online before that.
 * Arrow functions was introduced with ES6.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -373,6 +469,12 @@ console.log(myVal);
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Descriptive Blocks - Commenting Functions
@@ -397,6 +499,12 @@ function modalPopup(msg) {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Indentations in JavaScript
@@ -408,6 +516,12 @@ function modalPopup(msg) {
 * Use tabs/spaces to clarify where stuff belongs
 
 <a href="https://courses.cs.washington.edu/courses/cse154/17au/styleguide/js/spacing-indentation-js.html">JavaScript Unofficial Style Guide</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

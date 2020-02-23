@@ -9,6 +9,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Programming Paradigms
@@ -17,6 +23,12 @@
 1. Object Oriented Programming
 1. Functional Programming (Focus on this in React course).
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -42,6 +54,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Object oriented programming
@@ -49,6 +67,12 @@
 * Object oriented programming follows real-world modelling.
 * An application consisting of child objects which are interacting with each other to form the product.
 * Real world examples - car, computer
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -75,10 +99,22 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Procedural vs OOP
 <img style="width: 800px;" src="/media/javascript-images/javascript-20/proceoop.png" alt="procedural & oop">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -105,6 +141,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Making Ping Pong OOP
@@ -122,6 +164,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### JavaScript & OOP
@@ -129,6 +177,12 @@
 * JavaScript is a "multi-paradigm language".
 * This offers flexibility.
 * You can write procedural, class-oriented, or Functional Programming-style JavaScript code.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -155,6 +209,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Properties
@@ -170,12 +230,24 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Methods
 
 * A method is a function connected to a specific object.
 * Methods are used to give an object functionality.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -201,12 +273,24 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Classes
 
 * Classes are used to create objects.
 * A class encapsulates data for the object.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -240,6 +324,12 @@ class Car {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Constructor
@@ -249,6 +339,12 @@ class Car {
 * The constructor always run once, and its the first thing thats happening.
 * There can only be one special method with the name "constructor" in a class.
 * It is not mandatory to include a constructor definition. Every class by default has a constructor by default.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -282,6 +378,12 @@ let Car = class {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Named class expression
@@ -304,9 +406,21 @@ let Car = class Car {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Any number of instance can be created from a class, each instance is called **Object**.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -345,6 +459,12 @@ let obj = new Car('red',70);
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Methods in classes
@@ -371,6 +491,12 @@ class Car {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
   
 ####  Accessing Methods and properties
@@ -385,6 +511,12 @@ let maxSpeed = carObj.maxSpeed; // 70
 
 carObj.test();
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -420,6 +552,12 @@ Car.test(); // TypeError: Car.test is not a functionindex.
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Inheritance
@@ -427,6 +565,12 @@ Car.test(); // TypeError: Car.test is not a functionindex.
 * A class can inherit methods and properties from its parent.
 * And if we make a change in the parent class, all who inherits from it will also get the change.
 <img style="width: 600px;" src="/media/javascript-images/javascript-20/classes1.png" alt="inheritance">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -452,6 +596,12 @@ Car.test(); // TypeError: Car.test is not a functionindex.
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Inheritance
@@ -459,6 +609,12 @@ Car.test(); // TypeError: Car.test is not a functionindex.
 * A class can inherit methods and properties from its parent.
 * And if we make a change in the parent class, all who inherits from it will also get the change.
 <img style="width: 600px;" src="/media/javascript-images/javascript-20/classes3.png" alt="inheritance">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -482,6 +638,12 @@ console.log(cow); // { sound: 'muuuh', eat: function, fart: function }
 cow.eat(); // works since it inherits this method
 cow.fart();
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -529,6 +691,12 @@ console.log(car.getType()); // It is a car: Tesla
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Inheritance
@@ -553,6 +721,12 @@ class Car extends Vehicle {
 let car = new Car('Tesla');
 car.drive(); // They see me rollin in my Tesla
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -594,9 +768,21 @@ bob.name = 'John';
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### No private properties in ES6
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -615,6 +801,12 @@ bob.name = 'John';
 * Static methods are called without instantiating their class.
 * Static methods are also not callable when the class is instantiated.
 * Static methods are often used to create utility functions for an application.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -649,6 +841,12 @@ carObj.test(); //TypeError: obj.test is not a function
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  This in events in classes
@@ -672,6 +870,12 @@ class Person {
   }
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -714,6 +918,12 @@ class Person {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Descriptive Blocks - Commenting Classes
@@ -727,6 +937,12 @@ class Person {
 */
 class myWebClass { }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -751,6 +967,12 @@ class myWebClass { }
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Prototypes!
@@ -760,6 +982,12 @@ class myWebClass { }
 * JavaScript uses something called prototype pattern.
 * We will take a look at this later on, but the main focus will be on OOP JavaScript
 * The reason for this is that many other languages leans towards OOP and JavaScript classes are used both in React and Angular.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

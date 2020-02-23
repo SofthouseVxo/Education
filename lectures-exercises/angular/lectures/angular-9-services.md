@@ -9,9 +9,21 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 "Service is a broad category encompassing any value, function, or feature that an app needs. A service is typically a class with a narrow, well-defined purpose. It should do something specific and do it well." - <a href="https://angular.io/guide/architecture-services" target="_blank">Angular Docs</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -43,6 +55,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
@@ -52,6 +70,12 @@
 * Be injected into multiple places.
 * Store global state, public and private.
 	
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -72,11 +96,23 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
 #### Service example
 <img style="width: 800px" src="/media/angular-images/angular-9/services3.png" alt="services">
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -101,6 +137,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Simple logger service
@@ -112,6 +154,12 @@ export class LoggerService {
 	warn(msg: any)  { console.warn(msg); }
 }
 ```
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -149,6 +197,12 @@ export class LoggerService {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Simple logger service
@@ -160,6 +214,12 @@ export class LoggerService {
 	warn(msg: any)  { console.warn(msg); }
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -200,6 +260,12 @@ export class ItemComponent {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Consuming a service
@@ -222,6 +288,12 @@ export class ItemComponent {
   }
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

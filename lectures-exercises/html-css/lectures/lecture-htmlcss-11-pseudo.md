@@ -9,6 +9,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Pseudo-elements
@@ -36,6 +42,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Pseudo-classes
@@ -54,6 +66,12 @@
 ```
 [Try it on w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_pseudo-class_hover_div)
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -100,6 +118,12 @@ a:active {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### :: vs :
@@ -108,6 +132,12 @@ a:active {
 * Pseudo-elements uses double ::
 * Pseudo-classes uses single :
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -149,9 +179,21 @@ p::after {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### CSS content only works with ::before or ::after
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -177,6 +219,12 @@ p::after {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Youtube video in an iframe
@@ -188,6 +236,12 @@ p::after {
 </iframe>
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -218,9 +272,21 @@ p::after {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Go to youtube and google maps to get code for embedding.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -238,6 +304,12 @@ p::after {
 * A variable is like a drawer or a box.
 * You can put a value/thing in it, close it and then when you want to use it you open the drawer.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

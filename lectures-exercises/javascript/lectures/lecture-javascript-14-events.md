@@ -9,6 +9,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Dom Events
@@ -22,6 +28,12 @@
   * When an HTML form is submitted.
   * When a user strokes a key.
   * <a href="https://www.w3schools.com/tags/ref_eventattributes.asp">List of all events</a>.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -45,11 +57,23 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Events terms
 * When events occur they often said to be "fired" or "raised".
 * In turn they "trigger" a function or a script.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -75,11 +99,23 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---   
 
 
 #### Event Handling
 <img src="/media/javascript-images/javascript-14/eventSteps.png" alt="Event handling">
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -104,12 +140,24 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### There are 3 ways of handling events:
 1. HTML event handlers.
 1. Traditional DOM event handlers.
 1. Event listeners.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -131,6 +179,12 @@
 <button onclick="someFunction()">Click me!</button>
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -164,6 +218,12 @@ button.onclick = function(){console.log('This works')};
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Eventlisteners
@@ -183,6 +243,12 @@ button.addEventListener('click', function(event){
   console.log(event.target);
 }, false);
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -222,6 +288,12 @@ button.addEventListener('click', onButtonClicked, false);
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  The event object
@@ -243,6 +315,12 @@ function onButtonClicked (event) {
 let button = document.getElementById('myButton');
 button.addEventListener('click', onButtonClicked, false);
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -277,10 +355,22 @@ window.addEventListener('load', function() {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Event capturing and bubbling
 <img src="/media/javascript-images/javascript-14/bubbling.png" alt="event bubbling">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -316,6 +406,12 @@ button.addEventListener('click', onButtonClicked);
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Stop listening to an event
@@ -334,6 +430,12 @@ button.addEventListener('click', onButtonClicked);
 
 button.removeEventListener('click', onButtonClicked); // Stops listening
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -373,11 +475,23 @@ button.addEventListener('click', person.sayName.bind(person));
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Single threaded
 * One command at a time.
 * JavaScript behaves in a single threaded manner.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -401,10 +515,22 @@ button.addEventListener('click', person.sayName.bind(person));
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### The call stack
 #### One thread -> one call stack -> one thing a the time
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -427,9 +553,21 @@ button.addEventListener('click', person.sayName.bind(person));
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### The call stack
 <img style="margin-top: 0px; width: 800px;" src="/media/javascript-images/javascript-14/callstack-2.png" alt="call stack">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -451,9 +589,21 @@ button.addEventListener('click', person.sayName.bind(person));
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### The call stack
 <img style="margin-top: 0px; width: 800px;" src="/media/javascript-images/javascript-14/callstack-2.png" alt="call stack">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -475,9 +625,21 @@ button.addEventListener('click', person.sayName.bind(person));
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### The call stack
 <img style="margin-top: 0px; width: 800px;" src="/media/javascript-images/javascript-14/callstack-4.png" alt="call stack">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -500,9 +662,21 @@ button.addEventListener('click', person.sayName.bind(person));
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### <a href="http://latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D">Link to Loupe where you can see your JS in runtime</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

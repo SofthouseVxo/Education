@@ -9,6 +9,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Component styling
@@ -32,6 +38,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
@@ -46,6 +58,12 @@
   styleUrls: ['./meta-styles.component.css']
 })
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -79,6 +97,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Component styling - Linking
@@ -94,6 +118,12 @@
 })
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -121,6 +151,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
@@ -129,6 +165,12 @@
 * Styles in a @Component metadata apply only within the template (scope) of that component.
 * This is called View encapsulation.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -161,6 +203,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
@@ -177,6 +225,12 @@
 })
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -214,6 +268,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
@@ -239,6 +299,12 @@ angular.json
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
@@ -250,6 +316,12 @@ angular.json
 * None - means that Angular does no view encapsulation. Angular adds the CSS to the global styles.
 * <a href="https://angular.io/guide/component-styles">Read more at Angular docs -> View Encapsulation</a>
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -286,10 +358,22 @@ in body
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
 #### Component lifecycle
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -318,6 +402,12 @@ in body
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
         
 
@@ -327,6 +417,12 @@ in body
 * Directives have the same events (Since a component is a directive with a template)
 * Implements OnInit, OnDestroy (interface).
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -366,9 +462,21 @@ export class PeekABoo implements OnInit {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### <a href="https://angular.io/guide/lifecycle-hooks#component-lifecycle-hooks-overview">List of all lifecycle hooks</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -385,6 +493,12 @@ export class PeekABoo implements OnInit {
 * Component templates are not always fixed.
 * An application may need to load new components at runtime.
 * Doing this in code will be done later in the course.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

@@ -9,9 +9,21 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
  #### React is a JavaScript library for building user interfaces.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -29,6 +41,12 @@
 * <a href="https://reactjs.org/">Documentation</a>
 * <a href="https://github.com/facebook/react">Github</a>
 * <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript">Reacts JavaScript level assumption</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -59,6 +77,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Popular libraries in React projects
@@ -80,6 +104,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### React
@@ -87,6 +117,12 @@
 * Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
 * Build encapsulated components that manage their own state, then compose them to make complex UIs.
 * Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM. - <a href="https://reactjs.org/">React-Documentation</a></p>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -117,6 +153,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Components
@@ -125,6 +167,12 @@
 * Components can be composed together to create other components.
 * The application itself is a component, it's a composition of components.
 * Every component is a Class (or function) that you can instantiate. That means that your component can receive arguments that you can use to customize what's shown in the application.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -151,6 +199,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Virtual DOM
@@ -167,6 +221,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
         
 #### Virtual DOM
@@ -174,6 +234,12 @@
 * The Virtual DOM selectively renders subtrees of nodes based upon state changes.
 * It does the least amount of DOM manipulation possible in order to keep your components up to date.
 * If there are any changes in the Virtual Dom then React performs a “diffing algorithm". Which identifies what has changed and accordingly updates the real DOM. This means that it doesn't update the entire DOM just the nodes that has changed.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -202,6 +268,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### A project created with create-react-app comes with:
@@ -210,6 +282,12 @@
 * Language extras beyond ES6 like the object spread operator.
 * Autoprefixed CSS, so you don't need -webkit- or other prefixes.
 * A fast interactive unit test runner with built-in support for coverage reporting.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -236,6 +314,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### A JavaScript build toolchain example
@@ -243,6 +327,12 @@
 * A package manager (Yarn, Npm)
 * A bundler, (Webpack)
 * A compiler (Babel)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -261,6 +351,12 @@
 * npx is an an NPM package runner
 
 * You need to have atleast Node >= 6
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

@@ -8,6 +8,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### HTTP Protocol Basics</h4>
 * An Internet Protocol initially used for browsing web pages.</li>
@@ -15,6 +21,12 @@
 * It is <b>Stateless</b> (doesn’t remember what you did)</li>
 
 <img style="width: 700px;" src="/media/backend-api-images/backend-api-3/http.png" alt="http">
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -34,6 +46,12 @@
   * Response</li>
     * Response code</li>
     * Headers och Body</li>
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -68,6 +86,12 @@ mongodb://someuser:somepassword@localhost:27017/someDatabase
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
     
 ####  HTTP Headers
@@ -93,6 +117,12 @@ Accept: application/json
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 ####  HTTP Response Code
 * Status codes are issued by a server in response to a client's request made to the server
@@ -105,6 +135,12 @@ Accept: application/json
   * 5xx server errors (500 internal error, 502 bad gateway, 503 service unavailable)
             
 <a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes" target="_blank">List on wikipedia</a>
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -137,6 +173,12 @@ curl http://api.softhouse.rocks/users?page=2
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  HTTP Methods: Post
@@ -160,6 +202,12 @@ Code: 201
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 ####  HTTP Methods: Delete
 
@@ -175,6 +223,12 @@ Response
 Body: none
 Code: 200 if deleted, 204 no change (if not found)
 ```
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -208,6 +262,12 @@ Code: 200
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  HTTP Methods: Patch
@@ -232,6 +292,12 @@ Code: 200
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Less Common HTTP Methods</h4>
@@ -240,6 +306,12 @@ Some are rarely used when implementing APIs:
 * TRACE: echoes the received request so that a client can see what (if any) changes or additions have been made by intermediate servers.</li>
 * OPTIONS: returns the HTTP methods that the server supports for the specified URL.</li>
 * CONNECT method converts the request connection to a transparent TCP/IP tunnel.</li>
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;

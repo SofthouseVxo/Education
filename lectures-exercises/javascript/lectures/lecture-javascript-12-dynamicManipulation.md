@@ -9,6 +9,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Real examples of when the DOM is edited:
@@ -17,6 +23,12 @@
 * Cookie consent modals - show/accept/hide.
 * Tradera - placing bid, changing time left.
 * Facebook - "like" a post(thumb turns blue).
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -39,10 +51,22 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### DOM/Node tree
 <img style="margin-top: 0px;" src="/media/javascript-images/javascript-8/domtree.png" alt="dom - object model">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -75,6 +99,12 @@ myText.firstChild.nodeValue = 'Bye';
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  3 ways of working with element nodes **content**
@@ -85,6 +115,12 @@ myText.firstChild.nodeValue = 'Bye';
   * **innerText** - Gets/sets text only
 
 * Using any of these will overwrite the entire content of the element(both text and markup).
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -109,6 +145,12 @@ console.log(myText.textContent); // Hello
 // Update the text in the node
 myText.textContent = 'Bye';
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -144,6 +186,12 @@ myText.innerText = 'Bye';
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Adding and removing HTML content with innerHTML
@@ -166,9 +214,21 @@ myContainer.innerHTML = '<p>Hello world</p>';
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Manipulating the DOM
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -198,6 +258,12 @@ myButton.innerHTML = "";
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Adding the element to the DOM structure
@@ -215,6 +281,12 @@ document.body.appendChild(myButton);
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Removing an element from the DOM structure
@@ -223,6 +295,12 @@ document.body.appendChild(myButton);
 let element = document.getElementById('target');
 element.parentNode.removeChild(element);
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -257,9 +335,21 @@ elementRef.remove(); // Removes the div with the 'div-2' id
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Using innerHTML for everything? Think again..
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -287,6 +377,12 @@ elementRef.remove(); // Removes the div with the 'div-2' id
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Cross Site Scripting(XSS)
@@ -295,6 +391,12 @@ elementRef.remove(); // Removes the div with the 'div-2' id
   * The DOM (form data)
   * Cookies/Storage (some sites store user data in these)
   * Session tokens (could be login data)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -330,6 +432,12 @@ let div = document.querySelector('#some-div');
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
   
 #### XSS case
@@ -347,12 +455,24 @@ let div = document.querySelector('#some-div');
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Third party libraries
 
 * Many sites use third party js libraries for example Analytic, A/B testing, Marketing tools etc.
 * Even if you write your code correctly some of these scripts could be vulnerable.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -379,6 +499,12 @@ let div = document.querySelector('#some-div');
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### innerHTML & XSS
@@ -386,6 +512,12 @@ let div = document.querySelector('#some-div');
 * Only use innerHTML when:
   * You control all the markup being generated (no user content!).
   * If you do the users content has to be escaped and added as text rather than HTML!
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -417,6 +549,12 @@ let div = document.querySelector('#some-div');
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### DOM Manipulation
@@ -430,6 +568,12 @@ let div = document.querySelector('#some-div');
   * Is slower than the innerHTML property if you have to make alot of changes to the content of the page.
   * You need to write more cote to achieve the same as with innerHTML.
   
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;

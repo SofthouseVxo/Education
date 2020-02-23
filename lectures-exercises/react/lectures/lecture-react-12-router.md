@@ -9,6 +9,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### react-router
@@ -18,6 +24,12 @@
 * Both Web and Native</li>
 * npm install --save react-router-dom</li>
 * <a href="https://reacttraining.com/react-router/">https://reacttraining.com/react-router/</a></li>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -41,6 +53,12 @@ we switch to
 ```HTML
 <Link to="/">link</Link>
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -92,6 +110,12 @@ export default AppRouter;
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Components
@@ -121,6 +145,12 @@ Renders the first child <Route> or <Redirect> that matches the location.
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Router (BrowserRouter)
@@ -136,6 +166,12 @@ Example below renders ``` <a href="/calendar/today"> ```
   <Link to="/today"/>
 </Router>
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -177,6 +213,12 @@ import { Link } from 'react-router-dom'
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  NavLink
@@ -204,12 +246,24 @@ exact
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Route
 
 * The Route component is perhaps the most important component in React Router to understand and learn to use well. Its most basic responsibility is to render some UI when a location matches the route's path (location is the url in web browser address field).
 * Route is a container for displaying a view component (page). Depending on the attributes set on the <Route>; zero, one or multiple <Route>'s are rendered, depending on current location.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -241,6 +295,12 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
@@ -250,6 +310,12 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 * ``` <Switch> ``` is unique in that it renders a route exclusively. In contrast, every ``` <Route> ``` that matches the location renders inclusively.
   
   
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -270,11 +336,23 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  {history, match, location}
 * Every component in the first layer in ``` <Router/> ``` will get these three as props.
 * It's done by a Higher order Component and wraps your the components and injects these three objects.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -304,6 +382,12 @@ this.props.match.params.id //access in NewsComponent
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Match
@@ -312,6 +396,12 @@ The match object contains information about how a ``` <Route path> ``` matched t
 * **isExact**: (boolean), true if the entire URL was matched.
 * **path**: (string), the path pattern used to match.
 * **url**: (string), the matched portion of the URL.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -340,6 +430,12 @@ The router will provide you with a location object in a few places:
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  History
@@ -349,6 +445,12 @@ The history object allows you to manage and handle the browser history inside yo
 * **location**: (object), the current location
 * **push**(path, [state]): (function), pushes a new entry onto the history stack
 and more...
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -373,6 +475,12 @@ The **History** object has several methods for this
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Navigating without a link
@@ -382,6 +490,12 @@ Since components inside ``` <BrowserRouter> ``` get history in props we can invo
 this.props.history.push('/news');
 this.props.history.push('/news/id'); //with a param
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

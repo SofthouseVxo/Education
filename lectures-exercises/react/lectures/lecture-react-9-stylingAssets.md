@@ -9,6 +9,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Create-react-app uses webpack to bundle the app
@@ -18,6 +24,12 @@
   * CSS
   * Sass → CSS
   * Images and other assets
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -42,10 +54,22 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Image example
 <img src="/media/react-images/react-9/folders.png" alt="in folders">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -68,6 +92,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Using CSS with React and Create-react-app
@@ -77,6 +107,12 @@
 * css modules → encapsulated styles (focus in this course).
 * styled components → Library for styling react components (CSS in JS).
 * Other CSS in JS Comparison.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -105,6 +141,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Create-react-app supports css modules
@@ -122,9 +164,21 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 <img src="/media/react-images/react-9/css.png" alt="in folders">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

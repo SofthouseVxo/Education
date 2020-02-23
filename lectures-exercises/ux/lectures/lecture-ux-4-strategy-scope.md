@@ -9,10 +9,22 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Strategi
 <img src="/media/ux-images/ux-4/strategi.png" alt="Strategy plane">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -35,10 +47,22 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Varför?
 Vilket syfte skall min applikation fylla?
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -67,6 +91,12 @@ Vilket syfte skall min applikation fylla?
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Exempel på mål & syften?
@@ -75,6 +105,12 @@ Vilket syfte skall min applikation fylla?
 * Hjälpa folk att kommunicera på ett effektivt sätt.
 * Underlätta för folk att dela filer mellan enheter (google drive, dropbox).
 * Få människor att känna sig uppskattade av sin vänner.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -105,6 +141,12 @@ Vilket syfte skall min applikation fylla?
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### S-M-A-R-Ta mål
@@ -121,6 +163,12 @@ Vilket syfte skall min applikation fylla?
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Varför, Vad och Hur - mål
@@ -128,6 +176,12 @@ Vilket syfte skall min applikation fylla?
 * Why? - be goals
 * What? - do goals
 * How? - motor goals
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -162,9 +216,21 @@ Vilket syfte skall min applikation fylla?
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Välj ut en valfri aktivitet och bryt ner i WHY, WHAT & HOW. Presentera för personen som sitter bredvid.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -184,6 +250,12 @@ Vilket syfte skall min applikation fylla?
 * Vill kund ha en helt ny applikation/tjänst?
 * Får ni vara med från början eller finns det redan en grund?
 * Är det företaget du jobbar på? Kanske en ny feature?
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -213,6 +285,12 @@ Vilket syfte skall min applikation fylla?
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Saker att ta i aktning
@@ -229,10 +307,22 @@ Vilket syfte skall min applikation fylla?
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### "Vi borde göra en app!"
 #### Eller borde vi?
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -257,6 +347,12 @@ Vilket syfte skall min applikation fylla?
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Abraham Maslows Behovshierarki
@@ -270,10 +366,22 @@ Vilket syfte skall min applikation fylla?
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Scope(omfattning)
 <img src="/media/ux-images/ux-4/scope.png" alt="Scope plane">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -306,6 +414,12 @@ Vilket syfte skall min applikation fylla?
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Prioritera krav
@@ -313,6 +427,12 @@ Vilket syfte skall min applikation fylla?
 * Must have
 * Want to have
 * Nice to have
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -330,6 +450,12 @@ Vilket syfte skall min applikation fylla?
 * Diskussion med beställaren och andra involverade.
 * Intervjua och prata med tilltänkta användare.
 * Testa designen mot användare.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

@@ -9,10 +9,22 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ### Loops
 #### Repeatedly run a blocks of code.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -50,6 +62,12 @@ while (i < users.length) {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Loop lifecycle
@@ -65,12 +83,24 @@ while (i < users.length) {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  3 basic type of loops
 * **WHILE** loop
 * **DO WHILE** loop
 * **FOR** loop
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -107,6 +137,12 @@ while (i < numberOfTimes) {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Do While
@@ -122,6 +158,12 @@ do {
 } while (i < 5);
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -159,6 +201,12 @@ for(let i = 0; i < 6; i++){
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Stop the loop
@@ -172,6 +220,12 @@ for (let i = 0; i < 6; i++) {
   }
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -203,6 +257,12 @@ for (let i = 0; i < 6; i++) {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Nested loops
@@ -217,6 +277,12 @@ for (let i = 0; i < 3; i++) {
   }
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -251,6 +317,12 @@ while (index < arr.length) {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Iterate over arrays
@@ -274,6 +346,12 @@ for (let i = 0; i < arr.length; i++) {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Iterate over arrays
@@ -288,6 +366,12 @@ arr.forEach(function(element) {
 });
 ```
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach">MDN reference</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

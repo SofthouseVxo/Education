@@ -9,6 +9,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Prototypes vs ES6 Classes
@@ -25,9 +31,21 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### <a href="http://developer-interview.com/p/oop-ood/what-are-advantages-and-disadvantages-of-prototypal-oop-12" target="_blank">Prototype OOP vs Class OOP Pros and Cons</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -55,6 +73,12 @@ function Person(first, last, age) {
 ```JavaScript
 let mySister = new Person('Jane', 'Doe', 50); // { firstName: 'Jane', lastName: 'Doe', age : 50}
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -96,11 +120,23 @@ mySister.eat(); // 'Im eating!'
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 --- 
 
 #### The prototype
 "The prototype is just a way of saying that for this object use this other object as a backup." - <a href="https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q">FunFunFunctions</a>
 "if someone calls my object with a property that does not exist on my object go look in this other object that is what the prototype is set to" -<a href="https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q"> FunFunFunctions</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -147,6 +183,12 @@ mySister.run(); // 'Im running!'
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Creating objects using Object.create( )
@@ -170,6 +212,12 @@ me.isHuman = true; // inherited properties can be overwritten
 
 me.eat(); // 'Im eating!'
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -214,10 +262,22 @@ mySister.eat(); // 'Im eating!'
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Prototype chain
 <img style="width: 800px;" src="/media/javascript-images/javascript-22/proto1.png" alt="prototype chain">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -239,9 +299,21 @@ mySister.eat(); // 'Im eating!'
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Prototype chain
 <img style="width: 800px;" src="/media/javascript-images/javascript-22/proto3.png" alt="prototype chain">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -263,9 +335,21 @@ mySister.eat(); // 'Im eating!'
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Prototype chain
 <img style="width: 800px;" src="/media/javascript-images/javascript-22/proto5.png" alt="prototype chain">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -287,9 +371,21 @@ mySister.eat(); // 'Im eating!'
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Prototype chain
 <img style="width: 800px;" src="/media/javascript-images/javascript-22/proto7.png" alt="prototype chain">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -308,6 +404,12 @@ mySister.eat(); // 'Im eating!'
 * Modules can:
   * Load each other
   * Call functions of one module from another one:
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -337,6 +439,12 @@ mySister.eat(); // 'Im eating!'
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### IIFE
@@ -345,6 +453,12 @@ mySister.eat(); // 'Im eating!'
 * IIFE encapsulates code complexity inside them.
 * Variables defined inside the IIFE don't pollute the global scope.
 * var statements inside the IIFE remain within the IIFE's closure.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -387,6 +501,12 @@ singleton.sayHello();
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Modules (ES5) - Revealing Module pattern
@@ -419,9 +539,21 @@ singleton.name; // undefined since its private
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Since ES6 JavaScript has <a href="https://exploringjs.com/es6/ch_modules.html#sec_overview-modules" target="_blank">built-in modules.</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -437,6 +569,12 @@ singleton.name; // undefined since its private
 
 * The **export** keyword labels variables and functions that should be accessible from outside the current module.
 * The **import** allows to import functionality from other modules.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -473,6 +611,12 @@ export const name = 'Jane Doe';
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  ES6 Modules
@@ -487,6 +631,12 @@ someNameModule.js
 ```JavaScript
 export const name = 'Jane Doe';
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -511,6 +661,12 @@ someNameModule.js
 ```JavaScript
 export default const name = 'Jane Doe';
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

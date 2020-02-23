@@ -9,9 +9,21 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### <a href="/public/lectures/javascript/javascript-22-prototypesModules.html" target="_blank">JavaScript Lecture on Modules</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -31,6 +43,12 @@
 * Modules can:
   * Load each other.
   * Call functions of one module from another one.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -62,6 +80,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### NgModules
@@ -74,6 +98,12 @@
 * Modules can:
   * import functionality that is exported from other NgModules.
   * export selected functionality for use by other NgModules.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -103,6 +133,12 @@ import { FormsModule } from '@angular/forms';
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### NgModule
@@ -112,6 +148,12 @@ import { FormsModule } from '@angular/forms';
 * Imports: Other modules exported classes needed in this NgModule
 * Providers: Services
 * Bootstrap: Main application view (root component)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -147,6 +189,12 @@ export class AppModule { }
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### NgModule
@@ -164,9 +212,21 @@ export class AppModule { }
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### <a href="https://angular.io/guide/feature-modules" target="_blank">Feature modules vs Root modules</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -190,6 +250,12 @@ export class AppModule { }
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
@@ -199,6 +265,12 @@ export class AppModule { }
 
 * Bootstrapped root component.
 * A component you specify in a route definition.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

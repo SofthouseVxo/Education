@@ -9,6 +9,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### What it's like being a developer
@@ -17,6 +23,12 @@
 * It's not uncommon that your puzzles is are new puzzles.
 * Puzzles you have never seen before, with missing pieces and it will probably no turn out like in the picture.
 * Often the rules of the puzzles is out of your control.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -45,6 +57,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
@@ -55,6 +73,12 @@
 * Taking a step back, seeing the big picture. - Focusing on the right stuff.
 * Grind smart! Knowing when to grind. - Not getting burnt.
 * We are using our brains, not legs. - Learn faster and solve things faster.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -83,6 +107,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Steps to take when starting working with a task/puzzle
@@ -91,6 +121,12 @@
 1. Plan structure (components, functionality)
 1. Identify needed resources
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -118,6 +154,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Plan structure
@@ -126,6 +168,12 @@
 * How can I divide my functionality? (components, classes, methods, properties)
 * Write down the purpose of these
 * Document results! Be creative, DRAW!
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -152,9 +200,21 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Login feature example
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -184,6 +244,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
   
@@ -203,6 +269,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 * Send request
@@ -214,6 +286,12 @@
   * Set state to logged in user
   * Navigate
   
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -243,12 +321,24 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 * What tasks is there in each component?
   * Login
   * Change user
   * Navigate
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -268,6 +358,12 @@
 * Handle user input events (OLD Lectures, Examples, react.js, google, ask)
 * Validate user input (Lectures, Examples, react.js, google, ask)
 * Send input to backend (OLD Lectures, Examples, react.js, google, ask)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

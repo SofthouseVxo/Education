@@ -9,10 +9,22 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### If you do not know the basics of HTML forms check out the "HTML - Forms" lecture in the HTML & CSS course.
 <a href="../../lectures/html-css/html-css-10-forms.html" target="_blank">Forms lecture</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -31,6 +43,12 @@
     * Fires when the status of several form element change.
     * Selects, radio buttons, text etc. But does not fire until the field looses focus.
   * **input** - Fires every time an input changes in a form.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -69,6 +87,12 @@ myForm.addEventListener('submit', function(event){
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### change event
@@ -88,6 +112,12 @@ myForm.addEventListener('change', function(event){
   console.log(event.target.value); // the input node value
 })
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -125,6 +155,12 @@ myForm.addEventListener('input', function(event){
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Submitting and resetting from code
@@ -142,6 +178,12 @@ let myForm = document.getElementById('myForm');
 myForm.submit(); // Same function as clicking the submit button
 myForm.reset(); // Resetting the form
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -182,6 +224,12 @@ nameInput.addEventListener('blur', function(event){
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Form controls - accessing using "this"
@@ -203,6 +251,12 @@ nameInput.addEventListener('blur', function(){
   console.log(this.form); // <form id="myForm" name="myForm">
 })
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -244,6 +298,12 @@ myForm.addEventListener('submit', function(event){
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Form validation
@@ -252,6 +312,12 @@ myForm.addEventListener('submit', function(event){
   * Tell the user where they did wrong (visual feedback).
   * Protect against XSS attacks.
   * Validation is needed in the backend as well.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -294,6 +360,12 @@ function validateform(name, password){
   return true;
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

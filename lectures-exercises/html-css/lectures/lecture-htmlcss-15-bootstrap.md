@@ -9,10 +9,22 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### What is Bootstrap?
 "Build **responsive**, **mobile-first** projects on the web with the world’s most popular front-end component **library**. Bootstrap is an open source toolkit for developing with **HTML, CSS, and JS**. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery." - Bootstrap, 2019</p>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -29,6 +41,12 @@
 * Libraries are reusable code written by someone else.
 * Its purpose is to help you solve common problems in easier ways and not having to repeat yourself.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -58,10 +76,22 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### <a href="https://getbootstrap.com/docs/4.3/getting-started/contents/" target="_blank">Bootstrap</a> consists of:
 <img style="width: 800px;" src="/media/html-css-images/html-css-15/contents.png" alt="bootstrap contents">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -92,6 +122,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### How does it work?
@@ -100,6 +136,12 @@
 1. When code for this is written, every time you run your site, it will fetch the Bootstrap functionality (.css and .js files).
 1. Open <a href="https://getbootstrap.com/docs/4.3/examples/album/" target="_blank">example</a> inspect site and try to remove link to bootstrap.min.css inside head.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -129,6 +171,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### CDN cons
@@ -137,6 +185,12 @@
 * **Security** - Can be a concern if you use a public CDN service (JavaScipt)
 * **Restriction** - Some countries may ban IP addresses
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -170,6 +224,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Loading Bootstrap locally
@@ -181,6 +241,12 @@
 </head>
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -207,11 +273,23 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Bootstrap Examples
 #### <a href="https://getbootstrap.com/">Bootstrap Documentation.</a>
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -251,6 +329,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Bootstrap components
@@ -267,6 +351,12 @@
 ```
 [Bootstrap ref](https://getbootstrap.com/docs/4.3/components/button-group/)
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -306,6 +396,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Bootstrap utilites - colors
@@ -328,6 +424,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Browser support
@@ -335,6 +437,12 @@
 * Supports latest stable releases of all major browsers
 * <a hef="https://getbootstrap.com/docs/4.3/getting-started/browsers-devices/" target="_blank">Bootstrap documentation</a>
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

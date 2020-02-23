@@ -9,6 +9,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Encoding
@@ -26,6 +32,12 @@
 </html>
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -65,6 +77,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Messy indentations
@@ -90,6 +108,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Lists
@@ -99,6 +123,12 @@
 * Unordered list
 * Definition list
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -130,6 +160,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Ordered List</h4>
@@ -139,6 +175,12 @@
 <li>Panda da panda</li>
 <li>Joy</li>
 </ol>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -170,6 +212,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Unordered List</h4>
@@ -179,6 +227,12 @@
 <li>Panda da panda</li>
 <li>Joy</li>
 </ul>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -199,6 +253,12 @@
 </dl>
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -236,6 +296,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Nested lists</h4>
@@ -251,6 +317,12 @@
 <li>Panda da panda</li>
 <li>Joy</li>
 </ol>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -280,6 +352,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Link to another website
@@ -289,6 +367,12 @@
 <a href="http://www.blocket.se">blocket</a>
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -320,10 +404,22 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### File structure</h4>
 <img  src="/media/html-css-images/html-css-4/folder.png" alt="files structure">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -350,6 +446,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Open in a new window
@@ -360,6 +462,12 @@ The target attribute specifies where to open the linked document.
 <a href="http://www.blocket.se" target="_blank">Blocket</a>
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -390,10 +498,22 @@ The target attribute specifies where to open the linked document.
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Tables
 #### Displaying tabular data
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -422,10 +542,22 @@ The target attribute specifies where to open the linked document.
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Rows and Columns
 <img src="/media/html-css-images/html-css-4/table2.png" alt="table structure">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -468,6 +600,12 @@ The target attribute specifies where to open the linked document.
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Table structure
@@ -499,10 +637,22 @@ The target attribute specifies where to open the linked document.
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### colspan & rowspan</h4>
 <img  src="/media/html-css-images/html-css-4/table.png" alt="rowspan and colspan">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -532,6 +682,12 @@ The target attribute specifies where to open the linked document.
 </table>
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

@@ -9,10 +9,22 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### What are Scopes?
 Scope determines the accessibility of variables, objects, and functions from different parts of the code.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -29,6 +41,12 @@ Scope determines the accessibility of variables, objects, and functions from dif
 * In JavaScript there are two types of scope:
   * Local Scope = inside a function.
   * Global Scope = not inside a function.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -64,6 +82,12 @@ var user = 'John Doe' // Global variable
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
@@ -81,6 +105,12 @@ function myFunc() {
 
 console.log(value); /* value is not defined */
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -117,6 +147,12 @@ function mySecondDateFunc() {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Variable declared in the global scope
@@ -132,6 +168,12 @@ sayNumber();
 
 console.log(myNumber); // 5
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -157,6 +199,12 @@ sayNumber();
 
 console.log(myNumber); // 5
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -192,6 +240,12 @@ console.log(myNumber); // 5
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Declaring variables in different scopes
@@ -207,6 +261,12 @@ function sayNumber(param) {
 sayNumber(100);
 console.log(myNumber)
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -236,6 +296,12 @@ username = 'John';
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Remember function expressions?
@@ -250,6 +316,12 @@ var area = function(width, height) {
   console.log(width * height);
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -285,6 +357,12 @@ array.forEach(someCallBack)
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Callbacks
@@ -302,6 +380,12 @@ users.map(function(user){
 })
 
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -339,6 +423,12 @@ users.map(someCallBack)
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Immediately Invoked Function Expression(IIFE)
@@ -364,6 +454,12 @@ users.map(someCallBack)
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Summary
@@ -379,10 +475,22 @@ users.map(someCallBack)
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### var, let & const
 #### Block scoped variables
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -411,6 +519,12 @@ console.log(fruit1); //apple
 console.log(fruit2); //error: fruit2 is not defined
 console.log(fruit3); //error: fruit3 is not defined
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -453,6 +567,12 @@ if(true){
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Constants
@@ -471,6 +591,12 @@ myValue = myValue + 2;   // This will also give an error
 ```JavaScript
 const PI = 3.14159265359;
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

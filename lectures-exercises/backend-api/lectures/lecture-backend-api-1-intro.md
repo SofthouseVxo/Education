@@ -8,6 +8,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Who am I?</h4>
 * Jonas Eckerström
@@ -20,6 +26,12 @@
 * Finns på:
   * slack @jonaseck
   * mail: jonas.eckerstrom@softhouse.se
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -43,8 +55,20 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Se Kursplan</h4>
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -63,6 +87,12 @@
 * Tutorials online
   * MEAN - Mongo Express Angular Node
   * MERN - Mongo Express React Node
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;

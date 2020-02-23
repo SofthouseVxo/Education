@@ -9,6 +9,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ### UX-design och grafisk bildredigering
@@ -22,9 +28,21 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Se kursplan.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

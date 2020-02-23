@@ -9,6 +9,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### SEO - the process of increasing the quality and quantity of website traffic.
@@ -27,9 +33,21 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 <img src="/media/html-css-images/html-css-12/google.png" alt="google search example">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -56,6 +74,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### What do search engines do?
@@ -64,6 +88,12 @@
 1. Search engines provide users with results relevant to their search query.
 1. <a href="https://www.google.com/search/howsearchworks/crawling-indexing/" target="_blank">Google explains</a>.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -90,6 +120,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### How does Google create their index?
@@ -97,6 +133,12 @@
 * They use spiders(robots or crawlers) which are automatically discovering and scanning websites.
 * They follow links from one webpage to another. Googles main crawler is called Googlebot.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -126,12 +168,24 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### See if your site is indexed by Google
 
 * Search for site:yourwebsite.com on <a href="https://www.google.se" target="_blank">Google</a>
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -159,6 +213,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### When you search on google:
@@ -166,6 +226,12 @@
 1. The search engine scans its gigantic index.
 1. Then it provides the user with results which are relevant and useful depending on the query.
 1. And ranks these depending on popularity.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -188,6 +254,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### SEO can be devided into two areas
@@ -195,6 +267,12 @@
 * On Site SEO
 * Off site SEO
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -227,6 +305,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Keywords
@@ -234,6 +318,12 @@
 * Keywords are a crucial factor when it comes to SEO.
 * After all, people search on keywords in search engines.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -261,6 +351,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Using the keywords
@@ -271,6 +367,12 @@
 * Many say that keywords in the meta tag has no effect. And if you add them there it's easy for your competitors to check what keywords you are trying to rank high on.
 * You cannot just tell Google what your keywords are, they will figure it out if you've used them correctly.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -305,6 +407,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Other tips:
@@ -313,6 +421,12 @@
 * Write readable text, format and split in pieces.
 * Since google change their algorithm continually alot of people have different understandings and opinions on what effects your ranking in different ways.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -331,6 +445,12 @@
 * Otherwise google might not index the whole site.
 * No-follow on links you don't want google to follow.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -359,12 +479,24 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Sitemap example (XML format)
 
 <img src="/media/html-css-images/html-css-12/sitemap.png" alt="sitemap example">
 <a href="https://www.xml-sitemaps.com/" target="_blank">Sitemap generator</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -390,6 +522,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### URL structure
@@ -401,6 +539,12 @@
   * Avoid unnecessary words
   
 <img src="/media/html-css-images-images/html-css-12/url.png" alt="url structure example">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -438,6 +582,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Off site SEO
@@ -447,6 +597,12 @@
 * Guest blogging
 * Influencer marketing
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

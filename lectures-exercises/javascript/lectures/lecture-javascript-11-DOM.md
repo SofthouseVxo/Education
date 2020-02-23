@@ -9,6 +9,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Built in objects
 
@@ -31,10 +37,22 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Global JavaScript Objects
 <img style="margin-top: 0px; width: 600px;" src="/media/javascript-images/javascript-11/JSGlobalObjects.png" alt="Global JS Objects">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -64,6 +82,12 @@ Math.floor(Math.random() * 10); // returns a random number from 0 to 9
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Browser Object Model(BOM)
@@ -77,10 +101,22 @@ Math.floor(Math.random() * 10); // returns a random number from 0 to 9
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### window object example (BOM)
 <img style="margin-top: 0px; width: 800px;" src="/media/javascript-images/javascript-11/window.png" alt="dom - window">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -106,9 +142,21 @@ window.screen.width // 1200 or however wide the inner browser window is
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### window.location (BOM)
 <img style="margin-top: 0px; width: 800px;" src="/media/javascript-images/javascript-11/location.png" alt="dom - window - location">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -124,6 +172,12 @@ window.screen.width // 1200 or however wide the inner browser window is
 * The current webpage loaded into each window is modelled using a <b>document</b> object.
 * The Document Object Model works like a bridge between logic (JavaScript) and Design (HTML)
 <img style="margin-top: 0px; width: 700px;" src="/media/javascript-images/javascript-11/document.png" alt="dom - document">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -149,6 +203,12 @@ window.screen.width // 1200 or however wide the inner browser window is
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Properties examples
@@ -156,6 +216,12 @@ window.screen.width // 1200 or however wide the inner browser window is
 * A variable connected to a specific object.
 * A property contains information about the object.
 * + many more..
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -181,6 +247,12 @@ window.screen.width // 1200 or however wide the inner browser window is
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### DOM tree structure
@@ -196,10 +268,22 @@ window.screen.width // 1200 or however wide the inner browser window is
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### DOM/Node tree
 <img style="margin-top: 0px;" src="/media/javascript-images/javascript-11/domtree.png" alt="dom - object model">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -231,6 +315,12 @@ window.screen.width // 1200 or however wide the inner browser window is
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### The DOM defines:
 
@@ -238,6 +328,12 @@ window.screen.width // 1200 or however wide the inner browser window is
 * Properties for all HTML elements.
 * Methods for all HTML elements.
 * Events for all HTML elements
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -266,6 +362,12 @@ console.log(document.charset);
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Document Methods examples 
 * getElementById - access an element with a specific id
@@ -276,6 +378,12 @@ document.getElementById('primaryButton'); // gets a reference to a element with 
 
 document.write("Hello World!");  // Writes "Hello World!"
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -302,6 +410,12 @@ document.write("Hello World!");  // Writes "Hello World!"
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### In what order the web browser work
 
@@ -318,12 +432,24 @@ document.write("Hello World!");  // Writes "Hello World!"
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Manipulate HTML elements using JavaScript
 
 * To be able to manipulate an element we first need to locate them.
 * An elements id, tag name, class names or CSS selectors can be used to locate elements
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -356,6 +482,12 @@ document.querySelectorAll("p.intro"); // This example returns a NodeList of all 
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Caching DOM Queries
 
@@ -369,6 +501,12 @@ let myElement = document.getElementById('element-id');
 
 myElement.innerHTML = 'Hello world!';
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -409,6 +547,12 @@ console.log(buttons[0]); //<button class="item">
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Methods to get children and parent 
 
@@ -420,6 +564,12 @@ element.firstElementChild; // first child ELEMENT
 element.parentElement; // parent ELEMENT
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -441,6 +591,12 @@ element.firstChild; // first underlying child
 
 element.lastChild; // last underlying child
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

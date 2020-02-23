@@ -9,6 +9,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Browsers have different rendering engines
@@ -17,6 +23,12 @@
 * Safari - Webkit
 * Firefox - Gecko
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -49,6 +61,12 @@ transition: width 2s; /* Standard */
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Transform
@@ -58,6 +76,12 @@ transition: width 2s; /* Standard */
 * CSS supports 2D and 3D transition, we will just check 2D
 * <a href="https://caniuse.com/#search=2d%20transform">CanIUse</a>
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -77,6 +101,12 @@ transition: width 2s; /* Standard */
 * skew( ) = Skews an element along the X and Y-axis
 * matrix( ) = Combines all the 2D transform methods into one
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -111,9 +141,21 @@ div {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### 2D tranform examples at <a href="https://www.w3schools.com/css/css3_2dtransforms.asp" target="_blank">w3schools</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -131,6 +173,12 @@ div {
 * Transition from one value to another over a given duration.
 * You MUST to specify the <b>CSS property</b> you want to add an effect to and the <b>duration</b> of the effect
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -168,6 +216,12 @@ div:hover {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  CSS Transition multiple properties
@@ -187,6 +241,12 @@ div {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  CSS Transition all properties
@@ -197,6 +257,12 @@ div {
 }
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -228,6 +294,12 @@ div {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Delaying the transition
@@ -241,6 +313,12 @@ div {
   }
   ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -281,6 +359,12 @@ myClass {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### CSS animations 
@@ -289,6 +373,12 @@ myClass {
 * It works on most elements.
 * <a href="https://caniuse.com/#search=css%20animations">CanIUse</a>
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -307,6 +397,12 @@ myClass {
 * You need to specify keyframes for the animation.
 * Keyframes hold what styles the element will have at certain times.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -347,6 +443,12 @@ div {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  More complex animation
@@ -375,6 +477,12 @@ div {
 ```
 [Try on w3scools](https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation2)
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

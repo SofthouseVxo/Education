@@ -10,12 +10,24 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Vad är en upplevelse?
 
 * En upplevelse är en episod, ett stycke tid som någon gick igenom, med syner, ljud, tankar, motiv och handlingar som sedan sparas i minnet, märks, återupplevs och sedan kommuniceras med andra.
 * Beskriv en upplevelse för personen som sitter bredvid dig och berör samtliga punkter ovan.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -37,6 +49,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### UX handlar om att designa upplevelser.
@@ -46,6 +64,12 @@
   * Intuitiva - Att man förstår hur man skall använda dem utan förklaring.
   * Smidiga - Skall gå att använda utan avbrott och fel
   * Behagliga/trevliga - Det skall kännas bra att använda produkten.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -74,6 +98,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Vad UX inte är!
@@ -84,6 +114,12 @@
 * Inte bara ett snyggt skal.
 * UX är inte något litet fint lager man lägger till på slutet.
 * UX design är ingenting man bockar av.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -111,12 +147,24 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### UX är inte bara Användbarhet
 
 * UX är den övergripande upplevelsen av en produkt. Där användbarhet och UI kan spela en stor roll.
 * Förr handlade HCI(Human Computer Interaction) mest om användbarhet.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -139,10 +187,22 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### 5 planes of UX
 <img src="/media/ux-images/ux-3/5planes.png" alt="5 planes of ux">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -157,6 +217,12 @@
 #### 5 planes of UX
 <img src="/media/ux-images/ux-3/5planes2.png" alt="5 planes of ux">
 <p style="text-align: right; margin-top: 0; font-size: 0.5em; margin-right: 48px;"> Image by Joe Natoli</p>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

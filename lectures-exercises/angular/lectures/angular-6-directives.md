@@ -9,6 +9,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
@@ -17,6 +23,12 @@
 A Directive is a Component without a template.
 Directives are mainly used to manipulate the DOM.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -49,6 +61,12 @@ Directives are mainly used to manipulate the DOM.
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 				
 
@@ -67,9 +85,21 @@ Directives are mainly used to manipulate the DOM.
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 <img src="/media/angular-images/angular-5/directives.png" alt="directives">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -112,6 +142,12 @@ export class IfComponent {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 				
 
@@ -136,6 +172,12 @@ export class SwitchComponent {
 	fruit:string = 'pear';	
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -174,6 +216,12 @@ export class BindComponent {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Two way data binding
@@ -182,6 +230,12 @@ export class BindComponent {
 * FormsModule required
 * Data flow both ways
 * [(ngModel)]
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -223,6 +277,12 @@ export class TwoWayComponent {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### <a href="https://angular.io/guide/cheatsheet" target="blank">Angular Cheat sheet</a>
@@ -235,9 +295,21 @@ export class TwoWayComponent {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Example of creating your own directive
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

@@ -9,9 +9,21 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### What is jQuery?
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -26,6 +38,12 @@
 #### According to jQuery themselves
 jQuery is a fast, small, and feature-rich JavaScript library. It makes things like **HTML document traversal** and **manipulation**, **event handling**, **animation**, and **Ajax** much simpler with an easy-to-use API that works across a multitude of browsers. 
 With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript. - <a href="https://jquery.com/">jQuery.com</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -53,9 +71,21 @@ With a combination of versatility and extensibility, jQuery has changed the way 
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### jQuery doesn't do anything you cannot achieve with pure JavaScript.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -83,6 +113,12 @@ How would you do this with vanilla JS?
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Downloading jQuery
@@ -90,6 +126,12 @@ How would you do this with vanilla JS?
 * <a href="https://jquery.com/download/" target="_blank">Downloads</a>
 * <a href="https://code.jquery.com/">CDN's</a>
 * npm ```npm install jquery --save```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -113,6 +155,12 @@ How would you do this with vanilla JS?
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Inspect jQuery
@@ -127,6 +175,12 @@ console.log(jQuery); // jQuery function same as above
 console.log($); // jQuery function same as above
 console.log(typeof $) // function
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -160,6 +214,12 @@ console.log(jQuery('button.primary-button'));
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Basic syntax is: $(selector).action() 
@@ -167,6 +227,12 @@ console.log(jQuery('button.primary-button'));
 * A $ sign to define/access jQuery
 * A (selector) to "query (or find)" HTML elements
 * A jQuery action() to be performed on the element(s)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -190,6 +256,12 @@ $(".test").hide() // hides all elements with class="test".
 $("#test").hide() // hides the element with id="test".
 ```
 [More examples of jQuery selectors](https://www.w3schools.com/jquery/jquery_selectors.asp)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -230,6 +302,12 @@ myButton.addEventListener("click", function() {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Document ready function
@@ -261,6 +339,12 @@ Vanilla JS
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### jQuery effects
@@ -280,6 +364,12 @@ $("#show").click(function(){
 }); 
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -319,6 +409,12 @@ $("#show").click(function(){
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### jQuery effects - toggle
@@ -332,6 +428,12 @@ $("button").click(function(){
 }); 
 ```
 [Try on w3schools](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_toggle)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -359,6 +461,12 @@ $("button").click(function(){
 }); 
 ```
 [Try on w3schools](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_animation1)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -397,6 +505,12 @@ $("button").click(function(){
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### jQuery and DOM manipulation
@@ -414,6 +528,12 @@ jQuery offers many DOM related methods that make it easy to:
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Three jQuery methods for DOM manipulation
@@ -421,6 +541,12 @@ jQuery offers many DOM related methods that make it easy to:
 * text() - Sets or returns the text content of selected elements.
 * html() - Sets or returns the content of selected elements (including HTML markup).
 * val() - Sets or returns the value of form fields.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -454,6 +580,12 @@ $(document).ready(function(){
 ```
 
 [Try on w3schools](https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_dom_html_get)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -497,6 +629,12 @@ $(document).ready(function(){
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  jQuery - DOM manipulation - Adding new content
@@ -505,6 +643,12 @@ $(document).ready(function(){
 * ```prepend()``` = Inserts content at the beginning of the selected elements.
 * ```after()``` = Inserts content after the selected elements.
 * ```before()``` = Inserts content before the selected elements.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -541,6 +685,12 @@ Result
 </div>
 <p>Some text after</p>
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -588,6 +738,12 @@ Result
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  jQuery - DOM manipulation
@@ -624,6 +780,12 @@ Result
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  jQuery - DOM manipulation - Removing elements
@@ -643,6 +805,12 @@ $(document).ready(function(){
   $("#div1").empty(); // removes only the <p>
 });
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -681,11 +849,23 @@ $(document).ready(function(){
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### AJAX & jQuery
 #### jQuery Slim does not have AJAX functionality!
 ##### Check your bootstrap import so that it is not the slim version!
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -708,6 +888,12 @@ $(selector).load(URL,DATA,CALLBACK);
 * URL = file or external path
 * DATA = 	key/value data is converterd to a string when sent
 * CALLBACK 	= Function that runs when request is done
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -746,6 +932,12 @@ $(document).ready(function(){
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Callback parameters
@@ -753,6 +945,12 @@ $(document).ready(function(){
 1. responseTxt - contains the resulting content if the call succeeds.
 1. statusTxt - contains the status of the call.
 1. xhr - contains the XMLHttpRequest object.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -786,6 +984,12 @@ $.post(URL,data,callback);
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  jQuery $.get()
@@ -797,6 +1001,12 @@ $(document).ready(function(){
   });
 }); 
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -833,6 +1043,12 @@ $(document).ready(function(){
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Pros and Cons jQuery vs JavaScript
@@ -856,9 +1072,21 @@ $(document).ready(function(){
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### To understand how jQuery works one needs to first know how JavaScript works.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

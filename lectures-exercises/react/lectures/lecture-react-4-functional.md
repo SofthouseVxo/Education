@@ -9,11 +9,23 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### What is a function?
 
 * “A function is a process which takes some input, called arguments, and produces some output called a return value." - <a href="https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976">Eric Elliot</a>
 * “Functions are one of the fundamental building blocks in JavaScript. A function is a JavaScript procedure—a set of statements that performs a task or calculates a value. To use a function, you must define it somewhere in the scope from which you wish to call it." - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions">MDN</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -30,6 +42,12 @@
 * Mapping: Based on given inputs it produces some output it maps input values to output values.
 * Procedures: A function may be called to perform a sequence of steps. The sequence is known as a procedure. (Procedural programming)
 * I/O: Functions can communicate with other parts of the system, such as the screen, storage, system logs, or network.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -57,6 +75,12 @@ function saySomething(word) {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Declaring a nameless function
@@ -66,6 +90,12 @@ console.log(word);
 }
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -93,6 +123,12 @@ saySomething('JS rocks!');
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Get save value returned from function
@@ -104,6 +140,12 @@ function myFunc(myValue) {
 var value = myFunc(5);
 console.log(value); //5
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -135,6 +177,12 @@ func();
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Function in object
@@ -147,6 +195,12 @@ const myObj = {
 
 myObj.func();
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -180,6 +234,12 @@ returnedFunc();
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Function as a parameter
@@ -193,6 +253,12 @@ sayHello((word)=>{
   console.log(word);
 });
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -216,6 +282,12 @@ const myFunc = (param) => {
 
 myFunc('hello');
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -253,6 +325,12 @@ console.log(myVal);
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Arrow functions
@@ -268,12 +346,24 @@ console.log(myVal);
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Functional Programming
 
 * Functional programming is the process of building software by composing pure functions, avoiding shared state, mutable data, and side-effects.
 * Functional programming is declarative rather than imperative, and application state flows through pure functions.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -299,12 +389,24 @@ console.log(myVal);
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Declarative vs Imperative
 
 * **Declarative programming** is a programming paradigm … that expresses the logic of a computation without describing its control flow.
 * **Imperative programming** is a programming paradigm that uses statements that change a program's state.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -329,6 +431,12 @@ console.log(myVal);
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Parts of functional programming
@@ -338,6 +446,12 @@ console.log(myVal);
 * Avoid shared state
 * Avoid mutating state
 * Avoid side effects
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -369,6 +483,12 @@ function calc(val1, val2){
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Function composition
@@ -383,10 +503,22 @@ function calc(val1, val2){
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Shared state
 **Shared state** is any variable, object, or memory space that exists in a shared scope, or as the property of an object being passed between scopes.</p>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -415,12 +547,24 @@ const newObject = Object.assign({}, {firstName: 'Tommy', lastName: 'Doe'});
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Side effects
 
 * A side effect is any application state change that is observable outside the called function other than its return value.
 * Console.log( ), document.appendChild are examples of side effects.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -438,6 +582,12 @@ const newObject = Object.assign({}, {firstName: 'Tommy', lastName: 'Doe'});
 * const add = a => b => a + b;
 * const result = add(2)(3); // => 5
 * First, the function takes a, and then returns a new function, which then takes b returns the sum of a and b. Each argument is taken one at a time.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

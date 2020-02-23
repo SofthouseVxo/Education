@@ -8,6 +8,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Vi kommer använda en del mjukvaror...
 
@@ -20,6 +26,12 @@ Detta behöver vi:
 * Editor vscode
 * node.js
 * mongodb
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -47,6 +59,12 @@ Detta behöver vi:
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Kommandoterminal
 * Motivation:
@@ -55,6 +73,12 @@ Detta behöver vi:
   * MacOS: Terminal är bash
   * Windows: choco install git
   * Linux: Duh
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -79,12 +103,24 @@ Detta behöver vi:
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Web requests - Browser
 * Motivation:
   * Kan användas för backend också
 * Installation:
   * Chrome/Firefox, ni vet
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -104,6 +140,12 @@ Detta behöver vi:
 ```
 $ curl resp wget https://www.smp.se/
 ```			 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -132,6 +174,12 @@ $ curl -s https://jsonplaceholder.typicode.com/todos/1 | jq .
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Postman
 * Motivation:
@@ -148,6 +196,12 @@ $ curl -s https://jsonplaceholder.typicode.com/todos/1 | jq .
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Editor (VScode)
 * Motivation:
@@ -156,6 +210,12 @@ $ curl -s https://jsonplaceholder.typicode.com/todos/1 | jq .
 	* MacOS: ```$ brew install mongodb```
 	* Windows: ```$ choco install mongodb```
 	* Linux: <a href="https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/" target="_blank">https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/</a>
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;

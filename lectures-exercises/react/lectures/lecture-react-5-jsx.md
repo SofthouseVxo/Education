@@ -9,9 +9,21 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### React recommends using JSX but it's not required.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -40,6 +52,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  JSX
@@ -50,6 +68,12 @@
 * JSX is NOT a string and NOT HTML
 * It describes what the UI should look like
 * JSX has the full power of JavaScript.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -84,6 +108,12 @@ React.createElement(
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ```JavaScript
@@ -95,6 +125,12 @@ React.createElement(
   'Hello world!' ← Children
 );
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -117,6 +153,12 @@ const element = {
   }
 }; // OBS Simplified example
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -161,9 +203,21 @@ export default App;
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 Since JSX is closer to JavaScript than to HTML, React DOM uses **camelCase** property naming convention instead of HTML attribute names. For example, class becomes **className** in JSX, and tabindex becomes **tabIndex.**
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -196,6 +250,12 @@ const myObj = {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Using expressions (variables, operators) in JSX - Place in curly braces
@@ -210,6 +270,12 @@ const myObj = {
 <p className={hello}/>
 <div>{143 + 15}</div> // Outputs <div>158</div>
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -245,6 +311,12 @@ class TestComponent extends Component {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  If a tag is empty you can close it
@@ -258,6 +330,12 @@ class TestComponent extends Component {
   }
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -294,6 +372,12 @@ class TestComponent extends Component {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Render stuff returned from functions
@@ -315,6 +399,12 @@ class TestComponent extends Component {
   }
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -357,12 +447,24 @@ class TestComponent extends Component {
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Syntax error: Adjacent JSX elements must be wrapped in an enclosing tag</h4>
 
 * Wrap in div → Creates a div in the real DOM.
 * React.Fragment → Does NOT create a div in the real DOM.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

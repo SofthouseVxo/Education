@@ -9,6 +9,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 				
 #### Most common mistakes made in the beginning
@@ -18,6 +24,12 @@
 * Not closing elements correctly
 * Not using or linking correct documents (.html & .css)
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -40,6 +52,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### I am making changes in the code but nothing happens in the browser?
@@ -47,6 +65,12 @@
 * Have you saved your changes in your IDE?
 * Is document your editing the one thats opened in the browser?
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -75,6 +99,12 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 				
 
@@ -87,6 +117,12 @@
 1. If none of your styles are showing check if CSS is linked correctly in HEAD
 1. If all looks good, start Googling for a solution
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 

@@ -8,10 +8,22 @@
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### State
 
 "A program is described as stateful if it is designed to remember preceding events or user interactions; the remembered information is called the state of the system."
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -37,10 +49,22 @@ requests"
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Persistence
 "In computer science, persistence refers to the characteristic of state that outlives
 the process that created it."
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -57,6 +81,12 @@ A program (process) that remembers what you did (state), even if you restart it
 * Storing data to disk
 * Files, Databases etc.
 * Reliable Persistence?
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -84,12 +114,24 @@ of errors, power failures
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### MongoDB
 * OUR PERSISTENCE ERSISTENCE OF CHOICE
 "MongoDB is a document database with the scalability and flexibility that you want
 	with the querying and indexing that you need."
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -116,6 +158,12 @@ the tabular relations used in relational databases"
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Scalability
@@ -126,6 +174,12 @@ adding resources to the system."
 * Horizontal means adding more machines.
 * SQL doesn't scale well Horizontally.
 * Lead to a varid number of "NoSQL" databases.
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -151,6 +205,12 @@ vary from document to document and data structure can be changed over time"
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Querying
@@ -159,6 +219,12 @@ vary from document to document and data structure can be changed over time"
 * How do we define what we're looking for?
 * Structured Query Language (SQL) is a standard.
 * Many xQLs available.
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -176,6 +242,12 @@ database table every time a database table is accessed."
 
 * Indices should be set up for frequently acessed data.
 * Some querying is too complex without it, like free text search.
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -204,9 +276,21 @@ Each database has multiple **schemas** that define the format for the stored dat
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Practical Mongodb
 Enough theory and nomenclature for now.
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -221,6 +305,12 @@ Enough theory and nomenclature for now.
 application data. It includes built-in type casting, validation, query building,
 business logic hooks and more, out of the box."
 * Makes it simpler to communicate with mongo
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
@@ -258,6 +348,12 @@ const User = mongoose.model('User', userSchema);
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Executing queries
 
@@ -274,6 +370,12 @@ User.find().then((error, users) => {
 	next(error);
 })
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -308,6 +410,12 @@ doc = User.findById("145e6b0a-ffb7-48b9-a9ca-13377cd7c4b7").then...
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Find
 
@@ -325,6 +433,12 @@ Model.deleteMany()
 Model.findOneAndDelete()
 Model.findOneAndRemove()
 ```
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 &nbsp;
 
 &nbsp;
