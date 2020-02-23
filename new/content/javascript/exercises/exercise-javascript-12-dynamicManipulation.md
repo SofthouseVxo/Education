@@ -19,10 +19,10 @@ I denna övningsuppgift skall ni träna på att iterera med hjälp av loopar.
 1. Skapa nu en ny ```div``` som ni ger ```id="container```. Ni skall ni lägga till följande html element med hjälp av att ange detta som ```innerHTML```. För att skapa en sträng på flera rader kan du använda dig av multi line string dvs "``" tecknen.
 
 ```HTML
-	<div>
-		<h1>Added with innerHTML</h1>
-		<p>Some text</p>
-	</div>
+<div>
+	<h1>Added with innerHTML</h1>
+	<p>Some text</p>
+</div>
 ```
 
 8. Nu kan du prova att logga något av de nya elementet du precis skapat, exempelvis ```h1``` elementet.
@@ -38,13 +38,10 @@ I denna övningsuppgift skall ni träna på att iterera med hjälp av loopar.
 13. Skapa nu nedan struktur med hjälp av ```createElement()```, ```appendChild()``` och  att sätta ```textContent```.
 
 ```HTML
-
-	<div>
-		<p>Hello World!</p>
-		<button>Press me!</button>
-	</div>
-
----
+<div>
+	<p>Hello World!</p>
+	<button>Press me!</button>
+</div>
 ```
 
 14. När skall man inte använda ```innerHTML```?
