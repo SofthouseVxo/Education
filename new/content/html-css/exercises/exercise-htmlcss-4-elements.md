@@ -28,7 +28,7 @@
 
 1. Skapa nu följande tabell:<br>
 
-![Table Reference](../media/table.png "Table reference")
+![Table Reference](new/content/media/exercises-images/table.png "Table reference")
 
 1. Börja med att skapa ett ```table```
 

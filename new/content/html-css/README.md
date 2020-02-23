@@ -1,8 +1,6 @@
 # HTML & CSS
 ### 1. HTML & CSS Intro (FE)
 
-## 
-
 #### Content:
 * Introduction to Course
 * Course Literature
@@ -10,9 +8,9 @@
 #### Links:
 * [Lecture](/new/content/html-css/lectures/lecture-htmlcss-1-intro.md)
 
-### 2. Basic Network & the web
-
 ## 
+
+### 2. Basic Network & the web
 
 #### Content:
 * Networks
