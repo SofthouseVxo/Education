@@ -7,7 +7,7 @@
 * Course Literature
 
 ##### Links:
-[lecture](/new/content/angular/lectures/lecture-angular-1-intro.md)
+* [lecture](/new/content/angular/lectures/lecture-angular-1-intro.md)
 
 
 ## 
@@ -27,8 +27,8 @@
 * <a href="https://www.freecodecamp.org/news/what-exactly-is-node-js-ae36e97449f5/" target="_blank">What exactly is * Node.js?
 
 ##### Links:
-[lecture](/new/content/angular/lectures/lecture-angular-2-prerequisites.md)
-[exercise](/new/content/angular/lectures/lecture-angular-2-prerequisites.md)
+* [lecture](/new/content/angular/lectures/lecture-angular-2-prerequisites.md)
+* [exercise](/new/content/angular/lectures/lecture-angular-2-prerequisites.md)
 
 ## 
 
