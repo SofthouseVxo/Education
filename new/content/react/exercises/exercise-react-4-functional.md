@@ -1,7 +1,4 @@
-<!doctype html>
-<html>
-	<head>
-		<title>React Exercises</title>## 4. React - Functional programming
+## 4. React - Functional programming
 
 1. Skapa en funktion  ```funcA()```.
 

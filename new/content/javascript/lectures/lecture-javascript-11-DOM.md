@@ -1,9 +1,8 @@
-### 11. JavaScript</h3>
-##### Document Object Model</h5>
+### 11. JavaScript
+##### Document Object Model
 
 ---
-
-#### Built in objects</h4>
+#### Built in objects
 
 * Global JavaScript Objects
   * Objects that the JavaScript language needs.
@@ -18,12 +17,10 @@
 
 ---
 
-
-#### Global JavaScript Objects</h4>
+#### Global JavaScript Objects
 <img style="margin-top: 0px; width: 600px;" src="/new/media/javascript-images/javascript-11/JSGlobalObjects.png" alt="Global JS Objects">
 
 ---
-
 #### Global JavaScript Objects
 
 ```JavaScript
@@ -37,18 +34,15 @@ Math.floor(Math.random() * 10); // returns a random number from 0 to 9
 
 ---
 
-
-#### Browser Object Model(BOM)</h4>
+#### Browser Object Model(BOM)
 <img style="margin-top: 0px; width: 600px;" src="/new/media/javascript-images/javascript-11/bom.png" alt="Browser Object Model">
 
 ---
 
-
-#### window object example (BOM)</h4>
+#### window object example (BOM)
 <img style="margin-top: 0px; width: 800px;" src="/new/media/javascript-images/javascript-11/window.png" alt="dom - window">
 
 ---
-
 #### Browser Object Model(BOM)
 
 ```JavaScript
@@ -57,13 +51,11 @@ window.screen.width // 1200 or however wide the inner browser window is
 ```
 
 ---
-
-#### window.location (BOM)</h4>
+#### window.location (BOM)
 <img style="margin-top: 0px; width: 800px;" src="/new/media/javascript-images/javascript-11/location.png" alt="dom - window - location">
 
 ---
-
-#### The document <b>Object</b> Model(DOM)</h4>
+#### The document <b>Object</b> Model(DOM)
 
 * The current webpage loaded into each window is modelled using a <b>document</b> object.
 * The Document Object Model works like a bridge between logic (JavaScript) and Design (HTML)
@@ -71,8 +63,7 @@ window.screen.width // 1200 or however wide the inner browser window is
 
 ---
 
-
-#### What is an Object?</h4>
+#### What is an Object?
 
 * A group of values(properties, methods) compiled under one name.
 * Name Value pairs.
@@ -80,8 +71,7 @@ window.screen.width // 1200 or however wide the inner browser window is
 
 ---
 
-
-#### Properties examples</h4>
+#### Properties examples
 
 * A variable connected to a specific object.
 * A property contains information about the object.
@@ -89,8 +79,7 @@ window.screen.width // 1200 or however wide the inner browser window is
 
 ---
 
-
-#### Methods examples</h4>
+#### Methods examples
 
 * A function connected to a specific object.
 * Methods are used to give an object functionality.
@@ -98,20 +87,17 @@ window.screen.width // 1200 or however wide the inner browser window is
 
 ---
 
-
-#### DOM tree structure</h4>
+#### DOM tree structure
 
 * The DOM interface treats HTML document as a tree structure. 
 * In this tree structure each node is an object representing a part of the document
 
 ---
 
-
-#### DOM/Node tree</h4>
+#### DOM/Node tree
 <img style="margin-top: 0px;" src="/new/media/javascript-images/javascript-11/domtree.png" alt="dom - object model">
 
 ---
-
 
 #### DOM node
 
@@ -126,8 +112,7 @@ window.screen.width // 1200 or however wide the inner browser window is
 <img style="margin-top: -20px;" src="/new/media/javascript-images/javascript-11/element.png" alt="dom - element node">
 
 ---
-
-#### The DOM defines:</h4>
+#### The DOM defines:
 
 * HTML elements as objects.
 * Properties for all HTML elements.
@@ -135,7 +120,6 @@ window.screen.width // 1200 or however wide the inner browser window is
 * Events for all HTML elements
 
 ---
-
 #### Document Properties examples
 * URL - https://www.google.se
 * Charset - UTF-8
@@ -147,7 +131,6 @@ console.log(document.charset);
 ```
 
 ---
-
 #### Document Methods examples 
 * getElementById - access an element with a specific id
 * write - adds new content to the document
@@ -159,8 +142,7 @@ document.write("Hello World!");  // Writes "Hello World!"
 ```
 
 ---
-
-#### The HTML DOM is an API (Programming Interface) for JavaScript:</h4>
+#### The HTML DOM is an API (Programming Interface) for JavaScript:
 
 * Add/change/remove HTML elements.
 * Add/change/remove HTML attributes.
@@ -169,8 +151,7 @@ document.write("Hello World!");  // Writes "Hello World!"
 * React to HTML events
 
 ---
-
-#### In what order the web browser work</h4>
+#### In what order the web browser work
 
 1. Loads the page as HTML.
 1. Depending on the HTML it creates a model(DOM) of the page.
@@ -179,14 +160,12 @@ document.write("Hello World!");  // Writes "Hello World!"
 
 ---
 
-
-#### Manipulate HTML elements using JavaScript</h4>
+#### Manipulate HTML elements using JavaScript
 
 * To be able to manipulate an element we first need to locate them.
 * An elements id, tag name, class names or CSS selectors can be used to locate elements
 
 ---
-
 #### Adressing specific elements
 
 ```JavaScript
@@ -202,7 +181,6 @@ document.querySelectorAll("p.intro"); // This example returns a NodeList of all 
 ```
 
 ---
-
 #### Caching DOM Queries
 
 * Methods like getElementById, getElementsByClassName (methods that finds element) are called **DOM Queries**.
@@ -215,8 +193,8 @@ let myElement = document.getElementById('element-id');
 
 myElement.innerHTML = 'Hello world!';
 ```
----
 
+---
 #### NodeLists
 
 * When DOM queries return multiple elements they are stored in NodeLists.
@@ -240,7 +218,6 @@ console.log(buttons[0]); //<button class="item">
 ```
 
 ---
-
 #### Methods to get children and parent 
 
 ```JavaScript
@@ -253,7 +230,6 @@ element.parentElement; // parent ELEMENT
 
 
 ---
-
 #### Methods to get adjacent nodes
 
 ```JavaScript
@@ -265,9 +241,6 @@ element.firstChild; // first underlying child
 
 element.lastChild; // last underlying child
 ```
----
-
-### <a href="https://github.com/SofthouseVxo/Education" target="_blank">Github examples!</a></h3>
 
 ---
-
+### <a href="https://github.com/SofthouseVxo/Education" target="_blank">Github examples!</a>

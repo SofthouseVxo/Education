@@ -1,7 +1,4 @@
-<!doctype html>
-<html>
-	<head>
-		<title>React Exercises</title>##  11. React - Forms
+##  11. React - Forms
 
 1. Skapa ett nytt React-projekt med hjälp av create-react-app ```npx create-react-app forms-playground```
 

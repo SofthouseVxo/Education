@@ -1,7 +1,4 @@
-<!doctype html>
-<html>
-	<head>
-		<title>React Exercises</title>## 10. React - Conditional rendering & lists
+## 10. React - Conditional rendering & lists
 
 1. Skapa ett nytt React-projekt med hjälp av create-react-app ```npx create-react-app conditionallist-playground```
 

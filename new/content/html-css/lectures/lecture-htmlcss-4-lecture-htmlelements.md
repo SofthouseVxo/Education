@@ -1,5 +1,6 @@
 ### 4.HTML & CSS
 ##### Lists, links, tables & grouping
+
 ---
 
 ####  Encoding
@@ -16,6 +17,7 @@
   </head>
 </html>
 ```
+
 
 ---
 
@@ -38,6 +40,7 @@
 </html>
 ```
 
+
 ---
 
 ####  Messy indentations
@@ -54,6 +57,7 @@
 </html>
 ```
 
+
 ---
 
 ####  Lists
@@ -62,6 +66,7 @@
 * Ordered list
 * Unordered list
 * Definition list
+
 
 ---
 
@@ -76,6 +81,7 @@
 </ol>
 ```
 
+
 ---
 
 #### Ordered List</h4>
@@ -85,6 +91,7 @@
 <li>Panda da panda</li>
 <li>Joy</li>
 </ol>
+
 ---
 
 ####  Unordered List
@@ -98,6 +105,7 @@
 </ul>
 ```
 
+
 ---
 
 #### Unordered List</h4>
@@ -107,6 +115,7 @@
 <li>Panda da panda</li>
 <li>Joy</li>
 </ul>
+
 ---
 
 ####  Definition List
@@ -117,6 +126,7 @@
   <dd>Grundenheten för massa i Internationella måttenhetssystemet (SI)</dd> <!-- element to describe the term in a description list -->
 </dl>
 ```
+
 
 ---
 
@@ -137,6 +147,7 @@
 </ol>
 ```
 
+
 ---
 
 #### Nested lists</h4>
@@ -152,6 +163,7 @@
 <li>Panda da panda</li>
 <li>Joy</li>
 </ol>
+
 ---
 
 #### HTML Links - Hyperlinks</h4>
@@ -163,6 +175,7 @@
 * Links can open new pages in new browser windows.
 * Links can start a new window to email.
 
+
 ---
 
 ####  Link to another website
@@ -171,6 +184,7 @@
 <!-- Absolute url -->
 <a href="http://www.blocket.se">blocket</a>
 ```
+
 
 ---
 
@@ -185,10 +199,12 @@
 </ul>
 ```
 
+
 ---
 
 #### File structure</h4>
 <img  src="/new/media/html-css-images/html-css-4/folder.png" alt="files structure">
+
 ---
 
 ####  Email links
@@ -196,6 +212,7 @@
 ```HTML
   <a href="mailto:johndoe@example.com">Email John</a>
 ```
+
 
 ---
 
@@ -206,6 +223,7 @@ The target attribute specifies where to open the linked document.
 ```HTML
 <a href="http://www.blocket.se" target="_blank">Blocket</a>
 ```
+
 
 ---
 
@@ -219,10 +237,12 @@ The target attribute specifies where to open the linked document.
 <a href="#top_of_page" target="_blank">Blocket</a>
 ```
 
+
 ---
 
 #### Tables
 ##### Displaying tabular data
+
 ---
 
 #### Tables
@@ -233,10 +253,12 @@ The target attribute specifies where to open the linked document.
 * Examples of tables are sport results or stock reports.
 * See <a href="http://www.everysport.com/sport/fotboll/fotbollsserier-2019/allsvenskan-herr/allsvenskan/100877" target="_blank">example</a>
 
+
 ---
 
 #### Rows and Columns
 <img src="/new/media/html-css-images/html-css-4/table2.png" alt="table structure">
+
 ---
 
 ####  HTML Table
@@ -261,6 +283,7 @@ The target attribute specifies where to open the linked document.
 </table>
 ```
 
+
 ---
 
 ####  Table structure
@@ -283,10 +306,12 @@ The target attribute specifies where to open the linked document.
   <td>90</td>
 </tr>
 </table>
+
 ---
 
 #### colspan & rowspan</h4>
 <img  src="/new/media/html-css-images/html-css-4/table.png" alt="rowspan and colspan">
+
 ---
 
 ####  colspan & rowspan
@@ -306,6 +331,7 @@ The target attribute specifies where to open the linked document.
   </tr>
 </table>
 ```
+
 
 ---
 

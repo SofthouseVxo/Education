@@ -1,9 +1,11 @@
 ### 5.HTML & CSS
 ##### Media (images, audio & video)
+
 ---
 
 #### Directory structure example
 <img  src="/new/media/html-css-images/html-css-5/folder2.png" alt="folder structure">
+
 ---
 
 #### Images
@@ -12,12 +14,14 @@
 * When using images in your webpages always consider why you use your images.
 * Also where to get and store photos/images? Are they stored on a server you own, in the cloud or elsewhere?
 
+
 ---
 
 #### Formats
 
 * JPEG, GIF, PNG & SVG are image formats often used on the web. 
 * Setting the size of images can be done using different units (px, pt, em, cm, mm).
+
 
 ---
 
@@ -26,6 +30,7 @@
 * If the image is to small i can be stretched or pixelated.
 * If the image is to big it takes a long time to load.
 * Test examples (chapter 5).
+
 
 ---
 
@@ -42,6 +47,7 @@
 <img src="images/quokka.jpg" alt="Quokka">
 ```
 
+
 ---
 
 ####  HTML Image example
@@ -56,6 +62,7 @@
 >
 ```
 
+
 ---
 
 #### HTML Image example
@@ -66,6 +73,7 @@
   src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Squirrel_posing.jpg"
   alt="Squirrel"
 >
+
 ---
 
 #### Placing an image
@@ -74,10 +82,12 @@
 * It can be controlled using the align attribute.
 * See examples (chapter 5)
 
+
 ---
 
 #### Media formats
 <a href="https://www.w3schools.com/html/html_media.asp">List with file formats</a>
+
 ---
 
 ####  HTML Audio
@@ -97,10 +107,12 @@
 ```
 [Try on w3schools](https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_audio_all)
 
+
 ---
 
 #### Some browsers does not allow for autoplay when there is sound. For good reasons.
 ##### To make autoplay work add <a href="https://www.w3schools.com/tags/att_video_muted.asp">muted</a>
+
 ---
 
 ####  HTML Video

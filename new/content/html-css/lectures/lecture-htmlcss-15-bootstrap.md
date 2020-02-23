@@ -1,15 +1,18 @@
 ### 15.HTML & CSS
 ##### Bootstrap
+
 ---
 
 #### What is Bootstrap?
 "Build **responsive**, **mobile-first** projects on the web with the world’s most popular front-end component **library**. Bootstrap is an open source toolkit for developing with **HTML, CSS, and JS**. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery." - Bootstrap, 2019</p>
+
 ---
 
 #### What is a library
 
 * Libraries are reusable code written by someone else.
 * Its purpose is to help you solve common problems in easier ways and not having to repeat yourself.
+
 
 ---
 
@@ -22,10 +25,12 @@
 * <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
 * <a href="https://getbootstrap.com/docs/4.3/examples/" target="_blank">Bootstrap Examples</a>
 
+
 ---
 
 #### <a href="https://getbootstrap.com/docs/4.3/getting-started/contents/" target="_blank">Bootstrap</a> consists of:
 <img style="width: 800px;" src="/new/media/html-css-images/html-css-15/contents.png" alt="bootstrap contents">
+
 ---
 
 #### Bootstrap provides us with:
@@ -38,6 +43,7 @@
 * Layout Templates and themes.
 * <a href="https://getbootstrap.com/docs/4.3/examples/" target="_blank">Examples</a>
 
+
 ---
 
 #### How does it work?
@@ -45,6 +51,7 @@
 1. You integrate Bootstrap (and jQuery for some features) in your project (download or using CDN).
 1. When code for this is written, every time you run your site, it will fetch the Bootstrap functionality (.css and .js files).
 1. Open <a href="https://getbootstrap.com/docs/4.3/examples/album/" target="_blank">example</a> inspect site and try to remove link to bootstrap.min.css inside head.
+
 
 ---
 
@@ -57,6 +64,7 @@
 * Clients accesses a copy of the data near to the client, as opposed to all clients accessing the same central server, in order to avoid bottlenecks near that server.
 * <a href="https://www.globaldots.com/content-delivery-network-explained/">Global dots explains</a>
 
+
 ---
 
 #### CDN cons
@@ -64,6 +72,7 @@
 * **Failure** (rare) - if the CDN data-center or services are down all you can do is wait
 * **Security** - Can be a concern if you use a public CDN service (JavaScipt)
 * **Restriction** - Some countries may ban IP addresses
+
 
 ---
 
@@ -80,6 +89,7 @@
 </head>
 ```
 
+
 ---
 
 ####  Loading Bootstrap locally
@@ -91,6 +101,7 @@
 </head>
 ```
 
+
 ---
 
 ####  Including JavaScript
@@ -99,10 +110,12 @@
 * Like Alerts, Carousels, Navbar etc.
 * Include the JavaScript files like shown [here](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 
+
 ---
 
 #### Bootstrap Examples
 ##### <a href="https://getbootstrap.com/">Bootstrap Documentation.</a>
+
 
 ---
 
@@ -125,6 +138,7 @@
 ```
 [Bootstrap ref](https://getbootstrap.com/docs/4.0/layout/grid/)
 
+
 ---
 
 ####  Bootstrap components
@@ -140,6 +154,7 @@
 </div>
 ```
 [Bootstrap ref](https://getbootstrap.com/docs/4.3/components/button-group/)
+
 
 ---
 
@@ -162,6 +177,7 @@
 ```
 [Bootstrap ref](https://getbootstrap.com/docs/4.3/utilities/spacing/)
 
+
 ---
 
 ####  Bootstrap utilites - colors
@@ -175,12 +191,14 @@
 ```
 [Bootstrap ref](https://getbootstrap.com/docs/4.3/utilities/colors/)
 
+
 ---
 
 #### Browser support
 
 * Supports latest stable releases of all major browsers
 * <a hef="https://getbootstrap.com/docs/4.3/getting-started/browsers-devices/" target="_blank">Bootstrap documentation</a>
+
 
 ---
 

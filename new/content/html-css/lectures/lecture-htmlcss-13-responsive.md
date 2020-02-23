@@ -1,5 +1,6 @@
 ### 13.HTML & CSS</h3>
 ##### Responsive web design</h5>
+
 ---
 
 #### What is a responsive web design?</h4>
@@ -9,10 +10,12 @@
 * Desktop, mobile, tablet, watches
 * Screen sizes and resolutions differ on each device/screen
 
+
 ---
 
 <img style="margin-top: 0px;" src="/new/media/html-css-images/html-css-13/resp.png" alt="different screens">
 <a href="https://www.w3schools.com/css/css_rwd_intro.asp">More examples</a>
+
 ---
 
 #### Different techniques</h4>
@@ -22,6 +25,7 @@
 * CSS3 Media queries
 * (JavaScript solutions)
 
+
 ---
 
 #### Viewport</h4>
@@ -30,6 +34,7 @@
 * The viewport will be smaller on a mobile phone than on a computer screen.
 * Back in the days it was common to just scale down the site from desktop to mobile
 * <a href="https://www.w3schools.com/css/css_rwd_viewport.asp">W3schools example</a>
+
 
 ---
 
@@ -42,6 +47,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
 
+
 ---
 
 #### Grid view</h4>
@@ -49,11 +55,13 @@
 * A grid-view, means that the page is divided into columns
 * A responsive grid-view often has 12 columns, and has a total width of 100%, and will shrink and expand as you resize the browser window.
 
+
 ---
 
 #### 12 column grid</h4>
 
 <img src="/new/media/html-css-images/html-css-13/grid.png" alt="gid">
+
 ---
 
 ####  Responsive Grid
@@ -74,6 +82,7 @@
 ```
 [w3schools example](https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_cols)
 
+
 ---
 
 
@@ -89,6 +98,7 @@
 </div>
 ```
 [w3schools example](https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_cols)
+
 
 ---
 
@@ -111,6 +121,7 @@
   }
 ```
 
+
 ---
 
 #### Linking different stylesheets depending on screen size
@@ -121,6 +132,7 @@
   <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
 ```
         
+
 ---
 
 
@@ -134,6 +146,7 @@ Can be used to check:
 * resolution.
 
 <a href="https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_media_bg" target="_blank">Try on w3schools</a>
+
 
 ---
 
@@ -149,9 +162,11 @@ Can be used to check:
   }
 ```
         
+
 ---
 
 #### Media rules needs to be placed beneath the style they effect.</h4>
+
 ---
       
 
@@ -159,6 +174,7 @@ Can be used to check:
 
 * Mobile First means designing for mobile before designing for desktop or any other device.
 * Instead of changing styles when the width gets smaller, we should change the design when the width gets larger.
+
 
 ---
 
@@ -184,6 +200,7 @@ Can be used to check:
 
 [Try on w3schools](https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mobilefirst)
         
+
 ---
 
 #### Typical Device Breakpoints
@@ -210,16 +227,19 @@ Can be used to check:
 
 [Try on w3schools](https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mediaquery_breakpoints)
         
+
 ---
 
 #### Multiple breakpoints</h4>
 <a href="https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_col-s">Example</a>
+
 ---
 
 #### It is not uncommon to build two versions of the entire site/app</h4>
 
 * Mobile - https://mobil.blocket.se/
 * Desktop - https://www.blocket.se/
+
 
 ---
 
@@ -238,6 +258,7 @@ img {
 ```
 
 [Try on w3schools](https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_image)
+
 
 ---
 

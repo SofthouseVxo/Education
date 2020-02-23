@@ -1,7 +1,4 @@
-<!doctype html>
-<html>
-	<head>
-		<title>React Exercises</title>## 5. React - JSX
+## 5. React - JSX
 
 I denna uppgift skall ni få börja jobba med React och skriva JSX.
 

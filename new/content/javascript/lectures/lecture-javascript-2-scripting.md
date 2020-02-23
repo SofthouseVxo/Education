@@ -1,389 +1,331 @@
-<!doctype html>
-<html>
-	<head>
-		<title>2. JavaScript - Scripting 
-
-					<h3>2. JavaScript</h3>
-					<h5>Scripting / Programming</h5>
+### 2. JavaScript</h3>
+##### Scripting / Programming</h5>
 
 ---
 
+#### HTML, CSS and JavaScript
 
-#### HTML, CSS and JavaScript</h4>
-					<ul>
-						<li>HTML is used to create the basic structure and content of a webpage (the skeleton).</li>
-						<li>CSS is used for the design of a webpage – where everything is placed and how it looks (body).</li>
-						<li><b><u>JavaScript is used to define the interactive elements of a webpage making it dynamic (muscles).</u></b></li>
-					</ul>
+* HTML is used to create the basic structure and content of a webpage (the skeleton).
+* CSS is used for the design of a webpage – where everything is placed and how it looks (body).
+* **JavaScript is used to define the interactive elements of a webpage making it dynamic (muscles).**
 
 ---
 
+#### Computer Programming
 
-#### Computer Programming</h4>
-					<ul>
-						<li>Programming is a way to “instruct the computer to perform various tasks”.</li>
-						<li>You need to use a language that the computer understands.</li>
-						<li>The computer will do <b>EXACTLY</b> what you tell(type), nothing more nothing less.</li>
-						<li>Adding numbers, deleting files, changing what's seen on the screen etc.</li>
-					</ul>
+* Programming is a way to “instruct the computer to perform various tasks”.
+* You need to use a language that the computer understands.
+* The computer will do **EXACTLY** what you tell(type), nothing more nothing less.
+* Adding numbers, deleting files, changing what's seen on the screen etc.
+
 
 ---
 
-
-					<p><i>“Everyone in this country should learn to program a computer, because it teaches you to think.”</i> - Steve Jobs</p>
-
----
-
-
-#### Upcoming slides provide a broader overview with simplified examples.</h4>
+“Everyone in this country should learn to program a computer, because it teaches you to think.” - Steve Jobs
 
 ---
 
+#### Upcoming slides provide a broader overview with simplified examples.
 
-#### Different types of code</h4>
-					<ul>
-						<li>Low-level Machine code</li>
-						<li>High level language</li>
-						<li>Scripting language</li>
-					</ul>
+---
+
+#### Different types of code
+
+* Low-level Machine code
+* High level language
+* Scripting language
 
 ---
 				
 
-#### Low-level Machine code</h4>
-					<ul>
-						<li>Understood by Computers not humans.</li>
-						<li>Binary codes that consists of 1's and 0's</li>
-						<li>Can be executed directly by a computer's CPU.</li>
-					</ul>
+#### Low-level Machine code
+
+* Understood by Computers not humans.
+* Binary codes that consists of 1's and 0's
+* Can be executed directly by a computer's CPU.
 
 ---
 
+#### High-level language
 
-#### High-level language</h4>
-					<ul>
-						<li>Code written gets <u>compiled</u> into stand alone applications.</li>
-						<li>Can run on different computers and operating systems in different environments (JVM for Java).</li>
-						<li>Gets compiled to machine code.</li>
-						<li>C, C++, Objective-C, Java.</li>
-					</ul>
+* Code written gets **compiled** into stand alone applications.
+* Can run on different computers and operating systems in different environments (JVM for Java).
+* Gets compiled to machine code.
+* C, C++, Objective-C, Java.
 
 ---
 
+#### Script language
 
-#### Script language</h4>
-					<ul>
-						<li>Does not work independently.</li>
-						<li>Runs in an client application which <u>interprets</u> the code, plugin or server program.</li>
-						<li>JavaScript, ActionScript, PHP.</li>
-					</ul>
+* Does not work independently.
+* Runs in an client application which **interprets** the code, plugin or server program.
+* JavaScript, ActionScript, PHP.
 
 ---
 
+#### Interpreter
 
-#### Interpreter</h4>
-					<ul>
-						<li>An interpreter interprets your code into something that the computer can understand.</li>
-						<li>This is done line by line on the fly.</li>
-						<li>Think of a human translator translating what you say, after you said one sentence she writes down the translation then hands it over to the computer.</li>
-						<li>Every time you speak a new sentence, even if it's the same as before, she will write it down again and hand it over.</li>
-					</ul>
+* An interpreter interprets your code into something that the computer can understand.
+* This is done line by line on the fly.
+* Think of a human translator translating what you say, after you said one sentence she writes down the translation then hands it over to the computer.
+* Every time you speak a new sentence, even if it's the same as before, she will write it down again and hand it over.
 
 ---
 
+#### Compiler
 
-#### Compiler</h4>
-					<ul>
-						<li>Interpreting your code into something that the computer can understand.</li>
-						<li>Different from the interpreter the compiler doesn’t translate on the fly.</li>
-						<li>It works ahead of time to create that translation and write it down.</li>
-						<li>Image the human translator again, instead of translating on the fly she writes all you had to say then hands the whole thing over to the computer.</li>
-					</ul>
+* Interpreting your code into something that the computer can understand.
+* Different from the interpreter the compiler doesn’t translate on the fly.
+* It works ahead of time to create that translation and write it down.
+* Image the human translator again, instead of translating on the fly she writes all you had to say then hands the whole thing over to the computer.
+
 
 ---
 
+#### Interpreter vs Compiler
 
-#### Interpreter vs Compiler</h4>
-					<ul>
-						<li>Interpreters are faster to set up and run first time (no need to write it all down).</li>
-						<li>But when you need to do something again, everything is already written down, and we do not need to do it again.</li>
-						<li>Compiled Java code that produce a portable (binary) representation of the program is distributed for execution later.</li>
-						<li>With JavaScript we distribute the source code, not the binary form.</li>
-					</ul>
+* Interpreters are faster to set up and run first time (no need to write it all down).
+* But when you need to do something again, everything is already written down, and we do not need to do it again.
+* Compiled Java code that produce a portable (binary) representation of the program is distributed for execution later.
+* With JavaScript we distribute the source code, not the binary form.
+
 
 ---
 
+#### Just-in-time compilers
 
-#### Just-in-time compilers</h4>
-					<ul>
-						<li>Basically if code runs more often or a lot, it gets compiled.</li>
-						<li>Browsers does this in different ways.</li>
-					</ul>
+* Basically if code runs more often or a lot, it gets compiled.
+* Browsers does this in different ways.
+
 
 ---
 
-
-#### Java flow</h4>
-  <img src="/new/media/javascript-images/javascript-2/java.png" alt="java">
-
----
-
-
-#### JavaScript flow</h4>
-  <img  src="/new/media/javascript-images/javascript-2/js.png" alt="js">
+#### Java flow
+<img src="/new/media/javascript-images/javascript-2/java.png" alt="java">
 
 ---
 
-
-#### Brief JavaScript History</h4>
-					<ul>
-						<li>Created by Brendan Eich in 1995 during his time at Netscape Communications.</li>
-						<li>Netscape Navigator was the most popular browser during the 90's.</li>
-						<li>JavaScript was created to allow web developers to embed executable code on their webpages.</li>
-					</ul>
+#### JavaScript flow
+<img  src="/new/media/javascript-images/javascript-2/js.png" alt="js">
 
 ---
 
+#### Brief JavaScript History
 
-#### What is JavaScript?</h4>
-					<ul>
-						<li>JavaScript has been the only standard language supported by browsers (behold <a href="https://webassembly.org/" target="_blank">WebAssembly</a>).</li>
-						<li>JavaScript code is written into an HTML page and <u>interpreted</u> by the browser.</li>
-						<li>With Runtime environments like <u>Node.js</u>, JavaScript can run on machines as well.</li>
-					</ul>
+* Created by Brendan Eich in 1995 during his time at Netscape Communications.
+* Netscape Navigator was the most popular browser during the 90's.
+* JavaScript was created to allow web developers to embed executable code on their webpages.
+
 
 ---
 
+#### What is JavaScript?
 
-#### WebAssembly</h4>
-					<ul>
-						<li>Simplified: <a href="https://webassembly.org/docs/faq/" target="_blank">WebAssembly</a> is a way to take code in any programming language and run it within a web browser.</li>
-						<li>Initial focus is on C/C++</li>
-						<li>All major browsers are on board for now.</li>
-						<li>Has been a lot of buzz around it for a while now..</li>
-					</ul>
+* JavaScript has been the only standard language supported by browsers (behold <a href="https://webassembly.org/" target="_blank">WebAssembly</a>).
+* JavaScript code is written into an HTML page and **interpreted** by the browser.
+* With Runtime environments like **Node.js**, JavaScript can run on machines as well.
+
 
 ---
 
+#### WebAssembly
 
-#### JavaScript & Java</h4>
-					<ul>
-						<li>JavaScript is NOT the same as Java.</li>
-						<li>JavaScript is named after Java, and many ideas are borrowed from the Java language.</li>
-						<li>JavaScript’s syntax is heavily inspired by C++ and Java.</li>
-					</ul>
+* Simplified: <a href="https://webassembly.org/docs/faq/" target="_blank">WebAssembly</a> is a way to take code in any programming language and run it within a web browser.
+* Initial focus is on C/C++
+* All major browsers are on board for now.
+* Has been a lot of buzz around it for a while now..
+
 
 ---
 
+#### JavaScript & Java
 
-#### ECMAScript & JavaScript</h4>
-					<ul>
-						<li>ECMAScript is a Standard for scripting languages.</li>
-						<li>JavaScript is the most popular implementation of the ECMAScript Standard.</li>
-						<li>Languages like Javascript are based on the ECMAScript standard.</li>
-					</ul>
+* JavaScript is NOT the same as Java.
+* JavaScript is named after Java, and many ideas are borrowed from the Java language.
+* JavaScript’s syntax is heavily inspired by C++ and Java.
+
 
 ---
 
+#### ECMAScript & JavaScript
 
-#### ECMAScript editions of (ECMA-262)</h4>
-					<ul>
-						<li>ECMAScript 2015 (ES2015) and ES6 WTF?</li>
-						<li>ECMAScript 2016 (ES2016) and ES7</li>
-						<li>ECMAScript 2017 (ES2017) and ES8</li>
-						<li>ECMAScript 2018 (ES2018) and ES9</li>
-						<li>ECMAScript 2019 (ES2019) and ES10</li>
-						<li>ES.Next (dynamic and references the next version of ECMAScript coming out).</li>
-					</ul>
+* ECMAScript is a Standard for scripting languages.
+* JavaScript is the most popular implementation of the ECMAScript Standard.
+* Languages like Javascript are based on the ECMAScript standard.
+
 
 ---
 
+#### ECMAScript editions of (ECMA-262)
 
-#### New editions</h4>
-					<ul>
-						<li>Each new edition implements some new changes.</li>
-						<li>These changes have gone through a process with several steps before being accepted by the TC39 committee.</li>
-						<li>The TC39 committe consists of between 50-100 different people from web-invested companies like browser and device makers.</li>
-					</ul>
+* ECMAScript 2015 (ES2015) and ES6 WTF?
+* ECMAScript 2016 (ES2016) and ES7
+* ECMAScript 2017 (ES2017) and ES8
+* ECMAScript 2018 (ES2018) and ES9
+* ECMAScript 2019 (ES2019) and ES10
+* ES.Next (dynamic and references the next version of ECMAScript coming out).
+
 
 ---
 
+#### New editions
 
-#### JavaScript supports <u>backwards compatibility</u></h4>
-					<p>"Backwards compatibility means that once something is accepted as valid JS, there will not be a future change to the language that causes that code to become invalid JS. Code written in 1995 -- however primitive or limited it may have been! -- should still work today. As TC39 members often proclaim, "we don't break the web!" - <a href="https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/getting-started/ch1.md">YDKJS</a></p>
-					<p><u>JS is not forwards-compatible!</u></p>
+* Each new edition implements some new changes.
+* These changes have gone through a process with several steps before being accepted by the TC39 committee.
+* The TC39 committe consists of between 50-100 different people from web-invested companies like browser and device makers.
+
 
 ---
 
-
-#### Soo.. What is a script?</h4>
-					<p>A script is a series of instructions that a computer can follow to achieve a goal.</p>
-					<p>Like a recipe.</p>
-
----
-
-
-#### Designing a Script</h4>
-					<ol>
-						<li>Define the goal</li>
-						<li>Design the script</li>
-						<li>Code each step</li>
-					</ol>
+#### JavaScript supports **backwards compatibility**
+"Backwards compatibility means that once something is accepted as valid JS, there will not be a future change to the language that causes that code to become invalid JS. Code written in 1995 -- however primitive or limited it may have been! -- should still work today. As TC39 members often proclaim, "we don't break the web!" - <a href="https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/getting-started/ch1.md">YDKJS</a>
+**JS is not forwards-compatible!**
 
 ---
 
-
-#### Common workflow</h4>
-					<ol>
-						<li>Write some code.</li>
-						<li>Test if it works as intended.</li>
-						<li>Indentify bugs (when it's not working)</li>
-						<li>Explore solutions (Google, Stack overflow, Blogs, friends etc.)</li>
-						<li>Go to step 1</li>
-					</ol>
+#### Soo.. What is a script?
+A script is a series of instructions that a computer can follow to achieve a goal.
+Like a recipe.
 
 ---
 
+#### Designing a Script
 
-#### Vocabulary & Syntax</h4>
-					<ul>
-						<li><b>Vocabulary</b> - Words that computers understand.</li>
-						<li><b>Syntax</b> - How to put those words together to create instructions.</li>
-					</ul>
+1. Define the goal
+1. Design the script
+1. Code each step
+
 
 ---
 
+#### Common workflow
 
-#### Why JavaScript?</h4>
-					<ul>
-						<li>JavaScript adds interactivity to your website.</li>
-						<ul>
-							<li>Response to user actions (clicking buttons etc.).</li>
-							<li>Modifying content.</li>
-							<li>Changing the site dynamically (after its been loaded by the browser).</li>
-							<li>Animating.</li>
-							<li>Fetching data asynchronosly.</li>
-						</ul>
-					</ul>
+1. Write some code.
+1. Test if it works as intended.
+1. Indentify bugs (when it's not working)
+1. Explore solutions (Google, Stack overflow, Blogs, friends etc.)
+1. Go to step 1
+
 
 ---
 
+#### Vocabulary & Syntax
 
-#### Creating JavaScript</h4>
-					<ul>
-						<li>JavaScript is written in plain text.</li>
-						<li>JavaScript code can be placed in:</li>
-						<ul>
-							<li>Script-tags in the HTML file.</li>
-							<li>A seperate file (.js) which is loaded from a HTML file.</li>
-						</ul>
-					</ul>
+* **Vocabulary** - Words that computers understand.
+* **Syntax** - How to put those words together to create instructions.
+
 
 ---
 
-				<section data-markdown>
-					<script type="text/template">
-						#### Loading and Running JavaScript
+#### Why JavaScript?
 
-						* JavaScript runs where it is found in the code.
-						* When the browser comes across a script element, it stops to load the script and runs the JS code.
+* JavaScript adds interactivity to your website.
+  * Response to user actions (clicking buttons etc.).
+  * Modifying content.
+  * Changing the site dynamically (after its been loaded by the browser).
+  * Animating.
+  * Fetching data asynchronosly.
+	
 
-						```HTML
-						<html>
-							<head>
-								<title>Page Title</title>
-							</head>
-							<!-- script tag are commented because of reveal.js lib not displaying properly -->
-							<!-- <script>console.log('Hello World!');</script> -->
-							
-							<body>
-								<!-- <script src="main.js"></script> -->
-								<h1>My First Heading</h1>
-								<p>My first paragraph.</p>
-							</body >
-						</html>
-						```
-					</script>
 
 ---
 
-				<section data-markdown>
-					<script type="text/template">
-						#### Loading and Running JavaScript
+#### Creating JavaScript
 
-						* Newer browsers supports defer and async, these attributes tell the browser it's safe to continue parsing while the scripts are being downloaded.
+* JavaScript is written in plain text.
+* JavaScript code can be placed in:
+  * Script-tags in the HTML file.
+  * A seperate file (.js) which is loaded from a HTML file.
+	
 
-						```HTML
-						<html>
-							<head>
-								<title>Page Title</title>
-							</head>
-							<!-- script tag are commented because of reveal.js lib not displaying properly -->
-							<!-- <script defer>console.log('Hello Sweden!');</script> -->
-							<!-- <script async>console.log('Hello World!');</script> -->
-
-							<body>
-								<!-- <script src="main.js"></script> -->
-								<h1>My First Heading</h1>
-								<p>My first paragraph.</p>
-							</body>
-						</html>
-						```
-					</script>
 
 ---
 
+#### Loading and Running JavaScript
 
-#### HTML parsing – analyzing & interpretation</h4>
-					<ol>
-						<li>HTML code gets parsed until it reaches a script reference.</li>
-						<li>Script is loaded (if it's an external reference).</li>
-						<li>Script runs.</li>
-						<li>HTML parsing continues.</li>
-					</ol>
+* JavaScript runs where it is found in the code.
+* When the browser comes across a script element, it stops to load the script and runs the JS code.
 
-					<p>The above is called Direct, this can be also be done asynchronosly, meaning the parser continues while loading the script.</p>
-
----
-
-
-#### Web Console</h4>
-          <ul>
-            <li>Logs information associated with a web page:
-              <ul>
-                <li>network requests</li>
-                <li>JavaScript</li>
-                <li>CSS</li>
-                <li>Security errors</li>
-                <li>Warnings</li>
-              </ul>
-            <li>It's possible to execute JavaScript expressions from the console.</li>
-          </ul>
+```HTML
+<html>
+	<head>
+		<title>Page Title</title>
+	</head>
+	<!-- script tag are commented because of reveal.js lib not displaying properly -->
+	<!-- <script>console.log('Hello World!');</script> -->
+	
+	<body>
+		<!-- <script src="main.js"></script> -->
+		<h1>My First Heading</h1>
+		My first paragraph.
+	</body >
+</html>
+```
 
 ---
 
+#### Loading and Running JavaScript
 
-#### Web Console</h4>
-					<img style="margin-top: 0px;" src="/new/media/javascript-images/javascript-2/webconsole.png" alt="web console">
+* Newer browsers supports defer and async, these attributes tell the browser it's safe to continue parsing while the scripts are being downloaded.
+
+```HTML
+<html>
+	<head>
+		<title>Page Title</title>
+	</head>
+	<!-- script tag are commented because of reveal.js lib not displaying properly -->
+	<!-- <script defer>console.log('Hello Sweden!');</script> -->
+	<!-- <script async>console.log('Hello World!');</script> -->
+
+	<body>
+		<!-- <script src="main.js"></script> -->
+		<h1>My First Heading</h1>
+		My first paragraph.
+	</body>
+</html>
+```
 
 ---
 
+#### HTML parsing – analyzing & interpretation
 
-#### alert() & prompt() examples</h4>
+1. HTML code gets parsed until it reaches a script reference.
+1. Script is loaded (if it's an external reference).
+1. Script runs.
+1. HTML parsing continues.
 
----
-
-
-#### Documentations</h4>
-					<ul>
-						<li><a href="https://www.w3schools.com/js/default.asp" target="_blank">W3schools</a></li>
-						<li><a href="https://developer.mozilla.org/sv-SE/" target="_blank">MDN</a></li>
-					</ul>
+The above is called Direct, this can be also be done asynchronosly, meaning the parser continues while loading the script.
 
 ---
 
+#### Web Console
+
+* Logs information associated with a web page:
+  * network requests
+  * JavaScript
+  * CSS
+  * Security errors
+  * Warnings
+
+* It's possible to execute JavaScript expressions from the console.
+
+---
+
+#### Web Console
+<img style="margin-top: 0px;" src="/new/media/javascript-images/javascript-2/webconsole.png" alt="web console">
+
+---
+
+#### alert() & prompt() examples
+
+---
+
+#### Documentations
+
+* <a href="https://www.w3schools.com/js/default.asp" target="_blank">W3schools</a>
+* <a href="https://developer.mozilla.org/sv-SE/" target="_blank">MDN</a>
+
+
+---
 
 ### <a href="https://github.com/SofthouseVxo/Education" target="_blank">Github examples!</a></h3>
-
----
-

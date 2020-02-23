@@ -1,5 +1,6 @@
 ### Debugging HTML & CSS
 ##### A practical guide
+
 ---
 				
 #### Most common mistakes made in the beginning
@@ -9,9 +10,11 @@
 * Not closing elements correctly
 * Not using or linking correct documents (.html & .css)
 
+
 ---
 
 #### 95% of the time the answers of your problems could be found in the lectures.
+
 
 ---
 
@@ -19,6 +22,7 @@
 
 * Have you saved your changes in your IDE?
 * Is document your editing the one thats opened in the browser?
+
 
 ---
 
@@ -29,6 +33,7 @@
 1. If it exists check styling.
 1. Check your code in an validator.
 1. Turn to Google.
+
 
 ---
 				
@@ -41,6 +46,7 @@
 1. If not check that u are using the correct selector? (type, class, id)
 1. If none of your styles are showing check if CSS is linked correctly in HEAD
 1. If all looks good, start Googling for a solution
+
 
 ---
 

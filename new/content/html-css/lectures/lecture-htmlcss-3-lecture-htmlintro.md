@@ -1,5 +1,6 @@
 ### 3.HTML & CSS
 ##### Hypertext Markup Language
+
 ---
 
 ####  A basic HTML page
@@ -16,12 +17,14 @@
 </html>
 ```
 
+
 ---
 
 #### HTML, CSS and JavaScript
 * **HTML is used to create the basic structure and content of a webpage (the skeleton).**
 * CSS is used for the design of a webpage – where everything is placed and how it looks (body).
 * JavaScript is used to define the interactive elements of a webpage making it dynamic (muscles).
+
 ---
 
 #### What is HTML?
@@ -30,6 +33,7 @@
 * It describes the structure of a Web pages (marks it).
 * HTML pages are stored on webservers and interpreted by browsers.
 * All HTML documents have the file ending .html (index.html)
+
 ---
 
 #### HTML elements
@@ -38,6 +42,7 @@
 * The tags label the pieces of content.
 * The tags act like containers, telling you something about the information within.
 * Browsers do not display the tags, but uses them to render the content.
+
 ---
 
 ####  HTML Elements/Tags
@@ -55,6 +60,7 @@
 <img>
 ```
 
+
 ---
 
 ####  Nested HTML Elements
@@ -70,6 +76,7 @@
 </div>
 ```
 
+
 ---
 
 ####  Empty HTML Elements
@@ -81,6 +88,7 @@
 <!-- <br> defines a line break-->
 <p>Hello<br>Robin</p>
 ```
+
 
 ---
 
@@ -99,6 +107,7 @@
 </html>
 ```
 
+
 ---
 
 ####  Basic HTML page
@@ -113,10 +122,12 @@
 * [Complete list at w3schools](https://www.w3schools.com/tags/)
 * [Complete list at MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 
+
 ---
 
 #### What happens when a webpage runs?
 <img src="/new/media/html-css-images/html-css-3/clientserver.png" alt="client server communication">
+
 ---
 
 ####  Comments
@@ -134,11 +145,13 @@
 -->
 ```
 
+
 ---
 
 ####  Case sensitivity
 * HTML tags are not case sensitive: ```<P>``` means the same as ```<p>```.
 * However use lowercase.
+
 
 ---
 
@@ -155,6 +168,7 @@
 <!-- src, witdh & height are attributes -->
 <img src="cat.jpg" width="300" height="300">
 ```
+
 
 ---
 
@@ -173,6 +187,7 @@
 ```
 [Full list of semantic elements](https://www.w3schools.com/html/html5_semantic_elements.asp)
 
+
 ---
 
 ####  ```<header>```
@@ -186,6 +201,7 @@
 </header>
 ```
 [w3schools](https://www.w3schools.com/tags/tag_header.asp)
+
 
 ---
 
@@ -202,6 +218,7 @@
 ```
 [w3schools](https://www.w3schools.com/tags/tag_footer.asp)
 
+
 ---
 
 ####  ```<section>```
@@ -209,6 +226,7 @@
 * The ```<section>``` tag defines sections in a document, such as chapters, headers, footers, or any other sections of the document.
 * The HTML ```<section>``` element represents a standalone section — which doesn't have a more specific semantic element to represent it — contained within an HTML document.
 * Do not use the ```<section>``` element as a generic container; this is what ```<div>``` is for, especially when the sectioning is only for styling purposes. A rule of thumb is that a section should logically appear in the outline of a document.
+
 
 ---
 
@@ -222,6 +240,7 @@
 
 [w3schools](https://www.w3schools.com/tags/tag_section.asp)
 
+
 ---
 
 ####  ```<main>```
@@ -230,6 +249,7 @@
 * The content inside the ```<main>``` element should be unique to the document. It should not contain any content that is repeated across documents such as sidebars, navigation links, copyright information, site logos, and search forms.
 * There must not be more than one ```<main>``` element in a document. The ```<main>``` element must **NOT** be a descendant of an ```<article>```, ```<aside>```, ```<footer>```, ```<header>```, or ```<nav>``` element.
         
+
 ---
 
 ####  ```<main>```
@@ -250,6 +270,7 @@
 ```
 [w3schools](https://www.w3schools.com/tags/tag_main.asp)
 
+
 ---
 
 ####  ```<nav>```
@@ -266,6 +287,7 @@
 ```
 [w3schools](https://www.w3schools.com/tags/tag_nav.asp)
 
+
 ---
 
 ####  Semantic HTML
@@ -278,6 +300,7 @@
 
 [Full list of semantic elements](https://www.w3schools.com/html/html5_semantic_elements.asp)
 
+
 ---
 
 #### HTML versions
@@ -288,6 +311,7 @@
 * HTML 4.01 - 1999
 * XHTML	- 2000
 * HTML5	- 2014
+
 ---
 
 #### Content managing system (CMS)

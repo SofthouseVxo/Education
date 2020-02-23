@@ -1,7 +1,4 @@
-<!doctype html>
-<html>
-	<head>
-		<title>React Exercises</title>## 6. React Components
+## 6. React Components
 
 I denna uppgift skall ni få börja jobba med att skapa olika React components.
 

@@ -1,5 +1,6 @@
 ### 12.HTML & CSS
 ##### SEO - Search engine optimization
+
 ---
 
 #### SEO - the process of increasing the quality and quantity of website traffic.
@@ -9,9 +10,11 @@
 * There are companies that only focus on SEO.
 * We will only scratch the surface in this course.
 
+
 ---
 
 <img src="/new/media/html-css-images/html-css-12/google.png" alt="google search example">
+
 ---
 
 #### Why SEO?
@@ -19,6 +22,7 @@
 * Search engines is the main tool people use to navigate on the web.
 * (~50) Millions of searches is done in Sweden every day.
 * Advertisement using SEO is called organic (not paid advertisement).
+
 
 ---
 
@@ -28,6 +32,7 @@
 1. Search engines provide users with results relevant to their search query.
 1. <a href="https://www.google.com/search/howsearchworks/crawling-indexing/" target="_blank">Google explains</a>.
 
+
 ---
 
 #### Indexing?
@@ -36,12 +41,14 @@
 * Google has an **index** consisting of billions of websites and webpages.
 * When you search on google, you don't search on the web, you search in Googles index of the web.
 
+
 ---
 
 #### How does Google create their index?
 
 * They use spiders(robots or crawlers) which are automatically discovering and scanning websites.
 * They follow links from one webpage to another. Googles main crawler is called Googlebot.
+
 
 ---
 
@@ -54,11 +61,13 @@
   * You simply tell google to index your site via <a href="https://support.google.com/webmasters/answer/6065812?hl=sv" target="_blank">Google Search Console</a>.
   
 
+
 ---
 
 #### See if your site is indexed by Google
 
 * Search for site:yourwebsite.com on <a href="https://www.google.se" target="_blank">Google</a>
+
 
 ---
 
@@ -69,6 +78,7 @@
 * **Web spider**: A piece of software designed to carry out the crawling process at scale.
 * **Googlebot**: Googles web spider.
 
+
 ---
 
 #### When you search on google:
@@ -76,16 +86,19 @@
 1. The search engine scans its gigantic index.
 1. Then it provides the user with results which are relevant and useful depending on the query.
 1. And ranks these depending on popularity.
+
 ---
 
 #### So how do you get a high ranking?
 ##### And end up at the top results when someone search for something related to your business?</h5>
+
 ---
 
 #### SEO can be devided into two areas
 
 * On Site SEO
 * Off site SEO
+
 
 ---
 
@@ -101,12 +114,14 @@
 * Meta tags
 * Mobile friendly
 
+
 ---
 
 #### Keywords
 
 * Keywords are a crucial factor when it comes to SEO.
 * After all, people search on keywords in search engines.
+
 
 ---
 
@@ -117,6 +132,7 @@
 * And as low organic competition as possible.
 * <a href="https://trends.google.se/trends/?geo=SE" target="_blank">Google trends</a>
 
+
 ---
 
 #### Using the keywords
@@ -126,6 +142,7 @@
 * Use them in the urls's.
 * Many say that keywords in the meta tag has no effect. And if you add them there it's easy for your competitors to check what keywords you are trying to rank high on.
 * You cannot just tell Google what your keywords are, they will figure it out if you've used them correctly.
+
 
 ---
 
@@ -143,6 +160,7 @@
 * Link internally and to other relevat sites or/and posts.
 * Use bullet-lists.
 
+
 ---
 
 #### Other tips:
@@ -150,6 +168,7 @@
 * Atleast one H1 on each page.
 * Write readable text, format and split in pieces.
 * Since google change their algorithm continually alot of people have different understandings and opinions on what effects your ranking in different ways.
+
 
 ---
 
@@ -159,6 +178,7 @@
 * You need to have links connecting your pages inside your site.
 * Otherwise google might not index the whole site.
 * No-follow on links you don't want google to follow.
+
 
 ---
 
@@ -170,18 +190,21 @@
 * The sitemap tells the robot which files are more important and other information about the files (like when they where updated).
 * With sitemaps the risk is smaller that the robots might miss content and pages.
 
+
 ---
 
 #### Sitemap example (XML format)
 
 <img src="/new/media/html-css-images/html-css-12/sitemap.png" alt="sitemap example">
 <a href="https://www.xml-sitemaps.com/" target="_blank">Sitemap generator</a>
+
 ---
 
 #### Robots.txt
 
 * A text file with instructions to crawlers.
 * <a href="https://www.seo-guide.se/robots-txt" target="_blank">Read more.</a>
+
 
 ---
 
@@ -194,6 +217,7 @@
   * Avoid unnecessary words
   
 <img src="/new/media/html-css-images-images/html-css-12/url.png" alt="url structure example">
+
 ---
 
 ####  SEO and meta tags
@@ -213,6 +237,7 @@
 ```
 [SEO-guide](https://www.seo-guide.se/meta-element)
 
+
 ---
 
 #### Off site SEO
@@ -221,6 +246,7 @@
 * Social media marketing
 * Guest blogging
 * Influencer marketing
+
 
 ---
 

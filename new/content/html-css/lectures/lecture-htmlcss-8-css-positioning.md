@@ -1,5 +1,6 @@
 ### 8.HTML & CSS
 ##### Positioning & Layouts
+
 ---
 
 #### Layouts
@@ -7,6 +8,7 @@
 * A layout is a way in which the parts of something are arranged or laid out.
 
 <img style="max-width: 700px" src="/new/media/html-css-images/html-css-8/layouts.png" alt="different types of layouts">
+
 ---
 
 ####  Position
@@ -26,6 +28,7 @@ div.static {
 }
 ```
 
+
 ---
 
 #### Positioning
@@ -34,6 +37,7 @@ div.static {
 * Bottom - How far from the bottom the element should be.
 * Left - How far from the left the element should be.
 * Right - How far from the right the element should be.
+
 
 ---
 
@@ -53,6 +57,7 @@ div {
 }
 ```
   
+
 ---
 
 ####  Static position
@@ -65,6 +70,7 @@ div.static {
   border: 3px solid #73AD21;
 }
 ```
+
 
 ---
 
@@ -82,6 +88,7 @@ div.relative {
 }
 ```
 [Try it on w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_position_relative)
+
 
 ---
 
@@ -101,6 +108,7 @@ div.fixed {
 }
 ```
 [Try it on w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_position_fixed)
+
 
 ---
 
@@ -127,6 +135,7 @@ div.absolute {
 ```
 [Try it on w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_position_absolute)
 
+
 ---
 
 ####  Sticky Position
@@ -143,6 +152,7 @@ div.sticky {
 }
 ```
 [Try it on w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_position_sticky)
+
 
 ---
 
@@ -161,6 +171,7 @@ img {
 }
 ```
 [Try it on w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_zindex)
+
 
 ---
 
@@ -181,6 +192,7 @@ img {
 * [W3schools example](https://www.w3schools.com/css/tryit.asp?filename=trycss_layout_float)
 * [Handbook example](http://htmlandcssbook.com/code-samples/chapter-15/float.html)
 
+
 ---
 
 ####  Display
@@ -196,6 +208,7 @@ img {
   <li>third</li>
 </ul>
 ```
+
 
 ---
 

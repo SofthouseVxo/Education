@@ -1,5 +1,6 @@
 ### 10.HTML & CSS
 ##### Forms
+
 ---
 
 #### HTML Forms
@@ -15,10 +16,12 @@
   * etc.
 
 
+
 ---
 
 ### HTML Forms
 <img  src="/new/media/html-css-images/html-css-10/form.png" alt="How a HTML form is sent">
+
 ---
 
 ####  Name Value pairs
@@ -28,6 +31,7 @@
 <!-- type=name text=value -->
 <input type="text" name="username" />
 ```
+
 
 ---
 
@@ -42,6 +46,7 @@
 </form>
 ```
 
+
 ---
 
 ####  ```<input>``` element
@@ -54,6 +59,7 @@
 <input type="email" name="email"/>
 <input type="password" name="password" />
 ```
+
 
 ---
 
@@ -68,6 +74,7 @@
 <br>
 <br>
 
+
 ---
 
 ####  Labels and placeholders
@@ -80,6 +87,7 @@
 <label style="font-size: 12px;" for="password">Password:</label>
 <input type="password" name="password" />
 ```
+
 
 ---
 
@@ -96,6 +104,7 @@
 <input style="margin-left: 1px;" type="password" name="password" />
 <br>
 <br>
+
 ---
 
 ####  ```<textarea>``` element
@@ -108,10 +117,12 @@ Enter your comments here...
 </textarea>
 ```
 
+
 ---
 
 #### Textarea
 <textarea name="comments" cols="40" rows="6">Enter your comments here...</textarea>
+
 ---
 
 ####  Radio Buttons
@@ -126,6 +137,7 @@ Enter your comments here...
 </form>
 ```
 
+
 ---
 
 #### Radio buttons
@@ -136,6 +148,7 @@ Enter your comments here...
   <br>
   <input type="radio" name="animal" value="chicken" /> chicken
 </form>
+
 ---
 
 ####  Checkboxes
@@ -150,6 +163,7 @@ Enter your comments here...
 </form>
 ```
 
+
 ---
 
 #### Checkboxes
@@ -160,6 +174,7 @@ Enter your comments here...
   <br>
   <input type="checkbox" name="animal" value="pig" /> chicken
 </form>
+
 
 ---
 
@@ -178,6 +193,7 @@ Enter your comments here...
 </form>
 ```
 
+
 ---
 
 #### Dropdown list
@@ -189,6 +205,7 @@ Enter your comments here...
     <option value="lemon">Lemon</option>
   </select>
 </form>
+
 ---
 
 ####  File upload
@@ -203,6 +220,7 @@ Enter your comments here...
 </form>
 ```
 
+
 ---
 
 #### File upload
@@ -211,6 +229,7 @@ Enter your comments here...
   <input type="file" name="user-profile" /><br />
   <input type="submit" value="Upload" />
 </form>
+
 ---
 
 ####  Submitting the form
@@ -225,6 +244,7 @@ Enter your comments here...
 </form>
 ```
 
+
 ---
 <!--<section>
 #### Submit button
@@ -235,6 +255,7 @@ Enter your comments here...
   <input type="text" name="username"/>
   <input type="submit" name="submit" value="submit"/>
 </form>
+
 ----->
 
 ####  Date input
@@ -247,6 +268,7 @@ Enter your comments here...
 </form>
 ```
 
+
 ---
 
 #### Date input
@@ -254,6 +276,7 @@ Enter your comments here...
   <input type="date" name="startdate"/>
   <input type="submit" name="submit" value="submit"/>
 </form>
+
 ---
 
 ####  Email & Url
@@ -266,6 +289,7 @@ Enter your comments here...
 </form>
 ```
 
+
 ---
 
 #### Email & Url
@@ -274,6 +298,7 @@ Enter your comments here...
   <input type="url" name="url"/>
   <input type="submit" name="submit" value="submit"/>
 </form>
+
 ---
 
 ####  Form validation
@@ -287,6 +312,7 @@ Enter your comments here...
 </form>
 ```
 
+
 ---
 
 #### Form validation
@@ -294,6 +320,7 @@ Enter your comments here...
   <input required="required" type="text" name="username"/>
   <input type="submit" name="submit" value="submit"/>
 </form>
+
 ---
 
 ####  Grouping form elements

@@ -1,7 +1,4 @@
-<!doctype html>
-<html>
-	<head>
-		<title>React Exercises</title>## 15. React - HOC's och PropTypes
+## 15. React - HOC's och PropTypes
 
 I denna övningsuppgift skall ni få träna att använda Higher order components och typechecking med proptypes
 

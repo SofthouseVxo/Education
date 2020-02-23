@@ -1,5 +1,6 @@
 ### 2.HTML & CSS
 ##### Basic Network & the web
+
 ---
 
 #### What is a computer network?
@@ -8,6 +9,7 @@
 * The most basic computer network is two desktop computers connected via cable.
 
 <img style="width: 600px;" src="/new/media/html-css-images/html-css-2/basic2.png" alt="client server communication">
+
 ---
 
 #### Protocols
@@ -17,10 +19,12 @@
 * Examples are: TCP/IP, HTTP, HTTPS, FTP.
 	
 <img style="width: 600px;" src="/new/media/html-css-images/html-css-2/basic.png" alt="client server communication">
+
 ---
 
 #### Local network
 <img style="width: 600px;" src="/new/media/html-css-images/html-css-2/local.png" alt="client server communication">
+
 ---
 
 #### What is the internet?
@@ -29,6 +33,7 @@
 * It uses the Internet protocol suite (TCP/IP).
 
 <img style="width: 600px;" src="/new/media/html-css-images/html-css-2/internet.png" alt="client server communication">
+
 ---
 
 #### Web servers
@@ -39,6 +44,7 @@
 * Web servers store software and a website's component files like: **HTML documents, Images, CSS stylesheets, JavaScript files**
 * When you ask your browser for a web page, the request is sent across the internet to a web server.
 
+
 ---
 
 #### Clients
@@ -48,10 +54,12 @@
 
 
 <img style="width: 600px;"  src="/new/media/html-css-images/html-css-2/client.png" alt="client server communication">
+
 ---
 
 #### IP adresses
 <img style="width: 600px;" src="/new/media/html-css-images/html-css-2/ip.png" alt="client server communication">
+
 ---
 
 #### TCP/IP
@@ -64,10 +72,12 @@
 * **TCP - The Transmission Control Protocol** - splits data up into packets and puts them back together at their destination.
 * **IP - The Internet Protocol** - tells the packets where to go and where they should return to.
 
+
 ---
 
 #### Domain Name System DNS
 <img style="width: 600px;" src="/new/media/html-css-images/html-css-2/dns.png" alt="client server communication">
+
 ---
 
 #### DNS
@@ -75,6 +85,7 @@
 * DNS is a protocol within the set of standards for how computers exchange data on the Internet and on many private networks.
 * Its basic job is to turn a user-friendly domain name like **"www.softhouse.com"** into an Internet Protocol (IP) address like **70.42.251.42** that computers use to identify each other on the network.
 * It's like your computer's GPS for the Internet.
+
 
 ---
 
@@ -84,6 +95,7 @@ $ traceroute www.google.se
 ```
 
 <img style="width: 600px;" src="/new/media/html-css-images/html-css-2/routers.png" alt="client server communication">
+
 ---
 
 #### Routers
@@ -93,12 +105,14 @@ $ traceroute www.google.se
 * Routers directs the traffic.
 * Data such as web pages or emails(in the form of data packets) are forwarded from router to router through the internet until it reaches its destination.
 
+
 ---
 
 #### WWW (World Wide Web)
 
 * The WWW is **NOT** the internet
 * <a href="https://www.youtube.com/watch?v=J8hzJxb0rpc" target="_blank">Twila Camp Explains</a>
+
 
 ---
 
@@ -110,6 +124,7 @@ $ traceroute www.google.se
 * A URL can also be used to locate a file on the computer
 
 <img style="width: 700px;" src="/new/media/html-css-images/html-css-2/url.png" alt="client server communication">
+
 ---
 
 #### Running a site locally
@@ -117,6 +132,7 @@ $ traceroute www.google.se
 * Will display the local file path (the path to the file on your computer
 
 <img src="/new/media/html-css-images/html-css-2/localFilepath.png" alt="local filepath">
+
 ---
 
 #### Webpages, websites definitions
@@ -124,6 +140,7 @@ $ traceroute www.google.se
 * Webbsida (webpage) är en sida på en webbplats <a href="https://www.blocket.se/bostad/saljes" target="_blank">www.blocket.se/bostad/saljes</a>
 * Webbplats (website) är allt innehåll på exempelvis <a href="http://www.blocket.se" target="_blank">www.blocket.se</a>
 * Hemsida (homepage) är den första sida du kommer till när du kommer till <a href="http://www.blocket.se" target="_blank">www.blocket.se</a>
+
 
 ---
 
@@ -135,6 +152,7 @@ $ traceroute www.google.se
 * Updates for these are released regularly, but it is up to the user to update theirs.
 * <a href="https://caniuse.com/#search=css" target="_blank">caniuse.com</a> is a site where you can check which functionality is implemented and working on each browser.
 
+
 ---
 
 #### Browser devtools
@@ -142,5 +160,6 @@ $ traceroute www.google.se
 * All browsers have tools and functionality to help when developing websites.
 * This is called developer tools (devtools).
 * The functionality in browsers are similiar but different.
+
 
 ---

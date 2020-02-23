@@ -1,5 +1,6 @@
 ### 9.HTML & CSS
 ##### Layouts with Flexbox & Grid
+
 ---
 
 #### Flexbox
@@ -11,15 +12,19 @@
 * **Grid** layout is intended for larger scale layouts.
 * <a href="https://caniuse.com/#search=flexbox" target="_blank">Browser support</a>.
 
+
 ---
 
 #### <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">CSS-Tricks Flexbox Guide</a>
+
 ---
 
 #### <a href="https://the-echoplex.net/flexyboxes/">Flexbox Playground
+
 ---
 
 #### <a href="https://flexboxfroggy.com/#sv" target="_blank">Learning Flexbox (flexboxfroggy.com)</a>
+
 ---
 
 #### CSS Grid layout
@@ -29,13 +34,17 @@
 * Consists of a Parent element (Grid Container) and children (Grid Items).
 * <a href="https://caniuse.com/#feat=css-grid" target="_blank">Browser support</a>.
 
+
 ---
 
 #### <a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">CSS-Tricks CSS Grid Guide</a>
+
 ---
 
 #### <a href="https://mozilladevelopers.github.io/playground/css-grid">Mozilla Grid Playground</a>
+
 ---
 
 #### <a href="https://cssgridgarden.com/#sv" target="_blank">Practicing CSS grid (cssgridgarden.com)</a>
+
 ---

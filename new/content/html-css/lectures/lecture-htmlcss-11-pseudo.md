@@ -1,5 +1,6 @@
 ### 11.HTML & CSS
 ##### Pseudo elements, Iframes and CSS variables
+
 ---
 
 ####  Pseudo-elements
@@ -18,6 +19,7 @@
 ```
 [Try it on w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_firstletter)
 
+
 ---
 
 ####  Pseudo-classes
@@ -35,6 +37,7 @@
 }
 ```
 [Try it on w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_pseudo-class_hover_div)
+
 
 ---
 
@@ -64,6 +67,7 @@ a:active {
 }
 ```
 
+
 ---
 
 #### :: vs :
@@ -71,6 +75,7 @@ a:active {
 * The double colon replaced the single-colon notation for pseudo-elements in CSS3.
 * Pseudo-elements uses double ::
 * Pseudo-classes uses single :
+
 
 ---
 
@@ -95,15 +100,18 @@ p::after {
 
 [More about content on w3schools](https://www.w3schools.com/cssref/pr_gen_content.asp)
 
+
 ---
 
 #### CSS content only works with ::before or ::after
+
 ---
 
 #### Iframes
 
 * Iframes are windows that you cut out from your page, which can be displayed in another page.
 * You can embed Google maps, Google docs, Youtube videos for example.
+
 
 ---
 
@@ -115,6 +123,7 @@ p::after {
   src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>
 ```
+
 
 ---
 
@@ -128,9 +137,11 @@ p::after {
   height="315"
   src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>
+
 ---
 
 #### Go to youtube and google maps to get code for embedding.
+
 ---
 
 ####  CSS variables
@@ -138,6 +149,7 @@ p::after {
 * Temporary storage for bits of information.
 * A variable is like a drawer or a box.
 * You can put a value/thing in it, close it and then when you want to use it you open the drawer.
+
 
 ---
 

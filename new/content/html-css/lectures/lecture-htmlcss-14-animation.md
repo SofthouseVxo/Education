@@ -1,5 +1,6 @@
 ### 14.HTML - CSS</h3>
 ##### Transform, Transition & Animate</h5>
+
 ---
 
 #### Browsers have different rendering engines
@@ -7,6 +8,7 @@
 * Chrome - Blink (webkit) 
 * Safari - Webkit
 * Firefox - Gecko
+
 
 ---
 
@@ -22,6 +24,7 @@
 transition: width 2s; /* Standard */
 ```
 
+
 ---
 
 #### Transform
@@ -30,6 +33,7 @@ transition: width 2s; /* Standard */
 * Changing shape, size and position.
 * CSS supports 2D and 3D transition, we will just check 2D
 * <a href="https://caniuse.com/#search=2d%20transform">CanIUse</a>
+
 
 ---
 
@@ -40,6 +44,7 @@ transition: width 2s; /* Standard */
 * scale( ) = Increases or decreases the size of an element
 * skew( ) = Skews an element along the X and Y-axis
 * matrix( ) = Combines all the 2D transform methods into one
+
 
 ---
 
@@ -57,9 +62,11 @@ div {
 ```
 [Try on w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss3_transform_rotate)
 
+
 ---
 
 #### 2D tranform examples at <a href="https://www.w3schools.com/css/css3_2dtransforms.asp" target="_blank">w3schools</a>
+
 ---
 
 #### CSS Transitions
@@ -67,6 +74,7 @@ div {
 * Transitions allows you to change property values smoothly
 * Transition from one value to another over a given duration.
 * You MUST to specify the <b>CSS property</b> you want to add an effect to and the <b>duration</b> of the effect
+
 
 ---
 
@@ -87,6 +95,7 @@ div:hover {
 ```
 [Try on w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss3_transition1)
 
+
 ---
 
 ####  CSS Transition multiple properties
@@ -97,6 +106,7 @@ div {
 }
 ```
 
+
 ---
 
 ####  CSS Transition all properties
@@ -106,6 +116,7 @@ div {
   transition: all 1s;
 }
 ```
+
 
 ---
 
@@ -120,6 +131,7 @@ div {
   ```
   [Try on w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss3_transition_speed)
 
+
 ---
 
 ####  Delaying the transition
@@ -132,6 +144,7 @@ div {
     transition-delay: 1s;
   }
   ```
+
 
 ---
 
@@ -155,6 +168,7 @@ myClass {
 
 ```
 
+
 ---
 
 #### CSS animations 
@@ -162,6 +176,7 @@ myClass {
 * CSS animations are alternatives to animating using JavaScript.
 * It works on most elements.
 * <a href="https://caniuse.com/#search=css%20animations">CanIUse</a>
+
 
 ---
 
@@ -171,6 +186,7 @@ myClass {
 * No limits to how many CSS properties or how many times.
 * You need to specify keyframes for the animation.
 * Keyframes hold what styles the element will have at certain times.
+
 
 ---
 
@@ -193,6 +209,7 @@ div {
 }
 ```
 [Try on w3scools](https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation1)
+
 
 ---
 
@@ -221,6 +238,7 @@ div {
 }
 ```
 [Try on w3scools](https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation2)
+
 
 ---
 
