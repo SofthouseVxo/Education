@@ -8,7 +8,7 @@
 * A computer network is basically computers communicating (sending text, files).
 * The most basic computer network is two desktop computers connected via cable.
 
-<img style="width: 600px;" src="/media/html-css-images/html-css-2/basic2.png" alt="client server communication">
+<img style="width: 600px;" src="/media/html-css-images/html-css-2/basic-network.png" alt="client server communication">
 
 ---
 
@@ -18,12 +18,12 @@
 * A set of rules or guidelines for how computers communicate (sending data).
 * Examples are: TCP/IP, HTTP, HTTPS, FTP.
 	
-<img style="width: 600px;" src="/media/html-css-images/html-css-2/basic.png" alt="client server communication">
+<img style="width: 600px;" src="/media/html-css-images/html-css-2/protocol.png" alt="client server communication">
 
 ---
 
 #### Local network
-<img style="width: 600px;" src="/media/html-css-images/html-css-2/local.png" alt="client server communication">
+<img style="width: 600px;" src="/media/html-css-images/html-css-2/local-network.png" alt="client server communication">
 
 ---
 
@@ -131,7 +131,7 @@ $ traceroute www.google.se
 
 * Will display the local file path (the path to the file on your computer
 
-<img src="/media/html-css-images/html-css-2/localFilepath.png" alt="local filepath">
+<img src="/media/html-css-images/html-css-2/local-file-path.png" alt="local filepath">
 
 ---
 
