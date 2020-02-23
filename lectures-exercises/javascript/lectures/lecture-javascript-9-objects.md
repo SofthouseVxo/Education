@@ -1,5 +1,13 @@
 ### 9. JavaScript
-##### Objects
+#### Objects
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -9,19 +17,51 @@
 * Each Object has a purpose and a task.
 * Real world examples could be  a **lamp** or a **human**.
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### <i>In JavaScript, objects are king. If you understand objects, you understand JavaScript.</i> - W3Schools
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Objects can have <u>Properties</u> and <u>Methods</u>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 #### Properties
 
 * A property is a variable connected to a specific object.
 * A property contains information about the object.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -31,12 +71,28 @@
 * Methods are actions that can be performed on objects.
 * Methods are used to give an object functionality.
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Real world properties & methods
 
 * What properties does a human have?
 * What methods does a human have?
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -45,6 +101,14 @@
 * Pair up with the one next to you.
 * Pick 2 objects from the real world, could be anything (plants, people, vehicles, furniture).
 * Identify properties and methods of all these.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -63,6 +127,14 @@ let obj = {
 };
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Creating an object using an object literal
@@ -70,6 +142,14 @@ let obj = {
 ```JavaScript
 let car = { color: 'red' };
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -81,6 +161,14 @@ let car = new Object();
 car.color = "red";
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Accessing an object
@@ -91,6 +179,14 @@ let car = { color: 'red' };
 console.log(car.color); // red "dot notation"
 console.log(car['color']); // red "bracket notation"
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -108,6 +204,14 @@ let person = {
   }
 };
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -127,6 +231,14 @@ let name = person.getFullName(); // John Doe
 let name2 = person['getFullName'](); // John Doe
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Dot notation vs bracket notation
@@ -143,6 +255,14 @@ obj.variable; // undefined
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### <u>Dot</u> notation vs bracket notation
@@ -157,6 +277,14 @@ obj.NAME;       // works
 obj.name;       // works
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Dot notation vs <u>bracket</u> notation
@@ -169,6 +297,14 @@ obj['$value'];       // works
 obj['value'];        // works 
 obj['value value'];  // works 
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -183,6 +319,14 @@ myObj['key' + i] = i;
 
 console.log(myObj);
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -201,6 +345,14 @@ bike['hasBackLight'] = false; // { color: 'blue', hasFrontLight: true, hasBackLi
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Removing from an object
@@ -217,6 +369,14 @@ delete bike.hasFrontLight; // { color: 'blue'}
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Mutating JavaScript Objects
@@ -232,6 +392,14 @@ bike.color = 'red';
 
 console.log(bike.color); // red
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -253,6 +421,14 @@ console.log(car.wheels) // 8
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Object in an object
@@ -271,6 +447,14 @@ let bike = {
 let hasFrontLight = bike.frontLight.color; // yellow
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Creating many objects: constructor notation
@@ -288,6 +472,14 @@ let user2 = new Person('Jane Doe'); // Person { name: 'Jane Doe' }
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### In JavaScript, almost "everything" is an object.
@@ -302,6 +494,14 @@ let user2 = new Person('Jane Doe'); // Person { name: 'Jane Doe' }
 
 All JavaScript values, except primitives, are objects.
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Functions are Objects
@@ -309,6 +509,14 @@ All JavaScript values, except primitives, are objects.
 * Functions are a special kind of Object.
 * You can attach primitives and other functions.
 * Functions have a "code" property which is the code that runs when the function is invoked.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -327,6 +535,14 @@ console.log(greet.language); // swedish
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Arrays are a special type of Objects
@@ -339,6 +555,14 @@ users.forEach(function(user) {
   console.log(users.length);  // length is a property
 });
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -359,6 +583,14 @@ console.log(string1);  // "123"
 
 [MDN reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 

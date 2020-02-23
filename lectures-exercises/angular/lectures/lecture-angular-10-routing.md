@@ -1,13 +1,37 @@
 ### 10. Angular</h3>
-##### Routing and Navigation</h5>
+#### Routing and Navigation</h5>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
 "The Angular Router enables navigation from one view to the next as users perform application tasks." - <a href="https://angular.io/guide/router" target="_blank">Angular Docs</a>
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ### What ways are there to navigate in the browser?</h3>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -18,9 +42,25 @@
 * Click links on the page -> browser navigates to a new page.
 * Browser's back and forward buttons -> browser navigates backward and forward through the history of pages.
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### The Angular Router makes it possible to do this on our single page app (SPA).
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -34,6 +74,14 @@
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
@@ -45,9 +93,25 @@
 import { RouterModule, Routes } from '@angular/router'; // src/app/app.module.ts
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 "A routed Angular application has one singleton instance of the Router service. When the browser's URL changes, that router looks for a corresponding Route from which it can determine the component to display." - <a href="https://angular.io/guide/router" target="_blank">Angular Docs</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -84,6 +148,14 @@ imports: [
 export class AppModule { } // app.module.ts
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
@@ -99,6 +171,14 @@ export class AppModule { } // app.module.ts
 ```JavaScript
 this.router.navigate(['/user']);
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -116,6 +196,14 @@ this.router.navigate(['/user']);
 <router-outlet></router-outlet> <!-- Activated view will be rendered here -->
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Route Parameters
@@ -123,6 +211,14 @@ this.router.navigate(['/user']);
 * It is possible to send parameters through routes.
 * Localhost:4200/user/12 <— 12 is the parameter
 * Gets access to the param in the code
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -136,6 +232,14 @@ this.router.navigate(['/user']);
 <a [routerLink]="['/user', user.id]">
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### RouterState & ActivatedRoute
@@ -143,6 +247,14 @@ this.router.navigate(['/user']);
 * RouterState = The state of the router.
 * Snapshots of information of the Current state.
 * ActivatedRoute = Information about the current route, params, url etc.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -168,6 +280,14 @@ ngOnInit() {
 }
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Router events
@@ -183,6 +303,14 @@ constructor(private router:Router){
 ```
 * [Complete list](https://angular.io/guide/router)
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Child routes
@@ -191,9 +319,25 @@ constructor(private router:Router){
 1. Add RouterLink and RouterOutlet as usual.
 1. Check example code
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Investigate Router Tree in Augury (developer console)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -203,6 +347,14 @@ constructor(private router:Router){
 * Checks if expression is true.
 * If true navigate otherwise don’t.
 * Check example code.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 

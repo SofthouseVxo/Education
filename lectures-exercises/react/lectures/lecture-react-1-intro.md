@@ -1,9 +1,25 @@
 ### 1. React
-##### Introduction
+#### Introduction
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
 #### Go through syllabus
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 

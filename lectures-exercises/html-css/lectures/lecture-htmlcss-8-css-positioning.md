@@ -1,5 +1,13 @@
 ### 8.HTML & CSS
-##### Positioning & Layouts
+#### Positioning & Layouts
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -8,6 +16,14 @@
 * A layout is a way in which the parts of something are arranged or laid out.
 
 <img style="max-width: 700px" src="/media/html-css-images/html-css-8/layouts.png" alt="different types of layouts">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -29,6 +45,14 @@ div.static {
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Positioning
@@ -38,6 +62,14 @@ div.static {
 * Left - How far from the left the element should be.
 * Right - How far from the right the element should be.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -58,6 +90,14 @@ div {
 ```
   
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Static position
@@ -71,6 +111,14 @@ div.static {
 }
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -89,6 +137,14 @@ div.relative {
 ```
 [Try it on w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_position_relative)
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -109,6 +165,14 @@ div.fixed {
 ```
 [Try it on w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_position_fixed)
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -136,6 +200,14 @@ div.absolute {
 [Try it on w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_position_absolute)
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Sticky Position
@@ -153,6 +225,14 @@ div.sticky {
 ```
 [Try it on w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_position_sticky)
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -172,6 +252,14 @@ img {
 ```
 [Try it on w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_zindex)
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -193,6 +281,14 @@ img {
 * [Handbook example](http://htmlandcssbook.com/code-samples/chapter-15/float.html)
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Display
@@ -209,6 +305,14 @@ img {
 </ul>
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 

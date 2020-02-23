@@ -1,6 +1,14 @@
 ### 14. React
 #### Destructuring, Rest & Spread
-##### JavaScript ES6
+#### JavaScript ES6
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -15,6 +23,14 @@ function myFunc (x, y, ...a) {
 myFunc(1, 2, 33, 44, 55);
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Rest
@@ -26,6 +42,14 @@ function myFunc({id, name, ...rest}) {
 myFunc({id: 1, name: 'robin', age: 12, gender: 'male'});
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
@@ -36,6 +60,14 @@ myFunc({id: 1, name: 'robin', age: 12, gender: 'male'});
 * Commonly used in react applications.
 * The spread syntax is three dots ...
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Without Spread
@@ -45,6 +77,14 @@ var bar = [1,2, foo, 5, 6];
 console.log(bar);
 // output?
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -57,6 +97,14 @@ console.log(bar);
 // [1,2,[33,44],5,6]
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  With Spread
@@ -66,6 +114,14 @@ var bar = [1,2, ...foo, 5, 6];
 console.log(bar);
 // [1,2,33,44,5,6]
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -81,9 +137,25 @@ console.log(newState); // {id: 1, user: 'robin', age:28}
 console.log(newState2); // {id: 2, user: 'robin', age:28}
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### <a href="https://thecodebarbarian.com/object-assign-vs-object-spread.html" target="_blank">Spread & Object Assign</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -92,6 +164,14 @@ console.log(newState2); // {id: 2, user: 'robin', age:28}
 * The destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
 * <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment">MDN Reference</a>
 * <a href="http://exploringjs.com/es6/ch_destructuring.html#sec_overview-destructuring">Destructuring Objects</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -102,6 +182,14 @@ console.log(newState2); // {id: 2, user: 'robin', age:28}
 
 console.log(theRest); // [30, 40, 50]
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -115,6 +203,14 @@ const last = obj.last;
 console.log(first, last) // 'Jane', 'Doe'
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Destructure an Object
@@ -126,6 +222,14 @@ const {first, last} = obj; // first = 'Jane'; last = 'Doe'
 console.log(first); // 'Jane'
 console.log(last); // 'Doe'
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -139,6 +243,14 @@ const {first: f, last: l} = obj;
 console.log(f); // 'Jane'
 console.log(l); // 'Doe'
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -162,6 +274,14 @@ const {
 console.log(zipcode); // 23434
 console.log(address); // address is not defined
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 

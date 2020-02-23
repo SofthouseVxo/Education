@@ -1,5 +1,13 @@
 ### 10. React
-##### Conditional Rendering and rendering lists
+#### Conditional Rendering and rendering lists
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -14,6 +22,14 @@ class App extends Component {
   }
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -33,6 +49,14 @@ class App extends Component {
 }
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Using If statements and props
@@ -47,6 +71,14 @@ class App extends Component {
 }
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Using If statements and state
@@ -60,6 +92,14 @@ class App extends Component {
   }
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -81,6 +121,14 @@ class App extends Component {
 }
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Using the if else with ternary operator
@@ -98,6 +146,14 @@ class App extends Component {
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Prevent rendering component inside component
@@ -114,9 +170,25 @@ class Dialog extends Component {
 ```
 This will not prevent  the component's lifecycle methods to be invoked. ComponentDidUpdate will still be called.
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Rendering Lists
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -137,6 +209,14 @@ class Dialog extends Component {
 }
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Rendering multiple elements JSX
@@ -152,6 +232,14 @@ render(){
 }
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Array.map
@@ -161,6 +249,14 @@ render(){
 * Calling a provided function on every element in that array.
 * Creating a new array with the results.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -175,6 +271,14 @@ return 'Hello ' + name;
 console.log(paragraphs);// ["Hello John", "Hello Jane"]
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Mapping
@@ -187,6 +291,14 @@ const paragraphs = names.map((name) => {
 
 console.log(paragraphs);// ["John", "Jane"]
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -201,6 +313,14 @@ const paragraphs = names.map((name) => {
 //returns a new array of elements
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Keys
@@ -210,6 +330,14 @@ const paragraphs = names.map((name) => {
 * Keys should be given to the elements inside the array to give the elements a stable identity.
 * Each key needs to be unique ID.
 * If no ID exist you can use index.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -222,6 +350,14 @@ const newUsers = users.map((user) => {
 });
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Mapping keys with index
@@ -232,6 +368,14 @@ const paragraphs = names.map((name, i) => {
   return <p key={i}>{name}</p>;
 });
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -245,6 +389,14 @@ return (
   )}
 );
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 

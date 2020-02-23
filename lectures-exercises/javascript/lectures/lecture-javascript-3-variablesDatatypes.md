@@ -1,5 +1,13 @@
 ### 3. JavaScript
-##### Variables & Data types
+#### Variables & Data types
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -15,6 +23,14 @@ box = shoes + socks + gloves
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Defining a variable
@@ -28,6 +44,14 @@ var name; // variable name is now defined but contains no value
 var myValue = 10; // variable myValue is defined and assigned a value
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Defining multiple variables on same line
@@ -38,6 +62,14 @@ var myVal1, myVal2;
 var name, name2;
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Assigning a value to a variable
@@ -46,6 +78,14 @@ var name, name2;
 // username is the variable name and it's being assigned the value 'John'.
 var username = 'John';
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -60,6 +100,14 @@ name = 'John';
 var name;
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### variables declaration without **var** keyword
@@ -71,6 +119,14 @@ var name;
 ```JavaScript
 username = 'John';
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -86,6 +142,14 @@ username = 'John'; // This will cause an error because x is not declared
 
 <a href="https://www.w3schools.com/js/js_strict.asp" target="_blank">W3schools</a>
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Changing variable value
@@ -97,6 +161,14 @@ username = 'John'; // This will cause an error because x is not declared
 var greeting = "hello";
 greeting = 12;
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -113,6 +185,14 @@ var greeting = "hello";
 greeting = 12;
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### JavaScript is case sensitive</h4>
@@ -123,6 +203,14 @@ greeting = 12;
 * Cannot start with a number or have blank spaces.
 * Cannot use keywords or reserved words (new, var, let etc.).
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -139,9 +227,25 @@ x = 5;
 console.log(x); /* will log 5 */
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ### Data types
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -156,6 +260,14 @@ console.log(x); /* will log 5 */
 	// result is 10,55
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -172,6 +284,14 @@ var result = name + numChar;  // result is "Jane is cool345"
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Boolean data type
@@ -182,6 +302,14 @@ var isTrue = true;
 var isNotTrue = false;
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -199,6 +327,14 @@ person = null;  // Now value is null, but type is still an object
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Undefined value
@@ -208,6 +344,14 @@ person = null;  // Now value is null, but type is still an object
 ```JavaScript
 var car;  // Value is undefined, type is undefined
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -224,6 +368,14 @@ typeof 12; // number
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Primitive values</h4>
@@ -236,6 +388,14 @@ typeof 12; // number
 * boolean
 * undefined
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Non-Primitive values</h4>
@@ -247,6 +407,14 @@ typeof 12; // number
 
 * We will cover these later in the course.
 * Note: Arrays and Functions are objects with speacial features, we will dive deeper into this later so for now seperate them.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---	
 
@@ -266,6 +434,14 @@ myStr = 12; // Would throw an error since 12 is not a string.
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Quotation marks, Single or double?
@@ -281,6 +457,14 @@ var myStr = 'hello';
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Debugging</h4>
@@ -290,6 +474,14 @@ var myStr = 'hello';
 * Debugger in devtools
 * Show in browser
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -310,6 +502,14 @@ alert(myPromptValue);
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### console.log( )
@@ -324,6 +524,14 @@ console.log(typeof myValue);
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Debugger in Devtools</h4>
@@ -335,6 +543,14 @@ console.log(typeof myValue);
 * etc.
 
 <img style="width: 600px; margin-left: 20px;" src="/media/javascript-images/javascript-3/debug.png" alt="debugger">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -353,12 +569,28 @@ var name = 'John Doe'; // Single line comment
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Why use comments?</h4>
 
 * Comments should be used to explain what your code does (documentation).
 * This can make the code easier to read, not just for yourself but for others as well!
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -367,6 +599,14 @@ var name = 'John Doe'; // Single line comment
 * <a href="https://www.w3schools.com/js/default.asp" target="_blank">W3schools</a>
 * <a href="https://developer.mozilla.org/sv-SE/" target="_blank">MDN</a>
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 

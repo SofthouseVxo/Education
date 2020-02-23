@@ -1,11 +1,27 @@
 ### 13. React
-##### Basic Hooks
+#### Basic Hooks
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
 * Completely opt-in. You can try Hooks in a few components without rewriting any existing code. But you don't have to learn or use Hooks right now if you don't want to.
 * 100% backwards-compatible. Hooks don't contain any breaking changes.
 * Available with the release of v16.8.0 (12 months ago).
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -16,6 +32,14 @@
 * Hooks don't work inside classes — they let you use React without classes.
 * <a href="https://reactjs.org/docs/hooks-intro.html#motivation" target="_blank">React Motivation</a>
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### According to React
@@ -23,6 +47,14 @@
 * But do we need classes then?
 * There are no plans to remove classes from React.
 * Hooks don't replace your knowledge of React concepts. Instead, Hooks provide a more direct API to the React concepts you already know: props, state, context, refs, and lifecycle. As we will show later, Hooks also offer a new powerful way to combine them.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -47,6 +79,14 @@ function Example() {
 }
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Effect Hook - useEffect
@@ -54,6 +94,14 @@ function Example() {
 * The Effect Hook, useEffect, adds the ability to perform side effects from a function component.
 * It serves the same purpose as componentDidMount, componentDidUpdate, and componentWillUnmount in React classes.
 * The function passed to useEffect will run after the render is committed to the screen.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -74,6 +122,14 @@ export default function MyComponent(props) {
     );
   }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -97,6 +153,14 @@ export default function MyComponent(props) {
 }
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  useEffect only once
@@ -118,12 +182,28 @@ export default function MyComponent(props) {
   }
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Hooks are JavaScript functions but consider
 
 * Only call Hooks at the top level. Don't call Hooks inside loops, conditions, or nested functions.
 * Only call Hooks from React function components. Don't call Hooks from regular JavaScript functions.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 

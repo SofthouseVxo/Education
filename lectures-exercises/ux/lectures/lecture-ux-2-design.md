@@ -1,24 +1,64 @@
 ### 2. Design
-##### Design en process
+#### Design en process
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
 ### Vad tänker ni när ni hör ordet design?
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
 #### Design definitioner
 “Design är en arbetsprocess för att utveckla lösningar på ett medvetet och innovativt sätt där både funktionella och estetiska krav ingår med utgångspunkt från brukarens behov. Design tillämpas för utveckling av varor, tjänster, processer, budskap och miljöer.” SVID
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Design definitioner
 “A design is a construction or activity specification or plan, or the result of that plan in the form of a prototype, finished product, or process.” - Wikipedia
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Design definitioner
 “Realization of a concept or idea into a configuration, drawing, model, mould, pattern, plan or specification (on which the actual or commercial production of an item is based) and which helps achieve the item's designated objective(s).” - Business dictionary
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -29,6 +69,14 @@
 * När vi har blivit tilldelade en uppgift, men stegen för att nå vårt resultat inte är klart.
 * Syftet med en designprocess är att forma och guida arbetet för att få ett bättre resultat.
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Varför är det viktigt med en designprocess?
@@ -37,30 +85,78 @@
 * Sannolikheten för att dina användare förstår och använder din produkt blir större.
 * Risken för obekväma överraskningar när produkten väl möter användarna minskar.
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Designroller
-##### User Experience (UX) designer
+#### User Experience (UX) designer
 En UX designer fokuserar på hur en produkt känns, upplevs samt om denna fyller sitt syfte. UX designers uppgifter kan variera från att göra User research, Product research, Personas, Scenarios, Skapa content, Testa och validera till att sälja in och presentera designbeslut.
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Designroller
-##### User Interface (UI) designer
+#### User Interface (UI) designer
 Till skillnad från UX designern så fokuserar UI designern på hur produkten skall se ut och presenteras. De designar varje skärm/sida så att gränssnittet kommunicerar den väg som UX designern har tagit fram.
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Designroller
-##### Interaktionsdesigner
+#### Interaktionsdesigner
 Fokuserar på hur produkten skall fungera. Att produktens gränssnitt skapar de effekter användaren förväntar sig i olika situationer och ansvarar för alla designbeslut om interaktionen mellan produkten och användaren.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
 ### Processer
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Vattenfallsmetoden
 <img style="width: 700px;" src="/media/ux-images/ux-2/vattenfall.png" alt="waterfall">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -71,6 +167,14 @@ Fokuserar på hur produkten skall fungera. Att produktens gränssnitt skapar de 
 * Utveckling fortgår under en längre tid utan kontakt med kund.
 * Ett år senare levereras produkt (kanske).
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Vattenfall - risker
@@ -80,9 +184,25 @@ Fokuserar på hur produkten skall fungera. Att produktens gränssnitt skapar de 
 * Målgruppen kanske har bytts ut.
 * Att estimera hur lång tid något man inte gjort innan är väldigt fruktansvärt svårt.
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Vattenfallsmetoden är sällan lämplig för mer avancerade produkter inom mjukvaruutveckling.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -91,6 +211,14 @@ Fokuserar på hur produkten skall fungera. Att produktens gränssnitt skapar de 
 * Iterera = att upprepa. 
 * Genom upprepning kan vi testa och förfina vår produkt.
 * För varje upprepning kan vi lära oss hur vi kan göra saker bättre och eller annorlunda.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -102,10 +230,26 @@ Fokuserar på hur produkten skall fungera. Att produktens gränssnitt skapar de 
 * Testa och utvärdera (användartester)
 * Förfina och förbättra (utifrån tester)
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Iterativ process
 <img src="/media/ux-images/ux-2/iterativ.png" alt="iterative process">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -115,6 +259,14 @@ Fokuserar på hur produkten skall fungera. Att produktens gränssnitt skapar de 
 * Vilka är mina användare?
 * Passas systemet in med saker i sin omgivning?
 * Vilka krav, möjligheter och begränsningar finns?
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -126,12 +278,28 @@ Fokuserar på hur produkten skall fungera. Att produktens gränssnitt skapar de 
 * Detta kan man göra med hjälp av olika medier, det viktigaste är att välja rätt medie för att få svar på de frågor/oklarheter som behöver besvaras.
 * Skisser, bilder, pappersprototyper, digitala prototyper (low-fi, hi-fi)
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Testa - Utvärdera
 
 * För att se om ett koncept eller design fungerar som vi tänkt behöver vi test och utvärdera dessa.
 * Detta kan vi göra genom att exempelvis testa direkt mot användaren, studera användaren eller skapa fokusgrupper m.m.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -144,6 +312,14 @@ Fokuserar på hur produkten skall fungera. Att produktens gränssnitt skapar de 
 * Varv 5 - Dynamisk digital prototyp.
 * Varv 6 - Faktiskt produkt
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Man lär sig av sina misstag
@@ -151,9 +327,25 @@ Fokuserar på hur produkten skall fungera. Att produktens gränssnitt skapar de 
 * Vi vill göra misstagen tidigt i processen så att de inte finns med när vi lanserar produkten.
 * Allteftersom vi indentifierar våra misstag kan vi förfina och förbättra produkten.
 * Upptäcker vi felen tidigt lägger vi inte onödig tid på att utveckla felaktiga och fel saker.
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Vi kommer gå närmre in på samtliga steg under kursens gång.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 

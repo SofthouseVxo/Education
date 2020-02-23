@@ -1,5 +1,13 @@
 ### 11.HTML & CSS
-##### Pseudo elements, Iframes and CSS variables
+#### Pseudo elements, Iframes and CSS variables
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -20,6 +28,14 @@
 [Try it on w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_firstletter)
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Pseudo-classes
@@ -38,6 +54,14 @@
 ```
 [Try it on w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_pseudo-class_hover_div)
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -68,6 +92,14 @@ a:active {
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### :: vs :
@@ -76,6 +108,14 @@ a:active {
 * Pseudo-elements uses double ::
 * Pseudo-classes uses single :
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -101,9 +141,25 @@ p::after {
 [More about content on w3schools](https://www.w3schools.com/cssref/pr_gen_content.asp)
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### CSS content only works with ::before or ::after
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -112,6 +168,14 @@ p::after {
 * Iframes are windows that you cut out from your page, which can be displayed in another page.
 * You can embed Google maps, Google docs, Youtube videos for example.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -124,6 +188,14 @@ p::after {
 </iframe>
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -138,9 +210,25 @@ p::after {
   src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Go to youtube and google maps to get code for embedding.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -150,6 +238,14 @@ p::after {
 * A variable is like a drawer or a box.
 * You can put a value/thing in it, close it and then when you want to use it you open the drawer.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 

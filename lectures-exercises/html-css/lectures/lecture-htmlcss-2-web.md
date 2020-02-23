@@ -1,5 +1,13 @@
 ### 2.HTML & CSS
-##### Basic Network & the web
+#### Basic Network & the web
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -9,6 +17,14 @@
 * The most basic computer network is two desktop computers connected via cable.
 
 <img style="width: 600px;" src="/media/html-css-images/html-css-2/basic-network.png" alt="client server communication">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -20,10 +36,26 @@
 	
 <img style="width: 600px;" src="/media/html-css-images/html-css-2/protocol.png" alt="client server communication">
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Local network
 <img style="width: 600px;" src="/media/html-css-images/html-css-2/local-network.png" alt="client server communication">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -33,6 +65,14 @@
 * It uses the Internet protocol suite (TCP/IP).
 
 <img style="width: 600px;" src="/media/html-css-images/html-css-2/internet.png" alt="client server communication">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -45,6 +85,14 @@
 * When you ask your browser for a web page, the request is sent across the internet to a web server.
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Clients
@@ -55,10 +103,26 @@
 
 <img style="width: 600px;"  src="/media/html-css-images/html-css-2/client.png" alt="client server communication">
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### IP adresses
 <img style="width: 600px;" src="/media/html-css-images/html-css-2/ip.png" alt="client server communication">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -73,10 +137,26 @@
 * **IP - The Internet Protocol** - tells the packets where to go and where they should return to.
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Domain Name System DNS
 <img style="width: 600px;" src="/media/html-css-images/html-css-2/dns.png" alt="client server communication">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -87,6 +167,14 @@
 * It's like your computer's GPS for the Internet.
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Routers
@@ -95,6 +183,14 @@ $ traceroute www.google.se
 ```
 
 <img style="width: 600px;" src="/media/html-css-images/html-css-2/routers.png" alt="client server communication">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -106,6 +202,14 @@ $ traceroute www.google.se
 * Data such as web pages or emails(in the form of data packets) are forwarded from router to router through the internet until it reaches its destination.
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### WWW (World Wide Web)
@@ -113,6 +217,14 @@ $ traceroute www.google.se
 * The WWW is **NOT** the internet
 * <a href="https://www.youtube.com/watch?v=J8hzJxb0rpc" target="_blank">Twila Camp Explains</a>
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -125,6 +237,14 @@ $ traceroute www.google.se
 
 <img style="width: 700px;" src="/media/html-css-images/html-css-2/url.png" alt="client server communication">
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Running a site locally
@@ -132,6 +252,14 @@ $ traceroute www.google.se
 * Will display the local file path (the path to the file on your computer
 
 <img src="/media/html-css-images/html-css-2/local-file-path.png" alt="local filepath">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -141,6 +269,14 @@ $ traceroute www.google.se
 * Webbplats (website) är allt innehåll på exempelvis <a href="http://www.blocket.se" target="_blank">www.blocket.se</a>
 * Hemsida (homepage) är den första sida du kommer till när du kommer till <a href="http://www.blocket.se" target="_blank">www.blocket.se</a>
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -153,6 +289,14 @@ $ traceroute www.google.se
 * <a href="https://caniuse.com/#search=css" target="_blank">caniuse.com</a> is a site where you can check which functionality is implemented and working on each browser.
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Browser devtools
@@ -161,5 +305,13 @@ $ traceroute www.google.se
 * This is called developer tools (devtools).
 * The functionality in browsers are similiar but different.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---

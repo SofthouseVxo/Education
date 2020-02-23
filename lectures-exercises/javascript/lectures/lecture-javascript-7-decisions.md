@@ -1,5 +1,13 @@
 ### 7. JavaScript</h3>
-##### Decisions</h5>
+#### Decisions</h5>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -7,6 +15,14 @@
 
 * When writing applications we often need to evaluate if some conditions are met.
 * Depending on if they are we need to make decisions on how to proceed.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -18,6 +34,14 @@
   * No -> Keep Looking
   
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -31,12 +55,28 @@ if(jacket === 'green'){
 }
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Evaluate & Decide</h4>
 
 * **Evaluation** - analyse/check if values are the same, equal etc.
 * **Decision** - decide what to do depending on the result of the evaluation.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -52,6 +92,14 @@ if(age > 18){
 }
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -70,6 +118,14 @@ if(age != 18) // age is NOT equal to 18
 if(age !== 18) // age is strict NOT equal to 18 and is NOT of the same datatype
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Depending on if the condition is met true or false is returned
@@ -85,6 +141,14 @@ if(is18orOver){
 }
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Falsy values
@@ -99,6 +163,14 @@ let score = '';          // Empty value - falsy
 let score = null;        // null - falsy
 let score;   // undefined - falsy
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -117,6 +189,14 @@ let score = '0';      // string - truthy
 let score = 'false';  // string - truthy
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Multiple expressions
@@ -130,6 +210,14 @@ if((age1 + age2) < maximumAge){
   // code run when total age is beneath the maximum age
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -148,6 +236,14 @@ let result = a || b; // result is a OR b
 console.log(result); // 'John Doe' since a is a falsy value
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 --- 
 
 
@@ -165,6 +261,14 @@ if(a || b){
 }
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Logical && (AND)
@@ -175,6 +279,14 @@ let b = true;
 
 result = a && b; // returns false since both a and b is not truthy
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -192,6 +304,14 @@ let c = 'John Doe'
 result = a && b && c; // returns John Doe
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Logical && (AND)
@@ -206,6 +326,14 @@ if (hour == 12 && minute == 30) {
   alert( 'The time is 12:30' );  // will alert since both conditions are met
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -225,6 +353,14 @@ if(!isUnder18){
 }
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Logical Operators
@@ -241,6 +377,14 @@ if((10 > 2) || (3 === 3)){
 }
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Example
@@ -254,6 +398,14 @@ if ((a == b || c == d) && ((a == b) != (c == d))) {
   // will this code run?
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -275,6 +427,14 @@ else {
 ```
 [Try on w3schools](https://www.w3schools.com/js/tryit.asp?filename=tryjs_elseif)
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Ternary operator
@@ -291,6 +451,14 @@ if (a === b) {
 // Ternary operator
 a === b ? console.log("Match") : console.log("No match");
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -309,6 +477,14 @@ switch(expression) {
 }
 ```
 [Try on w3schools](https://www.w3schools.com/js/tryit.asp?filename=tryjs_switch)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -329,6 +505,14 @@ switch(expression) {
 (undefined == 0)      // false
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Handling Errors</h4>
@@ -339,6 +523,14 @@ switch(expression) {
   * Errors due to incorrect response from Backend
   * and other unforeseeable things.
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Handling errors</h4>
@@ -348,6 +540,14 @@ switch(expression) {
 * The **throw** statement lets you create custom errors.
 * The **finally** statement lets you execute code, after try and catch, regardless of the result.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -367,6 +567,14 @@ catch(err) {
 <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_try_catch" target="_blank">Try on w3schools</a>
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### try & catch - Fetching users
@@ -384,6 +592,14 @@ catch(err) {
 
 <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_try_catch" target="_blank">Try on w3schools</a>
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### if statement - Fetching users
@@ -395,6 +611,14 @@ if(responseUsers && responseUsers.length){
 }
 ```
 [Try on w3schools](https://www.w3schools.com/js/tryit.asp?filename=tryjs_try_catch)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
         
@@ -412,6 +636,14 @@ catch(err) {
 ```
 [Try on w3schools](https://www.w3schools.com/js/tryit.asp?filename=tryjs_try_catch)
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -431,6 +663,14 @@ finally {
 } 
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Difference between try catch and if statements</h4>
@@ -440,6 +680,14 @@ finally {
 * try/catch: you check for the known unknown bad things that can happen and attempt to catch any wrench thrown in the works.
 * try/catchdeal with thing that could possibly go wrong and you can't do much about it. Those things are like networking, IO, third party services integrations...
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -468,6 +716,14 @@ function three(){
 }
 ```
   
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
   
 ### <a href="https://github.com/SofthouseVxo/Education" target="_blank">Github examples!</a>

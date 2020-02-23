@@ -1,5 +1,13 @@
 ### 6. React
-##### Elements & Components
+#### Elements & Components
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -10,6 +18,14 @@
 * An element describes what you want to see on the screen.
 * React elements a immutable -> You cannot change it after it has been created.
 * It's like a frame in a movie, it represents the UI at a certain point in time.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -24,6 +40,14 @@ const element = <h1>Hello, world</h1>;
 ReactDOM.render(element, document.getElementById('root'));
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Ticker example
@@ -31,6 +55,14 @@ ReactDOM.render(element, document.getElementById('root'));
 * Inspect ticker application i browser
 * Even though we describe the whole UI tree we only update the node that changed in the HTML.
 * Every tick the React DOM's were compared and the UI was updated.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -41,6 +73,14 @@ ReactDOM.render(element, document.getElementById('root'));
 * The application itself is a component: a composition of components.
 * Components let you split the UI into independent, reusable pieces.
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Components
@@ -48,6 +88,14 @@ ReactDOM.render(element, document.getElementById('root'));
 * React lets you define components as classes or functions.
 * Components defined as classes currently provide more features.
 * Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called “props") and return React elements describing what should appear on the screen.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -66,6 +114,14 @@ function Welcome(props) {
 ```HTML
 <Welcome/>  <!-- To create add in JSX -->
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -87,6 +143,14 @@ class Welcome extends React.Component {
 <Welcome/> <!-- To create add in JSX -->
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Everything passed as an attribute lands in props
@@ -99,6 +163,14 @@ function Welcome(props) {
 ```JavaScript
 <Welcome name={'John Doe'} />
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -115,6 +187,14 @@ class Welcome extends React.Component {
 <Welcome name={'John Doe'} />
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Order things happen
@@ -123,6 +203,14 @@ class Welcome extends React.Component {
 * React calls the Welcome component with ```{name: 'John doe'}``` as the props.
 * Our Welcome component returns a ```<h1>Hello, John doe</h1>``` element as the result.
 * React DOM efficiently updates the DOM to match ```<h1>Hello, John doe</h1>```.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -138,6 +226,14 @@ function MyFirstComponent(props, children) {
   return children;
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -164,9 +260,25 @@ function CompX(props) {
 }
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 <img style="width: 700px;" src="/media/react-images/react-6/composing.png" alt="lifecycle methods">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -195,6 +307,14 @@ function Dialog(props) {
 }
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### So What About Inheritance?
@@ -203,6 +323,14 @@ function Dialog(props) {
 Props and composition give you all the flexibility you need to customize a component’s look and behavior in an explicit and safe way. Remember that components may accept arbitrary props, including primitive values, React elements, or functions.
 </br></br>
 If you want to reuse non-UI functionality between components, we suggest extracting it into a separate JavaScript module. The components may import it and use that function, object, or a class, without extending it." - <a href="https://reactjs.org/docs/composition-vs-inheritance.html" target="_blank">React Docs</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 

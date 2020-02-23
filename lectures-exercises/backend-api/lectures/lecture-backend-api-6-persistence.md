@@ -1,9 +1,25 @@
 ### 6. Backend APIs
-##### Persistence (The Data we store)
+#### Persistence (The Data we store)
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### State
 
 "A program is described as stateful if it is designed to remember preceding events or user interactions; the remembered information is called the state of the system."
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### HTTP is a Stateless Protocol
 "No session information is retained by the server. All data is sent to the server so
@@ -13,10 +29,26 @@ requests"
 * Client (browser) has the state.
 * Client can persist session state (localStorage).
 * Sometimes we switch clients.
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Persistence
 "In computer science, persistence refers to the characteristic of state that outlives
 the process that created it."
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Persisted State
 A program (process) that remembers what you did (state), even if you restart it
@@ -25,6 +57,14 @@ A program (process) that remembers what you did (state), even if you restart it
 * Storing data to disk
 * Files, Databases etc.
 * Reliable Persistence?
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### ACID
@@ -36,12 +76,28 @@ of errors, power failures
 * Consistency: Only change data in allowed ways.
 * Isolation: Many may read, but one may write.
 * Durability: Data will remain even in case of a crash.
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### MongoDB
 * OUR PERSISTENCE ERSISTENCE OF CHOICE
 "MongoDB is a document database with the scalability and flexibility that you want
 	with the querying and indexing that you need."
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### NoSQL vs. SQL
@@ -52,6 +108,14 @@ the tabular relations used in relational databases"
 * Databases used to be almost exclusively SQL.
 * Tabluar data means data ise stored in a table.
 * Relational data means data refers to data in other tables.
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Scalability
@@ -62,6 +126,14 @@ adding resources to the system."
 * Horizontal means adding more machines.
 * SQL doesn't scale well Horizontally.
 * Lead to a varid number of "NoSQL" databases.
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Document Database
@@ -71,6 +143,14 @@ vary from document to document and data structure can be changed over time"
 * JSON is not tabular, so NoSQL.
 * MongoDB documents can be relational.
 * Each document has a unique ID.
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Querying
@@ -79,6 +159,14 @@ vary from document to document and data structure can be changed over time"
 * How do we define what we're looking for?
 * Structured Query Language (SQL) is a standard.
 * Many xQLs available.
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---	
 
 
@@ -88,6 +176,14 @@ database table every time a database table is accessed."
 
 * Indices should be set up for frequently acessed data.
 * Some querying is too complex without it, like free text search.
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Databases ans Schemas
@@ -100,15 +196,39 @@ mongodb://localhost:27017/myDatabase
 ```
 
 Each database has multiple **schemas** that define the format for the stored data
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Practical Mongodb
 Enough theory and nomenclature for now.
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Mongoose
 "Mongoose provides a straight-forward, schema-based solution to model your
 application data. It includes built-in type casting, validation, query building,
 business logic hooks and more, out of the box."
 * Makes it simpler to communicate with mongo
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Mongoose Schema
 
@@ -130,6 +250,14 @@ const User = mongoose.model('User', userSchema);
 * Type can be simple, or expanded using a JSON object
 * Every collection has an auto generated ObjectId
 * Relational data by referring to _ids of other schemas
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Executing queries
 
@@ -146,6 +274,14 @@ User.find().then((error, users) => {
 	next(error);
 })
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 #### Find By Id
@@ -164,6 +300,14 @@ doc = User.findById("145e6b0a-ffb7-48b9-a9ca-13377cd7c4b7").then...
 ```
 
 <a href="https://mongoosejs.com/docs/queries.html" target="_blank">https://mongoosejs.com/docs/queries.html</a>
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Find
 
@@ -181,6 +325,14 @@ Model.deleteMany()
 Model.findOneAndDelete()
 Model.findOneAndRemove()
 ```
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 #### Updating
 

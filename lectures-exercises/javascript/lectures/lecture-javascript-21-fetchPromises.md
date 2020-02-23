@@ -1,5 +1,13 @@
 ### 21. JavaScript
-##### Fetch & Promises
+#### Fetch & Promises
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -10,6 +18,14 @@
 * JavaScript and HTML DOM (to display or use the data)
 * AJAX applications might use XML to transport data, but it is equally common to transport data as plain text or JSON text.
   
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
   
   
@@ -20,6 +36,14 @@
 * Update a web page without reloading the page.
 * Send data to a web server - in the background.
   
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
   
   
@@ -30,6 +54,14 @@
 * Execute something **Asynchronously** = you can move on to another task before it finishes.
 * Make an order, sit at the table and wait for your food.
   
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
   
   
@@ -39,6 +71,14 @@
 * Tradera - Auctions and bids are updated continually.
 * Login without reload.
   
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
   
   
@@ -48,6 +88,14 @@
 1. The server responds with data (usally HTML, XML, JSON formats).
 1. The browser processes the content and adds it to the page.
   
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
   
   
@@ -56,6 +104,14 @@
 * XMLHttpRequest
 * **Fetch API**
   
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
   
 #### The fetch API
@@ -64,6 +120,14 @@
 * The is a global fetch( ) method 
 * fetch( ) provides an easy, logical way to fetch resources asynchronously.
   
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
   
 #### Fetch
@@ -71,6 +135,14 @@
 * The ```fetch()``` method takes one mandatory argument (the path to the resource you want to fetch). 
 * And it returns a **Promise** that resolves to the Response to that request, whether it is successful or not.
 	
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Using ```fetch()```
@@ -87,6 +159,14 @@ fetch(URL) // Call the fetch function passing the url of the API as a parameter
 });
 ```
 	
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
   
 #### Promises
@@ -95,6 +175,14 @@ fetch(URL) // Call the fetch function passing the url of the API as a parameter
 * It represents the eventual completion (or failure) of an asynchronous operation
 * It results in a value.
 	
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 	
 #### Promise states
@@ -104,11 +192,27 @@ fetch(URL) // Call the fetch function passing the url of the API as a parameter
   * fulfilled: meaning that the operation completed successfully.
   * rejected: meaning that the operation failed.
 	
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 	
 #### Promise
 <img style="width: 800px;" src="/media/javascript-images/javascript-21/promise.png" alt="promise">
 	
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Promises
@@ -127,6 +231,14 @@ promise1.then(function(value) {
 });
 ```
 	
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---				
 
 #### Promises
@@ -145,16 +257,40 @@ promise1.catch(function(error) {
 });
 ```
 	
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---			
 	
 #### Promise
 <img style="width: 800px;" src="/media/javascript-images/javascript-21/promise.png" alt="promise">
 	
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Async/Await
 	
 * async & await are special syntax which makes it more comfortable to work with promises.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -170,6 +306,14 @@ async function f() {
 console.log(f()); // A fulfilled promise
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### ```async```
@@ -186,6 +330,14 @@ f().then(function(value){
 }); 
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### ```async```
@@ -200,6 +352,14 @@ f().then(function(value){
 	console.log(value); // 1
 }); 
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -224,10 +384,26 @@ async function f() {
 f();
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 					
 #### ```await``` has to be in an async function, otherwise there would be a syntax error!
 	
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 	
 ### <a href="https://github.com/SofthouseVxo/Education" target="_blank">Github examples!</a>

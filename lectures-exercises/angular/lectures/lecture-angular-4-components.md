@@ -1,10 +1,26 @@
 ### 4. Angular
-##### Components
+#### Components
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
 #### Web Components
 "Web Components is a suite of different technologies allowing you to create reusable custom elements — with their functionality encapsulated away from the rest of your code — and utilize them in your web apps." - <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components" target="_blank">MDN</a></p>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -18,6 +34,14 @@
 * NOT SUPPORTED IN IE or Edge, polyfills needed.
 * <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components" target="_blank">Documentation</a>
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Custom elements
@@ -29,6 +53,14 @@
 <johndoe></johndoe>
 <football></football>
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -48,6 +80,14 @@ window.customElements.define('my-custom-element', MyCustomElement);
 
 <a href="https://developers.google.com/web/fundamentals/web-components/customelements" target="_blank">Google Developers Reference</a>
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Shadow DOM
@@ -55,6 +95,14 @@ window.customElements.define('my-custom-element', MyCustomElement);
 * Shadow DOM allows us to hide DOM (trees) & logic behind other elements.
 * If you want to dive deeper into this <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM" target="_blank">MDN explains</a>.
 <img width="600" src="/media/angular-images/angular-4/shadowdom.png" alt="shadow dom">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -80,6 +128,14 @@ wrapper.appendChild(clone);
 ```
 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template" target="_blank">MDN Reference</a>
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Angular Components
@@ -89,16 +145,40 @@ wrapper.appendChild(clone);
 * We encapsulates out code in components.
 * Every component represents a view.
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Components
 <img style="margin-top: -20px;" src="/media/angular-images/angular-4/components.png" alt="components">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
 
 #### Components
 <img style="margin-top: -20px;" src="/media/angular-images/angular-4/components2.png" alt="components">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -108,6 +188,14 @@ wrapper.appendChild(clone);
 ```
 $ ng new <app name>
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -119,10 +207,26 @@ $ ng g c <component name>
 ```
 <img width="600" src="/media/angular-images/angular-4/generate.png" alt="generate in cli">
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Component metadata
 <img src="/media/angular-images/angular-4/meta.png" alt="components">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -136,6 +240,14 @@ $ ng g c <component name>
 * Providers - Services
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Angular Decorators
@@ -143,6 +255,14 @@ $ ng g c <component name>
 * Decorators are simply functions that modify a class, property, method, or method parameter. The syntax is an “@” symbol followed by a function.
 * @Component({metadata})
 * <a href="https://toddmotto.com/angular-decorators" target="_blank">Angular Docs decorator explained</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -155,6 +275,14 @@ $ ng serve --open
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Data binding
@@ -162,6 +290,14 @@ $ ng serve --open
 * Communication between Component Class and Template.
 * It is possible to bind data between the two.
 * String interploation and attribution binding.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -173,9 +309,25 @@ $ ng serve --open
 * Two-way - view-to-source-to-view
 * <a href="https://angular.io/guide/template-syntax#binding-syntax-an-overview" target="_blank">Binding syntax: an overview - Angular Docs</a>
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 <img src="/media/angular-images/angular-4/component3.png" alt="component overview">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -198,6 +350,14 @@ export class BindComponent {
   message:string = 'Hello world!';
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -224,6 +384,14 @@ export class BindComponent {
 }
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Binding Data - Attribute binding
@@ -242,6 +410,14 @@ export class BindComponent {
   message:string = 'Here comes Johnny!';
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -269,6 +445,14 @@ export class BindComponent {
 }
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Two way data binding
@@ -276,6 +460,14 @@ export class BindComponent {
 * For data entry.
 * Data flow both ways.
 * We will look at this in more detail later.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -287,15 +479,39 @@ export class BindComponent {
 * When you write a data-binding, you're dealing exclusively with the DOM properties and events of the target object.
 * <a href="https://angular.io/guide/template-syntax#html-attribute-vs-dom-property" target="_blank">HTML attribute vs. DOM property - Angular Docs</a>
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Binding types and targets
 <img width="800" src="/media/angular-images/angular-4/binding1.png" alt="angular binding">
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Binding types and targets
 <img width="800" src="/media/angular-images/angular-4/binding2.png" alt="angular binding">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -314,6 +530,14 @@ export class BindComponent {
 export class BindComponent {
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -336,12 +560,28 @@ export class ParentComponent {
 }
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### @Input & @Output
 
 * @Input - something you send into your component
 * @Output - emit something from your component
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -360,6 +600,14 @@ export class ParentComponent {
 }
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
@@ -374,6 +622,14 @@ export class ChildComponent implements OnInit {
   @Input() info: string;
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -398,6 +654,14 @@ export class ParentComponent {
   }
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -424,12 +688,28 @@ export class ChildComponent {
 }
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### @Viewchild
 
 * Reference to a element/component/directive in the template.
 * Check example code on Github.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 

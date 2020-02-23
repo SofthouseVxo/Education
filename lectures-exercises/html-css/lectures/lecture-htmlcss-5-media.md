@@ -1,10 +1,26 @@
 ### 5.HTML & CSS
-##### Media (images, audio & video)
+#### Media (images, audio & video)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
 #### Directory structure example
 <img  src="/media/html-css-images/html-css-5/folder2.png" alt="folder structure">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -15,6 +31,14 @@
 * Also where to get and store photos/images? Are they stored on a server you own, in the cloud or elsewhere?
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Formats
@@ -22,6 +46,14 @@
 * JPEG, GIF, PNG & SVG are image formats often used on the web. 
 * Setting the size of images can be done using different units (px, pt, em, cm, mm).
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -31,6 +63,14 @@
 * If the image is to big it takes a long time to load.
 * Test examples (chapter 5).
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -48,6 +88,14 @@
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  HTML Image example
@@ -63,6 +111,14 @@
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### HTML Image example
@@ -74,6 +130,14 @@
   alt="Squirrel"
 >
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Placing an image
@@ -83,10 +147,26 @@
 * See examples (chapter 5)
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Media formats
 <a href="https://www.w3schools.com/html/html_media.asp">List with file formats</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -108,10 +188,26 @@
 [Try on w3schools](https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_audio_all)
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Some browsers does not allow for autoplay when there is sound. For good reasons.
-##### To make autoplay work add <a href="https://www.w3schools.com/tags/att_video_muted.asp">muted</a>
+#### To make autoplay work add <a href="https://www.w3schools.com/tags/att_video_muted.asp">muted</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 

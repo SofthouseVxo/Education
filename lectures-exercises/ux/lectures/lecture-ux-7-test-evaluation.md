@@ -1,14 +1,38 @@
 ### 7. UX
-##### Testa och utvärdera
+#### Testa och utvärdera
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
 #### Fungerar min design som förväntat?
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Process - testa
 <img src="/media/ux-images/ux-7/iterativ-test.png" alt="Process testing">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -22,6 +46,14 @@
   * Utifrån resultat från dessa tester kan vi ta bättre beslut för nästa iteration.
 	
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Viktiga frågor innan man börjar testa?
@@ -31,6 +63,14 @@
 * Varför och vad testar vi?
 * Hur testar vi, ställer vi rätt frågor till passande personer?
 * Representerar de vår målgrupp?
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -43,6 +83,14 @@
 * Att en text är subjektiv innebär att den innehåller ett personligt ställningstagande.
 * Det som är sant för dig behöver inte vara sanning för mig!
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Vad är användartester?
@@ -51,6 +99,14 @@
 * Låter användaren testa våra koncept/prototyper/produkter.
 * Ger användaren chansen att tycka till, detta i sin tur kan påverka våra designbeslut.
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Varför är det viktigt med användartester?
@@ -58,19 +114,43 @@
 * När allt kommer omkring så är det oftast till slut en användare som skall nyttja våra produkter/tjänster.
 * Förstår/uppskattar/godkänner användaren inte produkten är risken stor att de inte köper/använder/promotar vår produkt.
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Kvalitativa och kvalitativa undersökningar
-##### Definition av kvantitativ undersökning
+#### Definition av kvantitativ undersökning
 "Kvantitativa data är utformade för att samla in kalla fakta. Siffror. Kvantitativa data är strukturerade och statistiska. De hjälper dig att dra allmängiltiga slutsatser av materialet."
 <a href="https://sv.surveymonkey.com/mp/quantitative-vs-qualitative-research/">- Survey monkey</a>
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Kvalitativa och kvalitativa undersökningar
-##### Definition av kvalitativ undersökning
+#### Definition av kvalitativ undersökning
 "Kvalitativa data samlar in information som beskriver ett ämne snarare än mäter det. Det kan vara intryck, åsikter och synpunkter. En kvalitativ enkät är inte så strukturerad: målet är att göra en djupdykning i ämnet för att samla information om människors motivation, tankesätt och attityder. Detta ger en djupare förståelse av frågorna, men det gör också att resultaten blir svårare att analysera."
 <a href="https://sv.surveymonkey.com/mp/quantitative-vs-qualitative-research/">- Survey monkey</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -82,6 +162,14 @@
   * Ungefär samma
   * Fulare
 	
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Exempel på kvalitativa metoder
@@ -93,12 +181,28 @@
 * **Öppna enkätfrågor.** En textruta i en enkät där den svarande kan ge sina synpunkter på ämnet i sina egna ord.
 * **Observationsstudier.** Observera människor i deras dagliga liv för att till exempel förstå hur de använder en viss produkt.
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### När skall vi använda de olika?
 
 * Det beror på vad du vill veta.
 * Ofta kombinerar man kvalitativ och kvalitativ insamling.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -108,6 +212,14 @@
 * Jämföra olika lösningar.
 * Studera beteénden.
 * Vad användaren tycker om.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -120,6 +232,14 @@
 * **Fel** - Hur många fel gör användaren, hur allvarliga och kan dem återhämta sig efter dessa?
 * **Nöjdhet** - Hur trevligt är det att använda designen?
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Testmiljöer
@@ -127,6 +247,14 @@
 * Kontrollerade miljöer - Labbmiljöer
 * Live - Samla data från en applikation eller liknande när användaren använder applikationen ute i verkliga livet.
 * Guidad eller icke guidad testning.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -139,6 +267,14 @@
 
 <a href="https://www.nngroup.com/articles/which-ux-research-methods/">Christian Rohrer (NN-group)</a>
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Olika testmetoder
@@ -150,6 +286,14 @@
 
 <a href="https://www.nngroup.com/articles/which-ux-research-methods/">Christian Rohrer (NN-group)</a>
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Olika testmetoder
@@ -159,6 +303,14 @@
 * **Diary/Camera Studies:** participants are given a mechanism (diary or camera) to record and describe aspects of their lives that are relevant to a product or service, or simply core to the target audience; diary studies are typically longitudinal and can only be done for data that is easily recorded by participants.
 
 <a href="https://www.nngroup.com/articles/which-ux-research-methods/">Christian Rohrer (NN-group)</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -171,6 +323,14 @@
 
 <a href="https://www.nngroup.com/articles/which-ux-research-methods/">Christian Rohrer (NN-group)</a>
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Olika testmetoder
@@ -181,6 +341,14 @@
 
 <a href="https://www.nngroup.com/articles/which-ux-research-methods/">Christian Rohrer (NN-group)</a>
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Olika testmetoder
@@ -190,10 +358,26 @@
 
 <a href="https://www.nngroup.com/articles/which-ux-research-methods/">Christian Rohrer (NN-group)</a>
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Process - Utvärdera
 <img src="/media/ux-images/ux-7/iterativ-eval.png" alt="Process evaluation">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -205,6 +389,14 @@
   * Användaren klickade på fel knapp (dåligt exempel)
   * Användaren klickade på “rabatter” istället för “betalningsinfo” (bra exempel)
 	
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Analysera resultat
@@ -212,6 +404,14 @@
 * Varför fick vi resultaten vi fick?
 * Finns det någon aspekt som gör att vi inte kan dra slutsatser från testerna? (var det representativa användare, var det tillräckligt många osv.).
 * Prioritera åtgärder och förändringar.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 

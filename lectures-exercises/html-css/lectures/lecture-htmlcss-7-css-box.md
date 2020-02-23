@@ -1,10 +1,26 @@
 ### 7.HTML & CSS
-##### Box Model, colors & text
+#### Box Model, colors & text
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
 #### The box Model
 <img width="700" src="/media/html-css-images/html-css-7/marginpadding.png" alt="CSS margins and paddings">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -15,6 +31,14 @@
 * Border - A border that goes around the padding and content.
 * Margin - Clears an area outside the border (transparent).
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -31,6 +55,14 @@
 }
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -53,6 +85,14 @@
 <a href="http://htmlandcssbook.com/code-samples/chapter-13/min-width-max-width.html" target="_blank">Handbook examples</a>
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Margin & Padding
@@ -60,6 +100,14 @@
 * <b>Margin</b> properties are used to create space around elements, <b>OUTSIDE</b> of any defined borders.
 * <b>Padding</b> properties are used to generate space around an element's content, <b>INSIDE</b> of any defined borders.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -91,6 +139,14 @@ div {
 [Try it on w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_padding_shorthand_4val)
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  When does ```margin: auto;``` work?
@@ -101,6 +157,14 @@ div {
 * The element must have a width that is not auto.
 
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -127,6 +191,14 @@ div {
 [Try it on w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_padding_shorthand_4val)
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Padding and element width
@@ -142,6 +214,14 @@ div.box {
 [Try it on w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_padding_width)
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Borders
@@ -156,6 +236,14 @@ p {
 
 [Try it on w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_border_left)
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -177,6 +265,14 @@ p {
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  border-box
@@ -190,6 +286,14 @@ p {
 ```
 [Try it on w3schools](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_box-sizing)
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -217,6 +321,14 @@ p { color: rgba(255, 99, 71, 0.2); }
 [Try it on w3schools](https://www.w3schools.com/css/css_colors.asp)
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Opacity
@@ -235,6 +347,14 @@ h2 {
 }
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -258,6 +378,14 @@ h4 {
 [Try it on w3schools](https://www.w3schools.com/css/css_background.asp)
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Background vs background-color
@@ -280,6 +408,14 @@ div {
 [Try it on w3schools](https://www.w3schools.com/css/css_background.asp)
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Text
@@ -297,6 +433,14 @@ p {
 
 [All text properties at w3schools](https://www.w3schools.com/css/css_text.asp)
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -318,6 +462,14 @@ p {
 
 [All text properties at w3schools](https://www.w3schools.com/css/css_font.asp)
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -345,6 +497,14 @@ p {
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Font formats
@@ -353,6 +513,14 @@ p {
 * All browsers does <b>NOT</b> support all formats.
 * <a href="https://transfonter.org/formats">List of formats and browser support</a>
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -379,9 +547,25 @@ p {
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### <a href="https://www.w3schools.com/css/css_font.asp" target="_blank">Difference Between Serif and Sans-serif Fonts</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -389,6 +573,14 @@ p {
 * Depending on what state a link is in it can have different styling.
 * This styling is done using something called psuedo class, which we will cover deeper later on in the course.
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 

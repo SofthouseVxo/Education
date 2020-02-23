@@ -69,7 +69,7 @@ $ mkdir <folder name>
 
 20. Du är nu klar, kopiera länken till ditt Github repository och skicka in på Ping Pong under "Labb Git" under examinationer.
 
-##### Extrauppgifter
+#### Extrauppgifter
 
 1. Gå till Github och skapa därifrån ett nytt repository.
 
@@ -83,7 +83,7 @@ $ mkdir <folder name>
 
 1. Pusha till github och kontrollera så att din index.html nu finns på Github.
 
-##### Bra att veta
+#### Bra att veta
 
 * Om du glömmer -m vid en commit kommer du att hamna i vim editorn. För att lämna denna skriver du ```:wq```
 * Vill man slippa skriva in sitt lösenord till github hela tiden så kan man fixa en SSH nyckel: [How to](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)

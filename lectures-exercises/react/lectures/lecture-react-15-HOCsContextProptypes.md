@@ -1,5 +1,13 @@
 ### 15. React
-##### Higher Order Components (HOC's), Context & PropTypes
+#### Higher Order Components (HOC's), Context & PropTypes
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -12,9 +20,25 @@
 const EnhancedComponent = higherOrderComponent(WrappedComponent);
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### We can use HOC's when we have different components rendering different things but some implementation is the same.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -33,6 +57,14 @@ function withSomeCoolItem(WrappedComponent, otherData) {
 }
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ```JavaScript
@@ -48,6 +80,14 @@ function withSomeCoolItem(WrappedComponent, otherData) {
   };
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -65,6 +105,14 @@ class MyComponent extends Component {
 
 export default withSomeCoolItem(MyComponent);
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -89,6 +137,14 @@ render() {
 }
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### HOC's can be:
@@ -98,13 +154,37 @@ render() {
 * Can pass in props {...this.props}
 * Reflect upon withRouter.
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### HOC Examples
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Context
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -116,10 +196,26 @@ render() {
 * Examples on what to place in context: Current authenticated user, UI Theme, Language
 * <u>Always give it an extra thought before usage, since it makes component reuse more difficult.</u>
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Context
 <img style="width: 800px;" src="/media/react-images/react-15/context.png" alt="context">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -145,6 +241,14 @@ class ThemedButton extends React.Component {
   }
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -178,6 +282,14 @@ class ThemedButton extends React.Component {
 }
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ```JavaScript
@@ -194,9 +306,25 @@ static contextType = ThemeContext;
 theme={this.context}
 ```
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Context Examples
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
   
@@ -211,6 +339,14 @@ npm install --save prop-types
 
 comes with create-react-app
   
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  PropTypes function component
@@ -230,6 +366,14 @@ MyComponent.propTypes = {
 };
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -251,6 +395,14 @@ MyComponent.propTypes = {
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  PropTypes class component using static keyword
@@ -270,6 +422,14 @@ class MyComponent extends React.Component {
   }
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 

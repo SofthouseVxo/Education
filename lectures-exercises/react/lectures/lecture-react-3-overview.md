@@ -1,9 +1,25 @@
 ### 3. React
-##### Overview
+#### Overview
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
  #### React is a JavaScript library for building user interfaces.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
         
@@ -13,6 +29,14 @@
 * <a href="https://reactjs.org/">Documentation</a>
 * <a href="https://github.com/facebook/react">Github</a>
 * <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript">Reacts JavaScript level assumption</a>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -27,6 +51,14 @@
   * Airbnb (styleguide, react-sketchapp)
   * Wix (wix-style-react)
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Popular libraries in React projects
@@ -40,6 +72,14 @@
 * <a href="https://github.com/styled-components/styled-components" target="_blank">styled-components</a> - JSS
 * <a href="https://github.com/airbnb/enzyme" target="_blank">Enzyme</a> - For additional testing utilities
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### React
@@ -47,6 +87,14 @@
 * Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
 * Build encapsulated components that manage their own state, then compose them to make complex UIs.
 * Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM. - <a href="https://reactjs.org/">React-Documentation</a></p>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -61,6 +109,14 @@
   * The number 42 does not have a state since you can't change it.
   * The number is a value
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Components
@@ -69,6 +125,14 @@
 * Components can be composed together to create other components.
 * The application itself is a component, it's a composition of components.
 * Every component is a Class (or function) that you can instantiate. That means that your component can receive arguments that you can use to customize what's shown in the application.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -79,6 +143,14 @@
 * What it returns or renders is the output, a component must have an output.
 * See this as a function, a component is something that returns an output based on input.
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Virtual DOM
@@ -87,6 +159,14 @@
 * This Virtual DOM is **NOT** the same as the ordinary DOM.
 * For every DOM object, there is a corresponding “virtual DOM object, and this virtual DOM object is a representation of a DOM object, like a lightweight copy.
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
         
 #### Virtual DOM
@@ -94,6 +174,14 @@
 * The Virtual DOM selectively renders subtrees of nodes based upon state changes.
 * It does the least amount of DOM manipulation possible in order to keep your components up to date.
 * If there are any changes in the Virtual Dom then React performs a “diffing algorithm". Which identifies what has changed and accordingly updates the real DOM. This means that it doesn't update the entire DOM just the nodes that has changed.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -106,6 +194,14 @@
 * React is more commonly used with JavaScript while Angular with TypeScript.
 * React has a lower barrier when learning while Angular has a steep learning curve.
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### A project created with create-react-app comes with:
@@ -114,6 +210,14 @@
 * Language extras beyond ES6 like the object spread operator.
 * Autoprefixed CSS, so you don't need -webkit- or other prefixes.
 * A fast interactive unit test runner with built-in support for coverage reporting.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -124,6 +228,14 @@
 * An offline-first service worker and a web app manifest, meeting all the Progressive Web App criteria. (Note: Using the service worker is opt-in as of react-scripts@2.0.0 and higher)
 * Hassle-free updates for the above tolis with a single dependency.
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### A JavaScript build toolchain example
@@ -131,6 +243,14 @@
 * A package manager (Yarn, Npm)
 * A bundler, (Webpack)
 * A compiler (Babel)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -141,6 +261,14 @@
 * npx is an an NPM package runner
 
 * You need to have atleast Node >= 6
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 

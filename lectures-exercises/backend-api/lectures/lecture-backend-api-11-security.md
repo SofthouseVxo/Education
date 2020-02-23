@@ -1,5 +1,13 @@
 ### 11. Backend APIs
-##### Web API Security
+#### Web API Security
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -11,13 +19,37 @@
 * //TODO: supply chain security NPM
 * //TODO: Paswordless login
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Concepts
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Authentication vs. Authorization
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -31,6 +63,14 @@ Proof of whom you are:
 * Social media login</li>
 
 <img style="width: 400px; margin-left: 50px;" src="/media/backend-api-images/backend-api-11/front.png" alt="drivers license">
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Authorization
@@ -41,9 +81,25 @@ What are you allowed to do:
 
 
 <img style="width: 400px; margin-left: 50px;" src="/media/backend-api-images/backend-api-11/back.png" alt="drivers license">
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Hashing vs. Encryption
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Hashing
@@ -54,6 +110,14 @@ Turns a string into a fixed size value that is distributed so a small change in 
 * Rainbow Table is a list of calculated hashes for a certain algorithm
 * Salting means adding random value to the hashing function so rainbow tables won’t match
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -68,9 +132,25 @@ The process of encoding a message or information in such a way that only authori
   * Public key decrypts private key encrypted.
     * Can “sign” by encrypting with private key and recipient decrypts with your public key.
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### The Value of Security
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### The Value of security
@@ -87,9 +167,25 @@ It’s only an added expense until there’s a breach
   * Value to an attacker
 * Risk * Cost is a simple evaluation
 	
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Best Practices for Web APIs
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 
@@ -99,6 +195,14 @@ Every time you make the solution more complex “unnecessarily”, you are also 
 * Don’t write unnecessary code
 * Don’t add dependencies you don’t actually need
 			
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -111,6 +215,14 @@ HTTPS is HTTP with the communication protocol is encrypted using Transport Layer
   * Client authentication (certificate as credentials)
 		
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Use Password Hash
@@ -118,6 +230,14 @@ HTTPS is HTTP with the communication protocol is encrypted using Transport Layer
 Never ever, ever store clear text passwords.
 * People tend to use the same password in multiple places.
 * Hash and salt passwords, then compare.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -127,6 +247,14 @@ URL are stored web server logs, making them a credentials library.
 * No credentials as query or path parameters.
 * Headers is the way to go for api keys.
 	
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -143,6 +271,14 @@ Grant websites or applications access to their information on other websites but
   * OpenID
   * SAML
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Oauth Example
@@ -153,11 +289,27 @@ Three legged login
 * Server then validates auth code and provides access token
 * Happens every time you log in to or authenticate using facebook/google
 	
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Oauth Example
 
 <img style="width: 600px" src="/media/backend-api-images/backend-api-11/oauth.png" alt="oauth">
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Consider Adding Timestamp in Request
@@ -168,6 +320,14 @@ A replay attack is when a data transmission is maliciously or fraudulently repea
 * May get a valid session back!.
 * Timestamp validation prevents replaying old requests.
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Input Parameter Validation
@@ -176,6 +336,14 @@ Validation is the process of ensuring data have undergone data cleansing to ensu
 * Prevents possible harmful requests from being further processed
 * Can also provide useful error information to users
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 

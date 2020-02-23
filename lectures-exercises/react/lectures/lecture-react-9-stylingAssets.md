@@ -1,5 +1,13 @@
 ### 9. React
-##### Styling & Assets
+#### Styling & Assets
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -11,6 +19,14 @@
   * Sass → CSS
   * Images and other assets
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### From Dev to Build
@@ -18,15 +34,39 @@
 * npm run build
 *  /src → (webpack bundles it into) → /build
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Image example
 <img src="/media/react-images/react-9/folders.png" alt="in folders">
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### In code
 <img src="/media/react-images/react-9/code.png" alt="in code">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -37,6 +77,14 @@
 * css modules → encapsulated styles (focus in this course).
 * styled components → Library for styling react components (CSS in JS).
 * Other CSS in JS Comparison.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -49,6 +97,14 @@
   * No global scope.
 * <a href="https://github.com/css-modules/css-modules">https://github.com/css-modules/css-modules</a>
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Create-react-app supports css modules
@@ -58,9 +114,25 @@
 * Have to name the css file with .module → myCSSFile.modules.css
 * Import styles from './myCSSFile.module.css
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 <img src="/media/react-images/react-9/css.png" alt="in folders">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 

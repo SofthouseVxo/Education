@@ -1,5 +1,13 @@
 ### 10.HTML & CSS
-##### Forms
+#### Forms
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -17,10 +25,26 @@
 
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ### HTML Forms
 <img  src="/media/html-css-images/html-css-10/form.png" alt="How a HTML form is sent">
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -32,6 +56,14 @@
 <input type="text" name="username" />
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -47,6 +79,14 @@
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  ```<input>``` element
@@ -60,6 +100,14 @@
 <input type="password" name="password" />
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -75,6 +123,14 @@
 <br>
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  Labels and placeholders
@@ -88,6 +144,14 @@
 <input type="password" name="password" />
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -105,6 +169,14 @@
 <br>
 <br>
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 ####  ```<textarea>``` element
@@ -118,10 +190,26 @@ Enter your comments here...
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Textarea
 <textarea name="comments" cols="40" rows="6">Enter your comments here...</textarea>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -138,6 +226,14 @@ Enter your comments here...
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Radio buttons
@@ -148,6 +244,14 @@ Enter your comments here...
   <br>
   <input type="radio" name="animal" value="chicken" /> chicken
 </form>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -164,6 +268,14 @@ Enter your comments here...
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Checkboxes
@@ -175,6 +287,14 @@ Enter your comments here...
   <input type="checkbox" name="animal" value="pig" /> chicken
 </form>
 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -194,6 +314,14 @@ Enter your comments here...
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Dropdown list
@@ -205,6 +333,14 @@ Enter your comments here...
     <option value="lemon">Lemon</option>
   </select>
 </form>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -221,6 +357,14 @@ Enter your comments here...
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### File upload
@@ -229,6 +373,14 @@ Enter your comments here...
   <input type="file" name="user-profile" /><br />
   <input type="submit" value="Upload" />
 </form>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -245,6 +397,14 @@ Enter your comments here...
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 <!--<section>
 #### Submit button
@@ -255,6 +415,14 @@ Enter your comments here...
   <input type="text" name="username"/>
   <input type="submit" name="submit" value="submit"/>
 </form>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ----->
 
@@ -269,6 +437,14 @@ Enter your comments here...
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Date input
@@ -276,6 +452,14 @@ Enter your comments here...
   <input type="date" name="startdate"/>
   <input type="submit" name="submit" value="submit"/>
 </form>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -290,6 +474,14 @@ Enter your comments here...
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Email & Url
@@ -298,6 +490,14 @@ Enter your comments here...
   <input type="url" name="url"/>
   <input type="submit" name="submit" value="submit"/>
 </form>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
@@ -313,6 +513,14 @@ Enter your comments here...
 ```
 
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 ---
 
 #### Form validation
@@ -320,6 +528,14 @@ Enter your comments here...
   <input required="required" type="text" name="username"/>
   <input type="submit" name="submit" value="submit"/>
 </form>
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
