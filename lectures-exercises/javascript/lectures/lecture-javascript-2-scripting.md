@@ -1,19 +1,6 @@
 ### 2. JavaScript</h3>
 #### Scripting / Programming</h5>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -23,19 +10,6 @@
 * CSS is used for the design of a webpage – where everything is placed and how it looks (body).
 * **JavaScript is used to define the interactive elements of a webpage making it dynamic (muscles).**
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -47,55 +21,16 @@
 * Adding numbers, deleting files, changing what's seen on the screen etc.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 “Everyone in this country should learn to program a computer, because it teaches you to think.” - Steve Jobs
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Upcoming slides provide a broader overview with simplified examples.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -105,19 +40,6 @@
 * High level language
 * Scripting language
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 				
@@ -128,19 +50,6 @@
 * Binary codes that consists of 1's and 0's
 * Can be executed directly by a computer's CPU.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -151,19 +60,6 @@
 * Gets compiled to machine code.
 * C, C++, Objective-C, Java.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -173,19 +69,6 @@
 * Runs in an client application which **interprets** the code, plugin or server program.
 * JavaScript, ActionScript, PHP.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -196,19 +79,6 @@
 * Think of a human translator translating what you say, after you said one sentence she writes down the translation then hands it over to the computer.
 * Every time you speak a new sentence, even if it's the same as before, she will write it down again and hand it over.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -220,19 +90,6 @@
 * Image the human translator again, instead of translating on the fly she writes all you had to say then hands the whole thing over to the computer.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -244,19 +101,6 @@
 * With JavaScript we distribute the source code, not the binary form.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -266,57 +110,18 @@
 * Browsers does this in different ways.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Java flow
 <img src="/media/javascript-images/javascript-2/java.png" alt="java">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### JavaScript flow
 <img  src="/media/javascript-images/javascript-2/js.png" alt="js">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -327,19 +132,6 @@
 * JavaScript was created to allow web developers to embed executable code on their webpages.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -350,19 +142,6 @@
 * With Runtime environments like **Node.js**, JavaScript can run on machines as well.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -374,19 +153,6 @@
 * Has been a lot of buzz around it for a while now..
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -397,19 +163,6 @@
 * JavaScript’s syntax is heavily inspired by C++ and Java.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -420,19 +173,6 @@
 * Languages like Javascript are based on the ECMAScript standard.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -446,19 +186,6 @@
 * ES.Next (dynamic and references the next version of ECMAScript coming out).
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -469,19 +196,6 @@
 * The TC39 committe consists of between 50-100 different people from web-invested companies like browser and device makers.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -489,19 +203,6 @@
 "Backwards compatibility means that once something is accepted as valid JS, there will not be a future change to the language that causes that code to become invalid JS. Code written in 1995 -- however primitive or limited it may have been! -- should still work today. As TC39 members often proclaim, "we don't break the web!" - <a href="https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/getting-started/ch1.md">YDKJS</a>
 **JS is not forwards-compatible!**
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -509,19 +210,6 @@
 A script is a series of instructions that a computer can follow to achieve a goal.
 Like a recipe.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -532,19 +220,6 @@ Like a recipe.
 1. Code each step
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -557,19 +232,6 @@ Like a recipe.
 1. Go to step 1
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -579,19 +241,6 @@ Like a recipe.
 * **Syntax** - How to put those words together to create instructions.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -606,19 +255,6 @@ Like a recipe.
 	
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -631,19 +267,6 @@ Like a recipe.
 	
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -668,19 +291,6 @@ Like a recipe.
 </html>
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -705,19 +315,6 @@ Like a recipe.
 </html>
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -730,19 +327,6 @@ Like a recipe.
 
 The above is called Direct, this can be also be done asynchronosly, meaning the parser continues while loading the script.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -757,56 +341,17 @@ The above is called Direct, this can be also be done asynchronosly, meaning the 
 
 * It's possible to execute JavaScript expressions from the console.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Web Console
 <img style="margin-top: 0px;" src="/media/javascript-images/javascript-2/webconsole.png" alt="web console">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### alert() & prompt() examples
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -816,19 +361,6 @@ The above is called Direct, this can be also be done asynchronosly, meaning the 
 * <a href="https://developer.mozilla.org/sv-SE/" target="_blank">MDN</a>
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 

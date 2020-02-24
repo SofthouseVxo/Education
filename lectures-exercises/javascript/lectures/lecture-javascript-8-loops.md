@@ -1,38 +1,12 @@
 ### 8. JavaScript
 #### Loops
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 ### Loops
 #### Repeatedly run a blocks of code.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -54,19 +28,6 @@ while (i < users.length) {
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -75,19 +36,6 @@ while (i < users.length) {
 1. After executing the block of code, checks again, if true then run code block again.
 1. Repeat until condition is false, then stop.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -96,19 +44,6 @@ while (i < users.length) {
 * **DO WHILE** loop
 * **FOR** loop
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -129,19 +64,6 @@ while (i < numberOfTimes) {
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -159,19 +81,6 @@ do {
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -193,19 +102,6 @@ for(let i = 0; i < 6; i++){
 }
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -221,19 +117,6 @@ for (let i = 0; i < 6; i++) {
 }
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -249,19 +132,6 @@ for (let i = 0; i < 6; i++) {
 }
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -278,19 +148,6 @@ for (let i = 0; i < 3; i++) {
 }
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -309,19 +166,6 @@ while (index < arr.length) {
 ```
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for">MDN Reference</a>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -338,19 +182,6 @@ for (let i = 0; i < arr.length; i++) {
 ```
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for">MDN Reference</a>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -367,19 +198,6 @@ arr.forEach(function(element) {
 ```
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach">MDN reference</a>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 

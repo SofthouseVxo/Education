@@ -1,19 +1,6 @@
 ### 7. JavaScript</h3>
 #### Decisions</h5>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -22,19 +9,6 @@
 * When writing applications we often need to evaluate if some conditions are met.
 * Depending on if they are we need to make decisions on how to proceed.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -47,19 +21,6 @@
   
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -73,19 +34,6 @@ if(jacket === 'green'){
 }
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -94,19 +42,6 @@ if(jacket === 'green'){
 * **Evaluation** - analyse/check if values are the same, equal etc.
 * **Decision** - decide what to do depending on the result of the evaluation.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -123,19 +58,6 @@ if(age > 18){
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -154,19 +76,6 @@ if(age != 18) // age is NOT equal to 18
 if(age !== 18) // age is strict NOT equal to 18 and is NOT of the same datatype
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -183,19 +92,6 @@ if(is18orOver){
 }
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -212,19 +108,6 @@ let score = null;        // null - falsy
 let score;   // undefined - falsy
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -243,19 +126,6 @@ let score = '0';      // string - truthy
 let score = 'false';  // string - truthy
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -271,19 +141,6 @@ if((age1 + age2) < maximumAge){
 }
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -302,19 +159,6 @@ let result = a || b; // result is a OR b
 console.log(result); // 'John Doe' since a is a falsy value
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 --- 
 
@@ -333,19 +177,6 @@ if(a || b){
 }
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -358,19 +189,6 @@ let b = true;
 result = a && b; // returns false since both a and b is not truthy
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -388,19 +206,6 @@ let c = 'John Doe'
 result = a && b && c; // returns John Doe
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -417,19 +222,6 @@ if (hour == 12 && minute == 30) {
 }
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -449,19 +241,6 @@ if(!isUnder18){
 }
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -479,19 +258,6 @@ if((10 > 2) || (3 === 3)){
 }
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -507,19 +273,6 @@ if ((a == b || c == d) && ((a == b) != (c == d))) {
 }
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -541,19 +294,6 @@ else {
 ```
 [Try on w3schools](https://www.w3schools.com/js/tryit.asp?filename=tryjs_elseif)
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -572,19 +312,6 @@ if (a === b) {
 a === b ? console.log("Match") : console.log("No match");
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -604,19 +331,6 @@ switch(expression) {
 ```
 [Try on w3schools](https://www.w3schools.com/js/tryit.asp?filename=tryjs_switch)
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -637,19 +351,6 @@ switch(expression) {
 (undefined == 0)      // false
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -661,19 +362,6 @@ switch(expression) {
   * Errors due to incorrect response from Backend
   * and other unforeseeable things.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -685,19 +373,6 @@ switch(expression) {
 * The **finally** statement lets you execute code, after try and catch, regardless of the result.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -717,19 +392,6 @@ catch(err) {
 <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_try_catch" target="_blank">Try on w3schools</a>
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -748,19 +410,6 @@ catch(err) {
 
 <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_try_catch" target="_blank">Try on w3schools</a>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -774,19 +423,6 @@ if(responseUsers && responseUsers.length){
 ```
 [Try on w3schools](https://www.w3schools.com/js/tryit.asp?filename=tryjs_try_catch)
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
         
@@ -805,19 +441,6 @@ catch(err) {
 [Try on w3schools](https://www.w3schools.com/js/tryit.asp?filename=tryjs_try_catch)
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -837,19 +460,6 @@ finally {
 } 
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -861,19 +471,6 @@ finally {
 * try/catchdeal with thing that could possibly go wrong and you can't do much about it. Those things are like networking, IO, third party services integrations...
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -902,19 +499,6 @@ function three(){
 }
 ```
   
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
   

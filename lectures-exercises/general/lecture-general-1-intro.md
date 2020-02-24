@@ -1,18 +1,5 @@
 ### Introduction
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -23,56 +10,17 @@
 * Softhouse Consulting
 * Bachelor in Interactive Digital Media at Linneus University
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### What is a front end developer?
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### What is a front end developer?
 **Front-end web development**, also known as **client-side** development is the practice of producing **HTML, CSS and JavaScript** for a website or Web Application so that a user can see and interact with them directly. The challenge associated with front end development is that the tools and techniques used to create the front end of a website **change constantly** and so the developer needs to constantly be aware of how the field is developing.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 --- 
 
@@ -80,19 +28,6 @@
 
 The objective of designing a site is to ensure that when the **users** open up the site they see the information in a format that is **easy to read and relevant**. This is further complicated by the fact that users now use a large **variety of devices** with varying **screen sizes** and **resolutions** thus forcing the designer to take into consideration these aspects when designing the site. They need to ensure that their site comes up correctly in **different browsers (cross-browser), different operating systems (cross-platform) and different devices (cross-device)**, which requires careful planning on the side of the developer.(<a href="https://frontendmasters.com/books/front-end-handbook/2018/what-is-a-FD.html">Front end masters</a>)
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -103,19 +38,6 @@ The objective of designing a site is to ensure that when the **users** open up t
 * **WHY** do you want to be a front end developer?
 * Any previous experience?
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -124,19 +46,6 @@ The objective of designing a site is to ensure that when the **users** open up t
 * What do you expect from the education?
 * What do you expect from me?
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -148,19 +57,6 @@ The objective of designing a site is to ensure that when the **users** open up t
 * I will introduce, guide and explain but it's up to **you** to deep dive and do the real work.
 * If you have opinions, questions or suggestions regarding teaching methods, educational materials I'll expect you to tell me and not run around whining/blaming.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -168,19 +64,6 @@ The objective of designing a site is to ensure that when the **users** open up t
 
 * The program is set up in a way that you need no previous knowledge in this area.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -191,19 +74,6 @@ The objective of designing a site is to ensure that when the **users** open up t
 * Make mistakes
 * Ask questions without feeling bad
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -215,19 +85,6 @@ The objective of designing a site is to ensure that when the **users** open up t
 * Learn for the joy of learning and not just to pass.
 * Respect each other, were all different and learn in different pace.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -236,19 +93,6 @@ The objective of designing a site is to ensure that when the **users** open up t
 
 * You are here to **learn** and not to produce.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -259,19 +103,6 @@ The objective of designing a site is to ensure that when the **users** open up t
 * Programming is abstract, mindfucking and hard in the beginning, but stick to it and you will learn I promise.
 * You will learn alot but you simply cannot learn it all in 1 year.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -282,19 +113,6 @@ The objective of designing a site is to ensure that when the **users** open up t
 * Developers are expected to be up to date and learning new technologies.
 * To keep up you need some interest.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -305,19 +123,6 @@ The objective of designing a site is to ensure that when the **users** open up t
 * Using the newest libs, tools and features.
 * Learn the fundamentals first, then you can learn all the fluff!
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -332,19 +137,6 @@ The objective of designing a site is to ensure that when the **users** open up t
   * Projects
   * Tests
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -355,19 +147,6 @@ The objective of designing a site is to ensure that when the **users** open up t
 * Literature - English
 * The rest in Swedish
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -380,19 +159,6 @@ The objective of designing a site is to ensure that when the **users** open up t
 * Code from lectures can be accessed on <a href="https://github.com/SofthouseVxo/Education">Github</a>
 * Create and Github account and Star the repository above.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -403,19 +169,6 @@ The objective of designing a site is to ensure that when the **users** open up t
 * Download the ping pong app.
 * My email: robin.lundin@softhouse.se
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -424,19 +177,6 @@ The objective of designing a site is to ensure that when the **users** open up t
 * We will try to keep find and keep a steady paste. (first time for a lot of the courses)
 * Could be experienced as fast but it will be no problem if you put down your ~40hours/week.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 

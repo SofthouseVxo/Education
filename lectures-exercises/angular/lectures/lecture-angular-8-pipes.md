@@ -1,37 +1,11 @@
 ### 8. Angular</h3>
 #### Pipes</h5>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### "Angular pipes, a way to write display-value transformations that you can declare in your HTML."</h4>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -42,19 +16,6 @@
 * Angular provides us with a set of built in pipes.
 * It is also possible to create custom pipes.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -65,19 +26,6 @@
 * Json
 * <a href="https://angular.io/api?type=pipe" target="_blank">Full list of Pipes</a>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -103,19 +51,6 @@ export class HeroBirthdayComponent {
 }
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -137,19 +72,6 @@ export class MultiplyWithFivePipe implements PipeTransform {
 }						
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 

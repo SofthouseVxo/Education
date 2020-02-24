@@ -1,37 +1,11 @@
 
 ### 2. Angular
 #### Prerequisites
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 
 #### Single Page vs Multi page applications
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -42,19 +16,6 @@
 * Web page reloads when page change (scroll example).
 * For example when a html form is submitted to server. Then a new page is returned from the server and loaded in the browser.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -64,19 +25,6 @@
 * If there is a lot of content on each page, this will result in long loading times.
 * It is harder to adapt to mobile, since mobiles have less screen sizes, then there is more scrolling and reloading a page when scrolled to the bottom will result in the user being thrown to the top again.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -88,19 +36,6 @@
 * Easier to debug.
 * Cache local storage effectively. Works offline with correct setup.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -111,37 +46,11 @@
 * Requires Javascript to be enabled.
 * Can be less secure (Cross site scripting) if implemented carelessly.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Libraries & Frameworks
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -152,19 +61,6 @@
 * Results in easier development.
 * Examples -> Moment.js, Redux, Jquery
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -175,19 +71,6 @@
 * Frameworks often use different libraries.
 * Web frameworks -> database access, templating, session management and code reuse.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -199,19 +82,6 @@
 * Community.
 * Maintenance.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -219,36 +89,10 @@
 "A **library** is like going to Ikea. You already have a home, but you need a bit of help with furniture. You don’t feel like making your own table from scratch. Ikea allows you to pick and choose different things to go in your home. You are in control." - <a href="https://www.freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/">Freecodecamp, 2019</a>
 "A **framework**, on the other hand, is like building a model home. You have a set of blueprints and a few limited choices when it comes to architecture and design. Ultimately, the contractor and blueprint are in control. And they will let you know when and where you can provide your input." - <a href="https://www.freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/">Freecodecamp, 2019</a>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
   
 #### Different frontend Libraries/frameworks
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -260,19 +104,6 @@
 * Solves the same problems, a bit different
 * <a href="https://insights.stackoverflow.com/survey/2019">Usage 2019</a>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -283,19 +114,6 @@
 * It is very complex and expensive to port a platform to a different framework. (that's why a lot of companies use older frameworks and versions).
 * Different parts of an application can be using different tools.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -304,19 +122,6 @@
 * Is an architecture that separates information handling & visualisation.
 * Data models, views & controls.
   
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
   
@@ -324,19 +129,6 @@
 #### MVC
 <img style="width: 800px;" src="/media/mvc.png" alt="mvc overview">
   
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
   
@@ -347,19 +139,6 @@
 * Maintains the data of the application.
 * Model objects retrieve and store model state in a database.
   
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
   
@@ -369,19 +148,6 @@
 * It displays data using the model to the user.
 * Make it possible for the user to modilfy the data.
   
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
   
@@ -392,36 +158,10 @@
 * It is the **Controller** that handles the request.
 * And then renders the appropriate view with the model data as a response.
   
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Node.js & Npm
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -435,19 +175,6 @@
 * The engine takes your JavaScript code and converts it into a faster machine code. 
 * <a href="https://nodejs.org/en/docs/">Documentation</a>
   
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -457,19 +184,6 @@
 * To use need Node you need to download and install it on a machine first.
 * <a href="https://nodejs.org/en/" target="_blank">Download</a> (LTS = Long Term Support)
   
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -482,19 +196,6 @@ $ npm -v
 $ npm install npm@latest -g
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -502,37 +203,11 @@ $ npm install npm@latest -g
 #### Node Package Manager
 #### <a href="https://www.npmjs.com/">Web page</a>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 "NPM is a package manager for Node.js packages, or modules if you like. www.npmjs.com hosts thousands of free packages to download and use.The NPM program is installed on your computer when you install Node.js" - <a href="https://www.w3schools.com/nodejs/nodejs_npm.asp">W3Schools</a>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -543,19 +218,6 @@ $ npm install npm@latest -g
 * Handles which modules are dependent on which
 * Imports modules in correct order
   
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -569,19 +231,6 @@ $ npm install --save <module>  // installs a node module and saves it as a depen
 $ npm install --save-dev <module>  // installs a node module and saves it as a dev dependency -> package.json
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -592,57 +241,18 @@ $ npm i bootstrap@4.0.0 --save // installs the 4.0.0 version of bootstrap
 $ npm i typescript --save-dev // installs typescript and since typescript is only needed in the development phase we set -dev
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Semantic versioning
 <img src="/media/angular-images/angular-2/semantic.png" alt="semantic versioning">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
   
 * package.json - is a JSON file containing which modules that are needed in your project along with other information
 * /node_modules - folder where your modules are stored
   
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -652,19 +262,6 @@ $ npm i typescript --save-dev // installs typescript and since typescript is onl
 * Easier to see the code when using Npm
 * Using a CDN means another request to the server, you might have multiple.
   
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -675,19 +272,6 @@ $ npm i typescript --save-dev // installs typescript and since typescript is onl
 * Download other packages
 * Every package/module gets its own npm page, with a read me and GitHub link, + additional information about the package moment.js
   
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -698,37 +282,11 @@ $ npm i typescript --save-dev // installs typescript and since typescript is onl
 * <a href="https://www.npmjs.com/package/is-odd">is-odd</a>, <a href="https://www.npmjs.com/package/is-even">is-even</a>
 * Most modules have dependencies, and need to be maintained.
   
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Webpack
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -740,37 +298,11 @@ $ npm i typescript --save-dev // installs typescript and since typescript is onl
 * Import - Export
 * <a href="https://webpack.js.org/">Documentation</a>
   
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 
 #### Typescript
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -783,19 +315,6 @@ $ npm i typescript --save-dev // installs typescript and since typescript is onl
 * Support annotations, interfaces, Classes, Decorators etc.
 * <a href="https://www.typescriptlang.org/" target="_blank">Documentation</a>
   
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -803,19 +322,6 @@ $ npm i typescript --save-dev // installs typescript and since typescript is onl
 
 In typed language we define the type of all variables which are known at either compile time or runtime.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -829,19 +335,6 @@ $ touch index.ts
 $ tsc index.ts
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 

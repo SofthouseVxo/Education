@@ -1,18 +1,5 @@
 ### Tips på hur man skriver bättre rapporter.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -20,19 +7,6 @@
 * Använd Word eller annat ordbehandlingsprogram.
 * Dvs använd **INTE** en .txt fil.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -45,19 +19,6 @@
   * Sidnummer (om rapport är längre än 5 sidor).
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -66,19 +27,6 @@
 * Normalt radavstånd.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -90,75 +38,23 @@
 * Walls of texts.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 ### Använd rättstavningsprogrammet.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Referenser
 * Upp till er vilken metod ni vill använda.
 * Jag använder och föredrar <a href="https://www.hb.se/Biblioteket/Skriva-och-referera/Referera-till-kallor/Guide-till-Harvardsystemet/NYA-Harvardsystemet
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---kort-introduktion/">Harvard</a>
 * <a href="https://hv.se.libguides.com/referera">Varför refererar vi?</a>
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -166,19 +62,6 @@
 ##### Spara och skicka ALLTID in som PDF
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 

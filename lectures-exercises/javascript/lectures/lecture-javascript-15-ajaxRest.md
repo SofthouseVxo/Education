@@ -1,19 +1,6 @@
 ### 15. JavaScript
 #### AJAX & REST
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -24,19 +11,6 @@
 * JavaScript and HTML DOM (to display or use the data).
 * AJAX applications might use XML to transport data, but it is equally common to transport data as plain text or JSON text.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -47,19 +21,6 @@
 * Update a web page without reloading the page.
 * Send data to a web server - in the background.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -71,19 +32,6 @@
 * Make an order, sit at the table and wait for your food
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -94,19 +42,6 @@
 * Login without reload.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -116,38 +51,12 @@
 1. The server responds with data (usally HTML, XML, JSON formats).
 1. The browser processes the content and adds it to the page.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### AJAX flow
 <img style="width: 600px;" src="/media/javascript-images/javascript-15/ajaxflow.png" alt="AJAX flow">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 				
@@ -161,19 +70,6 @@
 	
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -192,19 +88,6 @@
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -229,19 +112,6 @@
 }}
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -269,19 +139,6 @@ JSON.stringify(object); // Converts to JSON
 JSON.parse(response); // Converts JSON response to a JS object
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -311,38 +168,12 @@ JSON
 }}
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 ### API
 #### Application Programming Interface
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 				
@@ -352,56 +183,17 @@ JSON
 * User interfaces allow humans to interact with programs.
 * API's let programs and scripts to talk to each other.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### API real world example
 Think of an API like a menu in a restaurant. The menu provides a list of dishes you can order, along with a description of each dish. When you specify what menu items you want, the restaurant’s kitchen does the work and provides you with some finished dishes. You don’t know exactly how the restaurant prepares that food, and you don’t really need to. - <a href="https://www.howtogeek.com/343877/what-is-an-api/">Chris Hoffman</a>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### If I write a script or create some software, websites or web other services, I can decide to open up some of that functionality for others.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -413,95 +205,30 @@ Think of an API like a menu in a restaurant. The menu provides a list of dishes 
 * SOAP etc.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Different types of APIs
 <img style="width: 800px" src="/media/javascript-images/javascript-15/api1.png" alt="apis">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Different types of APIs
 <img style="height: 500px" src="/media/javascript-images/javascript-15/api2.png" alt="apis">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Different types of APIs
 <img style="height: 500px" src="/media/javascript-images/javascript-15/api3.png" alt="apis">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Different types of APIs
 <img style="width: 800px" src="/media/javascript-images/javascript-15/api4.png" alt="apis">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -512,37 +239,11 @@ Think of an API like a menu in a restaurant. The menu provides a list of dishes 
 * RESTful Web services, provide interoperability between computer systems on the Internet.
 * When a RESTful API is called, the server will transfer to the client a representation of the state of the requested resource.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### <a href="https://restfulapi.net/rest-architectural-constraints/">REST Architectural Constraints</a>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -556,19 +257,6 @@ Think of an API like a menu in a restaurant. The menu provides a list of dishes 
 		 
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -579,114 +267,36 @@ Think of an API like a menu in a restaurant. The menu provides a list of dishes 
 * The client then uses the servers API to get the resource.
 * The API isn’t the same as the remote server — rather it is the part of the server that receives requests and sends responses.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Client & resource
 <img src="/media/javascript-images/javascript-15/cr1.png" alt="rest">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Client & Resource & API
 <img src="/media/javascript-images/javascript-15/cr2.png" alt="rest">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### API URI (Uniform Resource Identifier)
 <img src="/media/javascript-images/javascript-15/cr3.png" alt="rest">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### API
 <img src="/media/javascript-images/javascript-15/cr4.png" alt="rest">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### API endpoints
 <img src="/media/javascript-images/javascript-15/cr5.png" alt="rest">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -698,19 +308,6 @@ Think of an API like a menu in a restaurant. The menu provides a list of dishes 
 * API endpoint -> https://api.spotify.com/v1/artists/234/albums?album_type=SINGLE&limit=10
 * Making the http request above will result in that Spotify will give you maximum 10 albums from a specific artist.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -721,37 +318,11 @@ Think of an API like a menu in a restaurant. The menu provides a list of dishes 
 * <a href="https://developer.spotify.com/documentation/web-api/">Spotify API</a>
 * <a href="https://www.pexels.com/api/">Pexels API</a>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Using APIs we cannot just ask for and GET data(resources) we can also, send, update and delete data.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -762,19 +333,6 @@ Think of an API like a menu in a restaurant. The menu provides a list of dishes 
 * UPDATE
 * DELETE
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -784,19 +342,6 @@ Think of an API like a menu in a restaurant. The menu provides a list of dishes 
 
 <img style="width: 600px;" src="/media/javascript-images/javascript-15/crud.png" alt="CRUD operations">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -811,19 +356,6 @@ Think of an API like a menu in a restaurant. The menu provides a list of dishes 
 'http://www.testing.com/test/demo_form.php?name1=value1&name2=value2'
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -832,110 +364,32 @@ Think of an API like a menu in a restaurant. The menu provides a list of dishes 
 * POST is used to send data to a server to create/update a resource.
 * The data sent to the server with POST is stored in the request body of the HTTP request.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Network tab
 <img src="/media/javascript-images/javascript-15/nw.png" alt="network">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### Network tab
 <img src="/media/javascript-images/javascript-15/nw1.png" alt="network">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### Network tab
 <img src="/media/javascript-images/javascript-15/nw2.png" alt="network">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### Network tab
 <img src="/media/javascript-images/javascript-15/nw3.png" alt="network">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### Network tab
 <img src="/media/javascript-images/javascript-15/nw4.png" alt="network">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -945,19 +399,6 @@ Think of an API like a menu in a restaurant. The menu provides a list of dishes 
 * An HTTP header consists of its case-insensitive name followed by a colon (:), then by its value.
 * Content-Type: application/json
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -966,19 +407,6 @@ Think of an API like a menu in a restaurant. The menu provides a list of dishes 
 * <u>XMLHttpRequest (the focus of this lecture).</u>
 * Fetch API (comes later in the course).
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -1008,19 +436,6 @@ xhr.send();
 }
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -1034,19 +449,6 @@ xhr.send();
 * 500 Internal Server Error (The server has encountered a situation it doesn't know how to handle.)
 * <a href="https://developer.mozilla.org/sv-SE/docs/Web/HTTP/Status" target="_blank">Full list</a>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -1058,37 +460,11 @@ xhr.send();
 * 3 LOADING Downloading; responseText holds partial data.
 * 4 DONE The operation is complete.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Check example code on how to use CRUD operations using REST
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -1099,19 +475,6 @@ xhr.send();
 * This means that both the web page and the XML file it tries to load, must be located on the same server.
 * However there are workarounds.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -1122,19 +485,6 @@ xhr.send();
 * <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS" target="_blank">CORS</a> - CROSS-ORIGIN RESOURCE SHARING
   * Set specific rules via HTTP headers to say that the communication between server and website is ok.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 

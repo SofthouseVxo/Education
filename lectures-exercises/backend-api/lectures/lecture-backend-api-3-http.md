@@ -1,18 +1,5 @@
 ### 3. Backend APIs
 #### Hypertext Transfer Protocol (HTTP)
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### HTTP Protocol Basics</h4>
@@ -21,19 +8,6 @@
 * It is <b>Stateless</b> (doesn’t remember what you did)</li>
 
 <img style="width: 700px;" src="/media/backend-api-images/backend-api-3/http.png" alt="http">
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### HTTP Protocol Basics</h4>
@@ -46,19 +20,6 @@
   * Response</li>
     * Response code</li>
     * Headers och Body</li>
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 ####  Uniform Resource Identifier URI
@@ -78,19 +39,6 @@ Example:
 http://www.smp.se
 mongodb://someuser:somepassword@localhost:27017/someDatabase
 ```
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
     
@@ -109,19 +57,6 @@ Specifies what i want the response as
 Accept-Charset: utf-8
 Accept: application/json
 ```
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 ####  HTTP Response Code
@@ -135,19 +70,6 @@ Accept: application/json
   * 5xx server errors (500 internal error, 502 bad gateway, 503 service unavailable)
             
 <a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes" target="_blank">List on wikipedia</a>
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 ####  HTTP Methods: Get
@@ -165,19 +87,6 @@ Listing Resources:
 curl http://api.softhouse.rocks/users
 curl http://api.softhouse.rocks/users?page=2
 ```
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -194,19 +103,6 @@ Response
 Body: The created resource {"id":100, …}
 Code: 201
 ```
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 ####  HTTP Methods: Delete
@@ -223,19 +119,6 @@ Response
 Body: none
 Code: 200 if deleted, 204 no change (if not found)
 ```
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -254,19 +137,6 @@ Response
 Body: The created resource  {"id":3, …}
 Code: 200
 ```
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -284,19 +154,6 @@ Response
 Body: The updated resource  {"id":3, …}
 Code: 200            
 ```
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -306,18 +163,5 @@ Some are rarely used when implementing APIs:
 * TRACE: echoes the received request so that a client can see what (if any) changes or additions have been made by intermediate servers.</li>
 * OPTIONS: returns the HTTP methods that the server supports for the specified URL.</li>
 * CONNECT method converts the request connection to a transparent TCP/IP tunnel.</li>
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---

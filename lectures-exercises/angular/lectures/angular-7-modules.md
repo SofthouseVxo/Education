@@ -1,37 +1,11 @@
 ### 7. Angular</h3>
 #### Modules</h5>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### <a href="/public/lectures/javascript/javascript-22-prototypesModules.html" target="_blank">JavaScript Lecture on Modules</a>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -44,19 +18,6 @@
   * Load each other.
   * Call functions of one module from another one.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -72,19 +33,6 @@
 * Dividing an application in a modules are a way of bundling functionalities of our app.
 * Examples could be: Admin, User, Authentication.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -99,19 +47,6 @@
   * import functionality that is exported from other NgModules.
   * export selected functionality for use by other NgModules.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -125,19 +60,6 @@ import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -149,19 +71,6 @@ import { FormsModule } from '@angular/forms';
 * Providers: Services
 * Bootstrap: Main application view (root component)
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 				
@@ -181,19 +90,6 @@ export class AppModule { }
 	```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -204,37 +100,11 @@ export class AppModule { }
 * providers: Creators of services that this NgModule contributes to the global collection of services; they become accessible in all parts of the app.
 * bootstrap: The main application view, called the root component, which hosts all other app views. (Only the root NgModule should set the bootstrap property).
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### <a href="https://angular.io/guide/feature-modules" target="_blank">Feature modules vs Root modules</a>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -242,19 +112,6 @@ export class AppModule { }
 #### Frequently Used Modules
 <img src="/media/angular-images/angular-7/frequent-modules.png" alt="Frequently Used Modules">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -266,19 +123,6 @@ export class AppModule { }
 * Bootstrapped root component.
 * A component you specify in a route definition.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 

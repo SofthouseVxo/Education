@@ -1,19 +1,6 @@
 ### Version Control</h3>
 ##### With Git</h5>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -25,19 +12,6 @@
   * Free and open source
   * Widely used
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -46,19 +20,6 @@
 * Keeps track of every change in the code in a special kind of database.
 * If a mistake is made, developers can turn back the clock and compare earlier versions of the code to help fix the mistake.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -67,19 +28,6 @@
 <img style="height: 550px" src="/media/general-images/general-3/files.png" alt="old folder structure">
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -91,19 +39,6 @@
 <img style="height: 300px" src="/media/general-images/general-3/maps.png" alt="map difference">
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -115,19 +50,6 @@
 <img style="height: 300px" src="/media/general-images/general-3/github.png" alt="map difference">
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -138,19 +60,6 @@
 <img style="height: 400px" src="/media/general-images/general-3/distributed.png" alt="distributed version control">
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -160,19 +69,6 @@
 * Git (The most popular and what we will use)
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -183,19 +79,6 @@
 * If two developers make changes in the same file, Git offers functionality for us to handle these conflicts.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -205,19 +88,6 @@
 * Git is the tool, GitHub is the service.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -231,19 +101,6 @@
 <img style="height: 300px" src="/media/general-images/general-3/cmd.png" alt="cmd">
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -254,19 +111,6 @@
 <img style="height: 400px" src="/media/general-images/general-3/repo.png" alt="repo">
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -278,19 +122,6 @@
 <img style="height: 400px" src="/media/general-images/general-3/githidden.png" alt="githidden">
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -299,19 +130,6 @@
 * **Remote** repository = the one on Github(or other service).
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -326,19 +144,6 @@
 * For each commit you write a commit message, usually describing what you have done.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -348,57 +153,18 @@
 * Commit often!
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### git commit
 <img src="/media/general-images/general-3/commits.png" alt="commits">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Structure
 <img src="/media/general-images/general-3/structure.png" alt="structure">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -408,55 +174,16 @@
 * Git commit - Checkout, paying for it
 * Git push - Bring groceries home.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 <img src="/media/general-images/general-3/structure2.png" alt="structure2">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 ### More advanced</h3>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -464,38 +191,12 @@
 * Create a new repo on github.
 * Create a new folder on your machine and paste in the commands beneath "…or create a new repository on the command line" in the screen showing after github repo creation.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Current state
 <img style="height: 400px" src="/media/general-images/general-3/git1.png" alt="git1">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -514,38 +215,12 @@ $ git log
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Current state
 <img style="height: 400px" src="/media/general-images/general-3/git2.png" alt="git2">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -556,38 +231,12 @@ $ git push
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Current state
 <img style="height: 400px" src="/media/general-images/general-3/git3.png" alt="git3">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -603,38 +252,12 @@ $ git commit -m"third commit"
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Current state
 <img style="height: 400px" src="/media/general-images/general-3/git4.png" alt="git4">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -647,38 +270,12 @@ $ git checkout <commit-hash>
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Current state
 <img style="height: 400px" src="/media/general-images/general-3/git5.png" alt="git5">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -689,38 +286,12 @@ $ git checkout master
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Current state
 <img style="height: 400px" src="/media/general-images/general-3/git4.png" alt="git4">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -735,38 +306,12 @@ $ git revert HEAD
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Current state
 <img style="height: 400px" src="/media/general-images/general-3/git6.png" alt="git6">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -777,38 +322,12 @@ $ git push
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Current state
 <img style="height: 400px" src="/media/general-images/general-3/git7.png" alt="git7">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -822,38 +341,12 @@ $ git commit -am"fifth commit"
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Current state
 <img style="height: 400px" src="/media/general-images/general-3/git8.png" alt="git8">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -868,38 +361,12 @@ $ git reset HEAD~1
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Current state
 <img style="height: 400px" src="/media/general-images/general-3/git7.png" alt="git7">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -912,38 +379,12 @@ $ git checkout <commit-hash>
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Current state
 <img style="height: 400px" src="/media/general-images/general-3/git9.png" alt="git9">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -956,38 +397,12 @@ $ git switch -c newBranch
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Current state
 <img style="height: 400px" src="/media/general-images/general-3/git9.png" alt="git9">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -1002,19 +417,6 @@ $ git commit -am"sixth commit"
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -1022,19 +424,6 @@ $ git commit -am"sixth commit"
 #### Current state
 <img style="height: 400px" src="/media/general-images/general-3/git10.png" alt="git10">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -1045,19 +434,6 @@ $ git checkout master
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -1065,19 +441,6 @@ $ git checkout master
 #### Current state
 <img style="height: 400px" src="/media/general-images/general-3/git11.png" alt="git11">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -1088,19 +451,6 @@ $ git merge newBranch
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -1108,19 +458,6 @@ $ git merge newBranch
 #### Current state
 <img style="height: 400px" src="/media/general-images/general-3/git12.png" alt="git12">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -1132,19 +469,6 @@ $ git branch -D newBranch
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -1152,19 +476,6 @@ $ git branch -D newBranch
 #### Current state
 <img style="height: 400px" src="/media/general-images/general-3/git13.png" alt="git13">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -1186,19 +497,6 @@ $ git push --set-upstream origin anotherBranch
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 

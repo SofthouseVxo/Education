@@ -1,19 +1,6 @@
 ### 12. JavaScript
 #### DOM - Dynamic manipulation
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -24,57 +11,18 @@
 * Tradera - placing bid, changing time left.
 * Facebook - "like" a post(thumb turns blue).
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 --- 
 
 #### Browser Object Model(BOM)
 <img style="margin-top: 0px; width: 600px;" src="/media/javascript-images/javascript-8/bom.png" alt="Browser Object Model">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### DOM/Node tree
 <img style="margin-top: 0px;" src="/media/javascript-images/javascript-8/domtree.png" alt="dom - object model">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -91,19 +39,6 @@ console.log(myText.firstChild.nodeValue); //Hello
 myText.firstChild.nodeValue = 'Bye';
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -116,19 +51,6 @@ myText.firstChild.nodeValue = 'Bye';
 
 * Using any of these will overwrite the entire content of the element(both text and markup).
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -146,19 +68,6 @@ console.log(myText.textContent); // Hello
 myText.textContent = 'Bye';
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -178,19 +87,6 @@ console.log(myText.innerText); // Hello
 myText.innerText = 'Bye';
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -206,37 +102,11 @@ let myContainer = document.getElementById('container');
 myContainer.innerHTML = '<p>Hello world</p>';
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Manipulating the DOM
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -250,19 +120,6 @@ myButton.setAttribute("id", "my-button");
 myButton.innerHTML = "";
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -273,19 +130,6 @@ myButton.innerHTML = "";
 document.body.appendChild(myButton);
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -296,19 +140,6 @@ let element = document.getElementById('target');
 element.parentNode.removeChild(element);
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -327,37 +158,11 @@ var elementRef = document.getElementById('div-2');
 elementRef.remove(); // Removes the div with the 'div-2' id
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Using innerHTML for everything? Think again..
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -369,19 +174,6 @@ elementRef.remove(); // Removes the div with the 'div-2' id
   * File uploads like images and videos.
   * Third party sites like Facebook, Twitter and other feeds.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -392,19 +184,6 @@ elementRef.remove(); // Removes the div with the 'div-2' id
   * Cookies/Storage (some sites store user data in these)
   * Session tokens (could be login data)
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -424,19 +203,6 @@ let div = document.querySelector('#some-div');
 <!-- div.innerHTML = '<img src=x onerror="alert(\'XSS Attack\')">'; -->
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
   
@@ -447,19 +213,6 @@ let div = document.querySelector('#some-div');
 1. User submits comment and the comment is saved in a database on a server.
 1. Page reloads and when it renders the new comment JS code runs with the new malicious code
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -468,19 +221,6 @@ let div = document.querySelector('#some-div');
 * Many sites use third party js libraries for example Analytic, A/B testing, Marketing tools etc.
 * Even if you write your code correctly some of these scripts could be vulnerable.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -491,19 +231,6 @@ let div = document.querySelector('#some-div');
 * Don´t create DOM fragments containing HTML from untrusted sources.
 * Escape characters like < and > etc.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -513,19 +240,6 @@ let div = document.querySelector('#some-div');
   * You control all the markup being generated (no user content!).
   * If you do the users content has to be escaped and added as text rather than HTML!
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -541,19 +255,6 @@ let div = document.querySelector('#some-div');
   * Can be difficult to isolate single elemnts within a larger DOM fragment.
   * Event Handler may no longer work as intended.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -568,19 +269,6 @@ let div = document.querySelector('#some-div');
   * Is slower than the innerHTML property if you have to make alot of changes to the content of the page.
   * You need to write more cote to achieve the same as with innerHTML.
   
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 

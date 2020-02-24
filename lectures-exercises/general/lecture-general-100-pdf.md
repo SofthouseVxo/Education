@@ -1,19 +1,6 @@
 ## How to save lecture as PDF
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -29,18 +16,5 @@
 * <a href="https://github.com/hakimel/reveal.js/">Reveal.js Documentation</a>
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---

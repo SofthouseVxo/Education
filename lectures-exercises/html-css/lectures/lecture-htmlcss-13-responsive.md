@@ -1,19 +1,6 @@
 ### 13.HTML & CSS</h3>
 #### Responsive web design</h5>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -25,38 +12,12 @@
 * Screen sizes and resolutions differ on each device/screen
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 <img style="margin-top: 0px;" src="/media/html-css-images/html-css-13/resp.png" alt="different screens">
 <a href="https://www.w3schools.com/css/css_rwd_intro.asp">More examples</a>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -68,19 +29,6 @@
 * (JavaScript solutions)
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -92,19 +40,6 @@
 * <a href="https://www.w3schools.com/css/css_rwd_viewport.asp">W3schools example</a>
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -118,19 +53,6 @@
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -140,19 +62,6 @@
 * A responsive grid-view often has 12 columns, and has a total width of 100%, and will shrink and expand as you resize the browser window.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -160,19 +69,6 @@
 
 <img src="/media/html-css-images/html-css-13/grid.png" alt="gid">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -195,19 +91,6 @@
 [w3schools example](https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_cols)
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -226,19 +109,6 @@
 [w3schools example](https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_cols)
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -262,19 +132,6 @@
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -287,19 +144,6 @@
 ```
         
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -316,19 +160,6 @@ Can be used to check:
 <a href="https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_media_bg" target="_blank">Try on w3schools</a>
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -345,37 +176,11 @@ Can be used to check:
 ```
         
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Media rules needs to be placed beneath the style they effect.</h4>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
       
@@ -386,19 +191,6 @@ Can be used to check:
 * Instead of changing styles when the width gets smaller, we should change the design when the width gets larger.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -425,19 +217,6 @@ Can be used to check:
 [Try on w3schools](https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mobilefirst)
         
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -466,38 +245,12 @@ Can be used to check:
 [Try on w3schools](https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mediaquery_breakpoints)
         
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Multiple breakpoints</h4>
 <a href="https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_col-s">Example</a>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -507,19 +260,6 @@ Can be used to check:
 * Desktop - https://www.blocket.se/
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -540,19 +280,6 @@ img {
 [Try on w3schools](https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_image)
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 

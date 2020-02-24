@@ -1,18 +1,5 @@
 ### 10. Backend APIs
 #### Documenting APIs
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 

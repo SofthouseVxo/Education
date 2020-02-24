@@ -1,19 +1,6 @@
 ### 13. JavaScript
 #### Dynamic Styling
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -32,19 +19,6 @@
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -56,19 +30,6 @@
 * **Remove** attributes.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -92,19 +53,6 @@ myImg[0].getAttribute('class'); // profile-image
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
         
@@ -126,19 +74,6 @@ myImgs[0].setAttribute('src', 'profile.png');  // <img class="new-class" src="pr
 myImgs[0].removeAttribute('src'); // <img class="new-class">
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -148,19 +83,6 @@ myImgs[0].removeAttribute('src'); // <img class="new-class">
 * Setting/overwriting attributes using ```setAttribute()```.
 * Changing .className connected to a external or internal CSS.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -183,19 +105,6 @@ element.style.backgroundColor = 'blue'; // Sets a new background-color
 // <h1 style="color: rgb(255, 0, 255); background-color: blue;">Welcome</h1>
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -213,19 +122,6 @@ element.style.backgroundColor = '#FF00FF';
 element.style.fontSize = '14px';
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -248,19 +144,6 @@ element.setAttribute('style', 'color: green;');
 
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -284,19 +167,6 @@ let element = document.getElementsByTagName('h1')[0];
 element.className = 'upper-header';
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 

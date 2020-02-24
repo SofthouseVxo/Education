@@ -1,19 +1,6 @@
 ### 6.HTML & CSS
 #### Cascading Style Sheets
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -22,19 +9,6 @@
 * **CSS is used for the design of a webpage – where everything is placed and how it looks (body).**
 * JavaScript is used to define the interactive elements of a webpage making it dynamic (muscles).
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -45,19 +19,6 @@
 * CSS associates style rules with HTML elements.
 * CSS rules can be applied on just one or multiple HTML elements.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -68,19 +29,6 @@
 * Font
 * Border
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -88,76 +36,24 @@
 
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### CSS Example
 <img src="/media/html-css-images/html-css-5/box.png" alt="div with styles">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Web page with CSS
 <img src="/media/html-css-images/html-css-5/withCSS.png" alt="web page with css">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Web page without CSS
 <img src="/media/html-css-images/html-css-5/withoutCSS.png" alt="web page without css">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -167,19 +63,6 @@
 * The declaration indicates how the element should be styled.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -190,19 +73,6 @@
 * External - by using an external CSS file.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -211,19 +81,6 @@
 * Inline CSS uses the style attribute.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -231,19 +88,6 @@
 * Internal style sheets may be used if one single page has a unique style.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -259,19 +103,6 @@
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -293,19 +124,6 @@ p {
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -313,19 +131,6 @@ p {
 * Every element has an invisible box around them.
 <img src="/media/html-css-images/html-css-5/invisBox.png" alt="invisible element boxes">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -334,38 +139,12 @@ p {
 * Inline elements does not start on a new line and only takes up as much width as necessary.
 * Elements are one of the options by default but the style can be overwritten.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Block and Inline elements
 <img src="/media/html-css-images/html-css-5/inline.png" alt="inline & block elements">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -387,19 +166,6 @@ p {
 [Test on w3schools](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_id_css)
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -408,19 +174,6 @@ p {
 * Meaning that all HTML elements with the same class can have the same format and style.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 ```HTML
@@ -448,19 +201,6 @@ p {
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -472,19 +212,6 @@ h2 { /* Selector */
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -506,19 +233,6 @@ h1 {
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -539,19 +253,6 @@ h1 {
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -572,19 +273,6 @@ h1 {
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -594,19 +282,6 @@ h1 {
 * <a href="http://hg.mozilla.org/mozilla-central/file/tip/layout/style/res/html.css" target="_blank">Firefox default HTML stylesheet</a>
 * <a href="http://trac.webkit.org/browser/trunk/Source/WebCore/css/html.css" target="_blank">WebKit default HTML stylesheet</a>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -614,37 +289,11 @@ h1 {
 * In all browsers you can in see and change the styling of a website in devtools.
 * Let's try it!
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### CUT!
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -666,19 +315,6 @@ div {
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -686,19 +322,6 @@ div {
 * A small waterfall, typically one of several that fall in stages down a steep rocky slope.
 * A process whereby something, typically information or knowledge, is successively passed on.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -722,19 +345,6 @@ div {
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -742,19 +352,6 @@ div {
 * If two CSS selectors apply to the same element, the one with higher specificity wins.
 * If two CSS selectors have the same specificity the latter applies.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -776,19 +373,6 @@ p {
 ```
   
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -796,19 +380,6 @@ p {
 * Every selector has its place in the specificity hierarchy.
 * They have a specifity between 0 and 10000
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -820,19 +391,6 @@ p {
 * Inline style 0-1-0-0-0 (1000points)
 * !important keyword 1-0-0-0-0 (10000points)
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -853,37 +411,11 @@ p { color: red; }
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### <a href="https://cssspecificity.com/" target="_blank">cssspecificity.com</a>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -904,19 +436,6 @@ p { color: red; }
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -924,19 +443,6 @@ p { color: red; }
 * The absolute length units are fixed and a length expressed in any of these will appear as exactly that size.
 * Relative length units specify a length relative to another length property. Relative length units scales better between different rendering mediums.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -944,19 +450,6 @@ p { color: red; }
 * px = Pixels (px) are relative to the viewing device. For low-dpi devices, 1px is one device pixel (dot) of the display. For printers and high resolution screens 1px implies multiple device pixels.
 * pt = Points
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -967,19 +460,6 @@ p { color: red; }
 * vh  = Relative to 1% of the height of the viewport
 *  %  = Relative to the parent element
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -988,19 +468,6 @@ p { color: red; }
 * <b>Relative</b> length units scales better between different rendering mediums.
 * Even though PX is absolute it is relative to the viewing device. 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -1021,19 +488,6 @@ comment
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -1043,19 +497,6 @@ comment
 * CSS3 <a href="https://caniuse.com/#search=css3" target="_blank">Browser support</a>
 * CSS4
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 

@@ -1,19 +1,6 @@
 ### Solving Puzzles
 #### As a developer
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -24,19 +11,6 @@
 * Puzzles you have never seen before, with missing pieces and it will probably no turn out like in the picture.
 * Often the rules of the puzzles is out of your control.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -49,19 +23,6 @@
   * Drop dead? Procrastinate and being passive and waiting for other to do it?
   * Grind it out, 24h hours sweating, eating crisps, not showering, listening to hardstyle until you think in 150bpm. Just to find out you could have done it in 2h the next day.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -74,19 +35,6 @@
 * Grind smart! Knowing when to grind. - Not getting burnt.
 * We are using our brains, not legs. - Learn faster and solve things faster.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -99,19 +47,6 @@
 * You can't do or know it all at once
 * Focus on learning instead of worrying about the internship
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -122,19 +57,6 @@
 1. Identify needed resources
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -146,19 +68,6 @@
 * Grab a colleague and tell them about all your tasks
 * Make a checklist where you can mark when something is done
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -169,19 +78,6 @@
 * Write down the purpose of these
 * Document results! Be creative, DRAW!
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -192,37 +88,11 @@
 * Identify what you need to learn
 * Identify where you could access the knowledge
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Login feature example
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -236,19 +106,6 @@
 * Frontend & Backend needs to have logic
 * Frontend sends a request - backend receives and sends back answer - Frontend needs to handle response
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -261,19 +118,6 @@
     * Description
     * Error messages
   
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -286,19 +130,6 @@
   * Set state to logged in user
   * Navigate
   
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -313,19 +144,6 @@
   * Form
   * Validation
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -334,19 +152,6 @@
   * Change user
   * Navigate
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -359,19 +164,6 @@
 * Validate user input (Lectures, Examples, react.js, google, ask)
 * Send input to backend (OLD Lectures, Examples, react.js, google, ask)
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 

@@ -1,19 +1,6 @@
 ### 4. JavaScript
 #### Arrays & Operators
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -28,19 +15,6 @@ var vehicles = ['car', 'motorcycle', 'bus'];
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
   
@@ -56,19 +30,6 @@ var vehicles = new Array('car', 'motorcycle', 'bus');
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -82,19 +43,6 @@ var secondValue = prices[1]; // secondValue = 4
 var thirdValue = prices[2]; // thirdValue = 15
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
         
@@ -105,19 +53,6 @@ var thirdValue = prices[2]; // thirdValue = 15
 * In simple words they have functionality that we can access and stuff we can do with them.
 * We will talk alot about these concepts later on.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---        
 
@@ -130,19 +65,6 @@ var prices = [2, 4, 15];
 console.log(prices.length); // 3
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -156,19 +78,6 @@ console.log(prices); // [undefined, undefined, undefined]
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -182,19 +91,6 @@ console.log(prices); // [2, 4, 18]
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -214,19 +110,6 @@ prices = [];
 prices.length = 0;
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -245,19 +128,6 @@ numbersArray.pop(); // [2, 4, 15]
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -276,19 +146,6 @@ console.log(myArray);       // will print out 0,1,2,8,9
 
 [W3schools reference](https://www.w3schools.com/jsref/jsref_splice.asp)
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -304,19 +161,6 @@ console.log(fruitString); // Banana,Orange,Apple,Mango
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -332,19 +176,6 @@ var bigger = 10 > 5; // bigger = true and > is the operator
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -359,19 +190,6 @@ var buy = (5 > 3) && (2 < 4) // Locical operator
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -391,19 +209,6 @@ var buy = (5 > 3) && (2 < 4) // Locical operator
 [MDN reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators)
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -422,19 +227,6 @@ var result2 = 8 // 8
 result2 -= 2 // 6
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -448,19 +240,6 @@ var result2 = '4' * '5';          // 20
 var sentence = 'I ' + 'am ' + 45; // 'I am 45'
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 

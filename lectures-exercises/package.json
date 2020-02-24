@@ -1,0 +1,20 @@
+{
+  "name": "lectures-exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gatsby-plugin-react-helmet": "^3.1.22"
+  },
+  "devDependencies": {
+    "gatsby-source-filesystem": "^2.1.48",
+    "mdx-deck": "^4.1.0"
+  },
+  "scripts": {
+    "start": "mdx-deck javascript/lectures/lecture-javascript-11-DOM.mdx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

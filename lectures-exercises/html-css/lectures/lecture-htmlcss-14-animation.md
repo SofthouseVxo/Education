@@ -1,19 +1,6 @@
 ### 14.HTML - CSS</h3>
 #### Transform, Transition & Animate</h5>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -24,19 +11,6 @@
 * Firefox - Gecko
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -53,19 +27,6 @@ transition: width 2s; /* Standard */
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -77,19 +38,6 @@ transition: width 2s; /* Standard */
 * <a href="https://caniuse.com/#search=2d%20transform">CanIUse</a>
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -102,19 +50,6 @@ transition: width 2s; /* Standard */
 * matrix( ) = Combines all the 2D transform methods into one
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -133,37 +68,11 @@ div {
 [Try on w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss3_transform_rotate)
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### 2D tranform examples at <a href="https://www.w3schools.com/css/css3_2dtransforms.asp" target="_blank">w3schools</a>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -174,19 +83,6 @@ div {
 * You MUST to specify the <b>CSS property</b> you want to add an effect to and the <b>duration</b> of the effect
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -208,19 +104,6 @@ div:hover {
 [Try on w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss3_transition1)
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -233,19 +116,6 @@ div {
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -258,19 +128,6 @@ div {
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -286,19 +143,6 @@ div {
   [Try on w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss3_transition_speed)
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -314,19 +158,6 @@ div {
   ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -351,19 +182,6 @@ myClass {
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -374,19 +192,6 @@ myClass {
 * <a href="https://caniuse.com/#search=css%20animations">CanIUse</a>
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -398,19 +203,6 @@ myClass {
 * Keyframes hold what styles the element will have at certain times.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -435,19 +227,6 @@ div {
 [Try on w3scools](https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation1)
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -478,19 +257,6 @@ div {
 [Try on w3scools](https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation2)
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 

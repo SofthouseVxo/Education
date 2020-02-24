@@ -1,19 +1,6 @@
 ### 12.HTML & CSS
 #### SEO - Search engine optimization
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -25,37 +12,11 @@
 * We will only scratch the surface in this course.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 <img src="/media/html-css-images/html-css-12/google.png" alt="google search example">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -66,19 +27,6 @@
 * Advertisement using SEO is called organic (not paid advertisement).
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -89,19 +37,6 @@
 1. <a href="https://www.google.com/search/howsearchworks/crawling-indexing/" target="_blank">Google explains</a>.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -112,19 +47,6 @@
 * When you search on google, you don't search on the web, you search in Googles index of the web.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -134,19 +56,6 @@
 * They follow links from one webpage to another. Googles main crawler is called Googlebot.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -160,19 +69,6 @@
   
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -181,19 +77,6 @@
 * Search for site:yourwebsite.com on <a href="https://www.google.se" target="_blank">Google</a>
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -205,19 +88,6 @@
 * **Googlebot**: Googles web spider.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -227,38 +97,12 @@
 1. Then it provides the user with results which are relevant and useful depending on the query.
 1. And ranks these depending on popularity.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### So how do you get a high ranking?
 #### And end up at the top results when someone search for something related to your business?</h5>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -268,19 +112,6 @@
 * Off site SEO
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -297,19 +128,6 @@
 * Mobile friendly
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -319,19 +137,6 @@
 * After all, people search on keywords in search engines.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -343,19 +148,6 @@
 * <a href="https://trends.google.se/trends/?geo=SE" target="_blank">Google trends</a>
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -368,19 +160,6 @@
 * You cannot just tell Google what your keywords are, they will figure it out if you've used them correctly.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -399,19 +178,6 @@
 * Use bullet-lists.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -422,19 +188,6 @@
 * Since google change their algorithm continually alot of people have different understandings and opinions on what effects your ranking in different ways.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -446,19 +199,6 @@
 * No-follow on links you don't want google to follow.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -471,19 +211,6 @@
 * With sitemaps the risk is smaller that the robots might miss content and pages.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -492,19 +219,6 @@
 <img src="/media/html-css-images/html-css-12/sitemap.png" alt="sitemap example">
 <a href="https://www.xml-sitemaps.com/" target="_blank">Sitemap generator</a>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -514,19 +228,6 @@
 * <a href="https://www.seo-guide.se/robots-txt" target="_blank">Read more.</a>
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -540,19 +241,6 @@
   
 <img src="/media/html-css-images-images/html-css-12/url.png" alt="url structure example">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -574,19 +262,6 @@
 [SEO-guide](https://www.seo-guide.se/meta-element)
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -598,19 +273,6 @@
 * Influencer marketing
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 

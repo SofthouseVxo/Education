@@ -1,19 +1,6 @@
 ### 20. JavaScript
 #### Classes & OOP
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -24,19 +11,6 @@
 1. Functional Programming (Focus on this in React course).
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -46,19 +20,6 @@
 * When project gets bigger it gets messy.
 * Hard to find bugs.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -68,19 +29,6 @@
 * An application consisting of child objects which are interacting with each other to form the product.
 * Real world examples - car, computer
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -91,38 +39,12 @@
 * It reduces complexity.
 * The code gets easier to read.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Procedural vs OOP
 <img style="width: 800px;" src="/media/javascript-images/javascript-20/proceoop.png" alt="procedural & oop">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -133,19 +55,6 @@
 * Which parts can have some shared functionality?
 <img style="width: 600px;" src="/media/javascript-images/javascript-20/ping1.png" alt="Ping pong">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -156,19 +65,6 @@
 * Which parts can have some shared functionality?
 <img style="width: 600px;" src="/media/javascript-images/javascript-20/ping2.png" alt="Ping pong">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -178,19 +74,6 @@
 * This offers flexibility.
 * You can write procedural, class-oriented, or Functional Programming-style JavaScript code.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -201,19 +84,6 @@
 * Each Object has a purpose and a task.
 * Real world examples could be  a **lamp** or a **Human**.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -222,19 +92,6 @@
 * A property is a variable connected to a specific object.
 * A property contains information about the object.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -243,19 +100,6 @@
 * A method is a function connected to a specific object.
 * Methods are used to give an object functionality.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -265,19 +109,6 @@
 * For example a Lamp is created from a blueprint(class).
 * Many products are created from blueprints however when created they are **individual** products(objects).
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -286,19 +117,6 @@
 * Classes are used to create objects.
 * A class encapsulates data for the object.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -316,19 +134,6 @@ class Car {
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -340,19 +145,6 @@ class Car {
 * There can only be one special method with the name "constructor" in a class.
 * It is not mandatory to include a constructor definition. Every class by default has a constructor by default.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -370,19 +162,6 @@ let Car = class {
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -398,37 +177,11 @@ let Car = class Car {
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Any number of instance can be created from a class, each instance is called **Object**.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
   
@@ -451,19 +204,6 @@ let obj = new Car('red',70);
 
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -483,19 +223,6 @@ class Car {
 }
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
   
@@ -512,19 +239,6 @@ let maxSpeed = carObj.maxSpeed; // 70
 carObj.test();
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -544,19 +258,6 @@ class Car {
 Car.test(); // TypeError: Car.test is not a functionindex.
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -566,19 +267,6 @@ Car.test(); // TypeError: Car.test is not a functionindex.
 * And if we make a change in the parent class, all who inherits from it will also get the change.
 <img style="width: 600px;" src="/media/javascript-images/javascript-20/classes1.png" alt="inheritance">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -588,19 +276,6 @@ Car.test(); // TypeError: Car.test is not a functionindex.
 * And if we make a change in the parent class, all who inherits from it will also get the change.
 <img style="width: 600px;" src="/media/javascript-images/javascript-20/classes2.png" alt="inheritance">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -610,19 +285,6 @@ Car.test(); // TypeError: Car.test is not a functionindex.
 * And if we make a change in the parent class, all who inherits from it will also get the change.
 <img style="width: 600px;" src="/media/javascript-images/javascript-20/classes3.png" alt="inheritance">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -639,19 +301,6 @@ cow.eat(); // works since it inherits this method
 cow.fart();
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -683,19 +332,6 @@ console.log(car.getType()); // It is a car: Tesla
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -722,19 +358,6 @@ let car = new Car('Tesla');
 car.drive(); // They see me rollin in my Tesla
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -760,37 +383,11 @@ console.log(bob.name);  // Outputs 'BOB'
 bob.name = 'John';
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### No private properties in ES6
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -802,19 +399,6 @@ bob.name = 'John';
 * Static methods are also not callable when the class is instantiated.
 * Static methods are often used to create utility functions for an application.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -833,19 +417,6 @@ let carObj = new Car();
 carObj.test(); //TypeError: obj.test is not a function
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -871,19 +442,6 @@ class Person {
 }
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -910,19 +468,6 @@ class Person {
 }
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -938,19 +483,6 @@ class Person {
 class myWebClass { }
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -959,19 +491,6 @@ class myWebClass { }
 * Yep, they came with came with ES6.
 * But how did you write OOP before 2015?
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -983,19 +502,6 @@ class myWebClass { }
 * We will take a look at this later on, but the main focus will be on OOP JavaScript
 * The reason for this is that many other languages leans towards OOP and JavaScript classes are used both in React and Angular.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 

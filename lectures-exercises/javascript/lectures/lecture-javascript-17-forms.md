@@ -1,38 +1,12 @@
 ### 17. JavaScript
 #### Handling forms
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### If you do not know the basics of HTML forms check out the "HTML - Forms" lecture in the HTML & CSS course.
 <a href="../../lectures/html-css/html-css-10-forms.html" target="_blank">Forms lecture</a>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -44,19 +18,6 @@
     * Selects, radio buttons, text etc. But does not fire until the field looses focus.
   * **input** - Fires every time an input changes in a form.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -79,19 +40,6 @@ myForm.addEventListener('submit', function(event){
 })
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -113,19 +61,6 @@ myForm.addEventListener('change', function(event){
 })
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -147,19 +82,6 @@ myForm.addEventListener('input', function(event){
 })
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -179,19 +101,6 @@ myForm.submit(); // Same function as clicking the submit button
 myForm.reset(); // Resetting the form
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -216,19 +125,6 @@ nameInput.addEventListener('blur', function(event){
 })
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -252,19 +148,6 @@ nameInput.addEventListener('blur', function(){
 })
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -290,19 +173,6 @@ myForm.addEventListener('submit', function(event){
 })
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -313,19 +183,6 @@ myForm.addEventListener('submit', function(event){
   * Protect against XSS attacks.
   * Validation is needed in the backend as well.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -361,19 +218,6 @@ function validateform(name, password){
 }
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 

@@ -1,19 +1,6 @@
 ### 8. UX
 #### Bilder och bildformat
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -23,19 +10,6 @@
 * Varje punkt har egna egenskaper (färg, skygga, genomskinlighet)
 * Vanliga bildformat: jpeg, png, gif
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -43,38 +17,12 @@
 <img style="width: 400px;"src="/media/ux-images/ux-8/ocean.jpeg" alt="Raster image">
 <img style="width: 500px;"src="/media/ux-images/ux-8/pixels.png" alt="Pixels image">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Vectorgrafik
 <img style="width: 400px;" src="/media/ux-images/ux-8/vector2.png" alt="Vector image">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 				
@@ -83,19 +31,6 @@
 <img style="width: 500px;"src="/media/ux-images/ux-8/vector.png" alt="Vector image">
 <img style="width: 400px;"src="/media/ux-images/ux-8/vector4.png" alt="Vector image">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -108,19 +43,6 @@ Bildfilformat är standardiserade sätt att organisera och lagra digitala bilder
 * Gif
 * SVG
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -132,19 +54,6 @@ Bildfilformat är standardiserade sätt att organisera och lagra digitala bilder
 * Stödjer ej genomskinlighet.
 * Inte bra för typer, logotyper, och grafik.							
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -157,19 +66,6 @@ Bildfilformat är standardiserade sätt att organisera och lagra digitala bilder
   * Större storlek -> högre kvalitet -> längre laddtid -> många stora bilder lång laddtid på webbplats.			
 	
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -181,19 +77,6 @@ Bildfilformat är standardiserade sätt att organisera och lagra digitala bilder
 * Endast för webb.
 * Bra när det kommer till logotyper och mindre grafik.			
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -205,19 +88,6 @@ Bildfilformat är standardiserade sätt att organisera och lagra digitala bilder
 * Stödjer animation (kan animeras med javaScript).
 * Då det är textbaserad så kan man öppna bilderna i ett IDE och påverka med javaScript.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -225,19 +95,6 @@ Bildfilformat är standardiserade sätt att organisera och lagra digitala bilder
 <img style="width: 800px;"src="/media/ux-images/ux-8/code.png" alt="SVG code">
 <img style="width: 100px;"src="/media/ux-images/ux-8/vector3.png" alt="Vector image">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -248,19 +105,6 @@ Bildfilformat är standardiserade sätt att organisera och lagra digitala bilder
 
 <img style="width: 700px;"src="/media/ux-images/ux-8/ppi.png" alt="ppi example">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -271,19 +115,6 @@ Bildfilformat är standardiserade sätt att organisera och lagra digitala bilder
 * 4:3 - (8-10) Rektangel
 * 16:9 (720 * 1280 px, 1080 * 1020 px)
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -291,19 +122,6 @@ Bildfilformat är standardiserade sätt att organisera och lagra digitala bilder
 <img style="width: 400px;"src="/media/ux-images/ux-8/rgb.jpg" alt="rgb example">
 <img style="width: 400px;"src="/media/ux-images/ux-8/cmyk.png" alt="cmyk example">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 

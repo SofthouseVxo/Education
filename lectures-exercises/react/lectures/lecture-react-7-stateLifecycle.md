@@ -1,19 +1,6 @@
 ### 7. React
 #### State and Lifecycle Hooks
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -24,19 +11,6 @@
 * Difference between a value and a variable - the number 42 does not have a state since you can't change it.
 * A clock is a good example
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -47,19 +21,6 @@
 * State is something you set up by yourself, not like props.
 * Every time the state is updated, the render method will run.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -71,19 +32,6 @@ constructor(props) {
 }
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -98,19 +46,6 @@ constructor(props) {
 }
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -126,19 +61,6 @@ constructor(props) {
 <h2>It is {this.state.date.toLocaleTimeString()}.</h2> //JSX
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -154,19 +76,6 @@ this.state.comment = 'Hello';
 this.setState({comment: 'Hello'});
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -184,19 +93,6 @@ this.setState({comments: ['drinking java', 'cool']});
 
 These are called independently
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -213,19 +109,6 @@ this.setState(
 );
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -239,19 +122,6 @@ this.setState({
 });
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -262,57 +132,18 @@ this.setState({
 * The state is local or encapsulated. It is not accessible to any component other than the one that owns and sets it.
 * State can only affect components “below" them in the tree.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Top-down / Unidirectional data flow
 <img style="width: 700px" src="/media/react-images/react-7/dataflow.png" alt="lifecycle methods">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Lifting up state
 <img style="width: 700px" src="/media/react-images/react-7/liftingstate.png" alt="lifecycle methods">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -322,37 +153,11 @@ this.setState({
 * **componentDidUpdate** - is invoked immediately after updating occurs. This method is not called for the initial render.
 * **componentWillUnmount** - is invoked when the DOM produced by the Component is removed (unmounting).
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### <a href="https://reactjs.org/docs/react-component.html#mounting">Lifecycle Methods</a>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 

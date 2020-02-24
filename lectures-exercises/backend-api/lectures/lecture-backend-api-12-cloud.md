@@ -1,18 +1,5 @@
 ### 12. Backend APIs
 #### Introduction to Cloud Services
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -24,38 +11,12 @@
 * Maybe a bit of docker and kubernetes
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### What is “Public Cloud”
 It’s globally distributed compute connected via networks.
 <img src="/media/backend-api-images/backend-api-12/public.png" alt="public cloud">
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -74,19 +35,6 @@ A comparison between the biggest providers
 * IBM Cloud
   * Enterprise cloud service that drives buying professional services (consultants) from IBM
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -100,38 +48,12 @@ Everything is a cloud nowadays...
 * Geographically distributed
 * Provides Infrastructure, Platforms and Software as services
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Managed Services
 Services are available on demand using APIs
 <img src="/media/backend-api-images/backend-api-12/services.png" alt="services">
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -143,19 +65,6 @@ Run your own datacenter
 * Capacity planning (how much will i need)
 * Handle life cycle of hardware, plan for Mean Time to Failure (MTTF)
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -167,19 +76,6 @@ Run virtual machines.
 * Behaves like a single physical server
 * Install operating system, applications, patching etc
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 				
@@ -197,19 +93,6 @@ Specialized hosting to do one thing only.
   * Google App engine: Deploy autoscaling node.js, python, go applications
   * Azure We Apps
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -222,19 +105,6 @@ A Service you use, or provide.
 * You manage nothing, just use the service
 * Generally use API keys to get access
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -253,19 +123,6 @@ Containers
 docker run -d -p 27017:27017 mongo
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -281,19 +138,6 @@ Container Orchestration Platform
 * Single definition of your entire service
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -308,19 +152,6 @@ Container Orchestration Platform
 * Containers is a standardisation of how to run and build software
 * Kubernetes orchestrate container services together into a solution
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -330,19 +161,6 @@ Windows: choco install gcloudsdk (admin cmd)
 MacOS: brew cask install google-cloud-sdk
 Linux: don’t use the package manager: https://cloud.google.com/sdk/install
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -358,19 +176,6 @@ Create an account at:
 
 ACTIVATE FREE TRIAL
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---	
 

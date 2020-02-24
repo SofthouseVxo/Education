@@ -1,35 +1,9 @@
 ### 7. Backend APIs
 #### API Design
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
         
 #### What constitutes a good API?
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### Purpose and Scope
@@ -44,19 +18,6 @@
   * REST
 * How to Design a REST API
 * Rest with links - HATEOAS
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
         
@@ -68,19 +29,6 @@ A good API makes it easier to develop a computer program by providing all the bu
 * Selling access to APIs have become big business.
   * Called API monetization.
   * You want others to use your API!
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -96,19 +44,6 @@ A good API makes it easier to develop a computer program by providing all the bu
 * Provide Documentation
 * API First
   * Design APIs first, then write the code and implement consumers
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### API Design - Design is about consumption
@@ -121,19 +56,6 @@ A good API makes it easier to develop a computer program by providing all the bu
   * REST (Representational state transfer)
 * Different protocols ask questions in different ways
   * Influences how developers think systems should communicate
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### Protocols - Simple Object Access Protocol (SOAP)
@@ -153,19 +75,6 @@ Protocol specification for exchanging structured information in XML format
   </soap:Body>
 </soap:Envelope>
 ```
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### Remote Procedure Call (RPC)
@@ -178,19 +87,6 @@ Calling a procedure of function to execute in a different address space (commonl
   * Uses binary (non-human readable) protocol buffer (protobuf) format
 * Can be translated to and from REST
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### GraphQL
@@ -209,19 +105,6 @@ Calling a procedure of function to execute in a different address space (commonl
   }
 }
 ```
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### Representational State Transfer (REST)
@@ -235,19 +118,6 @@ A software architectural style that defines a set of constraints to be used for 
 * Recommendations for status codes exist
             
 <a href="https://restfulapi.net/http-status-codes/" target="_blank">HTTP Status codes</a>
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### REST Architectural Constraints
@@ -261,35 +131,9 @@ REST defines 6 architectural constraints which make a true RESTful API
   * Used by clients and caching intermediaries.
 * **Layered system:** A client cannot ordinarily tell what it’s connected to.
 * **Code on demand (optional):** Servers may return code.
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 <img src="/media/backend-api-images/backend-api-7/crud.png" alt="crud">
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### Hypermedia as the Engine of Application State (HATEOAS)
@@ -306,19 +150,6 @@ links: [
    { rel: "create", method: "POST", title: 'Create Person', href: 'http://localhost/person' }
 ]
 ```
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### Conclusion

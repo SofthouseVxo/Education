@@ -1,19 +1,6 @@
 
 ### 5. Backend APIs
 #### Express
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### Express
@@ -26,19 +13,6 @@
 ```Shell
 $ npm install express --save
 ```
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### Express simple example
@@ -61,19 +35,6 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 ```
 
 Open browser and navigate to localhost:3000 so see hello world written on the page.
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### Express simple example
@@ -97,37 +58,11 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 ```
 
 Open browser and navigate to localhost:3000 so see HTML visible on the page.
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Routing
 "Routing refers to determining how an application responds to a client request to a particular endpoint, which is a URI (or path) and a specific HTTP request method (GET, POST, and so on)." - <a href="https://expressjs.com/en/starter/basic-routing.html" target="blank">Expressjs</a>
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### Express simple example
@@ -142,19 +77,6 @@ app.get('/', function(req, res){
 	res.send('Hello World!')
 })
 ```
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### Express simple example
@@ -172,19 +94,6 @@ app.get('/hello', function(req, res){
 	res.send('Hello World!')
 })
 ```
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### Route Handlers
@@ -201,35 +110,9 @@ app.get('/', function(req, res, next){
 	// these are called req, res, next by convention.
 })
 ```
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### Route handlers behave like something called a **middleware** to handle a request.
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### Middleware functions can perform the following tasks:
@@ -238,19 +121,6 @@ app.get('/', function(req, res, next){
 * Make changes to the **req**uest and the **res**ponse objects.
 * End the request-response cycle.
 * Call the next middleware in the stack.
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### Using middleware function
@@ -279,19 +149,6 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 LOGGED //in console
 Hello World! // returned to whoever made the request
 ```
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### Using middleware function
@@ -320,19 +177,6 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 // No logged
 Hello World! // returned to whoever made the request
 ```
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -351,18 +195,5 @@ app.get('/users/:userId', function (req, res) {
 	res.send(req.params) // { "userId": "34" }
 })
 ```
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---

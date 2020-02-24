@@ -1,19 +1,6 @@
 ### 11. Angular</h3>
 #### Forms</h5>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -24,38 +11,12 @@
 
 * HTML & CSS <a href="../../lectures/html-css/html-css-10-forms.html" target="_blank">Forms lecture</a>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### HTML forms
 <img src="/media/angular-images/angular-11/httpform.png" alt="http form">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -68,19 +29,6 @@
 * We want to bind data between inputs and code.
 * We want to be able to validate user input.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -90,37 +38,11 @@
 * Template driven forms
 * Reactive forms
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 <img src="/media/angular-images/angular-11/angforms.png" alt="angular forms">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -136,19 +58,6 @@
   * Simple form, easy to add to an app
   * Basic form requirements and logic that can be managed solely in the template, use template-driven forms.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -159,19 +68,6 @@
 * **FormArray** tracks the same values and status for an array of form controls.
 * **ControlValueAccessor** creates a bridge between Angular FormControl instances and native DOM elements.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -182,19 +78,6 @@
 * The template does the work for us.
 * [(ngModel)] -  two way data binding.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -208,19 +91,6 @@ The variable loginForm is now a reference to the NgForm directive that governs t
 [Angular Documentation](https://angular.io/guide/forms)
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -231,19 +101,6 @@ The variable loginForm is now a reference to the NgForm directive that governs t
 * The source of truth is in the template.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -269,19 +126,6 @@ export class SimpleFormComponent {
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -301,37 +145,11 @@ export class User {
 }
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 ### Check Template driven Forms examples on Github!</h3>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -344,130 +162,39 @@ export class User {
   * Forms are a key part of your application
   * You are using reactive patterns for building your application
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 <img src="/media/angular-images/angular-11/r-forms.png" alt="reactive forms overview">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Linking FormControls
 <img src="/media/angular-images/angular-11/r-forms2.png" alt="linking FormControls">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### FormGroups
 <img src="/media/angular-images/angular-11/r-forms4.png" alt="FormGroups">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### FormGroup
 <img src="/media/angular-images/angular-11/r-forms5.png" alt="FormGroup">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 Each change to the form state returns a new state, which maintains the integrity of the model between changes. Reactive forms are built around observable streams, where form inputs and values are provided as streams of input values, which can be accessed synchronously. - <a href="https://github.com/angular/angular/blob/master/aio/lectures-exercises/guide/reactive-forms.md">Angular</a>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 ### Check Reactive Forms examples on Github!</h3>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -478,19 +205,6 @@ Each change to the form state returns a new state, which maintains the integrity
 * Disable submit button.
 * Validation is needed in backend as well.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -501,37 +215,11 @@ Each change to the form state returns a new state, which maintains the integrity
 * Sets classes depending on state.
 * You can build custom validators.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### <a href="https://angular.io/api/forms/Validators">Built in validators</a>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -545,19 +233,6 @@ Each change to the form state returns a new state, which maintains the integrity
 * Dirty - True if user has already interacted with the control.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -569,19 +244,6 @@ Each change to the form state returns a new state, which maintains the integrity
 
 <img src="/media/angular-images/angular-11/ngmodel.png" alt="ng model">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -596,19 +258,6 @@ Each change to the form state returns a new state, which maintains the integrity
 * ng-dirty - True if user has already interacted with the control.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -619,19 +268,6 @@ Each change to the form state returns a new state, which maintains the integrity
 
 <img style="width: 600px" src="/media/angular-images/angular-11/r-forms3.png" alt="code">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -642,18 +278,5 @@ Each change to the form state returns a new state, which maintains the integrity
 
 <img style="width: 600px" src="/media/angular-images/angular-11/r-validators.png" alt="validators">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---

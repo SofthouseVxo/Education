@@ -1,19 +1,6 @@
 ### 8.HTML & CSS
 #### Positioning & Layouts
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -23,19 +10,6 @@
 
 <img style="max-width: 700px" src="/media/html-css-images/html-css-8/layouts.png" alt="different types of layouts">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -57,19 +31,6 @@ div.static {
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -81,19 +42,6 @@ div.static {
 * Right - How far from the right the element should be.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -114,19 +62,6 @@ div {
 ```
   
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -142,19 +77,6 @@ div.static {
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -174,19 +96,6 @@ div.relative {
 [Try it on w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_position_relative)
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -208,19 +117,6 @@ div.fixed {
 [Try it on w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_position_fixed)
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -248,19 +144,6 @@ div.absolute {
 [Try it on w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_position_absolute)
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -280,19 +163,6 @@ div.sticky {
 [Try it on w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_position_sticky)
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -313,19 +183,6 @@ img {
 [Try it on w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_zindex)
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -347,19 +204,6 @@ img {
 * [Handbook example](http://htmlandcssbook.com/code-samples/chapter-15/float.html)
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -378,19 +222,6 @@ img {
 ```
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 

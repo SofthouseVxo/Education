@@ -1,38 +1,12 @@
 ### 16. React
 #### State & Redux
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Purpose of this lecture
 The purpose of thie lecture is to give an introduction to redux and handling global state. Redux is simple but not easy, and it will take more than a day to grasp the concept and be ready to work with redux.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -46,19 +20,6 @@ The purpose of thie lecture is to give an introduction to redux and handling glo
   * State inside a component.
   * showButton, user.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -73,19 +34,6 @@ The purpose of thie lecture is to give an introduction to redux and handling glo
 * Pagination controls
 * and so on.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -93,56 +41,17 @@ The purpose of thie lecture is to give an introduction to redux and handling glo
 Flux is the application architecture that Facebook uses for building client-side web applications.
 <img src="/media/react-images/react-16/flux.png" alt="flux">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Redux
 Is a predictable state container for JavaScript apps.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 "If a model can update another model, then a view can update a model, which updates another model, and this, in turn, might cause another view to update. At some point, you no longer understand what happens in your app as you have lost control over the when, why, and how of its state. When a system is opaque and non-deterministic, it's hard to reproduce bugs or add new features." - <a href="https://redux.js.org/introduction/motivation">redux.js</a>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -155,19 +64,6 @@ Is a predictable state container for JavaScript apps.
 $ npm install --save redux
 $ npm install --save redux react-redux
 ```
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -177,19 +73,6 @@ $ npm install --save redux react-redux
 * <a href="https://addons.mozilla.org/sv-SE/firefox/addon/reduxdevtools/">Mozilla Download</a>
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -201,19 +84,6 @@ const store = createStore(
 );
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -224,57 +94,18 @@ const store = createStore(
 * The **Store** is where the state is stored.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### Redux + React
 <img src="/media/react-images/react-16/React+Redux.png" alt="redux">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
 #### State machine
 <img src="/media/react-images/react-16/StateMachine.png" alt="state machine">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 

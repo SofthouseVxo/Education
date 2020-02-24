@@ -1,18 +1,5 @@
 ### 2. Backend APIs
 #### Installing tools
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### Vi kommer använda en del mjukvaror...
@@ -26,19 +13,6 @@ Detta behöver vi:
 * Editor vscode
 * node.js
 * mongodb
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -51,19 +25,6 @@ Detta behöver vi:
   * MacOS: <a href="https://docs.brew.sh/Installation" target="blank">https://docs.brew.sh/Installation</a>
   * Windows: <a href="https://chocolatey.org/docs/installation" target="_blank">https://chocolatey.org/docs/installation</a>
   * Linux: apt or pacman
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### Kommandoterminal
@@ -73,19 +34,6 @@ Detta behöver vi:
   * MacOS: Terminal är bash
   * Windows: choco install git
   * Linux: Duh
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### Versionshantering
@@ -95,19 +43,6 @@ Detta behöver vi:
 * Installation:
   * Finns i alla terminaler
   * Får gärna använda GUI, men lära sig terminalen först rekommenderas
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### Web requests - Browser
@@ -115,19 +50,6 @@ Detta behöver vi:
   * Kan användas för backend också
 * Installation:
   * Chrome/Firefox, ni vet
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### Web requests - Terminalverktyg (curl)
@@ -140,19 +62,6 @@ Detta behöver vi:
 ```
 $ curl resp wget https://www.smp.se/
 ```			 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### JSON formatter
@@ -166,19 +75,6 @@ $ curl resp wget https://www.smp.se/
 ```
 $ curl -s https://jsonplaceholder.typicode.com/todos/1 | jq .
 ```			 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### Postman
@@ -188,19 +84,6 @@ $ curl -s https://jsonplaceholder.typicode.com/todos/1 | jq .
 * Installation:
   * MacOS: ```$ cask install postman```		 
 	* Windows: ```$ choco install postman```
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### Editor (VScode)
@@ -210,19 +93,6 @@ $ curl -s https://jsonplaceholder.typicode.com/todos/1 | jq .
 	* MacOS: ```$ brew install mongodb```
 	* Windows: ```$ choco install mongodb```
 	* Linux: <a href="https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/" target="_blank">https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/</a>
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---	
 

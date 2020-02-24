@@ -1,18 +1,5 @@
 ### 1. Backend APIs
 #### Introduction
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### Who am I?</h4>
@@ -26,19 +13,6 @@
 * Finns på:
   * slack @jonaseck
   * mail: jonas.eckerstrom@softhouse.se
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -47,35 +21,9 @@
   * konstruera API:er
   * Integrera mot tjänster (konsumera API:er)
   * Persistera data (lagra i databas)
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### Se Kursplan</h4>
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### Litteratur</h4>
@@ -87,19 +35,6 @@
 * Tutorials online
   * MEAN - Mongo Express Angular Node
   * MERN - Mongo Express React Node
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 #### Kommunikation</h4>

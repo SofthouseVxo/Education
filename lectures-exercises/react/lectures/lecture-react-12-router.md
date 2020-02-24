@@ -1,19 +1,6 @@
 ### 12. React
 #### react-router - Handle navigation and links
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -25,19 +12,6 @@
 * npm install --save react-router-dom</li>
 * <a href="https://reacttraining.com/react-router/">https://reacttraining.com/react-router/</a></li>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -54,19 +28,6 @@ we switch to
 <Link to="/">link</Link>
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -102,19 +63,6 @@ function AppRouter() {
 export default AppRouter;
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -137,19 +85,6 @@ Basic responsibility is to render some UI when a location matches the route's pa
 Renders the first child <Route> or <Redirect> that matches the location.
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -167,19 +102,6 @@ Example below renders ``` <a href="/calendar/today"> ```
 </Router>
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -205,19 +127,6 @@ import { Link } from 'react-router-dom'
 />
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -238,19 +147,6 @@ activeStyle={{ fontWeight: “bold", color: “red" }}
 exact
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -259,19 +155,6 @@ exact
 * The Route component is perhaps the most important component in React Router to understand and learn to use well. Its most basic responsibility is to render some UI when a location matches the route's path (location is the url in web browser address field).
 * Route is a container for displaying a view component (page). Depending on the attributes set on the <Route>; zero, one or multiple <Route>'s are rendered, depending on current location.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -287,19 +170,6 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 </Router>
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -310,37 +180,11 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 * ``` <Switch> ``` is unique in that it renders a route exclusively. In contrast, every ``` <Route> ``` that matches the location renders inclusively.
   
   
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
   
 <img src="/media/react-images/react-10/switch.png" alt="in folders">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -348,19 +192,6 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 * Every component in the first layer in ``` <Router/> ``` will get these three as props.
 * It's done by a Higher order Component and wraps your the components and injects these three objects.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -374,19 +205,6 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 this.props.match.params.id //access in NewsComponent
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -397,19 +215,6 @@ The match object contains information about how a ``` <Route path> ``` matched t
 * **path**: (string), the path pattern used to match.
 * **url**: (string), the matched portion of the URL.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -422,19 +227,6 @@ The router will provide you with a location object in a few places:
 * Route children as ```({ location }) => ()```
 * withRouter as this.props.location
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -446,19 +238,6 @@ The history object allows you to manage and handle the browser history inside yo
 * **push**(path, [state]): (function), pushes a new entry onto the history stack
 and more...
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -467,19 +246,6 @@ The **History** object has several methods for this
 
 <img src="/media/react-images/react-10/history.png" alt="history">
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -491,19 +257,6 @@ this.props.history.push('/news');
 this.props.history.push('/news/id'); //with a param
 ```
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 

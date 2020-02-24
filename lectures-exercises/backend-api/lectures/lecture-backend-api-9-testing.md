@@ -1,18 +1,5 @@
 ### 9. Backend APIs
 #### Testing Web APIs
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -23,19 +10,6 @@
 * What kinds of testing do we do.
 * What does it actually look like in real life.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -47,19 +21,6 @@
 * Knowing your quality has value
 * No (known) faults is not a good thing
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -73,19 +34,6 @@ Testing is an integrated part of development
 * Verification and Validation
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -103,19 +51,6 @@ Test individual units of source code, together with associated control data, usa
 * Sometimes referred to as “white box” testing
   * Testing the inside of the service boundary
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -128,19 +63,6 @@ Write tests first, then code
 * Architecture and consistency as an afterthought
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -157,19 +79,6 @@ An Agile software development process that encourages collaboration between deve
 * ```When``` they return the black sweater for a refund
 * ```Then``` I should have four black sweaters in stock.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -183,19 +92,6 @@ When testing for the complete behavior of a product. Where all individual softwa
   * Sometimes written together with the code.
   * More often written separately.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -206,19 +102,6 @@ Before Software is Released into Production
 * Verification: The evaluation of whether or not a product, service, or system complies with a regulation, requirement, specification, or imposed condition.
 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
@@ -235,19 +118,6 @@ Depends on the size and testing maturity of the company.
   * Tester is part of the team, responsible for driving quality and test awareness in the team.
   * Developers write code with unit tests, integration tests and validation usually done by tester.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 				
@@ -260,19 +130,6 @@ Depends on the size and testing maturity of the company.
 
 <a href="https://youtu.be/IGQmdoK_ZfY?t=4" target="_blank">Movie time</a>
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ---
 
