@@ -11,7 +11,9 @@
 * Editor (vscode)
 * node.js
 * mongodb
-#### Reading instructions:
+
+#### Links:
+* [Lecture](/lectures-exercises/backend-api/lectures/lecture-backend-api-1-intro.md)
 
 ## 
 
@@ -22,6 +24,9 @@
 * Course Literature
 
 #### Reading instructions:
+
+#### Links:
+* [Lecture](/lectures-exercises/backend-api/lectures/lecture-backend-api-2-installing-tools.md)
 
 ## 
 
@@ -34,6 +39,9 @@
 * Less common HTTP Methods
 #### Reading instructions:
 
+#### Links:
+* [Lecture](/lectures-exercises/backend-api/lectures/lecture-backend-api-3-http.md)
+
 ## 
 
 ### 4. Node.js
@@ -42,6 +50,9 @@
 * Node.js
 
 #### Reading instructions:
+
+#### Links:
+* [Lecture](/lectures-exercises/backend-api/lectures/lecture-backend-api-4-nodejs.md)
 
 ## 
 
@@ -52,6 +63,9 @@
 * Express
 
 #### Reading instructions:
+
+#### Links:
+* [Lecture](/lectures-exercises/backend-api/lectures/lecture-backend-api-5-express.md)
 
 ## 
 
@@ -69,6 +83,9 @@
 
 #### Reading instructions:
 
+#### Links:
+* [Lecture](/lectures-exercises/backend-api/lectures/lecture-backend-api-6-persistence.md)
+
 ## 
 
 ### 7. API Design 
@@ -85,6 +102,9 @@
 
 #### Reading instructions:
 
+#### Links:
+* [Lecture](/lectures-exercises/backend-api/lectures/lecture-backend-api-7-api-design.md)
+
 ## 
 
 ### 8. Microservices 
@@ -100,6 +120,9 @@
 
 #### Reading instructions:
 
+#### Links:
+* [Lecture](/lectures-exercises/backend-api/lectures/lecture-backend-api-8-microservices.md)
+
 ## 
 
 ### 9. Testing Web APIs 
@@ -109,23 +132,30 @@
 
 #### Reading instructions:
 
+#### Links:
+* [Lecture](/lectures-exercises/backend-api/lectures/lecture-backend-api-9-testing.md)
+
 ## 
 
 ### 10. Documenting APIs 
 
-
 #### Content:
 
 #### Reading instructions:
+
+#### Links:
+* [Lecture](/lectures-exercises/backend-api/lectures/lecture-backend-api-10-documentation.md)
 
 ## 
 
 ### 11. Web API Security 
 
-
 #### Content:
 
 #### Reading instructions:
+
+#### Links:
+* [Lecture](/lectures-exercises/backend-api/lectures/lecture-backend-api-11-security.md)
 
 ## 
 
@@ -135,10 +165,12 @@
 
 #### Reading instructions:
 
+#### Links:
+* [Lecture](/lectures-exercises/backend-api/lectures/lecture-backend-api-12-cloud.md)
+
 ## 
 
 ### External Resources 
-
 
 #### Content:
 
