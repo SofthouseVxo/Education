@@ -11,8 +11,8 @@ import React, { Component } from 'react';
 // }
 
 class PropsComponent extends Component {
+  
   render() {
-    console.log(this.props);
     return (
       <div>
         <p>{this.props.myText}</p>

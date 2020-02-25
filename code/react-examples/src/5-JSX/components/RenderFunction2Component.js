@@ -11,9 +11,8 @@ class RenderFunction2Component extends Component {
     return (
       <div>
         <h1>
-          Hello, !
+          Hello, {this.renderName(user)}!
         </h1>
-        <p>{this.renderName(user)}</p>
       </div>
     )
   }

@@ -37,7 +37,11 @@ export default {
       textAlign: 'left'
     },
     ul: {
-      fontSize: '0.8em'
+      fontSize: '0.8em',
+      alignSelf: 'flex-start'
+    },
+    h4: {
+      alignSelf: 'flex-start'
     }
   },
 }

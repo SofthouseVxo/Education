@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 
 class ConditionalComponent extends Component {
+  
   renderName(user, condition){
     if(condition === true){
       return <p>{user.firstName}</p>
     }
+
     return <p>{user.lastName}</p>
   }
 
@@ -13,7 +15,8 @@ class ConditionalComponent extends Component {
       firstName: 'John',
       lastName: 'Doe'
     }
-    const condition = false;
+
+    const condition = true;
 
     return (
       <h1>
