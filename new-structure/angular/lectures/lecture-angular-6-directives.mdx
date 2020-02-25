@@ -1,3 +1,14 @@
+import { themes } from 'mdx-deck';
+import customTheme from '../../custom-theme';
+
+export const theme = {
+  ...themes.highlight,
+  ...customTheme
+}
+
+import img1 from '../../media/angular-images/angular-5/directives.png';
+
+
 ### 6. Angular
 #### Directives
 
@@ -41,7 +52,7 @@ Directives are mainly used to manipulate the DOM.
 
 ---
 
-<img src="/new-structure/media/angular-images/angular-5/directives.png" alt="directives">
+<img src={img1} alt="directives"/>
 
 
 ---

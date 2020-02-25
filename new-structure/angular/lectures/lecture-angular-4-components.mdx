@@ -1,3 +1,20 @@
+import { themes } from 'mdx-deck';
+import customTheme from '../../custom-theme';
+
+export const theme = {
+  ...themes.highlight,
+  ...customTheme
+}
+
+import img1 from '../../media/angular-images/angular-4/shadowdom.png'
+import img2 from '../../media/angular-images/angular-4/components.png'
+import img3 from '../../media/angular-images/angular-4/components2.png'
+import img4 from '../../media/angular-images/angular-4/generate.png'
+import img5 from '../../media/angular-images/angular-4/meta.png'
+import img6 from '../../media/angular-images/angular-4/component3.png'
+import img7 from '../../media/angular-images/angular-4/binding1.png'
+import img8 from '../../media/angular-images/angular-4/binding2.png'
+
 ### 4. Angular
 #### Components
 
@@ -5,7 +22,7 @@
 ---
 
 #### Web Components
-"Web Components is a suite of different technologies allowing you to create reusable custom elements — with their functionality encapsulated away from the rest of your code — and utilize them in your web apps." - <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components" target="_blank">MDN</a></p>
+"Web Components is a suite of different technologies allowing you to create reusable custom elements — with their functionality encapsulated away from the rest of your code — and utilize them in your web apps." - <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components" target="_blank">MDN</a>
 
 
 ---
@@ -59,7 +76,7 @@ window.customElements.define('my-custom-element', MyCustomElement);
 
 * Shadow DOM allows us to hide DOM (trees) & logic behind other elements.
 * If you want to dive deeper into this <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM" target="_blank">MDN explains</a>.
-<img width="600" src="/new-structure/media/angular-images/angular-4/shadowdom.png" alt="shadow dom">
+<img src={img1} alt="shadow dom"/>
 
 
 ---
@@ -100,14 +117,14 @@ wrapper.appendChild(clone);
 ---
 
 #### Components
-<img style="margin-top: -20px;" src="/new-structure/media/angular-images/angular-4/components.png" alt="components">
+<img src={img2}  alt="components"/>
 
 
 ---
 
 
 #### Components
-<img style="margin-top: -20px;" src="/new-structure/media/angular-images/angular-4/components2.png" alt="components">
+<img src={img3}  alt="components"/>
 
 
 ---
@@ -128,13 +145,13 @@ $ ng new <app name>
 $ ng generate component <component name>
 $ ng g c <component name>
 ```
-<img width="600" src="/new-structure/media/angular-images/angular-4/generate.png" alt="generate in cli">
+<img src={img4}  alt="generate in cli"/>
 
 
 ---
 
 #### Component metadata
-<img src="/new-structure/media/angular-images/angular-4/meta.png" alt="components">
+<img src={img5}  alt="components"/>
 
 
 ---
@@ -193,7 +210,7 @@ $ ng serve --open
 
 ---
 
-<img src="/new-structure/media/angular-images/angular-4/component3.png" alt="component overview">
+<img src={img6}  alt="component overview"/>
 
 
 ---
@@ -315,13 +332,13 @@ export class BindComponent {
 ---
 
 #### Binding types and targets
-<img width="800" src="/new-structure/media/angular-images/angular-4/binding1.png" alt="angular binding">
+<img src={img7}  alt="angular binding"/>
 
 
 ---
 
 #### Binding types and targets
-<img width="800" src="/new-structure/media/angular-images/angular-4/binding2.png" alt="angular binding">
+<img src={img8}  alt="angular binding"/>
 
 
 ---

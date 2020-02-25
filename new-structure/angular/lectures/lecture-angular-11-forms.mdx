@@ -1,3 +1,21 @@
+import { themes } from 'mdx-deck';
+import customTheme from '../../custom-theme';
+
+export const theme = {
+  ...themes.highlight,
+  ...customTheme
+}
+
+import img1 from '../../media/angular-images/angular-11/httpform.png';
+import img2 from '../../media/angular-images/angular-11/angforms.png';
+import img3 from '../../media/angular-images/angular-11/r-forms.png';
+import img4 from '../../media/angular-images/angular-11/r-forms2.png';
+import img5 from '../../media/angular-images/angular-11/r-forms4.png';
+import img6 from '../../media/angular-images/angular-11/r-forms5.png';
+import img7 from '../../media/angular-images/angular-11/ngmodel.png';
+import img8 from '../../media/angular-images/angular-11/r-forms3.png';
+import img9 from '../../media/angular-images/angular-11/r-validators.png';
+
 ### 11. Angular</h3>
 #### Forms</h5>
 
@@ -15,7 +33,7 @@
 ---
 
 #### HTML forms
-<img src="/new-structure/media/angular-images/angular-11/httpform.png" alt="http form">
+<img src={img1} alt="http form"/>
 
 
 ---
@@ -41,7 +59,7 @@
 
 ---
 
-<img src="/new-structure/media/angular-images/angular-11/angforms.png" alt="angular forms">
+<img src={img2} alt="angular forms"/>
 
 
 ---
@@ -86,7 +104,7 @@
 <form #loginForm="ngForm">
 ```
 The variable loginForm is now a reference to the NgForm directive that governs the form as a whole.
-![angular forms](../new-structure/media/angular/angular-11/ngform.png)
+![angular forms](..../../media/angular/angular-11/ngform.png)
 
 [Angular Documentation](https://angular.io/guide/forms)
 
@@ -165,25 +183,25 @@ export class User {
 
 ---
 
-<img src="/new-structure/media/angular-images/angular-11/r-forms.png" alt="reactive forms overview">
+<img src={img3} alt="reactive forms overview"/>
 
 
 ---
 
 #### Linking FormControls
-<img src="/new-structure/media/angular-images/angular-11/r-forms2.png" alt="linking FormControls">
+<img src={img4} alt="linking FormControls"/>
 
 
 ---
 
 #### FormGroups
-<img src="/new-structure/media/angular-images/angular-11/r-forms4.png" alt="FormGroups">
+<img src={img5} alt="FormGroups"/>
 
 
 ---
 
 #### FormGroup
-<img src="/new-structure/media/angular-images/angular-11/r-forms5.png" alt="FormGroup">
+<img src={img6} alt="FormGroup"/>
 
 
 ---
@@ -242,7 +260,7 @@ Each change to the form state returns a new state, which maintains the integrity
 * More than just two way binding
 * Adds css classes depending on state
 
-<img src="/new-structure/media/angular-images/angular-11/ngmodel.png" alt="ng model">
+<img src={img7} alt="ng model"/>
 
 
 ---
@@ -266,7 +284,7 @@ Each change to the form state returns a new state, which maintains the integrity
 
 * Reactive forms define custom validators as functions that receive a control to validate.
 
-<img style="width: 600px" src="/new-structure/media/angular-images/angular-11/r-forms3.png" alt="code">
+<img src={img8} alt="code"/>
 
 
 ---
@@ -276,7 +294,4 @@ Each change to the form state returns a new state, which maintains the integrity
 
 * Reactive forms define custom validators as functions that receive a control to validate.
 
-<img style="width: 600px" src="/new-structure/media/angular-images/angular-11/r-validators.png" alt="validators">
-
-
----
+<img src={img9} alt="validators"/>

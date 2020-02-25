@@ -1,3 +1,14 @@
+import { themes } from 'mdx-deck';
+import customTheme from '../../custom-theme';
+
+export const theme = {
+  ...themes.highlight,
+  ...customTheme
+}
+
+import img1 from '../../media/angular-images/angular-7/frequent-modules.png';
+
+
 ### 7. Angular</h3>
 #### Modules</h5>
 
@@ -110,7 +121,7 @@ export class AppModule { }
 
 
 #### Frequently Used Modules
-<img src="/new-structure/media/angular-images/angular-7/frequent-modules.png" alt="Frequently Used Modules">
+<img src={img1} alt="Frequently Used Modules"/>
 
 
 ---

@@ -1,3 +1,17 @@
+import { themes } from 'mdx-deck';
+import customTheme from '../../custom-theme';
+
+export const theme = {
+  ...themes.highlight,
+  ...customTheme
+}
+
+import img1 from '../../media/angular-images/angular-12/pushpull2.png';
+import img2 from '../../media/angular-images/angular-12/promisevsobs.png';
+import img3 from '../../media/angular-images/angular-12/get.png';
+import img4 from '../../media/angular-images/angular-12/put.png';
+
+
 #### 12. Angular
 #### HttpClient & RxJS basics
 
@@ -33,7 +47,7 @@
 
 ---
 
-<img src="/new-structure/media/angular-images/angular-12/pushpull2.png" alt="push and pull">
+<img src={img1} alt="push and pull"/>
 
 
 ---
@@ -112,7 +126,7 @@ Rx.Observable.fromEvent(button, 'click')
 
 ---
 
-<img src="/new-structure/media/angular-images/angular-12/promisevsobs.png" alt="observable vs promise">
+<img src={img2} alt="observable vs promise"/>
 
 
 ---
@@ -241,14 +255,14 @@ imports: [
 
 ---
 
-<img src="/new-structure/media/angular-images/angular-12/get.png" alt="get n stuff">
+<img src={img3} alt="get n stuff"/>
 
 
 ---
 
-<img src="/new-structure/media/angular-images/angular-12/put.png" alt="put n stuff">
+<img src={img4} alt="put n stuff"/>
 
 
 ---
 
-### Check Examples on Github!</h3>
+### Check Examples on Github!

@@ -4,14 +4,16 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "gatsby-plugin-react-helmet": "^3.1.22"
+    "gatsby-plugin-react-helmet": "^3.1.22",
+    "shelljs": "^0.8.3"
   },
   "devDependencies": {
     "gatsby-source-filesystem": "^2.1.48",
-    "mdx-deck": "^4.1.0"
+    "mdx-deck": "^4.1.0",
+    "yargs": "^15.1.0"
   },
   "scripts": {
-    "start": "mdx-deck javascript/lectures/lecture-javascript-11-DOM.mdx",
+    "start": "run.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

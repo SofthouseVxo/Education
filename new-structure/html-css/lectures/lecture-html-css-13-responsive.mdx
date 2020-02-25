@@ -1,0 +1,311 @@
+import { themes } from 'mdx-deck';
+import customTheme from '../../custom-theme';
+
+export const theme = {
+  ...themes.highlight,
+  ...customTheme
+}
+
+import img1 from '../../media/html-css-images/html-css-13/resp.png';
+import img1 from '../../media/html-css-images/html-css-13/grid.png';
+
+### 13.HTML & CSS</h3>
+#### Responsive web design</h5>
+
+
+---
+
+#### What is a responsive web design?</h4>
+
+* The layout changes depending on the screensize and resolution that the user has
+* Responsive web design makes your web page look good on all devices.
+* Desktop, mobile, tablet, watches
+* Screen sizes and resolutions differ on each device/screen
+
+
+
+---
+
+<img src={img2} alt="different screens"/>
+<a href="https://www.w3schools.com/css/css_rwd_intro.asp">More examples</a>
+
+
+---
+
+#### Different techniques</h4>
+
+* Fluid grids, columns and sections has relative values (%)
+* Flexbox & CSS grid
+* CSS3 Media queries
+* (JavaScript solutions)
+
+
+
+---
+
+#### Viewport</h4>
+
+* The viewport is the user's visible area of a web page.
+* The viewport will be smaller on a mobile phone than on a computer screen.
+* Back in the days it was common to just scale down the site from desktop to mobile
+* <a href="https://www.w3schools.com/css/css_rwd_viewport.asp">W3schools example</a>
+
+
+
+---
+
+####  Viewport  meta tag
+* The browser will (probably) render the width of the page at the width of its own screen.
+* If that screen is 480px wide, the browser window will be 480px wide, rather than way zoomed out and showing 960px.
+* [CSS-Tricks meta tag description](https://css-tricks.com/snippets/html/responsive-meta-tag/)
+
+```HTML
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+```
+
+
+
+---
+
+#### Grid view</h4>
+
+* A grid-view, means that the page is divided into columns
+* A responsive grid-view often has 12 columns, and has a total width of 100%, and will shrink and expand as you resize the browser window.
+
+
+
+---
+
+#### 12 column grid</h4>
+
+<img src={img2} alt="grid"/>
+
+
+---
+
+####  Responsive Grid
+
+```CSS
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+```
+[w3schools example](https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_cols)
+
+
+
+---
+
+
+####  Responsive Grid
+
+* The grid should be 12
+* So the columns should add up to 12 always
+
+```HTML
+<div class="row">
+  <div class="col-3">...</div> <!-- 25% -->
+  <div class="col-9">...</div> <!-- 75% -->
+</div>
+```
+[w3schools example](https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_cols)
+
+
+
+---
+
+
+
+#### Media Queries
+* A CSS technique introduced in CSS3.
+* It uses the @media rule to include a block of CSS properties only if a certain condition is true.
+
+```CSS
+  @media not|only mediatype and (mediafeature and|or|not mediafeature) {
+    /*CSS-Code;*/
+  }
+
+  /* If the browser window is 480px or smaller, the background color will be green: */
+  @media only screen and (max-width: 480px) {
+    body {
+      background-color: green;
+    }
+  }
+```
+
+
+
+---
+
+#### Linking different stylesheets depending on screen size
+
+```HTML
+  <!-- If the screen is 900px or wider widescreen.css will be loaded -->
+  <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
+  <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
+```
+        
+
+
+---
+
+
+#### @media Rule</h4>
+
+Can be used to check:
+
+* width and height of the viewport (min/max).
+* width and height of the device (min/max).
+* orientation (landscape/portrait).
+* resolution.
+
+<a href="https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_media_bg" target="_blank">Try on w3schools</a>
+
+
+
+---
+
+#### Orientation: Portrait / Landscape
+
+* Change layout of a page depending on the orientation of the browser.
+
+```CSS
+  @media only screen and (orientation: landscape) {
+    body {
+      background-color: lightblue;
+    }
+  }
+```
+        
+
+
+---
+
+#### Media rules needs to be placed beneath the style they effect.</h4>
+
+
+---
+      
+
+#### Mobile first</h4>
+
+* Mobile First means designing for mobile before designing for desktop or any other device.
+* Instead of changing styles when the width gets smaller, we should change the design when the width gets larger.
+
+
+
+---
+
+#### Breakpoints
+
+* A breakpoint is where certain parts of the design will behave differently on each side of the breakpoint.
+
+```CSS
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 25%;}
+  .col-2 {width: 50%;}
+  .col-3 {width: 75%;}
+  .col-4 {width: 100%;}
+}
+/* Mobile first, since we are changing styles when the width gets larger than 768px. */
+```
+
+[Try on w3schools](https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mobilefirst)
+        
+
+
+---
+
+#### Typical Device Breakpoints
+
+* Hard to create an exact breakpoint for each device, since there are tons of screens and devices with different widths and heights
+* Five groups, to make it easier
+
+```CSS
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {...}
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {...}
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {...}
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {...}
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {...}
+```
+
+[Try on w3schools](https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mediaquery_breakpoints)
+        
+
+
+---
+
+#### Multiple breakpoints</h4>
+<a href="https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_col-s">Example</a>
+
+
+---
+
+#### It is not uncommon to build two versions of the entire site/app</h4>
+
+* Mobile - https://mobil.blocket.se/
+* Desktop - https://www.blocket.se/
+
+
+
+---
+
+#### Images
+
+```CSS
+img {
+  width: 100%;
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+```
+
+[Try on w3schools](https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_image)
+
+
+
+---
+
+####  Video
+
+```CSS
+video {
+  width: 100%;
+  height: auto;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+```
+
+[Try on w3schools](https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_video2)

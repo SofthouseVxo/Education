@@ -1,6 +1,5 @@
 # React
 ### 1. React introduction
-### intro
 
 #### Content:
 * Introduction to Course

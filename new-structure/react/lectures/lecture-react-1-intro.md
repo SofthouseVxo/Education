@@ -1,11 +1,9 @@
 ### 1. React
 #### Introduction
 
-
 ---
 
 #### Go through syllabus
-
 
 ---
 
