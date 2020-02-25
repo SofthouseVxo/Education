@@ -9,11 +9,11 @@ import MultipleComponent from './components/MutlipleComponent';
 class JSX extends Component {
   render() {
     /* Example 1 */
-    // return (
-    //   <h1 style={{color: '#eb4d4b'}}>
-    //     My Text
-    //   </h1>
-    // )
+    return (
+      <h1 style={{color: '#eb4d4b'}}>
+        My Text
+      </h1>
+    )
 
     /* Example 2 */
     // return React.createElement(
