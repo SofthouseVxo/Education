@@ -45,3 +45,4 @@ Thumbs.db
 
 # Package lock
 package-lock.json
+yarn.lock

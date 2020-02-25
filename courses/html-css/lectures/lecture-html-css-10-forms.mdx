@@ -1,0 +1,375 @@
+import { themes } from 'mdx-deck';
+import customTheme from '../../../custom-theme';
+
+export const theme = {
+  ...themes.highlight,
+  ...customTheme
+}
+
+import img1 from '../media/html-css-images/html-css-10/form.png';
+
+
+### 10.HTML & CSS
+#### Forms
+
+
+---
+
+#### HTML Forms
+
+* Forms are a way to collect data/input from users (Register, login, search etc.)
+* An HTML form consists of form controls, which are different ways to collect information.
+* Form elements are different types of input elements.
+* Form element examples:
+  * Text fields
+  * Checkboxes
+  * Radio buttons
+  * Submit buttons
+  * etc.
+
+
+
+
+---
+
+### HTML Forms
+<img src={img1} alt="How a HTML form is sent"/>
+
+
+---
+
+####  Name Value pairs
+* Name value pairs are used so that the server can se which inputted data corresponds to which form element
+
+```HTML
+<!-- type=name text=value -->
+<input type="text" name="username" />
+```
+
+
+
+---
+
+####  The ```<form>``` element
+* The ```<form>``` tag defines an HTML form for user input.
+* action = the URL to the page on the server which receives the information (required).
+* method = which method to use when sending information to the server (POST or GET (GET as default)).
+
+```HTML
+<form action="https://www.myserver.something.php" method="get">
+  <input type="password" />
+</form>
+```
+
+
+
+---
+
+####  ```<input>``` element
+
+* The ```<input>``` element is used to create several different form controls.
+* Change the type attribute to detemine what kind.
+
+```HTML
+<input type="text" name="username" maxlength="15" />
+<input type="email" name="email"/>
+<input type="password" name="password" />
+```
+
+
+
+---
+
+#### Input elements
+<input type="text" name="username" maxlength="15"/>
+<br>
+<br>
+<input type="email" name="email"/>
+<br>
+<br>
+<input type="password" name="password" />
+<br>
+<br>
+
+
+
+---
+
+####  Labels and placeholders
+
+```HTML
+<label style="font-size: 12px;" for="username">Username:</label>
+<input type="text" name="username" maxlength="15"/>
+<label style="font-size: 12px;" for="email">Email:</label>
+<input type="email" name="email" placeholder="Email.."/>
+<label style="font-size: 12px;" for="password">Password:</label>
+<input type="password" name="password" />
+```
+
+
+
+---
+
+#### Labels and placeholders
+<label style="font-size: 12px;" for="username">Username:</label>
+<input type="text" name="username" maxlength="15" label="username"/>
+<br>
+<br>
+<label style="font-size: 12px;" for="email">Email:</label>
+<input style="margin-left: 24px;" type="email" name="email" placeholder="Email.."/>
+<br>
+<br>
+<label style="font-size: 12px;" for="password">Password:</label>
+<input style="margin-left: 1px;" type="password" name="password" />
+<br>
+<br>
+
+
+---
+
+####  ```<textarea>``` element
+
+* ```<textarea>``` is used for Multi-line text input.
+
+```HTML
+<textarea name="comments" cols="15" rows="6">
+Enter your comments here...
+</textarea>
+```
+
+
+
+---
+
+#### Textarea
+<textarea name="comments" cols="40" rows="6">Enter your comments here...</textarea>
+
+
+---
+
+####  Radio Buttons
+
+* Picking just one of a number of options.
+
+```HTML
+<form action="https://www.myserver.something.php" method="get">
+  <input type="radio" name="animal" value="cow" checked="checked"/> cow
+  <input type="radio" name="animal" value="pig" /> pig
+  <input type="radio" name="animal" value="chicken" /> chicken
+</form>
+```
+
+
+
+---
+
+#### Radio buttons
+<form action="https://www.myserver.something.php" method="get">
+  <input type="radio" name="animal" value="cow" checked="checked"/> cow
+  <br>
+  <input type="radio" name="animal" value="pig" /> pig
+  <br>
+  <input type="radio" name="animal" value="chicken" /> chicken
+</form>
+
+
+---
+
+####  Checkboxes
+
+* Select one or more options.
+
+```HTML
+<form action="https://www.myserver.something.php" method="get">
+  <input type="checkbox" name="animal" value="cow" checked="checked"/> cow
+  <input type="checkbox" name="animal" value="pig" checked="checked"/> pig
+  <input type="checkbox" name="animal" value="pig" /> chicken
+</form>
+```
+
+
+
+---
+
+#### Checkboxes
+<form action="https://www.myserver.something.php" method="get">
+  <input type="checkbox" name="animal" value="cow" checked="checked"/> cow
+  <br>
+  <input type="checkbox" name="animal" value="pig" checked="checked"/> pig
+  <br>
+  <input type="checkbox" name="animal" value="pig" /> chicken
+</form>
+
+
+
+---
+
+####  Dropdown list
+
+* Select one option from a dropdown list.
+
+```HTML
+<form action="http://www.somesite.com/somedoc.php">
+  <p>What is your favorite fruit?</p>
+  <select name="fruits">
+    <option value="apple">Apple</option>
+    <option value="orange">Orange</option>
+    <option value="lemon">Lemon</option>
+  </select>
+</form>
+```
+
+
+
+---
+
+#### Dropdown list
+<form action="http://www.somesite.com/somedoc.php">
+  <p>What is your favorite fruit?</p>
+  <select name="fruits">
+    <option value="apple">Apple</option>
+    <option value="orange">Orange</option>
+    <option value="lemon">Lemon</option>
+  </select>
+</form>
+
+
+---
+
+####  File upload
+
+* type="file" is used for uploading files to the server via a form.
+
+```HTML
+<form action="http://www.somesite.com/somedoc.php" method="post">
+  <p>Upload your profile picture</p>
+  <input type="file" name="user-profile" /><br />
+  <input type="submit" value="Upload" />
+</form>
+```
+
+
+
+---
+
+#### File upload
+<form action="http://www.somesite.com/somedoc.php" method="post">
+  <p>Upload your profile picture</p>
+  <input type="file" name="user-profile" /><br />
+  <input type="submit" value="Upload" />
+</form>
+
+
+---
+
+####  Submitting the form
+
+* Pressing the submit button sends the form to the server
+* ```<input type="submit"/>```
+
+```HTML
+<form action="http://www.somesite.com/somedoc.php" method="get">
+  <input type="text" name="username"/>
+  <input type="submit" name="submit" value="submit"/>
+</form>
+```
+
+
+
+---
+<!--<section>
+#### Submit button
+
+  * Check in devtools (network -> XHR)
+
+<form action="http://www.somesite.com/somedoc.php" method="get">
+  <input type="text" name="username"/>
+  <input type="submit" name="submit" value="submit"/>
+</form>
+
+
+----->
+
+####  Date input
+```<input type="date"/>```
+
+```HTML
+<form action="http://www.somesite.com/somedoc.php">
+  <input type="date" name="startdate"/>
+  <input type="submit" name="submit" value="submit"/>
+</form>
+```
+
+
+
+---
+
+#### Date input
+<form action="http://www.somesite.com/somedoc.php">
+  <input type="date" name="startdate"/>
+  <input type="submit" name="submit" value="submit"/>
+</form>
+
+
+---
+
+####  Email & Url
+
+```HTML
+<form action="http://www.somesite.com/somedoc.php">
+  <input type="email" name="email"/>
+  <input type="url" name="url"/>
+  <input type="submit" name="submit" value="submit"/>
+</form>
+```
+
+
+
+---
+
+#### Email & Url
+<form action="http://www.somesite.com/somedoc.php">
+  <input type="email" name="email"/>
+  <input type="url" name="url"/>
+  <input type="submit" name="submit" value="submit"/>
+</form>
+
+
+---
+
+####  Form validation
+* Showing a message to the user if they forgot a field
+* More advanced validation is done using JavaScript
+
+```HTML
+<form action="http://www.somesite.com/somedoc.php" method="post">
+  <input required="required" type="text" name="username"/>
+  <input type="submit" name="submit" value="submit"/>
+</form>
+```
+
+
+
+---
+
+#### Form validation
+<form action="http://www.somesite.com/somedoc.php" method="post">
+  <input required="required" type="text" name="username"/>
+  <input type="submit" name="submit" value="submit"/>
+</form>
+
+
+---
+
+####  Grouping form elements
+
+```HTML
+<form action="http://www.somesite.com/somedoc.php" method="post">
+  <fieldset>
+    <legend>Contact details</legend>
+    <label>Email:<br /><input type="text" name="email" /></label><br />
+    <label>Mobile:<br /><input type="text" name="mobile" /></label><br />
+    <label>Telephone:<br /><input type="text" name="telephone" /></label>
+  </fieldset>
+</form>
+```
