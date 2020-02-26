@@ -14,22 +14,22 @@
 ---
 
 #### Rastergrafik exempel
-<img style="width: 400px;"src="/media/ux-images/ux-8/ocean.jpeg" alt="Raster image">
-<img style="width: 500px;"src="/media/ux-images/ux-8/pixels.png" alt="Pixels image">
+<img src="/media/ux-images/ux-8/ocean.jpeg" alt="Raster image">
+<img src="/media/ux-images/ux-8/pixels.png" alt="Pixels image">
 
 
 ---
 
 #### Vectorgrafik
-<img style="width: 400px;" src="/media/ux-images/ux-8/vector2.png" alt="Vector image">
+<img  src="/media/ux-images/ux-8/vector2.png" alt="Vector image">
 
 
 ---
 				
 
 #### Vektorgrafik exempel
-<img style="width: 500px;"src="/media/ux-images/ux-8/vector.png" alt="Vector image">
-<img style="width: 400px;"src="/media/ux-images/ux-8/vector4.png" alt="Vector image">
+<img src="/media/ux-images/ux-8/vector.png" alt="Vector image">
+<img src="/media/ux-images/ux-8/vector4.png" alt="Vector image">
 
 
 ---
@@ -119,8 +119,8 @@ Bildfilformat är standardiserade sätt att organisera och lagra digitala bilder
 ---
 
 #### Färger - RGB & CMYK
-<img style="width: 400px;"src="/media/ux-images/ux-8/rgb.jpg" alt="rgb example">
-<img style="width: 400px;"src="/media/ux-images/ux-8/cmyk.png" alt="cmyk example">
+<img src="/media/ux-images/ux-8/rgb.jpg" alt="rgb example">
+<img src="/media/ux-images/ux-8/cmyk.png" alt="cmyk example">
 
 
 ---

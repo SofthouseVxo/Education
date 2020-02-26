@@ -17,16 +17,13 @@ import img7 from '../../../media/javascript-images/javascript-20/classes4.png';
 ### 20. JavaScript
 #### Classes & OOP
 
-
 ---
 
 #### Programming Paradigms
 
-1. Procedural Programming
-1. Object Oriented Programming
+1. Procedural Programming.
+1. Object Oriented Programming.
 1. Functional Programming (Focus on this in React course).
-
-
 
 ---
 
@@ -36,15 +33,13 @@ import img7 from '../../../media/javascript-images/javascript-20/classes4.png';
 * When project gets bigger it gets messy.
 * Hard to find bugs.
 
-
 ---
 
 #### Object oriented programming
 
 * Object oriented programming follows real-world modelling.
 * An application consisting of child objects which are interacting with each other to form the product.
-* Real world examples - car, computer
-
+* Real world examples - car, computer.
 
 ---
 
@@ -90,9 +85,7 @@ import img7 from '../../../media/javascript-images/javascript-20/classes4.png';
 * This offers flexibility.
 * You can write procedural, class-oriented, or Functional Programming-style JavaScript code.
 
-
 ---
-
 
 #### What is an object?
 
@@ -107,7 +100,6 @@ import img7 from '../../../media/javascript-images/javascript-20/classes4.png';
 
 * A property is a variable connected to a specific object.
 * A property contains information about the object.
-
 
 ---
 
@@ -136,7 +128,7 @@ import img7 from '../../../media/javascript-images/javascript-20/classes4.png';
 
 ---
 
-####  Declaring a class
+#### Declaring a class
 
 ```JavaScript
 // The ‘this’ keyword refers to the current instance of the class.
@@ -164,7 +156,7 @@ class Car {
 
 ---
 
-####  Class Expression
+#### Class Expression
 
 * An expression is any valid unit of code that resolves to a value.
 
@@ -181,7 +173,7 @@ let Car = class {
 
 ---
 
-####  Named class expression
+#### Named class expression
 
 ```JavaScript
 let Car = class Car {
@@ -202,7 +194,7 @@ let Car = class Car {
 ---
   
 
-####  Creating Objects from classes
+#### Creating Objects from classes
 
 * To create an instance of the class, use the **new** keyword followed by the class name. Following is the syntax for the same.
 
@@ -223,7 +215,7 @@ let obj = new Car('red',70);
 
 ---
 
-####  Methods in classes
+#### Methods in classes
 
 ```JavaScript
 class Car {
@@ -239,10 +231,9 @@ class Car {
 }
 ```
 
-
 ---
   
-####  Accessing Methods and properties
+#### Accessing Methods and properties
 
 * Once the object is instanciated the variables and functions connected to the object are called Properties and Methods.
 * These can be accessed using dot notation.
@@ -255,10 +246,9 @@ let maxSpeed = carObj.maxSpeed; // 70
 carObj.test();
 ```
 
-
 ---
 
-####  Accessing methods and properties
+#### Accessing methods and properties
 
 * Properties and methods can only be accessed if the object is instanciated
 
@@ -274,7 +264,6 @@ class Car {
 Car.test(); // TypeError: Car.test is not a functionindex.
 ```
 
-
 ---
 
 #### Inheritance
@@ -283,7 +272,6 @@ Car.test(); // TypeError: Car.test is not a functionindex.
 * And if we make a change in the parent class, all who inherits from it will also get the change.
 <img src={img4} alt="inheritance"/>
 
-
 ---
 
 #### Inheritance
@@ -291,7 +279,6 @@ Car.test(); // TypeError: Car.test is not a functionindex.
 * A class can inherit methods and properties from its parent.
 * And if we make a change in the parent class, all who inherits from it will also get the change.
 <img src={img5} alt="inheritance"/>
-
 
 ---
 
@@ -305,22 +292,21 @@ Car.test(); // TypeError: Car.test is not a functionindex.
 ---
 
 #### Inheritance
+
 <img src={img7} alt="inheritance"/>
-  
+
 ```JavaScript
 // cow is the new instance and Cow is the class(blueprint)
 let cow = new Cow('muuuh');
-
 console.log(cow); // { sound: 'muuuh', eat: function, fart: function }
-
 cow.eat(); // works since it inherits this method
 cow.fart();
 ```
 
-
 ---
 
-####  Inheritance
+
+#### Inheritance
 
 ```JavaScript
 class Vehicle {
@@ -347,11 +333,9 @@ let car = new Car('Tesla');
 console.log(car.getType()); // It is a car: Tesla
 ```
 
-
-
 ---
 
-####  Inheritance
+#### Inheritance
 
 ```JavaScript
 class Vehicle {
@@ -377,7 +361,7 @@ car.drive(); // They see me rollin in my Tesla
 
 ---
 
-####  Getters & Setters
+#### Getters & Setters
 
 ```JavaScript
 class Person {
@@ -410,7 +394,7 @@ bob.name = 'John';
 #### Static keyword
 
 * The static keyword defines static methods for a class.
-<br>
+
 * Static methods are called without instantiating their class.
 * Static methods are also not callable when the class is instantiated.
 * Static methods are often used to create utility functions for an application.
@@ -418,7 +402,7 @@ bob.name = 'John';
 
 ---
 
-####  Using Static
+#### Using Static
 
 ```JavaScript
 class Car {
@@ -436,7 +420,7 @@ carObj.test(); //TypeError: obj.test is not a function
 
 ---
 
-####  This in events in classes
+#### This in events in classes
 
 ```JavaScript
 class Person {
@@ -461,7 +445,7 @@ class Person {
 
 ---
 
-####  This in events in classes
+#### This in events in classes
 
 * Arrow Function DOES NOT bind it's own this.
 * The this value of the enclosing execution context is used since they lexically bind their context so this actually refers to the originating context.
@@ -484,10 +468,9 @@ class Person {
 }
 ```
 
-
 ---
 
-####  Descriptive Blocks - Commenting Classes
+#### Descriptive Blocks - Commenting Classes
 
 ```JavaScript
 /** 
@@ -499,14 +482,12 @@ class Person {
 class myWebClass { }
 ```
 
-
 ---
 
 #### So it seems like JavaScript have OOP syntax..
 
 * Yep, they came with came with ES6.
 * But how did you write OOP before 2015?
-
 
 ---
 
@@ -517,7 +498,6 @@ class myWebClass { }
 * JavaScript uses something called prototype pattern.
 * We will take a look at this later on, but the main focus will be on OOP JavaScript
 * The reason for this is that many other languages leans towards OOP and JavaScript classes are used both in React and Angular.
-
 
 ---
 

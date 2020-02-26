@@ -18,16 +18,16 @@ import img3 from '../../../media/react-images/react-10/history.png';
 
 #### react-router
 
-* Created by ReactTraining - not Facebook</li>
-* Authors Michael Jackson and Ryan Florence</li>
-* Both Web and Native</li>
-* npm install --save react-router-dom</li>
-* <a href="https://reacttraining.com/react-router/">https://reacttraining.com/react-router/</a></li>
+* Created by ReactTraining - not Facebook.
+* Authors Michael Jackson and Ryan Florence.
+* Both Web and Native.
+* npm install --save react-router-dom.
+* <a href="https://reacttraining.com/react-router/">https://reacttraining.com/react-router/</a>.
 
 
 ---
 
-####  Navigation
+#### Navigation
 * React Router is a collection of navigational components that compose declaratively with your application.
 * Using React Router the developer can manage views (pages) in one single place and at the same time define the routes (urls) in the application.
 * Instead of using.
@@ -78,35 +78,34 @@ export default AppRouter;
 
 ---
 
-####  Components
-```HTML
-<BrowserRouter>
-<Router>
+#### Components
+
+```<BrowserRouter>```
+```<Router>```
 keeps your UI in sync with the URL
 
-<Link>
+```<Link>```
 Provides declarative, accessible navigation around your application.
 
-<NavLink>
-A special version of the <Link> that will add styling attributes to the rendered element when it matches the current URL.
+```<NavLink>```
+A special version of the ```<Link>``` that will add styling attributes to the rendered element when it matches the current URL.
 
-<Route>
+```<Route>```
 Basic responsibility is to render some UI when a location matches the route's path.
 
-<Switch>
-Renders the first child <Route> or <Redirect> that matches the location.
-```
+```<Switch>```
+Renders the first child ```<Route>``` or ```<Redirect>``` that matches the location.
 
 
 ---
 
-####  Router (BrowserRouter)
+#### Router (BrowserRouter)
 
-A ``` <Router> ``` that uses the HTML5 history API (pushState, replaceState and the popstate event) to keep your UI in sync with the URL.
+A ```<Router>``` that uses the HTML5 history API (pushState, replaceState and the popstate event) to keep your UI in sync with the URL.
 
 Attribute: basename
 basename sets a new “start url" (base url) for all routed links and navigation.
-Example below renders ``` <a href="/calendar/today"> ```
+Example below renders ```<a href="/calendar/today">```
 
 ```HTML
 <Router basename="/calendar">
@@ -117,7 +116,7 @@ Example below renders ``` <a href="/calendar/today"> ```
 
 ---
 
-####  Link
+#### Link
 
 Provides declarative, accessible navigation around your application.
 
@@ -142,7 +141,7 @@ import { Link } from 'react-router-dom'
 
 ---
 
-####  NavLink
+#### NavLink
 
 A special version of the ```<Link>``` that will add styling attributes to the rendered element when it matches the current URL.
 
@@ -162,10 +161,10 @@ exact
 
 ---
 
-####  Route
+#### Route
 
 * The Route component is perhaps the most important component in React Router to understand and learn to use well. Its most basic responsibility is to render some UI when a location matches the route's path (location is the url in web browser address field).
-* Route is a container for displaying a view component (page). Depending on the attributes set on the <Route>; zero, one or multiple <Route>'s are rendered, depending on current location.
+* Route is a container for displaying a view component (page). Depending on the attributes set on the ```<Route>``` zero, one or multiple ```<Route>```'s are rendered, depending on current location.
 
 
 ---
@@ -186,10 +185,10 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 ---
 
 
-####  Switch
-* Renders the first child ``` <Route> ``` or ``` <Redirect> ``` that matches the location.
-* How is this different than just using a bunch of ``` <Route> ```s?
-* ``` <Switch> ``` is unique in that it renders a route exclusively. In contrast, every ``` <Route> ``` that matches the location renders inclusively.
+#### Switch
+* Renders the first child ```<Route>``` or ```<Redirect>``` that matches the location.
+* How is this different than just using a bunch of ```<Route>```s?
+* ```<Switch>``` is unique in that it renders a route exclusively. In contrast, every ```<Route>``` that matches the location renders inclusively.
   
   
 
@@ -200,14 +199,14 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 ---
 
-####  {history, match, location}
-* Every component in the first layer in ``` <Router/> ``` will get these three as props.
+#### {history, match, location}
+* Every component in the first layer in ```<Router/>``` will get these three as props.
 * It's done by a Higher order Component and wraps your the components and injects these three objects.
 
 
 ---
 
-####  Sending and receiving Params
+#### Sending and receiving Params
 ```HTML
 <Route path="/news/:id" component={NewsComponent} />
 // Setting up the route
@@ -220,8 +219,8 @@ this.props.match.params.id //access in NewsComponent
 
 ---
 
-####  Match
-The match object contains information about how a ``` <Route path> ``` matched the URL.
+#### Match
+The match object contains information about how a ```<Route path>``` matched the URL.
 * **params**: (object), key/value pairs parsed from the URL.
 * **isExact**: (boolean), true if the entire URL was matched.
 * **path**: (string), the path pattern used to match.
@@ -230,7 +229,7 @@ The match object contains information about how a ``` <Route path> ``` matched t
 
 ---
 
-####  Location
+#### Location
 The location object represents where the app is now, where you want it to go, or even where it was.
 
 The router will provide you with a location object in a few places:
@@ -242,7 +241,7 @@ The router will provide you with a location object in a few places:
 
 ---
 
-####  History
+#### History
 The history object allows you to manage and handle the browser history inside your views or components.
 * **length**: (number), the number of entries in the history stack
 * **action**: (string), the current action (PUSH, REPLACE or POP)
@@ -261,9 +260,9 @@ The **History** object has several methods for this
 
 ---
 
-####  Navigating without a link
+#### Navigating without a link
 
-Since components inside ``` <BrowserRouter> ``` get history in props we can invoke:
+Since components inside ```<BrowserRouter>``` get history in props we can invoke:
 ```JavaScript
 this.props.history.push('/news');
 this.props.history.push('/news/id'); //with a param

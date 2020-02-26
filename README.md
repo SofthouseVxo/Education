@@ -31,15 +31,15 @@
 
 1. ```$ npm install```
 
-1. To present a deck run in root.
+1. To present a slides from a lecture the run (in root).
 ```
-node present.js --type=<lecture-type> --lecture=<lecture-number>
+$ node present.js --type=<lecture-type> --lecture=<lecture-number>
 ```
 
 example
 
 ```
-node present.js --type=angular --lecture=4
+$ node present.js --type=angular --lecture=4
 ```
 
 ##### types

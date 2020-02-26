@@ -214,7 +214,7 @@ npm -v
 * Every package/module gets its own npm page, with a read me and GitHub link, + additional information about the package moment.js.
 
 
----	
+---
 
 ### npm - tips
 
@@ -272,7 +272,7 @@ $ npm run eject
 
 * NPM package runner.
 * npx makes it easy to use CLI tools and other executables hosted on the registry.
-* Calling npx <command> when <command> isn’t already in your $PATH will automatically install a package with that name from the NPM registry for you, and invoke it. When it’s done, the installed package won’t be anywhere in your globals, so you won’t have to worry about pollution in the long-term. - <a href="https://www.bram.us/2017/07/15/introducing-npx-an-npm-package-runner/" target="_blank">Bram.us</a>
+* Calling npx command when command isn’t already in your $PATH will automatically install a package with that name from the NPM registry for you, and invoke it. When it’s done, the installed package won’t be anywhere in your globals, so you won’t have to worry about pollution in the long-term. - <a href="https://www.bram.us/2017/07/15/introducing-npx-an-npm-package-runner/" target="_blank">Bram.us</a>
 
 
 ---

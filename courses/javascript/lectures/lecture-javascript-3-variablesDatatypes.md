@@ -269,7 +269,7 @@ typeof 12; // number
 * Note: Arrays and Functions are objects with speacial features, we will dive deeper into this later so for now seperate them.
 
 
----	
+---
 
 
 #### JavaScript is **not** a typed language

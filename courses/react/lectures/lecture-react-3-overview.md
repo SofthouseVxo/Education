@@ -4,7 +4,7 @@
 
 ---
 
- #### React is a JavaScript library for building user interfaces.
+#### React is a JavaScript library for building user interfaces.
 
 
 ---
@@ -51,7 +51,7 @@
 
 * Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
 * Build encapsulated components that manage their own state, then compose them to make complex UIs.
-* Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM. - <a href="https://reactjs.org/">React-Documentation</a></p>
+* Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM. - <a href="https://reactjs.org/">React-Documentation</a>
 
 
 ---

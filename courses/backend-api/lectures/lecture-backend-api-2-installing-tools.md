@@ -101,7 +101,7 @@ $ curl -s https://jsonplaceholder.typicode.com/todos/1 | jq .
 	* Windows: ```$ choco install mongodb```
 	* Linux: <a href="https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/" target="_blank">https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/</a>
 
----	
+---
 
 #### Mongodb
 * Motivation:

@@ -47,7 +47,6 @@ Vilket syfte skall min applikation fylla?
 #### S-M-A-R-Ta mål
 
 * När man sätter upp mål är det viktigt att dessa är:
-	
   * Specifika
   * Mätbara
   * Accepterade
@@ -62,7 +61,8 @@ Vilket syfte skall min applikation fylla?
 
 * Få 10000 fler följare på instagram.
 * Öka vår närvaro på sociala medier.
-						<li style="margin-top: 80px;">Vilket av ovanstående är ett SMART mål?
+
+##### Vilket av ovanstående är ett SMART mål?
 
 
 ---

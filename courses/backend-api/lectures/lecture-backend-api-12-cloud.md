@@ -177,6 +177,6 @@ Create an account at:
 ACTIVATE FREE TRIAL
 
 
----	
+---
 
 #### <a href="https://cloud.google.com/appengine/docs/standard/nodejs/quickstart" target="blank">https://cloud.google.com/appengine/docs/standard/nodejs/quickstart</a>

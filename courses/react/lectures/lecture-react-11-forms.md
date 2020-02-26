@@ -6,7 +6,7 @@
 
 #### Input elements and state
 
-* <script type="text/template">In HTML <input>, <textarea> and <select></script> has their own state and updates when interacted with.
+* In HTML ```<input>```, ```<textarea>``` and ```<select>``````</script>``` has their own state and updates when interacted with.
 * When a form is submitted in HTML → redirected to a new page by default.
 * In react we keep the state in component state.
 

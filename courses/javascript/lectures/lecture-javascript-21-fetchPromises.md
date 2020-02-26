@@ -141,7 +141,7 @@ promise1.then(function(value) {
 ```
 	
 
----				
+---
 
 #### Promises
 	
@@ -160,7 +160,7 @@ promise1.catch(function(error) {
 ```
 	
 
----			
+---
 	
 #### Promise
 <img style="width: 800px;" src="/media/javascript-images/javascript-21/promise.png" alt="promise">

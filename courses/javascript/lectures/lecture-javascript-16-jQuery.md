@@ -49,14 +49,6 @@ How would you do this with vanilla JS?
 * <a href="https://code.jquery.com/">CDN's</a>
 * npm ```npm install jquery --save```
 
-
----
-
-#### jQuery source code
-
-<img style="margin-top: 0px;" src="/media/javascript-images/javascript-16/jquery.png" alt="jquery source code">
-
-
 ---
 
 ####  Inspect jQuery
