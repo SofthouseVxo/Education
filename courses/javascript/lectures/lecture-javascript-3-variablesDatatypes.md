@@ -125,7 +125,7 @@ greeting = 12;
 
 ---
 
-#### JavaScript is case sensitive</h4>
+#### JavaScript is case sensitive
 
 * In JavaScript we use the camelCase naming convention.
 * All names start with a letter.
@@ -161,12 +161,12 @@ console.log(x); /* will log 5 */
 #### Numeric data type
 
 ```JavaScript
-	var myValue = 10;
-	var mySecondValue = 0,55;
-	var myThirdValue  = -324;
+var myValue = 10;
+var mySecondValue = 0,55;
+var myThirdValue  = -324;
 
-	var result = myValue + mySecondValue;
-	// result is 10,55
+var result = myValue + mySecondValue;
+// result is 10,55
 ```
 
 
@@ -245,7 +245,7 @@ typeof 12; // number
 
 ---
 
-#### Primitive values</h4>
+#### Primitive values
 
 * The data we've covered so far (except null) are primitive data values meaning that they are simple and have no additional properties and methods
 * The typeof operator can return one of these primitive types:
@@ -258,7 +258,7 @@ typeof 12; // number
 
 ---
 
-#### Non-Primitive values</h4>
+#### Non-Primitive values
 
 * Non-primitve values can have additional properties and methods:
   * Arrays
@@ -306,7 +306,7 @@ var myStr = 'hello';
 
 ---
 
-#### Debugging</h4>
+#### Debugging
 
 * Alert, Prompt - shows a modal
 * Console.log( ) - logs in the developer console in browser
@@ -352,7 +352,7 @@ console.log(typeof myValue);
 
 ---
 
-#### Debugger in Devtools</h4>
+#### Debugger in Devtools
 
 * Setting breakpoints.
 * Stepping.
@@ -383,7 +383,7 @@ var name = 'John Doe'; // Single line comment
 
 ---
 
-#### Why use comments?</h4>
+#### Why use comments?
 
 * Comments should be used to explain what your code does (documentation).
 * This can make the code easier to read, not just for yourself but for others as well!
@@ -391,7 +391,7 @@ var name = 'John Doe'; // Single line comment
 
 ---
 
-#### Documentations</h4>
+#### Documentations
 
 * <a href="https://www.w3schools.com/js/default.asp" target="_blank">W3schools</a>
 * <a href="https://developer.mozilla.org/sv-SE/" target="_blank">MDN</a>

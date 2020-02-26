@@ -90,8 +90,7 @@ vary from document to document and data structure can be changed over time"
 * Structured Query Language (SQL) is a standard.
 * Many xQLs available.
 
----	
-
+---
 
 #### Indexing
 "Indexes are used to quickly locate data without having to search every row in a

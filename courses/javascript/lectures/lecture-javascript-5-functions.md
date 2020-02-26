@@ -51,7 +51,7 @@ function makeSandwich(lettuce, cheese, bread) {
 
 ####  Basic function
 ```JavaScript
-  function sayHello() {
+function sayHello() {
   alert('hello world!');
 };
 ```
@@ -65,7 +65,7 @@ function makeSandwich(lettuce, cheese, bread) {
 * When a function is invoked the code inside it will run.
 
 ```JavaScript
-  function sayHello() {
+function sayHello() {
   alert('hello world!')
 };
 

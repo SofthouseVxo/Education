@@ -2,7 +2,7 @@
 #### Introduction
 
 ---
-#### Who am I?</h4>
+#### Who am I?
 * Jonas Eckerström
 * Konsult på Softhouse Småland
 * Jobbar som Arkitekt
@@ -16,17 +16,17 @@
 
 ---
 
-#### Syfte</h4>
+#### Syfte
 * Kursen syftar till att studerande utvecklar specialiserade kunskaper och färdigheter i konstruktion och användning av web API:er.
   * konstruera API:er
   * Integrera mot tjänster (konsumera API:er)
   * Persistera data (lagra i databas)
 
 ---
-#### Se Kursplan</h4>
+#### Se Kursplan
 
 ---
-#### Litteratur</h4>
+#### Litteratur
 
 * Web Development with Node and Express, 1st edition
   * kompletterande inte tvingande
@@ -37,7 +37,7 @@
   * MERN - Mongo Express React Node
 
 ---
-#### Kommunikation</h4>
+#### Kommunikation
 * Jag är här för er, inte tvärt om
 * Var på plats, respektera varandra tider (speciellt pauser)
 * Om det är otydligt, ställ frågor

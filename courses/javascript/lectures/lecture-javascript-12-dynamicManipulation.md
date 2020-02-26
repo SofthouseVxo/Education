@@ -15,13 +15,13 @@
 --- 
 
 #### Browser Object Model(BOM)
-<img style="margin-top: 0px; width: 600px;" src="/media/javascript-images/javascript-8/bom.png" alt="Browser Object Model">
+<img src="/media/javascript-images/javascript-8/bom.png" alt="Browser Object Model">
 
 
 ---
 
 #### DOM/Node tree
-<img style="margin-top: 0px;" src="/media/javascript-images/javascript-8/domtree.png" alt="dom - object model">
+<img src="/media/javascript-images/javascript-8/domtree.png" alt="dom - object model">
 
 
 ---

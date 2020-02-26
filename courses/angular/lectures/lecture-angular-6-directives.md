@@ -161,8 +161,3 @@ export class TwoWayComponent {
 ---
 
 #### Example of creating your own directive
-
-
----
-
-

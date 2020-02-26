@@ -1,10 +1,10 @@
-### 13.HTML & CSS</h3>
-#### Responsive web design</h5>
+### 13.HTML & CSS
+#### Responsive web design
 
 
 ---
 
-#### What is a responsive web design?</h4>
+#### What is a responsive web design?
 
 * The layout changes depending on the screensize and resolution that the user has
 * Responsive web design makes your web page look good on all devices.
@@ -21,7 +21,7 @@
 
 ---
 
-#### Different techniques</h4>
+#### Different techniques
 
 * Fluid grids, columns and sections has relative values (%)
 * Flexbox & CSS grid
@@ -32,7 +32,7 @@
 
 ---
 
-#### Viewport</h4>
+#### Viewport
 
 * The viewport is the user's visible area of a web page.
 * The viewport will be smaller on a mobile phone than on a computer screen.
@@ -56,7 +56,7 @@
 
 ---
 
-#### Grid view</h4>
+#### Grid view
 
 * A grid-view, means that the page is divided into columns
 * A responsive grid-view often has 12 columns, and has a total width of 100%, and will shrink and expand as you resize the browser window.
@@ -65,7 +65,7 @@
 
 ---
 
-#### 12 column grid</h4>
+#### 12 column grid
 
 <img src="/media/html-css-images/html-css-13/grid.png" alt="gid">
 
@@ -148,7 +148,7 @@
 ---
 
 
-#### @media Rule</h4>
+#### @media Rule
 
 Can be used to check:
 
@@ -179,13 +179,13 @@ Can be used to check:
 
 ---
 
-#### Media rules needs to be placed beneath the style they effect.</h4>
+#### Media rules needs to be placed beneath the style they effect.
 
 
 ---
       
 
-#### Mobile first</h4>
+#### Mobile first
 
 * Mobile First means designing for mobile before designing for desktop or any other device.
 * Instead of changing styles when the width gets smaller, we should change the design when the width gets larger.
@@ -248,13 +248,13 @@ Can be used to check:
 
 ---
 
-#### Multiple breakpoints</h4>
+#### Multiple breakpoints
 <a href="https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_col-s">Example</a>
 
 
 ---
 
-#### It is not uncommon to build two versions of the entire site/app</h4>
+#### It is not uncommon to build two versions of the entire site/app
 
 * Mobile - https://mobil.blocket.se/
 * Desktop - https://www.blocket.se/

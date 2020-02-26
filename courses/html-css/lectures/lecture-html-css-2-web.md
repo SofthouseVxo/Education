@@ -9,7 +9,7 @@
 * A computer network is basically computers communicating (sending text, files).
 * The most basic computer network is two desktop computers connected via cable.
 
-<img style="width: 600px;" src="/media/html-css-images/html-css-2/basic-network.png" alt="client server communication">
+<img src="/media/html-css-images/html-css-2/basic-network.png" alt="client server communication">
 
 
 ---
@@ -20,13 +20,13 @@
 * A set of rules or guidelines for how computers communicate (sending data).
 * Examples are: TCP/IP, HTTP, HTTPS, FTP.
 	
-<img style="width: 600px;" src="/media/html-css-images/html-css-2/protocol.png" alt="client server communication">
+<img src="/media/html-css-images/html-css-2/protocol.png" alt="client server communication">
 
 
 ---
 
 #### Local network
-<img style="width: 600px;" src="/media/html-css-images/html-css-2/local-network.png" alt="client server communication">
+<img src="/media/html-css-images/html-css-2/local-network.png" alt="client server communication">
 
 
 ---
@@ -36,7 +36,7 @@
 * The internet is a global system of interconnected computer networks.
 * It uses the Internet protocol suite (TCP/IP).
 
-<img style="width: 600px;" src="/media/html-css-images/html-css-2/internet.png" alt="client server communication">
+<img src="/media/html-css-images/html-css-2/internet.png" alt="client server communication">
 
 
 ---
@@ -59,13 +59,13 @@
 * It could be on a Desktop computer, tablet, phone etc.
 
 
-<img style="width: 600px;"  src="/media/html-css-images/html-css-2/client.png" alt="client server communication">
+<img  src="/media/html-css-images/html-css-2/client.png" alt="client server communication">
 
 
 ---
 
 #### IP adresses
-<img style="width: 600px;" src="/media/html-css-images/html-css-2/ip.png" alt="client server communication">
+<img src="/media/html-css-images/html-css-2/ip.png" alt="client server communication">
 
 
 ---
@@ -85,7 +85,7 @@
 ---
 
 #### Domain Name System DNS
-<img style="width: 600px;" src="/media/html-css-images/html-css-2/dns.png" alt="client server communication">
+<img src="/media/html-css-images/html-css-2/dns.png" alt="client server communication">
 
 
 ---
@@ -105,7 +105,7 @@
 $ traceroute www.google.se
 ```
 
-<img style="width: 600px;" src="/media/html-css-images/html-css-2/routers.png" alt="client server communication">
+<img src="/media/html-css-images/html-css-2/routers.png" alt="client server communication">
 
 
 ---

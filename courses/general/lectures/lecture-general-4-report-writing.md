@@ -49,9 +49,7 @@
 
 #### Referenser
 * Upp till er vilken metod ni vill använda.
-* Jag använder och föredrar <a href="https://www.hb.se/Biblioteket/Skriva-och-referera/Referera-till-kallor/Guide-till-Harvardsystemet/NYA-Harvardsystemet
-
----kort-introduktion/">Harvard</a>
+* Jag använder och föredrar <a href="https://www.hb.se/Biblioteket/Skriva-och-referera/Referera-till-kallor/Guide-till-Harvardsystemet/NYA-Harvardsystemet/kort-introduktion/">Harvard</a>
 * <a href="https://hv.se.libguides.com/referera">Varför refererar vi?</a>
 
 
@@ -60,8 +58,3 @@
 
 #### Inlämning
 ##### Spara och skicka ALLTID in som PDF
-
-
-
----
-

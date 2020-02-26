@@ -17,7 +17,7 @@
 
 #### Course Literature
 
-* **<a href="https://www.bokus.com/bok/9781118907443/web-design-with-html-css-javascript-and-jquery-set/">HTML and CSS</a>** - Design and Build Websites <br>(Jon Duckett)
+* **<a href="https://www.bokus.com/bok/9781118907443/web-design-with-html-css-javascript-and-jquery-set/">HTML and CSS</a>** - Design and Build Websites <br/>(Jon Duckett)
 
 
 
@@ -55,8 +55,3 @@
 #### Browsers
 
 * I will mainly run examples in Mozilla Firefox.
-
-
-
----
-

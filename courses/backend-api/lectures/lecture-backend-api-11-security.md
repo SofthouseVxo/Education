@@ -28,24 +28,24 @@
 #### Authentication
 Proof of whom you are:
 
-* Provide credentials</li>
-  * Password + username/email</li>
-  * API key</li>
+* Provide credentials
+  * Password + username/email
+  * API key
 	
-* Social media login</li>
+* Social media login
 
-<img style="width: 400px; margin-left: 50px;" src="/media/backend-api-images/backend-api-11/front.png" alt="drivers license">
+<img src="/media/backend-api-images/backend-api-11/front.png" alt="drivers license">
 
 ---
 
 #### Authorization
 What are you allowed to do:
 
-* Drive a car and a moped class 2.</li>
-* Roles and Access to a system.</li>
+* Drive a car and a moped class 2.
+* Roles and Access to a system.
 
 
-<img style="width: 400px; margin-left: 50px;" src="/media/backend-api-images/backend-api-11/back.png" alt="drivers license">
+<img src="/media/backend-api-images/backend-api-11/back.png" alt="drivers license">
 
 ---
 

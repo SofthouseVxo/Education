@@ -1,5 +1,5 @@
-### 10. Angular</h3>
-#### Routing and Navigation</h5>
+### 10. Angular
+#### Routing and Navigation
 
 
 ---
@@ -9,7 +9,7 @@
 
 ---
 
-### What ways are there to navigate in the browser?</h3>
+### What ways are there to navigate in the browser?
 
 
 ---

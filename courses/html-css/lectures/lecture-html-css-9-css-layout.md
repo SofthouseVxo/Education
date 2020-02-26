@@ -22,7 +22,7 @@
 
 ---
 
-#### <a href="https://the-echoplex.net/flexyboxes/">Flexbox Playground
+#### <a href="https://the-echoplex.net/flexyboxes/">Flexbox Playground</a>
 
 
 ---
@@ -54,6 +54,3 @@
 ---
 
 #### <a href="https://cssgridgarden.com/#sv" target="_blank">Practicing CSS grid (cssgridgarden.com)</a>
-
-
----

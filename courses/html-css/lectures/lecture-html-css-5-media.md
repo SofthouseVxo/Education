@@ -68,20 +68,6 @@
 >
 ```
 
-
-
----
-
-#### HTML Image example
-<img
-  title="Squirrel"
-  width="400px"
-  height="300px"
-  src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Squirrel_posing.jpg"
-  alt="Squirrel"
->
-
-
 ---
 
 #### Placing an image

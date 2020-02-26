@@ -1,5 +1,5 @@
-### 11. Angular</h3>
-#### Forms</h5>
+### 11. Angular
+#### Forms
 
 
 ---
@@ -148,7 +148,7 @@ export class User {
 
 ---
 
-### Check Template driven Forms examples on Github!</h3>
+### Check Template driven Forms examples on Github!
 
 
 ---
@@ -193,7 +193,7 @@ Each change to the form state returns a new state, which maintains the integrity
 
 ---
 
-### Check Reactive Forms examples on Github!</h3>
+### Check Reactive Forms examples on Github!
 
 
 ---

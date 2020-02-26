@@ -101,7 +101,7 @@
 ---
 
 #### So how do you get a high ranking?
-#### And end up at the top results when someone search for something related to your business?</h5>
+#### And end up at the top results when someone search for something related to your business?
 
 
 ---
@@ -163,7 +163,7 @@
 
 ---
 
-#### User friendly Content - Guidelines from AdSight</h5>
+#### User friendly Content - Guidelines from AdSight
 
 * At least 1 000 – 2 500+ words desribing the subject.
 * Keyword needs to be in the title.

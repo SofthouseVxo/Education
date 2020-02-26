@@ -65,23 +65,6 @@
 <input type="password" name="password" />
 ```
 
-
-
----
-
-#### Input elements
-<input type="text" name="username" maxlength="15"/>
-<br>
-<br>
-<input type="email" name="email"/>
-<br>
-<br>
-<input type="password" name="password" />
-<br>
-<br>
-
-
-
 ---
 
 ####  Labels and placeholders
@@ -95,25 +78,6 @@
 <input type="password" name="password" />
 ```
 
-
-
----
-
-#### Labels and placeholders
-<label style="font-size: 12px;" for="username">Username:</label>
-<input type="text" name="username" maxlength="15" label="username"/>
-<br>
-<br>
-<label style="font-size: 12px;" for="email">Email:</label>
-<input style="margin-left: 24px;" type="email" name="email" placeholder="Email.."/>
-<br>
-<br>
-<label style="font-size: 12px;" for="password">Password:</label>
-<input style="margin-left: 1px;" type="password" name="password" />
-<br>
-<br>
-
-
 ---
 
 ####  ```<textarea>``` element
@@ -125,14 +89,6 @@
 Enter your comments here...
 </textarea>
 ```
-
-
-
----
-
-#### Textarea
-<textarea name="comments" cols="40" rows="6">Enter your comments here...</textarea>
-
 
 ---
 
@@ -148,20 +104,6 @@ Enter your comments here...
 </form>
 ```
 
-
-
----
-
-#### Radio buttons
-<form action="https://www.myserver.something.php" method="get">
-  <input type="radio" name="animal" value="cow" checked="checked"/> cow
-  <br>
-  <input type="radio" name="animal" value="pig" /> pig
-  <br>
-  <input type="radio" name="animal" value="chicken" /> chicken
-</form>
-
-
 ---
 
 ####  Checkboxes
@@ -175,21 +117,6 @@ Enter your comments here...
   <input type="checkbox" name="animal" value="pig" /> chicken
 </form>
 ```
-
-
-
----
-
-#### Checkboxes
-<form action="https://www.myserver.something.php" method="get">
-  <input type="checkbox" name="animal" value="cow" checked="checked"/> cow
-  <br>
-  <input type="checkbox" name="animal" value="pig" checked="checked"/> pig
-  <br>
-  <input type="checkbox" name="animal" value="pig" /> chicken
-</form>
-
-
 
 ---
 
@@ -208,21 +135,6 @@ Enter your comments here...
 </form>
 ```
 
-
-
----
-
-#### Dropdown list
-<form action="http://www.somesite.com/somedoc.php">
-  <p>What is your favorite fruit?</p>
-  <select name="fruits">
-    <option value="apple">Apple</option>
-    <option value="orange">Orange</option>
-    <option value="lemon">Lemon</option>
-  </select>
-</form>
-
-
 ---
 
 ####  File upload
@@ -236,18 +148,6 @@ Enter your comments here...
   <input type="submit" value="Upload" />
 </form>
 ```
-
-
-
----
-
-#### File upload
-<form action="http://www.somesite.com/somedoc.php" method="post">
-  <p>Upload your profile picture</p>
-  <input type="file" name="user-profile" /><br />
-  <input type="submit" value="Upload" />
-</form>
-
 
 ---
 
@@ -263,22 +163,6 @@ Enter your comments here...
 </form>
 ```
 
-
-
----
-<!--<section>
-#### Submit button
-
-  * Check in devtools (network -> XHR)
-
-<form action="http://www.somesite.com/somedoc.php" method="get">
-  <input type="text" name="username"/>
-  <input type="submit" name="submit" value="submit"/>
-</form>
-
-
------>
-
 ####  Date input
 ```<input type="date"/>```
 
@@ -288,17 +172,6 @@ Enter your comments here...
   <input type="submit" name="submit" value="submit"/>
 </form>
 ```
-
-
-
----
-
-#### Date input
-<form action="http://www.somesite.com/somedoc.php">
-  <input type="date" name="startdate"/>
-  <input type="submit" name="submit" value="submit"/>
-</form>
-
 
 ---
 
@@ -312,18 +185,6 @@ Enter your comments here...
 </form>
 ```
 
-
-
----
-
-#### Email & Url
-<form action="http://www.somesite.com/somedoc.php">
-  <input type="email" name="email"/>
-  <input type="url" name="url"/>
-  <input type="submit" name="submit" value="submit"/>
-</form>
-
-
 ---
 
 ####  Form validation
@@ -336,17 +197,6 @@ Enter your comments here...
   <input type="submit" name="submit" value="submit"/>
 </form>
 ```
-
-
-
----
-
-#### Form validation
-<form action="http://www.somesite.com/somedoc.php" method="post">
-  <input required="required" type="text" name="username"/>
-  <input type="submit" name="submit" value="submit"/>
-</form>
-
 
 ---
 

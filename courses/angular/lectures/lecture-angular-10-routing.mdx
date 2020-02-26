@@ -6,8 +6,8 @@ export const theme = {
   ...customTheme
 }
 
-### 10. Angular</h3>
-#### Routing and Navigation</h5>
+### 10. Angular
+#### Routing and Navigation
 
 
 ---
@@ -17,7 +17,7 @@ export const theme = {
 
 ---
 
-### What ways are there to navigate in the browser?</h3>
+### What ways are there to navigate in the browser?
 
 
 ---
@@ -39,7 +39,7 @@ export const theme = {
 
 ####  Setting up the router
 
-* Add a <base> element to the index.html as the first child in the ```head```. 
+* Add a ```<base>``` element to the index.html as the first child in the ```head```. 
 * This tells the router how to compose navigation URLs.
 
 ```HTML
@@ -178,15 +178,15 @@ this.router.navigate(['/user']);
 ```JavaScript
 import { ActivatedRoute } from '@angular/router';
 
-export class UserComponent implements OnInit {
-constructor(private route: ActivatedRoute) {
-}
+  export class UserComponent implements OnInit {
+    constructor(private route: ActivatedRoute) {
+  }
 
-ngOnInit() {
- this.route.params.subscribe(params => {
-   console.log(params.id); // since :id was set in the module
- })
-}
+  ngOnInit() {
+    this.route.params.subscribe(params => {
+      console.log(params.id); // since :id was set in the module
+    })
+  }
 }
 ```
 

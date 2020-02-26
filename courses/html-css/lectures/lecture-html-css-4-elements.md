@@ -86,19 +86,6 @@
 </ol>
 ```
 
-
-
----
-
-#### Ordered List</h4>
-<ol>
-<li>John Doe</li>
-<li>Jane Doe</li>
-<li>Panda da panda</li>
-<li>Joy</li>
-</ol>
-
-
 ---
 
 ####  Unordered List
@@ -112,19 +99,6 @@
 </ul>
 ```
 
-
-
----
-
-#### Unordered List</h4>
-<ul>
-<li>John Doe</li>
-<li>Jane Doe</li>
-<li>Panda da panda</li>
-<li>Joy</li>
-</ul>
-
-
 ---
 
 ####  Definition List
@@ -135,8 +109,6 @@
   <dd>Grundenheten för massa i Internationella måttenhetssystemet (SI)</dd> <!-- element to describe the term in a description list -->
 </dl>
 ```
-
-
 
 ---
 
@@ -157,28 +129,9 @@
 </ol>
 ```
 
-
-
 ---
 
-#### Nested lists</h4>
-<ol>
-<li>John Doe</li>
-<li>Jane Doe
-  <ul>
-    <li>Madonna</li>
-    <li>2pac</li>
-    <li>Iggy Pop</li>
-  </ul>
-</li>
-<li>Panda da panda</li>
-<li>Joy</li>
-</ol>
-
-
----
-
-#### HTML Links - Hyperlinks</h4>
+#### HTML Links - Hyperlinks
 
 * Links allow users to click their way from page to page.
 * Links can link from one website to another.
@@ -217,7 +170,7 @@
 
 ---
 
-#### File structure</h4>
+#### File structure
 <img  src="/media/html-css-images/html-css-4/folder.png" alt="files structure">
 
 
@@ -305,35 +258,9 @@ The target attribute specifies where to open the linked document.
 </table>
 ```
 
-
-
 ---
 
-####  Table structure
-
-<!-- Basic Table Structure -->
-<table> <!-- creates the table -->
-<tr> <!-- Start of a row -->
-  <th>Column1</th> <!-- Cell of that row (table header) -->
-  <th>Column2</th> <!-- Cell of that row (table data) -->
-  <th>Column3</th> <!-- Cell of that row (table data) -->
-</tr> <!-- End of a row -->
-<tr>
-  <td>45</td>
-  <td>60</td>
-  <td>45</td>
-</tr>
-<tr>
-  <td>60</td>
-  <td>90</td>
-  <td>90</td>
-</tr>
-</table>
-
-
----
-
-#### colspan & rowspan</h4>
+#### colspan & rowspan
 <img  src="/media/html-css-images/html-css-4/table.png" alt="rowspan and colspan">
 
 

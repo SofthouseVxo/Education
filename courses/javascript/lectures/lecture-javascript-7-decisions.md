@@ -1,10 +1,10 @@
-### 7. JavaScript</h3>
-#### Decisions</h5>
+### 7. JavaScript
+#### Decisions
 
 
 ---
 
-#### Decisions</h4>
+#### Decisions
 
 * When writing applications we often need to evaluate if some conditions are met.
 * Depending on if they are we need to make decisions on how to proceed.
@@ -12,7 +12,7 @@
 
 ---
 
-#### Real world example</h4>
+#### Real world example
 
 * Should I buy a new jacket today? (Decision)
 * IF the store has a green jacket? (Condition)
@@ -37,7 +37,7 @@ if(jacket === 'green'){
 
 ---
 
-#### Evaluate & Decide</h4>
+#### Evaluate & Decide
 
 * **Evaluation** - analyse/check if values are the same, equal etc.
 * **Decision** - decide what to do depending on the result of the evaluation.
@@ -354,7 +354,7 @@ switch(expression) {
 
 ---
 
-#### Handling Errors</h4>
+#### Handling Errors
 
 * Errors can be:
   * Coding errors made by the programmer.
@@ -365,7 +365,7 @@ switch(expression) {
 
 ---
 
-#### Handling errors</h4>
+#### Handling errors
 
 * The **try** statement lets you test a block of code for errors.
 * The **catch** statement lets you handle the error.
@@ -463,7 +463,7 @@ finally {
 
 ---
 
-#### Difference between try catch and if statements</h4>
+#### Difference between try catch and if statements
 
 * if/else: you check for conditions and parameters that influence your program’s execution.
 * if-else, you're expecting a specific kind of error or condition that may come from within your code.

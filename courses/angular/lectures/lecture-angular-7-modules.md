@@ -1,5 +1,5 @@
-### 7. Angular</h3>
-#### Modules</h5>
+### 7. Angular
+#### Modules
 
 
 ---
@@ -122,7 +122,3 @@ export class AppModule { }
 
 * Bootstrapped root component.
 * A component you specify in a route definition.
-
-
----
-

@@ -1,5 +1,5 @@
-### 5. Angular</h3>
-#### Components and styles, lifecycles etc.</h5>
+### 5. Angular
+#### Components and styles, lifecycles etc.
 
 
 ---

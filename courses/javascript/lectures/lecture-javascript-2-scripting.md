@@ -1,5 +1,5 @@
-### 2. JavaScript</h3>
-#### Scripting / Programming</h5>
+### 2. JavaScript
+#### Scripting / Programming
 
 
 ---
@@ -364,4 +364,4 @@ The above is called Direct, this can be also be done asynchronosly, meaning the 
 
 ---
 
-### <a href="https://github.com/SofthouseVxo/Education" target="_blank">Github examples!</a></h3>
+### <a href="https://github.com/SofthouseVxo/Education" target="_blank">Github examples!</a>
