@@ -5,12 +5,12 @@
 * code
   * example code for each course
 * courses
-  * <course>
-    * Lectures
-    * Exercises
-    * Exams
-    * Assignments
-    * Codealongs
+   * course
+      * lectures
+      * exercises
+      * exams
+      * assignments
+      * codealongs
 
 ### Available courses
 
