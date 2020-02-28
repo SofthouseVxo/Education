@@ -1,11 +1,10 @@
 # Courses
 
-[Lecture](/courses/javascript/lectures/lecture-javascript-1-intro.md)
 
 * [HTML & CSS](/courses/html-css)
-* JavaScript
-* UX
-* Angular
-* React
-* Backend APIs
-* General lectures
+* [JavaScript](/courses/javascript)
+* [UX](/courses/ux)
+* [Angular](/courses/angular)
+* [React](/courses/react)
+* [Backend APIs](/courses/backend-apis)
+* [General lectures](/courses/general)
