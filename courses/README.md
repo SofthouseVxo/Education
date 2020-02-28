@@ -6,5 +6,5 @@
 * [UX](/courses/ux)
 * [Angular](/courses/angular)
 * [React](/courses/react)
-* [Backend APIs](/courses/backend-apis)
+* [Backend APIs](/courses/backend-api)
 * [General lectures](/courses/general)
