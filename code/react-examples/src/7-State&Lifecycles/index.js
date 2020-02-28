@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 import Clock from './components/Clock';
 import ParentComponent from './components/ParentComponent';
 
-class App extends Component {
+class StateLifecycles extends Component {
 
   constructor(props){
     super(props);
@@ -21,18 +21,22 @@ class App extends Component {
   setTimer(){
     setTimeout(()=>{
       // Sets a new state
-      this.setState({showClock: false})
+      this.setState({showClock: false}, ()=>{
+        console.log('inside callback', this.state);
+      }) 
     }, 5000)
   }
 
   render() {
+
+    console.log(this.state);
     return (
       <Fragment>
-        { this.state.showClock ? <Clock/> : null }
+        {/* { this.state.showClock ? <Clock/> : null } */}
         <ParentComponent />
       </Fragment>
     );
   }
 }
 
-export default App;
+export default StateLifecycles;

@@ -13,6 +13,7 @@ class ListEventComponent extends Component {
     console.log('happens');
 
     let updatedUsers = this.state.users.filter((user,index) => index !== userIndex);
+    
     this.setState({users: updatedUsers});
   }
 
