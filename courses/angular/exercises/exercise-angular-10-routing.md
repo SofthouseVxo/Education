@@ -62,7 +62,7 @@ Testa så att det fungerar och att "start-page works!" skrivs ut på sidan. Vi h
  Vi har nu navigerat med hjälp av att skriva in något i adressfältet, men det går även att navigera med hjälp av länkar och i våra klasser. 
  
 13. Gå till start-page.component.html och lägg in följande:<br/>
-```<a>profile</a>``` och lägg till ```routerLink="/profile" routerLinkActive="active"``` som attribut i denna.
+```<a routerLink="/profile" routerLinkActive="active">profile</a>```
 
 14. Testar vi nu detta så ser vi att det har skapats en länk om vi går till “/" i startpage. ```routerLinkActive``` gör så att om denna routen är aktiv så får länken klassen “active".
 
@@ -100,7 +100,6 @@ export class StartPageComponent implements OnInit {
 
 Denna skall vi nu skriva ut med hjälp av direktivet ```*ngFor```, och det är en lista med länkar vi vill skriva ut. Lägg till nedan i ```news-flow.component.html```
 
-**OBS! ```ngfor``` skall vara ```ngFor```
 ```
 <ul>
  <li *ngFor="let article of news">

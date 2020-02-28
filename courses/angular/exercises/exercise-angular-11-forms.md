@@ -27,7 +27,6 @@ Detta är vår modell. Dvs Såhär kommer vi user se ut när vi gör formuläret
 
 7. Nu är det dags att skapa vårt formulär. Detta gör vi genom att lägga till följande i ```my-form.component.html```
 </br></br>
-**OBS!** ```(ngsubmit)``` & ```[(ngmodel)]``` skall vara ```(ngSubmit)``` och ```[(ngModel)]``` nedan.
 ```
 <h1>User Form</h1>
 <form (ngSubmit)="onSubmit()" #userForm="ngForm">
@@ -101,8 +100,6 @@ onSubmit():void {
 [https://angular.io/api/forms/Validators](https://angular.io/api/forms/Validators)
 
 Så i ```my-form.component.html``` lägger vi till de markerade spara och test knappen.
-
-**OBS!** ```[(ngmodel)]``` och ```minlength``` skall vara ```(ngSubmit)``` och ```minLength``` nedan.
 
 ```
 <label for="firstName">First Name</label>
