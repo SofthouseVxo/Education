@@ -6,7 +6,7 @@
 * Introduction to Course
 * Course Literature
 
-#### Reading instructions:
+#### Links:
 * [Lecture](/courses/javascript/lectures/lecture-javascript-1-intro.md)
 
 ## 
