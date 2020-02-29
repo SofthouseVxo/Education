@@ -1,16 +1,16 @@
 export default {
-  googleFont: 'https://fonts.googleapis.com/css?family=Open+Sans&display=swap',
+  googleFont: 'https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap',
   fonts: {
     body: '"Open Sans", sans-serif',
   },
   colors: {
-    text: '#4B5161',
-    background: '#FAF7F2',
+    text: '#444',
+    background: '#fff',
     primary: '#fff',
   },
   fontWeights: {
-    heading: 600,
-    bold: 600,
+    // heading: 600,
+    // bold: 600,
   },
   styles: {
     root: {
@@ -51,20 +51,24 @@ export default {
     ul: {
       // fontSize: 'em',
       alignSelf: 'flex-start',
+      marginBlockStart: '0',
+      marginBlockEnd: '0',
     },
     ol: {
       // fontSize: 'em',
       alignSelf: 'flex-start',
     },
     li: {
-      marginTop: '0.6em'
+      marginTop: '0.6em',
+      fontSize: '0.8em'
     },
     h3: {
       alignSelf: 'flex-start',
+      fontSize: '1.2em'
     },
     h4: {
       alignSelf: 'flex-start',
-      fontSize: '1.2em',
+      // fontSize: '1.2em',
       marginBlockStart: '.8em',
       marginBlockEnd: '.8em',
 
