@@ -95,10 +95,12 @@
 * Function components
 * Class components
 * Props
+* Composition
 
 #### Reading instructions:
 * <a href="https://reactjs.org/docs/rendering-elements.html">React docs - Rendering elements</a>
 * <a href="https://reactjs.org/docs/components-and-props.html">React docs - Components & Props</a>
+* <a href="https://reactjs.org/docs/composition-vs-inheritance.html">Composition vs Inheritance</a>
 
 #### Links
 * [Exercise](/courses/react/exercises/exercise-react-6-elementsComponents.md)
