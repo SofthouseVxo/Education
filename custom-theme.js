@@ -42,7 +42,7 @@ export default {
     },
     img: {
       marginTop: '10px',
-      maxWidth: '900px',
+      maxWidth: '1200px',
       height: 'auto',
       alignSelf: 'flex-start',
       display: 'block',
@@ -60,7 +60,7 @@ export default {
     },
     li: {
       marginTop: '0.6em',
-      fontSize: '0.8em'
+      fontSize: '1em'
     },
     h3: {
       alignSelf: 'flex-start',
