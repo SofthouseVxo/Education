@@ -209,6 +209,7 @@
 
 #### Reading instructions:
 * <a href="https://reactjs.org/docs/forms.html" target="_blank">React docs - forms</a>
+* <a href="https://www.w3schools.com/react/react_forms.asp">W3Schools react forms</a>
 
 #### Links
 * [Exercise](/courses/react/exercises/exercise-react-11-forms.md)
