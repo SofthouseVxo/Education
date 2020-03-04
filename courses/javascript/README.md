@@ -1,5 +1,31 @@
 # JavaScript
 
+1. [Javascript Intro (FE)](/courses/javascript/lectures/lecture-javascript-1-intro.md)
+2. [Scripting/Programming](/courses/javascript/lectures/lecture-javascript-2-scripting.md)
+3. [Variables & Data types](/courses/javascript/lectures/lecture-javascript-3-variablesDatatypes.md)
+4. [Arrays & Operators](/courses/javascript/lectures/lecture-javascript-4-arraysOperators.md)
+5. [Functions](/courses/javascript/lectures/lecture-javascript-5-functions.md)
+6. [Scopes](/courses/javascript/lectures/lecture-javascript-6-scopes.md)
+7. [Decisions](/courses/javascript/lectures/lecture-javascript-7-decisions.md)
+8. [Loops](/courses/javascript/lectures/lecture-javascript-8-loops.md)
+9. [Objects](/courses/javascript/lectures/lecture-javascript-9-objects.md)
+10. [This](/courses/javascript/lectures/lecture-javascript-10-this.md)
+11. [Document Object Model](/courses/javascript/lectures/lecture-javascript-11-DOM.md)
+12. [Dynamic manipulation](/courses/javascript/lectures/lecture-javascript-12-dynamicManipulation.md)
+13. [Dynamic styling](/courses/javascript/lectures/lecture-javascript-13-dynamicStyling.md)
+14. [Events](/courses/javascript/lectures/lecture-javascript-14-events.md)
+15. [AJAX & REST](/courses/javascript/lectures/lecture-javascript-15-ajaxRest.md)
+16. [jQuery](/courses/javascript/lectures/lecture-javascript-16-jQuery.md)
+17. [Handling Forms](/courses/javascript/lectures/lecture-javascript-17-forms.md)
+18. [Browser APIs](/courses/javascript/lectures/lecture-javascript-18-browserApis.md)
+19. [Useful methods](/courses/javascript/lectures/lecture-javascript-19-usefulMethods.md)
+20. [Classes and OOP](/courses/javascript/lectures/lecture-javascript-20-classes.md)
+21. [Fetch & Promises](/courses/javascript/lectures/lecture-javascript-21-fetchPromises.md)
+22. [Prototypes & Modules](/courses/javascript/lectures/lecture-javascript-22-prototypesModules.md)
+23. External Resources
+
+## 
+
 ### 1. Javascript Intro (FE)
 
 #### Content:

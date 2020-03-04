@@ -1,5 +1,18 @@
 # UX
 
+1. [UX intro](new/new-structure/ux/lectures/lecture-ux-1-introduction.md)
+2. [Design - Processen](new/new-structure/ux/lectures/lecture-ux-2-design.md)
+3. [User Experience](new/new-structure/ux/lectures/lecture-ux-3-user-experience.md)
+4. [Strategi & Scope](new/new-structure/ux/lectures/lecture-ux-4-strategy-scope.md)
+5. [Användarcentrerad Design](new/new-structure/ux/lectures/lecture-ux-5-user-centered.md)
+6. [Wireframes & Prototyper](new/new-structure/ux/lectures/lecture-ux-6-wireframes-prototypes.md)
+7. [Testa & Utvärdera](new/new-structure/ux/lectures/lecture-ux-7-test-evaluation.md)
+8. [Bilder & Bildformat](new/new-structure/ux/lectures/lecture-ux-8-images.md)
+9. [Hantera bilder (Photoshop)](new/new-structure/ux/lectures/lecture-ux-9-image-editing.md)
+10. [Prototyping (Adobe XD)](new/new-structure/ux/lectures/lecture-ux-10-prototyping.md)
+
+## 
+
 ### 1. UX intro 
 
 #### Content:
@@ -68,7 +81,7 @@
 * <a href="https://www.justinmind.com/blog/capturing-ux-requirements-in-6-simple-steps/" target="_blank">Capturing requirements</a>
 
 #### Links:
-* [Lecture](new/new-structure/ux/lectures/lecture-ux-4-strategy-scope.md)'
+* [Lecture](new/new-structure/ux/lectures/lecture-ux-4-strategy-scope.md)
 
 ## 
 
@@ -92,7 +105,7 @@
 
 #### Links
 * [Exercise](new/new-structure/ux/exercises/exercise-ux-5-users.md)
-* [Lecture](new/new-structure/ux/lectures/lecture-ux-5-user-centered.md)'
+* [Lecture](new/new-structure/ux/lectures/lecture-ux-5-user-centered.md)
 
 ## 
 
@@ -180,7 +193,7 @@
 * <a href="https://www.photoshopessentials.com/basics/" target="_blank">Photoshop essentials övningar</a>
 
 #### Links:
-* [Lecture](new/new-structure/ux/lectures/lecture-ux-9-image-editing.md)'
+* [Lecture](new/new-structure/ux/lectures/lecture-ux-9-image-editing.md)
 
 ## 
 

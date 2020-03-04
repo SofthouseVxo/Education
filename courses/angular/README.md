@@ -1,5 +1,21 @@
 # Angular
 
+1. [Angular intro](/courses/angular/lectures/lecture-angular-1-intro.md)
+2. [Angular prerequisites](/courses/angular/lectures/lecture-angular-2-prerequisites.md)
+3. [Angular overview](/courses/angular/lectures/lecture-angular-3-overview.md)
+4. [Components](/courses/angular/lectures/lecture-angular-4-components.md)
+5. [Components cont.](/courses/angular/lectures/lecture-angular-5-components-cont.md)
+6. [Directives](/courses/angular/lectures/lecture-angular-6-directives.md)
+7. [Modules](/courses/angular/lectures/lecture-angular-7-modules.md)
+8. [Pipes](/courses/angular/lectures/lecture-angular-8-pipes.md)
+9. [Services](/courses/angular/lectures/lecture-angular-9-services.md)
+10. [Routing](/courses/angular/lectures/lecture-angular-10-routing.md)
+11. [Forms](/courses/angular/lectures/lecture-angular-11-forms.md)
+12. [HttpClient & RxJS basics](/courses/angular/lectures/lecture-angular-12-httpRxjs.md)
+13. Extra
+
+## 
+
 ### 1. Angular intro
 
 #### Content:
@@ -183,7 +199,7 @@
 
 ## 
 
-11. Forms
+### 11. Forms
 
 #### Content:
 * Angular forms
