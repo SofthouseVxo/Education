@@ -1,13 +1,22 @@
 ### 13. React
 #### Basic Hooks
 
+---
+
+#### Hooks
+
+* Hooks are something that let you write Functional Components and still hook into class-based features and use them.
 
 ---
 
-* Completely opt-in. You can try Hooks in a few components without rewriting any existing code. But you don't have to learn or use Hooks right now if you don't want to.
-* 100% backwards-compatible. Hooks don't contain any breaking changes.
-* Available with the release of v16.8.0 (12 months ago).
+#### What was missing in functional components before?
 
+---
+
+#### What was missing in functional components before?
+
+* State
+* Lifecycle methods
 
 ---
 
@@ -148,3 +157,9 @@ export default function MyComponent(props) {
 * useLayoutEffect
 * useDebugValue
 * <a href="https://reactjs.org/docs/hooks-reference.html" target="_blank">Api Reference</a>
+
+---
+
+* Completely opt-in. You can try Hooks in a few components without rewriting any existing code. But you don't have to learn or use Hooks right now if you don't want to.
+* 100% backwards-compatible. Hooks don't contain any breaking changes.
+* Available with the release of v16.8.0 (12 months ago).

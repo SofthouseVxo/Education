@@ -28,7 +28,7 @@
 ```JavaScript
 constructor(props) {
   super(props); // Always pass props to base constructor
-  this.state = {name: 'John Doe};
+  this.state = {name: 'John Doe'};
 }
 ```
 
@@ -116,7 +116,7 @@ this.setState(
 
 ```JavaScript
 this.setState({
-    key: {
+  key: {
     key: value
   }
 });

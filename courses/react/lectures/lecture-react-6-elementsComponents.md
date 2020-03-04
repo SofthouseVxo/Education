@@ -145,8 +145,8 @@ class Welcome extends React.Component {
 <MyFirstComponent/>
 ```
 ```JavaScript
-function MyFirstComponent(props, children) {
-  return children;
+function MyFirstComponent(props) {
+  return props.children;
 }
 ```
 

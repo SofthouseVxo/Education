@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import withSubscription from '../../X-AdvancedComposition/HOCS/withSubscription';
+import withSubscription from '../HOCS/withSubscription';
 
 class MainProvider extends Component {
 

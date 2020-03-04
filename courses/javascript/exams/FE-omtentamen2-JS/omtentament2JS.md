@@ -28,7 +28,7 @@ Tentamen innehåller 11 uppgifter och maxpoäng är **36p**
 
 Man kan få poäng på påbörjade uppgifter.
 
-### Inlämning/Redovisningde
+### Inlämning/Redovisning
 
 Inlämning sker genom att ni skapar en JavaScript fil som ni döper till **omtentamen2_js_<tre_första_bokstäverna_förnamn>_<tre_första_bokstäverna_efternamn>.js** och denna skickar ni in på pingpong.
 
