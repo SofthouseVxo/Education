@@ -3,7 +3,7 @@ import Top from './components/Top';
 
 import MainProvider from './components/MainProvider';
 
-class App extends Component {
+class Advanced extends Component {
   render() {
     return (
       <Fragment>
@@ -17,4 +17,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Advanced;

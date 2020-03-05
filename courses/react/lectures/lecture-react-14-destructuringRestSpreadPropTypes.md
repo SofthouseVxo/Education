@@ -1,5 +1,5 @@
 ### 14. React
-#### Destructuring, Rest & Spread
+#### Destructuring, Rest, Spread & Proptypes
 #### JavaScript ES6
 
 
@@ -37,8 +37,7 @@ myFunc({id: 1, name: 'robin', age: 12, gender: 'male'});
 * The spread operator, takes either an array or an object and expands it into its set of items.
 * Spreading was introduces with JS6.
 * Commonly used in react applications.
-* The spread syntax is three dots ...
-
+* The spread syntax are the three dots ...
 
 ---
 
@@ -181,3 +180,92 @@ console.log(address); // address is not defined
 ---
 
 #### Spread attributes can be useful but they also make it easy to pass unnecessary props to components that don't care about them or to pass invalid HTML attributes to the DOM. We recommend using this syntax sparingly. - <a href="https://reactjs.org/docs/jsx-in-depth.html#spread-attributes">React Documentation</a>
+
+---
+
+#### PropTypes
+* Typechecking Proptypes.
+* Setting up what kind of props is can be passed in.
+* https://www.npmjs.com/package/prop-types
+
+```
+npm install --save prop-types
+```
+
+comes with create-react-app
+
+---
+
+####  PropTypes function component
+```JavaScript
+import PropTypes from 'prop-types';
+
+function MyComponent(props) {
+  render() {
+    return (
+      <h1>Hello, {props.name}</h1>
+    );
+  }
+}
+
+MyComponent.propTypes = {
+  name: PropTypes.string // throws a warning if name is not a string
+};
+```
+
+---
+
+####  PropTypes class component
+```JavaScript
+import PropTypes from 'prop-types';
+
+class MyComponent extends React.Component {
+  render() {
+    return (
+      <h1>Hello, {this.props.name}</h1>
+    );
+  }
+}
+
+MyComponent.propTypes = {
+  name: PropTypes.string // throws a warning if name is not a string
+};
+```
+
+
+
+---
+
+####  PropTypes class component using static keyword
+
+```JavaScript
+import PropTypes from 'prop-types';
+
+class MyComponent extends React.Component {
+  static propTypes = {
+    name: PropTypes.string // throws a warning if name is not a string
+  }
+
+  render() {
+    return (
+      <h1>Hello, {this.props.name}</h1>
+    );
+  }
+}
+```
+
+
+---
+
+####  PropTypes
+
+```JavaScript
+MyComponent.propTypes = {
+  name: PropTypes.string
+};
+
+// will display a warning if name is not passed as props
+MyComponent.propTypes = {
+  name: PropTypes.string.isRequired
+};
+```

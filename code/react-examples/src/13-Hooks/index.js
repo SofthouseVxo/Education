@@ -3,29 +3,18 @@ import React, { Component, Fragment } from 'react';
 import FunctionState from './components/FunctionState.js';
 import ClassState from './components/ClassState.js';
 
-class Hooks extends Component {
+import { useCustomHook } from './useCustomHook';
 
-  constructor(props){
-    super(props);
+function Hooks () {
 
-    this.state = {
-      visible: true
-    }
-  }
+  const isOnline = useCustomHook(false);
 
-  render() {
-    return (
-      <Fragment>
-        { this.state.visible &&
-        <Fragment>
-          <FunctionState someProps={this.state.visible}/>
-          {/* <ClassState someProps={this.state.visible}/> */}
-        </Fragment> }
-
-        <button onClick={()=>{this.setState({visible: !this.state.visible})}}>Toggle</button>
-       </Fragment>
-    );
-  }
+  return (
+    <Fragment>
+      {isOnline && <FunctionState someProps={isOnline}/>}
+      {/* <ClassState someProps={isOnline}/> */}
+    </Fragment>
+  );
 }
 
 export default Hooks;

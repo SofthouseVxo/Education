@@ -13,8 +13,8 @@
 11. [ Forms](/courses/react/lectures/lecture-react-11-forms.md)
 12. [ React Router](/courses/react/lectures/lecture-react-12-router.md)
 13. [ Hooks](/courses/react/lectures/lecture-react-13-hooks.md)
-14. [ Destructuring, Rest & Spread](/courses/react/lectures/lecture-react-14-destructuringRestSpread.md)
-15. [ HOCs, Context & PropTypes](/courses/react/lectures/lecture-react-15-HOCsContextProptypes.md)
+14. [ Destructuring, Rest & Spread](/courses/react/lectures/lecture-react-14-destructuringRestSpreadPropTypes.md)
+15. [ HOCs, Context & PropTypes](/courses/react/lectures/lecture-react-15-sharingLogic.md)
 16. [ Global state & Redux](/courses/react/lectures/lecture-react-16-redux.md)
 17. Extra
 
@@ -259,6 +259,7 @@
 * Rest
 * Spread
 * Arrays & Objects
+* Proptypes
 
 #### Reading instructions:
 * <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment" target="_blank">Destructuring MDN Reference</a>
@@ -266,28 +267,29 @@
 * <a href="https://www.geeksforgeeks.org/javascript-spread-operator/" target="_blank">Spread</a>
 * <a href="https://medium.com/javascript-in-plain-english/es6-spread-parameter-vs-rest-operator-5e3c924c4e1f" target="_blank">Difference between rest and spread</a>
 * <a href="https://www.carlrippon.com/writing-concise-react-components-with-destructure-assignment-and-spread/" target="_blank">In react</a>
+* <a href="https://reactjs.org/docs/typechecking-with-proptypes.html">proptypes - React docs</a>  
 
 #### Links
-* [Exercise](/courses/react/exercises/exercise-react-14-destructuringRestSpread.md)
-* [Lecture](/courses/react/lectures/lecture-react-14-destructuringRestSpread.md)
+* [Exercise](/courses/react/exercises/exercise-react-14-destructuringRestSpreadPropTypes.md)
+* [Lecture](/courses/react/lectures/lecture-react-14-destructuringRestSpreadPropTypes.md)
 
 ## 
 
-### 15. HOCs, Context & PropTypes
+### 15. Sharing Logic
 
 #### Content:
 * Higher order components
+* Render props
 * Context
-* Proptypes
 
 #### Reading instructions:
 * <a href="https://reactjs.org/docs/higher-order-components.html">Higher order components - React Docs </a>
 * <a href="https://reactjs.org/docs/context.html">Context - React Docs</a>
-* <a href="https://reactjs.org/docs/typechecking-with-proptypes.html">proptypes - React docs</a>        
+      
 
 #### Links
-* [Exercise](/courses/react/exercises/exercise-react-15-HOCsContextProptypes.md)
-* [Lecture](/courses/react/lectures/lecture-react-15-HOCsContextProptypes.md)
+* [Exercise](/courses/react/exercises/exercise-react-15-sharingLogic.md)
+* [Lecture](/courses/react/lectures/lecture-react-15-sharingLogic.md)
 
 ## 
 

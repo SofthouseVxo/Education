@@ -1,4 +1,4 @@
-## 15. React - HOC's och PropTypes
+## 15. React - Sharing Logic
 
 I denna övningsuppgift skall ni få träna att använda Higher order components och typechecking med proptypes
 

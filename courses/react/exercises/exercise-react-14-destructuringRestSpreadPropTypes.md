@@ -1,4 +1,4 @@
-##  14. React - Destructoring, Rest & Spread
+##  14. React - Destructoring, Rest, Spread & PropTypes
 
 1. Skapa en ny ```index.js``` fil.
 

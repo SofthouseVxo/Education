@@ -2,15 +2,16 @@ import React, { Component } from 'react';
 // import JSX from './5-JSX';
 // import ElementsComponents from './6-Elements&Components';
 // import StateLifecycles from './7-State&Lifecycles';
-import Events from './8-Events';
+// import Events from './8-Events';
 // import Styling from './9-Styling';
 // import LiftingStateComposition from './11-LiftingStateComposition';
 // import ReactRouting from './12-ReactRouting';
-// import Hooks from './13-Hooks';
-// import HOCSAndProptypes from './15-HOCS&PropTypes';
+import Hooks from './13-Hooks';
+// import HOCs from './15-HOCs';
+// import RenderProps from './15-RenderProps';
 // import UsingContext from './15-Context';
 // import Reduxer from './16-Redux';
-// import AdvancedCompositing from './X-AdvancedComposition';
+// import Advanced from './X-Advanced';
 
 import './App.css';
 
@@ -35,13 +36,14 @@ class App extends Component {
         {/* <JSX/> */}
         {/* <ElementsComponents/> */}
         {/* <StateLifecycles/> */}
-        <Events/>
+        {/* <Events/> */}
         {/* <Styling/> */}
         {/* <ReactRouting/> */}
-        {/* <Hooks/> */}
-        {/* <HOCSAndProptypes/> */}
+        <Hooks/>
+        {/* <HOCs/> */}
+        {/* <RenderProps/> */}
         {/* <UsingContext/> */}
-        {/* <AdvancedCompositing/> */}
+        {/* <Advanced/> */}
 
         {/* Make sure to fix setup in index.js before using redux */}
         {/* <Reduxer/> */}

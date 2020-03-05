@@ -15,7 +15,7 @@ export default function FunctionState(props) {
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
     // Update the document title using the browser API
-    console.log('user Effect runs');
+    console.log('user Effect runs when something updates');
   });
 
   useEffect(() => {

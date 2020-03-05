@@ -1,19 +1,23 @@
-import { themes } from 'mdx-deck';
-import customTheme from '../../../custom-theme';
-
-export const theme = {
-  ...themes.highlight,
-  ...customTheme
-}
-
-import img1 from '../../../media/react-images/react-15/context.png';
-
-
 ### 15. React
-#### Higher Order Components (HOC's), Context & PropTypes
-
+#### Sharing logic & Context
+##### Higher Order Components (HOC's) & Render prop
 
 ---
+
+
+#### Sharing state logic
+
+* When we want to share code between components.
+* But not using inheritance.
+
+---
+
+#### Three ways of doing this
+
+* HOCs
+* Render prop
+* Hooks
+
 
 ####  Higher Order Component (HOC)
 * Technique in React for reusing component logic.
@@ -24,11 +28,9 @@ import img1 from '../../../media/react-images/react-15/context.png';
 const EnhancedComponent = higherOrderComponent(WrappedComponent);
 ```
 
-
 ---
 
 #### We can use HOC's when we have different components rendering different things but some implementation is the same.
-
 
 ---
 
@@ -121,11 +123,64 @@ render() {
 
 #### HOC Examples
 
+---
+
+#### Render prop
+
+* The term “render prop” refers to a technique for sharing code between React components using a prop whose value is a function.
+
+* A component with a render prop takes a function that returns a React element and calls it instead of implementing its own render logic.
+
+---
+
+#### Render prop example
+
+1. The render prop is a function which returns a react element (in this case a component(child)).
+1. The render prop functions takes an parameter and pass this to child.
+1. This means that if we call prop.render('12'). Child will be rendered with '12' as data.
+1. This way the logic in wrapper is shared between components that are passed as a render prop.
+
+```JavaScript
+return (
+  <Wrapper render={data => {
+    return <Child data={data}/>
+  }}/>
+)
+```
+
+#### Render prop example
+
+App.js
+```JavaScript
+return (
+  <Wrapper render={data => {
+    return <Child data={data}/>
+  }}/>
+)
+```
+
+In Wrapper.js
+```JavaScript
+{this.props.render('12')}
+```
+
+In Child.js
+```JavaScript
+return (
+  <div>
+    <p>{props.data.name}</p>
+    <p>{props.data.age}</p>
+  </div>
+)
+```
+
+---
+
+####  Render Props examples on github
 
 ---
 
 #### Context
-
 
 ---
 
@@ -135,13 +190,12 @@ render() {
 * Is a way to pass data through the component tree without having to pass props down manually at every level.
 * Instead of Component →  props →  Component →  Props → Component
 * Examples on what to place in context: Current authenticated user, UI Theme, Language
-* <u>Always give it an extra thought before usage, since it makes component reuse more difficult.</u>
-
+* **Always give it an extra thought before usage, since it makes component reuse more difficult.**
 
 ---
 
 #### Context
-<img src={img1} alt="context"/>
+<img style="width: 800px;" src="/media/react-images/react-15/context.png" alt="context">
 
 
 ---
@@ -219,100 +273,6 @@ static contextType = ThemeContext;
 theme={this.context}
 ```
 
-
 ---
 
 #### Context Examples
-
-
----
-  
-#### PropTypes
-* Typechecking Proptypes.
-* Setting up what kind of props is can be passed in.
-* https://www.npmjs.com/package/prop-types
-
-```
-npm install --save prop-types
-```
-
-comes with create-react-app
-  
-
----
-
-####  PropTypes function component
-```JavaScript
-import PropTypes from 'prop-types';
-
-function MyComponent(props) {
-  render() {
-    return (
-      <h1>Hello, {props.name}</h1>
-    );
-  }
-}
-
-MyComponent.propTypes = {
-  name: PropTypes.string // throws a warning if name is not a string
-};
-```
-
-
-
----
-
-####  PropTypes class component
-```JavaScript
-import PropTypes from 'prop-types';
-
-class MyComponent extends React.Component {
-  render() {
-    return (
-      <h1>Hello, {this.props.name}</h1>
-    );
-  }
-}
-
-MyComponent.propTypes = {
-  name: PropTypes.string // throws a warning if name is not a string
-};
-```
-
-
-
----
-
-####  PropTypes class component using static keyword
-
-```JavaScript
-import PropTypes from 'prop-types';
-
-class MyComponent extends React.Component {
-  static propTypes = {
-    name: PropTypes.string // throws a warning if name is not a string
-  }
-
-  render() {
-    return (
-      <h1>Hello, {this.props.name}</h1>
-    );
-  }
-}
-```
-
-
----
-
-####  PropTypes
-
-```JavaScript
-MyComponent.propTypes = {
-  name: PropTypes.string
-};
-
-// will display a warning if name is not passed as props
-MyComponent.propTypes = {
-  name: PropTypes.string.isRequired
-};
-```

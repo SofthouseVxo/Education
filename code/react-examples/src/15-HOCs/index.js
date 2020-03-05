@@ -5,7 +5,7 @@ import Main from './components/Main';
 import Bottom from './components/Bottom';
 import Timer from './components/Timer';
 
-class HOCSAndProptypes extends Component {
+class HOCs extends Component {
   render() {
 
     const objectFromApp = {
@@ -27,4 +27,4 @@ class HOCSAndProptypes extends Component {
   }
 }
 
-export default HOCSAndProptypes;
+export default HOCs;
