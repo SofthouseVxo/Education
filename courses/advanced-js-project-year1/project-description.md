@@ -42,6 +42,7 @@ Ni skall presentera er applikation, applikationens design samt hur ni har jobbat
   * https://api.softhouse.rocks
   * https://developer.spotify.com/documentation/web-api/quick-start/
   * https://developers.google.com/maps/documentation/javascript/tutorial
+* Lista på flera svenska apier: [http://apikatalogen.se/](http://apikatalogen.se/)
 * Applikationen skall fylla ett syfte, där användaren kan interagera med applikationen, exempelvis:
   * Få information, navigera i denna information.
   * Editera denna information, personifiera information eller filtrera denna.
