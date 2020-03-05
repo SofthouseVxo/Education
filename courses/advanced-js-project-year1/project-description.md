@@ -39,7 +39,7 @@ Ni skall presentera er applikation, applikationens design samt hur ni har jobbat
 * Ni skall med hjälp av ett API utveckla er applikation där ni hämtar och använder data.
 * Förslag på API:
   * https://openweathermap.org/appid#get
-  * https://api.softhouse.rocks
+  * https://petstore.swagger.io/?url=https://api.softhouse.rocks/swagger.yaml
   * https://developer.spotify.com/documentation/web-api/quick-start/
   * https://developers.google.com/maps/documentation/javascript/tutorial
 * Lista på flera svenska apier: [http://apikatalogen.se/](http://apikatalogen.se/)
