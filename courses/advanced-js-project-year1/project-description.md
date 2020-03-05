@@ -101,9 +101,9 @@ Rapporten skall hålla en god nivå på språk, tydlighet samt struktur (Använd
 #### Godkänt:
 * Uppfyller samtliga krav beskrivet under rubrikerna "krav på applikation" samt "krav på rapport".
 
-Väl Godkänt:
+#### Väl Godkänt:
 
-    Applikation håller en hög kvalitet då det kommer till tekniska lösningar, komponentstruktur etc.
-    Visar ingående förståelse för designprocessen och dess delar samt presenterar detta tydligt med anknytning till relevanta källor.
-    Presenterar ett välplanerat gränssnitt som är användarvänligt och visuellt genomarbetat.
-    Använder eventuellt mer avancerade tekniker utöver vad som fördjupats tidigare kurs. Exempelvis redux, RxjS etc.
+* Applikation håller en hög kvalitet då det kommer till tekniska lösningar, komponentstruktur etc.
+* Visar ingående förståelse för designprocessen och dess delar samt presenterar detta tydligt med anknytning till relevanta källor.
+* Presenterar ett välplanerat gränssnitt som är användarvänligt och visuellt genomarbetat.
+* Använder eventuellt mer avancerade tekniker utöver vad som fördjupats tidigare kurs. Exempelvis redux, RxjS etc.
