@@ -1,5 +1,15 @@
 # Softhouse Educational Resources
 
+## Links to Courses
+
+* [HTML & CSS](/courses/html-css)
+* [JavaScript](/courses/javascript)
+* [UX](/courses/ux)
+* [Angular](/courses/angular)
+* [React](/courses/react)
+* [Backend APIs](/courses/backend-api)
+* [General lectures](/courses/general)
+
 ## Overview
 
 * code
@@ -52,14 +62,6 @@ $ node present.js --type=angular --lecture=4
 * react
 * backend-api
 
-### Links to Courses
 
-* [HTML & CSS](/courses/html-css)
-* [JavaScript](/courses/javascript)
-* [UX](/courses/ux)
-* [Angular](/courses/angular)
-* [React](/courses/react)
-* [Backend APIs](/courses/backend-api)
-* [General lectures](/courses/general)
 
 #### Copyright Softhouse Consulting AB 2020 Ⓒ
