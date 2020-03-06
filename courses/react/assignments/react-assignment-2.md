@@ -9,11 +9,11 @@ I denna uppgift skall ni arbeta med react och de delar denna uppgift täcker är
 * Hooks
 * Fetch - GET & POST
 
-Vi bygger vidare på uppgift I denna applikation skall vi skapa en routing och vi skall kunna navigera emellan olika "screens", dessa är komponenter. Vi skall även arbeta emot ett REST-API som Jonas på Softhouse har skapat, utifrån JSONPlaceholder API't.
+Vi bygger vidare på applikationen ni skapade i uppgift 1. Men nu skall vi skapa en routing för att kunna navigera mellan olika "screens", dessa är komponenter. Vi skall även arbeta emot ett REST-API som Jonas på Softhouse har skapat, utifrån JSONPlaceholder API't.
 
 API: [https://api.softhouse.rocks](https://api.softhouse.rocks)
 
-Detta API har 2 Routes:
+Detta API har två routes:
 
 * ```/users```
 * ```/posts```
@@ -23,18 +23,18 @@ Se swaggern för att testa och få en överblick av vad man kan göra med API't:
 När vi använder APIt får vi tillbaka en ```readableStream```, istället för JSON direkt för att hantera responsen behöver vi då göra lite extra så för responsen på alla era anrop kommer ni köra följande:
 
 ```
-<Promise returned from fetch)
+<Promise returned from fetch>
  .then((res)=> res.json()
  .then((res)=> HÄR FINNS ER RESPONS SOM JSON))
 ```
 
-Applikationen skall bestå tre skärmar:
+Applikationen skall bestå tre screens:
 
 * DashboardScreen
 * LoginScreen
 * UserScreen
 
-### Film finns för guidning bifogad på ping pong.
+#### Film finns för guidning bifogad på ping pong.
 
 ### För betyget Godkänd krävs följande:
 
@@ -55,11 +55,11 @@ Applikationen skall bestå tre skärmar:
 * Det skall nu vara möjligt att lägga till en användare som skickas till vår backend (POST) och sparas i databasen.
 * UI uppdateras med ny användare om POST'en gick igenom.
 * Skicka även in en rapport på minst en A4 sida (400 ord) där du tar upp följande:
-  * Beskriv vad en Higher order component är. Vad är dess syfte och när skall man använda dem?
-  * Vad är skillnaden mellan ett lokalt/globalt state?
-  * Vad är redux och dess syfte?
-  * Skall man lägga allt i det globala statet? Varför, varför inte?
-  * Vad är viktigt att tänka på när man tänker använda context?
+   * Beskriv vad en Higher order component är. Vad är dess syfte och när skall man använda dem?
+   * Vad är skillnaden mellan ett lokalt/globalt state?
+   * Vad är redux och dess syfte?
+   * Skall man lägga allt i det globala statet? Varför, varför inte?
+   * Vad är viktigt att tänka på när man tänker använda context?
 
 För att formuläret inte skall bli för komplext fokuserar vi endast på 3 inputfält och mockar resten, se nedan.
 
@@ -94,7 +94,7 @@ const newUser = {
 }
 ```
 
-Utöver ovanstående oavsett betyg skall applikationen uppfylla följande:
+### Utöver ovanstående oavsett betyg skall applikationen uppfylla följande:
 
 * När man kör applikationen med ```npm start``` alternativt ```yarn start``` skall applikationen byggas helt utan felmeddelande.
 * Varje komponent (klass, funktion) ni skriver skall innehålla en kort beskrivning av dess funktionalitet.
@@ -116,7 +116,7 @@ Checklista inför inlämning:
 * Alla mina klasser och metoder har kommenterats (förklaring på vad de gör och innehåller)
 * Min komponentstruktur följer nedan mönster där först i listan är längst upp
 
-Komponentstruktur:
+#### Komponentstruktur:
 ```
 Imports { }
 Class
