@@ -7,8 +7,8 @@ Uppgiften består av att ni skall skapa Komponenter som kommunicerar och delar d
 
 ### För betyget Godkänd krävs följande:
 
-1. Komponentstrukturen skall följa vad som presenteras i bild "Komponentstruktur" i denna mapp, där metoder delas upp i komponenterna som visas i "flödesschema".
-1. Applikationen skall bete sig som den som presenteras i filmen bifogad i denna mapp. D.v.s. det skall vara möjligt att lägga till användare, ta bort användare (det räcker att ta bort sista användaren i listan). Det skall även vara möjligt att ändra färg på användarna genom att klicka på en "toggle" knapp.
+1. Komponentstrukturen skall följa vad som presenteras i bild "Komponentstruktur" i mappen på ping pong, där metoder delas upp i komponenterna som visas i "flödesschema".
+1. Applikationen skall bete sig som den som presenteras i filmen bifogad på pong pong. Dvs det skall vara möjligt att lägga till användare, ta bort användare (det räcker att ta bort sista användaren i listan). Det skall även vara möjligt att ändra färg på användarna genom att klicka på en "toggle" knapp.
 1. Applikationen skall ha samma struktur rent visuellt som exemplet i filmen.  Utöver detta har ni fria händer när det kommer till styling (ni får använda bibliotek om så önskas).
 
 Utöver ovanstående skall applikationen uppfylla följande:
