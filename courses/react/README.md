@@ -18,7 +18,7 @@
 16. [ Global state & Redux](/courses/react/lectures/lecture-react-16-redux.md)
 17. Extra
 
-## 
+---
 
 ### 1. React introduction
 
@@ -29,7 +29,7 @@
 #### Links
 * [Lecture](/courses/react/lectures/lecture-react-1-intro.md)
 
-## 
+---
 
 ### 2. React prerequisites
 
@@ -50,7 +50,7 @@
 * [Exercise](/courses/react/exercises/exercise-react-2-prerequisites.md)
 * [Lecture](/courses/react/lectures/lecture-react-2-prerequisites.md)
 
-## 
+---
 
 ### 3. React overview
 
@@ -65,7 +65,7 @@
 * [Exercise](/courses/react/exercises/exercise-react-3-overview.md)
 * [Lecture](/courses/react/lectures/lecture-react-3-overview.md)
 
-## 
+---
 
 ### 4. Functional programming
 
@@ -91,7 +91,7 @@
 * [Exercise](/courses/react/exercises/exercise-react-4-functional.md)
 * [Lecture](/courses/react/lectures/lecture-react-4-functional.md)
 
-## 
+---
 
 ### 5. JSX
 
@@ -106,7 +106,7 @@
 * [Exercise](/courses/react/exercises/exercise-react-5-jsx.md)
 * [Lecture](/courses/react/lectures/lecture-react-5-jsx.md)
 
-## 
+---
 
 ### 6. Elements & Components
 
@@ -127,7 +127,7 @@
 * [Exercise](/courses/react/exercises/exercise-react-6-elementsComponents.md)
 * [Lecture](/courses/react/lectures/lecture-react-6-elementsComponents.md)
 
-## 
+---
 
 ### 7. State & Lifecycles
 
@@ -147,7 +147,7 @@
 * [Exercise](/courses/react/exercises/exercise-react-7-stateLifecycle.md)
 * [Lecture](/courses/react/lectures/lecture-react-7-stateLifecycle.md)
 
-## 
+---
 
 ### 8. Events
 
@@ -165,7 +165,7 @@
 * [Exercise](/courses/react/exercises/exercise-react-8-events.md)
 * [Lecture](/courses/react/lectures/lecture-react-8-events.md)
 
-## 
+---
 
 ### 9. Styling & Assets
 
@@ -180,7 +180,7 @@
 * [Exercise](/courses/react/exercises/exercise-react-9-stylingAssets.md)
 * [Lecture](/courses/react/lectures/lecture-react-9-stylingAssets.md)
 
-## 
+---
 
 ### 10. Conditional Rendering & lists
 
@@ -198,7 +198,7 @@
 * [Exercise](/courses/react/exercises/exercise-react-10-conditionalLists.md)
 * [Lecture](/courses/react/lectures/lecture-react-10-conditionalLists.md)
 
-## 
+---
 
 ### 11. Forms
 
@@ -215,7 +215,7 @@
 * [Exercise](/courses/react/exercises/exercise-react-11-forms.md)
 * [Lecture](/courses/react/lectures/lecture-react-11-forms.md)
 
-## 
+---
 
 ### 12. React Router
 
@@ -234,7 +234,7 @@
 * [Exercise](/courses/react/exercises/exercise-react-12-router.md)
 * [Lecture](/courses/react/lectures/lecture-react-12-router.md)
 
-## 
+---
 
 ### 13. Hooks
 
@@ -250,7 +250,7 @@
 * [Exercise](/courses/react/exercises/exercise-react-13-hooks.md)
 * [Lecture](/courses/react/lectures/lecture-react-13-hooks.md)
 
-## 
+---
 
 ### 14. Destructuring, Rest & Spread
 
@@ -273,7 +273,7 @@
 * [Exercise](/courses/react/exercises/exercise-react-14-destructuringRestSpreadPropTypes.md)
 * [Lecture](/courses/react/lectures/lecture-react-14-destructuringRestSpreadPropTypes.md)
 
-## 
+---
 
 ### 15. Sharing Logic
 
@@ -291,7 +291,7 @@
 * [Exercise](/courses/react/exercises/exercise-react-15-sharingLogic.md)
 * [Lecture](/courses/react/lectures/lecture-react-15-sharingLogic.md)
 
-## 
+---
 
 ### 16. Global state & Redux
 
@@ -314,7 +314,7 @@
 * [Exercise](/courses/react/exercises/exercise-react-16-redux.md)
 * [Lecture](/courses/react/lectures/lecture-react-16-redux.md)
 
-## 
+---
 
 ### Extra
 
