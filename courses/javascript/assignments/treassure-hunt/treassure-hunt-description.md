@@ -23,8 +23,9 @@ Uppgiften är uppdelad i två delar, där första delen består endast av logik 
 
 ### Uppgift del 2
 
-I education repot på Github ligger det nu 3 filer i mappen treasure-hunt. Dessa är index.html, style.css, index.js samt en mapp med bilder. Den enda fil ni skall röra är index.js. Inuti index.js finns lite funktioner som kan fungera lite som guidning, notera att dessa är inte ett måste att använda!
-För betyget Godkänd krävs följande:
+I denna mapp här på Github ligger tre filer. Dessa är ```index.html```, ```style.css```, ```index.js``` samt en mapp med bilder. Den enda fil ni skall röra är ```index.js```. Inuti ```index.js``` finns funktioner som kan fungera lite som guidning, notera att dessa är inte ett måste att använda!
+
+### För betyget Godkänd krävs följande:
 
 1. Applikationen skall bete sig som den som presenteras i filmen längst ner på denna sida dvs:
   1. Skatten skall placeras slumpartat i en av skattkistorna.
@@ -33,8 +34,8 @@ För betyget Godkänd krävs följande:
   1. När man klickat på en kista skall det inte gå att klicka vidare utan då måste man trycka på "refresh" knappen för att rendera ut kistorna igen och skatten slumpas ut igen.
 1. Allt innehåll på sidan som inte finns från början i HTML dokumentet skall läggas till dynamiskt med JavaScript.
 1. Ni skall beskriva följande i kommentarer i koden.
-  1. Beskrivning av funktioner.
-  1. Beskrivning av variabler.
+   1. Beskrivning av funktioner.
+   1. Beskrivning av variabler.
 
 #### Pexels guide
 
@@ -57,7 +58,7 @@ xhr.setRequestHeader('Authorization', 'här lägger ni in er API-nyckel');
 
 ```u1_js_pt1_<tre_första_förnamn>_<tre_första_efternamn>.js``` och den andra döper ni till ```u1_js_pt2_<tre_första_förnamn>_<tre_första_efternamn>.js```
 
-### Deadline Söndag 8e December 24:00
+## Deadline Söndag 8e December 24:00
 
 ### Checklista inför inlämning:
 
@@ -69,5 +70,3 @@ xhr.setRequestHeader('Authorization', 'här lägger ni in er API-nyckel');
 * Jag har inte döpt några funktioner eller variabler till svenska namn.
 * Jag använder beskrivande namn på funktioner och variabler (inte för generella).
 * Mitt repo är döpt korrekt.
-
-Kommentera som nedan, det är pingping som gör så att det blir höga radbrytningar nedan, ni har nomala i er kod:
