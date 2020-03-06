@@ -14,7 +14,7 @@
 12. [HttpClient & RxJS basics](/courses/angular/lectures/lecture-angular-12-httpRxjs.md)
 13. Extra
 
-## 
+---
 
 ### 1. Angular intro
 
@@ -26,7 +26,7 @@
 * [Lecture](/courses/angular/lectures/lecture-angular-1-intro.md)
 
 
-## 
+---
 
 ### 2. Angular prerequisites
 
@@ -46,7 +46,7 @@
 * [Lecture](/courses/angular/lectures/lecture-angular-2-prerequisites.md)
 * [Exercise](/courses/angular/lectures/lecture-angular-2-prerequisites.md)
 
-## 
+---
 
 ### 3. Angular overview
 
@@ -66,7 +66,7 @@
 * [Lecture](/courses/angular/lectures/lecture-angular-3-overview.md)
 * [Exercise](/courses/angular/lectures/lecture-angular-3-overview.md)
 
-## 
+---
 
 ### 4. Components
 
@@ -88,7 +88,7 @@
 * [Lecture](/courses/angular/lectures/lecture-angular-4-components.md)
 * [Exercise](/courses/angular/lectures/lecture-angular-4-components.md)
 
-## 
+---
 
 ### 5. Components cont.
 
@@ -106,7 +106,7 @@
 * [Lecture](/courses/angular/lectures/lecture-angular-5-components-cont.md)
 * [Exercise](/courses/angular/lectures/lecture-angular-5-components-cont.md)
 
-## 
+---
 
 ### 6. Directives
 
@@ -123,7 +123,7 @@
 * [Lecture](/courses/angular/lectures/lecture-angular-6-directives.md)
 * [Exercise](/courses/angular/lectures/lecture-angular-6-directives.md)
 
-## 
+---
 
 ### 7. Modules
 
@@ -142,7 +142,7 @@
 * [Lecture](/courses/angular/lectures/lecture-angular-7-modules.md)
 * [Exercise](/courses/angular/lectures/lecture-angular-7-modules.md)
 
-## 
+---
 
 ### 8. Pipes
 
@@ -160,7 +160,7 @@
 * [Lecture](/courses/angular/lectures/lecture-angular-8-pipes.md)
 * [Exercise](/courses/angular/lectures/lecture-angular-8-pipes.md)
 
-## 
+---
 
 ### 9. Services
 
@@ -176,7 +176,7 @@
 * [Lecture](/courses/angular/lectures/lecture-angular-9-services.md)
 * [Exercise](/courses/angular/lectures/lecture-angular-9-services.md)
 
-## 
+---
 
 ### 10. Routing
 
@@ -197,7 +197,7 @@
 * [Lecture](/courses/angular/lectures/lecture-angular-10-routing.md)
 * [Exercise](/courses/angular/lectures/lecture-angular-10-routing.md)
 
-## 
+---
 
 ### 11. Forms
 
@@ -219,7 +219,7 @@
 * [Lecture](/courses/angular/lectures/lecture-angular-11-forms.md)
 * [Exercise](/courses/angular/lectures/lecture-angular-11-forms.md)
 
-## 
+---
 
 ### 12. HttpClient & RxJS basics
 
@@ -239,7 +239,7 @@
 * [Lecture](/courses/angular/lectures/lecture-angular-12-httpRxjs.md)
 * [Exercise](/courses/angular/lectures/lecture-angular-12-httpRxjs.md)
 
-## 
+---
 
 ### Extra
 

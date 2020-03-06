@@ -14,7 +14,7 @@
 12. [Cloud Services](/courses/backend-api/lectures/lecture-backend-api-12-cloud.md)
 13. External Resources 
 
-## 
+---
 
 ### 1. Backend APIs introduction
 
@@ -31,7 +31,7 @@
 #### Links:
 * [Lecture](/courses/backend-api/lectures/lecture-backend-api-1-intro.md)
 
-## 
+---
 
 ### 2. Installing Tools
 
@@ -44,7 +44,7 @@
 #### Links:
 * [Lecture](/courses/backend-api/lectures/lecture-backend-api-2-installing-tools.md)
 
-## 
+---
 
 ### 3. HTTP
 
@@ -58,7 +58,7 @@
 #### Links:
 * [Lecture](/courses/backend-api/lectures/lecture-backend-api-3-http.md)
 
-## 
+---
 
 ### 4. Node.js
 
@@ -70,7 +70,7 @@
 #### Links:
 * [Lecture](/courses/backend-api/lectures/lecture-backend-api-4-nodejs.md)
 
-## 
+---
 
 ### 5. Express
 
@@ -83,7 +83,7 @@
 #### Links:
 * [Lecture](/courses/backend-api/lectures/lecture-backend-api-5-express.md)
 
-## 
+---
 
 ### 6. Persistence 
 
@@ -102,7 +102,7 @@
 #### Links:
 * [Lecture](/courses/backend-api/lectures/lecture-backend-api-6-persistence.md)
 
-## 
+---
 
 ### 7. API Design 
 
@@ -121,7 +121,7 @@
 #### Links:
 * [Lecture](/courses/backend-api/lectures/lecture-backend-api-7-api-design.md)
 
-## 
+---
 
 ### 8. Microservices 
 
@@ -139,7 +139,7 @@
 #### Links:
 * [Lecture](/courses/backend-api/lectures/lecture-backend-api-8-microservices.md)
 
-## 
+---
 
 ### 9. Testing Web APIs 
 
@@ -151,7 +151,7 @@
 #### Links:
 * [Lecture](/courses/backend-api/lectures/lecture-backend-api-9-testing.md)
 
-## 
+---
 
 ### 10. Documenting APIs 
 
@@ -162,7 +162,7 @@
 #### Links:
 * [Lecture](/courses/backend-api/lectures/lecture-backend-api-10-documentation.md)
 
-## 
+---
 
 ### 11. Web API Security 
 
@@ -173,7 +173,7 @@
 #### Links:
 * [Lecture](/courses/backend-api/lectures/lecture-backend-api-11-security.md)
 
-## 
+---
 
 ### 12. Cloud Services 
 
@@ -184,7 +184,7 @@
 #### Links:
 * [Lecture](/courses/backend-api/lectures/lecture-backend-api-12-cloud.md)
 
-## 
+---
 
 ### External Resources 
 

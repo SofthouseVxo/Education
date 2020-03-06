@@ -24,7 +24,7 @@
 22. [Prototypes & Modules](/courses/javascript/lectures/lecture-javascript-22-prototypesModules.md)
 23. External Resources
 
-## 
+---
 
 ### 1. Javascript Intro (FE)
 
@@ -35,7 +35,7 @@
 #### Links:
 * [Lecture](/courses/javascript/lectures/lecture-javascript-1-intro.md)
 
-## 
+---
 
 ### 2. Scripting/Programming
 
@@ -62,7 +62,7 @@
 * [Exercise](/courses/javascript/exercises/exercise-javascript-2-scripting.md)
 * [Lecture](/courses/javascript/lectures/lecture-javascript-2-scripting.md)
 
-## 
+---
 
 ### 3. Variables & Data types
 
@@ -84,7 +84,7 @@
 * [Exercise](/courses/javascript/exercises/exercise-javascript-3-variablesDatatypes.md)
 * [Lecture](/courses/javascript/lectures/lecture-javascript-3-variablesDatatypes.md)
 
-## 
+---
 
 ### 4. Arrays & Operators
 
@@ -106,7 +106,7 @@
 * [Exercise](/courses/javascript/exercises/exercise-javascript-4-arraysOperators.md)
 * [Lecture](/courses/javascript/lectures/lecture-javascript-4-arraysOperators.md)
 
-## 
+---
 
 ### 5. Functions
 
@@ -125,7 +125,7 @@
 * [Exercise](/courses/javascript/exercises/exercise-javascript-5-functions.md)
 * [Lecture](/courses/javascript/lectures/lecture-javascript-5-functions.md)
 
-## 
+---
 
 ### 6. Scopes
 
@@ -143,7 +143,7 @@
 * [Exercise](/courses/javascript/exercises/exercise-javascript-6-scopes.md)
 * [Lecture](/courses/javascript/lectures/lecture-javascript-6-scopes.md)
 
-## 
+---
 
 ### 7. Decisions
 
@@ -168,7 +168,7 @@
 * [Exercise](/courses/javascript/exercises/exercise-javascript-7-decisions.md)
 * [Lecture](/courses/javascript/lectures/lecture-javascript-7-decisions.md)
 
-## 
+---
 
 ### 8. Loops
 
@@ -188,7 +188,7 @@
 * [Exercise](/courses/javascript/exercises/exercise-javascript-8-loops.md)
 * [Lecture](/courses/javascript/lectures/lecture-javascript-8-loops.md)
 
-## 
+---
 
 ### 9. Objects
 
@@ -208,7 +208,7 @@
 * [Exercise](/courses/javascript/exercises/exercise-javascript-9-objects.md)
 * [Lecture](/courses/javascript/lectures/lecture-javascript-9-objects.md)
 
-## 
+---
 
 ### 10. This
 
@@ -227,7 +227,7 @@
 * [Exercise](/courses/javascript/exercises/exercise-javascript-10-This.md)
 * [Lecture](/courses/javascript/lectures/lecture-javascript-10-this.md)
 
-## 
+---
 
 ### 11. Document Object Model
 
@@ -249,7 +249,7 @@
 * [Exercise](/courses/javascript/exercises/exercise-javascript-11-DOM.md)
 * [Lecture](/courses/javascript/lectures/lecture-javascript-11-DOM.md)
 
-## 
+---
 
 ### 12. Dynamic manipulation
 
@@ -268,7 +268,7 @@
 * [Exercise](/courses/javascript/exercises/exercise-javascript-12-dynamicManipulation.md)
 * [Lecture](/courses/javascript/lectures/lecture-javascript-12-dynamicManipulation.md)
 
-## 
+---
 
 ### 13. Dynamic styling
 
@@ -285,7 +285,7 @@
 * [Exercise](/courses/javascript/exercises/exercise-javascript-13-dynamicStyling.md)
 * [Lecture](/courses/javascript/lectures/lecture-javascript-13-dynamicStyling.md)
 
-## 
+---
 
 ### 14. Events
 
@@ -307,7 +307,7 @@
 * [Exercise](/courses/javascript/exercises/exercise-javascript-14-events.md)
 * [Lecture](/courses/javascript/lectures/lecture-javascript-14-events.md)
 
-## 
+---
 
 ### 15. AJAX & REST
 
@@ -333,7 +333,7 @@
 * [Exercise](/courses/javascript/exercises/exercise-javascript-15-ajaxRest.md)
 * [Lecture](/courses/javascript/lectures/lecture-javascript-15-ajaxRest.md)
 
-## 
+---
 
 ### 16. jQuery
 
@@ -356,7 +356,7 @@
 * [Exercise](/courses/javascript/exercises/exercise-javascript-16-jQuery.md)
 * [Lecture](/courses/javascript/lectures/lecture-javascript-16-jQuery.md)
 
-## 
+---
 
 ### 17. Handling Forms
 
@@ -378,7 +378,7 @@
 * [Exercise](/courses/javascript/exercises/exercise-javascript-17-forms.md)
 * [Lecture](/courses/javascript/lectures/lecture-javascript-17-forms.md)
 
-## 
+---
 
 ### 18. Browser APIs
 
@@ -397,7 +397,7 @@
 * [Exercise](/courses/javascript/exercises/exercise-javascript-18-browserApis.md)
 * [Lecture](/courses/javascript/lectures/lecture-javascript-18-browserApis.md)
 
-## 
+---
 
 ### 19. Useful methods
 
@@ -422,7 +422,7 @@
 * [Exercise](/courses/javascript/exercises/exercise-javascript-19-usefulMethods.md)
 * [Lecture](/courses/javascript/lectures/lecture-javascript-19-usefulMethods.md)
 
-## 
+---
 
 ### 20. Classes and OOP
 
@@ -444,7 +444,7 @@
 * [Exercise](/courses/javascript/exercises/exercise-javascript-20-classes.md)
 * [Lecture](/courses/javascript/lectures/lecture-javascript-20-classes.md)
 
-## 
+---
 
 ### 21. Fetch & Promises
 
@@ -463,7 +463,7 @@
 * [Exercise](/courses/javascript/exercises/exercise-javascript-21-fetchPromises.md)
 * [Lecture](/courses/javascript/lectures/lecture-javascript-21-fetchPromises.md)
 
-## 
+---
 
 ### 22. Prototypes & Modules
 
@@ -482,7 +482,7 @@
 * [Exercise](/courses/javascript/exercises/exercise-javascript-22-prototypesModules.md)
 * [Lecture](/courses/javascript/lectures/lecture-javascript-22-prototypesModules.md)
 
-## 
+---
 
 ### External Resources
 

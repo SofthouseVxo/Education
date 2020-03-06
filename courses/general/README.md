@@ -6,20 +6,20 @@
 1. [Git](/courses/genereal/lectures/lecture-genereal-3-git.md)
 1. [Report writing](/courses/genereal/lectures/lecture-genereal-4-report-writing.md)
 
-## 
+---
 
 ### 1. Front End Introduction
 #### content:
 * Intro
 
-## 
+---
 
 ### 2. Solving Puzzles
 #### content:
 * Tips and tricks on how to solve problems
 * Reflection
 
-## 
+---
 
 ### 3. Git
 
@@ -35,7 +35,7 @@
 * <a href="https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud#create-the-repository">Atlassian bitbucket tutorials</a>
 * <a href="https://education.github.com/pack">Github education pack</a>
 
-## 
+---
 
 ### 4. Writing reports
 #### content:

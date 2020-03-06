@@ -11,7 +11,7 @@
 9. [Hantera bilder (Photoshop)](new/new-structure/ux/lectures/lecture-ux-9-image-editing.md)
 10. [Prototyping (Adobe XD)](new/new-structure/ux/lectures/lecture-ux-10-prototyping.md)
 
-## 
+---
 
 ### 1. UX intro 
 
@@ -22,7 +22,7 @@
 #### Links:
 * [Lecture](new/new-structure/ux/lectures/lecture-ux-1-introduction.md)
 
-## 
+---
 
 ### 2. Design - Processen 
 
@@ -40,7 +40,7 @@
 #### Links:
 * [Lecture](new/new-structure/ux/lectures/lecture-ux-2-design.md)
 
-## 
+---
 
 ### 3. User Experience 
 
@@ -62,7 +62,7 @@
 * [Exercise](new/new-structure/ux/exercises/exercise-ux-3-user-experience.md)
 * [Lecture](new/new-structure/ux/lectures/lecture-ux-3-user-experience.md)
 
-## 
+---
 
 ### 4. Strategi & Scope 
 
@@ -83,7 +83,7 @@
 #### Links:
 * [Lecture](new/new-structure/ux/lectures/lecture-ux-4-strategy-scope.md)
 
-## 
+---
 
 ### 5. Användarcentrerad Design 
 
@@ -107,7 +107,7 @@
 * [Exercise](new/new-structure/ux/exercises/exercise-ux-5-users.md)
 * [Lecture](new/new-structure/ux/lectures/lecture-ux-5-user-centered.md)
 
-## 
+---
 
 ### 6. Wireframes & Prototyper 
 
@@ -135,7 +135,7 @@
 * [Exercise](new/new-structure/ux/exercises/exercise-ux-6-wireProto.md)
 * [Lecture](new/new-structure/ux/lectures/lecture-ux-6-wireframes-prototypes.md)
 
-## 
+---
 
 ### 7. Testa & Utvärdera 
 
@@ -158,7 +158,7 @@
 #### Links:
 * [Lecture](new/new-structure/ux/lectures/lecture-ux-7-test-evaluation.md)
 
-## 
+---
 
 ### 8. Bilder & Bildformat 
 
@@ -180,7 +180,7 @@
 * [Exercise](new/new-structure/ux/exercises/exercise-ux-8-images.md)
 * [Lecture](new/new-structure/ux/lectures/lecture-ux-8-images.md)
 
-## 
+---
 
 ### 9. Hantera bilder (Photoshop) 
 
@@ -195,7 +195,7 @@
 #### Links:
 * [Lecture](new/new-structure/ux/lectures/lecture-ux-9-image-editing.md)
 
-## 
+---
 
 ### 10. Prototyping (Adobe XD) 
 

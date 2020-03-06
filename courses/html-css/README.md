@@ -17,7 +17,7 @@
 15. [Bootstrap](/courses/html-css/lectures/lecture-html-css-15-bootstrap.md)
 16. [Debugging](/courses/html-css/lectures/lecture-html-css-16-debugging.md)
 
-## 
+---
 
 ### 1. HTML & CSS Intro (FE)
 
@@ -28,7 +28,7 @@
 #### Links:
 * [Lecture](/courses/html-css/lectures/lecture-html-css-1-intro.md)
 
-## 
+---
 
 ### 2. Basic Network & the web
 
@@ -47,7 +47,7 @@
 * [Exercise](/courses/html-css/exercises/exercise-html-css-2-web.md)
 * [Lecture](/courses/html-css/lectures/lecture-html-css-2-web.md)
 
-## 
+---
 
 ### 3. HTML - Introduction
 
@@ -67,7 +67,7 @@
 * [Exercise](/courses/html-css/exercises/exercise-html-css-3-html-intro.md)
 * [Lecture](/courses/html-css/lectures/lecture-html-css-3-html-intro.md)
 
-## 
+---
 
 ### 4. HTML - Lists, links & tables
 
@@ -90,7 +90,7 @@
 * [Exercise](/courses/html-css/exercises/exercise-html-css-4-elements.md)
 * [Lecture](/courses/html-css/lectures/lecture-html-css-4-elements.md)
 
-## 
+---
 
 ### 5. HTML - Media
 
@@ -111,7 +111,7 @@
 * [Exercise](/courses/html-css/exercises/exercise-html-css-5-media.md)
 * [Lecture](/courses/html-css/lectures/lecture-html-css-5-media.md)
 
-## 
+---
 
 ### 6. CSS - Introduction
 
@@ -137,7 +137,7 @@
 * [Exercise](/courses/html-css/exercises/exercise-html-css-6-css.md)
 * [Lecture](/courses/html-css/lectures/lecture-html-css-6-css.md)
 
-## 
+---
 
 ### 7. CSS - Box model, colors & text
 
@@ -163,7 +163,7 @@
 * [Exercise](/courses/html-css/exercises/exercise-html-css-7-css-box.md)
 * [Lecture](/courses/html-css/lectures/lecture-html-css-7-css-box.md)
 
-## 
+---
 
 ### 8. CSS - Positioning
 
@@ -187,7 +187,7 @@
 * [Exercise](/courses/html-css/exercises/exercise-html-css-8-css-positioning.md)
 * [Lecture](/courses/html-css/lectures/lecture-html-css-8-css-positioning.md)
 
-## 
+---
 
 ### 9. CSS - Layouts with Flexbox & Grid
 
@@ -208,7 +208,7 @@
 * [Exercise](/courses/html-css/exercises/exercise-html-css-9-flexbox.md)
 * [Lecture](/courses/html-css/lectures/lecture-html-css-9-css-layout.md)
 
-## 
+---
 
 ### 10. HTML - Forms
 
@@ -223,7 +223,7 @@
 * [Exercise](/courses/html-css/exercises/exercise-html-css-10-forms.md)
 * [Lecture](/courses/html-css/lectures/lecture-html-css-10-forms.md)
 
-## 
+---
 
 ### 11. CSS - Pseudo, Iframes & CSS variables
 
@@ -243,7 +243,7 @@
 * [Exercise](/courses/html-css/exercises/exercise-html-css-11-psuedo.md)
 * [Lecture](/courses/html-css/lectures/lecture-html-css-11-psuedo.md)
 
-## 
+---
 
 ### 12. SEO
 
@@ -267,7 +267,7 @@
 * [Exercise](/courses/html-css/exercises/exercise-html-css-12-SEO.md)
 * [Lecture](/courses/html-css/lectures/lecture-html-css-12-SEO.md)
 
-## 
+---
 
 ### 13. Responsive web design
 
@@ -294,7 +294,7 @@
 * [Exercise](/courses/html-css/exercises/exercise-html-css-13-responsive.md)
 * [Lecture](/courses/html-css/lectures/lecture-html-css-13-responsive.md)
 
-## 
+---
 
 ### 14. CSS - Animation
 
@@ -313,7 +313,7 @@
 * [Exercise](/courses/html-css/exercises/exercise-html-css-14-animation.md)
 * [Lecture](/courses/html-css/lectures/lecture-html-css-14-animation.md)
 
-## 
+---
 
 ### 15. Bootstrap
 
@@ -335,7 +335,7 @@
 * [Exercise](/courses/html-css/exercises/exercise-html-css-15-bootstrap.md)
 * [Lecture](/courses/html-css/lectures/lecture-html-css-15-bootstrap.md)
 
-## 
+---
 
 ### 16. Debugging
 
