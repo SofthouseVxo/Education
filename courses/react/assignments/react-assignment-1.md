@@ -13,21 +13,21 @@ I denna uppgift skall ni arbeta med react och de delar denna uppgift täcker är
 I denna applikation krävs det att ni har minst 3 komponenter (ni kan ha fler om ni vill). Dessa komponenter är:
 
 * DashboardComponent.js
-      * Class Component
-      * State: Användare, färg
-      * Syfte/logik:
-         * Lägga till användare
-         * Ta bort användare
-         * Hantera vårt inputfält
-         * Knapp för att toggla färg
-         * Renderar en lista med UserComponents
+   * Class Component
+   * State: Användare, färg
+   * Syfte/logik:
+      * Lägga till användare
+      * Ta bort användare
+      * Hantera vårt inputfält
+      * Knapp för att toggla färg
+      * Renderar en lista med UserComponents
 * WrapperComponent.js
-      * Class Component
-      * State =  showContent (true, false)
-      * Syfte: Fungerar som en wrapper för våra cards
-         * Saker som renderas i denna wrapper skall hamna i ett kort (card)
-         * Innehåller knapp för att toggla state showContent
-         * Denna renderar vad som passas in som children (om state showContent är true)
+   * Class Component
+   * State =  showContent (true, false)
+   * Syfte: Fungerar som en wrapper för våra cards
+      * Saker som renderas i denna wrapper skall hamna i ett kort (card)
+      * Innehåller knapp för att toggla state showContent
+      * Denna renderar vad som passas in som children (om state showContent är true)
 * UserComponent.js
    * Function Component
    * Props: färg, användare
@@ -36,7 +36,7 @@ I denna applikation krävs det att ni har minst 3 komponenter (ni kan ha fler om
 
 ### För betyget Godkänd krävs följande:
 
-#### Applikationen skall bete sig som den som presenteras i filmen Video Godkänt bifogad i denna mapp.
+#### Applikationen skall bete sig som den som presenteras i filmen Video Godkänt bifogad på ping pong.
 
 * Det skall vara möjligt att lägga till användare
 * Ta bort användare (det räcker att ta bort sista användaren i listan).
