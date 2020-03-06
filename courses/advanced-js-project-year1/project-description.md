@@ -39,9 +39,10 @@ Ni skall presentera er applikation, applikationens design samt hur ni har jobbat
 * Ni skall med hjälp av ett API utveckla er applikation där ni hämtar och använder data.
 * Förslag på API:
   * https://openweathermap.org/appid#get
-  * https://api.softhouse.rocks
+  * https://petstore.swagger.io/?url=https://api.softhouse.rocks/swagger.yaml
   * https://developer.spotify.com/documentation/web-api/quick-start/
   * https://developers.google.com/maps/documentation/javascript/tutorial
+* Lista på flera svenska apier: [http://apikatalogen.se/](http://apikatalogen.se/)
 * Applikationen skall fylla ett syfte, där användaren kan interagera med applikationen, exempelvis:
   * Få information, navigera i denna information.
   * Editera denna information, personifiera information eller filtrera denna.
@@ -100,9 +101,9 @@ Rapporten skall hålla en god nivå på språk, tydlighet samt struktur (Använd
 #### Godkänt:
 * Uppfyller samtliga krav beskrivet under rubrikerna "krav på applikation" samt "krav på rapport".
 
-Väl Godkänt:
+#### Väl Godkänt:
 
-    Applikation håller en hög kvalitet då det kommer till tekniska lösningar, komponentstruktur etc.
-    Visar ingående förståelse för designprocessen och dess delar samt presenterar detta tydligt med anknytning till relevanta källor.
-    Presenterar ett välplanerat gränssnitt som är användarvänligt och visuellt genomarbetat.
-    Använder eventuellt mer avancerade tekniker utöver vad som fördjupats tidigare kurs. Exempelvis redux, RxjS etc.
+* Applikation håller en hög kvalitet då det kommer till tekniska lösningar, komponentstruktur etc.
+* Visar ingående förståelse för designprocessen och dess delar samt presenterar detta tydligt med anknytning till relevanta källor.
+* Presenterar ett välplanerat gränssnitt som är användarvänligt och visuellt genomarbetat.
+* Använder eventuellt mer avancerade tekniker utöver vad som fördjupats tidigare kurs. Exempelvis redux, RxjS etc.
