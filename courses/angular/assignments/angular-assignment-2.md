@@ -120,7 +120,7 @@ password: '0987654321'
 }];
 ```
 
-För att vi skall få ut så mycket som möjligt av uppgiften så gör vi den i 2 steg där första steget fokuserar på att få igång routing och andra steget på formulär och anrop mot en backend.
+För att vi skall få ut så mycket som möjligt av uppgiften så gör vi den i 2 steg där första steget fokuserar på att få igång routing och andra steget på formulär och anrop mot en backend. Med detta sagt kommer saker vi gjort i steg 1 ibland förändras i steg då (och även i VG delen).
 
 ### För betyget Godkänt krävs följande:
 
@@ -147,7 +147,7 @@ För att vi skall få ut så mycket som möjligt av uppgiften så gör vi den i 
 1. Visa informationen (username, name, city, street, zipcode).
 1. Logiken för att hämta användare (http anropen) skall ligga i en service (förslag: users.service.ts) OBS! Denna finns inte med i komponentstruktur-bilden
 
-För betyget Väl Godkänt krävs följande:
+### För betyget Väl Godkänt krävs följande:
 
 * Samtliga krav för betyget Godkänt skall vara uppfyllda.
 * Applikationen skall bete sig som den som presenteras i filmen U2 VG i denna mapp.
@@ -156,10 +156,10 @@ För betyget Väl Godkänt krävs följande:
 * Registreringsformuläret skall vara ett reactive form med validering (samma validering som på login + firstname och lastname = required).
 * Vid fel i registreringsformuläret skall felmeddelande visas på samma sätt som i Login (de röda boxarna).
 * Skicka även in en rapport på minst en A4 sida (400 ord) där du tar upp följande:
-  * Vad finns det för likheter/skillnader på att jobba med template/reactive forms?
-  * Nämn för/nackdelar med template/reactive forms?
-  * När passar det att använda template/reactive forms?
-  * Obervera att för att svara på dessa frågor kommer ni behöva leta källor utanför föreläsningsmaterialet, det är viktigt att ni refererar till era källor.
+   * Vad finns det för likheter/skillnader på att jobba med template/reactive forms?
+   * Nämn för/nackdelar med template/reactive forms?
+   * När passar det att använda template/reactive forms?
+   * Obervera att för att svara på dessa frågor kommer ni behöva leta källor utanför föreläsningsmaterialet, det är viktigt att ni refererar till era källor.
 
 ### Utöver ovanstående skall applikationen uppfylla följande:
 
