@@ -43,7 +43,7 @@ Applikationen skall bestå tre screens:
 * Applikationen skall bestå av 3 screens.
 * Klickar man på user i navigationsmenyn så skall man skickas till UserScreen och en text skall berätta att man inte valt användare så inga parametrar skickats med.
 * Klickar man på loginknappen i loginScreen så skall man navigeras till dashboarden med hjälp av History (OM MAN FYLLT I EN ANVÄNDARE SOM ÄR MINST 10 Karaktärer lång).
-* Våra användare skall nu hämtas från [http://api.softhouse.rocks](http://api.softhouse.rocks)
+* Våra användare skall nu hämtas från [http://api.softhouse.rocks](https://api.softhouse.rocks)
 * När man klickar på en användare hämtas denna genom ett nytt anrop med ID't som skickats med som parameter till routen.
 * Vår användare skall presenteras som i filmen med uppgiften, address skall kunna togglas och placeholder-bilden är upp till er https://placekitten.com/
 * UserScreen som hanterar vår enskilda användare skall vara en funktionskomponent och använda Hooks useState & useEffect för att hämta användaren när komponent laddas och spara denna i state.
