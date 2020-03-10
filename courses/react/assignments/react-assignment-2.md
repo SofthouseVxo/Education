@@ -47,6 +47,7 @@ Applikationen skall bestå tre screens:
 * När man klickar på en användare hämtas denna genom ett nytt anrop med ID't som skickats med som parameter till routen.
 * Vår användare skall presenteras som i filmen med uppgiften, address skall kunna togglas och placeholder-bilden är upp till er https://placekitten.com/
 * UserScreen som hanterar vår enskilda användare skall vara en funktionskomponent och använda Hooks useState & useEffect för att hämta användaren när komponent laddas och spara denna i state.
+* "show info" knappen skall toggla om inloggningsformuläret syns eller inte.
 * Samtliga ```props``` skall defineras med PropTypes.
 
 ### För betyget Väl Godkänd krävs följande:
