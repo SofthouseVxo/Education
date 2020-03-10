@@ -101,7 +101,7 @@ const newUser = {
 * Varje metod som innehåller mer komplex funktionalitet skall ha en kommentar som beskriver vad den gör.
 * Applikationen redovisas genom att ni zippar ert projekt (UTAN node_modules) Döp mappen till ReactU2RobLun (byt ut RobLun mot ert namn)
 
-### Deadline Söndag 8/3 24:00
+### Deadline Söndag 22/3 24:00
 
 Checklista inför inlämning:
 
