@@ -30,6 +30,7 @@ class Router2 extends Component {
   }
 }
 
+// Home function Component
 function Home() {
   return (
     <div>
@@ -44,14 +45,17 @@ function Home() {
   );
 }
 
+// WillMatch function Component
 function WillMatch() {
   return <h3>Matched!</h3>;
 }
 
-function NoMatch({ location }) {
+// NoMatch function Component
+function NoMatch(props) {
+  console.log(props);
   return (
     <h3>
-      No match for <code>{location.pathname}</code>
+      No match for <code>{props.location.pathname}</code>
     </h3>
   );
 }

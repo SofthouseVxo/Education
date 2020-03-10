@@ -44,8 +44,6 @@ function About() {
 
 function AppRouter() {
   return (
-```
-```HTML
   <Router>
     <div>
       <nav>
@@ -59,8 +57,6 @@ function AppRouter() {
   </Router>
   );
 }
-
-export default AppRouter;
 ```
 
 
@@ -163,7 +159,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
   <div>
     <Route exact path="/" component={Home}/>
     <Route path="/news" component={NewsFeed}/>
-  <Route strict path="/about/" component={About}/>
+    <Route strict path="/about/" component={About}/>
   </div>
 </Router>
 ```

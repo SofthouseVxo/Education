@@ -5,8 +5,8 @@ import React, { Component } from 'react';
 // import Events from './8-Events';
 // import Styling from './9-Styling';
 // import LiftingStateComposition from './11-LiftingStateComposition';
-// import ReactRouting from './12-ReactRouting';
-import Hooks from './13-Hooks';
+import ReactRouting from './12-ReactRouting';
+// import Hooks from './13-Hooks';
 // import HOCs from './15-HOCs';
 // import RenderProps from './15-RenderProps';
 // import UsingContext from './15-Context';
@@ -38,8 +38,8 @@ class App extends Component {
         {/* <StateLifecycles/> */}
         {/* <Events/> */}
         {/* <Styling/> */}
-        {/* <ReactRouting/> */}
-        <Hooks/>
+        <ReactRouting/>
+        {/* <Hooks/> */}
         {/* <HOCs/> */}
         {/* <RenderProps/> */}
         {/* <UsingContext/> */}

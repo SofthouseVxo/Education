@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom";
 
 import Start from './Start';
 
+// Contact Function Component
 function Contact() {
   return (
     <div>
@@ -11,6 +12,7 @@ function Contact() {
   );
 }
 
+// Calendar Class Component
 class Calendar extends Component {
 
   navigateToCalendar = () => {
@@ -35,23 +37,24 @@ class Calendar extends Component {
   }
 }
 
+// Router1 Class Component
 class Router1 extends Component {
   render() {
     return (
       <Router>
-        <div>
+        <Fragment>
           <Link to="/">Start-länk</Link><br />
           <NavLink to="/kontakt" activeClassName="my-class">Kontakt-länk</NavLink><br />
           <Link to="/kalender/21dec">Kalender-länk</Link><br />
 
           <hr />
 
-          <Route path="/" exact component={Start} />
           {/* If two routes match both will be rendered here unlike using <Switch> */}
-          {/* <Route exact path="/" component={Start} /> */}
+          {/* We add "exact" to say that Start should only render when the exact route matches*/}
+          <Route path="/" exact component={Start} />
           <Route path="/kontakt" component={Contact} />
           <Route path="/kalender/:date" component={Calendar} />
-        </div>
+        </Fragment>
       </Router>
     );
   }
