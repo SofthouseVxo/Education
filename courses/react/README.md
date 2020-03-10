@@ -14,7 +14,7 @@
 12. [ React Router](/courses/react/lectures/lecture-react-12-router.md)
 13. [ Hooks](/courses/react/lectures/lecture-react-13-hooks.md)
 14. [ Destructuring, Rest, Spread & PropTypes](/courses/react/lectures/lecture-react-14-destructuringRestSpreadPropTypes.md)
-15. [ HOCs, Render Props & Context](/courses/react/lectures/lecture-react-15-sharingLogic.md)
+15. [ Sharing logic](/courses/react/lectures/lecture-react-15-sharingLogic.md)
 16. [ Global state & Redux](/courses/react/lectures/lecture-react-16-redux.md)
 17. Extra
 
