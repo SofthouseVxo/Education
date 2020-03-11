@@ -134,6 +134,25 @@ this.setState({
 });
 ```
 
+---
+
+#### Setting state passing a function
+
+* Because this.props and this.state may be updated asynchronously, you should not rely on their values for calculating the next state.
+
+Wrong
+```
+this.setState({
+  counter: this.state.counter + this.props.increment,
+});
+```
+Correct
+```
+// That function will receive the previous state as the first argument, and the props at the time the update is applied as the second argument.
+this.setState((state, props) => ({
+  counter: state.counter + props.increment
+}));
+```
 
 ---
 
