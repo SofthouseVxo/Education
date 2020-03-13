@@ -5,7 +5,7 @@ export default function withCustomProp(WrappedComponent, selectData) {
     render() {
       const newProp = 12;
 
-      return <WrappedComponent newProp={newProp} />;
+      return <WrappedComponent newProp={newProp} {...this.props}/>;
     }
   };
 }

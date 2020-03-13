@@ -17,7 +17,7 @@ class Bottom extends Component {
   render() {
     return (
       <React.Fragment>
-        <p>{this.props.value}</p>
+        <p>IN BOTTOM {this.props.value}</p>
         <button onClick={this.onClick}>Click me to update value</button>
       </React.Fragment>
     );

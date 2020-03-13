@@ -6,7 +6,7 @@ import Child from './components/Child';
 export default class RenderProps extends Component {
   render() {
     return (
-      <Wrapper render={data => {
+      <Wrapper render={(data) => {
         return <Child data={data}/>
       }}/>
     )
