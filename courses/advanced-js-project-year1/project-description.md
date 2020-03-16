@@ -1,8 +1,6 @@
 # Avancerad JavaScript – projektarbete med Angular eller React, 20 yrkeshögskolepoäng
 
-### Syfte:
-
-Syftet med uppgiften är att ni skall få möjligheten att:
+### Syftet med uppgiften är att ni skall få möjligheten att:
 
 * Fördjupa er och skaffa kunskaper i ett ramverk/bibliotek som vi tidigare arbetat med(Angular eller React).
 * Träna på att arbeta med ett större projekt och arbeta i grupp/team på ett agilt sätt.
@@ -103,7 +101,7 @@ Rapporten skall hålla en god nivå på språk, tydlighet samt struktur (Använd
 
 #### Väl Godkänt:
 
+
+* Presenterar hållbara programmeringslösningar på en mer avancerad nivå samt visa förståelse för dessa genom att kunna argumentera för, motivera samt diskutera dem (exempelvis Redux, RxJs etc).
 * Applikation håller en hög kvalitet då det kommer till tekniska lösningar, komponentstruktur etc.
-* Visar ingående förståelse för designprocessen och dess delar samt presenterar detta tydligt med anknytning till relevanta källor.
 * Presenterar ett välplanerat gränssnitt som är användarvänligt och visuellt genomarbetat.
-* Använder eventuellt mer avancerade tekniker utöver vad som fördjupats tidigare kurs. Exempelvis redux, RxjS etc.
