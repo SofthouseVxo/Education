@@ -194,4 +194,10 @@ const store = createStore(
 	window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
 ```
-Check my examples.
+
+---
+
+#### Check examples.
+* Play around.
+* Add your own actions, reducers.
+* Connect them to react components.
