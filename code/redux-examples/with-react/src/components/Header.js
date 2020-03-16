@@ -14,6 +14,8 @@ class Header extends Component {
     return (
       <div className="header">
         <h3>Header</h3>
+        <p>User is: {this.props.user}</p>
+
         {this.props.dialogVisible && <Dialog/>}
       </div>
     );
@@ -23,6 +25,5 @@ class Header extends Component {
 const mapStateToProps = (state, ownProps) => ({
   dialogVisible: state.root.dialogVisible
 })
-
 
 export default connect(mapStateToProps)(Header);

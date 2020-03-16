@@ -1,4 +1,3 @@
-import { combineReducers } from 'redux'
 import {
   ADD_TODO
 } from './actions'
@@ -9,6 +8,8 @@ const initialState = {
 
 // state = initialState is ES6 default statement
 function todoApp(state = initialState, action) {
+  console.log('STATE',state);
+  console.log('ACTION', action);
   switch (action.type) {
     case ADD_TODO:
       return Object.assign({}, state, {
@@ -23,7 +24,5 @@ function todoApp(state = initialState, action) {
       return state
   }
 }
-
-
 
 export default todoApp

@@ -14,7 +14,7 @@ class Screen1 extends Component {
       name: PropTypes.string
     }),
     setNewUser: PropTypes.func.isRequired,
-    setDialogVisible: PropTypes.func.isRequired
+    setDialogHidden: PropTypes.func.isRequired
   }
 
   setNewUser = () => {
@@ -27,7 +27,7 @@ class Screen1 extends Component {
   }
 
   hideDialog = () => {
-    this.props.setDialogVisible(false);
+    this.props.setDialogHidden(false);
   }
 
   render() {
@@ -50,7 +50,7 @@ const mapStateToProps = (state, ownProps) => ({
 
 const mapDispatchToProps = (dispatch, ownProps) => ({
   setNewUser: (user) => dispatch(setUser(user)),
-  setDialogVisible: (visible) => dispatch(toggleDialog(visible))
+  setDialogHidden: (visible) => dispatch(toggleDialog(visible))
 })
 
 

@@ -38,6 +38,7 @@
 
 #### Dispatcher
 * The dispatcher receives actions and dispatches them to stores that have registered with the dispatcher. 
+* There should be only one singleton dispatcher in each application.
 
 #### Actions
 
@@ -171,6 +172,7 @@ npx create-react-app my-app --template redux
 * **State is read-only** The only way to change the state is to emit an action, an object describing what happened.
 
 * **Changes are made with pure functions** To specify how the state tree is transformed by actions, you write pure reducers.
+
 * Reducers are just pure functions that take the previous state and an action, and return the next state.
 
 * We do **not** mutate state, we create new states and this is done **synchronous**
