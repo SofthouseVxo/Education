@@ -1,10 +1,12 @@
 
 # General
 
-1. [Front end education intro](/courses/genereal/lectures/lecture-genereal-1-intro.md)
-1. [Solving puzzles](/courses/genereal/lectures/lecture-genereal-2-solving-puzzles.md)
-1. [Git](/courses/genereal/lectures/lecture-genereal-3-git.md)
-1. [Report writing](/courses/genereal/lectures/lecture-genereal-4-report-writing.md)
+
+
+1. [Front end education intro](/courses/general/lectures/lecture-general-1-intro.md)
+1. [Solving puzzles](/courses/genereal/lectures/lecture-general-2-solving-puzzles.md)
+1. [Git](/courses/genereal/lectures/lecture-general-3-git.md)
+1. [Report writing](/courses/genereal/lectures/lecture-general-4-report-writing.md)
 
 ---
 
