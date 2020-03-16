@@ -2,10 +2,9 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
-import { setUser } from '../actions';
+import { setUser } from '../redux/actions';
 
-
-class Screen1 extends Component {
+class Screen2 extends Component {
 
   static propTypes = {
     user: PropTypes.shape({
@@ -17,8 +16,8 @@ class Screen1 extends Component {
 
   setNewUser = () => {
     const user = {
-      id: 1,
-      name: 'John Doe'
+      id: 2,
+      name: 'Lucky Luke'
     };
 
     this.props.setNewUser(user);
@@ -27,7 +26,7 @@ class Screen1 extends Component {
   render() {
     return (
       <div className="screen">
-        <h3>Screen1</h3>
+        <h3>Screen2</h3>
         <p>User: {this.props.user ? this.props.user.name : 'No user'}</p>
         <button onClick={this.setNewUser}>Set User</button>
       </div>
@@ -35,13 +34,13 @@ class Screen1 extends Component {
   }
 }
 
-const mapStateToProps = (state, ownProps) => ({
-  user: state.root.user
-})
+const mapStateToProps = (state, ownProps) => {
+  return {user: state.root.user}
+}
 
 const mapDispatchToProps = (dispatch, ownProps) => ({
   setNewUser: (user) => dispatch(setUser(user))
 })
 
 
-export default connect(mapStateToProps, mapDispatchToProps)(Screen1);
+export default connect(mapStateToProps, mapDispatchToProps)(Screen2);

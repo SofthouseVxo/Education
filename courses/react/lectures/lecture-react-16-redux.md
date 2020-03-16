@@ -1,25 +1,17 @@
 ### 16. React
-#### State & Redux
-
-
----
-
-#### Purpose of this lecture
-The purpose of thie lecture is to give an introduction to redux and handling global state. Redux is simple but not easy, and it will take more than a day to grasp the concept and be ready to work with redux.
-
+#### Global State & Redux
 
 ---
 
-#### Global state and local state.
+#### Global and local state.
 
-* Global state.
-  * State in the whole app.
-  * logged user, showPopup.
-	
 * Local state
   * State inside a component.
   * showButton, user.
 
+* Global state.
+  * State in the whole app.
+  * logged user, showPopup.
 
 ---
 
@@ -34,77 +26,139 @@ The purpose of thie lecture is to give an introduction to redux and handling glo
 * Pagination controls
 * and so on.
 
-
 ---
 
 #### Flux
-Flux is the application architecture that Facebook uses for building client-side web applications.
-<img src="/media/react-images/react-16/flux.png" alt="flux">
+* Flux is the application architecture that Facebook uses for building client-side web applications.
+* [Flux docs](https://facebook.github.io/flux/)
+* [Flux concepts](https://github.com/facebook/flux/tree/master/examples/flux-concepts)
+<img src="/media/react-images/react-16/flux1.png" alt="flux"/>
 
+---
+
+#### Dispatcher
+* The dispatcher receives actions and dispatches them to stores that have registered with the dispatcher. 
+
+#### Actions
+
+* A simple objects that have a "type" field and some data.
+* Actions should be semantic and descriptive of the action taking place.
+
+<img src="/media/react-images/react-16/flux2.png" alt="flux"/>
+
+---
+
+#### Store
+* A store is what holds the data of an application.
+* The data in a store must only be mutated by responding to an action.
+
+#### Views/UI
+* Views (the UI) are where the data from the store is displayed.
+
+<img src="/media/react-images/react-16/flux3.png" alt="flux"/>
+
+---
+
+#### Flux Example:
+* User types in title for a todo and hits enter.
+* The view captures this event and dispatches an "add-todo" action containing the title of the todo.
+```
+{
+  type: 'add-todo',
+  todoID: '1234',
+}
+```
+* (Every) Store receives an "add-todo" action.
+* It decides if it is relevant and adds the todo to the list of things that need to be done today.
+* The store updates its data and then emits a "change" event.
 
 ---
 
 #### Redux
-Is a predictable state container for JavaScript apps.
-
+A predictable state container for JavaScript apps.
 
 ---
+
+#### Why Redux?
 
 "If a model can update another model, then a view can update a model, which updates another model, and this, in turn, might cause another view to update. At some point, you no longer understand what happens in your app as you have lost control over the when, why, and how of its state. When a system is opaque and non-deterministic, it's hard to reproduce bugs or add new features." - <a href="https://redux.js.org/introduction/motivation">redux.js</a>
 
-
 ---
 
 #### Redux
 
-* Is standalone.
-* Works well with react.
-* Follows flux principles.
+* Redux helps you write applications that behave consistently.
+* Runs in different environments (client, server, and native).
+* Redux is easy to test.
+* Redux works well with react (not limited to react).
+* Redux follows flux principles.
+
+---
+
+#### Installing
+
+Without react
 ```
 $ npm install --save redux
+```
+
+With react
+```
 $ npm install --save redux react-redux
 ```
 
----
-
-#### Redux devtools
-
-* <a href="https://chrome.google.com/webstore/detail/redux-devtools">Chrome Download</a>
-* <a href="https://addons.mozilla.org/sv-SE/firefox/addon/reduxdevtools/">Mozilla Download</a>
-
-
-
----
-
-#### Needs to be added in your react application
-```JavaScript
-const store = createStore(
-	reducer, /*preloadedState, */
-	window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-);
+Create a new CRA project with redux AND addon package called Redux Toolkit.
+```
+npx create-react-app my-app --template redux
 ```
 
+---
+
+#### Redux ToolKit (RTK)
+
+* "RTK includes utilities that help simplify many common use cases, including store setup, creating reducers and writing immutable update logic, and even creating entire "slices" of state at once. Whether you're a brand new Redux user setting up your first project, or an experienced user who wants to simplify an existing application, Redux Toolkit can help you make your Redux code better." - [Redux docs](https://redux.js.org/introduction/getting-started)
+
+* We will not work with RTK in this course, since we want to fully understand Redux (no shortcuts muhahaha).
 
 ---
 
-#### Actions, Reducers and the Store
+#### Redux 
+
+<img src="/media/react-images/react-16/redux.png" alt="redux"/>
+
+---
+
+#### Actions
 
 * **Actions** are payloads of information that send data from your application to your store.
+
+<img src="/media/react-images/react-16/redux1.png" alt="redux"/>
+
+---
+#### Reducers
+
 * **Reducers** specify how the application's state changes in response to actions sent to the store.
+
+<img src="/media/react-images/react-16/redux2.png" alt="redux"/>
+
+---
+
+#### Store
+
 * The **Store** is where the state is stored.
 
-
+<img src="/media/react-images/react-16/redux3.png" alt="redux"/>
 
 ---
 
 #### Redux + React
-<img src="/media/react-images/react-16/React+Redux.png" alt="redux">
+<img src="/media/react-images/react-16/React+Redux.png" alt="redux"/>
 
 
 ---
 
 #### State machine
-<img src="/media/react-images/react-16/StateMachine.png" alt="state machine">
+<img src="/media/react-images/react-16/StateMachine.png" alt="state machine"/>
 
 
 ---
@@ -119,4 +173,25 @@ const store = createStore(
 * **Changes are made with pure functions** To specify how the state tree is transformed by actions, you write pure reducers.
 * Reducers are just pure functions that take the previous state and an action, and return the next state.
 
-* We do **not** mutate state, we create new states and this is done **synchronous**					
+* We do **not** mutate state, we create new states and this is done **synchronous**
+
+---
+
+#### Redux devtools
+
+* <a href="https://chrome.google.com/webstore/detail/redux-devtools">Chrome Download</a>
+* <a href="https://addons.mozilla.org/sv-SE/firefox/addon/reduxdevtools/">Mozilla Download</a>
+
+<img src="/media/react-images/react-16/reduxdev.png" alt="state machine"/>
+
+---
+
+#### Needs to be added in your react application
+
+```JavaScript
+const store = createStore(
+	reducer, /*preloadedState, */
+	window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
+```
+Check my examples.

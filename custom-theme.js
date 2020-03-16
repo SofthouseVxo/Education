@@ -60,7 +60,7 @@ export default {
     },
     li: {
       marginTop: '0.6em',
-      fontSize: '0.9em'
+      fontSize: '0.8em'
     },
     h3: {
       alignSelf: 'flex-start',
@@ -68,9 +68,9 @@ export default {
     },
     h4: {
       alignSelf: 'flex-start',
-      // fontSize: '1.2em',
-      marginBlockStart: '.8em',
-      marginBlockEnd: '.8em',
+      fontSize: '1.4em',
+      marginBlockStart: '.6em',
+      marginBlockEnd: '.6em',
 
     },
     h5: {

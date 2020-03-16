@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import JSX from './5-JSX';
+import JSX from './5-JSX';
 // import ElementsComponents from './6-Elements&Components';
 // import StateLifecycles from './7-State&Lifecycles';
 // import Events from './8-Events';
@@ -8,9 +8,8 @@ import React, { Component } from 'react';
 // import ReactRouting from './12-ReactRouting';
 // import Hooks from './13-Hooks';
 // import HOCs from './15-HOCs';
-import RenderProps from './15-RenderProps';
+// import RenderProps from './15-RenderProps';
 // import UsingContext from './15-Context';
-// import Reduxer from './16-Redux';
 // import Advanced from './X-Advanced';
 
 import './App.css';
@@ -33,7 +32,7 @@ class App extends Component {
         <p>Uncomment the components below to start experimenting, click here to hide header</p>
       </header>)}
 
-        {/* <JSX/> */}
+        <JSX/>
         {/* <ElementsComponents/> */}
         {/* <StateLifecycles/> */}
         {/* <Events/> */}
@@ -41,12 +40,9 @@ class App extends Component {
         {/* <ReactRouting/> */}
         {/* <Hooks/> */}
         {/* <HOCs/> */}
-        <RenderProps/>
+        {/* <RenderProps/> */}
         {/* <UsingContext/> */}
         {/* <Advanced/> */}
-
-        {/* Make sure to fix setup in index.js before using redux */}
-        {/* <Reduxer/> */}
       </div>
     );
   }

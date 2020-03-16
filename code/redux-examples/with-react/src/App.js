@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 
 import './styles.css';
 
-class Reduxer extends Component {
+class App extends Component {
   render() {
     return (
       <Fragment>
@@ -27,4 +27,4 @@ class Reduxer extends Component {
   }
 }
 
-export default Reduxer;
+export default App;

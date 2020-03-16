@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
-import { toggleDialog } from '../actions';
+import { toggleDialog } from '../redux/actions';
 
 class Footer extends Component {
 
