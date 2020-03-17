@@ -1,6 +1,7 @@
 
 # General
 
+
 1. [Front end education intro](/courses/general/lectures/lecture-general-1-intro.md)
 1. [Solving puzzles](/courses/general/lectures/lecture-general-2-solving-puzzles.md)
 1. [Git](/courses/general/lectures/lecture-general-3-git.md)
