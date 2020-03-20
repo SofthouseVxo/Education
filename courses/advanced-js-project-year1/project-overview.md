@@ -4,7 +4,7 @@
 * Hur ligger ni till i förhållande till er planering?
 * Behöver något tas bort/läggas till?
 * Gå igenom trello (eller annat verktyg).
-* Ev. Demo
+* Demo
 
 ## Rekommenderade checkpoints efter respektive vecka:
 #### Vecka 1:
