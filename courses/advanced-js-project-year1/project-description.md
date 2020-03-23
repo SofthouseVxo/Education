@@ -10,7 +10,7 @@
 
 ### Övergripande instruktioner:
 
-Ni skall utveckla en “Single Page Application” med webb-ramverket React eller Angular. Rekommenderad storlek på grupp är 3 personer. Med fokus på:
+Ni skall utveckla en “Single Page Application” med webb-ramverket React eller Angular. Rekommenderad storlek på grupp är 3 personer.
 
 ### Redovisning & inlämning:
 
@@ -18,7 +18,7 @@ Ni skall utveckla en “Single Page Application” med webb-ramverket React elle
 * Inlämning av rapport (Beskrivning av applikation, Design, Agilt arbetssätt etc.).
 * Muntlig redovisning.
 
-Deadline XX XX kl 00:00
+##### Deadline inlämning 19/4- kl 24:00
 
 #### Muntlig redovisning:
 
@@ -30,6 +30,8 @@ Ni skall presentera er applikation, applikationens design samt hur ni har jobbat
 * Problem ni stötte på
 * Hur ni löste dessa
 * LÄRDOMAR
+
+##### Redovisning Torsdag 16/4- kl 08:00
 
 ### Krav på applikationen:
 
