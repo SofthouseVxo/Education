@@ -10,7 +10,7 @@
 
 ### Övergripande instruktioner:
 
-Ni skall utveckla en “Single Page Application” med webb-ramverket React eller Angular. Rekommenderad storlek på grupp är 2-3 personer. Med fokus på:
+Ni skall utveckla en “Single Page Application” med webb-ramverket React eller Angular. Rekommenderad storlek på grupp är 3 personer. Med fokus på:
 
 ### Redovisning & inlämning:
 
