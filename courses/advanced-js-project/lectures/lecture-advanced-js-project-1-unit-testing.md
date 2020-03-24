@@ -43,7 +43,7 @@ $ npm install --global mocha
 
 As a development dependency for your project:
 ```
-$ npm install --global mocha
+$ npm install mocha --save-dev
 ```
 
 We install it as a development dependency since the we only run the tests before something is deployed.

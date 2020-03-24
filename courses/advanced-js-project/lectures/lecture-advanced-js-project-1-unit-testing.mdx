@@ -52,7 +52,7 @@ $ npm install --global mocha
 
 As a development dependency for your project:
 ```
-$ npm install --global mocha
+$ npm install mocha --save-dev
 ```
 
 We install it as a development dependency since the we only run the tests before something is deployed.
@@ -94,6 +94,8 @@ describe('some name', function(){
 });
 ```
 
+---
+
 #### MochaJS - it function
 
 ```
@@ -109,6 +111,8 @@ describe('some name', function(){
   });
 });
 ```
+
+---
 
 #### Assertions libraries
 
@@ -166,3 +170,9 @@ describe('users test', function(){
 * The entire application is tested for critical functionalities such as communicating with the other systems, interfaces, database, network, and other applications.
 
 ---
+
+#### Test-driven development (TDD)
+
+* In TDD you write a test before you write just enough production code to fulfill a test.
+* Requirements are turned into very specific test cases, then the code is improved so that the tests pass. 
+* The TDD process relies on repetition of short development cycles.

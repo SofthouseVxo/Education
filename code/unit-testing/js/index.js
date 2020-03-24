@@ -13,7 +13,10 @@ function stringify(someArray){
   // Write code here
 }
 
-// Uppgift 4
+/**
+ * Uppgift 4
+ * Trim should trim a string to 5 characters
+ */
 function trim(string){
   // Write code here
 }

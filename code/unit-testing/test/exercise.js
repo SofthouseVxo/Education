@@ -1,11 +1,16 @@
 var assert = require('assert');
 
-var { calcSum, stringify } = require('../js/index.js');
+var { 
+  calcSum,
+  multiply,
+  stringify,
+  trim 
+} = require('../js/index.js');
 
 // Uppgift 1
-describe('sum test', function(){
+describe('calcSum test', function(){
   it('should return 4', () => {
-   // write code here
+    // write code here
   })
 });
 
@@ -25,10 +30,7 @@ describe('stringify test', function(){
 
 // Uppgift 4
 describe('trim test', function(){
-  it('should never return a string longer than 10 characters', () => {
+  it('should never return a string longer than 5 characters', () => {
     // Write code here
   })
 });
-
-
-
