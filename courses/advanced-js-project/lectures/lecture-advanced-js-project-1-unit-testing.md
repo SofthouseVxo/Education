@@ -144,3 +144,24 @@ describe('users test', function(){
     assert.equal(users.length, 3);
   })
 });
+```
+
+---
+
+#### End-to-End Testing?
+
+* End-to-end tests whether the flow of an application right from start to finish is behaving as expected. 
+* The purpose of end-to-end tests is to identify:
+   * System dependencies
+   * Ensure that the data integrity is maintained between various components and systems.
+* The entire application is tested for critical functionalities such as communicating with the other systems, interfaces, database, network, and other applications.
+
+---
+
+#### Test-driven development (TDD)
+
+* In TDD you write a test before you write just enough production code to fulfill a test.
+* Requirements are turned into very specific test cases, then the code is improved so that the tests pass. 
+* The TDD process relies on repetition of short development cycles.
+
+* Reflect on if codewars is TDD?
