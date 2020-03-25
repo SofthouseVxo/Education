@@ -37,7 +37,8 @@ good usability for handheld devices.
 ### Prerequisites:
 
 - Some fundamentals of the Java programming language like Packages, Objects & classes.
-- XML (Extensible Markup Language)
+- XML (Extensible Markup Language).
+- Practical database design.
 
 ---
 
@@ -58,3 +59,11 @@ good usability for handheld devices.
   </a>
 - Exercises
 - Other online resources
+
+---
+
+### Examination and knowledge control
+
+- Final project (Create your own app)
+- Individuell rapport
+- Presentation

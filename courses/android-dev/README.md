@@ -2,8 +2,8 @@
 
 # Android App development
 
-1. [Android development intro](/courses/android-development/lectures/lecture-android-dev-intro.md)
-2. [Android Overview](/courses/android-development/lectures/lecture--.md)
+1. [Android development intro](/courses/android-development/lectures/lecture-android-dev-1-intro.md)
+2. [Android Overview](/courses/android-development/lectures/lecture-android-dev-2-overview.md)
 3. [Downloading and Setup](/courses/android-development/lectures/lecture--.md)
 4. [Get Started, Hello World App](/courses/android-development/lectures/lecture--.md)
 5. [Activitys & lifecycle](/courses/android-development/lectures/lecture--.md)
@@ -22,7 +22,24 @@
 
 - Introduction to Course
 - Course Literature
+- Examination and knowledge control
 
 #### Links:
 
-- [Lecture](/courses/android-development/lectures/lecture--.md)
+- [Lecture](/courses/android-development/lectures/lecture-android-dev-1-intro.md)
+
+---
+
+### 2. Android Overview
+
+#### Content:
+
+- What is android
+- Why develop android apps
+- Challenges
+- The development process
+- Getting Started/Setup
+
+#### Links:
+
+- [Lecture](/courses/android-development/lectures/lecture-android-dev-2-overview.md)

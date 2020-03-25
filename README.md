@@ -5,6 +5,7 @@
 * [HTML & CSS](/courses/html-css)
 * [JavaScript](/courses/javascript)
 * [UX](/courses/ux)
+* [Android Development](/courses/android-dev)
 * [Angular](/courses/angular)
 * [React](/courses/react)
 * [Backend APIs](/courses/backend-api)
@@ -27,6 +28,7 @@
 * HTML & CSS
 * UX
 * JavaScript
+* Android Development(in progress)
 * Angular
 * React
 * Backend APIs
@@ -58,6 +60,7 @@ $ node present.js --type=angular --lecture=4
 * ux
 * general
 * javascript
+* android-dev
 * angular
 * react
 * backend-api
