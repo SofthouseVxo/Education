@@ -7,6 +7,9 @@ export const theme = {
 };
 
 import img1 from "../../../media/android-dev-images/android-dev-2/android-versions.jpg";
+import img2 from "../../../media/android-dev-images/android-dev-2/android-project-config.png";
+import img3 from "../../../media/android-dev-images/android-dev-2/android-window-panes.png";
+import img4 from "../../../media/android-dev-images/android-dev-2/android-api-levels.png";
 
 ### Android Overview
 
@@ -67,3 +70,62 @@ App project begins with:
 <a href="https://developer.android.com/studio#downloads" target="_blank">
   Android Studio Website
 </a>
+
+---
+
+### Starting a new project
+
+- Choose Start a new Android Studio project.
+- Choose template (Empty Activity).
+- Project Config:
+  - Pakcage name (unique)
+  - Save Location
+  - Language (Java)
+
+---
+
+### Project config
+
+<img style={{ maxWidth: "700px" }} src={img2} alt="project config" />
+
+---
+
+### API levels
+
+- Choosing minimum API level.
+
+  - The app should run on 90% of devices (latest).
+
+<img style={{ maxWidth: "800px" }} src={img4} alt="api levels" />
+
+---
+
+### Android Studio Window panes
+
+- 1: Project pane
+- 2: Editor pane
+- 3: Monitor pane
+
+<img style={{ maxWidth: "1000px" }} src={img3} alt="Window panes" />
+
+---
+
+### Creating Android virtual device
+
+- Click on AVD Manager
+- Create Virtual device
+- Select phone and Model
+- Select system image (Match the chosen API level)
+- Enter AVD name and finish
+
+### Run on your phone
+
+- Open phone settings -> about Phone
+- Click on the build number seven times
+- Return to settings page
+- Developer options now appears at the bottom of the screen
+- Click on Developer options and choose USB Debugging
+
+---
+
+### Try to run the empty app on your physical or a virtual device

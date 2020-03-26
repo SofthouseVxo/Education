@@ -4,7 +4,7 @@
 
 1. [Android development intro](/courses/android-development/lectures/lecture-android-dev-1-intro.md)
 2. [Android Overview](/courses/android-development/lectures/lecture-android-dev-2-overview.md)
-3. [Downloading and Setup](/courses/android-development/lectures/lecture--.md)
+3. [Core Concepts](/courses/android-development/lectures/lecture-3-core-concepts.md)
 4. [Get Started, Hello World App](/courses/android-development/lectures/lecture--.md)
 5. [Activitys & lifecycle](/courses/android-development/lectures/lecture--.md)
 6. [UI design (XML layouts)](/courses/android-development/lectures/lecture--.md)
@@ -26,7 +26,7 @@
 
 #### Links:
 
-- [Lecture](/courses/android-development/lectures/lecture-android-dev-1-intro.md)
+- [Lecture](/courses/android-dev/lectures/lecture-android-dev-1-intro.md)
 
 ---
 
@@ -39,7 +39,15 @@
 - Challenges
 - The development process
 - Getting Started/Setup
+- Development process
+- downloading and setup
+- Using Android Studio
+- Setup Emulator
+- Running the app
+  - Using emulator
+  - Physical Device
 
 #### Links:
 
-- [Lecture](/courses/android-development/lectures/lecture-android-dev-2-overview.md)
+- [Lecture](/courses/android-dev/lectures/lecture-android-dev-2-overview.md)
+- <a href="https://developer.android.com/studio/intro">Meet Android Studio</a>
