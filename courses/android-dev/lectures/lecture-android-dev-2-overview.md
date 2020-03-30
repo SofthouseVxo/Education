@@ -58,6 +58,8 @@ App project begins with:
   Android Studio Website
 </a>
 
+** Once the Android Studio installation is running, just follow all of its instructions. It should be a reasonably easy process. **
+
 ---
 
 ### Starting a new project

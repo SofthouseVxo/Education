@@ -4,7 +4,7 @@
 
 1. [Android development intro](/courses/android-development/lectures/lecture-android-dev-1-intro.md)
 2. [Android Overview](/courses/android-development/lectures/lecture-android-dev-2-overview.md)
-3. [Core Concepts](/courses/android-development/lectures/lecture-3-core-concepts.md)
+3. [Android Core Concepts](/courses/android-dev/lectures/lecture-android-dev-3-core-concepts.md)
 4. [Get Started, Hello World App](/courses/android-development/lectures/lecture--.md)
 5. [Activitys & lifecycle](/courses/android-development/lectures/lecture--.md)
 6. [UI design (XML layouts)](/courses/android-development/lectures/lecture--.md)
@@ -51,3 +51,26 @@
 
 - [Lecture](/courses/android-dev/lectures/lecture-android-dev-2-overview.md)
 - <a href="https://developer.android.com/studio/intro">Meet Android Studio</a>
+
+---
+
+### 3. Android Core Concepts
+
+#### Content:
+
+- APK files
+- Android Components
+  - Activities
+  - Service
+  - Broadcast receivers
+  - Content providers
+  - Intent
+- Android UI elements
+  - Views
+  - ViewGroups
+  - Fragment
+- XML
+
+#### Links:
+
+- [Lecture](/courses/android-dev/lectures/lecture-android-dev-3-core-concepts.md)
