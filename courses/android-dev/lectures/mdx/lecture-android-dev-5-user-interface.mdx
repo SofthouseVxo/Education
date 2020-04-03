@@ -1,4 +1,17 @@
 import { themes } from "mdx-deck";
+import customTheme from "../../../../custom-theme";
+
+export const theme = {
+  ...themes.highlight,
+  ...customTheme
+};
+
+import img0 from "../../../../media/android-dev-images/android-dev-5/android-views.png";
+import img1 from "../../../../media/android-dev-images/android-dev-5/android-views2.png";
+import img2 from "../../../../media/android-dev-images/android-dev-5/android-textview-subfunctions.png";
+import img3 from "../../../../media/android-dev-images/android-dev-5/android-view-group.png";
+
+import { themes } from "mdx-deck";
 import customTheme from "../../../custom-theme";
 
 export const theme = {
@@ -37,7 +50,7 @@ the UI components are instances of View or ViewGroup subclasses.
 
 ### Views
 
-<img width="350" src="/media/android-dev-images/android-dev-5/android-views.png" alt="Android Views" >
+<img width="350" src={img0} alt="Android Views"/>
 
 ---
 
@@ -60,7 +73,7 @@ Commonly used View subclasses:
 
 ### Different Views
 
-<img width="350" src="/media/android-dev-images/android-dev-5/android-views2.png" alt="Android Views2" />
+<img width="350" src={img1} alt="Android Views2"/>
 
 ---
 
@@ -114,7 +127,7 @@ Commonly used View subclasses:
 
 - Function list:
 
-<img width="600" src="/media/android-dev-images/android-dev-5/android-textview-subfunctions.png" alt="function list" />
+<img width="600" src={img2} alt="function list"/>
 
 - Example onClickListner:
 
@@ -205,7 +218,7 @@ public class MainActivity extends AppCompatActivity {
   - ListView
   - GridView
 
-<img width="600" src="/media/android-dev-images/android-dev-5/android-view-group.png" alt="ViewGroup" />
+<img width="600" src={img3} alt="ViewGroup"/>
 
 ---
 
@@ -297,3 +310,4 @@ buttonView.removeView(myButton);
 ---
 
 ### More about User Interface & Interactions on the next lesson..
+

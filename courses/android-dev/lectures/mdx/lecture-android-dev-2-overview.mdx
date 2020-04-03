@@ -1,11 +1,23 @@
-### Android Overview
+import { themes } from "mdx-deck";
+import customTheme from "../../../../custom-theme";
 
-### What is Android?
+export const theme = {
+  ...themes.highlight,
+  ...customTheme
+};
+
+import img0 from "../../../../media/android-dev-images/android-dev-2/android-versions.jpg";
+import img1 from "../../../../media/android-dev-images/android-dev-2/android-project-config.png";
+import img2 from "../../../../media/android-dev-images/android-dev-2/android-api-levels.png";
+import img3 from "../../../../media/android-dev-images/android-dev-2/android-window-panes.png";
+
+### Android Overview
 
 ---
 
-### Ecosystem for mobile apps
+### What is Android?
 
+- Ecosystem for mobile apps
 - Operating system developed by Google.
 - Runs on many different devices from many different manufacturers such as Samsung, Sony and Huawei.
 - Software development kit.
@@ -20,7 +32,7 @@
 - Google offers Android Studio (Java IDE)
 - Google provieds system upgrades every six to nine months (Donut, Kitkat, Lollipop and Nougat).
 
-<img width="600" src="/media/android-dev-images/android-dev-2/android-versions.jpg" alt="android versions">
+<img style={{width: '400px'}} src={img0} alt="android versions"/>
 
 ---
 
@@ -75,7 +87,7 @@ App project begins with:
 
 ### Project config
 
-<img  width="600" src="/media/android-dev-images/android-dev-2/android-project-config.png" alt="project config" />
+<img width="600" src={img1} alt="project config"/>
 
 ---
 
@@ -85,7 +97,7 @@ App project begins with:
 
   - The app should run on 90% of devices (latest).
 
-<img width="800" src="/media/android-dev-images/android-dev-2/android-api-levels.png" alt="api levels" />
+<img width="800" src={img2} alt="api levels"/>
 
 ---
 
@@ -95,7 +107,7 @@ App project begins with:
 - 2: Editor pane
 - 3: Monitor pane
 
-<img width="1000" src="/media/android-dev-images/android-dev-2/android-window-panes.png" alt="Window panes" />
+<img width="1000" src={img3} alt="Window panes"/>
 
 ---
 
@@ -118,3 +130,4 @@ App project begins with:
 ---
 
 ### Try to run the empty app on your physical or a virtual device
+

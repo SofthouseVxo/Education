@@ -1,11 +1,3 @@
-import { themes } from "mdx-deck";
-import customTheme from "../../../custom-theme";
-
-export const theme = {
-  ...themes.highlight,
-  ...customTheme
-};
-
 ### Android development
 
 ### Introduction
@@ -19,8 +11,12 @@ export const theme = {
 - Experience
 - Contact information:
   - mail:
-  - phone:
+  <!-- - phone: think twice before you give them this :D -->
   - other:
+
+---
+
+### Go through syllabus
 
 ---
 
@@ -45,7 +41,8 @@ good usability for handheld devices.
 ### Prerequisites:
 
 - Some fundamentals of the Java programming language like Packages, Objects & classes.
-- XML (Extensible Markup Language)
+- XML (Extensible Markup Language).
+- Practical database design.
 
 ---
 
