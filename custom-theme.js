@@ -60,11 +60,11 @@ export default {
     },
     li: {
       marginTop: '0.6em',
-      fontSize: '0.8em'
+      fontSize: '0.9em'
     },
     h3: {
       alignSelf: 'flex-start',
-      fontSize: '1.2em'
+      fontSize: '1.6em'
     },
     h4: {
       alignSelf: 'flex-start',
