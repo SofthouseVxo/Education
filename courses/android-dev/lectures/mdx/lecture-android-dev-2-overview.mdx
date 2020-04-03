@@ -6,128 +6,124 @@ export const theme = {
   ...customTheme
 };
 
+
 import img0 from "../../../../media/android-dev-images/android-dev-2/android-versions.jpg";
 import img1 from "../../../../media/android-dev-images/android-dev-2/android-project-config.png";
 import img2 from "../../../../media/android-dev-images/android-dev-2/android-api-levels.png";
 import img3 from "../../../../media/android-dev-images/android-dev-2/android-window-panes.png";
 
-### Android Overview
+### 2.Android development
+#### Android Overview
 
 ---
 
-### What is Android?
+#### What is Android?
 
-- Ecosystem for mobile apps
-- Operating system developed by Google.
-- Runs on many different devices from many different manufacturers such as Samsung, Sony and Huawei.
-- Software development kit.
-- Marketplace to distribute apps, Google Play.
-
----
-
-### Why Android?
-
-- The world's most popular mobile platform,
-- Easy to develop apps (SDK includes all your needs)
-- Google offers Android Studio (Java IDE)
-- Google provieds system upgrades every six to nine months (Donut, Kitkat, Lollipop and Nougat).
-
-<img style={{width: '400px'}} src={img0} alt="android versions"/>
+* Ecosystem for mobile apps
+* Operating system developed by Google.
+* Runs on many different devices from many different manufacturers such as Samsung, Sony and Huawei.
+* Software development kit.
+* Marketplace to distribute apps, Google Play.
 
 ---
 
-### Android Challenges
+#### Why Android?
 
-- Responsive design (multi-screen).
-- Performance management.
-- Keeping code and users secure.
-- Remaining compatible with older platform versions.
+* The world's most popular mobile platform.
+* Easy to develop apps (SDK includes all your needs).
+* Google offers Android Studio (Java IDE).
+* Google provides system upgrades every six to nine months (Donut, Kitkat, Lollipop and Nougat).
+
+<img style={{width: 600}} src={img0} alt="android versions"/>
 
 ---
 
-### The development process
+#### Android Challenges
+
+* Responsive design (multi-screen).
+* Performance management.
+* Keeping code and users secure.
+* Remaining compatible with older platform versions.
+
+---
+
+#### The development process
 
 App project begins with:
 
-- Idea and a definition of the necessary requirements (what it should do).
-- Prototyping the user interface, drawings & mock ups (what should it look like and how it would work).
-- Developing and testing the app:
-
-  - Create the layout.
-  - Write the java code.
-  - Declare the activity.
-  - Define the build.
-
-- Distribute
+* Idea and a definition of the necessary requirements (what it should do).
+* Prototyping the user interface, drawings & mock ups (what should it look like and how it would work).
+* Developing and testing the app:
+  * Create the layout.
+  * Write the java code.
+  * Declare the activity.
+  * Define the build.
+* Distribute
 
 ---
 
 ### Getting Started
 
-### Download and install:
-
-<a href="https://developer.android.com/studio#downloads" target="_blank">
-  Android Studio Website
-</a>
-
-** Once the Android Studio installation is running, just follow all of its instructions. It should be a reasonably easy process. **
+1. Download and install:<a href="https://developer.android.com/studio#downloads" target="_blank">Android Studio Website</a>
+1. Once the Android Studio installation is running, just follow all of its instructions. 
+1. It should be a reasonably easy process.
 
 ---
 
-### Starting a new project
+#### Starting a new project
 
-- Choose Start a new Android Studio project.
-- Choose template (Empty Activity).
-- Project Config:
-  - Pakcage name (unique)
-  - Save Location
-  - Language (Java)
-
----
-
-### Project config
-
-<img width="600" src={img1} alt="project config"/>
+* Choose Start a new Android Studio project.
+* Choose template (Empty Activity).
+* Project Config:
+  * Package name (need to be unique)
+  * Save Location
+  * Language (Java)
 
 ---
 
-### API levels
+#### Project config
 
-- Choosing minimum API level.
-
-  - The app should run on 90% of devices (latest).
-
-<img width="800" src={img2} alt="api levels"/>
+<img style={{width: 600}} src={img1} alt="project config"/>
 
 ---
 
-### Android Studio Window panes
+#### API levels
 
-- 1: Project pane
-- 2: Editor pane
-- 3: Monitor pane
+* Choosing minimum API level.
+  * The app should run on 90% of devices (latest).
 
-<img width="1000" src={img3} alt="Window panes"/>
-
----
-
-### Creating Android virtual device
-
-- Click on AVD Manager
-- Create Virtual device
-- Select phone and Model
-- Select system image (Match the chosen API level)
-- Enter AVD name and finish
-
-### Run on your phone
-
-- Open phone settings -> about Phone
-- Click on the build number seven times
-- Return to settings page
-- Developer options now appears at the bottom of the screen
-- Click on Developer options and choose USB Debugging
+<img style={{width: 800}} src={img2} alt="api levels"/>
 
 ---
 
-### Try to run the empty app on your physical or a virtual device
+#### Android Studio Window panes
 
+1. Project pane
+1. Editor pane
+1. Monitor pane
+
+<img style={{width: 1000}} src={img3} alt="Window panes"/>
+
+---
+
+#### Creating Android virtual device
+
+1. Click on AVD Manager.
+1. Create Virtual device.
+1. Select phone and Model.
+1. Select system image (Match the chosen API level).
+1. Enter AVD name and finish.
+
+---
+
+#### Run on your phone
+
+1. Open phone settings -> about Phone.
+1. Click on the build number seven times.
+1. Return to settings page.
+1. Developer options now appears at the bottom of the screen.
+1. Click on Developer options and choose USB Debugging.
+
+---
+
+#### Try to run the empty app on your physical or a virtual device

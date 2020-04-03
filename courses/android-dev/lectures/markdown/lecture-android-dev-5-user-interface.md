@@ -1,99 +1,87 @@
-import { themes } from "mdx-deck";
-import customTheme from "../../../custom-theme";
-
-export const theme = {
-...themes.highlight,
-...customTheme
-};
-
-import img1 from "../../../media/android-dev-images/android-dev-5/android-views.png";
-import img2 from "../../../media/android-dev-images/android-dev-5/android-views2.png";
-import img3 from "../../../media/android-dev-images/android-dev-5/android-textview-subfunctions.png";
-import img4 from "../../../media/android-dev-images/android-dev-5/android-view-group.png";
-
-### User Interface & Interactions
+### 5.Android development
+#### User Interface & Interactions
 
 ---
 
-### User Interface & Interactions
+#### User Interface & Interactions
 
-- Views & Implementations
-  - Add Views.
-  - Declare and initialize Views.
-  - Manipulate Views.
-- ViewGroups & Implementations
-  - ViewGroup example.
-  - Declare and initialize ViewGroups.
-
----
-
-### Views & ViewGroups
-
-The Android View class and ViewGroup class are two very central classes in Android apps.
-Android apps can have one or more Activity and every Activity contains multiple UI Components,
-the UI components are instances of View or ViewGroup subclasses.
+* Views & Implementations
+  * Add Views.
+  * Declare and initialize Views.
+  * Manipulate Views.
+* ViewGroups & Implementations
+  * ViewGroup example.
+  * Declare and initialize ViewGroups.
 
 ---
 
-### Views
+#### Views & ViewGroups
+
+* The Android View class and ViewGroup class are two very central classes in Android apps.
+* Android apps can have one or more Activity and every Activity contains multiple UI Components.
+* The UI components are instances of View or ViewGroup subclasses.
+
+---
+
+#### Views
 
 <img width="350" src="/media/android-dev-images/android-dev-5/android-views.png" alt="Android Views">
 
 ---
 
-### What are Views?
+#### What are Views?
 
-View objects are the basic building blocks of User Interface in android such as Buttons, checkbox and Textviews.
-The View class is a superclass for all UI components in Android which means TextView is subclass of View.
-Commonly used View subclasses:
-
-- TextView
-- EditText
-- ImageView
-- ProgressBar
-- Button
-- ImageButton
-- CheckBox
-- DatePicker
+* View objects are the basic building blocks of User Interface in android such as Buttons, checkbox and Textviews.
+* The View class is a superclass for all UI components in Android which means TextView is subclass of View.
+* Commonly used View subclasses:
+  * TextView
+  * EditText
+  * ImageView
+  * ProgressBar
+  * Button
+  * ImageButton
+  * CheckBox
+  * DatePicker
 
 ---
 
-### Different Views
+#### Different Views
 
 <img width="350" src="/media/android-dev-images/android-dev-5/android-views2.png" alt="Android Views2">
 
 ---
 
-### View implementation step by step
+#### View implementation step by step
 
-- _Button & Handle button click._
+* _Button & Handle button click._
 
 ---
 
-### Add View
+#### Add View
 
-- There is two way to add and edit UI components including views, you can use both XML code and designer pane.
+* There is two way to add and edit UI components including views, you can use both XML code and designer pane.
 
-- Add this code to the acitivty layout (XML):
+* Add this code to the acitivty layout (XML):
 
 ```XML
 <Button
-    android:id="@+id/button1"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Button"
-    tools:layout_editor_absoluteX="159dp"
-    tools:layout_editor_absoluteY="432dp" />
+  android:id="@+id/button1"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="Button"
+  tools:layout_editor_absoluteX="159dp"
+  tools:layout_editor_absoluteY="432dp" 
+/>
 ```
 
-- Or simply use the design pane by dragging the button to the editor.
-- Pay attention to properties above like **id** and **text**.
+* Or simply use the design pane by dragging the button to the editor.
+* Pay attention to properties above like **id** and **text**.
 
 ---
 
-### Declare and initialize the view on code
+#### Declare and initialize the view on code
 
-- To access the view from java code:
+* To access the view from java code:
 
 ```Java
   //Declare new Button
@@ -104,19 +92,19 @@ Commonly used View subclasses:
 
 ```
 
-- You will need to import button widget.
+* You will need to import button widget.
 
-- _TIP: Click Alt+Enter on Windows or Option+Shift on Mac to import._
+* _TIP: Click Alt+Enter on Windows or Option+Shift on Mac to import._
 
 ---
 
-### Manipulate View
+#### Manipulate View
 
-- Function list:
+* Function list:
 
 <img width="600" src="/media/android-dev-images/android-dev-5/android-textview-subfunctions.png" alt="function list">
 
-- Example onClickListner:
+* Example onClickListner:
 
 ```Java
   //On Button Click
@@ -130,7 +118,7 @@ Commonly used View subclasses:
 
 ---
 
-### Button Click Source code
+#### Button Click Source code
 
 ```Java
 public class MainActivity extends AppCompatActivity {
@@ -159,7 +147,7 @@ public class MainActivity extends AppCompatActivity {
 
 ---
 
-### Text display Source code
+#### Text display Source code
 
 ```Java
 public class MainActivity extends AppCompatActivity {
@@ -192,72 +180,73 @@ public class MainActivity extends AppCompatActivity {
 
 ---
 
-### ViewGroup
+#### ViewGroup
 
-- ViewGroup is the invisible container that groups a collection of Views (Button, TextView ... etc).
-- ViewGroup is a subclass of View.
-- Commonly used ViewGroup subclasses:
-  - ConstraintLayout
-  - LinearLayout
-  - RecyclerView
-- Legacy:
-  - RelativeLayout
-  - ListView
-  - GridView
+* ViewGroup is the invisible container that groups a collection of Views (Button, TextView ... etc).
+* ViewGroup is a subclass of View.
+* Commonly used ViewGroup subclasses:
+  * ConstraintLayout
+  * LinearLayout
+  * RecyclerView
+* Legacy:
+  * RelativeLayout
+  * ListView
+  * GridView
 
 <img width="600" src="/media/android-dev-images/android-dev-5/android-view-group.png" alt="ViewGroup">
 
 ---
 
-### Different layouts with different properties
+#### Different layouts with different properties
 
-- Constraintlayout: allows you to position and size widgets in a flexible way (best for responsive UI).
-- LinearLayout: arranges other views either horizontally in a single column or vertically in a single row.
-- RecyclerView: displays a scrolling list of elements based on large data sets.
-- Legacy:
-  - RelativeLayout: displays child views in relative positions, similar to ConstraintLayout.
-  - ListView: displays a vertically-scrollable collection of views.
-  - GridView: shows items in two-dimensional scrolling grid.
-
----
-
-### ViewGroup implementation step by step
-
-- _LinearLayout with Buttons Example_
+* Constraintlayout: allows you to position and size widgets in a flexible way (best for responsive UI).
+* LinearLayout: arranges other views either horizontally in a single column or vertically in a single row.
+* RecyclerView: displays a scrolling list of elements based on large data sets.
+* Legacy:
+  * RelativeLayout: displays child views in relative positions, similar to ConstraintLayout.
+  * ListView: displays a vertically-scrollable collection of views.
+  * GridView: shows items in two-dimensional scrolling grid.
 
 ---
 
-### Add ViewGroup
+#### ViewGroup implementation step by step
 
-- Use Design or the following XML:
-
-- ```XML
-  <LinearLayout
-      android:layout_width="fill_parent"
-      android:layout_height="fill_parent"
-      android:orientation="horizontal"
-      tools:layout_editor_absoluteX="1dp"
-      tools:layout_editor_absoluteY="1dp">
-  </LinearLayout>
-  ```
-
-- Add buttons to the layout to see it in action.
-
-- ```XML
-  <Button
-      android:id="@+id/button1"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_weight="1"
-      android:text="Button" />
-  ```
-- Notice how the buttons positions side by side horizontally.
+* _LinearLayout with Buttons Example_
 
 ---
 
-### Declare and initialize ViewGroups
+#### Add ViewGroup
 
-- Access the LinearLayout from java code:
+* Use Design or the following XML:
+
+```XML
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+</LinearLayout>
+```
+
+* Add buttons to the layout to see it in action.
+
+```XML
+<Button
+    android:id="@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Button" 
+/>
+```
+* Notice how the buttons positions side by side horizontally.
+
+---
+
+#### Declare and initialize ViewGroups
+
+* Access the LinearLayout from java code:
 
 ```Java
 public class MainActivity extends AppCompatActivity {
@@ -277,7 +266,7 @@ public class MainActivity extends AppCompatActivity {
 
 ---
 
-### Manipulate ViewGroup using subfunctions
+#### Manipulate ViewGroup using subfunctions
 
 ```Java
 //Examples:
@@ -296,4 +285,4 @@ buttonView.removeView(myButton);
 
 ---
 
-### More about User Interface & Interactions on the next lesson..
+#### More about User Interface & Interactions on the next lesson..
