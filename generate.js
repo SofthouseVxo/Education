@@ -31,7 +31,7 @@ function readFile(fileName){
 function transformFile(markdownFile, fileName){
   const markdownAsArray = markdownFile.split('\n');
 
-  let images = markdownAsArray.filter((row)=> row.includes('<img'));
+  let images = markdownAsArray.filter((row)=> row.includes('<img') && row.includes('/media/'));
   let imageImports = createImageImports(images);
   let markdownWithUpdatedImgElements = transformMarkdownImageElements(markdownAsArray);
   
@@ -63,17 +63,22 @@ function transformMarkdownImageElements(markdownAsArray){
   let counter = 0;
 
   return markdownAsArray.map((row)=>{
-    if(row.includes('<img')){
+    if(row.includes('<img') && row.includes('/media/')){
       let rowSplit = row.split(' ');
       let src = rowSplit.filter((word)=> word.includes('src'))[0];
       let width = rowSplit.filter((word)=> word.includes('width="'))[0];
+      let height = rowSplit.filter((word)=> word.includes('height="'))[0];
 
       rowSplit[rowSplit.indexOf(src)] = `src={img${counter}}`;
       
       if(width){
         let parsedWidth = width.replace(/width="/, '').slice(0, -1);
         rowSplit[rowSplit.indexOf(width)] = `style={{width: ${parsedWidth}}}`;
+      } else if(height){
+        let parsedHeight = height.replace(/height="/, '').slice(0, -1);
+        rowSplit[rowSplit.indexOf(height)] = `style={{height: ${parsedHeight}}}`;
       }
+
       counter++;
       return `${rowSplit.join(' ').replace(/>/, '/>')}\n`
     }

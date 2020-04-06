@@ -1,0 +1,274 @@
+import { themes } from "mdx-deck";
+import customTheme from "../../../../custom-theme";
+
+export const theme = {
+  ...themes.highlight,
+  ...customTheme
+};
+
+
+
+### 5. React
+#### JSX - Syntax extension to JavaScript
+
+
+---
+
+#### React recommends using JSX but it's not required.
+
+
+---
+
+#### Babel
+
+* Babel is a JavaScript Compiler
+* It is babel who compiles JSX
+* @babel/plugin-transform-react-jsx
+* <a href="https://babeljs.io/docs/en/babel-plugin-transform-react-jsx" target="_blank">Examples</a>
+* <a href="https://babeljs.io/repl" target="_blank">Try It out!</a>
+* Babel compiles JSX to React.createElement() calls.
+
+
+---
+
+####  JSX
+```JavaScript
+  const element = <h1>Hello, world!</h1>;
+```
+
+* JSX is NOT a string and NOT HTML
+* It describes what the UI should look like
+* JSX has the full power of JavaScript.
+
+
+---
+
+#### JSX provides syntactic sugar for the React.createElement(component, props, ...children)
+#### The JSX code:
+```JavaScript
+<h1 className="greeting">Hello world!</h1>
+```
+
+#### compiled to:
+```JavaScript
+React.createElement(
+  'h1',
+  {className: 'greeting'},
+  'Hello world!'
+)
+```
+
+
+---
+
+```JavaScript
+<Login name="john doe">Hello world!</Login>
+
+React.createElement(
+  'Login', ← Component
+  {name: 'john doe'}, ← Props
+  'Hello world!' ← Children
+);
+```
+
+
+---
+
+####  Essentially creates an Object like this
+
+```JavaScript
+const element = {
+  type: 'h1',
+  props: {
+    className: 'greeting',
+    children: 'Hello, world!'
+  }
+}; // OBS Simplified example
+```
+
+
+---
+
+####  Even if you don't reference to React directly you always need to import React to have it in scope.
+
+```JavaScript
+import React, { Component } from 'react';
+
+class App extends Component {
+render() {
+  return (
+    <h1 style={{color: 'blue'}}>
+      My Text
+    </h1>
+  )
+
+  // // The above is the same as below
+  // return React.createElement(
+  //   'h1',
+  //   {style: {color:'blue'}},
+  //   'My Text'
+  // );
+}
+}
+
+export default App;
+```
+
+
+---
+
+Since JSX is closer to JavaScript than to HTML, React DOM uses **camelCase** property naming convention instead of HTML attribute names. For example, class becomes **className** in JSX, and tabindex becomes **tabIndex.**
+
+
+---
+
+####  Using expressions (variables, operators) in JSX - Place in curly braces
+
+```JavaScript
+const hello = 'hello-string';
+const myObj = {
+  color: '#ff0000'
+};
+// Now we can use the variables to set attributes
+
+<p className={hello}/>
+<div>Image a {myObj.color} here</div>
+```
+
+
+---
+
+####  Using expressions (variables, operators) in JSX - Place in curly braces
+
+```JavaScript
+const hello = 'hello-string';
+const myObj = {
+  color: '#ff0000'
+};
+// Now we can use the variables to set attributes
+
+<p className={hello}/>
+<div>{143 + 15}</div> // Outputs <div>158</div>
+```
+
+
+---
+
+####  Children
+
+```JavaScript
+class TestComponent extends Component {
+  render(){
+    return (
+    // The h1 and h2 tag is the children of the div
+    <div>
+        <h1>Hello!</h1>
+        <h2>Good to see you here.</h2>
+    </div>
+    )
+  }
+}
+```
+
+
+---
+
+####  If a tag is empty you can close it
+
+```JavaScript
+class TestComponent extends Component {
+  render(){
+    return (
+      <div className="my-style"/>
+    )
+  }
+}
+```
+
+
+---
+
+####  Render stuff returned from functions
+
+```JavaScript
+class TestComponent extends Component {
+  renderName(){
+    return <p>John Doe</p>
+  }
+
+  render() {
+    return (
+      this.renderName()
+      this.renderName //will not show anything since function isn't called
+    )
+  }
+}
+```
+
+
+---
+
+####  Render stuff returned from functions
+
+```JavaScript
+class TestComponent extends Component {
+
+  renderName(user){
+    return <p>{user}</p>
+  }
+
+  render(){
+    const user = 'John Doe'
+    return (
+      <h1>
+        Hello, {this.renderName(user)}!
+      </h1>
+    )
+  }
+}
+```
+
+
+---
+
+####  With if statements
+
+```JavaScript
+class TestComponent extends Component {
+  renderName(user, condition){
+    if(condition === true){
+      return <p>{user.firstName}</p>
+    }
+    return <p>{user.lastName}</p>
+  }
+
+  render(){
+    const user = {firstName: 'John',lastName: 'Doe'}
+    const condition = false;
+
+    return (
+      <h1>
+        Hello, {this.renderName(user, condition)}!
+      </h1>
+    )}
+}
+```
+
+
+---
+
+#### Syntax error: Adjacent JSX elements must be wrapped in an enclosing tag
+
+* Wrap in div → Creates a div in the real DOM.
+* React.Fragment → Does NOT create a div in the real DOM.
+
+
+---
+        
+#### Injection protection
+
+* JSX prevents Injection Attacks.
+* escapes any values embedded in JSX before rendering.
+* Escaping = transforms special characters.
+* ```<``` becomes %3E.
+* ```>``` becomes %3E.
