@@ -2,18 +2,18 @@
 
 # Android App development
 
-1. [Android development intro](/courses/android-development/lectures/lecture-android-dev-1-intro.md)
-2. [Android Overview](/courses/android-development/lectures/lecture-android-dev-2-overview.md)
-3. [Android Core Concepts](/courses/android-dev/lectures/lecture-android-dev-3-core-concepts.md)
-4. [Getting Started](/courses/android-development/lectures/lecture-android-dev-4-getting-started.md)
-5. [Views & User Interactions](/courses/android-development/lectures/lecture-android-dev-5-user-interactions.md)
-6. [Activitys & lifecycle](/courses/android-development/lectures/lecture--.md)
-7. [UI design (XML layouts)](/courses/android-development/lectures/lecture--.md)
-8. [Architecture Components](/courses/android-development/lectures/lecture--.md)
-9. [API Communication](/courses/android-development/lectures/lecture--.md)
-10. [Using SQLite](/courses/android-development/lectures/lecture--.md)
-11. [Hardware Interface](/courses/android-development/lectures/lecture--.md)
-12. [Extra](/courses/android-development/lectures/lecture--.md)
+1. [Android development intro](/courses/android-development/markdown/lecture-android-dev-1-intro.md)
+2. [Android Overview](/courses/android-development/lectures/markdown/lecture-android-dev-2-overview.md)
+3. [Android Core Concepts](/courses/android-dev/lectures/markdown/lecture-android-dev-3-core-concepts.md)
+4. [Getting Started](/courses/android-development/lectures/markdown/lecture-android-dev-4-getting-started.md)
+5. [Views & User Interactions](/courses/android-development/lectures/markdown/lecture-android-dev-5-user-interactions.md)
+6. [Activitys & lifecycle](/courses/android-development/lectures/markdown/lecture--.md)
+7. [UI design (XML layouts)](/courses/android-development/lectures/markdown/lecture--.md)
+8. [Architecture Components](/courses/android-development/lectures/markdown/lecture--.md)
+9. [API Communication](/courses/android-development/lectures/markdown/lecture--.md)
+10. [Using SQLite](/courses/android-development/lectures/markdown/lecture--.md)
+11. [Hardware Interface](/courses/android-development/lectures/markdown/lecture--.md)
+12. [Extra](/courses/android-development/lectures/markdown/lecture--.md)
 
 ---
 

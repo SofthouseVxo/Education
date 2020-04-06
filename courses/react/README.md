@@ -1,21 +1,21 @@
 # React
 
-1. [React introduction](/courses/react/lectures/lecture-react-1-intro.md)
-2. [React prerequisites](/courses/react/lectures/lecture-react-2-prerequisites.md)
-3. [React overview](/courses/react/lectures/lecture-react-3-overview.md)
-4. [Functional programming](/courses/react/lectures/lecture-react-4-functional.md)
-5. [JSX](/courses/react/lectures/lecture-react-5-jsx.md)
-6. [Elements & Components](/courses/react/lectures/lecture-react-6-elementsComponents.md)
-7. [State & Lifecycles](/courses/react/lectures/lecture-react-7-stateLifecycle.md)
-8. [Events](/courses/react/lectures/lecture-react-8-events.md)
-9. [Styling & Assets](/courses/react/lectures/lecture-react-9-stylingAssets.md)
-10. [ Conditional Rendering & lists](/courses/react/lectures/lecture-react-10-conditionalLists.md)
-11. [ Forms](/courses/react/lectures/lecture-react-11-forms.md)
-12. [ React Router](/courses/react/lectures/lecture-react-12-router.md)
-13. [ Hooks](/courses/react/lectures/lecture-react-13-hooks.md)
-14. [ Destructuring, Rest, Spread & PropTypes](/courses/react/lectures/lecture-react-14-destructuringRestSpreadPropTypes.md)
-15. [ Sharing logic](/courses/react/lectures/lecture-react-15-sharingLogic.md)
-16. [ Global state & Redux](/courses/react/lectures/lecture-react-16-redux.md)
+1. [React introduction](/courses/react/lectures/markdown/lecture-react-1-intro.md)
+2. [React prerequisites](/courses/react/lectures/markdown/lecture-react-2-prerequisites.md)
+3. [React overview](/courses/react/lectures/markdown/lecture-react-3-overview.md)
+4. [Functional programming](/courses/react/lectures/markdown/lecture-react-4-functional.md)
+5. [JSX](/courses/react/lectures/markdown/lecture-react-5-jsx.md)
+6. [Elements & Components](/courses/react/lectures/markdown/lecture-react-6-elementsComponents.md)
+7. [State & Lifecycles](/courses/react/lectures/markdown/lecture-react-7-stateLifecycle.md)
+8. [Events](/courses/react/lectures/markdown/lecture-react-8-events.md)
+9. [Styling & Assets](/courses/react/lectures/markdown/lecture-react-9-stylingAssets.md)
+10. [ Conditional Rendering & lists](/courses/react/lectures/markdown/lecture-react-10-conditionalLists.md)
+11. [ Forms](/courses/react/lectures/markdown/lecture-react-11-forms.md)
+12. [ React Router](/courses/react/lectures/markdown/lecture-react-12-router.md)
+13. [ Hooks](/courses/react/lectures/markdown/lecture-react-13-hooks.md)
+14. [ Destructuring, Rest, Spread & PropTypes](/courses/react/lecturesmarkdown//lecture-react-14-destructuringRestSpreadPropTypes.md)
+15. [ Sharing logic](/courses/react/lectures/markdown/lecture-react-15-sharingLogic.md)
+16. [ Global state & Redux](/courses/react/lectures/markdown/lecture-react-16-redux.md)
 17. Extra
 
 ---
@@ -27,7 +27,7 @@
 * Course Literature
 
 #### Links
-* [Lecture](/courses/react/lectures/lecture-react-1-intro.md)
+* [Lecture](/courses/react/lectures/markdown/lecture-react-1-intro.md)
 
 ---
 
@@ -48,7 +48,7 @@
 
 #### Links
 * [Exercise](/courses/react/exercises/exercise-react-2-prerequisites.md)
-* [Lecture](/courses/react/lectures/lecture-react-2-prerequisites.md)
+* [Lecture](/courses/react/lectures/markdown/lecture-react-2-prerequisites.md)
 
 ---
 
@@ -63,7 +63,7 @@
 
 #### Links
 * [Exercise](/courses/react/exercises/exercise-react-3-overview.md)
-* [Lecture](/courses/react/lectures/lecture-react-3-overview.md)
+* [Lecture](/courses/react/lectures/markdown/lecture-react-3-overview.md)
 
 ---
 
@@ -89,7 +89,7 @@
 
 #### Links
 * [Exercise](/courses/react/exercises/exercise-react-4-functional.md)
-* [Lecture](/courses/react/lectures/lecture-react-4-functional.md)
+* [Lecture](/courses/react/lectures/markdown/lecture-react-4-functional.md)
 
 ---
 
@@ -104,7 +104,7 @@
 
 #### Links
 * [Exercise](/courses/react/exercises/exercise-react-5-jsx.md)
-* [Lecture](/courses/react/lectures/lecture-react-5-jsx.md)
+* [Lecture](/courses/react/lectures/markdown/lecture-react-5-jsx.md)
 
 ---
 
@@ -125,7 +125,7 @@
 
 #### Links
 * [Exercise](/courses/react/exercises/exercise-react-6-elementsComponents.md)
-* [Lecture](/courses/react/lectures/lecture-react-6-elementsComponents.md)
+* [Lecture](/courses/react/lectures/markdown/lecture-react-6-elementsComponents.md)
 
 ---
 
@@ -145,7 +145,7 @@
 
 #### Links
 * [Exercise](/courses/react/exercises/exercise-react-7-stateLifecycle.md)
-* [Lecture](/courses/react/lectures/lecture-react-7-stateLifecycle.md)
+* [Lecture](/courses/react/lectures/markdown/lecture-react-7-stateLifecycle.md)
 
 ---
 
@@ -163,7 +163,7 @@
 
 #### Links
 * [Exercise](/courses/react/exercises/exercise-react-8-events.md)
-* [Lecture](/courses/react/lectures/lecture-react-8-events.md)
+* [Lecture](/courses/react/lectures/markdown/lecture-react-8-events.md)
 
 ---
 
@@ -178,7 +178,7 @@
 
 #### Links
 * [Exercise](/courses/react/exercises/exercise-react-9-stylingAssets.md)
-* [Lecture](/courses/react/lectures/lecture-react-9-stylingAssets.md)
+* [Lecture](/courses/react/lectures/markdown/lecture-react-9-stylingAssets.md)
 
 ---
 
@@ -196,7 +196,7 @@
 
 #### Links
 * [Exercise](/courses/react/exercises/exercise-react-10-conditionalLists.md)
-* [Lecture](/courses/react/lectures/lecture-react-10-conditionalLists.md)
+* [Lecture](/courses/react/lectures/markdown/lecture-react-10-conditionalLists.md)
 
 ---
 
@@ -213,7 +213,7 @@
 
 #### Links
 * [Exercise](/courses/react/exercises/exercise-react-11-forms.md)
-* [Lecture](/courses/react/lectures/lecture-react-11-forms.md)
+* [Lecture](/courses/react/lectures/markdown/lecture-react-11-forms.md)
 
 ---
 
@@ -232,7 +232,7 @@
 
 #### Links
 * [Exercise](/courses/react/exercises/exercise-react-12-router.md)
-* [Lecture](/courses/react/lectures/lecture-react-12-router.md)
+* [Lecture](/courses/react/lectures/markdown/lecture-react-12-router.md)
 
 ---
 
@@ -248,7 +248,7 @@
 
 #### Links
 * [Exercise](/courses/react/exercises/exercise-react-13-hooks.md)
-* [Lecture](/courses/react/lectures/lecture-react-13-hooks.md)
+* [Lecture](/courses/react/lectures/markdown/lecture-react-13-hooks.md)
 
 ---
 
@@ -271,7 +271,7 @@
 
 #### Links
 * [Exercise](/courses/react/exercises/exercise-react-14-destructuringRestSpreadPropTypes.md)
-* [Lecture](/courses/react/lectures/lecture-react-14-destructuringRestSpreadPropTypes.md)
+* [Lecture](/courses/react/lectures/markdown/lecture-react-14-destructuringRestSpreadPropTypes.md)
 
 ---
 
@@ -289,7 +289,7 @@
 
 #### Links
 * [Exercise](/courses/react/exercises/exercise-react-15-sharingLogic.md)
-* [Lecture](/courses/react/lectures/lecture-react-15-sharingLogic.md)
+* [Lecture](/courses/react/lectures/markdown/lecture-react-15-sharingLogic.md)
 
 ---
 
@@ -312,7 +312,7 @@
 
 #### Links
 * [Exercise](/courses/react/exercises/exercise-react-16-redux.md)
-* [Lecture](/courses/react/lectures/lecture-react-16-redux.md)
+* [Lecture](/courses/react/lectures/markdown/lecture-react-16-redux.md)
 
 ---
 

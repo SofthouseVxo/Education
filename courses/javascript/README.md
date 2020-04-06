@@ -1,27 +1,27 @@
 # JavaScript
 
-1. [Javascript Intro (FE)](/courses/javascript/lectures/lecture-javascript-1-intro.md)
-2. [Scripting/Programming](/courses/javascript/lectures/lecture-javascript-2-scripting.md)
-3. [Variables & Data types](/courses/javascript/lectures/lecture-javascript-3-variablesDatatypes.md)
-4. [Arrays & Operators](/courses/javascript/lectures/lecture-javascript-4-arraysOperators.md)
-5. [Functions](/courses/javascript/lectures/lecture-javascript-5-functions.md)
-6. [Scopes](/courses/javascript/lectures/lecture-javascript-6-scopes.md)
-7. [Decisions](/courses/javascript/lectures/lecture-javascript-7-decisions.md)
-8. [Loops](/courses/javascript/lectures/lecture-javascript-8-loops.md)
-9. [Objects](/courses/javascript/lectures/lecture-javascript-9-objects.md)
-10. [This](/courses/javascript/lectures/lecture-javascript-10-this.md)
-11. [Document Object Model](/courses/javascript/lectures/lecture-javascript-11-DOM.md)
-12. [Dynamic manipulation](/courses/javascript/lectures/lecture-javascript-12-dynamicManipulation.md)
-13. [Dynamic styling](/courses/javascript/lectures/lecture-javascript-13-dynamicStyling.md)
-14. [Events](/courses/javascript/lectures/lecture-javascript-14-events.md)
-15. [AJAX & REST](/courses/javascript/lectures/lecture-javascript-15-ajaxRest.md)
-16. [jQuery](/courses/javascript/lectures/lecture-javascript-16-jQuery.md)
-17. [Handling Forms](/courses/javascript/lectures/lecture-javascript-17-forms.md)
-18. [Browser APIs](/courses/javascript/lectures/lecture-javascript-18-browserApis.md)
-19. [Useful methods](/courses/javascript/lectures/lecture-javascript-19-usefulMethods.md)
-20. [Classes and OOP](/courses/javascript/lectures/lecture-javascript-20-classes.md)
-21. [Fetch & Promises](/courses/javascript/lectures/lecture-javascript-21-fetchPromises.md)
-22. [Prototypes & Modules](/courses/javascript/lectures/lecture-javascript-22-prototypesModules.md)
+1. [Javascript Intro (FE)](/courses/javascript/lectures/markdown/lecture-javascript-1-intro.md)
+2. [Scripting/Programming](/courses/javascript/lectures/markdown/lecture-javascript-2-scripting.md)
+3. [Variables & Data types](/courses/javascript/lectures/markdown/lecture-javascript-3-variablesDatatypes.md)
+4. [Arrays & Operators](/courses/javascript/lectures/markdown/lecture-javascript-4-arraysOperators.md)
+5. [Functions](/courses/javascript/lectures/markdown/lecture-javascript-5-functions.md)
+6. [Scopes](/courses/javascript/lectures/markdown/lecture-javascript-6-scopes.md)
+7. [Decisions](/courses/javascript/lectures/markdown/lecture-javascript-7-decisions.md)
+8. [Loops](/courses/javascript/lectures/markdown/lecture-javascript-8-loops.md)
+9. [Objects](/courses/javascript/lectures/markdown/lecture-javascript-9-objects.md)
+10. [This](/courses/javascript/lectures/markdown/lecture-javascript-10-this.md)
+11. [Document Object Model](/courses/javascript/lectures/markdown/lecture-javascript-11-DOM.md)
+12. [Dynamic manipulation](/courses/javascript/lectures/markdown/lecture-javascript-12-dynamicManipulation.md)
+13. [Dynamic styling](/courses/javascript/lectures/markdown/lecture-javascript-13-dynamicStyling.md)
+14. [Events](/courses/javascript/lectures/markdown/lecture-javascript-14-events.md)
+15. [AJAX & REST](/courses/javascript/lectures/markdown/lecture-javascript-15-ajaxRest.md)
+16. [jQuery](/courses/javascript/lectures/markdown/lecture-javascript-16-jQuery.md)
+17. [Handling Forms](/courses/javascript/lectures/markdown/lecture-javascript-17-forms.md)
+18. [Browser APIs](/courses/javascript/lectures/markdown/lecture-javascript-18-browserApis.md)
+19. [Useful methods](/courses/javascript/lectures/markdown/lecture-javascript-19-usefulMethods.md)
+20. [Classes and OOP](/courses/javascript/lectures/markdown/lecture-javascript-20-classes.md)
+21. [Fetch & Promises](/courses/javascript/lectures/markdown/lecture-javascript-21-fetchPromises.md)
+22. [Prototypes & Modules](/courses/javascript/lectures/markdown/lecture-javascript-22-prototypesModules.md)
 23. External Resources
 
 ---
@@ -33,7 +33,7 @@
 * Course Literature
 
 #### Links:
-* [Lecture](/courses/javascript/lectures/lecture-javascript-1-intro.md)
+* [Lecture](/courses/javascript/lectures/markdown/lecture-javascript-1-intro.md)
 
 ---
 
@@ -60,7 +60,7 @@
 
 #### Links
 * [Exercise](/courses/javascript/exercises/exercise-javascript-2-scripting.md)
-* [Lecture](/courses/javascript/lectures/lecture-javascript-2-scripting.md)
+* [Lecture](/courses/javascript/lectures/markdown/lecture-javascript-2-scripting.md)
 
 ---
 
@@ -82,7 +82,7 @@
 
 #### Links
 * [Exercise](/courses/javascript/exercises/exercise-javascript-3-variablesDatatypes.md)
-* [Lecture](/courses/javascript/lectures/lecture-javascript-3-variablesDatatypes.md)
+* [Lecture](/courses/javascript/lectures/markdown/lecture-javascript-3-variablesDatatypes.md)
 
 ---
 
@@ -104,7 +104,7 @@
 
 #### Links
 * [Exercise](/courses/javascript/exercises/exercise-javascript-4-arraysOperators.md)
-* [Lecture](/courses/javascript/lectures/lecture-javascript-4-arraysOperators.md)
+* [Lecture](/courses/javascript/lectures/markdown/lecture-javascript-4-arraysOperators.md)
 
 ---
 
@@ -123,7 +123,7 @@
 
 #### Links
 * [Exercise](/courses/javascript/exercises/exercise-javascript-5-functions.md)
-* [Lecture](/courses/javascript/lectures/lecture-javascript-5-functions.md)
+* [Lecture](/courses/javascript/lectures/markdown/lecture-javascript-5-functions.md)
 
 ---
 
@@ -141,7 +141,7 @@
 
 #### Links
 * [Exercise](/courses/javascript/exercises/exercise-javascript-6-scopes.md)
-* [Lecture](/courses/javascript/lectures/lecture-javascript-6-scopes.md)
+* [Lecture](/courses/javascript/lectures/markdown/lecture-javascript-6-scopes.md)
 
 ---
 
@@ -166,7 +166,7 @@
 
 #### Links
 * [Exercise](/courses/javascript/exercises/exercise-javascript-7-decisions.md)
-* [Lecture](/courses/javascript/lectures/lecture-javascript-7-decisions.md)
+* [Lecture](/courses/javascript/lectures/markdown/lecture-javascript-7-decisions.md)
 
 ---
 
@@ -186,7 +186,7 @@
 
 #### Links
 * [Exercise](/courses/javascript/exercises/exercise-javascript-8-loops.md)
-* [Lecture](/courses/javascript/lectures/lecture-javascript-8-loops.md)
+* [Lecture](/courses/javascript/lectures/markdown/lecture-javascript-8-loops.md)
 
 ---
 
@@ -206,7 +206,7 @@
 
 #### Links
 * [Exercise](/courses/javascript/exercises/exercise-javascript-9-objects.md)
-* [Lecture](/courses/javascript/lectures/lecture-javascript-9-objects.md)
+* [Lecture](/courses/javascript/lectures/markdown/lecture-javascript-9-objects.md)
 
 ---
 
@@ -225,7 +225,7 @@
 
 #### Links
 * [Exercise](/courses/javascript/exercises/exercise-javascript-10-This.md)
-* [Lecture](/courses/javascript/lectures/lecture-javascript-10-this.md)
+* [Lecture](/courses/javascript/lectures/markdown/lecture-javascript-10-this.md)
 
 ---
 
@@ -247,7 +247,7 @@
 
 #### Links
 * [Exercise](/courses/javascript/exercises/exercise-javascript-11-DOM.md)
-* [Lecture](/courses/javascript/lectures/lecture-javascript-11-DOM.md)
+* [Lecture](/courses/javascript/lectures/markdown/lecture-javascript-11-DOM.md)
 
 ---
 
@@ -266,7 +266,7 @@
 
 #### Links
 * [Exercise](/courses/javascript/exercises/exercise-javascript-12-dynamicManipulation.md)
-* [Lecture](/courses/javascript/lectures/lecture-javascript-12-dynamicManipulation.md)
+* [Lecture](/courses/javascript/lectures/markdown/lecture-javascript-12-dynamicManipulation.md)
 
 ---
 
@@ -283,7 +283,7 @@
 
 #### Links
 * [Exercise](/courses/javascript/exercises/exercise-javascript-13-dynamicStyling.md)
-* [Lecture](/courses/javascript/lectures/lecture-javascript-13-dynamicStyling.md)
+* [Lecture](/courses/javascript/lectures/markdown/lecture-javascript-13-dynamicStyling.md)
 
 ---
 
@@ -305,7 +305,7 @@
 
 #### Links
 * [Exercise](/courses/javascript/exercises/exercise-javascript-14-events.md)
-* [Lecture](/courses/javascript/lectures/lecture-javascript-14-events.md)
+* [Lecture](/courses/javascript/lectures/markdown/lecture-javascript-14-events.md)
 
 ---
 
@@ -331,7 +331,7 @@
 
 #### Links
 * [Exercise](/courses/javascript/exercises/exercise-javascript-15-ajaxRest.md)
-* [Lecture](/courses/javascript/lectures/lecture-javascript-15-ajaxRest.md)
+* [Lecture](/courses/javascript/lectures/markdown/lecture-javascript-15-ajaxRest.md)
 
 ---
 
@@ -354,7 +354,7 @@
 
 #### Links
 * [Exercise](/courses/javascript/exercises/exercise-javascript-16-jQuery.md)
-* [Lecture](/courses/javascript/lectures/lecture-javascript-16-jQuery.md)
+* [Lecture](/courses/javascript/lectures/markdown/lecture-javascript-16-jQuery.md)
 
 ---
 
@@ -376,7 +376,7 @@
 
 #### Links
 * [Exercise](/courses/javascript/exercises/exercise-javascript-17-forms.md)
-* [Lecture](/courses/javascript/lectures/lecture-javascript-17-forms.md)
+* [Lecture](/courses/javascript/lectures/markdown/lecture-javascript-17-forms.md)
 
 ---
 
@@ -395,7 +395,7 @@
 
 #### Links
 * [Exercise](/courses/javascript/exercises/exercise-javascript-18-browserApis.md)
-* [Lecture](/courses/javascript/lectures/lecture-javascript-18-browserApis.md)
+* [Lecture](/courses/javascript/lectures/markdown/lecture-javascript-18-browserApis.md)
 
 ---
 
@@ -420,7 +420,7 @@
 
 #### Links
 * [Exercise](/courses/javascript/exercises/exercise-javascript-19-usefulMethods.md)
-* [Lecture](/courses/javascript/lectures/lecture-javascript-19-usefulMethods.md)
+* [Lecture](/courses/javascript/lectures/markdown/lecture-javascript-19-usefulMethods.md)
 
 ---
 
@@ -442,7 +442,7 @@
 
 #### Links
 * [Exercise](/courses/javascript/exercises/exercise-javascript-20-classes.md)
-* [Lecture](/courses/javascript/lectures/lecture-javascript-20-classes.md)
+* [Lecture](/courses/javascript/lectures/markdown/lecture-javascript-20-classes.md)
 
 ---
 
@@ -461,7 +461,7 @@
 
 #### Links
 * [Exercise](/courses/javascript/exercises/exercise-javascript-21-fetchPromises.md)
-* [Lecture](/courses/javascript/lectures/lecture-javascript-21-fetchPromises.md)
+* [Lecture](/courses/javascript/lectures/markdown/lecture-javascript-21-fetchPromises.md)
 
 ---
 
@@ -480,7 +480,7 @@
 
 #### Links
 * [Exercise](/courses/javascript/exercises/exercise-javascript-22-prototypesModules.md)
-* [Lecture](/courses/javascript/lectures/lecture-javascript-22-prototypesModules.md)
+* [Lecture](/courses/javascript/lectures/markdown/lecture-javascript-22-prototypesModules.md)
 
 ---
 

@@ -1,17 +1,17 @@
 # Backend APIs
 
-1. [Backend APIs introduction](/courses/backend-api/lectures/lecture-backend-api-1-intro.md)
-2. [Installing Tools](/courses/backend-api/lectures/lecture-backend-api-2-installing-tools.md)
-3. [HTTP](/courses/backend-api/lectures/lecture-backend-api-3-http.md)
-4. [Node.js](/courses/backend-api/lectures/lecture-backend-api-4-nodejs.md)
-5. [Express](/courses/backend-api/lectures/lecture-backend-api-5-express.md)
-6. [Persistence](/courses/backend-api/lectures/lecture-backend-api-6-persistence.md)
-7. [API Design](/courses/backend-api/lectures/lecture-backend-api-7-api-design.md)
-8. [Microservices](/courses/backend-api/lectures/lecture-backend-api-8-microservices.md)
-9. [Testing Web APIs](/courses/backend-api/lectures/lecture-backend-api-9-testing.md)
-10. [Documenting APIs](/courses/backend-api/lectures/lecture-backend-api-10-documentation.md)
-11. [Web API Security](/courses/backend-api/lectures/lecture-backend-api-11-security.md)
-12. [Cloud Services](/courses/backend-api/lectures/lecture-backend-api-12-cloud.md)
+1. [Backend APIs introduction](/courses/backend-api/lectures/markdown/lecture-backend-api-1-intro.md)
+2. [Installing Tools](/courses/backend-api/lectures/markdown/lecture-backend-api-2-installing-tools.md)
+3. [HTTP](/courses/backend-api/lectures/markdown/lecture-backend-api-3-http.md)
+4. [Node.js](/courses/backend-api/lectures/markdown/lecture-backend-api-4-nodejs.md)
+5. [Express](/courses/backend-api/lectures/markdown/lecture-backend-api-5-express.md)
+6. [Persistence](/courses/backend-api/lectures/markdown/lecture-backend-api-6-persistence.md)
+7. [API Design](/courses/backend-api/lectures/markdown/lecture-backend-api-7-api-design.md)
+8. [Microservices](/courses/backend-api/lectures/markdown/lecture-backend-api-8-microservices.md)
+9. [Testing Web APIs](/courses/backend-api/lectures/markdown/lecture-backend-api-9-testing.md)
+10. [Documenting APIs](/courses/backend-api/lectures/markdown/lecture-backend-api-10-documentation.md)
+11. [Web API Security](/courses/backend-api/lectures/markdown/lecture-backend-api-11-security.md)
+12. [Cloud Services](/courses/backend-api/lectures/markdown/lecture-backend-api-12-cloud.md)
 13. External Resources 
 
 ---
@@ -29,7 +29,7 @@
 * mongodb
 
 #### Links:
-* [Lecture](/courses/backend-api/lectures/lecture-backend-api-1-intro.md)
+* [Lecture](/courses/backend-api/lectures/markdown/lecture-backend-api-1-intro.md)
 
 ---
 
@@ -42,7 +42,7 @@
 #### Reading instructions:
 
 #### Links:
-* [Lecture](/courses/backend-api/lectures/lecture-backend-api-2-installing-tools.md)
+* [Lecture](/courses/backend-api/lectures/markdown/lecture-backend-api-2-installing-tools.md)
 
 ---
 
@@ -56,7 +56,7 @@
 #### Reading instructions:
 
 #### Links:
-* [Lecture](/courses/backend-api/lectures/lecture-backend-api-3-http.md)
+* [Lecture](/courses/backend-api/lectures/markdown/lecture-backend-api-3-http.md)
 
 ---
 
@@ -68,7 +68,7 @@
 #### Reading instructions:
 
 #### Links:
-* [Lecture](/courses/backend-api/lectures/lecture-backend-api-4-nodejs.md)
+* [Lecture](/courses/backend-api/lectures/markdown/lecture-backend-api-4-nodejs.md)
 
 ---
 
@@ -81,7 +81,7 @@
 #### Reading instructions:
 
 #### Links:
-* [Lecture](/courses/backend-api/lectures/lecture-backend-api-5-express.md)
+* [Lecture](/courses/backend-api/lectures/markdown/lecture-backend-api-5-express.md)
 
 ---
 
@@ -100,7 +100,7 @@
 #### Reading instructions:
 
 #### Links:
-* [Lecture](/courses/backend-api/lectures/lecture-backend-api-6-persistence.md)
+* [Lecture](/courses/backend-api/lectures/markdown/lecture-backend-api-6-persistence.md)
 
 ---
 
@@ -119,7 +119,7 @@
 #### Reading instructions:
 
 #### Links:
-* [Lecture](/courses/backend-api/lectures/lecture-backend-api-7-api-design.md)
+* [Lecture](/courses/backend-api/lectures/markdown/lecture-backend-api-7-api-design.md)
 
 ---
 
@@ -137,7 +137,7 @@
 #### Reading instructions:
 
 #### Links:
-* [Lecture](/courses/backend-api/lectures/lecture-backend-api-8-microservices.md)
+* [Lecture](/courses/backend-api/lectures/markdown/lecture-backend-api-8-microservices.md)
 
 ---
 
@@ -149,7 +149,7 @@
 #### Reading instructions:
 
 #### Links:
-* [Lecture](/courses/backend-api/lectures/lecture-backend-api-9-testing.md)
+* [Lecture](/courses/backend-api/lectures/markdown/lecture-backend-api-9-testing.md)
 
 ---
 
@@ -160,7 +160,7 @@
 #### Reading instructions:
 
 #### Links:
-* [Lecture](/courses/backend-api/lectures/lecture-backend-api-10-documentation.md)
+* [Lecture](/courses/backend-api/lectures/markdown/lecture-backend-api-10-documentation.md)
 
 ---
 
@@ -171,7 +171,7 @@
 #### Reading instructions:
 
 #### Links:
-* [Lecture](/courses/backend-api/lectures/lecture-backend-api-11-security.md)
+* [Lecture](/courses/backend-api/lectures/markdown/lecture-backend-api-11-security.md)
 
 ---
 
@@ -182,7 +182,7 @@
 #### Reading instructions:
 
 #### Links:
-* [Lecture](/courses/backend-api/lectures/lecture-backend-api-12-cloud.md)
+* [Lecture](/courses/backend-api/lectures/markdown/lecture-backend-api-12-cloud.md)
 
 ---
 
