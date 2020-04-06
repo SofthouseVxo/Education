@@ -47,7 +47,6 @@
 * <a href="https://github.com/facebook/create-react-app" target="_blank">Create React App</a>
 
 #### Links
-* [Exercise](/courses/react/exercises/exercise-react-2-prerequisites.md)
 * [Lecture](/courses/react/lectures/markdown/lecture-react-2-prerequisites.md)
 
 ---
@@ -62,7 +61,6 @@
 #### Reading instructions:
 
 #### Links
-* [Exercise](/courses/react/exercises/exercise-react-3-overview.md)
 * [Lecture](/courses/react/lectures/markdown/lecture-react-3-overview.md)
 
 ---
