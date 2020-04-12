@@ -1,3 +1,0 @@
-Place your code examples in this folder.
-
-Code that you show and go through during lectures.

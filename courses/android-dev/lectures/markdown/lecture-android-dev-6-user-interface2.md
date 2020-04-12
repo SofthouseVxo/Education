@@ -1,0 +1,384 @@
+### 5.Android development
+
+#### User Interface & Interactions p.2
+
+---
+
+#### User Interface & Interactions p.2
+
+- More Views:
+  - Checkboxes
+  - Spinners
+    - What is Adpater
+- Fragments
+- Dialog & Pickers
+- ActionBar
+
+---
+
+### Checkboxes
+
+- Use checkboxes when you have a list of options and the user may select any number of choices.
+- <img width="350" src="/media/android-dev-images/android-dev-6/android-dev-checkbox.png" alt="Checkboxes">
+- Add XML(3 checkboxes wrapped in LinearLayout):
+- ```XML
+  <CheckBox
+    android:id="@+id/checkBox"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Option1"
+    tools:layout_editor_absoluteX="16dp"
+    tools:layout_editor_absoluteY="16dp" />
+  ```
+
+---
+
+### Checkboxes
+
+- Declare & initialize
+- If-statement to control checked options.
+
+```Java
+    //Declare
+    CheckBox op1,op2,op3;
+    //Submit
+    Button doneButton;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        //initialize
+        op1 = findViewById(R.id.checkBox);
+        op2 = findViewById(R.id.checkBox2);
+        op3 = findViewById(R.id.checkBox3);
+        doneButton = findViewById(R.id.doneButton);
+
+        //On Click Listener
+        doneButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(op1.isChecked()){
+                    //Do something
+                    Toast.makeText(getApplicationContext(),"OP1 Is checked", Toast.LENGTH_SHORT).show();
+                }
+                if(op2.isChecked()){
+                    //Do something
+                    Toast.makeText(getApplicationContext(),"OP2 Is checked", Toast.LENGTH_SHORT).show();
+                }
+                if(op3.isChecked()){
+                    //Do something
+                    Toast.makeText(getApplicationContext(),"OP3 Is checked", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+    }
+```
+
+---
+
+### Spinners
+
+- Spinner provides a quick way to select one value from a set, drop-down list.
+- <img width="350" src="/media/android-dev-images/android-dev-6/android-dev-checkbox.png" alt="Checkboxes">
+- ```XML
+  <Spinner
+  android:id="@+id/spinner"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  </Spinner>
+  ```
+
+---
+
+- Spinner data can come from any source but must be provided through an adapter, such as an ArrayAdapter.
+- Source example, string array from strings.xml file:
+- ```XML
+  <string-array name="option_array">
+      <item>option1</item>
+      <item>option2</item>
+      <item>option3</item>
+  </string-array>
+  ```
+- Or Harcoded string array:
+- ```Java
+  String[] options_array = { "Option1", "Option2", "Option3"};
+  ```
+
+---
+
+### Adapters
+
+- Adapter acts as a link between a data set and an adapter view, converts data item into view item so it can displayed in UI componenet.
+- Ex. Recyclerview & list view requires Adapter.
+
+- <img width="350" src="/media/android-dev-images/android-dev-6/android-dev-apdater.png" alt="Adapter">
+
+---
+
+### Spinner & Adapter implementation
+
+```Java
+   //Declare
+   Spinner spinnerOne;
+   String[] options_alt = { "Option1", "Option2", "Option3"};
+
+   @Override
+   protected void onCreate(Bundle savedInstanceState) {
+       super.onCreate(savedInstanceState);
+       setContentView(R.layout.activity_main);
+
+       //initialize
+       spinnerOne = findViewById(R.id.spinner1);
+
+       // Create an ArrayAdapter using the string array and a default spinner layout
+       ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+        this, R.array.option_array, android.R.layout.simple_spinner_item);
+
+       //Alternative way:
+       ArrayAdapter adpater_alt = new ArrayAdapter(
+        this,android.R.layout.simple_spinner_item,options_alt);
+
+       //Set spinner adapter
+       spinnerOne.setAdapter(adapter);
+   }
+```
+
+---
+
+### Responding to User Selections
+
+- Implements OnItemSelectedListener
+
+- ```Java
+  public class MainActivity extends AppCompatActivity
+  implements AdapterView.OnItemSelectedListener { ..
+  ```
+- ```Java
+    @Override
+    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+        // An item was selected. You can retrieve the selected item using
+        // parent.getItemAtPosition(pos)
+        Toast.makeText(this, parent.getItemAtPosition(position).toString(), Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> parent) {
+        // Another interface callback
+    }
+  ```
+
+---
+
+### Fragments
+
+- Fragment is a part of an activity which enable more modular activity design (reusable sub-activity).
+- We can combine multiple Fragments in Single Activity to build a multi panel UI and reuse a Fragment in multiple Activities.
+
+- <img width="200" src="/media/android-dev-images/android-dev-6/android-dev-fragment.png" alt="Fragment">
+
+---
+
+### Add fragment
+
+- Create Fragment Class
+- Create Fragmnet XML Layout
+- Manage the fragment from an Activity using framgentManager.
+- _TIP: Generate fragment class and layout using the "New" menu._
+
+---
+
+### Fragment Class
+
+```Java
+  public class FirstFragment extends Fragment {
+
+      public FirstFragment() {
+          // Required empty public constructor
+      }
+
+      @Override
+      public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                               Bundle savedInstanceState) {
+          // Inflate the layout for this fragment
+          return inflater.inflate(R.layout.fragment_first, container, false);
+      }
+  }
+```
+
+---
+
+### Fragment Management example
+
+```Java
+  public  void changeFragment (View view) {
+
+         Fragment fragment;
+
+         if(view == button1) {
+             //initialize Fragment
+             fragment = new FirstFragment();
+
+             //Create the manager
+             FragmentManager fmManager = getSupportFragmentManager();
+
+             //Create the transaction
+             FragmentTransaction fmTransaction = fmManager.beginTransaction();
+
+             //Replace the fragment
+             fmTransaction.replace(R.id.fragment_place, fragment);
+
+             //Commit the transaction
+             fmTransaction.commit();
+         }
+         if(view == button2){
+             fragment = new SecondFragment();
+             FragmentManager fmManager = getSupportFragmentManager();
+             FragmentTransaction fmTransaction = fmManager.beginTransaction();
+             fmTransaction.replace(R.id.fragment_place, fragment);
+             fmTransaction.commit();
+         }
+
+    }
+```
+
+---
+
+### Dialog & Pickers
+
+- A dialog is a window that appears on top of the display or fills the display, interrupting the flow of activity. Dialogs inform users about a specific task and may contain critical information, require decisions, or involve multiple tasks.
+- Subclasses:
+
+  - AlertDialog
+  - DatePickerDialog
+  - TimePickerDialog
+
+- <img width="600" src="/media/android-dev-images/android-dev-6/android-dev-dialogs.png" alt="Dialgos">
+
+---
+
+### AlertDialog Example
+
+```Java
+        //Crete Dialog builder
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
+
+        //Alert Message, Title ... etc
+        alertDialogBuilder.setMessage("Are you sure");
+
+        //Set A positive Button
+        alertDialogBuilder.setPositiveButton("yes",
+                new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface arg0, int arg1) {
+                        //If yes: do something
+                    }
+                });
+
+        //Set a negative Button
+        alertDialogBuilder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                //If no: do something
+            }
+        });
+
+        //Create the dialog and show
+        AlertDialog alertDialog = alertDialogBuilder.create();
+        alertDialog.show();
+```
+
+---
+
+### DatePickerDialog Example
+
+```Java
+ //Declare
+ Button button1;
+ TextView dateTextView;
+ DatePickerDialog datePickerDialog;
+ int year, month, dayOfMonth;
+ Calendar calendar;
+
+     @Override
+     protected void onCreate(Bundle savedInstanceState) {
+         super.onCreate(savedInstanceState);
+         setContentView(R.layout.activity_main);
+
+         //initialize
+         button1 = findViewById(R.id.button1);
+         dateTextView = findViewById(R.id.textView1);
+
+         //On button Click
+         button1.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View view) {
+
+                 //Calendar Configure
+                 calendar = Calendar.getInstance();
+                 year = calendar.get(Calendar.YEAR);
+                 month = calendar.get(Calendar.MONTH);
+                 dayOfMonth = calendar.get(Calendar.DAY_OF_MONTH);
+
+                 //Create the dialog
+                 datePickerDialog = new DatePickerDialog(MainActivity.this,
+                         new DatePickerDialog.OnDateSetListener() {
+                             @Override
+                             public void onDateSet(DatePicker datePicker, int year, int month, int day) {
+                                 dateTextView.setText(year + "-" + (month + 1) + "-" + day);
+                             }
+                         }, year, month, dayOfMonth);
+
+                 //Show the dialog
+                 datePickerDialog.show();
+             }
+         });
+     }
+```
+
+---
+
+### Simple Picker (Without dialog) Exmaple
+
+- <img width="350" src="/media/android-dev-images/android-dev-6/android-dev-datepicker.png" alt="datepicker">
+
+---
+
+### Simple Picker (Without dialog) Exmaple
+
+- ```XML
+  <DatePicker
+             android:id="@+id/datePicker1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:layout_marginTop="20dp" />
+  ```
+
+- ```Java
+  //Declare
+     DatePicker picker;
+     Button button1;
+     TextView textView1;
+
+     @Override
+     protected void onCreate(Bundle savedInstanceState) {
+         super.onCreate(savedInstanceState);
+         setContentView(R.layout.activity_main);
+
+         textView1 = findViewById(R.id.textView1);
+         picker = findViewById(R.id.datePicker1);
+         button1 = findViewById(R.id.button1);
+         button1.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View v) {
+                 textView1.setText("Selected Date: " + picker.getYear() + "-" + (picker.getMonth() + 1) + "-" + picker.getDayOfMonth());
+             }
+         });
+     }
+  ```
+
+---
+
+### ActionBar

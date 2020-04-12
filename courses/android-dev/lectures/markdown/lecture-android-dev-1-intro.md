@@ -10,7 +10,6 @@
 * Experience
 * Contact information:
   * mail:
-  <!-* phone: think twice before you give them this :D -->
   * other:
 
 ---
