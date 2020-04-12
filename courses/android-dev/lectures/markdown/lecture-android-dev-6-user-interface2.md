@@ -12,7 +12,8 @@
     - What is Adpater
 - Fragments
 - Dialog & Pickers
-- ActionBar
+- Menus
+    - ActionBar
 
 ---
 
@@ -381,4 +382,77 @@
 
 ---
 
-### ActionBar
+### Menus
+
+- A menu is a set of options the user can select from to perform a function, such as searching, saving or editing information.
+- <img width="550" src="/media/android-dev-images/android-dev-6/android-dev-menus.png" alt="Menus">
+1. Option menu: search, bookmark and settings.
+2. Context menu: edit, delete and share.
+3. Action bar: edit, delete and share.
+4. Popup menu.
+
+---
+
+### Action bar Menu Example
+
+<img width="550" src="/media/android-dev-images/android-dev-6/android-dev-menu.gif" alt="Menus gif">
+
+---
+
+### Action bar Menu Example
+
+- Create a new menu_main.xml XML:
+- ```XML
+    <?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item
+            android:id="@+id/add" android:icon="@android:drawable/ic_menu_add" app:showAsAction="always"   android:title="add"/>
+        <item
+            android:id="@+id/reset" android:icon="@android:drawable/ic_menu_revert" app:showAsAction="always|withText" android:title="reset"/>
+        <item
+            android:id="@+id/about" android:icon="@android:drawable/ic_dialog_info" app:showAsAction="never" android:title="about">
+        </item>
+        <item
+            android:id="@+id/exit"  app:showAsAction="never" android:title="exit">
+        </item>
+    </menu>
+    ```
+- Every menu item contains id, icon, showAsAction and title.
+- showAsAction: This attribute indicates how the given item should be portrayed in the action bar. (always, ifRoom, neveror withText)
+
+---
+
+### Action bar Menu Example
+
+- Inflate the menu file (XML) in the activity where the menu should be shown:
+- ```Java
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
+    }
+    ````
+- OnClick function to control the menu:
+- ```Java
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch(item.getItemId()) {
+            case R.id.add:
+                //function to perform here
+                return(true);
+            case R.id.reset:
+                return(true);
+            case R.id.about:
+                return(true);
+            case R.id.exit:
+                return(true);
+        }
+        return(super.onOptionsItemSelected(item));
+    }
+    ```
+- _TIP: click alt-instert to generate methods._
+
+---
+
+### Questions

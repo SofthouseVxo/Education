@@ -28,7 +28,7 @@
 
 #### Links:
 
-- [Lecture](/courses/android-dev/lectures/lecture-android-dev-1-intro.md)
+- [Lecture](/courses/android-dev/lectures/markdown/lecture-android-dev-1-intro.md)
 
 ---
 
@@ -51,7 +51,7 @@
 
 #### Links:
 
-- [Lecture](/courses/android-dev/lectures/lecture-android-dev-2-overview.md)
+- [Lecture](/courses/android-dev/lectures/markdown/lecture-android-dev-2-overview.md)
 - <a href="https://developer.android.com/studio/intro">Meet Android Studio</a>
 
 ---
@@ -75,7 +75,7 @@
 
 #### Links:
 
-- [Lecture](/courses/android-dev/lectures/lecture-android-dev-3-core-concepts.md)
+- [Lecture](/courses/android-dev/lectures/markdown/lecture-android-dev-3-core-concepts.md)
 
 ---
 
@@ -92,7 +92,7 @@
 
 #### Links:
 
-- [Lecture](/courses/android-development/lectures/lecture-android-dev-4-getting-started.md)
+- [Lecture](/courses/android-development/lectures/markdown/lecture-android-dev-4-getting-started.md)
 
 ---
 
@@ -110,4 +110,23 @@
 
 #### Links:
 
-- [Lecture](/courses/android-development/lectures/lecture-android-dev-5-user-interface.md)
+- [Lecture](/courses/android-development/lectures/markdown/lecture-android-dev-5-user-interface.md)
+
+---
+
+#### User Interface & Interactions p.2
+
+### Content:
+
+- More Views:
+  - Checkboxes
+  - Spinners
+    - What is Adpater
+- Fragments
+- Dialog & Pickers
+- Menus
+    - ActionBar
+
+#### Links:
+
+- [Lecture](/courses/android-development/lectures/markdown/lecture-android-dev-5-user-interface2.md)
