@@ -12,6 +12,9 @@
     - What is Adpater
 - Fragments
 - Dialog & Pickers
+    - AlertDialog
+    - DatePickerDialog
+    - DatePicker
 - Menus
     - ActionBar
 

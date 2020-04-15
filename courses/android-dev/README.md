@@ -2,19 +2,19 @@
 
 # Android App development
 
-1. [Android development intro](/courses/android-development/lectures/markdown/lecture-android-dev-1-intro.md)
-2. [Android Overview](/courses/android-development/lectures/markdown/lecture-android-dev-2-overview.md)
+1. [Android development intro](/courses/android-dev/lectures/markdown/lecture-android-dev-1-intro.md)
+2. [Android Overview](/courses/android-dev/lectures/markdown/lecture-android-dev-2-overview.md)
 3. [Android Core Concepts](/courses/android-dev/lectures/markdown/lecture-android-dev-3-core-concepts.md)
-4. [Getting Started](/courses/android-development/lectures/markdown/lecture-android-dev-4-getting-started.md)
-5. [User Interface](/courses/android-development/lectures/markdown/lecture-android-dev-5-user-interface.md)
-6. [User Interface part 2](/courses/android-development/lectures/markdown/lecture-android-dev-5-user-interface2.md)
-7. [Activitys & lifecycle](/courses/android-development/lectures/markdown/lecture--.md)
-8. [UI design (XML layouts)](/courses/android-development/lectures/markdown/lecture--.md)
-9. [Architecture Components](/courses/android-development/lectures/markdown/lecture--.md)
-10. [API Communication](/courses/android-development/lectures/markdown/lecture--.md)
-11. [Using SQLite](/courses/android-development/lectures/markdown/lecture--.md)
-12. [Hardware Interface](/courses/android-development/lectures/markdown/lecture--.md)
-13. [Extra](/courses/android-development/lectures/markdown/lecture--.md)
+4. [Getting Started](/courses/android-dev/lectures/markdown/lecture-android-dev-4-getting-started.md)
+5. [User Interface](/courses/android-dev/lectures/markdown/lecture-android-dev-5-user-interface.md)
+6. [User Interface part 2](/courses/android-dev/lectures/markdown/lecture-android-dev-5-user-interface2.md)
+7. [Activitys & lifecycle](/courses/android-dev/lectures/markdown/lecture--.md)
+8. [UI design (XML layouts)](/courses/android-dev/lectures/markdown/lecture--.md)
+9. [Architecture Components](/courses/android-dev/lectures/markdown/lecture--.md)
+10. [API Communication](/courses/android-dev/lectures/markdown/lecture--.md)
+11. [Using SQLite](/courses/android-dev/lectures/markdown/lecture--.md)
+12. [Hardware Interface](/courses/android-dev/lectures/markdown/lecture--.md)
+13. [Extra](/courses/android-dev/lectures/markdown/lecture--.md)
 
 ---
 
@@ -92,7 +92,7 @@
 
 #### Links:
 
-- [Lecture](/courses/android-development/lectures/markdown/lecture-android-dev-4-getting-started.md)
+- [Lecture](/courses/android-dev/lectures/markdown/lecture-android-dev-4-getting-started.md)
 
 ---
 
@@ -110,7 +110,7 @@
 
 #### Links:
 
-- [Lecture](/courses/android-development/lectures/markdown/lecture-android-dev-5-user-interface.md)
+- [Lecture](/courses/android-dev/lectures/markdown/lecture-android-dev-5-user-interface.md)
 
 ---
 
@@ -129,4 +129,25 @@
 
 #### Links:
 
-- [Lecture](/courses/android-development/lectures/markdown/lecture-android-dev-5-user-interface2.md)
+- [Lecture](/courses/android-dev/lectures/markdown/lecture-android-dev-5-user-interface2.md)
+
+---
+
+### Activity & lifecycle
+
+### Content:
+
+- Activity:
+    - Using Intents.
+    - Multiple Activity.
+- Activity Lifecycle:
+    - Understand the Activity Lifecycle.
+    - Multiple states.
+    - When to use what.
+- Activity Instance state
+    - Save & Retrieve instance/UI state.
+
+#### Links:
+
+- [Lecture](/courses/android-dev/lectures/markdown/lecture-android-dev-7-activity-lifecycle.md)
+
