@@ -6,15 +6,14 @@
 2. [Android Overview](/courses/android-dev/lectures/markdown/lecture-android-dev-2-overview.md)
 3. [Android Core Concepts](/courses/android-dev/lectures/markdown/lecture-android-dev-3-core-concepts.md)
 4. [Getting Started](/courses/android-dev/lectures/markdown/lecture-android-dev-4-getting-started.md)
-5. [User Interface](/courses/android-dev/lectures/markdown/lecture-android-dev-5-user-interface.md)
-6. [User Interface part 2](/courses/android-dev/lectures/markdown/lecture-android-dev-5-user-interface2.md)
+5. [User Interface & interactions](/courses/android-dev/lectures/markdown/lecture-android-dev-5-user-interface.md)
+6. [User Interface & interactions part 2](/courses/android-dev/lectures/markdown/lecture-android-dev-5-user-interface2.md)
 7. [Activitys & lifecycle](/courses/android-dev/lectures/markdown/lecture--.md)
-8. [UI design (XML layouts)](/courses/android-dev/lectures/markdown/lecture--.md)
-9. [Architecture Components](/courses/android-dev/lectures/markdown/lecture--.md)
-10. [API Communication](/courses/android-dev/lectures/markdown/lecture--.md)
-11. [Using SQLite](/courses/android-dev/lectures/markdown/lecture--.md)
-12. [Hardware Interface](/courses/android-dev/lectures/markdown/lecture--.md)
-13. [Extra](/courses/android-dev/lectures/markdown/lecture--.md)
+8. [UI design (XML layouts)](/courses/android-dev/lectures/markdown/lecture-android-dev-8-ui-design.md)
+9. [Storage & SQLite](/courses/android-dev/lectures/markdown/lecture-android-dev-9-sqlite.md)
+10. [API Communication](/courses/android-dev/lectures/markdown/lecture-android-dev-10-api-communication.md)
+11. [Kotlin vs Java](/courses/android-dev/lectures/markdown/lecture-android-dev-kotlin.md)
+12. [Extra](/courses/android-dev/lectures/markdown/lecture--.md)
 
 ---
 
@@ -125,7 +124,7 @@
 - Fragments
 - Dialog & Pickers
 - Menus
-    - ActionBar
+  - ActionBar
 
 #### Links:
 
@@ -138,16 +137,32 @@
 ### Content:
 
 - Activity:
-    - Using Intents.
-    - Multiple Activity.
+  - Using Intents.
+  - Multiple Activity.
 - Activity Lifecycle:
-    - Understand the Activity Lifecycle.
-    - Multiple states.
-    - When to use what.
+  - Understand the Activity Lifecycle.
+  - Multiple states.
+  - When to use what.
 - Activity Instance state
-    - Save & Retrieve instance/UI state.
+  - Save & Retrieve instance/UI state.
 
 #### Links:
 
 - [Lecture](/courses/android-dev/lectures/markdown/lecture-android-dev-7-activity-lifecycle.md)
 
+---
+
+### XML & UI design
+
+### Content:
+
+- XML
+  - Introduction
+- Flexible layout
+  - ConstraintLayout
+  - Landscape mode
+- Accessibility
+
+#### Links:
+
+- [Lecture](/courses/android-dev/lectures/markdown/lecture-android-dev-8-ui-design.md)
