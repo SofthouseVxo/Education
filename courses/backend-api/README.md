@@ -37,9 +37,11 @@
 
 #### Content:
 * Introduction to Course
-* Course Literature
+* Course Literature:
+ <https://www.google.com/search?q=Web+Development+with+Node+and+Express+1st+edition>
 
 #### Reading instructions:
+Provided on PingPong, and in course curriculum.
 
 #### Links:
 * [Lecture](/courses/backend-api/lectures/markdown/lecture-backend-api-2-installing-tools.md)
@@ -186,7 +188,9 @@
 
 ---
 
-### External Resources 
+### External Resources:
+* Free video courses on node/express APIs <https://egghead.io/lessons/nodejs-first-api-with-node-js-express-and-mongodb>
+* Most of this course in one blog post: <https://medium.com/codingthesmartway-com-blog/the-mern-stack-tutorial-building-a-react-crud-application-from-start-to-finish-part-2-637f337e5d61>
 
 #### Content:
 

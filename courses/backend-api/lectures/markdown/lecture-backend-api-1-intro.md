@@ -30,7 +30,7 @@
 
 * Web Development with Node and Express, 1st edition
   * complementary, not mandatory
-  * Is really, really cheap online
+  * Google "Web Development with Node and Express 1st edition"
 * Tutorials online
   * MEAN - Mongo Express Angular Node
   * MERN - Mongo Express React Node
