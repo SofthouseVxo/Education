@@ -31,6 +31,6 @@
 * Google Maps
 * Twitter
 * Dropbox
-* Twilio
+* RocketSocket (github)
 * Slack
 * Pexels, Flickr
