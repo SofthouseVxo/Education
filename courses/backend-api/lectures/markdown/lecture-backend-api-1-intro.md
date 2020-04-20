@@ -3,44 +3,48 @@
 
 ---
 #### Who am I?
-* Jonas Eckerström
-* Konsult på Softhouse Småland
-* Jobbar som Arkitekt
-  * Tar fram hela produkter tillsammans med kund
-  * Från kravanalys och utveckling  till molndrift
-  * Leder och stöttar team
-* 5 år på produktbolag, 8 år som konsult
-* Finns på:
+
+* Jonas Ahnsted
+* Consultant at Softhouse
+* Solution Architect
+  * Create entire solutions together with clients
+  * From requirement analysis to cloud deployment
+  * Lead, coach and support various teams
+* 5 years at product companies, 10 as consultant
+* Find me At:
   * slack @jonaseck
-  * mail: jonas.eckerstrom@softhouse.se
+  * mail: jonas.ahnstedt@softhouse.se
 
 ---
-
-#### Syfte
-* Kursen syftar till att studerande utvecklar specialiserade kunskaper och färdigheter i konstruktion och användning av web API:er.
-  * konstruera API:er
-  * Integrera mot tjänster (konsumera API:er)
-  * Persistera data (lagra i databas)
-
----
-#### Se Kursplan
+#### Purpose
+* This course aims to teach students specialized knowledge and skills in construction and use of web APIs.
+  * Create APIs
+  * Service Integration (Consume APIs)
+  * Data persistence (Store data in a Database)
 
 ---
-#### Litteratur
+#### See Course Plan
+
+---
+#### Litterature
 
 * Web Development with Node and Express, 1st edition
-  * kompletterande inte tvingande
-  * Finns billigt online
-  * 2nd edition är inte färdig än (lite snyggare kod)
+  * complementary, not mandatory
+  * Is really, really cheap online
 * Tutorials online
   * MEAN - Mongo Express Angular Node
   * MERN - Mongo Express React Node
 
 ---
-#### Kommunikation
-* Jag är här för er, inte tvärt om
-* Var på plats, respektera varandra tider (speciellt pauser)
-* Om det är otydligt, ställ frågor
-* Branschspråk kommer att läcka igenom, fråga om ord så gör vi en ordbok
-* Vad är viktigt för er?
-* Hur delar vi upp föreläsning kontra praktiska momen
+#### Expectations
+* I am here for you, not the other way around
+* Respect each other: be on time and be back from breaks on time
+* What's important to you, make your expectations and needs clear
+* Ask stupid questions, I've probably missed somtehing fundamental
+* Industry Language and terms will leak through, ask and we'll make a thesaurus
+
+---
+#### In this Course
+* You are my development teams
+* You are fullstack developers
+* You will envision and create your own application
