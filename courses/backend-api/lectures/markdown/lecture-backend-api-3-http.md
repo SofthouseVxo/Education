@@ -112,7 +112,7 @@ Code: 201
 Delete Resource
 
 ```Shell
-curl -X DELETE http://api.softhouse.rocks/users/3
+curl -i -X DELETE http://api.softhouse.rocks/posts/4
 ```
 Response
 ```Shell
