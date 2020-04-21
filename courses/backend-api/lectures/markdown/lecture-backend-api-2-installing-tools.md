@@ -3,111 +3,131 @@
 
 ---
 
-#### Vi kommer använda en del mjukvaror...
+#### We will be using various software tools
 
-Detta behöver vi:
-* Pakethanterare (chocolatey, brew, apt)
-* Kommandoterminal (bash)
-* versionshantering (git)
-* Web requests (browser, curl, wget, postman)
-* json formatter (jq, online json formatter)
-* Editor vscode
-* node.js
-* mongodb
+We'll need:
 
----
-
-#### Pakethanterare
-
-* Motivation:
-  * Installerar mjukvara som kommandon i terminalen
-  * Lättare att dokumentera och mindre strul vid installation
-* Installation:
-  * MacOS: <a href="https://docs.brew.sh/Installation" target="blank">https://docs.brew.sh/Installation</a>
-  * Windows: <a href="https://chocolatey.org/docs/installation" target="_blank">https://chocolatey.org/docs/installation</a>
-  * Linux: apt or pacman
+- Package Manager (chocolatey, brew, apt)
+- Command Line Terminal (bash)
+- Version Control (git)
+- Web Request tools (browser, curl, wget, postman)
+- json formatter (jq, online json formatter)
+- Editor (vscode)
+- node.js
+- mongodb
 
 ---
 
-#### Kommandoterminal
-* Motivation:
-  * Enklare att dokumentera steg för att starta eller utveckla lösning
-* Installation:
-  * MacOS: Terminal är bash
-  * Windows: choco install git
-  * Linux: Duh
+#### Package Manager
+
+- What and Why:
+  - Installs software as command line terminal commands
+  - Easier to document and less hassle during installation
+- How:
+  - MacOS: <a href="https://brew.sh/index_sv" target="blank">https://brew.sh/index_sv</a>
+  - Windows: <a href="https://chocolatey.org/docs/installation" target="_blank">https://chocolatey.org/docs/installation</a>
+  - Linux: apt, pacman, snap depending on distro
+
+---
+
+#### Command Line Terminal
+
+- What and Why:
+  - Enter commands as text instead of clicking
+  - Easier to document consistently, and developers don't click
+- How:
+  - MacOS: Terminal is bash/zsh
+  - Windows: choco install git (git bash)
+  - Linux: Duh
 
 ---
 
 #### Versionshantering
-* Motivation:
-  * Enkelt att gå tillbaka till ett fungerande tillstånd när du skrivit sönder det.
-  * Nödvändig branchkunskap.
-* Installation:
-  * Finns i alla terminaler
-  * Får gärna använda GUI, men lära sig terminalen först rekommenderas
+
+- What and Why:
+  - Store snapshots of working code
+  - Go back to a working state when you've broken your code
+  - Neccesary knowledge as a developer
+- How:
+  - Is available in all above command line terminals
+  - GUIs are available but you need to know the git command first
 
 ---
+
 #### Web requests - Browser
-* Motivation:
-  * Kan användas för backend också
-* Installation:
-  * Chrome/Firefox, ni vet
+
+- What and Why:
+  - Can be used for backend requests too
+- Installation:
+  - Chrome/Firefox, you know how...
 
 ---
 
 #### Web requests - Terminalverktyg (curl)
-* Motivation:
-  * Enklare att dokumentera steg för att starta eller utveckla lösning
-  * Mer kraftfullt än en browser, kan göra alla sorters requests
-* Installation:
-  * Följer med terminalerna
-* Done
+
+- What and Why:
+  - Easier to document consistently
+  - Very clear what kind of requests are being sent
+- Installation:
+  - included in terminals
+- Done when
+
+```sh
+curl resp wget https://www.smp.se/
 ```
-$ curl resp wget https://www.smp.se/
-```			 
 
 ---
 
 #### JSON formatter
-* Motivation:
-  * Enklare att läsa formaterad JSON
-* Installation:
-	* MacOS: ```$ brew install jq```
-	* Windows: ```$ choco install jq```
 
-* Done
+- What and Why:
+  - Easier to format (and query JSON)
+- Installation:
+  - MacOS: ```$ brew install jq```
+  - Windows: ```$ choco install jq```
+
+- Done when
+
+```sh
+curl -s https://jsonplaceholder.typicode.com/todos/1 | jq .
 ```
-$ curl -s https://jsonplaceholder.typicode.com/todos/1 | jq .
-```			 
 
 ---
 
 #### Postman
-* Motivation:
-  * Gratis 
-  * Visuellt verktyg för att förstå hur requests går till
-* Installation:
-  * MacOS: ```$ cask install postman```		 
-	* Windows: ```$ choco install postman```
 
----
-
-#### Editor (VScode)
-* Motivation:
-  * Gratis, Bra plugins för att effektivisera utveckling
-* Installation:
-	* MacOS: ```$ brew install mongodb```
-	* Windows: ```$ choco install mongodb```
-	* Linux: <a href="https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/" target="_blank">https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/</a>
+- What and Why:
+  - Visual tool to test and understand web requests
+  - Commonly used at companies
+- Installation:
+  - MacOS: ```$ cask install postman``` 
+  - Windows: ```$ choco install postman```
 
 ---
 
 #### Mongodb
-* Motivation:
-  * Gratis, sparar och läser JSON utan krångel
-* Installation:
-	* MacOS: ```$ brew install visual-studio-code```
-	* Windows: ```$ choco install vscode```
-* Done
-  * Anslut till mongo genom att köra “mongo” och få upp en prompt.
+
+- What and Why:
+  - Database that stores JSON-like documents
+  - Free, implicit conversion to and from JSON, so no glue required
+- Installation:
+  - MacOS: ```$ brew install mongodb```
+  - Windows: ```$ choco install mongodb```
+  - Linux: ```$ apt install mongodb-ce```
+- Done when
+  - execute ```mongo``` in a terminal and get a prompt
+
+---
+
+#### Editor (VScode)
+
+- What and Why:
+  - Integrated Development Environment (IDE) for developing code
+  - Free, has LiveShare plugin for remote pair/mob programming
+
+- Installation:
+  - MacOS: ```$ brew install visual-studio-code```
+  - Windows: ```$ choco install vscode```
+  - Linux https://code.visualstudio.com/download
+- Done when
+  - Grab a buddy and start a live share session <https://visualstudio.microsoft.com/services/live-share/>
