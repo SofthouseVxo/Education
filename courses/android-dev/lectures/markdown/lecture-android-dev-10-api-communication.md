@@ -2,6 +2,23 @@
 
 ---
 
+### Topics
+
+- What is API?
+- HTTP
+- Android Volley
+  - Getting started with Volley
+  - Simple Http Volley Request
+  - GET Request
+  - POST Request
+  - PUT Request
+  - Delete Request
+- Parsing JSON Response
+  - JSON object response
+  - JSON Array response
+
+---
+
 ### What is API?
 
 - Application Programming Interface.
@@ -73,7 +90,7 @@
 
 ---
 
-### Simple Volley Request
+### Simple Http Volley Request
 
 - ```Java
     //1. Define url e.g:

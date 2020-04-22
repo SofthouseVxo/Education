@@ -166,3 +166,26 @@
 #### Links:
 
 - [Lecture](/courses/android-dev/lectures/markdown/lecture-android-dev-8-ui-design.md)
+
+---
+
+### Android API & Web Services Communication
+
+### Content:
+
+- What is API?
+- HTTP
+- Android Volley
+  - Getting started with Volley
+  - Simple Http Volley Request
+  - GET Request
+  - POST Request
+  - PUT Request
+  - Delete Request
+- Parsing JSON Response
+  - JSON object response
+  - JSON Array response
+
+#### Links:
+
+- [Lecture](/courses/android-dev/lectures/markdown/lecture-android-dev-10-api-communication.md)
