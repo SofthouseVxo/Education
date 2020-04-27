@@ -7,5 +7,104 @@ export const theme = {
 };
 
 
+import img0 from "../../../../media/android-dev-images/android-dev-11/android-dev-kotlin.png";
+import img1 from "../../../../media/android-dev-images/android-dev-11/android-dev-java-kotlin.png";
+import img2 from "../../../../media/android-dev-images/android-dev-11/android-dev-kotlin-activity.png";
 
+### Kotlin
+
+---
+
+### Topic
+
+---
+
+### What is Koltin?
+
+- Programming language designed for the JVM and Android.
+- General purpose, free, open source and statically typed.
+- Combines object-oriented and functional programming features.
+- Focused on interoperability, safety and clarity.
+- Created by JetBrains, the company behind IntelliJ IDEA, in 2010.
+
+<img style={{width: 600}} src={img0} alt="Kotlin"/>
+
+---
+
+### Kotlin Syntax
+
+- ```Java
+    fun main(args: Array<String>) {
+        println("Hello World!")
+    }
+  ```
+
+- ```Java
+    fun sum(a: Int, b: Int): Int {
+        return a + b
+    }
+  ```
+
+- ```Java
+    class Person {
+        var name = "Anne"
+        var age = 32
+    }
+  ```
+- ```Java
+    fun maxOf(a: Int, b: Int): Int {
+        if (a > b) {
+            return a
+        } else {
+            return b
+        }
+    }
+  ```
+
+---
+
+### Kotlin & Java Syntax
+
+- Less Code.
+- No bolierpalte.
+
+<img style={{width: 800}} src={img1} alt="Kotlin & Java syntax"/>
+
+---
+
+### Kotlin on Android
+
+- Android Studio fully supports Kotlin.
+- Kt file type.
+- ```Java
+    class MyActivity : AppCompatActivity() {
+        override fun onCreate(savedInstanceState: Bundle?) {
+            super.onCreate(savedInstanceState)
+            setContentView(R.layout.activity)
+        }
+    }
+  ```
+
+<img style={{width: 800}} src={img2} alt="Kotlin Activity Overview"/>
+
+---
+
+### The Pros of Using Kotlin
+
+- Increased team productivity.
+- interoperability, coordinates with Existing Java Code.
+- Easily maintained.
+- More Reliable.
+- Easy to Learn.
+
+---
+
+### The Cons of Kotlin
+
+- Few Kotlin Experts.
+- Slow Compliation time.
+- Small Developer community.
+- New features, may experience an occasional bugs.
+
+---
 
