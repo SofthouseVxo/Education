@@ -4,6 +4,9 @@ const argv = require('yargs').argv;
 const markdownFolder = `courses/${argv.type}/lectures/markdown`;
 const mdxFolder = `courses/${argv.type}/lectures/mdx/`;
 
+console.log(markdownFolder)
+console.log(mdxFolder)
+
 let mdxBaseContent = `import { themes } from "mdx-deck";
 import customTheme from "../../../../custom-theme";
 
@@ -86,4 +89,8 @@ function transformMarkdownImageElements(markdownAsArray){
   })
 }
 
-readFiles();
+if(require.main === module ){
+  readFiles()
+} else {
+  module.exports = readFiles
+}

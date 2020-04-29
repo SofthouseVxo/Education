@@ -111,8 +111,17 @@ curl -s https://jsonplaceholder.typicode.com/todos/1 | jq .
   - Database that stores JSON-like documents
   - Free, implicit conversion to and from JSON, so no glue required
 - Installation:
-  - MacOS: ```$ brew install mongodb```
-  - Windows: ```$ choco install mongodb```
+  - MacOS:
+    ```sh
+    brew tap mongodb/brew
+    brew install mongodb-community
+    brew services start mongodb-community
+    ```
+  - Windows: 
+    ```
+    choco install mongodb
+    setx /M PATH "%PATH%;C:\program files\mongodb\4.2\server\bin"
+    ```
   - Linux: ```$ apt install mongodb-ce```
 - Done when
   - execute ```mongo``` in a terminal and get a prompt

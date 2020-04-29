@@ -36,7 +36,6 @@ export const theme = {
 
 ---
 #### Try it
-
 Run in terminal
 ```Shell
 $ node -v
@@ -46,16 +45,50 @@ $ npm install npm@latest -g
 
 ---
 #### Node package manager (npm)
-* Adds dependencies
-  * Specifies dependencies in package.json
-  * adds dependency files to node_modules
-  * node_modules is generally ignored by git, need to run npm install after clone
-* npm install --save mongoose
+Package manager (just like brew/chocolatey) and dependency manager
+* Install locally `npm install --save` in current project
+* Install globally `npm install -g` for all users
+* Node and npm are npm packages
+  * `npm install -g node`
+  * `npm install -g npm`
+
+---
+
+#### Package.json
+Specifies dependencies for a project
+* adds dependency files to `node_modules`
+	* `node_modules` should be ignored by git
+	* need to run `npm install` after clone
+* npm `install --save mongoose`
   * Adds to package.json
   * installs to node_modules
+
+---
+
+#### Package.json
+is a plain json file
+```json
+{
+  "name": "lectures-exercises",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.1.48"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "develop": "nodemon index.js"
+  },
+}
+```
+
+---
+#### Using dependencies
 * import dependencies using
-  * const mongoose = require(“mongoose”)
-  * const mongoose = import ”mongoose”
+  * `const express = import("express");`
+  * `const express = require("express");`
 
 ---
 #### Node

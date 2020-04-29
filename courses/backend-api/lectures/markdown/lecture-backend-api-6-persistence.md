@@ -45,7 +45,7 @@ of errors, power failures
 ---
 
 #### MongoDB
-* OUR PERSISTENCE ERSISTENCE OF CHOICE
+* Our Persistence of Choice
 "MongoDB is a document database with the scalability and flexibility that you want
 	with the querying and indexing that you need."
 
@@ -69,7 +69,7 @@ adding resources to the system."
 * Vertical means a bigger machine.
 * Horizontal means adding more machines.
 * SQL doesn't scale well Horizontally.
-* Lead to a varid number of "NoSQL" databases.
+* Lead to a varied number of "NoSQL" databases.
 
 ---
 
@@ -101,7 +101,7 @@ database table every time a database table is accessed."
 
 ---
 
-#### Databases ans Schemas
+#### Databases and Schemas
 
 Mongo stores multiple detatbase idientified by the path argument of the connection
 string (URI)
@@ -146,13 +146,24 @@ const User = mongoose.model('User', userSchema);
 * Relational data by referring to _ids of other schemas
 
 ---
+#### UUID
+A universally unique identifier (UUID) is a 128-bit number used to identify information in computer systems
+
+**"145e6b0a-ffb7-48b9-a9ca-13377cd7c4b7"**
+
+- No need to centrally coordinate IDs
+- the probability to find a duplicate within 103 trillion version-4 UUIDs is one in a billion.
+- Won't collide before the heat death of the universe, probably
+- Collisions are historical events
+
+---
 #### Executing queries
 
 Mongoose calls are asynchronous and takes a callback on the format
 ```JavaScript
 callback(error, result) // It's not a promise
 ```
-but supports ```then()``` and ```async await```.
+but does support ```then()``` and ```async await```.
 
 ```JavaScript
 User.find().then((error, users) => {

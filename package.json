@@ -10,11 +10,11 @@
   "devDependencies": {
     "gatsby-source-filesystem": "^2.1.48",
     "mdx-deck": "^4.1.0",
+    "nodemon": "^2.0.3",
     "yargs": "^15.1.0"
   },
   "scripts": {
-    "start": "node present.js --type=${TYPE} --lecture=${LECTURE}",
-    "generate": "node generate.js --type=${TYPE} --lecture=${LECTURE}"
+    "start": "nodemon present.js"
   },
   "keywords": [],
   "author": "",
