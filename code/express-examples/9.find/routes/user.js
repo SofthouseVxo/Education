@@ -1,7 +1,13 @@
 get = (req, res, next) => {
   // localhost:3000/user => req.query {}
   // localhost:3000/user?usermame=pelle => req.query {"username": "pelle"}
-  req.models.User.find(req.query).then((user) => {
+  
+  let search = {}
+  if(req.query.username){
+    search = {username: req.query.username}
+  }
+
+  req.models.User.find(search).then((user) => {
       return res.send(user);
     }).catch((error) => {
       next(error)

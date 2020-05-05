@@ -1,6 +1,8 @@
 # Middlewares
 
-Echoes the body of the post request to /middlewares
+Middlewares are used to perform changes to the request or response
+
+the path `/body` Echoes the body of the post request to /body, just so you can see a request and response body
 
 Uses the express.json() middleware to parse the body of the request as json if a header `Content-Type: application/json` is supplied.
 
