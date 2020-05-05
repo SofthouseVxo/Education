@@ -7,7 +7,10 @@ Find a user by supplying a query parameter
 ## Setting it up from scratch
 
 ```sh
-npm install --save mongoodb
+npm install --save mongodb
+
+npm i --save node-dotify
+
 ```
 
 ## Instructions
