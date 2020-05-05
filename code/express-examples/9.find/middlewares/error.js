@@ -1,5 +1,6 @@
 // Return JSON errors, with code
 const error = (error, req, res, next) => {
+  console.error(error)
   if (res.headersSent) {
     return next(err)
   }

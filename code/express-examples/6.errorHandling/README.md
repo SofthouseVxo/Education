@@ -2,12 +2,6 @@
 
 Adds an error handling middleware that returns the error as JSON
 
-## Setting it up from scratch
-
-```sh
-npm install --save mongoodb
-```
-
 ## Instructions
 
 ```sh
@@ -45,7 +39,9 @@ curl -s -X POST localhost:3000/nothinghere | jq
 
 ```json
 {
-  "status": 404
+  "error": {
+    "status": 404
+  }
 }
 ```
 

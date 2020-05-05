@@ -106,14 +106,27 @@ curl -s -X POST localhost:3000/users --data '{
       "lng": 0
     }
   }
-}' -H "Content-Type: application/json; charset=utf-8"
+}' -H "Content-Type: application/json; charset=utf-8" | jq
 ```
 
 Read the error:
 
-```html
-<body>
-<pre>MongoError: E11000 duplicate key error collection: example.users index: email_1
+```json
+{
+  "error": {
+    "driver": true,
+    "name": "MongoError",
+    "index": 0,
+    "code": 11000,
+    "keyPattern": {
+      "email": 1
+    },
+    "keyValue": {
+      "email": "string@email.eml"
+    },
+    "errmsg": "E11000 duplicate key error collection: example.users index: email_1 dup key: { email: \"string@email.eml\" }"
+  }
+}
 ```
 
 email is not unique
@@ -126,7 +139,7 @@ what if users input something other than an email address?
 curl -s -X POST localhost:3000/users --data '{
   "name": "string",
   "username": "string",
-  "email": "string",
+  "email": "not an email",
   "address": {
     "street": "string",
     "suite": "string",
@@ -137,13 +150,34 @@ curl -s -X POST localhost:3000/users --data '{
       "lng": 0
     }
   }
-}' -H "Content-Type: application/json; charset=utf-8"
+}' -H "Content-Type: application/json; charset=utf-8" | jq
 ```
 
 Read the error:
 
-```html
-<pre>ValidationError: User validation failed: email: Validator failed for path `email
+```json
+{
+  "error": {
+    "errors": {
+      "email": {
+        "message": "Validator failed for path `email` with value `string`",
+        "name": "ValidatorError",
+        "properties": {
+          "message": "Validator failed for path `email` with value `string`",
+          "type": "user defined",
+          "path": "email",
+          "value": "string"
+        },
+        "kind": "user defined",
+        "path": "email",
+        "value": "string"
+      }
+    },
+    "_message": "User validation failed",
+    "message": "User validation failed: email: Validator failed for path `email` with value `string`",
+    "name": "ValidationError"
+  }
+}
 ```
 
 ## body not matching the Schema will be omitted
