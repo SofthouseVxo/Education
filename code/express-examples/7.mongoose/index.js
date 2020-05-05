@@ -18,6 +18,9 @@ app.use((req, res, next) => {
 })
 
 app.use('/', routes)
+// on error, first run the mongoError middleware
+app.use(middlewares.mongoError)
+// then the rror middleware
 app.use(middlewares.error)
 app.use(middlewares.notfound)
 

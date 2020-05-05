@@ -25,7 +25,7 @@ Create a user
 curl -s -X POST localhost:3000/users --data '{
   "name": "string",
   "username": "string",
-  "email": "string@email.eml",
+  "email": "string@eail.eml",
   "address": {
     "street": "string",
     "suite": "string",
@@ -106,7 +106,7 @@ curl -s -X POST localhost:3000/users --data '{
       "lng": 0
     }
   }
-}' -H "Content-Type: application/json; charset=utf-8" | jq
+}' -H "Content-Type: application/json; charset=utf-8" | jq .
 ```
 
 Read the error:
@@ -150,7 +150,57 @@ curl -s -X POST localhost:3000/users --data '{
       "lng": 0
     }
   }
-}' -H "Content-Type: application/json; charset=utf-8" | jq
+}' -H "Content-Type: application/json; charset=utf-8" | jq .
+```
+
+Read the error:
+
+```json
+{
+  "error": {
+    "errors": {
+      "email": {
+        "message": "Validator failed for path `email` with value `string`",
+        "name": "ValidatorError",
+        "properties": {
+          "message": "Validator failed for path `email` with value `string`",
+          "type": "user defined",
+          "path": "email",
+          "value": "string"
+        },
+        "kind": "user defined",
+        "path": "email",
+        "value": "string"
+      }
+    },
+    "_message": "User validation failed",
+    "message": "User validation failed: email: Validator failed for path `email` with value `string`",
+    "name": "ValidationError"
+  }
+}
+```
+
+### email required
+
+### email validator
+
+what if users input something other than an email address?
+
+```sh
+curl -s -X POST localhost:3000/users --data '{
+  "name": "string",
+  "email": "an@email.eml",
+  "address": {
+    "street": "string",
+    "suite": "string",
+    "city": "string",
+    "zipcode": "string",
+    "geo": {
+      "lat": 0,
+      "lng": 0
+    }
+  }
+}' -H "Content-Type: application/json; charset=utf-8" | jq .
 ```
 
 Read the error:
@@ -208,7 +258,7 @@ If you don't have email validation fail on uniqueness because you have two null 
 If there's no validation or uniqueness, you'll get an empty user object.
 
 ```json
-user: {"_id": "5eb1359f5dba65dfe8940fd7", "__v": 0}
+{ "user": {"_id": "5eb1359f5dba65dfe8940fd7", "__v": 0}}
 ```
 
 should actually then be:
