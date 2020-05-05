@@ -1,5 +1,11 @@
 
+// same function as before...
 hello = (req, res) => {
+  res.send({"Hello": "World"});
+};
+
+// a new function
+params = (req, res) => {
   response = {
     "Hello": "World",
     "query": req.query,
@@ -11,5 +17,6 @@ hello = (req, res) => {
 
 module.exports = {
   hello: hello,
-  params: hello
+// a new export
+  params: params
 } 

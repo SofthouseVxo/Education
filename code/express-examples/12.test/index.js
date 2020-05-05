@@ -1,5 +1,6 @@
 const express = require("express");
 
+const middlewares = require("./middlewares")
 const routes = require("./routes")
 const db = require("./models")
 
@@ -13,19 +14,15 @@ const port = process.env.PORT || 3000;
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
-app.use((error, req, res, next) => {
-  if (res.headersSent) {
-    return next(err)
-  }
-  res.status(error.statusCode || error.status || 500).send({error: error })
-})
-
 app.use((req, res, next) => {
   req.models = db.models
   next()
 })
 
 app.use('/', routes)
+
+app.use(middlewares.error)
+app.use(middlewares.notfound)
 
 // Start up the database, then the server and begin listen to requests
 if(process.env.NODE_ENV != "test") {

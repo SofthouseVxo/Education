@@ -16,22 +16,30 @@ export const theme = {
 };`;
 
 function readFiles(){
+  console.log(`scanning ${markdownFolder}`)
   fs.readdir(markdownFolder, (err, files)=>{
     if (err) {
-      return console.log('Unable to scan directory: ' + err);
+      console.error('Unable to scan directory: ' + err);
+      throw(err)
     }
+    console.log(`found`, markdownFolder)
     files.forEach(readFile);
   })
 }
 
 function readFile(fileName){
+  console.log(`scanning file ${fileName}`)
   fs.readFile(`${markdownFolder}/${fileName}`,'utf8', (err, file) => {
-    if (err) throw err;
+    if (err) {
+      console.error('Unable to read file: ' + err);
+      throw err;
+    }
     transformFile(file, fileName);
   })
 }
 
 function transformFile(markdownFile, fileName){
+  console.log(`tranforming file ${markdownFile} ${fileName}`)
   const markdownAsArray = markdownFile.split('\n');
 
   let images = markdownAsArray.filter((row)=> row.includes('<img') && row.includes('/media/'));
@@ -45,6 +53,7 @@ ${imageImports}
 
 ${markdownWithUpdatedImgElements.join('')}`;
   
+  if (!fs.existsSync(mdxFolder)) fs.mkdirSync(mdxFolder);
   fs.writeFile(`${mdxFolder}/${fileName}x`, mdxLecture ,()=>{console.log('finished')})
 };
 

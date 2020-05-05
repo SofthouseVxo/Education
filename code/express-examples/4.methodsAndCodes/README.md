@@ -25,6 +25,10 @@ Custom-response-header: yep
 you sent a get request and got a custom response header
 ```
 
+The `-i` flag tells curl to print out the response headers in the terminal before printing the body
+Note the `Custom-response-header: yep` that was added to the response
+Note the `Content-Type: text/html; charset=utf-8` header indicating that the response is text: "you sent a get request and got a custom response header"
+
 ```sh
 curl -s -i -X POST "localhost:3000/methods"
 HTTP/1.1 201 Created

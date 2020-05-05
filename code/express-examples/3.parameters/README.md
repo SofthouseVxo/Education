@@ -47,9 +47,13 @@ npm start
 
 ## Test
 
+Requests with a path parameter, `someparam` the example below will be routed to the param function
+
 ```sh
 curl -s "localhost:3000/someparam?keyWithoutValue&keyWithvalue=value" -H "some: header" | jq
+```
 
+```json
 {
   "Hello": "World",
   "query": {
@@ -66,5 +70,56 @@ curl -s "localhost:3000/someparam?keyWithoutValue&keyWithvalue=value" -H "some: 
     "some": "header"
   }
 }
-Jo
+```
+
+requests without a path parameter will be routed to the hello function:
+
+```sh
+curl -s "localhost:3000" | jq
+```
+
+```json
+{
+  "Hello": "World"
+}
+```
+
+requests to /willNeverBeCalled ends up in the parameter function
+
+```sh
+curl -s "localhost:3000/willNeverBeCalled" | jq
+```
+
+```json
+{
+  "Hello": "World",
+  "query": {},
+  "params": {
+    "pathParameter": "willNeverBeCalled"
+  },
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.64.1",
+    "accept": "*/*"
+  }
+}
+```
+
+would be routed to hello and show `{"hello":"world"}`, but the route is shadowed by the path parameter route.
+
+Placing the willNeverBeCalled before the pathparameter route will make it impossible to call the path parameter route with the parameter `willNeverBeCalled`
+
+```js
+router.get("/:pathParameter", helloWorld.params)
+
+// can never reach this code
+router.get("/willNeverBeCalled", helloWorld.hello)
+```
+
+```js
+router.get("/imFirst", helloWorld.hello)
+
+// pathParameter can never be "imFirst"
+router.get("/:pathParameter", helloWorld.params)
+
 ```

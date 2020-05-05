@@ -22,8 +22,8 @@ deleteExample = (req, res) => {
 }
 
 module.exports = {
-  get: getExample,
-  post: postExample,
-  put: putExample,
-  delete: deleteExample,
+  getExample: getExample,
+  postExample: postExample,
+  putExample: putExample,
+  deleteExample: deleteExample,
 }

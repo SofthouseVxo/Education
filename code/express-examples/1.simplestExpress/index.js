@@ -11,5 +11,6 @@ app.get("/", (req, res) => {
 
 // Start up server and begin listen to requests
 const listener = app.listen(port, () => {
+  // be nice to your user and tell them what port it started on
   console.info(`Server is listening on port ${listener.address().port}.`);
 });

@@ -1,13 +1,17 @@
 ### 6. Backend APIs
+
 #### Persistence (The Data we store)
 
 ---
+
 #### State
 
 "A program is described as stateful if it is designed to remember preceding events or user interactions; the remembered information is called the state of the system."
 
 ---
+
 #### HTTP is a Stateless Protocol
+
 "No session information is retained by the server. All data is sent to the server so
 that the request can be understood in isolation, without any knowledge of previous
 requests"
@@ -17,12 +21,16 @@ requests"
 * Sometimes we switch clients.
 
 ---
+
 #### Persistence
+
 "In computer science, persistence refers to the characteristic of state that outlives
 the process that created it."
 
 ---
+
 #### Persisted State
+
 A program (process) that remembers what you did (state), even if you restart it
 (presistence).
 
@@ -33,6 +41,7 @@ A program (process) that remembers what you did (state), even if you restart it
 ---
 
 #### ACID
+
 In computer science, ACID (Atomicity, Consistency, Isolation, Durability) is a set of
 properties of database transactions intended to guarantee validity even in the event
 of errors, power failures
@@ -44,7 +53,16 @@ of errors, power failures
 
 ---
 
+#### BASE
+
+The BASE acronym is used to describe the properties of certain databases, usually NoSQL databases. It's often referred to as the opposite of ACID. This applies to distributed or horizontally scaled databases
+
+* Basically Available: 
+* Soft state
+* Eventual consistency
+
 #### MongoDB
+
 * Our Persistence of Choice
 "MongoDB is a document database with the scalability and flexibility that you want
 	with the querying and indexing that you need."
@@ -82,6 +100,17 @@ vary from document to document and data structure can be changed over time"
 * Each document has a unique ID.
 
 ---
+#### UUID
+A universally unique identifier (UUID) is a 128-bit number used to identify information in computer systems
+
+**"145e6b0a-ffb7-48b9-a9ca-13377cd7c4b7"**
+
+- No need to centrally coordinate IDs
+- the probability to find a duplicate within 103 trillion version-4 UUIDs is one in a billion.
+- Won't collide before the heat death of the universe, probably
+- Collisions are historical events
+
+---
 
 #### Querying
 "Asking for the information you need".
@@ -93,6 +122,7 @@ vary from document to document and data structure can be changed over time"
 ---
 
 #### Indexing
+
 "Indexes are used to quickly locate data without having to search every row in a
 database table every time a database table is accessed."
 
@@ -121,7 +151,7 @@ Enough theory and nomenclature for now.
 "Mongoose provides a straight-forward, schema-based solution to model your
 application data. It includes built-in type casting, validation, query building,
 business logic hooks and more, out of the box."
-* Makes it simpler to communicate with mongo
+- Makes it simpler to communicate with mongo
 
 ---
 #### Mongoose Schema
@@ -146,20 +176,10 @@ const User = mongoose.model('User', userSchema);
 * Relational data by referring to _ids of other schemas
 
 ---
-#### UUID
-A universally unique identifier (UUID) is a 128-bit number used to identify information in computer systems
-
-**"145e6b0a-ffb7-48b9-a9ca-13377cd7c4b7"**
-
-- No need to centrally coordinate IDs
-- the probability to find a duplicate within 103 trillion version-4 UUIDs is one in a billion.
-- Won't collide before the heat death of the universe, probably
-- Collisions are historical events
-
----
 #### Executing queries
 
 Mongoose calls are asynchronous and takes a callback on the format
+
 ```JavaScript
 callback(error, result) // It's not a promise
 ```
@@ -173,49 +193,129 @@ User.find().then((error, users) => {
 })
 ```
 
-
----
-#### Find By Id
-
-Find by id takes an ObjectId as argument. Something that can be Cast to a UUID.
-
-```JavaScript
-Model.findById()
-Model.findByIdAndDelete()
-Model.findByIdAndRemove()
-Model.findByIdAndUpdate()
-```
-
-```JavaScript
-doc = User.findById("145e6b0a-ffb7-48b9-a9ca-13377cd7c4b7").then...
-```
-
-<a href="https://mongoosejs.com/docs/queries.html" target="_blank">https://mongoosejs.com/docs/queries.html</a>
-
 ---
 #### Find
 
 Find takes an object containing the search criteria.
 
 ```JavaScript
-doc = user.find({id: parseInt(req.params.postId)}).then...
+User.find({name: req.query.name}).then((error, users) => {
+	return res.send(users);
+}).catch((error) => {
+	next(error);
+})
 ```
 
 ```JavaScript
-Model.find()
-Model.findOne()
-Model.deleteOne()
-Model.deleteMany()
-Model.findOneAndDelete()
-Model.findOneAndRemove()
+doc = user.find({name: "pelle kaning"}).then...
 ```
 
 ---
-#### Updating
+#### Find By Id or One
+
+Find by id takes an ObjectId as argument. Something that can be Cast to a UUID.
 
 ```JavaScript
-Model.findOneAndUpdate()
-Model.replaceOne()
-Model.updateMany()
-Model.updateOne()
+User.findOne({_id: req.params.userId}).then...
+User.findById(req.params.userId).then((error, users) => {
+	return res.send(users);
+}).catch((error) => {
+	next(error);
+})
 ```
+
+```JavaScript
+doc = User.findOne({_id: "145e6b0a-ffb7-48b9-a9ca-13377cd7c4b7"}).then...
+doc = User.findById("145e6b0a-ffb7-48b9-a9ca-13377cd7c4b7").then...
+```
+
+<a href="https://mongoosejs.com/docs/queries.html" target="_blank">https://mongoosejs.com/docs/queries.html</a>
+
+---
+#### Delete
+
+Delete an object containing the search criteria.
+
+```JavaScript
+User.deleteOne({_id: req.params.userId}).then...
+User.findByIdAndDelete(req.params.userId).then((error, users) => {
+	return res.send(users);
+}).catch((error) => {
+	next(error);
+})
+```
+
+```JavaScript
+doc = User.deleteOne({_id: "145e6b0a-ffb7-48b9-a9ca-13377cd7c4b7"}).then...
+doc = User.findByIdAndDelete("145e6b0a-ffb7-48b9-a9ca-13377cd7c4b7").then...
+```
+
+---
+#### Updating (put)
+
+Replace an object
+
+```JavaScript
+Model.findOneAndUpdate({id: req.params.userId}
+	{ req.body },
+	{
+		upsert: true,
+		new: true,
+		returnNewDocument: true
+	}.then((status) => {
+	if (status.upserted)
+		res.status(201)
+	else if (status.nModified)
+		res.status(200)
+	else
+		res.status(204)
+	}
+```
+
+---
+#### Updating patch
+
+Updating the keys of an object
+
+```JavaScript
+Model.findByIdAndUpdate(req.params.id,
+  { 
+    $set: dotify(req.body)
+  },
+  {
+    returnNewDocument: true,
+    new: true,
+  }).then((user) => {
+    console.log(user)
+    res.send(user)
+  }).catch((error) => next(error))
+}
+```
+
+`$set` replaces the keys with the specified objects...
+
+---
+#### Bracket vs Dot Notation
+
+we don't want to replace address with an object containing just street with teh value
+
+```json
+  {
+   "name": "name other than my name",
+   "address" : {
+      "street": "coolz street"
+   }
+  }
+```
+
+We want to replace the key street in the object address with the value:
+
+```json
+  {
+   "name": "name other than my name",
+   "address.street": "coolz street"
+   }
+	}
+	```
+
+dotify converts between bracket and dot notation!

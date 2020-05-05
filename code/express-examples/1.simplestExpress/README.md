@@ -11,13 +11,51 @@ npm install --save express
 
 add the `"start": "node index.js",`in package json under scripts for convenience
 
-Create and add the contents to `ìndex.js` file
+```json
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+```
+
+should be:
+
+```json
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+```
+
+Don't forget the comma att the end
+
+Start the server by executing:
 
 ```sh
 npm start
 ```
 
 press ctrl-c to break execution
+
+### Nodemon
+
+nodemon is a development utility that reloads your javascript code whenever there's a change so you don't have to restart
+
+```sh
+npm install -save-dev nodemon
+```
+
+Update package.json to use nodemon to run the application:
+
+```json
+  "scripts": {
+    "start": "node index.js",
+```
+
+should be:
+
+```json
+  "scripts": {
+    "start": "nodemon index.js",
+```
+
 
 ## Instructions
 
@@ -29,7 +67,7 @@ npm start
 ## Test
 
 ```sh
-curl -i localhost:3000
+curl -s -i localhost:3000
 
 HTTP/1.1 200 OK
 X-Powered-By: Express
@@ -41,3 +79,9 @@ Connection: keep-alive
 
 Hello World
 ```
+
+The `-i` flag adds header output from the response.
+The `-s` flag removes unneccessary progress output from the commend.
+
+`HTTP/1.1 200 OK` shows the HTTP version and response code, 200.
+`application/json; charset=utf-8` instructs that thre response is in json representation.
