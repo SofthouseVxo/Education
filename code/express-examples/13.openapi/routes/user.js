@@ -1,5 +1,3 @@
-dotify = require('node-dotify');
-
 get = (req, res, next) => {
   var query;
   if(req.query.username) {
@@ -10,9 +8,8 @@ get = (req, res, next) => {
     query = req.models.User.find()
   }
 
-
-  query.exec().then((users) => {
-      return res.send(users);
+  query.exec().then((user) => {
+      return res.send(user);
     }).catch((error) => next(error))
 }
 
@@ -67,55 +64,28 @@ put = (req, res, next) => {
         }
       },
     },{
-      new: true,
-      upsert: true,
-      runvalidators: true,
+     new: true,
+     upsert: true,
+     runvalidators: true,
     }).then((status) => {
-      console.log("status: ", status)
-      if (status.upserted) {
+      if (status.upserted)
         res.status(201)
-       } else if (status.nModified) {
+      else if (status.nModified)
         res.status(200)
-       } else {
+      else 
         res.status(204)
-      }
-      req.models.User.findById(req.params.id).then((user) => {
-        res.send(user)
-      })
+    res.send()
     }).catch((error) => next(error))
 }
 
 const patch = (req, res, next) => {
-  console.log(dotify(req.body))
-/*
-  Dotify translates this:
-  {
-   "name": "name other than my name",
-   "address" : {
-      "street": "coolz street"
-   }
-  }
-
-  to this:
-
-  { 
-   "name": "name other than my name",
-   "address.street": "coolz street"
-  }
-
-  replacing the key street in the object address with the new value, 
-  instead of replacing the entire address object
-*/
-  
   req.models.User.findByIdAndUpdate(req.params.id,
   { 
-    $set: dotify(req.body)
+    $set: req.body
   },
   {
     returnNewDocument: true,
-    new: true,
   }).then((user) => {
-    console.log("user after request:", user)
     res.send(user)
   }).catch((error) => next(error))
 }
