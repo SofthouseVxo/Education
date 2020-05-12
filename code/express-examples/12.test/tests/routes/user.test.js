@@ -2,28 +2,36 @@
 const sinon = require('sinon');
 
 const mongoose = require('mongoose')
+// enable mongoose debug to make test fails more verbose
 mongoose.set('debug', true)
+// sinon-mongoose allows mocking mongoose models
 require('sinon-mongoose')
 
 // initialize the app and models
 const app = require('../../index.js')
 
-// sending requests
+// supertest for sending test requests
 const agent = require('supertest').agent(app);
-// validating results
+// chai is used for comparing JSON results
 const expect = require('chai').expect;
 
-// get the model
+// initialize the real model
 const User = mongoose.model('User')
 
+// create a mock that expects calls and provides controlled results
 var userMock = sinon.mock(User)
 
 beforeEach(() => {
-	userMock.restore(); // Unwraps the spy
+	// the calls and expectations to the mock needs to be reset before each call
+	// otherwise old test case expectations or resolves might fail the case after it
+	userMock.restore();
+	// just resetting doesn't quite do it, we have to create a new one too
 	userMock = sinon.mock(User)
 });
 
 afterEach( () => {
+	// this is where the expectations of the mock is tested, otherwise unmet expectations
+	// ie. calls that were never made will not fail
 	userMock.verify();
 });
 
@@ -34,7 +42,7 @@ describe('User Integration tests', () => {
 	const request = {
 		"address": {
 			"geo": {
-				"lat": 1,
+				"lat": 100,
 				"lng": 2
 			},
 			"street": "My Stree",
@@ -50,7 +58,7 @@ describe('User Integration tests', () => {
 	const expected = {
 		"address": {
 			"geo": {
-				"lat": 1,
+				"lat": 100,
 				"lng": 2
 			},
 			"street": "My Stree",
