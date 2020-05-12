@@ -1,7 +1,7 @@
 get = (req, res, next) => {
   var query;
   if(req.query.username) {
-    query = req.models.User.findOne({username: req.query.username})
+    query = req.models.User.find({username: req.query.username})
   }
   else
   {

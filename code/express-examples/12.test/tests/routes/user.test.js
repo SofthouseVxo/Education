@@ -90,10 +90,10 @@ describe('User Integration tests', () => {
 
 			// Given (preconditions)
 			userMock
-			.expects('findOne')
+			.expects('find')
 			.withArgs({"username": "coolz"})
 			.chain('exec')
-			.resolves(expected);
+			.resolves([expected]);
 
 			// When (someting happens)
 			agent
@@ -101,7 +101,7 @@ describe('User Integration tests', () => {
 			.end((err,res) => {
 			// Then (something should happen)
 				expect(res.status).to.equal(200);
-				expect(res.body).to.eql(expected);
+				expect(res.body).to.eql([expected]);
 				done();
 			});
 		});
