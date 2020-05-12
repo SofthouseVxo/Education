@@ -1,38 +1,42 @@
 openapi: "3.0.0"
 info:
   version: 1.0.0
-  title: Swagger Petstore
+  title: Unspecified user API for BongBong?
+  description: |
+    <b>html Formatting is possible</b>
+    
+    [markdown too](http://localhost:3000/swagger.yaml)
+    
+    As long as the indent isn't less than what you have
+    
+    ```json
+    {"code": "can be formatted in markdown"}
+    ```
   license:
     name: MIT
 servers:
-  - url: http://petstore.swagger.io/v1
+  - url: http://localhost:3000
 paths:
-  /pets:
+  /users:
     get:
-      summary: List all pets
-      operationId: listPets
+      summary: List all users
+      operationId: listUsers
       tags:
-        - pets
+        - users
       parameters:
-        - name: limit
+        - name: userName
           in: query
-          description: How many items to return at one time (max 100)
+          description: name of the user to filter
           required: false
           schema:
-            type: integer
-            format: int32
+            type: string
       responses:
         '200':
-          description: A paged array of pets
-          headers:
-            x-next:
-              description: A link to the next page of responses
-              schema:
-                type: string
+          description: a list of users matching the fiter
           content:
             application/json:    
               schema:
-                $ref: "#/components/schemas/Pets"
+                $ref: "#/components/schemas/Users"
         default:
           description: unexpected error
           content:
@@ -81,6 +85,22 @@ paths:
                 $ref: "#/components/schemas/Error"
 components:
   schemas:
+    User:
+      type: object
+      required:
+      - username
+      properties:
+        name:
+          type: string
+        username:
+          type: string
+        email:
+          type: string
+          description: "must be unique, stored in lowercase"
+    Users:
+      type: array
+      items: 
+        $ref: "#/components/schemas/User"
     Pet:
       type: object
       required:
