@@ -37,6 +37,12 @@ paths:
             application/json:    
               schema:
                 $ref: "#/components/schemas/Users"
+        '400':
+          description: request format error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/UserError"
         default:
           description: unexpected error
           content:
@@ -44,13 +50,22 @@ paths:
               schema:
                 $ref: "#/components/schemas/Error"
     post:
-      summary: Create a pet
-      operationId: createPets
+      summary: Create a user
+      operationId: createUser
       tags:
-        - pets
+        - users
+      requestBody:
+        content:
+          application/json:    
+            schema:
+              $ref: "#/components/schemas/User"
       responses:
         '201':
-          description: Null response
+          description: the created user
+          content:
+            application/json:    
+              schema:
+                $ref: "#/components/schemas/Users"
         default:
           description: unexpected error
           content:
@@ -97,6 +112,26 @@ components:
         email:
           type: string
           description: "must be unique, stored in lowercase"
+        address:
+          type: object
+          properties:
+            street:
+              type: string
+            suite:
+              type: string
+            city:
+              type: string
+            zipcode:
+              type: integer
+            geo:
+              type: object
+              properties:
+                lat:
+                  type: number
+                  format: float
+                lng:
+                  type: number
+                  format: float
     Users:
       type: array
       items: 
@@ -118,14 +153,33 @@ components:
       type: array
       items:
         $ref: "#/components/schemas/Pet"
+    UserError:
+      type: object
+      properties:
+        error:
+          type: object
+          properties:
+            expose:
+              type: boolean
+            statusCode:
+              type: integer
+            status:
+              type: integer
+            body:
+              type: string
+              description: body contents of the request that failed
+            type:
+              type: string
+              description: type of error
     Error:
       type: object
-      required:
-        - code
-        - message
       properties:
-        code:
-          type: integer
-          format: int32
-        message:
-          type: string
+        error:
+          type: object
+          properties:
+            name:
+              type: string
+              description: name of the internal error
+
+            
+
