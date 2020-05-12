@@ -65,22 +65,31 @@ describe('User Integration tests', () => {
 		"__v": 0
 	}
 
-	describe('users.get', ()  => {
+	describe('users.get cool stuff', ()  => {
 
 		it('Should return an array of all users', (done) => {
 
 			// Given (preconditions)
 			userMock
+			// we should call Users.find
 			.expects('find')
+			// we should call either:
+			// async User.find()
+			// or User.find().then()
+			// or User.find().exec()
+			// it always results in .exec() being called
 			.chain('exec')
+				// this expected is what should be returned by mongo
 			.resolves([expected]);
 
 			// When (someting happens)
 			agent
 			.get('/users')
+			// we send a get request to /users
 			.end((err,res) => {
 			// Then (something should happen)
 				expect(res.status).to.equal(200);
+				// this expected is what should be returned by the api
 				expect(res.body).to.eql([expected]);
 				done();
 			});
@@ -141,6 +150,12 @@ describe('User Integration tests', () => {
 				upserted: [ { index: 0, _id: "5cecf112a66bc43a217dfda3" } ],
 				ok: 1 });
 
+			userMock
+			.expects('findById')
+			.withArgs("5cecf112a66bc43a217dfda3")
+			.chain('exec')
+			.resolves(expected)
+
 			// When (someting happens)
 			agent
 			.put('/users/5cecf112a66bc43a217dfda3')
@@ -161,6 +176,12 @@ describe('User Integration tests', () => {
 			.resolves({ n: 1,
 				nModified: 1,
 				ok: 1 });
+
+				userMock
+				.expects('findById')
+				.withArgs("5cecf112a66bc43a217dfda3")
+				.chain('exec')
+				.resolves(expected)
 
 			// When (someting happens)
 			agent
@@ -183,6 +204,12 @@ describe('User Integration tests', () => {
 			.resolves({ n: 1,
 				nModified: 0,
 				ok: 1 });
+
+				userMock
+				.expects('findById')
+				.withArgs("5cecf112a66bc43a217dfda3")
+				.chain('exec')
+				.resolves(expected)
 
 			// When (someting happens)
 			agent

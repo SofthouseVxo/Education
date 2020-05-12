@@ -74,7 +74,9 @@ put = (req, res, next) => {
         res.status(200)
       else 
         res.status(204)
-    res.send()
+      req.models.User.findById(req.params.id).then((user) => {
+        res.send(user)
+      })
     }).catch((error) => next(error))
 }
 
