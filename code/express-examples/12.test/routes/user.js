@@ -74,9 +74,13 @@ put = (req, res, next) => {
         res.status(200)
       else 
         res.status(204)
-      req.models.User.findById(req.params.id).then((user) => {
-        res.send(user)
-      })
+
+      if(res.statusCode !== 204){
+        return req.models.User.findById(req.params.id).then((user) => {
+          res.send(user)
+        })
+      }
+      return res.send()
     }).catch((error) => next(error))
 }
 

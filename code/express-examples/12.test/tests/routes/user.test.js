@@ -205,12 +205,6 @@ describe('User Integration tests', () => {
 				nModified: 0,
 				ok: 1 });
 
-				userMock
-				.expects('findById')
-				.withArgs("5cecf112a66bc43a217dfda3")
-				.chain('exec')
-				.resolves(expected)
-
 			// When (someting happens)
 			agent
 			.put('/users/5cecf112a66bc43a217dfda3')
