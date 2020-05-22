@@ -7,7 +7,7 @@ If you add or list users, you can get a user with a specific ID
 ## Setting it up from scratch
 
 ```sh
-npm install --save mongoodb
+npm install --save mongodb
 ```
 
 ## Instructions
