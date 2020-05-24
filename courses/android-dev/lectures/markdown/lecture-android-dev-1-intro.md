@@ -119,4 +119,11 @@ good usability for handheld devices.
 - ```GIT
   git add *
   ```
--
+- To save changes to local repo use:
+- ```GIT
+  git commit -m "Your comment here"
+  ```
+- To push changes to remote repo use:
+- ```GIT
+  git push origin master
+  ```
