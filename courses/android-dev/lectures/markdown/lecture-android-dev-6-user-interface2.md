@@ -12,11 +12,11 @@
     - What is Adpater
 - Fragments
 - Dialog & Pickers
-    - AlertDialog
-    - DatePickerDialog
-    - DatePicker
+  - AlertDialog
+  - DatePickerDialog
+  - DatePicker
 - Menus
-    - ActionBar
+  - ActionBar
 
 ---
 
@@ -85,7 +85,7 @@
 ### Spinners
 
 - Spinner provides a quick way to select one value from a set, drop-down list.
-- <img width="350" src="/media/android-dev-images/android-dev-6/android-dev-checkbox.png" alt="Checkboxes">
+- <img width="300" src="/media/android-dev-images/android-dev-6/android-dev-spinner.gif" alt="Checkboxes">
 - ```XML
   <Spinner
   android:id="@+id/spinner"
@@ -117,7 +117,7 @@
 - Adapter acts as a link between a data set and an adapter view, converts data item into view item so it can displayed in UI componenet.
 - Ex. Recyclerview & list view requires Adapter.
 
-- <img width="350" src="/media/android-dev-images/android-dev-6/android-dev-apdater.png" alt="Adapter">
+- <img width="550" src="/media/android-dev-images/android-dev-6/android-dev-apdater.png" alt="Adapter">
 
 ---
 
@@ -137,7 +137,7 @@
        spinnerOne = findViewById(R.id.spinner1);
 
        // Create an ArrayAdapter using the string array and a default spinner layout
-       ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+       ArrayAdapter adapter = ArrayAdapter.createFromResource(
         this, R.array.option_array, android.R.layout.simple_spinner_item);
 
        //Alternative way:
@@ -295,6 +295,10 @@
 
 ---
 
+### We will continue on the next lesson ...
+
+---
+
 ### DatePickerDialog Example
 
 ```Java
@@ -389,6 +393,7 @@
 
 - A menu is a set of options the user can select from to perform a function, such as searching, saving or editing information.
 - <img width="550" src="/media/android-dev-images/android-dev-6/android-dev-menus.png" alt="Menus">
+
 1. Option menu: search, bookmark and settings.
 2. Context menu: edit, delete and share.
 3. Action bar: edit, delete and share.
@@ -420,7 +425,7 @@
             android:id="@+id/exit"  app:showAsAction="never" android:title="exit">
         </item>
     </menu>
-    ```
+  ```
 - Every menu item contains id, icon, showAsAction and title.
 - showAsAction: This attribute indicates how the given item should be portrayed in the action bar. (always, ifRoom, neveror withText)
 
@@ -435,7 +440,7 @@
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
-    ````
+  ```
 - OnClick function to control the menu:
 - ```Java
     @Override
@@ -453,7 +458,7 @@
         }
         return(super.onOptionsItemSelected(item));
     }
-    ```
+  ```
 - _TIP: click alt-instert to generate methods._
 
 ---

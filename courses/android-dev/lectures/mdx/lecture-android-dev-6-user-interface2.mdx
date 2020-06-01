@@ -8,7 +8,7 @@ export const theme = {
 
 
 import img0 from "../../../../media/android-dev-images/android-dev-6/android-dev-checkbox.png";
-import img1 from "../../../../media/android-dev-images/android-dev-6/android-dev-checkbox.png";
+import img1 from "../../../../media/android-dev-images/android-dev-6/android-dev-spinner.gif";
 import img2 from "../../../../media/android-dev-images/android-dev-6/android-dev-apdater.png";
 import img3 from "../../../../media/android-dev-images/android-dev-6/android-dev-fragment.png";
 import img4 from "../../../../media/android-dev-images/android-dev-6/android-dev-dialogs.png";
@@ -30,11 +30,11 @@ import img7 from "../../../../media/android-dev-images/android-dev-6/android-dev
     - What is Adpater
 - Fragments
 - Dialog & Pickers
-    - AlertDialog
-    - DatePickerDialog
-    - DatePicker
+  - AlertDialog
+  - DatePickerDialog
+  - DatePicker
 - Menus
-    - ActionBar
+  - ActionBar
 
 ---
 
@@ -103,7 +103,7 @@ import img7 from "../../../../media/android-dev-images/android-dev-6/android-dev
 ### Spinners
 
 - Spinner provides a quick way to select one value from a set, drop-down list.
-- <img style={{width: 350}} src={img1} alt="Checkboxes"/>
+- <img style={{width: 300}} src={img1} alt="Checkboxes"/>
 - ```XML
   <Spinner
   android:id="@+id/spinner"
@@ -135,7 +135,7 @@ import img7 from "../../../../media/android-dev-images/android-dev-6/android-dev
 - Adapter acts as a link between a data set and an adapter view, converts data item into view item so it can displayed in UI componenet.
 - Ex. Recyclerview & list view requires Adapter.
 
-- <img style={{width: 350}} src={img2} alt="Adapter"/>
+- <img style={{width: 550}} src={img2} alt="Adapter"/>
 
 ---
 
@@ -155,7 +155,7 @@ import img7 from "../../../../media/android-dev-images/android-dev-6/android-dev
        spinnerOne = findViewById(R.id.spinner1);
 
        // Create an ArrayAdapter using the string array and a default spinner layout
-       ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+       ArrayAdapter adapter = ArrayAdapter.createFromResource(
         this, R.array.option_array, android.R.layout.simple_spinner_item);
 
        //Alternative way:
@@ -313,6 +313,10 @@ import img7 from "../../../../media/android-dev-images/android-dev-6/android-dev
 
 ---
 
+### We will continue on the next lesson ...
+
+---
+
 ### DatePickerDialog Example
 
 ```Java
@@ -407,6 +411,7 @@ import img7 from "../../../../media/android-dev-images/android-dev-6/android-dev
 
 - A menu is a set of options the user can select from to perform a function, such as searching, saving or editing information.
 - <img style={{width: 550}} src={img6} alt="Menus"/>
+
 1. Option menu: search, bookmark and settings.
 2. Context menu: edit, delete and share.
 3. Action bar: edit, delete and share.
@@ -438,7 +443,7 @@ import img7 from "../../../../media/android-dev-images/android-dev-6/android-dev
             android:id="@+id/exit"  app:showAsAction="never" android:title="exit">
         </item>
     </menu>
-    ```
+  ```
 - Every menu item contains id, icon, showAsAction and title.
 - showAsAction: This attribute indicates how the given item should be portrayed in the action bar. (always, ifRoom, neveror withText)
 
@@ -453,7 +458,7 @@ import img7 from "../../../../media/android-dev-images/android-dev-6/android-dev
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
-    ````
+  ```
 - OnClick function to control the menu:
 - ```Java
     @Override
@@ -471,9 +476,10 @@ import img7 from "../../../../media/android-dev-images/android-dev-6/android-dev
         }
         return(super.onOptionsItemSelected(item));
     }
-    ```
+  ```
 - _TIP: click alt-instert to generate methods._
 
 ---
 
 ### Questions
+
