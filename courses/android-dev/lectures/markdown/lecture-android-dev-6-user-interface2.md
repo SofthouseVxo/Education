@@ -15,8 +15,12 @@
   - AlertDialog
   - DatePickerDialog
   - DatePicker
+  - TimePickerDialog
+  - TimePicker
+  - Custom Dialog layout
 - Menus
   - ActionBar
+  - Context Menu
 
 ---
 
@@ -299,6 +303,10 @@
 
 ---
 
+### DatePicker & DatePickerDialog
+
+---
+
 ### DatePickerDialog Example
 
 ```Java
@@ -389,6 +397,19 @@
 
 ---
 
+### TimePicker & TimePickerDialog
+
+---
+
+### Custom Dialog Layout
+
+- Create custom layout
+- Add Views Button, EditText .. etc
+- Cancelable
+- Get user input on TextView.
+
+---
+
 ### Menus
 
 - A menu is a set of options the user can select from to perform a function, such as searching, saving or editing information.
@@ -409,6 +430,7 @@
 
 ### Action bar Menu Example
 
+- Create menu resource directory.
 - Create a new menu_main.xml XML:
 - ```XML
     <?xml version="1.0" encoding="utf-8"?>
@@ -463,4 +485,40 @@
 
 ---
 
+### Context Menu Example
+
+- Example on ListView
+- Clickable items
+- ListView functions
+
+---
+
+### Context Menu Example
+
+- Create Menu Layout
+- ```Java
+    //add registerForContextMenu(ListView); on onCreate Method
+    @Override
+    public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
+        super.onCreateContextMenu(menu, v, menuInfo);
+    }
+
+  ```
+
+- ```Java
+    @Override
+    public boolean onContextItemSelected(@NonNull MenuItem item) {
+        return super.onContextItemSelected(item);
+        //Switch here
+        //code..
+    }
+
+  ```
+
+---
+
 ### Questions
+
+```
+
+```
