@@ -12,6 +12,7 @@
   - ConstraintLayout
   - Landscape mode
 - Accessibility
+- RecyclerView
 
 ---
 
@@ -68,7 +69,6 @@
 
 - <img width="600" src="/media/android-dev-images/android-dev-8/android-dev-layout-tools.png" alt="Layout tools">
 - Turn on design and bluprint.
-- Add TextView, Button, 2x EditText.
 - NOTE: layout_editor attribute.
 - Try: Manuel align and margin.
 - Try: clear constraints, Infer constraints, align constraints.
@@ -108,7 +108,7 @@
   - Make sure buttons and selectable areas are of sufficient size for users to easily touch them.
   - at least 48dp ✕ 48dp.
 - ```XML
-    <ImageButton
+    <ImageView
     android:paddingLeft="4dp"
     android:minWidth="40dp"
     android:paddingRight="4dp"
@@ -120,7 +120,7 @@
   - Describe each UI element
   - using android:contentDescription
 - ```XML
-    <ImageButton
+    <ImageView
     android:id="@+id/add_note_button"
     android:src="@drawable/add_note_image"
     android:contentDescription="@string/add_note_description"/>
@@ -130,9 +130,127 @@
 
 ### Use the Values folder in resources
 
-- Define strings, colors and styles to easliy control your app and make it support different languages and cultures.
+- Define strings, colors and styles to easliy control your app and make it support different languages.
 - <img width="500" src="/media/android-dev-images/android-dev-8/android-dev-values-folder.png" alt="Values folder">
 
 ---
 
-### Questions?
+### RecyclerView
+
+- Advanced version of the ListView with improved performance and other benefits.
+
+---
+
+### RecyclerView implementation
+
+- What we need:
+- Data source: arrays, ArrayList, database .. etc.
+- Custom adapter: RecyclerView.Adapter.
+- Custom layout for items.
+
+---
+
+### RecyclerView implementation
+
+- Data source
+- ```Java
+  //I.e:
+  ArrayList<String> data = new ArrayList<>();
+  String data [] = {""};
+  ```
+
+---
+
+- Custom Adapter
+- ```Java
+
+  public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
+
+    public MyAdapter(){
+    }
+
+    @NonNull
+    @Override
+    public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        return null;
+    }
+
+    @Override
+    public void onBindViewHolder(@NonNull MyViewHolder holder, final int position) {
+    }
+
+    @Override
+    public int getItemCount() {
+        return 0;
+    }
+
+    public class MyViewHolder extends RecyclerView.ViewHolder {
+
+        public MyViewHolder(@NonNull View itemView) {
+            super(itemView);
+        }
+    }
+  }
+  ```
+
+---
+
+### RecyclerView implementation
+
+- Custom layout:
+
+```XML
+ <?xml version="1.0" encoding="utf-8"?>
+ <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:id="@+id/row_layout"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_margin="10dp">
+
+     <androidx.cardview.widget.CardView
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent">
+
+         <androidx.constraintlayout.widget.ConstraintLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="#D5D5D5">
+
+             <ImageView
+                 android:id="@+id/row_image"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginStart="8dp"
+                 android:layout_marginLeft="8dp"
+                 android:layout_marginTop="16dp"
+                 android:layout_marginBottom="16dp"
+                 app:layout_constraintBottom_toBottomOf="parent"
+                 app:layout_constraintStart_toStartOf="parent"
+                 app:layout_constraintTop_toTopOf="parent"
+                 app:srcCompat="@drawable/ic_launcher_background" />
+
+             <TextView
+                 android:id="@+id/row_title"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginStart="32dp"
+                 android:layout_marginLeft="32dp"
+                 android:text="TextView"
+                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                 app:layout_constraintBottom_toBottomOf="parent"
+                 app:layout_constraintStart_toEndOf="@+id/row_image"
+                 app:layout_constraintTop_toTopOf="parent" />
+         </androidx.constraintlayout.widget.ConstraintLayout>
+     </androidx.cardview.widget.CardView>
+
+ </androidx.constraintlayout.widget.ConstraintLayout>
+```
+
+---
+
+### Questions/need help?

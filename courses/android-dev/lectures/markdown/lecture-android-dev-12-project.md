@@ -29,7 +29,8 @@
 ### Keep in mind
 
 - Use savedInstanceState & sharedpreferences or lifecycle methods when needed.
-- Using the proper view (I.e listView for data).
+- Using the proper view (I.e listView for data) or Dialogs.
+- Using the proper Menus (I.e ActionBar, Context menu .. etc).
 - Clean code, proper naming & no error/warnings (check next slide).
 - Runing flawless on emulator/physical device.
 
@@ -42,6 +43,7 @@
   - I.e TexView -> text_username.
   - I.e EditText -> input_userpassword.
   - I.e onLoginButtonClick().
+- Comment your code.
 - Avoid hardcoded strings, use strings.xml.
 
 ---
