@@ -6,23 +6,22 @@
 
 - Storing data locally
   - Ways to store data
-- Storing data Online (Cloud)
 - SQLite
   - SQL
 - JSON
-- Creating & Using SQLite in Android
-  - SQLite Library & classes
-  - Executing String Query
-  - Create a basic database model
-  - Create Custom CRUD Methods
-    - Write data to table
-    - Use the Custom Operations
-    - sqliteBrowser
-    - Read Data from table
-    - Show data on listview
-    - Delete data from table
-    - Remove student onClick(Example)
-- Challenge: Edit Student
+- Create a basic database model
+- ```Creating & Using SQLite in Android
+   SQLite Library & classes
+   Executing String Query
+   Create Custom CRUD Methods
+     Write data to table
+     Use the Custom Operations
+     sqliteBrowser
+     Read Data from table
+     Show data on listview
+     Delete data from table
+  ```
+- Challenge
 
 ---
 
@@ -61,7 +60,7 @@
 
 ### SQLITE
 
-- Embedded rational database, built in.
+- Embedded relational database, built in.
 - ACID Compliant, handle failure without data loss.
 - Small Size.
 - CURD operation locks database.
@@ -100,7 +99,7 @@
 
 ### Creating & Using SQLite in Android (Demo)
 
-- Step by step.
+- Step by step (Student as example).
 
 ---
 
@@ -115,6 +114,11 @@
   - interface methods for onCreate onUpdate.
   - Custom wirtten functions perform CURD functions:
     - E.g insertOne(Student), getStudentById() ... etc.
+- Cursor
+  - Result set from a query.
+  - loop through to process each line of result.
+- ContentValues
+  - key&value pair.
 
 ---
 
@@ -495,22 +499,3 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ---
-
-### Challenge: Edit Student
-
-- instructions:
-
-  - Create a new Activity (EditStudentActivity) with one listView similar to the one we had on MainActivity.
-  - Add Delete Student button to the MainActivity, onClick should open the EditStudentActivity.
-  - ListView on the new Activity should show a list of all student.
-  - Add EditText for name and course.
-  - Add Switch for course status (done/not done).
-  - Add button to update student information.
-
-- Use Case:
-
-  - Clicking on student on the listView should fill the EditTexts and switch according to student information.
-  - Chaning the information and clicking the update button should update the table data.
-
-- _TIP: use the same layout as the one used on this lecture with some modifications_
-- Example code used on this lecture can be found at sqlite folder on android-examples.
