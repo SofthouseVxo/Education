@@ -499,3 +499,52 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ---
+
+### Update data on DB
+
+- Challenge: Edit E.x "Student"
+
+---
+
+### Checklist
+
+- Context Menu for listview.
+- Custom AlertDialog.
+- Update Query function.
+
+---
+
+### Context Menu
+
+- Create Menu layout.
+- Add onCreateContextMenu() & infalte menu layout.
+- Add onContextItemSelected() & switch for items.
+
+---
+
+### Remove Student function
+
+- Add AdapterView.AdapterContextMenuInfo.
+- Use SqliteDataHelper and to remove from db.
+- Update the views.
+
+---
+
+### AlertDialog
+
+- Create Dialog Layout.
+- Add AlertDialog.Builder & infalte the dialog layout.
+- Declare and init all dialog views.
+- Add Listeners.
+- Get the selected object & store it on temp object.
+- Set data to the views on dialog.
+
+---
+
+### Update Query function.
+
+- Add Update function on SqliteDataHelper class.
+- Add query string and use the UPDATE SQL statement.
+- Add string delimiters around data (string .. etc).
+- Init AlertDailog button click with setters and update using SqliteDataHelper custom update function.
+- Update the views and hide dialog.
