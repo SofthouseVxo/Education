@@ -94,7 +94,7 @@
 
 - ```Java
     //1. Define url e.g:
-    String url = "https://www.google.com/";
+    String url = "https://SERVER_URL....";
     //2.Create a Request queue
     reqQueue = Volley.newRequestQueue(this);
   ```
