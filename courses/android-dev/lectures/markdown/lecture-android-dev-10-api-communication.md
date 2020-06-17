@@ -366,4 +366,19 @@
 
 ---
 
+### Singleton Volley Class
+
+- One RequestQueue.
+- Works for multiple activities.
+- Better performance and resource efficiency.
+
+---
+
+### Data Model
+
+- Handle data in object form.
+- Easier to access & store.
+
+---
+
 ### Questions ?
