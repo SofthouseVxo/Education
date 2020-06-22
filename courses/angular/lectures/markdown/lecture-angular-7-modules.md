@@ -4,7 +4,7 @@
 
 ---
 
-#### <a href="/public/lectures/javascript/javascript-22-prototypesModules.html" target="_blank">JavaScript Lecture on Modules</a>
+#### <a href="../../../javascript/lectures/markdown/lecture-javascript-22-prototypesModules.md" target="_blank">JavaScript Lecture on Modules</a>
 
 
 ---
@@ -110,7 +110,7 @@ export class AppModule { }
 
 
 #### Frequently Used Modules
-<img src="/media/angular-images/angular-7/frequent-modules.png" alt="Frequently Used Modules">
+<img src="media/angular-images/angular-7/frequent-modules.png" alt="Frequently Used Modules">
 
 
 ---

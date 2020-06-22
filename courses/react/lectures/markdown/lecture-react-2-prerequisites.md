@@ -153,12 +153,12 @@ Open in terminal and test
 	
 ### Npm
 #### Node Package Manager
-#### <a href="https://www.npmjs.com/">Web page</a>
+#### <a href="https://www.npmjs.com">Web page</a>
 
 
 ---
 
-"NPM is a package manager for Node.js packages, or modules if you like. www.npmjs.com hosts thousands of free packages to download and use.The NPM program is installed on your computer when you install Node.js" - <a href="https://www.w3schools.com/nodejs/nodejs_npm.asp">W3Schools</a>
+"NPM is a package manager for Node.js packages, or modules if you like. npmjs.com hosts thousands of free packages to download and use.The NPM program is installed on your computer when you install Node.js" - <a href="https://www.w3schools.com/nodejs/nodejs_npm.asp">W3Schools</a>
 
 
 ---
@@ -186,7 +186,7 @@ npm -v
 	
 
 ### Semantic versioning
-<img src="/media/general-images/general-3/semantic.png" alt="semantic versioning">
+<img src="media/react-images/react-2/semantic.png" alt="semantic versioning">
 
 
 ---

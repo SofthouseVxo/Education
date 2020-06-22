@@ -9,7 +9,7 @@
 <form> User INPUT </form>
 ```
 
-* HTML & CSS <a href="../../lectures/html-css/html-css-10-forms.html" target="_blank">Forms lecture</a>
+* HTML & CSS <a href="../../../html-css/lectures/markdown/lecture-html-css-10-forms.md" target="_blank">Forms lecture</a>
 
 
 ---
