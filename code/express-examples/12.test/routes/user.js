@@ -1,7 +1,7 @@
 get = (req, res, next) => {
   var query;
   if(req.query.username) {
-    query = req.models.User.findOne({username: req.query.username})
+    query = req.models.User.find({username: req.query.username})
   }
   else
   {
@@ -74,7 +74,13 @@ put = (req, res, next) => {
         res.status(200)
       else 
         res.status(204)
-    res.send()
+
+      if(res.statusCode !== 204){
+        return req.models.User.findById(req.params.id).then((user) => {
+          res.send(user)
+        })
+      }
+      return res.send()
     }).catch((error) => next(error))
 }
 

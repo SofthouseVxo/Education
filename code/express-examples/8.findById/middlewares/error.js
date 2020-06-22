@@ -7,8 +7,17 @@ const error = (error, req, res, next) => {
   res.status(error.statusCode || error.status || 500).send({error: error })
 }
 
+const mongoError = (error, req, res, next) => {
+  if(error.name === "ValidationError"){
+      error.statusCode = 400;
+      error.status = 400;
+  }
+  next(error)
+}
+
 module.exports = {
-  error
+  error,
+  mongoError
 }
 
 

@@ -5,6 +5,7 @@ const routes = require("./routes")
 const db = require("./models")
 
 const app = express();
+const cors = require("cors")
 
 // environment variable PORT or 3000 if unset
 const port = process.env.PORT || 3000;
@@ -21,7 +22,7 @@ app.use((req, res, next) => {
 
 app.use('/', routes)
 
-//app.use(middlewares.mongoError)
+app.use(middlewares.mongoError)
 app.use(middlewares.error)
 app.use(middlewares.notfound)
 

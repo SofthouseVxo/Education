@@ -20,23 +20,22 @@ import img3 from "../../../../media/android-dev-images/android-dev-9/android-dev
 
 - Storing data locally
   - Ways to store data
-- Storing data Online (Cloud)
 - SQLite
   - SQL
 - JSON
-- Creating & Using SQLite in Android
-  - SQLite Library & classes
-  - Executing String Query
-  - Create a basic database model
-  - Create Custom CRUD Methods
-    - Write data to table
-    - Use the Custom Operations
-    - sqliteBrowser
-    - Read Data from table
-    - Show data on listview
-    - Delete data from table
-    - Remove student onClick(Example)
-- Challenge: Edit Student
+- Create a basic database model
+- ```Creating & Using SQLite in Android
+   SQLite Library & classes
+   Executing String Query
+   Create Custom CRUD Methods
+     Write data to table
+     Use the Custom Operations
+     sqliteBrowser
+     Read Data from table
+     Show data on listview
+     Delete data from table
+  ```
+- Challenge
 
 ---
 
@@ -75,7 +74,7 @@ import img3 from "../../../../media/android-dev-images/android-dev-9/android-dev
 
 ### SQLITE
 
-- Embedded rational database, built in.
+- Embedded relational database, built in.
 - ACID Compliant, handle failure without data loss.
 - Small Size.
 - CURD operation locks database.
@@ -114,7 +113,7 @@ import img3 from "../../../../media/android-dev-images/android-dev-9/android-dev
 
 ### Creating & Using SQLite in Android (Demo)
 
-- Step by step.
+- Step by step (Student as example).
 
 ---
 
@@ -129,6 +128,11 @@ import img3 from "../../../../media/android-dev-images/android-dev-9/android-dev
   - interface methods for onCreate onUpdate.
   - Custom wirtten functions perform CURD functions:
     - E.g insertOne(Student), getStudentById() ... etc.
+- Cursor
+  - Result set from a query.
+  - loop through to process each line of result.
+- ContentValues
+  - key&value pair.
 
 ---
 
@@ -510,22 +514,52 @@ public class MainActivity extends AppCompatActivity {
 
 ---
 
-### Challenge: Edit Student
+### Update data on DB
 
-- instructions:
+- Challenge: Edit E.x "Student"
 
-  - Create a new Activity (EditStudentActivity) with one listView similar to the one we had on MainActivity.
-  - Add Delete Student button to the MainActivity, onClick should open the EditStudentActivity.
-  - ListView on the new Activity should show a list of all student.
-  - Add EditText for name and course.
-  - Add Switch for course status (done/not done).
-  - Add button to update student information.
+---
 
-- Use Case:
+### Checklist
 
-  - Clicking on student on the listView should fill the EditTexts and switch according to student information.
-  - Chaning the information and clicking the update button should update the table data.
+- Context Menu for listview.
+- Custom AlertDialog.
+- Update Query function.
 
-- _TIP: use the same layout as the one used on this lecture with some modifications_
-- Example code used on this lecture can be found at sqlite folder on android-examples.
+---
+
+### Context Menu
+
+- Create Menu layout.
+- Add onCreateContextMenu() & infalte menu layout.
+- Add onContextItemSelected() & switch for items.
+
+---
+
+### Remove Student function
+
+- Add AdapterView.AdapterContextMenuInfo.
+- Use SqliteDataHelper and to remove from db.
+- Update the views.
+
+---
+
+### AlertDialog
+
+- Create Dialog Layout.
+- Add AlertDialog.Builder & infalte the dialog layout.
+- Declare and init all dialog views.
+- Add Listeners.
+- Get the selected object & store it on temp object.
+- Set data to the views on dialog.
+
+---
+
+### Update Query function.
+
+- Add Update function on SqliteDataHelper class.
+- Add query string and use the UPDATE SQL statement.
+- Add string delimiters around data (string .. etc).
+- Init AlertDailog button click with setters and update using SqliteDataHelper custom update function.
+- Update the views and hide dialog.
 

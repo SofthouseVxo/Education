@@ -1,27 +1,32 @@
 ### 4.Android development
+
 #### Getting Started
 
 ---
 
 #### Android development overview
 
-* Project Overivew
-* AndroidManifest
-* Java code
-* Layouts
-* build process
+- Project Overivew
+- AndroidManifest
+- Java code
+- Layouts
+- build process
+
+---
+
+#### Repetition
 
 ---
 
 #### Exploring a project
 
-* app
-* src
-* main
-  * java
-  * res
-    * layout | mipmap.. | values
-  * AndroidManifest.xml
+- app
+- src
+- main
+  - java
+  - res
+    - layout | mipmap.. | values
+  - AndroidManifest.xml
 
 ---
 
@@ -33,14 +38,14 @@
 
 #### Exploring a project
 
-* _app_ directory is the root directory of all files directly related to your app.
-* _src_ directory contains all of the source code for your Android app.
-* _main_ directory you have two directories named java and res:
-  * _Java_ directory is the root of the Java source code for the Android app, contains java packages & classes.
-  * _res_ directory contains all the non-Java sources for the Android app such as XML files and image files.
-* _mipmap.._ contains the images for use with different screen resolutions.
-* _layout_ contains the layout XML files used by the app. Layout XML files are typically used by activities, fragments and by some ViewGroups.
-* _values_ contains XML files with value definitions.
+- _app_ directory is the root directory of all files directly related to your app.
+- _src_ directory contains all of the source code for your Android app.
+- _main_ directory you have two directories named java and res:
+  - _Java_ directory is the root of the Java source code for the Android app, contains java packages & classes.
+  - _res_ directory contains all the non-Java sources for the Android app such as XML files and image files.
+- _mipmap.._ contains the images for use with different screen resolutions.
+- _layout_ contains the layout XML files used by the app. Layout XML files are typically used by activities, fragments and by some ViewGroups.
+- _values_ contains XML files with value definitions.
 
 ---
 
@@ -52,15 +57,16 @@
 
 #### AndroidManifest.xml
 
-* AndroidManifest contains all component declarations.
-* The Android system reads the manifest file to know which component exists before it starts the app component.
-* The manifest does the following:
+- AndroidManifest contains all component declarations.
+- The Android system reads the manifest file to know which component exists before it starts the app component.
+- The manifest does the following:
   1. Names the Java package for the application (unique identifier).
   1. Describes the components of the application such as the activities, services, broadcast receivers, and content providers.
   1. Declares which permissions the application must have in order to access protected parts of the API, access to the camera.
   1. Lists the libraries that the application use.
 
 ---
+
 #### AndroidManifest.xml
 
 ```XML
@@ -90,8 +96,8 @@
 
 #### AndroidManifest.xml
 
-* Android namespace and application tag
-* App package name, icon, theme and the main acitivty.
+- Android namespace and application tag
+- App package name, icon, theme and the main acitivty.
 
 ---
 
@@ -120,22 +126,21 @@ Check the API reference for any imported libraries you don't know.
 
 #### Layouts
 
-* Layout resources are written in XML and should be within the layout folder in the res folder.
-* Open the Activity XML file to see the layout file in the editing pane.
+- Layout resources are written in XML and should be within the layout folder in the res folder.
+- Open the Activity XML file to see the layout file in the editing pane.
 
 _You can switch between XML code and the design pane using the icons on the top right corner_
 
 <img width="700" src="/media/android-dev-images/android-dev-4/android-xml-editor.png" alt="XML Editor pane">
 
-
 ---
 
 #### Build Process
 
-* The build process involves tools and processes that automatically convert each project into an APK.
-* Android Studio uses Gradle as the foundation of the build system.
+- The build process involves tools and processes that automatically convert each project into an APK.
+- Android Studio uses Gradle as the foundation of the build system.
 
-* To add a dependency to your project, specify a dependency configuration in the dependencies block of your _build.gradle_ file.
+- To add a dependency to your project, specify a dependency configuration in the dependencies block of your _build.gradle_ file.
 
 ```Java
 apply plugin: 'com.android.application'

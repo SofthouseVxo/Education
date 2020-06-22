@@ -3,15 +3,16 @@ dotify = require('node-dotify');
 get = (req, res, next) => {
   var query;
   if(req.query.username) {
-    query = req.models.User.findOne({username: req.query.username})
+    query = req.models.User.find({username: req.query.username})
   }
   else
   {
     query = req.models.User.find()
   }
 
-  query.exec().then((user) => {
-      return res.send(user);
+
+  query.exec().then((users) => {
+      return res.send(users);
     }).catch((error) => next(error))
 }
 

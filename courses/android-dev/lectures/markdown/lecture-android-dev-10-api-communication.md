@@ -94,7 +94,7 @@
 
 - ```Java
     //1. Define url e.g:
-    String url = "https://www.google.com/";
+    String url = "https://SERVER_URL....";
     //2.Create a Request queue
     reqQueue = Volley.newRequestQueue(this);
   ```
@@ -353,6 +353,7 @@
     ]
     }
   ```
+
 - ```Java
    ArrayList<String> emails = new ArrayList<>();
    JSONArray dataArray = response.getJSONArray("data");
@@ -363,6 +364,21 @@
        emails.add(user.getString("email"));
    }
   ```
+
+---
+
+### Singleton Volley Class
+
+- One RequestQueue.
+- Works for multiple activities.
+- Better performance and resource efficiency.
+
+---
+
+### Data Model
+
+- Handle data in object form.
+- Easier to access & store.
 
 ---
 

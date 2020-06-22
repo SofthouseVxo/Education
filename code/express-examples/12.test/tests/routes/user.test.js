@@ -2,28 +2,36 @@
 const sinon = require('sinon');
 
 const mongoose = require('mongoose')
+// enable mongoose debug to make test fails more verbose
 mongoose.set('debug', true)
+// sinon-mongoose allows mocking mongoose models
 require('sinon-mongoose')
 
 // initialize the app and models
 const app = require('../../index.js')
 
-// sending requests
+// supertest for sending test requests
 const agent = require('supertest').agent(app);
-// validating results
+// chai is used for comparing JSON results
 const expect = require('chai').expect;
 
-// get the model
+// initialize the real model
 const User = mongoose.model('User')
 
+// create a mock that expects calls and provides controlled results
 var userMock = sinon.mock(User)
 
 beforeEach(() => {
-	userMock.restore(); // Unwraps the spy
+	// the calls and expectations to the mock needs to be reset before each call
+	// otherwise old test case expectations or resolves might fail the case after it
+	userMock.restore();
+	// just resetting doesn't quite do it, we have to create a new one too
 	userMock = sinon.mock(User)
 });
 
 afterEach( () => {
+	// this is where the expectations of the mock is tested, otherwise unmet expectations
+	// ie. calls that were never made will not fail
 	userMock.verify();
 });
 
@@ -34,7 +42,7 @@ describe('User Integration tests', () => {
 	const request = {
 		"address": {
 			"geo": {
-				"lat": 1,
+				"lat": 100,
 				"lng": 2
 			},
 			"street": "My Stree",
@@ -50,7 +58,7 @@ describe('User Integration tests', () => {
 	const expected = {
 		"address": {
 			"geo": {
-				"lat": 1,
+				"lat": 100,
 				"lng": 2
 			},
 			"street": "My Stree",
@@ -65,22 +73,31 @@ describe('User Integration tests', () => {
 		"__v": 0
 	}
 
-	describe('users.get', ()  => {
+	describe('users.get cool stuff', ()  => {
 
 		it('Should return an array of all users', (done) => {
 
 			// Given (preconditions)
 			userMock
+			// we should call Users.find
 			.expects('find')
+			// we should call either:
+			// async User.find()
+			// or User.find().then()
+			// or User.find().exec()
+			// it always results in .exec() being called
 			.chain('exec')
+				// this expected is what should be returned by mongo
 			.resolves([expected]);
 
 			// When (someting happens)
 			agent
 			.get('/users')
+			// we send a get request to /users
 			.end((err,res) => {
 			// Then (something should happen)
 				expect(res.status).to.equal(200);
+				// this expected is what should be returned by the api
 				expect(res.body).to.eql([expected]);
 				done();
 			});
@@ -90,10 +107,10 @@ describe('User Integration tests', () => {
 
 			// Given (preconditions)
 			userMock
-			.expects('findOne')
+			.expects('find')
 			.withArgs({"username": "coolz"})
 			.chain('exec')
-			.resolves(expected);
+			.resolves([expected]);
 
 			// When (someting happens)
 			agent
@@ -101,7 +118,7 @@ describe('User Integration tests', () => {
 			.end((err,res) => {
 			// Then (something should happen)
 				expect(res.status).to.equal(200);
-				expect(res.body).to.eql(expected);
+				expect(res.body).to.eql([expected]);
 				done();
 			});
 		});
@@ -141,6 +158,12 @@ describe('User Integration tests', () => {
 				upserted: [ { index: 0, _id: "5cecf112a66bc43a217dfda3" } ],
 				ok: 1 });
 
+			userMock
+			.expects('findById')
+			.withArgs("5cecf112a66bc43a217dfda3")
+			.chain('exec')
+			.resolves(expected)
+
 			// When (someting happens)
 			agent
 			.put('/users/5cecf112a66bc43a217dfda3')
@@ -161,6 +184,12 @@ describe('User Integration tests', () => {
 			.resolves({ n: 1,
 				nModified: 1,
 				ok: 1 });
+
+				userMock
+				.expects('findById')
+				.withArgs("5cecf112a66bc43a217dfda3")
+				.chain('exec')
+				.resolves(expected)
 
 			// When (someting happens)
 			agent

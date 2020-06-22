@@ -5,14 +5,17 @@
 ### Activity & lifecycle
 
 - Activity:
-    - Using Intents.
-    - Multiple Activity.
+  - Using Intents.
+  - Multiple Activity.
 - Activity Lifecycle:
-    - Understand the Activity Lifecycle.
-    - Multiple states.
-    - When to use what.
+  - Understand the Activity Lifecycle.
+  - Multiple states.
+  - When to use what.
 - Activity Instance state
-    - Save & Retrieve instance/UI state.
+  - Save & Retrieve instance/UI state.
+- Android Shared Preferences
+  - Save & Retrieve
+
 ---
 
 ### Activity
@@ -41,7 +44,7 @@
 
         //Other Functions ..
     }
-    ```
+  ```
 
 ---
 
@@ -55,14 +58,16 @@
 
     //Start a new activity
     startActivity(myIntent);
-    ```
+  ```
+
 - <img width="550" src="/media/android-dev-images/android-dev-7/android-dev-intent.png" alt="Intent">
 
 ---
 
 ### Activity lifecycle
 
-<img width="550" src="/media/android-dev-images/android-dev-7/android-dev-activity-lifecycle.png" alt="Activity lifecycle">
+- <a href="https://developer.android.com/reference/android/app/Activity.html" target="_blank">Activity Lifecycle Documentation</a>
+  <img width="550" src="/media/android-dev-images/android-dev-7/android-dev-activity-lifecycle.png" alt="Activity lifecycle">
 
 ---
 
@@ -80,13 +85,13 @@
 - Followed by onResume() if the activity comes to the foreground.
 
 ---
+
 ### onResume()
 
 - Called when the activity will start interacting with the user.
 - Always followed by onPause().
-    - if user clicked Home button.
-    - fragment on top.
-    - dialog on top.
+  - if user clicked Home button.
+  - fragment on top.
 
 ---
 
@@ -106,6 +111,13 @@
 
 - The final call you receive before your activity is destroyed.
 - Called when the app is closed & on device orientation.
+
+---
+
+### onRestart()
+
+- When screen is turned off.
+- Retrieve activity state.
 
 ---
 
@@ -147,24 +159,31 @@
         //Example, Save the name.
         outState.putString("name", name);
     }
-    ```
+  ```
 - Bundle are used by activities to pass data to themselves in the future.
 - putString(key,value), putChar, putInt ... etc.
-- Exist on onCreate function in every Activity:
+
+---
+
+### Retrieve saved UI state (override)
+
 - ```Java
     @Override
-        protected void onCreate(Bundle savedInstanceState) {
-            super.onCreate(savedInstanceState);
-            setContentView(R.layout.activity_main);
-
-            //All initialization should be here ..
+        protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
+            super.onRestoreInstanceState(savedInstanceState);
+            //Get the saved name
+            name = savedInstanceState.getString("name");
         }
-    ````
+  ```
+- Override onRestoreInstanceState method.
+- No need to check for null.
+- Check Saved-instance-state in code examples folder.
 
---- 
+---
 
-### Retrieve saved UI state
+### Retrieve saved UI state (onCreate)
 
+- Exist on onCreate function in every Activity:
 - ```Java
     public class MainActivity extends AppCompatActivity {
             //All declarations should be here ..
@@ -181,26 +200,52 @@
                 }
             }
         }
-    ```
+  ```
+
 - Check for null.
 - Get Saved states using savedInstanceState.getString(key), getChar, getInt ..etc.
 
 ---
 
-### Retrieve saved UI state alternative way
+### Android Shared Preferences
 
-- ```Java
-    @Override
-        protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
-            super.onRestoreInstanceState(savedInstanceState);
-            //Get the saved name
-            name = savedInstanceState.getString("name");
-        }
-    ````
-- Override onRestoreInstanceState method.
-- No need to check for null.
-- Check Saved-instance-state in code examples folder. 
+- Data Storage option.
+- Allow you to save and retrieve data in the form of key,value pair.
+- When the user’s settings need to be saved or to store data that can be used in different activities within the app.
+- Example: onPause() to save, onCreate() to restore.
+
+---
+
+### Android Shared Preferences step by step ..
+
+- ```JAVA
+    // 1.init
+    //TIP use constants
+    SharedPreferences sharedPreferences = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE);
+    SharedPreferences.Editor editor= sharedPreferences.edit();
+  ```
+
+- ```JAVA
+    //2. Save data
+    editor.putString(MYTEXT,input.getText().toString()); //other methods ..
+    editor.apply();
+  ```
+
+- ```JAVA
+    //3.load data
+    SharedPreferences sharedPreferences = getSharedPreferences(SHARED_PREFS,MODE_PRIVATE);
+    sharedPreferences.getString(data_key,"Default_value"); //other methods ..
+  ```
+
+- ```JAVA
+    //remove from sharedPreferences
+    editor.remove("data_key");
+    //clear sharedPreferences
+    editor.clear();
+  ```
 
 ---
 
 ### Questions ..
+
+---

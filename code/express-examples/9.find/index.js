@@ -20,6 +20,7 @@ app.use((req, res, next) => {
 })
 
 app.use('/', routes)
+app.use(middlewares.mongoError)
 app.use(middlewares.error)
 app.use(middlewares.notfound)
 

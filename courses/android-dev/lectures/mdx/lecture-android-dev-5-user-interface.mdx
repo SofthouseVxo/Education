@@ -13,27 +13,28 @@ import img2 from "../../../../media/android-dev-images/android-dev-5/android-tex
 import img3 from "../../../../media/android-dev-images/android-dev-5/android-view-group.png";
 
 ### 5.Android development
+
 #### User Interface & Interactions
 
 ---
 
 #### User Interface & Interactions
 
-* Views & Implementations
-  * Add Views.
-  * Declare and initialize Views.
-  * Manipulate Views.
-* ViewGroups & Implementations
-  * ViewGroup example.
-  * Declare and initialize ViewGroups.
+- Views & Implementations
+  - Add Views.
+  - Declare and initialize Views.
+  - Manipulate Views.
+- ViewGroups & Implementations
+  - ViewGroup example.
+  - Declare and initialize ViewGroups.
 
 ---
 
 #### Views & ViewGroups
 
-* The Android View class and ViewGroup class are two very central classes in Android apps.
-* Android apps can have one or more Activity and every Activity contains multiple UI Components.
-* The UI components are instances of View or ViewGroup subclasses.
+- The Android View class and ViewGroup class are two very central classes in Android apps.
+- Android apps can have one or more Activity and every Activity contains multiple UI Components.
+- The UI components are instances of View or ViewGroup subclasses.
 
 ---
 
@@ -45,17 +46,15 @@ import img3 from "../../../../media/android-dev-images/android-dev-5/android-vie
 
 #### What are Views?
 
-* View objects are the basic building blocks of User Interface in android such as Buttons, checkbox and Textviews.
-* The View class is a superclass for all UI components in Android which means TextView is subclass of View.
-* Commonly used View subclasses:
-  * TextView
-  * EditText
-  * ImageView
-  * ProgressBar
-  * Button
-  * ImageButton
-  * CheckBox
-  * DatePicker
+- View objects are the basic building blocks of User Interface in android such as Buttons, checkbox and Textviews.
+- The View class is a superclass for all UI components in Android which means TextView is subclass of View.
+- Commonly used View subclasses:
+  - TextView
+  - EditText
+  - ImageView
+  - Button
+  - CheckBox
+  - DatePicker
 
 ---
 
@@ -67,15 +66,15 @@ import img3 from "../../../../media/android-dev-images/android-dev-5/android-vie
 
 #### View implementation step by step
 
-* _Button & Handle button click._
+- _Button & Handle button click._
 
 ---
 
 #### Add View
 
-* There is two way to add and edit UI components including views, you can use both XML code and designer pane.
+- There is two way to add and edit UI components including views, you can use both XML code and designer pane.
 
-* Add this code to the acitivty layout (XML):
+- Add this code to the acitivty layout (XML):
 
 ```XML
 <Button
@@ -84,18 +83,18 @@ import img3 from "../../../../media/android-dev-images/android-dev-5/android-vie
   android:layout_height="wrap_content"
   android:text="Button"
   tools:layout_editor_absoluteX="159dp"
-  tools:layout_editor_absoluteY="432dp" 
+  tools:layout_editor_absoluteY="432dp"
 />
 ```
 
-* Or simply use the design pane by dragging the button to the editor.
-* Pay attention to properties above like **id** and **text**.
+- Or simply use the design pane by dragging the button to the editor.
+- Pay attention to properties above like **id** and **text**.
 
 ---
 
 #### Declare and initialize the view on code
 
-* To access the view from java code:
+- To access the view from java code:
 
 ```Java
   //Declare new Button
@@ -106,19 +105,19 @@ import img3 from "../../../../media/android-dev-images/android-dev-5/android-vie
 
 ```
 
-* You will need to import button widget.
+- You will need to import button widget.
 
-* _TIP: Click Alt+Enter on Windows or Option+Shift on Mac to import._
+- _TIP: Click Alt+Enter on Windows or Option+Shift on Mac to import._
 
 ---
 
 #### Manipulate View
 
-* Function list:
+- Function list:
 
 <img style={{width: 600}} src={img2} alt="function list"/>
 
-* Example onClickListner:
+- Example onClickListner:
 
 ```Java
   //On Button Click
@@ -194,18 +193,77 @@ public class MainActivity extends AppCompatActivity {
 
 ---
 
+### Checkbox
+
+```Java
+public class MainActivity extends AppCompatActivity {
+
+    //Declare views
+    private CheckBox myCheckBox;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        //initialize views (id same as XML id)
+        myCheckBox = findViewById(R.id.myCheckBox);
+
+        //On Checkbox Click/Check
+        myCheckBox.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Do something
+            }
+        });
+    }
+}
+```
+
+---
+
+### Views Listener
+
+---
+
+### EditText example
+
+- Triggered on different events.
+- Can be created separately to be used on multiple EditTexts.
+
+- ```Java
+  EditText.addTextChangedListener(new TextWatcher() {
+    @Override
+    public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+    }
+
+    @Override
+    public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+    }
+
+    @Override
+    public void afterTextChanged(Editable s) {
+
+    }
+  }
+  ```
+
+---
+
 #### ViewGroup
 
-* ViewGroup is the invisible container that groups a collection of Views (Button, TextView ... etc).
-* ViewGroup is a subclass of View.
-* Commonly used ViewGroup subclasses:
-  * ConstraintLayout
-  * LinearLayout
-  * RecyclerView
-* Legacy:
-  * RelativeLayout
-  * ListView
-  * GridView
+- ViewGroup is the invisible container that groups a collection of Views (Button, TextView ... etc).
+- ViewGroup is a subclass of View.
+- Commonly used ViewGroup subclasses:
+  - ConstraintLayout
+  - LinearLayout
+  - RecyclerView
+- Legacy:
+  - RelativeLayout
+  - ListView
+  - GridView
 
 <img style={{width: 600}} src={img3} alt="ViewGroup"/>
 
@@ -213,25 +271,25 @@ public class MainActivity extends AppCompatActivity {
 
 #### Different layouts with different properties
 
-* Constraintlayout: allows you to position and size widgets in a flexible way (best for responsive UI).
-* LinearLayout: arranges other views either horizontally in a single column or vertically in a single row.
-* RecyclerView: displays a scrolling list of elements based on large data sets.
-* Legacy:
-  * RelativeLayout: displays child views in relative positions, similar to ConstraintLayout.
-  * ListView: displays a vertically-scrollable collection of views.
-  * GridView: shows items in two-dimensional scrolling grid.
+- Constraintlayout: allows you to position and size widgets in a flexible way (best for responsive UI).
+- LinearLayout: arranges other views either horizontally in a single column or vertically in a single row.
+- RecyclerView: displays a scrolling list of elements based on large data sets.
+- Legacy:
+  - RelativeLayout: displays child views in relative positions, similar to ConstraintLayout.
+  - ListView: displays a vertically-scrollable collection of views.
+  - GridView: shows items in two-dimensional scrolling grid.
 
 ---
 
 #### ViewGroup implementation step by step
 
-* _LinearLayout with Buttons Example_
+- _LinearLayout with Buttons Example_
 
 ---
 
 #### Add ViewGroup
 
-* Use Design or the following XML:
+- Use Design or the following XML:
 
 ```XML
 <LinearLayout
@@ -243,7 +301,7 @@ public class MainActivity extends AppCompatActivity {
 </LinearLayout>
 ```
 
-* Add buttons to the layout to see it in action.
+- Add buttons to the layout to see it in action.
 
 ```XML
 <Button
@@ -251,16 +309,17 @@ public class MainActivity extends AppCompatActivity {
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_weight="1"
-    android:text="Button" 
+    android:text="Button"
 />
 ```
-* Notice how the buttons positions side by side horizontally.
+
+- Notice how the buttons positions side by side horizontally.
 
 ---
 
 #### Declare and initialize ViewGroups
 
-* Access the LinearLayout from java code:
+- Access the LinearLayout from java code:
 
 ```Java
 public class MainActivity extends AppCompatActivity {
