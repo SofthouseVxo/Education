@@ -186,7 +186,7 @@ npm -v
 	
 
 ### Semantic versioning
-<img src="media/react-images/react-2/semantic.png" alt="semantic versioning">
+<img src="/media/react-images/react-2/semantic.png" alt="semantic versioning">
 
 
 ---
