@@ -238,9 +238,6 @@
   * Short
   * Using keywords
   * Avoid unnecessary words
-  
-<img src="/media/html-css-images-images/html-css-12/url.png" alt="url structure example">
-
 
 ---
 

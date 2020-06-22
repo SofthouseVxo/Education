@@ -5,7 +5,7 @@
 ---
 
 #### If you do not know the basics of HTML forms check out the "HTML - Forms" lecture in the HTML & CSS course.
-<a href="../../lectures/html-css/html-css-10-forms.html" target="_blank">Forms lecture</a>
+<a href="./lecture-html-css-10-forms.md" target="_blank">Forms lecture</a>
 
 
 ---

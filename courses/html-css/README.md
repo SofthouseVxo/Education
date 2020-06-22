@@ -10,7 +10,7 @@
 8. [CSS - Positioning](/courses/html-css/lectures/markdown/lecture-html-css-8-css-positioning.md)
 9. [CSS - Layouts with Flexbox & Grid](/courses/html-css/lectures/markdown/lecture-html-css-9-css-layout.md)
 10. [HTML - Forms](/courses/html-css/lectures/markdown/lecture-html-css-10-forms.md)
-11. [CSS - Pseudo, Iframes & CSS variables](/courses/html-css/lectures/markdown/lecture-html-css-11-psuedo.md)
+11. [CSS - Pseudo, Iframes & CSS variables](/courses/html-css/lectures/markdown/lecture-html-css-11-pseudo.md)
 12. [SEO](/courses/html-css/lectures/markdown/lecture-html-css-12-SEO.md)
 13. [Responsive web design](/courses/html-css/lectures/markdown/lecture-html-css-13-responsive.md)
 14. [CSS - Animation](/courses/html-css/lectures/markdown/lecture-html-css-14-animation.md)
