@@ -36,7 +36,7 @@
 
 
 #### Angular building blocks
-<img src="media/angular-images/angular-3/blocks.png" alt="Angular building blocks">
+<img src="/media/angular-images/angular-3/blocks.png" alt="Angular building blocks">
 
 
 ---
