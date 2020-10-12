@@ -9,6 +9,37 @@
 
 
 ---
+#### Who am I?
+
+- Yazeen Jasim
+- Softhouse Consulting (fullstack-developer)
+- Software Engineer
+- Java, javascript & C++
+- React & Nodejs
+- Android app development & Cloud Computing
+- Gym, gaming and side projects.
+
+---
+
+### Topics
+
+- Presentation
+- Go through syllabus
+- Course information
+- Reptation 
+    - Basic Network & the web
+    - HTML Intro
+
+---
+
+#### Who are you?
+
+- Name?
+- Hobbies?
+- Any previous experience in web development (html/css) ?
+- Other experience?
+
+---
 
 #### Go through syllabus
 
@@ -54,4 +85,4 @@
 
 #### Browsers
 
-* I will mainly run examples in Mozilla Firefox.
+* I will mainly run examples in Google Chrome.

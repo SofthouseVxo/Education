@@ -243,6 +243,7 @@
 * The ```<section>``` tag defines sections in a document, such as chapters, headers, footers, or any other sections of the document.
 * The HTML ```<section>``` element represents a standalone section — which doesn't have a more specific semantic element to represent it — contained within an HTML document.
 * Do not use the ```<section>``` element as a generic container; this is what ```<div>``` is for, especially when the sectioning is only for styling purposes. A rule of thumb is that a section should logically appear in the outline of a document.
+* Used for grouping together thematically-related content. Sounds like a div element, but it’s not. The div has no semantic meaning. Before replacing all your div’s with section elements, always ask yourself: “Is all of the content related?”
 
 
 
@@ -267,6 +268,7 @@
 * The ```<main>``` tag specifies the main content of a document.
 * The content inside the ```<main>``` element should be unique to the document. It should not contain any content that is repeated across documents such as sidebars, navigation links, copyright information, site logos, and search forms.
 * There must not be more than one ```<main>``` element in a document. The ```<main>``` element must **NOT** be a descendant of an ```<article>```, ```<aside>```, ```<footer>```, ```<header>```, or ```<nav>``` element.
+* marks the main part of the top level section.
         
 
 
@@ -337,12 +339,6 @@
 
 
 ---
-
-#### Content managing system (CMS)
-
-* Login to an administration system to manage content
-* Blogs, Ecommerce
-* Wordpress, Joomla etc.
 
 #### Validating HTML code
 
