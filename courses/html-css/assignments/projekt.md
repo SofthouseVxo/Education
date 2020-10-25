@@ -31,7 +31,7 @@ Webbplatsen skall uppfylla följande krav:
   - Valfri sida
     - Valfritt innehåll
 
-<img style="max-width: 700px" src="/media/html-css-images/html-css-8/other/layout-ex.png" alt="layout example">
+<img style="max-width: 700px" src="/media/html-css-images/other/layout-ex.png" alt="layout example">
 
 ### Krav för Godkänt:
 
