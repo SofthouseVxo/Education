@@ -25,7 +25,7 @@ Du skapa ett enkelt program för ett bibliotek, där användaren kan bestämma a
 1. Book konstruktorn ska vara enligt kraven ovan.
 2. Samtliga punkter i Checkpoints ovan ska vara utförda och i ordning.
 3. getBookInfo ska skriva ut informationen enligt bilden nedan (måste se exakt likadan som på bilden):
-   <img style="max-width: 700px" src="media/javascript-images/javascript-s1/book-output.png" alt="layout example">
+   <img style="max-width: 700px" src="/media/javascript-images/javascript-s1/book-output.png" alt="layout example">
 
 ### Inlämning:
 
