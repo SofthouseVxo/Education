@@ -37,3 +37,4 @@ Du skapa ett enkelt program för ett bibliotek, där användaren kan bestämma a
 1. Använd prompt() (https://www.w3schools.com/jsref/met_win_prompt.asp).
 2. Använd forEach.
 3. Använd "\n" för radbrytning.
+4. Använd console.log("-----") för separering.
