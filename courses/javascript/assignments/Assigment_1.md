@@ -16,7 +16,7 @@ Du skapa ett enkelt program för ett bibliotek, där användaren kan bestämma a
 
 2. Skapa en array med namnet books och lägg till 3 böcker (book objekt) i array:n books (hårdkoda).
 3. Låt användaren mata in antal böcker som ska läggas till. (Tip: använd prompt())
-4. Låt användaren mata in informationen en efter en d.v.s bookens namn, ämne, antal sidor och två ISBN nummer. (Tip: använd prompt())
+4. Låt användaren mata in informationen en efter en d.v.s bookens namn, ämne, antal sidor och ISBN nummer. (Tip: använd prompt())
 5. Lägg till böckerna i array:n (books).
 6. Skriv ut alla böcker till konsolen med hjälp av getBookInfo metoden.
 
