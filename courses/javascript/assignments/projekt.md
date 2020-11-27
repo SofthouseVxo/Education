@@ -26,7 +26,7 @@ En digital kalender där man kan lägga till aktiviteter, se framtida datum osv.
 
 ### Agilt
 
-Ni skall under projektet arbeta Agilt och utifrån ramverket scrum. Dvs ni kommer att bilda scrum-team! Ni kommer att genomföra de olika scrum-aktiviterna och dokumentera hur ni har arbetat under arbetets gång för att sedan redovisa detta i en rapport. Jag(Yazeen) kommer att agera Produktägare(PO) i samtliga team. Detta innebär att det är jag som ansvarar för att hantera era backlogs. Med andra ord är det jag som bestämmer vad som skall utvecklas (vi låtsas att vi har en riktigt kund som jag arbetar emot som kommer med dessa krav).
+Ni skall under projektet arbeta Agilt och utifrån ramverket scrum. Dvs ni kommer att bilda scrum-team! Ni kommer att genomföra de olika scrum-aktiviterna och dokumentera hur ni har arbetat under arbetets gång för att sedan redovisa detta i en rapport. Jag(Yazeen) kommer att agera (halv) Produktägare(PO) i samtliga team tillsammans med en Produktägare(PO) i varje team. Detta innebär att det är produktägaren som ansvarar för att hantera era backlogs. Med andra ord är det produktägaren som bestämmer vad som skall utvecklas (vi låtsas att vi har en riktigt kund som jag arbetar emot som kommer med dessa krav).
 
 ## Krav
 
@@ -49,7 +49,7 @@ Ni skall under projektet arbeta Agilt och utifrån ramverket scrum. Dvs ni komme
 - Reflektioner kring de olika aktiviterna, samt hur ni utförde dem:
   - Sprint planning
   - Daily Scrum
-  - Sprint review (innehållande demo för PO(Robin))
+  - Sprint review (innehållande demo för PO(Yazeen))
   - Sprint retro
 - Slutsatser kring det agila arbetet?
 - Vad skulle kunnat gå annorlunda om ni inte arbetat agilt under projektets gång?
