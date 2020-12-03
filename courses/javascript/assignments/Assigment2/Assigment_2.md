@@ -2,19 +2,23 @@
 
 ## Inledning
 
-Ni skapa ett enkelt inloggningssystem, där användaren kan logga in med username bara (Titta på Gif bilden längst ner).
-Till er hjälp så finns det två filer index.html och index.js. Ni får bara skriva kod på index.js filen, index.html får ni inte modifiera.
-Det finns fem funktioner på index.js filen som ni ska färdig implementera, varje funktion är kommenterad om vad den ska göra/innehålla.
-Det finns också init funktion den ska ni bara anropa en gång längst ner på koden, usernames array:n består av användarenamn som användaren kan logga in med.
+- Ni skapa ett enkelt inloggningssystem, där användaren kan logga in med username bara **(Titta på Gif bilden längst ner)**.
+- Till er hjälp så finns det två filer index.html och index.js. Ni får bara skriva kod på index.js filen, index.html får ni inte modifiera.
+- Det finns fem funktioner på index.js filen som ni ska färdig implementera, varje funktion är kommenterad om vad den ska göra/innehålla.
+- Det finns också **init** funktion den ska ni bara anropa en gång längst ner på koden, usernames array:n består av användarenamn som användaren kan logga in med.
+
+**Hjälp filer:**
+- index.html hittar ni här: https://github.com/SofthouseVxo/Education/blob/master/courses/javascript/assignments/Assigment2/index.html
+- index.js hittar ni här: https://github.com/SofthouseVxo/Education/blob/master/courses/javascript/assignments/Assigment2/index.js
 
 #### Checkpoints
 
-1. På initLoginForm funktionen: skriv kod för att skapa form element och lägg till det i DOM. (TIP: använd createElement och appendChild).
-2. På initLabel funktionen: skriv kod för att skapa label element med texten "username" och lägg till det i form elementet som vi skapade på initLoginForm funktionen.
-3. På initInput funktionen: skriv kod för att skapa input element med required attributet och lägg till det i form elementet (TIP: använd .required = true).
-4. validateLoginInfo: skriv kod för att hämta input från användaren med hjälp av input elementet som vi skapade på initInput och returnera sant eller falskt beroende på om användarnamnet finns i usernames array:n eller inte.
-5. på initButton funktionen: skriv kod för att skapa button element med texten "login", och lägg till click eventListener som anropar funktionen validateLoginInfo. kontrollera om validateLoginInfo retunerar true så ska användaren få en alert med texten "Welcome" och om validateLoginInfo retunerar false lägg till en border style på input elmenetet (3px solid red)
-6. Skriv kod för att anropa funktionen init efter att DOM har laddats klart (TIP: titta på "DOMContentLoaded" eventet).
+1. På **initLoginForm** funktionen: skriv kod för att skapa form element och lägg till det i DOM. `(TIP: använd createElement och appendChild)`.
+2. På **initLabel** funktionen: skriv kod för att skapa label element med texten "username" och lägg till det i form elementet som vi skapade på **initLoginForm** funktionen.
+3. På **initInput** funktionen: skriv kod för att skapa input element med required attributet och lägg till det i form elementet `(TIP: använd .required = true)`.
+4. På **validateLoginInfo** funktionen: skriv kod för att hämta input från användaren med hjälp av input elementet som vi skapade på **initInput** och returnera sant eller falskt beroende på om användarnamnet finns i usernames array:n eller inte.
+5. på **initButton** funktionen: skriv kod för att skapa button element med texten "login", och lägg till click eventListener som anropar funktionen **validateLoginInfo**. kontrollera om **validateLoginInfo** retunerar true så ska användaren få en alert med texten "Welcome" och om **validateLoginInfo** retunerar false lägg till en border style på input elmenetet `(3px solid red)`.
+6. Skriv kod för att anropa funktionen init efter att DOM har laddats klart `(TIP: titta på "DOMContentLoaded" eventet)`.
 
 ### För betyget Godkänd krävs följande:
 
