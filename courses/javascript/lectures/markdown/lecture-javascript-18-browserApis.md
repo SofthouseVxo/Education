@@ -34,8 +34,6 @@
 #### Api's covered in this lecture
 
 * web storage
-* history
-
 
 
 ---
@@ -52,9 +50,14 @@
   * localStorage
   * sessionStorage
 
-
 ---
 
+### What's the difference?
+
+<img  src="/media/javascript-images/javascript-18/storageapi.png" alt="storage difference">
+
+
+---
 #### Cookies
 
 * Cookies are text based information saved in the browser.
@@ -143,71 +146,18 @@ sessionStorage.clear();
 
 #### Inspecting Storage in chrome
 
-<img style="margin-top: 0px;" src="/media/javascript-images/javascript-18/storage.png" alt="inspecting storage">
+<img  src="/media/javascript-images/javascript-18/storage.png" alt="inspecting storage">
 
 
 ---
 
-#### History API
-
-* Each tab or window stores the history of visited pages.
-* Becuse of this the back and forward buttons work in the browser.
-* But in pages using AJAX or building Singe page applications the URL is not updated.
-* The History API lets us control the state the browser is in calling methods in the <b>History Object</b>.
-
+### Questions?
 
 ---
 
-#### History Object
-				
-```JavaScript
-console.log(window.history); // history object
+### Have a nice weekend!
 
-// How many items are in the history object (how many sites been visited if not modified)
-console.log(window.history.length); 
-```
-
-
----
-
-#### History API methods
-
-```history.back()``` - Takes you back in the history.
-```history.forward()``` - Takes you forward in the history.
-```history.go()``` - Takes you to a specific page in the history.
-```history.pushState()``` - Add an item in the history stack (new page).
-```history.replaceState()``` - Does the same as ```pushState``` but modifies the current history entry.
-
-
----
-
-#### ```history.pushState()```
-
-* ```pushState()``` updates the url however it does not reload the page.
-
-```
-function pushNewState(){
-	// pushState does not reload the page
-	history.pushState({user: 'John'}, 'Title', 'http://127.0.0.1:5500/code/javascript-examples/javascript-3-variablesDatatypes/index.html');
-	
-	// location.reload will reload the page
-	location.reload();
-}
-```
-
-
----
-
-#### ```history.onpopstate```
-
-* Event that triggers when user moving back and forth 
-
-```JavaScript
-window.addEventListener('popstate', function(e) {
-	console.log('Moved!');
-});
-```
-
+<img  src="/media/javascript-images/javascript-18/weekend.jpg" alt="Weekend">
 
 ---
 
