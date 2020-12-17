@@ -1,4 +1,4 @@
-# Labration (Deadline: 2021-01-04 kl 00:00)
+# Labration (Deadline finns på pingpong)
 
 ## Inledning
 
