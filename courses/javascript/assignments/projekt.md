@@ -43,7 +43,7 @@ Ni skall under projektet arbeta Agilt och utifrån ramverket scrum. Dvs ni komme
 
 ## Inlämning
 
-#### Gemensam Rapport (Denna är alla i gruppen med och skriver, men endast 1 skickar in)
+#### Gemensam Rapport (Denna är alla i gruppen med och skriver, men endast 1 skickar in) ~ 2sidor.
 
 - Hur har ni arbetat agilt?
 - Reflektioner kring de olika aktiviterna, samt hur ni utförde dem:
@@ -56,13 +56,14 @@ Ni skall under projektet arbeta Agilt och utifrån ramverket scrum. Dvs ni komme
 - Länk till trello board
 
 #### Enskild rapport (Denna skriver & lämnar ni in helt individuellt)
-
+##### Del 1 för G, ~ 1-2sidor.
 - Vad gick bra?
 - Vad gick mindre bra?
 - Om du fått göra om projektet, vad skulle ni gjort annorlunda?
 - Vilken roll hade du? Trivdes du i denna roll?
 - Vad bidrog du med i projektet?
 - Vilka delar utvecklade du eller bidrog till?
+##### Del 2 för VG (djupare förståelse), ~ 2-sidor.
 - Vad funkar bra i er applikation?
 - Vad känner du att ni kan förbättra?
 - Vilken teknisk skuld har ni skapat, dvs finns det saker ni implementerat som kan skapa problem i framtiden eller är svåra att utveckla kring?
