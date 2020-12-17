@@ -49,6 +49,7 @@
 - Statet ska vara en array av objekt, [{},{},{}].
 - Använd useState(), map().
 - Avnänd object/array destruction och spread operator.
+- CSS koden hittar ni här: https://pastebin.com/gmpZimYZ
 - Länkar:
   - https://reactjs.org/docs/hooks-overview.html#state-hook
   - https://reactjs.org/docs/components-and-props.html#function-and-class-components
