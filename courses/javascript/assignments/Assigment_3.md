@@ -7,6 +7,35 @@
 - Titta på bilden nedan:
   <img style="max-width: 700px" src="/media/javascript-images/javascript-s1/employee-react.gif" alt="run example">
 
+### Steg för steg:
+
+1. Skapa en ny mapp med namnet "reactlabb" på skrivborder.
+2. Öpnna konsolen och ställ den i mappen.
+3. Kör kommandot: **npx create-react-app .** för att generera ett nytt projekt.
+4. Rensa koden genom att ta bort förutom App.ja och index.js i src mappen (glöm inte att ta bort imports).
+5. Skapa en ny komponent med namnet "Emlpoyee".
+   - Denna ka ta emot en prop med namnet EmployeesData.
+6. Skapa en ny div som retuneras från den komponenten och där kan du presentera informationen hur du vill.
+   - använd data som hämtas via EmployeesData prop, t.ex EmployeesData.name, EmployeesData.avatar .. osv.
+7. Skapa en ny komponent med namnet "EmployeeList".
+   - importera useState funktionen från react.
+8. Deklarera ett nytt state med hjälp av useSate med data namnet "employess" och funktionen "setEmployess".
+
+   - Detta statet ska vara en array och ska börja med 3 default personer t.ex:
+   - ```JavaScript
+      {
+      name: "",
+      email: "",
+      phone: "",
+      skills: "",
+      avatar: "",
+      }
+     ```
+
+9. Loopa igenom array:n med hjälp av .map funktionen och visa Emlpoyee komponenten för varje person.
+10. Lägg till en ny knapp på EmployeeList komponenten och en onClick funktion med namnet "handleAddEmployee".
+11. Deklarera handleAddEmployee funktionen och där ska "setEmployess" blir kallad och en ny person läggs till (hårda koda objektet).
+
 #### Checkpoints
 
 1. Appen ska ha två komponenter:
@@ -54,7 +83,7 @@
   - https://reactjs.org/docs/hooks-overview.html#state-hook
   - https://reactjs.org/docs/components-and-props.html#function-and-class-components
   - https://www.digitalocean.com/community/tutorials/4-uses-of-javascripts-arraymap-you-should-know
- 
+
 ## Challenges (betygsätts inte)
 
 #### Den här är inte av laborationen och betygsätts inte.
