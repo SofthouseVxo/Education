@@ -112,13 +112,4 @@ Gruppinlämning ger IG/G. Dock kommer kodprojektet tas i aktning när jag gransk
 1. Klasser har kommenterats (förklaring på vad de gör och innehåller).
 1. Funktioner kommenteras, METODER skall endast kommenteras om det är nödvändigt för att förstå dem.
 
-## Challenges (betygsätts inte)
 
-#### Den här är inte av laborationen och betygsätts inte.
-
-För dig som gillar utmaningar och vill lära dig mer om att React, testa implementera följande funktioner:
-
-1. Spara data med hjälp localstorage. (Medium)
-2. Lägg till form där man fyller i nya personens information. (High)
-3. Lägg till en ta bort funktion. (High)
-4. Lägg till en update funktion, där man uppdaterar en person som finns redan. (Insane)
