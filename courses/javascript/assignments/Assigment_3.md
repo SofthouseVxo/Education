@@ -54,3 +54,14 @@
   - https://reactjs.org/docs/hooks-overview.html#state-hook
   - https://reactjs.org/docs/components-and-props.html#function-and-class-components
   - https://www.digitalocean.com/community/tutorials/4-uses-of-javascripts-arraymap-you-should-know
+ 
+## Challenges (betygsätts inte)
+
+#### Den här är inte av laborationen och betygsätts inte.
+
+För dig som gillar utmaningar och vill lära dig mer om att React, testa implementera följande funktioner:
+
+1. Spara data med hjälp localstorage. (Medium)
+2. Lägg till form där man fyller i nya personens information. (High)
+3. Lägg till en ta bort funktion. (High)
+4. Lägg till en update funktion, där man uppdaterar en person som finns redan. (Insane)
